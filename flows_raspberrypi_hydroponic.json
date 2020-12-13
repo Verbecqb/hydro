@@ -1,1 +1,2232 @@
-[{"id":"1d22c714.e50369","type":"tab","label":"GET Telemetry","disabled":false,"info":""},{"id":"87cb301d.9893c","type":"tab","label":"POST ","disabled":false,"info":""},{"id":"5127740.f28848c","type":"tab","label":"System rules","disabled":false,"info":""},{"id":"3b0df974.6ef076","type":"tab","label":"Settings","disabled":false,"info":""},{"id":"e8854cf5.bbc99","type":"ui_spacer","name":"spacer","group":"","order":5,"width":2,"height":1},{"id":"8abb8d14.1da7c","type":"ui_spacer","name":"spacer","group":"","order":7,"width":1,"height":1},{"id":"c9f3a157.d0af7","type":"ui_spacer","name":"spacer","group":"","order":9,"width":2,"height":1},{"id":"e5be2d4e.0683","type":"ui_spacer","name":"spacer","group":"","order":3,"width":7,"height":1},{"id":"c9066fca.cee52","type":"ui_spacer","name":"spacer","group":"","order":4,"width":7,"height":1},{"id":"2ee23605.85e39a","type":"ui_spacer","name":"spacer","group":"","order":5,"width":7,"height":1},{"id":"cf3c4bd4.b57d78","type":"ui_spacer","name":"spacer","group":"","order":8,"width":7,"height":1},{"id":"d3290ae7.21fe98","type":"ui_spacer","name":"spacer","group":"","order":6,"width":6,"height":1},{"id":"2de4a264.b5f62e","type":"ui_spacer","name":"spacer","group":"","order":7,"width":6,"height":1},{"id":"60a0073d.7b0198","type":"ui_spacer","name":"spacer","group":"","order":8,"width":6,"height":1},{"id":"a0e631b8.d383b","type":"mqtt-broker","name":"Mosquitto","broker":"localhost","port":"1883","clientid":"","usetls":false,"compatmode":false,"keepalive":"60","cleansession":true,"birthTopic":"","birthQos":"0","birthPayload":"","closeTopic":"","closeQos":"0","closePayload":"","willTopic":"","willQos":"0","willPayload":""},{"id":"8193652c.e6bda8","type":"influxdb","hostname":"127.0.0.1","port":"8086","protocol":"http","database":"hydro","name":"","usetls":false,"tls":"","influxdbVersion":"1.x","url":"http://localhost:8086","rejectUnauthorized":true},{"id":"6dc911ee.ea694","type":"ui_spacer","name":"spacer","group":"","order":5,"width":2,"height":1},{"id":"27ff61b6.64ceee","type":"ui_spacer","name":"spacer","group":"","order":7,"width":1,"height":1},{"id":"d68d5539.9f7388","type":"ui_spacer","name":"spacer","group":"","order":9,"width":2,"height":1},{"id":"25301e7.4048be2","type":"ui_spacer","name":"spacer","group":"","order":3,"width":7,"height":1},{"id":"4e20bf36.aee24","type":"ui_spacer","name":"spacer","group":"","order":4,"width":7,"height":1},{"id":"cd177d02.fcb47","type":"ui_spacer","name":"spacer","group":"","order":5,"width":7,"height":1},{"id":"55e06fae.59f7f","type":"ui_spacer","name":"spacer","group":"","order":8,"width":7,"height":1},{"id":"d04eaa91.a399f8","type":"ui_spacer","name":"spacer","group":"","order":6,"width":6,"height":1},{"id":"39ffd0d.5f55a3","type":"ui_spacer","name":"spacer","group":"","order":7,"width":6,"height":1},{"id":"d50ed20d.eaca2","type":"ui_spacer","name":"spacer","group":"","order":8,"width":6,"height":1},{"id":"d7b17763.6bfd98","type":"ui_base","theme":{"name":"theme-dark","lightTheme":{"default":"#0094CE","baseColor":"#0094CE","baseFont":"-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif","edited":true,"reset":false},"darkTheme":{"default":"#097479","baseColor":"#097479","baseFont":"-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif","edited":true,"reset":false},"customTheme":{"name":"Untitled Theme 1","default":"#4B7930","baseColor":"#4B7930","baseFont":"-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"},"themeState":{"base-color":{"default":"#097479","value":"#097479","edited":false},"page-titlebar-backgroundColor":{"value":"#097479","edited":false},"page-backgroundColor":{"value":"#111111","edited":false},"page-sidebar-backgroundColor":{"value":"#333333","edited":false},"group-textColor":{"value":"#0eb8c0","edited":false},"group-borderColor":{"value":"#555555","edited":false},"group-backgroundColor":{"value":"#333333","edited":false},"widget-textColor":{"value":"#eeeeee","edited":false},"widget-backgroundColor":{"value":"#097479","edited":false},"widget-borderColor":{"value":"#333333","edited":false},"base-font":{"value":"-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"}},"angularTheme":{"primary":"indigo","accents":"blue","warn":"red","background":"grey","palette":"dark"}},"site":{"name":"Node-RED Dashboard","hideToolbar":"false","allowSwipe":"true","lockMenu":"false","allowTempTheme":"none","dateFormat":"DD/MM/YYYY","sizes":{"sx":48,"sy":48,"gx":12,"gy":12,"cx":0,"cy":0,"px":0,"py":0}}},{"id":"f8e5458c.a3e458","type":"ui_spacer","name":"spacer","group":"","order":5,"width":2,"height":1},{"id":"2e5354b4.fa9efc","type":"ui_spacer","name":"spacer","group":"","order":8,"width":3,"height":1},{"id":"55451708.9195b8","type":"ui_spacer","name":"spacer","group":"","order":4,"width":2,"height":1},{"id":"8a9743e3.77e45","type":"ui_spacer","name":"spacer","group":"","order":6,"width":2,"height":1},{"id":"cd7c0825.8eea08","type":"ui_spacer","name":"spacer","group":"","order":7,"width":7,"height":1},{"id":"b116a7ee.4a8928","type":"ui_spacer","name":"spacer","group":"","order":6,"width":6,"height":1},{"id":"ac904da2.49289","type":"ui_spacer","name":"spacer","group":"","order":7,"width":6,"height":1},{"id":"d031979b.9eb4d8","type":"ui_spacer","name":"spacer","group":"","order":9,"width":6,"height":1},{"id":"f0e58282.f2736","type":"ui_group","name":"Control - Seed Tray","tab":"352c089f.6b44d8","order":4,"disp":true,"width":"14","collapse":false,"info":"# Seed tray LEDs"},{"id":"352c089f.6b44d8","type":"ui_tab","name":"Hydroponic","icon":"dashboard","disabled":false,"hidden":false},{"id":"8a9b009f.1b35d","type":"ui_group","name":"Room environment","tab":"352c089f.6b44d8","order":2,"disp":true,"width":17,"collapse":false},{"id":"65d119b5.66cb78","type":"ui_group","name":"Seed Tray","tab":"352c089f.6b44d8","order":3,"disp":true,"width":10,"collapse":false},{"id":"1c37dc0b.ce28e4","type":"ui_group","name":"Weather forecast","tab":"352c089f.6b44d8","order":1,"disp":true,"width":17,"collapse":false},{"id":"2d617978.71ca86","type":"ui_gauge","z":"1d22c714.e50369","name":"","group":"8a9b009f.1b35d","order":2,"width":5,"height":3,"gtype":"gage","title":"Humidity","label":"","format":"{{value}} %","min":0,"max":"100","colors":["#b32d00","#e6e600","#3acb57"],"seg1":"25","seg2":"30","x":780,"y":860,"wires":[]},{"id":"e30bc267.9a60e","type":"mqtt in","z":"1d22c714.e50369","name":"","topic":"hydro/t/seed_tray","qos":"0","datatype":"auto","broker":"a0e631b8.d383b","x":120,"y":240,"wires":[["67398353.3f850c"]]},{"id":"67398353.3f850c","type":"json","z":"1d22c714.e50369","name":"","property":"payload","action":"","pretty":false,"x":310,"y":240,"wires":[["4fa1702.8b2e49","5525a452.d944dc"]]},{"id":"4fa1702.8b2e49","type":"function","z":"1d22c714.e50369","name":"Parse telemetry JSON","func":"\n\nvar waterQualityMsg = { \n    payload: msg.payload.s.water.ppm\n};\n\nvar waterTempMsg = { \n    payload: msg.payload.s.water.temp\n};\n\nvar luminosityMsg = { \n    payload: msg.payload.s.lux\n};\n\n\nreturn [\n    waterQualityMsg, \n    luminosityMsg, \n    waterTempMsg\n    ];","outputs":3,"noerr":0,"initialize":"","finalize":"","x":440,"y":340,"wires":[["6a5ac7a1.e350c8","39bf6628.85f8ba","af05ff6e.ae85d"],["a26738f1.82d358","b7f7abe3.8afe58","d4f4e64.f4cb118"],["613ad10.d3ab93","f9ece608.ba06e8","60f91bf2.98dd04"]]},{"id":"cd880df.29724f","type":"inject","z":"1d22c714.e50369","d":true,"name":"DEBUG - Sample telemetry JSON","props":[{"p":"payload"},{"p":"topic","vt":"str"}],"repeat":"","crontab":"","once":false,"onceDelay":0.1,"topic":"","payload":"{\"seed_tray\":{\"water_quality\":151.9146},\"room\":{\"temperature\":21.1,\"humidity\":46}}","payloadType":"json","x":200,"y":180,"wires":[["67398353.3f850c"]]},{"id":"f4adc1f9.29f6a","type":"ui_gauge","z":"1d22c714.e50369","name":"","group":"8a9b009f.1b35d","order":1,"width":5,"height":3,"gtype":"gage","title":"Temperature DHT11","label":"","format":"{{value}} °C","min":0,"max":"50","colors":["#b30036","#27a072","#b30036"],"seg1":"18","seg2":"27","x":820,"y":720,"wires":[]},{"id":"c89e7a62.0df008","type":"ui_gauge","z":"1d22c714.e50369","name":"","group":"65d119b5.66cb78","order":1,"width":5,"height":3,"gtype":"gage","title":"Water Quality","label":"","format":"{{value}} PPM","min":0,"max":"2000","colors":["#b30050","#c1c13e","#ca3838"],"seg1":"450","seg2":"900","x":1000,"y":80,"wires":[]},{"id":"6a5ac7a1.e350c8","type":"influxdb out","z":"1d22c714.e50369","influxdb":"8193652c.e6bda8","name":"","measurement":"water_quality","precision":"","retentionPolicy":"","database":"database","precisionV18FluxV20":"ms","retentionPolicyV18Flux":"","org":"organisation","bucket":"bucket","x":880,"y":180,"wires":[]},{"id":"df864faf.11005","type":"ui_switch","z":"87cb301d.9893c","name":"","label":"Grow lights","tooltip":"Led","group":"f0e58282.f2736","order":2,"width":4,"height":1,"passthru":true,"decouple":"false","topic":"hydroponic/lamp","style":"","onvalue":"true","onvalueType":"bool","onicon":"","oncolor":"","offvalue":"false","offvalueType":"bool","officon":"","offcolor":"","x":170,"y":40,"wires":[["acca3832.810b88"]],"info":"# Seeds tray light"},{"id":"acca3832.810b88","type":"mqtt out","z":"87cb301d.9893c","name":"Lamp","topic":"hydro/lamp/switch","qos":"0","retain":"","broker":"a0e631b8.d383b","x":350,"y":40,"wires":[]},{"id":"1b07e4d1.7c4d9b","type":"influxdb in","z":"5127740.f28848c","influxdb":"8193652c.e6bda8","name":"","query":"SELECT MEAN(temperature) FROM temperature","rawOutput":false,"precision":"","retentionPolicy":"","org":"organisation","x":350,"y":120,"wires":[["3e247b14.95d3a4"]]},{"id":"3e247b14.95d3a4","type":"switch","z":"5127740.f28848c","name":"","property":"payload[0].mean","propertyType":"msg","rules":[{"t":"gt","v":"500","vt":"str"},{"t":"true"}],"checkall":"true","repair":false,"outputs":2,"x":720,"y":100,"wires":[["8fd06c84.9d955"],[]]},{"id":"f3e2c3ad.8ebb2","type":"ui_toast","z":"5127740.f28848c","position":"top right","displayTime":"3","highlight":"","sendall":true,"outputs":0,"ok":"OK","cancel":"","raw":false,"topic":"Temperature","name":"Alert ","x":890,"y":100,"wires":[]},{"id":"8fd06c84.9d955","type":"function","z":"5127740.f28848c","name":"Simulate an input","func":"msg.payload = \"Temperature too high\"\nreturn msg;","outputs":1,"noerr":0,"initialize":"","finalize":"","x":790,"y":40,"wires":[["f3e2c3ad.8ebb2"]]},{"id":"5525a452.d944dc","type":"debug","z":"1d22c714.e50369","name":"","active":false,"tosidebar":true,"console":false,"tostatus":false,"complete":"false","statusVal":"","statusType":"auto","x":480,"y":240,"wires":[]},{"id":"a26738f1.82d358","type":"ui_chart","z":"1d22c714.e50369","name":"","group":"f0e58282.f2736","order":1,"width":8,"height":4,"label":"Luminosity","chartType":"line","legend":"false","xformat":"HH:mm","interpolate":"bezier","nodata":"","dot":false,"ymin":"","ymax":"","removeOlder":"24","removeOlderPoints":"","removeOlderUnit":"3600","cutout":0,"useOneColor":false,"useUTC":false,"colors":["#1f77b4","#aec7e8","#ff7f0e","#2ca02c","#98df8a","#d62728","#ff9896","#9467bd","#c5b0d5"],"outputs":1,"x":790,"y":300,"wires":[[]]},{"id":"b5c12285.51ca3","type":"influxdb out","z":"1d22c714.e50369","influxdb":"8193652c.e6bda8","name":"","measurement":"room_temperature","precision":"","retentionPolicy":"","database":"database","precisionV18FluxV20":"ms","retentionPolicyV18Flux":"","org":"organisation","bucket":"bucket","x":900,"y":760,"wires":[]},{"id":"c2314fab.6c8af","type":"influxdb in","z":"1d22c714.e50369","influxdb":"8193652c.e6bda8","name":"Select last entry","query":"SELECT * FROM room_temperature GROUP BY * ORDER BY DESC LIMIT 1","rawOutput":false,"precision":"","retentionPolicy":"","org":"organisation","x":940,"y":800,"wires":[["5914ecc9.808654"]]},{"id":"e88e5d3f.13895","type":"delay","z":"1d22c714.e50369","name":"","pauseType":"delay","timeout":"2","timeoutUnits":"seconds","rate":"1","nbRateUnits":"1","rateUnits":"second","randomFirst":"1","randomLast":"5","randomUnits":"seconds","drop":false,"x":780,"y":800,"wires":[["c2314fab.6c8af"]]},{"id":"f3b265b2.271218","type":"influxdb out","z":"1d22c714.e50369","influxdb":"8193652c.e6bda8","name":"","measurement":"room_humidity","precision":"","retentionPolicy":"","database":"database","precisionV18FluxV20":"ms","retentionPolicyV18Flux":"","org":"organisation","bucket":"bucket","x":890,"y":900,"wires":[]},{"id":"d8035b86.a6d9f8","type":"influxdb in","z":"1d22c714.e50369","influxdb":"8193652c.e6bda8","name":"Select last entry","query":"SELECT * FROM room_humidity GROUP BY * ORDER BY DESC LIMIT 1","rawOutput":false,"precision":"","retentionPolicy":"","org":"organisation","x":940,"y":940,"wires":[["58c9bab9.be3fc4"]]},{"id":"55893afd.1a9904","type":"delay","z":"1d22c714.e50369","name":"","pauseType":"delay","timeout":"2","timeoutUnits":"seconds","rate":"1","nbRateUnits":"1","rateUnits":"second","randomFirst":"1","randomLast":"5","randomUnits":"seconds","drop":false,"x":780,"y":940,"wires":[["d8035b86.a6d9f8"]]},{"id":"7fe995e5.477afc","type":"influxdb in","z":"1d22c714.e50369","influxdb":"8193652c.e6bda8","name":"Select last entry","query":"SELECT * FROM water_quality GROUP BY * ORDER BY DESC LIMIT 1","rawOutput":false,"precision":"","retentionPolicy":"","org":"organisation","x":940,"y":220,"wires":[["eb66256c.111fa8"]]},{"id":"39bf6628.85f8ba","type":"delay","z":"1d22c714.e50369","name":"","pauseType":"delay","timeout":"2","timeoutUnits":"seconds","rate":"1","nbRateUnits":"1","rateUnits":"second","randomFirst":"1","randomLast":"5","randomUnits":"seconds","drop":false,"x":780,"y":220,"wires":[["7fe995e5.477afc","f8fee95.2171618"]]},{"id":"b7f7abe3.8afe58","type":"influxdb out","z":"1d22c714.e50369","influxdb":"8193652c.e6bda8","name":"","measurement":"luminosity","precision":"","retentionPolicy":"","database":"database","precisionV18FluxV20":"ms","retentionPolicyV18Flux":"","org":"organisation","bucket":"bucket","x":870,"y":340,"wires":[]},{"id":"74af2bf6.5a9344","type":"ui_template","z":"1d22c714.e50369","group":"f0e58282.f2736","name":"Last refresh luminosity","order":9,"width":8,"height":1,"format":"\n<div ng-style=\"style\"> Last refresh {{ latestUpdate | date: 'medium'}} </div>\n\n\n<script>\n(function(scope) {\n \n  scope.$watch('msg', function(msg) {\n    if (msg) {\n      scope.latestUpdate = new Date(msg.payload[0].time);\n    }\n  });\n})(scope);\n</script>","storeOutMessages":true,"fwdInMessages":true,"resendOnRefresh":true,"templateScope":"local","x":1180,"y":380,"wires":[[]]},{"id":"4be17712.274be8","type":"influxdb in","z":"1d22c714.e50369","influxdb":"8193652c.e6bda8","name":"Select past 24 hours","query":"SELECT * FROM luminosity GROUP BY * ORDER BY DESC LIMIT 1","rawOutput":false,"precision":"","retentionPolicy":"","org":"organisation","x":960,"y":380,"wires":[["74af2bf6.5a9344"]]},{"id":"d4f4e64.f4cb118","type":"delay","z":"1d22c714.e50369","name":"","pauseType":"delay","timeout":"2","timeoutUnits":"seconds","rate":"1","nbRateUnits":"1","rateUnits":"second","randomFirst":"1","randomLast":"5","randomUnits":"seconds","drop":false,"x":780,"y":380,"wires":[["4be17712.274be8"]]},{"id":"54666026.3c8da","type":"ui_led","z":"1d22c714.e50369","group":"f0e58282.f2736","order":3,"width":2,"height":1,"label":"","labelPlacement":"right","labelAlignment":"right","colorForValue":[{"color":"red","value":"false","valueType":"str"},{"color":"green","value":"true","valueType":"str"}],"allowColorForValueInMessage":false,"name":"Grow lights","x":370,"y":520,"wires":[]},{"id":"a2db89f8.423ad8","type":"mqtt in","z":"1d22c714.e50369","name":"","topic":"hydro/lamp/s","qos":"0","datatype":"auto","broker":"a0e631b8.d383b","x":130,"y":520,"wires":[["54666026.3c8da"]]},{"id":"613ad10.d3ab93","type":"ui_gauge","z":"1d22c714.e50369","name":"","group":"65d119b5.66cb78","order":2,"width":5,"height":3,"gtype":"gage","title":"Water Temperature","label":"","format":"{{value}} °C","min":0,"max":"35","colors":["#ca3838","#3ec143","#ca3838"],"seg1":"15","seg2":"28","x":810,"y":460,"wires":[]},{"id":"62bc488f.b3dd18","type":"mqtt in","z":"1d22c714.e50369","name":"","topic":"hydro/t/room","qos":"0","datatype":"auto","broker":"a0e631b8.d383b","x":130,"y":800,"wires":[["7023be29.a8b"]]},{"id":"7023be29.a8b","type":"json","z":"1d22c714.e50369","name":"","property":"payload","action":"","pretty":false,"x":330,"y":800,"wires":[["1e6d501a.c6f28"]]},{"id":"1e6d501a.c6f28","type":"function","z":"1d22c714.e50369","name":"Parse telemetry JSON","func":"\nvar roomTemperatureMsg =  { \n        payload: msg.payload.r.t \n};\n    \nvar roomHumidityMsg = { \n    payload: msg.payload.r.h\n}; \n\nreturn [\n    roomTemperatureMsg, \n    roomHumidityMsg\n];","outputs":2,"noerr":0,"initialize":"","finalize":"","x":540,"y":800,"wires":[["f4adc1f9.29f6a","b5c12285.51ca3","e88e5d3f.13895"],["2d617978.71ca86","f3b265b2.271218","55893afd.1a9904"]]},{"id":"f9ece608.ba06e8","type":"influxdb out","z":"1d22c714.e50369","influxdb":"8193652c.e6bda8","name":"","measurement":"water_temperature","precision":"","retentionPolicy":"","database":"database","precisionV18FluxV20":"ms","retentionPolicyV18Flux":"","org":"organisation","bucket":"bucket","x":900,"y":500,"wires":[]},{"id":"61e95af8.591824","type":"influxdb in","z":"1d22c714.e50369","influxdb":"8193652c.e6bda8","name":"Select last entry","query":"SELECT * FROM water_temperature GROUP BY * ORDER BY DESC LIMIT 1","rawOutput":false,"precision":"","retentionPolicy":"","org":"organisation","x":940,"y":540,"wires":[["3e5edd24.dccb82"]]},{"id":"60f91bf2.98dd04","type":"delay","z":"1d22c714.e50369","name":"","pauseType":"delay","timeout":"2","timeoutUnits":"seconds","rate":"1","nbRateUnits":"1","rateUnits":"second","randomFirst":"1","randomLast":"5","randomUnits":"seconds","drop":false,"x":780,"y":540,"wires":[["61e95af8.591824","a34db445.a149b8"]]},{"id":"548aacab.e14fc4","type":"function","z":"3b0df974.6ef076","name":"Set variables - UI","func":"global.set('dateFormat', 'DD-MM-YYYY');\n\nreturn msg;","outputs":1,"noerr":0,"initialize":"","finalize":"","x":270,"y":60,"wires":[["f0fca064.57a0e"]]},{"id":"96522344.acca4","type":"inject","z":"3b0df974.6ef076","name":"","props":[{"p":"payload"},{"p":"topic","vt":"str"}],"repeat":"","crontab":"","once":true,"onceDelay":0.1,"topic":"","payload":"","payloadType":"date","x":100,"y":60,"wires":[["548aacab.e14fc4"]]},{"id":"f0fca064.57a0e","type":"debug","z":"3b0df974.6ef076","name":"","active":false,"tosidebar":true,"console":false,"tostatus":false,"complete":"false","statusVal":"","statusType":"auto","x":460,"y":80,"wires":[]},{"id":"509eb66d.0f6d88","type":"ui_button","z":"1d22c714.e50369","name":"IconRefresh","group":"1c37dc0b.ce28e4","order":1,"width":4,"height":2,"passthru":false,"label":"","tooltip":"Refresh","color":"","bgcolor":"","icon":"fa-refresh fa-4x","payload":"true","payloadType":"bool","topic":"","x":990,"y":1320,"wires":[["45293d1e.aedc04"]]},{"id":"75f934f.744b2cc","type":"ui_text","z":"1d22c714.e50369","group":"1c37dc0b.ce28e4","order":6,"width":6,"height":1,"name":"Description","label":"","format":"{{msg.payload.current.weather[0].description}}","layout":"row-left","x":990,"y":1120,"wires":[]},{"id":"c9cadf3c.4dd91","type":"ui_text","z":"1d22c714.e50369","group":"1c37dc0b.ce28e4","order":3,"width":4,"height":1,"name":"Wind","label":"","format":"{{msg.payload.current.wind_speed}}&nbsp;&nbsp;<i class=\"wi wi-darksky-wind\"></i>&nbsp;&nbsp;{{msg.payload.current.wind_cardinal}}","layout":"col-center","x":970,"y":1200,"wires":[]},{"id":"a77336d4.24c878","type":"ui_text","z":"1d22c714.e50369","group":"1c37dc0b.ce28e4","order":4,"width":4,"height":1,"name":"SunriseTime","label":"","format":"<i class=\"wi wi-owm-01d\"></i>&nbsp;<i class=\"fa fa-arrow-up\"></i>&nbsp;&nbsp;{{msg.payload.current.sunrise}}","layout":"row-left","x":990,"y":1240,"wires":[]},{"id":"ffd2dd.8b18ad2","type":"ui_text","z":"1d22c714.e50369","group":"1c37dc0b.ce28e4","order":8,"width":4,"height":1,"name":"SunsetTime","label":"","format":"<i class=\"wi wi-wu-sunny\"></i>&nbsp;<i class=\"fa fa-arrow-down\"></i>&nbsp;&nbsp;{{msg.payload.current.sunset}}","layout":"row-left","x":990,"y":1280,"wires":[]},{"id":"85c1ae45.14716","type":"comment","z":"1d22c714.e50369","name":"OpenWeatherMap One Call API for Weather and Forecast","info":"","x":270,"y":1100,"wires":[]},{"id":"588c57bc.0c46d8","type":"function","z":"1d22c714.e50369","name":"Format forecast data","func":"var fcdata = {};\nvar units=flow.get('units');\nif (units===undefined)\n{\n  units=\"imperial\";\n}\n\nfunction formatTemp(high, low){\n    if (units == \"imperial\") {\n        if (low){\n          temp = parseFloat(high).toFixed() + '/' + parseFloat(low).toFixed()\n        }\n        else {\n          temp = parseFloat(high).toFixed() + '°F'\n        }\n    }\n    else { // metric\n//        temp = parseFloat(temp).toFixed(1) + '°C'\n        if (low){\n          temp = parseFloat(high).toFixed() + '/' + parseFloat(low).toFixed()\n        }\n        else {\n          temp = parseFloat(high).toFixed() + '°C'\n        }\n    }\n    return temp;\n}\nfunction dayName(unixTime){\n    var d = new Date(unixTime * 1000);\n    var weekday = new Array(7);\n        weekday[0] = \"Sun\";\n        weekday[1] = \"Mon\";\n        weekday[2] = \"Tue\";\n        weekday[3] = \"Wed\";\n        weekday[4] = \"Thu\";\n        weekday[5] = \"Fri\";\n        weekday[6] = \"Sat\";\n\n    return weekday[d.getDay()]\n}\nfunction timeConvert(UNIX_timestamp){\n  var a = new Date(UNIX_timestamp * 1000);\n  var hour = a.getHours();\n  var suffix = \" am\";\n  if (hour >= 12) {\n    hour = hour - 12;\n    suffix = \" pm\";\n  }\n  if (hour === 0) {\n    hour = 12;\n  }\n  var min = a.getMinutes();\n  if (min < 10) {min = \"0\" + min;}\n//  return hour + ':' + min + suffix;\n  return hour + suffix;\n}\n// prepare forecast data for CSS based ui widget\n\nfcdata.payload = {\n  rowtext: {\n  \tdata01: {\n      cell01: timeConvert(msg.payload.hourly[1].dt),\n      cell02: timeConvert(msg.payload.hourly[2].dt),\n      cell03: timeConvert(msg.payload.hourly[3].dt),\n      cell04: timeConvert(msg.payload.hourly[4].dt),\n      cell05: timeConvert(msg.payload.hourly[5].dt),\n      cell06: timeConvert(msg.payload.hourly[6].dt),\n      cell07: dayName(msg.payload.daily[1].dt),\n      cell08: dayName(msg.payload.daily[2].dt),\n      cell09: dayName(msg.payload.daily[3].dt),\n      cell10: dayName(msg.payload.daily[4].dt),\n  \t},\n  \tdata02: {\n       cell01: formatTemp(msg.payload.hourly[1].temp),\n       cell02: formatTemp(msg.payload.hourly[2].temp),\n       cell03: formatTemp(msg.payload.hourly[3].temp),\n       cell04: formatTemp(msg.payload.hourly[4].temp),\n       cell05: formatTemp(msg.payload.hourly[5].temp),\n       cell06: formatTemp(msg.payload.hourly[6].temp),\n       cell07: formatTemp(msg.payload.daily[1].temp.max, msg.payload.daily[0].temp.min),\n       cell08: formatTemp(msg.payload.daily[2].temp.max, msg.payload.daily[1].temp.min),\n       cell09: formatTemp(msg.payload.daily[3].temp.max, msg.payload.daily[2].temp.min),\n       cell10: formatTemp(msg.payload.daily[4].temp.max, msg.payload.daily[3].temp.min),\n  \t}\n  },\n  rowicons: {\n  \tdata01: {\n  \t\tcell01: msg.payload.hourly[1].weather[0].icon,\n  \t\tcell02: msg.payload.hourly[2].weather[0].icon,\n  \t\tcell03: msg.payload.hourly[3].weather[0].icon,\n  \t\tcell04: msg.payload.hourly[4].weather[0].icon,\n  \t\tcell05: msg.payload.hourly[5].weather[0].icon,\n  \t\tcell06: msg.payload.hourly[6].weather[0].icon,\n  \t\tcell07: msg.payload.daily[1].weather[0].icon,\n  \t\tcell08: msg.payload.daily[2].weather[0].icon,\n  \t\tcell09: msg.payload.daily[3].weather[0].icon,\n  \t\tcell10: msg.payload.daily[4].weather[0].icon,\n  \t}\n  }\n}\n\nreturn fcdata;","outputs":1,"noerr":0,"initialize":"","finalize":"","x":760,"y":1380,"wires":[[]]},{"id":"ebeb7e6d.61e6c","type":"ui_text","z":"1d22c714.e50369","group":"1c37dc0b.ce28e4","order":2,"width":3,"height":1,"name":"Temperature","label":"","format":"<p style=\"font-size: 200%\">{{msg.payload.current.temp}}</p>","layout":"row-left","x":990,"y":1160,"wires":[]},{"id":"c8db48f7.af9608","type":"http request","z":"1d22c714.e50369","name":"Get OWM data","method":"GET","ret":"obj","paytoqs":"query","url":"https://api.openweathermap.org/data/2.5/onecall","tls":"","persist":false,"proxy":"","authType":"","x":480,"y":1220,"wires":[["fe79ff8b.aa786","588c57bc.0c46d8"]]},{"id":"f376d3a0.9a725","type":"inject","z":"1d22c714.e50369","name":"Trigger","repeat":"600","crontab":"","once":true,"onceDelay":0.1,"topic":"","payload":"true","payloadType":"bool","x":120,"y":1160,"wires":[["a887c10.0424b4"]]},{"id":"fe79ff8b.aa786","type":"function","z":"1d22c714.e50369","name":"Format current data","func":"var icon = {};\n\nvar units=flow.get('units');\nif (units===undefined)\n{\n  units=\"imperial\";\n}\n\nfunction timeConvert(UNIX_timestamp){\n  var a = new Date(UNIX_timestamp * 1000);\n  var hour = a.getHours();\n  var suffix = \" am\";\n  if (hour >= 12) {\n    hour = hour - 12;\n    suffix = \" pm\";\n  }\n  if (hour === 0) {\n    hour = 12;\n  }\n  var min = a.getMinutes();\n  if (min < 10) {min = \"0\" + min;}\n  return hour + ':' + min + suffix;\n}\n\nvar degreesToCardinal = function(deg){\nif (deg>11.25 && deg<=33.75){\nreturn \"NNE\";\n  }else if (deg>33.75 && deg<56.25){\nreturn \"NE\";\n  }else if (deg>56.25 && deg<78.75){\nreturn \"ENE\";\n  }else if (deg>78.75 && deg<101.25){\nreturn \"E\";\n  }else if (deg>101.25 && deg<123.75){\nreturn \"ESE\";\n  }else if (deg>123.75 && deg<146.25){\nreturn \"SE\";\n  }else if (deg>146.25 && deg<168.75){\nreturn \"SSE\";\n  }else if (deg>168.75 && deg<191.25){\nreturn \"S\";\n  }else if (deg>191.25 && deg<213.75){\nreturn \"SSW\";\n  }else if (deg>213.75 && deg<236.25){\nreturn \"SW\";\n  }else if (deg>236.25 && deg<258.75){\nreturn \"WSW\";\n  }else if (deg>258.75 && deg<281.25){\nreturn \"W\";\n  }else if (deg>281.25 && deg<303.75){\nreturn \"WNW\";\n  }else if (deg>303.75 && deg<326.25){\nreturn \"NW\";\n  }else if (deg>326.25 && deg<348.75){\nreturn \"NNW\";\n  }else{\nreturn \"N\"; \n  }\n}\n\nif (units == \"imperial\")\n{\n  msg.payload.current.temp = msg.payload.current.temp.toFixed() + ' °F';\n  msg.payload.current.wind_speed = msg.payload.current.wind_speed.toFixed() + ' mph';\n}\nelse // metric units\n{\n  msg.payload.current.temp = msg.payload.current.temp.toFixed(1) + ' °C';\n  msg.payload.current.wind_speed = msg.payload.current.wind_speed.toFixed(1) + ' m/s';\n}\n\nmsg.payload.current.wind_cardinal = degreesToCardinal(msg.payload.current.wind_deg);\nmsg.payload.current.sunrise = timeConvert(msg.payload.current.sunrise);\nmsg.payload.current.sunset = timeConvert(msg.payload.current.sunset);\n\nvar iconString = 'wi-owm-' + msg.payload.current.weather[0].icon + ' wi-4x';\nicon = {\n    ui_control: {\n        icon: iconString\n    }\n}; \n\nreturn [msg, icon];","outputs":2,"noerr":0,"initialize":"","finalize":"","x":720,"y":1220,"wires":[["ebeb7e6d.61e6c","c9cadf3c.4dd91","75f934f.744b2cc","a77336d4.24c878","ffd2dd.8b18ad2"],["509eb66d.0f6d88"]]},{"id":"a887c10.0424b4","type":"change","z":"1d22c714.e50369","name":"Set location, appid, units","rules":[{"t":"delete","p":"payload","pt":"msg"},{"t":"set","p":"payload.lat","pt":"msg","to":"35.64","tot":"str"},{"t":"set","p":"payload.lon","pt":"msg","to":"139.75","tot":"str"},{"t":"set","p":"payload.appid","pt":"msg","to":"15d881fdb1d9153fb4f7a70b1213113b","tot":"str"},{"t":"set","p":"payload.units","pt":"msg","to":"metric","tot":"str"},{"t":"set","p":"units","pt":"flow","to":"payload.units","tot":"msg"}],"action":"","property":"","from":"","to":"","reg":false,"x":350,"y":1160,"wires":[["c8db48f7.af9608"]]},{"id":"c15b266b.9463f8","type":"ui_ui_control","z":"1d22c714.e50369","name":"Update tab","events":"all","x":110,"y":1260,"wires":[["61f3b938.d32948"]]},{"id":"45293d1e.aedc04","type":"link out","z":"1d22c714.e50369","name":"Refresh","links":["b8c07479.ab99c8"],"x":1115,"y":1320,"wires":[]},{"id":"b8c07479.ab99c8","type":"link in","z":"1d22c714.e50369","name":"","links":["45293d1e.aedc04"],"x":155,"y":1200,"wires":[["a887c10.0424b4"]]},{"id":"61f3b938.d32948","type":"switch","z":"1d22c714.e50369","name":"tab focus","property":"tab","propertyType":"msg","rules":[{"t":"eq","v":"1","vt":"num"}],"checkall":"true","repair":false,"outputs":1,"x":280,"y":1260,"wires":[["a887c10.0424b4"]]},{"id":"65b18579.9e97ec","type":"ui_text","z":"1d22c714.e50369","group":"8a9b009f.1b35d","order":7,"width":5,"height":1,"name":"Last refresh - humidity","label":"","format":"<i class=\"fa fa-refresh\" aria-hidden=\"true\">&nbsp; {{ msg.payload | date: 'MMM d, y - HH:mm:ss'}}</i> ","layout":"row-center","x":1360,"y":940,"wires":[]},{"id":"58c9bab9.be3fc4","type":"function","z":"1d22c714.e50369","name":"Parse telemetry JSON","func":"\nvar newMsg =  { \n        payload: new Date(msg.payload[0].time)\n};\nreturn newMsg;","outputs":1,"noerr":0,"initialize":"","finalize":"","x":1140,"y":940,"wires":[["65b18579.9e97ec"]]},{"id":"5914ecc9.808654","type":"function","z":"1d22c714.e50369","name":"Parse telemetry JSON","func":"\nvar newMsg =  { \n        payload: new Date(msg.payload[0].time)\n};\nreturn newMsg;","outputs":1,"noerr":0,"initialize":"","finalize":"","x":1140,"y":800,"wires":[["1c83a03b.a169c"]]},{"id":"1c83a03b.a169c","type":"ui_text","z":"1d22c714.e50369","group":"8a9b009f.1b35d","order":6,"width":5,"height":1,"name":"Last refresh - temp","label":"","format":"<i class=\"fa fa-refresh\" aria-hidden=\"true\">&nbsp; {{ msg.payload | date: 'MMM d, y - HH:mm:ss'}}</i> ","layout":"row-center","x":1350,"y":800,"wires":[]},{"id":"f8fee95.2171618","type":"influxdb in","z":"1d22c714.e50369","influxdb":"8193652c.e6bda8","name":"Select past 24 hours","query":"SELECT * FROM water_quality GROUP BY * ORDER BY DESC LIMIT 500","rawOutput":false,"precision":"","retentionPolicy":"","org":"organisation","x":960,"y":260,"wires":[["fff065af.0a0958"]]},{"id":"ad68634.aaabaa","type":"ui_chart","z":"1d22c714.e50369","name":"","group":"65d119b5.66cb78","order":5,"width":10,"height":5,"label":"","chartType":"line","legend":"true","xformat":"HH:mm:ss","interpolate":"bezier","nodata":"","dot":false,"ymin":"","ymax":"","removeOlder":1,"removeOlderPoints":"","removeOlderUnit":"3600","cutout":0,"useOneColor":false,"useUTC":false,"colors":["#1f77b4","#aec7e8","#ff7f0e","#2ca02c","#98df8a","#d62728","#ff9896","#9467bd","#c5b0d5"],"outputs":1,"x":1670,"y":380,"wires":[[]]},{"id":"8b39391d.356ce8","type":"function","z":"1d22c714.e50369","name":"","func":"\n var series =[\"Water quality\", \"Water temperature\"];\n var labels = [\"Water quality\", \"Water temperature\"];\n var data = [];\n var dataWaterQuality = [];\n var dataWaterTemperature = [];\n\n var i, len, string;\n\n for (i = 0, len = msg.payload.waterTemperature.length, string = \"\"; i < len; i++) {\n  dataWaterQuality.push({\n        \"x\":Date.parse(msg.payload.waterTemperature[i].time), \n        \"y\":Number(msg.payload.waterTemperature[i].value)});\n  }\n\n for (i = 0, len = msg.payload.waterQuality.length, string = \"\"; i < len; i++) {\n    dataWaterTemperature.push({\n        \"x\":Date.parse(msg.payload.waterQuality[i].time), \n        \"y\":Number(msg.payload.waterQuality[i].value)});\n }\n     \n\n data = [dataWaterQuality, dataWaterTemperature];\n msg.payload = [{series, data, labels}];\n\n return msg;\n","outputs":1,"noerr":0,"initialize":"","finalize":"","x":1540,"y":380,"wires":[["ad68634.aaabaa"]]},{"id":"a34db445.a149b8","type":"influxdb in","z":"1d22c714.e50369","influxdb":"8193652c.e6bda8","name":"Select past 24 hours","query":"SELECT * FROM water_temperature GROUP BY * ORDER BY DESC LIMIT 500","rawOutput":false,"precision":"","retentionPolicy":"","org":"organisation","x":960,"y":580,"wires":[["7b566b7.097d094"]]},{"id":"fff065af.0a0958","type":"change","z":"1d22c714.e50369","name":"","rules":[{"t":"set","p":"origin","pt":"msg","to":"waterQuality","tot":"str"}],"action":"","property":"","from":"","to":"","reg":false,"x":1180,"y":260,"wires":[["abe678a7.9a28b8"]]},{"id":"7b566b7.097d094","type":"change","z":"1d22c714.e50369","name":"","rules":[{"t":"set","p":"origin","pt":"msg","to":"waterTemperature","tot":"str"}],"action":"","property":"","from":"","to":"","reg":false,"x":1180,"y":580,"wires":[["abe678a7.9a28b8"]]},{"id":"abe678a7.9a28b8","type":"join","z":"1d22c714.e50369","name":"","mode":"custom","build":"object","property":"payload","propertyType":"msg","key":"origin","joiner":"message","joinerType":"str","accumulate":false,"timeout":"","count":"2","reduceRight":false,"reduceExp":"","reduceInit":"","reduceInitType":"","reduceFixup":"","x":1410,"y":380,"wires":[["8b39391d.356ce8"]]},{"id":"3e5edd24.dccb82","type":"function","z":"1d22c714.e50369","name":"Parse telemetry JSON","func":"\nvar newMsg =  { \n        payload: new Date(msg.payload[0].time)\n};\nreturn newMsg;","outputs":1,"noerr":0,"initialize":"","finalize":"","x":1200,"y":540,"wires":[["ad8e7270.bfabd"]]},{"id":"ad8e7270.bfabd","type":"ui_text","z":"1d22c714.e50369","group":"65d119b5.66cb78","order":4,"width":5,"height":1,"name":"Last refresh - water temp","label":"","format":"<i class=\"fa fa-refresh\" aria-hidden=\"true\">&nbsp; {{ msg.payload | date: 'MMM d, y - HH:mm:ss'}}</i> ","layout":"row-center","x":1430,"y":540,"wires":[]},{"id":"383c0ad2.b2e656","type":"ui_text","z":"1d22c714.e50369","group":"65d119b5.66cb78","order":3,"width":5,"height":1,"name":"Last refresh - water quality","label":"","format":"<i class=\"fa fa-refresh\" aria-hidden=\"true\">&nbsp; {{ msg.payload | date: 'MMM d, y - HH:mm:ss'}}</i> ","layout":"row-center","x":1440,"y":220,"wires":[]},{"id":"eb66256c.111fa8","type":"function","z":"1d22c714.e50369","name":"Parse telemetry JSON","func":"\nvar newMsg =  { \n        payload: new Date(msg.payload[0].time)\n};\nreturn newMsg;","outputs":1,"noerr":0,"initialize":"","finalize":"","x":1200,"y":220,"wires":[["383c0ad2.b2e656"]]},{"id":"c1e51a25.bcd2f8","type":"ui_switch","z":"87cb301d.9893c","name":"","label":"Water spray","tooltip":"","group":"f0e58282.f2736","order":4,"width":4,"height":1,"passthru":true,"decouple":"false","topic":"","style":"","onvalue":"true","onvalueType":"bool","onicon":"","oncolor":"","offvalue":"false","offvalueType":"bool","officon":"","offcolor":"","x":150,"y":120,"wires":[["dec1467a.516188","e6b06459.aad598"]]},{"id":"b9dd843.3247178","type":"delay","z":"87cb301d.9893c","name":"","pauseType":"delay","timeout":"30","timeoutUnits":"seconds","rate":"1","nbRateUnits":"1","rateUnits":"second","randomFirst":"1","randomLast":"5","randomUnits":"seconds","drop":false,"x":600,"y":180,"wires":[["25335612.5b58da"]]},{"id":"e6b06459.aad598","type":"mqtt out","z":"87cb301d.9893c","name":"Water spray","topic":"hydro/water_spray/switch","qos":"0","retain":"","broker":"a0e631b8.d383b","x":370,"y":120,"wires":[]},{"id":"d0f89a7b.d9a8f8","type":"ui_led","z":"1d22c714.e50369","group":"f0e58282.f2736","order":5,"width":2,"height":1,"label":"","labelPlacement":"right","labelAlignment":"right","colorForValue":[{"color":"red","value":"false","valueType":"str"},{"color":"green","value":"true","valueType":"str"}],"allowColorForValueInMessage":false,"name":"water spray","x":390,"y":600,"wires":[]},{"id":"a1ae6930.2b69c8","type":"mqtt in","z":"1d22c714.e50369","name":"","topic":"hydro/water_spray/s","qos":"0","datatype":"auto","broker":"a0e631b8.d383b","x":150,"y":600,"wires":[["d0f89a7b.d9a8f8"]]},{"id":"8c5d6ffa.8aeae","type":"link out","z":"87cb301d.9893c","name":"","links":[],"x":-35,"y":60,"wires":[]},{"id":"25335612.5b58da","type":"change","z":"87cb301d.9893c","name":"Switch to off","rules":[{"t":"set","p":"payload","pt":"msg","to":"false","tot":"str"}],"action":"","property":"","from":"","to":"","reg":false,"x":770,"y":180,"wires":[["c1e51a25.bcd2f8"]]},{"id":"dec1467a.516188","type":"switch","z":"87cb301d.9893c","name":"When water spray on","property":"payload","propertyType":"msg","rules":[{"t":"true"}],"checkall":"true","repair":false,"outputs":1,"x":400,"y":180,"wires":[["b9dd843.3247178"]]},{"id":"af05ff6e.ae85d","type":"change","z":"1d22c714.e50369","name":"","rules":[{"t":"set","p":"ui_control","pt":"msg","to":"{\"options\":{\"valueFontColor\":\"#FFFFFF\"}}","tot":"json"}],"action":"","property":"","from":"","to":"","reg":false,"x":810,"y":80,"wires":[["c89e7a62.0df008"]]},{"id":"134f40ec.1ec4bf","type":"camerapi-takephoto","z":"1d22c714.e50369","filemode":"1","filename":"photo1.JPEG","filedefpath":"0","filepath":"/home/pi/.node-red/static/","fileformat":"jpeg","resolution":"4","rotation":"0","fliph":"0","flipv":"0","brightness":"50","contrast":"0","sharpness":"0","quality":"80","imageeffect":"none","exposuremode":"auto","iso":"0","agcwait":"1.0","led":"0","awb":"auto","name":"Take Photo","x":270,"y":980,"wires":[["cafc6842.5655e8"]]},{"id":"ec42ca0e.6c9dd8","type":"ui_template","z":"1d22c714.e50369","group":"65d119b5.66cb78","name":"","order":5,"width":0,"height":0,"format":"<script>\nvar value = \"1\";\n// or overwrite value in your callback function ...\nthis.scope.action = function() { return value; }\n\nfunction updateF() {\n  var source = '/home/pi/Pictures/photo1.JPEG',\n  timestamp = (new Date()).getTime(),\n  newUrl = source + '?_=' + timestamp;\n  document.getElementById(\"photo\").src = newUrl;\n}\n</script>\n\n<md-button ng-click=\"send({payload:action()})\" onclick=\"setTimeout(updateF, 2500);\" style=\"padding:40px; margin-bottom: 40px;\" >\n <ui-icon icon=\"camera\"></ui-icon>\n Take a photo<br>\n</md-button>\n\n<div style=\"margin-bottom:40px;\">\n <img src=\"/home/pi/Pictures/photo1.JPEG\" id=\"photo\" width=\"100%\" height=\"100%\">\n</div>","storeOutMessages":true,"fwdInMessages":true,"resendOnRefresh":true,"templateScope":"local","x":110,"y":980,"wires":[["134f40ec.1ec4bf"]]},{"id":"cafc6842.5655e8","type":"debug","z":"1d22c714.e50369","name":"","active":true,"tosidebar":true,"console":false,"tostatus":false,"complete":"false","statusVal":"","statusType":"auto","x":460,"y":1000,"wires":[]},{"id":"6cb2231.43f57dc","type":"ui_media","z":"1d22c714.e50369","group":"f0e58282.f2736","name":"","width":0,"height":0,"order":6,"category":"","file":"","layout":"adjust","showcontrols":true,"loop":true,"onstart":true,"scope":"local","tooltip":"","x":230,"y":1040,"wires":[[]]}]
+[
+    {
+        "id": "1d22c714.e50369",
+        "type": "tab",
+        "label": "GET Telemetry",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "87cb301d.9893c",
+        "type": "tab",
+        "label": "POST ",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "5127740.f28848c",
+        "type": "tab",
+        "label": "System rules",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "3b0df974.6ef076",
+        "type": "tab",
+        "label": "Settings",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "e8854cf5.bbc99",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 5,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "8abb8d14.1da7c",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 7,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "c9f3a157.d0af7",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 9,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "e5be2d4e.0683",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 3,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "c9066fca.cee52",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 4,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "2ee23605.85e39a",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 5,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "cf3c4bd4.b57d78",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 8,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "d3290ae7.21fe98",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 6,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "2de4a264.b5f62e",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 7,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "60a0073d.7b0198",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 8,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "a0e631b8.d383b",
+        "type": "mqtt-broker",
+        "name": "Mosquitto",
+        "broker": "localhost",
+        "port": "1883",
+        "clientid": "",
+        "usetls": false,
+        "compatmode": false,
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": ""
+    },
+    {
+        "id": "8193652c.e6bda8",
+        "type": "influxdb",
+        "hostname": "127.0.0.1",
+        "port": "8086",
+        "protocol": "http",
+        "database": "hydro",
+        "name": "",
+        "usetls": false,
+        "tls": "",
+        "influxdbVersion": "1.x",
+        "url": "http://localhost:8086",
+        "rejectUnauthorized": true
+    },
+    {
+        "id": "6dc911ee.ea694",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 5,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "27ff61b6.64ceee",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 7,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "d68d5539.9f7388",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 9,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "25301e7.4048be2",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 3,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "4e20bf36.aee24",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 4,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "cd177d02.fcb47",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 5,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "55e06fae.59f7f",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 8,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "d04eaa91.a399f8",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 6,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "39ffd0d.5f55a3",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 7,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "d50ed20d.eaca2",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 8,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "d7b17763.6bfd98",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-dark",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#097479",
+                    "value": "#097479",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#097479",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#0eb8c0",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#555555",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#eeeeee",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#097479",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "true",
+            "lockMenu": "false",
+            "allowTempTheme": "none",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 12,
+                "gy": 12,
+                "cx": 0,
+                "cy": 0,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "f8e5458c.a3e458",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 5,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "2e5354b4.fa9efc",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 8,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "55451708.9195b8",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 4,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "8a9743e3.77e45",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 6,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "cd7c0825.8eea08",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 7,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "b116a7ee.4a8928",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 6,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "ac904da2.49289",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 7,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "d031979b.9eb4d8",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 9,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "f0e58282.f2736",
+        "type": "ui_group",
+        "name": "Control - Seed Tray",
+        "tab": "352c089f.6b44d8",
+        "order": 4,
+        "disp": true,
+        "width": "14",
+        "collapse": false,
+        "info": "# Seed tray LEDs"
+    },
+    {
+        "id": "352c089f.6b44d8",
+        "type": "ui_tab",
+        "name": "Hydroponic",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "8a9b009f.1b35d",
+        "type": "ui_group",
+        "name": "Room environment",
+        "tab": "352c089f.6b44d8",
+        "order": 2,
+        "disp": true,
+        "width": 17,
+        "collapse": false
+    },
+    {
+        "id": "65d119b5.66cb78",
+        "type": "ui_group",
+        "name": "Seed Tray",
+        "tab": "352c089f.6b44d8",
+        "order": 3,
+        "disp": true,
+        "width": 10,
+        "collapse": false
+    },
+    {
+        "id": "1c37dc0b.ce28e4",
+        "type": "ui_group",
+        "name": "Weather forecast",
+        "tab": "352c089f.6b44d8",
+        "order": 1,
+        "disp": true,
+        "width": 17,
+        "collapse": false
+    },
+    {
+        "id": "2d617978.71ca86",
+        "type": "ui_gauge",
+        "z": "1d22c714.e50369",
+        "name": "",
+        "group": "8a9b009f.1b35d",
+        "order": 2,
+        "width": 5,
+        "height": 3,
+        "gtype": "gage",
+        "title": "Humidity",
+        "label": "",
+        "format": "{{value}} %",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#b32d00",
+            "#e6e600",
+            "#3acb57"
+        ],
+        "seg1": "25",
+        "seg2": "30",
+        "x": 780,
+        "y": 860,
+        "wires": []
+    },
+    {
+        "id": "e30bc267.9a60e",
+        "type": "mqtt in",
+        "z": "1d22c714.e50369",
+        "name": "",
+        "topic": "hydro/t/seed_tray",
+        "qos": "0",
+        "datatype": "auto",
+        "broker": "a0e631b8.d383b",
+        "x": 120,
+        "y": 240,
+        "wires": [
+            [
+                "67398353.3f850c"
+            ]
+        ]
+    },
+    {
+        "id": "67398353.3f850c",
+        "type": "json",
+        "z": "1d22c714.e50369",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 310,
+        "y": 240,
+        "wires": [
+            [
+                "4fa1702.8b2e49",
+                "5525a452.d944dc"
+            ]
+        ]
+    },
+    {
+        "id": "4fa1702.8b2e49",
+        "type": "function",
+        "z": "1d22c714.e50369",
+        "name": "Parse telemetry JSON",
+        "func": "\n\nvar waterQualityMsg = { \n    payload: msg.payload.s.water.ppm\n};\n\nvar waterTempMsg = { \n    payload: msg.payload.s.water.temp\n};\n\nvar luminosityMsg = { \n    payload: msg.payload.s.lux\n};\n\n\nreturn [\n    waterQualityMsg, \n    luminosityMsg, \n    waterTempMsg\n    ];",
+        "outputs": 3,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 440,
+        "y": 340,
+        "wires": [
+            [
+                "6a5ac7a1.e350c8",
+                "39bf6628.85f8ba",
+                "af05ff6e.ae85d"
+            ],
+            [
+                "a26738f1.82d358",
+                "b7f7abe3.8afe58",
+                "d4f4e64.f4cb118"
+            ],
+            [
+                "613ad10.d3ab93",
+                "f9ece608.ba06e8",
+                "60f91bf2.98dd04"
+            ]
+        ]
+    },
+    {
+        "id": "cd880df.29724f",
+        "type": "inject",
+        "z": "1d22c714.e50369",
+        "d": true,
+        "name": "DEBUG - Sample telemetry JSON",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"seed_tray\":{\"water_quality\":151.9146},\"room\":{\"temperature\":21.1,\"humidity\":46}}",
+        "payloadType": "json",
+        "x": 200,
+        "y": 180,
+        "wires": [
+            [
+                "67398353.3f850c"
+            ]
+        ]
+    },
+    {
+        "id": "f4adc1f9.29f6a",
+        "type": "ui_gauge",
+        "z": "1d22c714.e50369",
+        "name": "",
+        "group": "8a9b009f.1b35d",
+        "order": 1,
+        "width": 5,
+        "height": 3,
+        "gtype": "gage",
+        "title": "Temperature DHT11",
+        "label": "",
+        "format": "{{value}} °C",
+        "min": 0,
+        "max": "50",
+        "colors": [
+            "#b30036",
+            "#27a072",
+            "#b30036"
+        ],
+        "seg1": "18",
+        "seg2": "27",
+        "x": 820,
+        "y": 720,
+        "wires": []
+    },
+    {
+        "id": "c89e7a62.0df008",
+        "type": "ui_gauge",
+        "z": "1d22c714.e50369",
+        "name": "",
+        "group": "65d119b5.66cb78",
+        "order": 1,
+        "width": 5,
+        "height": 3,
+        "gtype": "gage",
+        "title": "Water Quality",
+        "label": "",
+        "format": "{{value}} PPM",
+        "min": 0,
+        "max": "2000",
+        "colors": [
+            "#b30050",
+            "#c1c13e",
+            "#ca3838"
+        ],
+        "seg1": "450",
+        "seg2": "900",
+        "x": 1000,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "6a5ac7a1.e350c8",
+        "type": "influxdb out",
+        "z": "1d22c714.e50369",
+        "influxdb": "8193652c.e6bda8",
+        "name": "",
+        "measurement": "water_quality",
+        "precision": "",
+        "retentionPolicy": "",
+        "database": "database",
+        "precisionV18FluxV20": "ms",
+        "retentionPolicyV18Flux": "",
+        "org": "organisation",
+        "bucket": "bucket",
+        "x": 880,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "df864faf.11005",
+        "type": "ui_switch",
+        "z": "87cb301d.9893c",
+        "name": "",
+        "label": "Grow lights",
+        "tooltip": "Led",
+        "group": "f0e58282.f2736",
+        "order": 2,
+        "width": 4,
+        "height": 1,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "hydroponic/lamp",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "x": 170,
+        "y": 40,
+        "wires": [
+            [
+                "acca3832.810b88"
+            ]
+        ],
+        "info": "# Seeds tray light"
+    },
+    {
+        "id": "acca3832.810b88",
+        "type": "mqtt out",
+        "z": "87cb301d.9893c",
+        "name": "Lamp",
+        "topic": "hydro/lamp/switch",
+        "qos": "0",
+        "retain": "",
+        "broker": "a0e631b8.d383b",
+        "x": 350,
+        "y": 40,
+        "wires": []
+    },
+    {
+        "id": "1b07e4d1.7c4d9b",
+        "type": "influxdb in",
+        "z": "5127740.f28848c",
+        "influxdb": "8193652c.e6bda8",
+        "name": "",
+        "query": "SELECT MEAN(temperature) FROM temperature",
+        "rawOutput": false,
+        "precision": "",
+        "retentionPolicy": "",
+        "org": "organisation",
+        "x": 350,
+        "y": 120,
+        "wires": [
+            [
+                "3e247b14.95d3a4"
+            ]
+        ]
+    },
+    {
+        "id": "3e247b14.95d3a4",
+        "type": "switch",
+        "z": "5127740.f28848c",
+        "name": "",
+        "property": "payload[0].mean",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "gt",
+                "v": "500",
+                "vt": "str"
+            },
+            {
+                "t": "true"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 720,
+        "y": 100,
+        "wires": [
+            [
+                "8fd06c84.9d955"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "f3e2c3ad.8ebb2",
+        "type": "ui_toast",
+        "z": "5127740.f28848c",
+        "position": "top right",
+        "displayTime": "3",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 0,
+        "ok": "OK",
+        "cancel": "",
+        "raw": false,
+        "topic": "Temperature",
+        "name": "Alert ",
+        "x": 890,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "8fd06c84.9d955",
+        "type": "function",
+        "z": "5127740.f28848c",
+        "name": "Simulate an input",
+        "func": "msg.payload = \"Temperature too high\"\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 790,
+        "y": 40,
+        "wires": [
+            [
+                "f3e2c3ad.8ebb2"
+            ]
+        ]
+    },
+    {
+        "id": "5525a452.d944dc",
+        "type": "debug",
+        "z": "1d22c714.e50369",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 480,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "a26738f1.82d358",
+        "type": "ui_chart",
+        "z": "1d22c714.e50369",
+        "name": "",
+        "group": "f0e58282.f2736",
+        "order": 1,
+        "width": 8,
+        "height": 4,
+        "label": "Luminosity",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm",
+        "interpolate": "bezier",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "24",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "x": 790,
+        "y": 300,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b5c12285.51ca3",
+        "type": "influxdb out",
+        "z": "1d22c714.e50369",
+        "influxdb": "8193652c.e6bda8",
+        "name": "",
+        "measurement": "room_temperature",
+        "precision": "",
+        "retentionPolicy": "",
+        "database": "database",
+        "precisionV18FluxV20": "ms",
+        "retentionPolicyV18Flux": "",
+        "org": "organisation",
+        "bucket": "bucket",
+        "x": 900,
+        "y": 760,
+        "wires": []
+    },
+    {
+        "id": "c2314fab.6c8af",
+        "type": "influxdb in",
+        "z": "1d22c714.e50369",
+        "influxdb": "8193652c.e6bda8",
+        "name": "Select last entry",
+        "query": "SELECT * FROM room_temperature GROUP BY * ORDER BY DESC LIMIT 1",
+        "rawOutput": false,
+        "precision": "",
+        "retentionPolicy": "",
+        "org": "organisation",
+        "x": 940,
+        "y": 800,
+        "wires": [
+            [
+                "5914ecc9.808654"
+            ]
+        ]
+    },
+    {
+        "id": "e88e5d3f.13895",
+        "type": "delay",
+        "z": "1d22c714.e50369",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "2",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "x": 780,
+        "y": 800,
+        "wires": [
+            [
+                "c2314fab.6c8af"
+            ]
+        ]
+    },
+    {
+        "id": "f3b265b2.271218",
+        "type": "influxdb out",
+        "z": "1d22c714.e50369",
+        "influxdb": "8193652c.e6bda8",
+        "name": "",
+        "measurement": "room_humidity",
+        "precision": "",
+        "retentionPolicy": "",
+        "database": "database",
+        "precisionV18FluxV20": "ms",
+        "retentionPolicyV18Flux": "",
+        "org": "organisation",
+        "bucket": "bucket",
+        "x": 890,
+        "y": 900,
+        "wires": []
+    },
+    {
+        "id": "d8035b86.a6d9f8",
+        "type": "influxdb in",
+        "z": "1d22c714.e50369",
+        "influxdb": "8193652c.e6bda8",
+        "name": "Select last entry",
+        "query": "SELECT * FROM room_humidity GROUP BY * ORDER BY DESC LIMIT 1",
+        "rawOutput": false,
+        "precision": "",
+        "retentionPolicy": "",
+        "org": "organisation",
+        "x": 940,
+        "y": 940,
+        "wires": [
+            [
+                "58c9bab9.be3fc4"
+            ]
+        ]
+    },
+    {
+        "id": "55893afd.1a9904",
+        "type": "delay",
+        "z": "1d22c714.e50369",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "2",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "x": 780,
+        "y": 940,
+        "wires": [
+            [
+                "d8035b86.a6d9f8"
+            ]
+        ]
+    },
+    {
+        "id": "7fe995e5.477afc",
+        "type": "influxdb in",
+        "z": "1d22c714.e50369",
+        "influxdb": "8193652c.e6bda8",
+        "name": "Select last entry",
+        "query": "SELECT * FROM water_quality GROUP BY * ORDER BY DESC LIMIT 1",
+        "rawOutput": false,
+        "precision": "",
+        "retentionPolicy": "",
+        "org": "organisation",
+        "x": 940,
+        "y": 220,
+        "wires": [
+            [
+                "eb66256c.111fa8"
+            ]
+        ]
+    },
+    {
+        "id": "39bf6628.85f8ba",
+        "type": "delay",
+        "z": "1d22c714.e50369",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "2",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "x": 780,
+        "y": 220,
+        "wires": [
+            [
+                "7fe995e5.477afc",
+                "f8fee95.2171618"
+            ]
+        ]
+    },
+    {
+        "id": "b7f7abe3.8afe58",
+        "type": "influxdb out",
+        "z": "1d22c714.e50369",
+        "influxdb": "8193652c.e6bda8",
+        "name": "",
+        "measurement": "luminosity",
+        "precision": "",
+        "retentionPolicy": "",
+        "database": "database",
+        "precisionV18FluxV20": "ms",
+        "retentionPolicyV18Flux": "",
+        "org": "organisation",
+        "bucket": "bucket",
+        "x": 870,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "74af2bf6.5a9344",
+        "type": "ui_template",
+        "z": "1d22c714.e50369",
+        "group": "f0e58282.f2736",
+        "name": "Last refresh luminosity",
+        "order": 9,
+        "width": 8,
+        "height": 1,
+        "format": "\n<div ng-style=\"style\"> Last refresh {{ latestUpdate | date: 'medium'}} </div>\n\n\n<script>\n(function(scope) {\n \n  scope.$watch('msg', function(msg) {\n    if (msg) {\n      scope.latestUpdate = new Date(msg.payload[0].time);\n    }\n  });\n})(scope);\n</script>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "x": 1180,
+        "y": 380,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "4be17712.274be8",
+        "type": "influxdb in",
+        "z": "1d22c714.e50369",
+        "influxdb": "8193652c.e6bda8",
+        "name": "Select past 24 hours",
+        "query": "SELECT * FROM luminosity GROUP BY * ORDER BY DESC LIMIT 1",
+        "rawOutput": false,
+        "precision": "",
+        "retentionPolicy": "",
+        "org": "organisation",
+        "x": 960,
+        "y": 380,
+        "wires": [
+            [
+                "74af2bf6.5a9344"
+            ]
+        ]
+    },
+    {
+        "id": "d4f4e64.f4cb118",
+        "type": "delay",
+        "z": "1d22c714.e50369",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "2",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "x": 780,
+        "y": 380,
+        "wires": [
+            [
+                "4be17712.274be8"
+            ]
+        ]
+    },
+    {
+        "id": "54666026.3c8da",
+        "type": "ui_led",
+        "z": "1d22c714.e50369",
+        "group": "f0e58282.f2736",
+        "order": 3,
+        "width": 2,
+        "height": 1,
+        "label": "",
+        "labelPlacement": "right",
+        "labelAlignment": "right",
+        "colorForValue": [
+            {
+                "color": "red",
+                "value": "false",
+                "valueType": "str"
+            },
+            {
+                "color": "green",
+                "value": "true",
+                "valueType": "str"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "name": "Grow lights",
+        "x": 370,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "a2db89f8.423ad8",
+        "type": "mqtt in",
+        "z": "1d22c714.e50369",
+        "name": "",
+        "topic": "hydro/lamp/s",
+        "qos": "0",
+        "datatype": "auto",
+        "broker": "a0e631b8.d383b",
+        "x": 130,
+        "y": 520,
+        "wires": [
+            [
+                "54666026.3c8da"
+            ]
+        ]
+    },
+    {
+        "id": "613ad10.d3ab93",
+        "type": "ui_gauge",
+        "z": "1d22c714.e50369",
+        "name": "",
+        "group": "65d119b5.66cb78",
+        "order": 2,
+        "width": 5,
+        "height": 3,
+        "gtype": "gage",
+        "title": "Water Temperature",
+        "label": "",
+        "format": "{{value}} °C",
+        "min": 0,
+        "max": "35",
+        "colors": [
+            "#ca3838",
+            "#3ec143",
+            "#ca3838"
+        ],
+        "seg1": "15",
+        "seg2": "28",
+        "x": 810,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "62bc488f.b3dd18",
+        "type": "mqtt in",
+        "z": "1d22c714.e50369",
+        "name": "",
+        "topic": "hydro/t/room",
+        "qos": "0",
+        "datatype": "auto",
+        "broker": "a0e631b8.d383b",
+        "x": 130,
+        "y": 800,
+        "wires": [
+            [
+                "7023be29.a8b"
+            ]
+        ]
+    },
+    {
+        "id": "7023be29.a8b",
+        "type": "json",
+        "z": "1d22c714.e50369",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 330,
+        "y": 800,
+        "wires": [
+            [
+                "1e6d501a.c6f28"
+            ]
+        ]
+    },
+    {
+        "id": "1e6d501a.c6f28",
+        "type": "function",
+        "z": "1d22c714.e50369",
+        "name": "Parse telemetry JSON",
+        "func": "\nvar roomTemperatureMsg =  { \n        payload: msg.payload.r.t \n};\n    \nvar roomHumidityMsg = { \n    payload: msg.payload.r.h\n}; \n\nreturn [\n    roomTemperatureMsg, \n    roomHumidityMsg\n];",
+        "outputs": 2,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 540,
+        "y": 800,
+        "wires": [
+            [
+                "f4adc1f9.29f6a",
+                "b5c12285.51ca3",
+                "e88e5d3f.13895"
+            ],
+            [
+                "2d617978.71ca86",
+                "f3b265b2.271218",
+                "55893afd.1a9904"
+            ]
+        ]
+    },
+    {
+        "id": "f9ece608.ba06e8",
+        "type": "influxdb out",
+        "z": "1d22c714.e50369",
+        "influxdb": "8193652c.e6bda8",
+        "name": "",
+        "measurement": "water_temperature",
+        "precision": "",
+        "retentionPolicy": "",
+        "database": "database",
+        "precisionV18FluxV20": "ms",
+        "retentionPolicyV18Flux": "",
+        "org": "organisation",
+        "bucket": "bucket",
+        "x": 900,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "61e95af8.591824",
+        "type": "influxdb in",
+        "z": "1d22c714.e50369",
+        "influxdb": "8193652c.e6bda8",
+        "name": "Select last entry",
+        "query": "SELECT * FROM water_temperature GROUP BY * ORDER BY DESC LIMIT 1",
+        "rawOutput": false,
+        "precision": "",
+        "retentionPolicy": "",
+        "org": "organisation",
+        "x": 940,
+        "y": 540,
+        "wires": [
+            [
+                "3e5edd24.dccb82"
+            ]
+        ]
+    },
+    {
+        "id": "60f91bf2.98dd04",
+        "type": "delay",
+        "z": "1d22c714.e50369",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "2",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "x": 780,
+        "y": 540,
+        "wires": [
+            [
+                "61e95af8.591824",
+                "a34db445.a149b8"
+            ]
+        ]
+    },
+    {
+        "id": "548aacab.e14fc4",
+        "type": "function",
+        "z": "3b0df974.6ef076",
+        "name": "Set variables - UI",
+        "func": "global.set('dateFormat', 'DD-MM-YYYY');\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 270,
+        "y": 60,
+        "wires": [
+            [
+                "f0fca064.57a0e"
+            ]
+        ]
+    },
+    {
+        "id": "96522344.acca4",
+        "type": "inject",
+        "z": "3b0df974.6ef076",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 100,
+        "y": 60,
+        "wires": [
+            [
+                "548aacab.e14fc4"
+            ]
+        ]
+    },
+    {
+        "id": "f0fca064.57a0e",
+        "type": "debug",
+        "z": "3b0df974.6ef076",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 460,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "509eb66d.0f6d88",
+        "type": "ui_button",
+        "z": "1d22c714.e50369",
+        "name": "IconRefresh",
+        "group": "1c37dc0b.ce28e4",
+        "order": 1,
+        "width": 4,
+        "height": 2,
+        "passthru": false,
+        "label": "",
+        "tooltip": "Refresh",
+        "color": "",
+        "bgcolor": "",
+        "icon": "fa-refresh fa-4x",
+        "payload": "true",
+        "payloadType": "bool",
+        "topic": "",
+        "x": 990,
+        "y": 1320,
+        "wires": [
+            [
+                "45293d1e.aedc04"
+            ]
+        ]
+    },
+    {
+        "id": "75f934f.744b2cc",
+        "type": "ui_text",
+        "z": "1d22c714.e50369",
+        "group": "1c37dc0b.ce28e4",
+        "order": 6,
+        "width": 6,
+        "height": 1,
+        "name": "Description",
+        "label": "",
+        "format": "{{msg.payload.current.weather[0].description}}",
+        "layout": "row-left",
+        "x": 990,
+        "y": 1120,
+        "wires": []
+    },
+    {
+        "id": "c9cadf3c.4dd91",
+        "type": "ui_text",
+        "z": "1d22c714.e50369",
+        "group": "1c37dc0b.ce28e4",
+        "order": 3,
+        "width": 4,
+        "height": 1,
+        "name": "Wind",
+        "label": "",
+        "format": "{{msg.payload.current.wind_speed}}&nbsp;&nbsp;<i class=\"wi wi-darksky-wind\"></i>&nbsp;&nbsp;{{msg.payload.current.wind_cardinal}}",
+        "layout": "col-center",
+        "x": 970,
+        "y": 1200,
+        "wires": []
+    },
+    {
+        "id": "a77336d4.24c878",
+        "type": "ui_text",
+        "z": "1d22c714.e50369",
+        "group": "1c37dc0b.ce28e4",
+        "order": 4,
+        "width": 4,
+        "height": 1,
+        "name": "SunriseTime",
+        "label": "",
+        "format": "<i class=\"wi wi-owm-01d\"></i>&nbsp;<i class=\"fa fa-arrow-up\"></i>&nbsp;&nbsp;{{msg.payload.current.sunrise}}",
+        "layout": "row-left",
+        "x": 990,
+        "y": 1240,
+        "wires": []
+    },
+    {
+        "id": "ffd2dd.8b18ad2",
+        "type": "ui_text",
+        "z": "1d22c714.e50369",
+        "group": "1c37dc0b.ce28e4",
+        "order": 8,
+        "width": 4,
+        "height": 1,
+        "name": "SunsetTime",
+        "label": "",
+        "format": "<i class=\"wi wi-wu-sunny\"></i>&nbsp;<i class=\"fa fa-arrow-down\"></i>&nbsp;&nbsp;{{msg.payload.current.sunset}}",
+        "layout": "row-left",
+        "x": 990,
+        "y": 1280,
+        "wires": []
+    },
+    {
+        "id": "85c1ae45.14716",
+        "type": "comment",
+        "z": "1d22c714.e50369",
+        "name": "OpenWeatherMap One Call API for Weather and Forecast",
+        "info": "",
+        "x": 270,
+        "y": 1100,
+        "wires": []
+    },
+    {
+        "id": "588c57bc.0c46d8",
+        "type": "function",
+        "z": "1d22c714.e50369",
+        "name": "Format forecast data",
+        "func": "var fcdata = {};\nvar units=flow.get('units');\nif (units===undefined)\n{\n  units=\"imperial\";\n}\n\nfunction formatTemp(high, low){\n    if (units == \"imperial\") {\n        if (low){\n          temp = parseFloat(high).toFixed() + '/' + parseFloat(low).toFixed()\n        }\n        else {\n          temp = parseFloat(high).toFixed() + '°F'\n        }\n    }\n    else { // metric\n//        temp = parseFloat(temp).toFixed(1) + '°C'\n        if (low){\n          temp = parseFloat(high).toFixed() + '/' + parseFloat(low).toFixed()\n        }\n        else {\n          temp = parseFloat(high).toFixed() + '°C'\n        }\n    }\n    return temp;\n}\nfunction dayName(unixTime){\n    var d = new Date(unixTime * 1000);\n    var weekday = new Array(7);\n        weekday[0] = \"Sun\";\n        weekday[1] = \"Mon\";\n        weekday[2] = \"Tue\";\n        weekday[3] = \"Wed\";\n        weekday[4] = \"Thu\";\n        weekday[5] = \"Fri\";\n        weekday[6] = \"Sat\";\n\n    return weekday[d.getDay()]\n}\nfunction timeConvert(UNIX_timestamp){\n  var a = new Date(UNIX_timestamp * 1000);\n  var hour = a.getHours();\n  var suffix = \" am\";\n  if (hour >= 12) {\n    hour = hour - 12;\n    suffix = \" pm\";\n  }\n  if (hour === 0) {\n    hour = 12;\n  }\n  var min = a.getMinutes();\n  if (min < 10) {min = \"0\" + min;}\n//  return hour + ':' + min + suffix;\n  return hour + suffix;\n}\n// prepare forecast data for CSS based ui widget\n\nfcdata.payload = {\n  rowtext: {\n  \tdata01: {\n      cell01: timeConvert(msg.payload.hourly[1].dt),\n      cell02: timeConvert(msg.payload.hourly[2].dt),\n      cell03: timeConvert(msg.payload.hourly[3].dt),\n      cell04: timeConvert(msg.payload.hourly[4].dt),\n      cell05: timeConvert(msg.payload.hourly[5].dt),\n      cell06: timeConvert(msg.payload.hourly[6].dt),\n      cell07: dayName(msg.payload.daily[1].dt),\n      cell08: dayName(msg.payload.daily[2].dt),\n      cell09: dayName(msg.payload.daily[3].dt),\n      cell10: dayName(msg.payload.daily[4].dt),\n  \t},\n  \tdata02: {\n       cell01: formatTemp(msg.payload.hourly[1].temp),\n       cell02: formatTemp(msg.payload.hourly[2].temp),\n       cell03: formatTemp(msg.payload.hourly[3].temp),\n       cell04: formatTemp(msg.payload.hourly[4].temp),\n       cell05: formatTemp(msg.payload.hourly[5].temp),\n       cell06: formatTemp(msg.payload.hourly[6].temp),\n       cell07: formatTemp(msg.payload.daily[1].temp.max, msg.payload.daily[0].temp.min),\n       cell08: formatTemp(msg.payload.daily[2].temp.max, msg.payload.daily[1].temp.min),\n       cell09: formatTemp(msg.payload.daily[3].temp.max, msg.payload.daily[2].temp.min),\n       cell10: formatTemp(msg.payload.daily[4].temp.max, msg.payload.daily[3].temp.min),\n  \t}\n  },\n  rowicons: {\n  \tdata01: {\n  \t\tcell01: msg.payload.hourly[1].weather[0].icon,\n  \t\tcell02: msg.payload.hourly[2].weather[0].icon,\n  \t\tcell03: msg.payload.hourly[3].weather[0].icon,\n  \t\tcell04: msg.payload.hourly[4].weather[0].icon,\n  \t\tcell05: msg.payload.hourly[5].weather[0].icon,\n  \t\tcell06: msg.payload.hourly[6].weather[0].icon,\n  \t\tcell07: msg.payload.daily[1].weather[0].icon,\n  \t\tcell08: msg.payload.daily[2].weather[0].icon,\n  \t\tcell09: msg.payload.daily[3].weather[0].icon,\n  \t\tcell10: msg.payload.daily[4].weather[0].icon,\n  \t}\n  }\n}\n\nreturn fcdata;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 760,
+        "y": 1380,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ebeb7e6d.61e6c",
+        "type": "ui_text",
+        "z": "1d22c714.e50369",
+        "group": "1c37dc0b.ce28e4",
+        "order": 2,
+        "width": 3,
+        "height": 1,
+        "name": "Temperature",
+        "label": "",
+        "format": "<p style=\"font-size: 200%\">{{msg.payload.current.temp}}</p>",
+        "layout": "row-left",
+        "x": 990,
+        "y": 1160,
+        "wires": []
+    },
+    {
+        "id": "c8db48f7.af9608",
+        "type": "http request",
+        "z": "1d22c714.e50369",
+        "name": "Get OWM data",
+        "method": "GET",
+        "ret": "obj",
+        "paytoqs": "query",
+        "url": "https://api.openweathermap.org/data/2.5/onecall",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "authType": "",
+        "x": 480,
+        "y": 1220,
+        "wires": [
+            [
+                "fe79ff8b.aa786",
+                "588c57bc.0c46d8"
+            ]
+        ]
+    },
+    {
+        "id": "f376d3a0.9a725",
+        "type": "inject",
+        "z": "1d22c714.e50369",
+        "name": "Trigger",
+        "repeat": "600",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "x": 120,
+        "y": 1160,
+        "wires": [
+            [
+                "a887c10.0424b4"
+            ]
+        ]
+    },
+    {
+        "id": "fe79ff8b.aa786",
+        "type": "function",
+        "z": "1d22c714.e50369",
+        "name": "Format current data",
+        "func": "var icon = {};\n\nvar units=flow.get('units');\nif (units===undefined)\n{\n  units=\"imperial\";\n}\n\nfunction timeConvert(UNIX_timestamp){\n  var a = new Date(UNIX_timestamp * 1000);\n  var hour = a.getHours();\n  var suffix = \" am\";\n  if (hour >= 12) {\n    hour = hour - 12;\n    suffix = \" pm\";\n  }\n  if (hour === 0) {\n    hour = 12;\n  }\n  var min = a.getMinutes();\n  if (min < 10) {min = \"0\" + min;}\n  return hour + ':' + min + suffix;\n}\n\nvar degreesToCardinal = function(deg){\nif (deg>11.25 && deg<=33.75){\nreturn \"NNE\";\n  }else if (deg>33.75 && deg<56.25){\nreturn \"NE\";\n  }else if (deg>56.25 && deg<78.75){\nreturn \"ENE\";\n  }else if (deg>78.75 && deg<101.25){\nreturn \"E\";\n  }else if (deg>101.25 && deg<123.75){\nreturn \"ESE\";\n  }else if (deg>123.75 && deg<146.25){\nreturn \"SE\";\n  }else if (deg>146.25 && deg<168.75){\nreturn \"SSE\";\n  }else if (deg>168.75 && deg<191.25){\nreturn \"S\";\n  }else if (deg>191.25 && deg<213.75){\nreturn \"SSW\";\n  }else if (deg>213.75 && deg<236.25){\nreturn \"SW\";\n  }else if (deg>236.25 && deg<258.75){\nreturn \"WSW\";\n  }else if (deg>258.75 && deg<281.25){\nreturn \"W\";\n  }else if (deg>281.25 && deg<303.75){\nreturn \"WNW\";\n  }else if (deg>303.75 && deg<326.25){\nreturn \"NW\";\n  }else if (deg>326.25 && deg<348.75){\nreturn \"NNW\";\n  }else{\nreturn \"N\"; \n  }\n}\n\nif (units == \"imperial\")\n{\n  msg.payload.current.temp = msg.payload.current.temp.toFixed() + ' °F';\n  msg.payload.current.wind_speed = msg.payload.current.wind_speed.toFixed() + ' mph';\n}\nelse // metric units\n{\n  msg.payload.current.temp = msg.payload.current.temp.toFixed(1) + ' °C';\n  msg.payload.current.wind_speed = msg.payload.current.wind_speed.toFixed(1) + ' m/s';\n}\n\nmsg.payload.current.wind_cardinal = degreesToCardinal(msg.payload.current.wind_deg);\nmsg.payload.current.sunrise = timeConvert(msg.payload.current.sunrise);\nmsg.payload.current.sunset = timeConvert(msg.payload.current.sunset);\n\nvar iconString = 'wi-owm-' + msg.payload.current.weather[0].icon + ' wi-4x';\nicon = {\n    ui_control: {\n        icon: iconString\n    }\n}; \n\nreturn [msg, icon];",
+        "outputs": 2,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 720,
+        "y": 1220,
+        "wires": [
+            [
+                "ebeb7e6d.61e6c",
+                "c9cadf3c.4dd91",
+                "75f934f.744b2cc",
+                "a77336d4.24c878",
+                "ffd2dd.8b18ad2"
+            ],
+            [
+                "509eb66d.0f6d88"
+            ]
+        ]
+    },
+    {
+        "id": "a887c10.0424b4",
+        "type": "change",
+        "z": "1d22c714.e50369",
+        "name": "Set location, appid, units",
+        "rules": [
+            {
+                "t": "delete",
+                "p": "payload",
+                "pt": "msg"
+            },
+            {
+                "t": "set",
+                "p": "payload.lat",
+                "pt": "msg",
+                "to": "35.64",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "payload.lon",
+                "pt": "msg",
+                "to": "139.75",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "payload.appid",
+                "pt": "msg",
+                "to": "15d881fdb1d9153fb4f7a70b1213113b",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "payload.units",
+                "pt": "msg",
+                "to": "metric",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "units",
+                "pt": "flow",
+                "to": "payload.units",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 350,
+        "y": 1160,
+        "wires": [
+            [
+                "c8db48f7.af9608"
+            ]
+        ]
+    },
+    {
+        "id": "c15b266b.9463f8",
+        "type": "ui_ui_control",
+        "z": "1d22c714.e50369",
+        "name": "Update tab",
+        "events": "all",
+        "x": 110,
+        "y": 1260,
+        "wires": [
+            [
+                "61f3b938.d32948"
+            ]
+        ]
+    },
+    {
+        "id": "45293d1e.aedc04",
+        "type": "link out",
+        "z": "1d22c714.e50369",
+        "name": "Refresh",
+        "links": [
+            "b8c07479.ab99c8"
+        ],
+        "x": 1115,
+        "y": 1320,
+        "wires": []
+    },
+    {
+        "id": "b8c07479.ab99c8",
+        "type": "link in",
+        "z": "1d22c714.e50369",
+        "name": "",
+        "links": [
+            "45293d1e.aedc04"
+        ],
+        "x": 155,
+        "y": 1200,
+        "wires": [
+            [
+                "a887c10.0424b4"
+            ]
+        ]
+    },
+    {
+        "id": "61f3b938.d32948",
+        "type": "switch",
+        "z": "1d22c714.e50369",
+        "name": "tab focus",
+        "property": "tab",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 280,
+        "y": 1260,
+        "wires": [
+            [
+                "a887c10.0424b4"
+            ]
+        ]
+    },
+    {
+        "id": "65b18579.9e97ec",
+        "type": "ui_text",
+        "z": "1d22c714.e50369",
+        "group": "8a9b009f.1b35d",
+        "order": 7,
+        "width": 5,
+        "height": 1,
+        "name": "Last refresh - humidity",
+        "label": "",
+        "format": "<i class=\"fa fa-refresh\" aria-hidden=\"true\">&nbsp; {{ msg.payload | date: 'MMM d, y - HH:mm:ss'}}</i> ",
+        "layout": "row-center",
+        "x": 1360,
+        "y": 940,
+        "wires": []
+    },
+    {
+        "id": "58c9bab9.be3fc4",
+        "type": "function",
+        "z": "1d22c714.e50369",
+        "name": "Parse telemetry JSON",
+        "func": "\nvar newMsg =  { \n        payload: new Date(msg.payload[0].time)\n};\nreturn newMsg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 1140,
+        "y": 940,
+        "wires": [
+            [
+                "65b18579.9e97ec"
+            ]
+        ]
+    },
+    {
+        "id": "5914ecc9.808654",
+        "type": "function",
+        "z": "1d22c714.e50369",
+        "name": "Parse telemetry JSON",
+        "func": "\nvar newMsg =  { \n        payload: new Date(msg.payload[0].time)\n};\nreturn newMsg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 1140,
+        "y": 800,
+        "wires": [
+            [
+                "1c83a03b.a169c"
+            ]
+        ]
+    },
+    {
+        "id": "1c83a03b.a169c",
+        "type": "ui_text",
+        "z": "1d22c714.e50369",
+        "group": "8a9b009f.1b35d",
+        "order": 6,
+        "width": 5,
+        "height": 1,
+        "name": "Last refresh - temp",
+        "label": "",
+        "format": "<i class=\"fa fa-refresh\" aria-hidden=\"true\">&nbsp; {{ msg.payload | date: 'MMM d, y - HH:mm:ss'}}</i> ",
+        "layout": "row-center",
+        "x": 1350,
+        "y": 800,
+        "wires": []
+    },
+    {
+        "id": "f8fee95.2171618",
+        "type": "influxdb in",
+        "z": "1d22c714.e50369",
+        "influxdb": "8193652c.e6bda8",
+        "name": "Select past 24 hours",
+        "query": "SELECT * FROM water_quality GROUP BY * ORDER BY DESC LIMIT 500",
+        "rawOutput": false,
+        "precision": "",
+        "retentionPolicy": "",
+        "org": "organisation",
+        "x": 960,
+        "y": 260,
+        "wires": [
+            [
+                "fff065af.0a0958"
+            ]
+        ]
+    },
+    {
+        "id": "ad68634.aaabaa",
+        "type": "ui_chart",
+        "z": "1d22c714.e50369",
+        "name": "",
+        "group": "65d119b5.66cb78",
+        "order": 5,
+        "width": 10,
+        "height": 5,
+        "label": "",
+        "chartType": "line",
+        "legend": "true",
+        "xformat": "HH:mm:ss",
+        "interpolate": "bezier",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "x": 1670,
+        "y": 380,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "8b39391d.356ce8",
+        "type": "function",
+        "z": "1d22c714.e50369",
+        "name": "",
+        "func": "\n var series =[\"Water quality\", \"Water temperature\"];\n var labels = [\"Water quality\", \"Water temperature\"];\n var data = [];\n var dataWaterQuality = [];\n var dataWaterTemperature = [];\n\n var i, len, string;\n\n for (i = 0, len = msg.payload.waterTemperature.length, string = \"\"; i < len; i++) {\n  dataWaterQuality.push({\n        \"x\":Date.parse(msg.payload.waterTemperature[i].time), \n        \"y\":Number(msg.payload.waterTemperature[i].value)});\n  }\n\n for (i = 0, len = msg.payload.waterQuality.length, string = \"\"; i < len; i++) {\n    dataWaterTemperature.push({\n        \"x\":Date.parse(msg.payload.waterQuality[i].time), \n        \"y\":Number(msg.payload.waterQuality[i].value)});\n }\n     \n\n data = [dataWaterQuality, dataWaterTemperature];\n msg.payload = [{series, data, labels}];\n\n return msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 1540,
+        "y": 380,
+        "wires": [
+            [
+                "ad68634.aaabaa"
+            ]
+        ]
+    },
+    {
+        "id": "a34db445.a149b8",
+        "type": "influxdb in",
+        "z": "1d22c714.e50369",
+        "influxdb": "8193652c.e6bda8",
+        "name": "Select past 24 hours",
+        "query": "SELECT * FROM water_temperature GROUP BY * ORDER BY DESC LIMIT 500",
+        "rawOutput": false,
+        "precision": "",
+        "retentionPolicy": "",
+        "org": "organisation",
+        "x": 960,
+        "y": 580,
+        "wires": [
+            [
+                "7b566b7.097d094"
+            ]
+        ]
+    },
+    {
+        "id": "fff065af.0a0958",
+        "type": "change",
+        "z": "1d22c714.e50369",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "origin",
+                "pt": "msg",
+                "to": "waterQuality",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1180,
+        "y": 260,
+        "wires": [
+            [
+                "abe678a7.9a28b8"
+            ]
+        ]
+    },
+    {
+        "id": "7b566b7.097d094",
+        "type": "change",
+        "z": "1d22c714.e50369",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "origin",
+                "pt": "msg",
+                "to": "waterTemperature",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1180,
+        "y": 580,
+        "wires": [
+            [
+                "abe678a7.9a28b8"
+            ]
+        ]
+    },
+    {
+        "id": "abe678a7.9a28b8",
+        "type": "join",
+        "z": "1d22c714.e50369",
+        "name": "",
+        "mode": "custom",
+        "build": "object",
+        "property": "payload",
+        "propertyType": "msg",
+        "key": "origin",
+        "joiner": "message",
+        "joinerType": "str",
+        "accumulate": false,
+        "timeout": "",
+        "count": "2",
+        "reduceRight": false,
+        "reduceExp": "",
+        "reduceInit": "",
+        "reduceInitType": "",
+        "reduceFixup": "",
+        "x": 1410,
+        "y": 380,
+        "wires": [
+            [
+                "8b39391d.356ce8"
+            ]
+        ]
+    },
+    {
+        "id": "3e5edd24.dccb82",
+        "type": "function",
+        "z": "1d22c714.e50369",
+        "name": "Parse telemetry JSON",
+        "func": "\nvar newMsg =  { \n        payload: new Date(msg.payload[0].time)\n};\nreturn newMsg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 1200,
+        "y": 540,
+        "wires": [
+            [
+                "ad8e7270.bfabd"
+            ]
+        ]
+    },
+    {
+        "id": "ad8e7270.bfabd",
+        "type": "ui_text",
+        "z": "1d22c714.e50369",
+        "group": "65d119b5.66cb78",
+        "order": 4,
+        "width": 5,
+        "height": 1,
+        "name": "Last refresh - water temp",
+        "label": "",
+        "format": "<i class=\"fa fa-refresh\" aria-hidden=\"true\">&nbsp; {{ msg.payload | date: 'MMM d, y - HH:mm:ss'}}</i> ",
+        "layout": "row-center",
+        "x": 1430,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "383c0ad2.b2e656",
+        "type": "ui_text",
+        "z": "1d22c714.e50369",
+        "group": "65d119b5.66cb78",
+        "order": 3,
+        "width": 5,
+        "height": 1,
+        "name": "Last refresh - water quality",
+        "label": "",
+        "format": "<i class=\"fa fa-refresh\" aria-hidden=\"true\">&nbsp; {{ msg.payload | date: 'MMM d, y - HH:mm:ss'}}</i> ",
+        "layout": "row-center",
+        "x": 1440,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "eb66256c.111fa8",
+        "type": "function",
+        "z": "1d22c714.e50369",
+        "name": "Parse telemetry JSON",
+        "func": "\nvar newMsg =  { \n        payload: new Date(msg.payload[0].time)\n};\nreturn newMsg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 1200,
+        "y": 220,
+        "wires": [
+            [
+                "383c0ad2.b2e656"
+            ]
+        ]
+    },
+    {
+        "id": "c1e51a25.bcd2f8",
+        "type": "ui_switch",
+        "z": "87cb301d.9893c",
+        "name": "",
+        "label": "Water spray",
+        "tooltip": "",
+        "group": "f0e58282.f2736",
+        "order": 4,
+        "width": 4,
+        "height": 1,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "x": 150,
+        "y": 120,
+        "wires": [
+            [
+                "dec1467a.516188",
+                "e6b06459.aad598"
+            ]
+        ]
+    },
+    {
+        "id": "b9dd843.3247178",
+        "type": "delay",
+        "z": "87cb301d.9893c",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "30",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "x": 600,
+        "y": 180,
+        "wires": [
+            [
+                "25335612.5b58da"
+            ]
+        ]
+    },
+    {
+        "id": "e6b06459.aad598",
+        "type": "mqtt out",
+        "z": "87cb301d.9893c",
+        "name": "Water spray",
+        "topic": "hydro/water_spray/switch",
+        "qos": "0",
+        "retain": "",
+        "broker": "a0e631b8.d383b",
+        "x": 370,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "d0f89a7b.d9a8f8",
+        "type": "ui_led",
+        "z": "1d22c714.e50369",
+        "group": "f0e58282.f2736",
+        "order": 5,
+        "width": 2,
+        "height": 1,
+        "label": "",
+        "labelPlacement": "right",
+        "labelAlignment": "right",
+        "colorForValue": [
+            {
+                "color": "red",
+                "value": "false",
+                "valueType": "str"
+            },
+            {
+                "color": "green",
+                "value": "true",
+                "valueType": "str"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "name": "water spray",
+        "x": 390,
+        "y": 600,
+        "wires": []
+    },
+    {
+        "id": "a1ae6930.2b69c8",
+        "type": "mqtt in",
+        "z": "1d22c714.e50369",
+        "name": "",
+        "topic": "hydro/water_spray/s",
+        "qos": "0",
+        "datatype": "auto",
+        "broker": "a0e631b8.d383b",
+        "x": 150,
+        "y": 600,
+        "wires": [
+            [
+                "d0f89a7b.d9a8f8"
+            ]
+        ]
+    },
+    {
+        "id": "8c5d6ffa.8aeae",
+        "type": "link out",
+        "z": "87cb301d.9893c",
+        "name": "",
+        "links": [],
+        "x": -35,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "25335612.5b58da",
+        "type": "change",
+        "z": "87cb301d.9893c",
+        "name": "Switch to off",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "false",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 770,
+        "y": 180,
+        "wires": [
+            [
+                "c1e51a25.bcd2f8"
+            ]
+        ]
+    },
+    {
+        "id": "dec1467a.516188",
+        "type": "switch",
+        "z": "87cb301d.9893c",
+        "name": "When water spray on",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "true"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 400,
+        "y": 180,
+        "wires": [
+            [
+                "b9dd843.3247178"
+            ]
+        ]
+    },
+    {
+        "id": "af05ff6e.ae85d",
+        "type": "change",
+        "z": "1d22c714.e50369",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "ui_control",
+                "pt": "msg",
+                "to": "{\"options\":{\"valueFontColor\":\"#FFFFFF\"}}",
+                "tot": "json"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 810,
+        "y": 80,
+        "wires": [
+            [
+                "c89e7a62.0df008"
+            ]
+        ]
+    },
+    {
+        "id": "134f40ec.1ec4bf",
+        "type": "camerapi-takephoto",
+        "z": "1d22c714.e50369",
+        "filemode": "1",
+        "filename": "photo1.JPEG",
+        "filedefpath": "0",
+        "filepath": "~/.node-red/projects/Hydroponic/ui-media/",
+        "fileformat": "jpeg",
+        "resolution": "4",
+        "rotation": "0",
+        "fliph": "0",
+        "flipv": "0",
+        "brightness": "50",
+        "contrast": "0",
+        "sharpness": "0",
+        "quality": "80",
+        "imageeffect": "none",
+        "exposuremode": "auto",
+        "iso": "0",
+        "agcwait": "1.0",
+        "led": "0",
+        "awb": "auto",
+        "name": "Take Photo",
+        "x": 270,
+        "y": 980,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ec42ca0e.6c9dd8",
+        "type": "ui_template",
+        "z": "1d22c714.e50369",
+        "group": "65d119b5.66cb78",
+        "name": "",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "format": "<script>\nvar value = \"1\";\n// or overwrite value in your callback function ...\nthis.scope.action = function() { return value; }\n\nfunction updateF() {\n  var source = '/photo1.JPEG',\n  timestamp = (new Date()).getTime(),\n  newUrl = source + '?_=' + timestamp;\n  document.getElementById(\"photo\").src = newUrl;\n}\n</script>\n\n<md-button ng-click=\"send({payload:action()})\" onclick=\"setTimeout(updateF, 2500);\"  >\n <ui-icon icon=\"camera\"></ui-icon>\n Take a photo<br>\n</md-button>\n\n<div style=\"margin-bottom:40px;\">\n <img src=\"/photo1.JPEG\" id=\"photo\" width=\"100%\" height=\"100%\">\n</div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "x": 110,
+        "y": 980,
+        "wires": [
+            [
+                "134f40ec.1ec4bf"
+            ]
+        ]
+    }
+]
