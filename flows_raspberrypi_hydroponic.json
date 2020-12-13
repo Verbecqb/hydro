@@ -317,7 +317,8 @@
                 "primary": "indigo",
                 "accents": "blue",
                 "warn": "red",
-                "background": "grey"
+                "background": "grey",
+                "palette": "dark"
             }
         },
         "site": {
@@ -418,7 +419,7 @@
         "tab": "352c089f.6b44d8",
         "order": 4,
         "disp": true,
-        "width": "14",
+        "width": 13,
         "collapse": false,
         "info": "# Seed tray LEDs"
     },
@@ -437,7 +438,7 @@
         "tab": "352c089f.6b44d8",
         "order": 2,
         "disp": true,
-        "width": 17,
+        "width": 15,
         "collapse": false
     },
     {
@@ -447,7 +448,7 @@
         "tab": "352c089f.6b44d8",
         "order": 3,
         "disp": true,
-        "width": 10,
+        "width": 15,
         "collapse": false
     },
     {
@@ -459,6 +460,240 @@
         "disp": true,
         "width": 17,
         "collapse": false
+    },
+    {
+        "id": "fa046354.21b6c",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "1c37dc0b.ce28e4",
+        "order": 5,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "11fd1fb2.b8fa7",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "1c37dc0b.ce28e4",
+        "order": 8,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "153acbfe.724af4",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "8a9b009f.1b35d",
+        "order": 3,
+        "width": 5,
+        "height": 1
+    },
+    {
+        "id": "65a7fcc3.5aadd4",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "8a9b009f.1b35d",
+        "order": 4,
+        "width": 5,
+        "height": 1
+    },
+    {
+        "id": "199442d2.f9072d",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "8a9b009f.1b35d",
+        "order": 5,
+        "width": 5,
+        "height": 1
+    },
+    {
+        "id": "111bacdb.3f3df3",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "8a9b009f.1b35d",
+        "order": 8,
+        "width": 5,
+        "height": 1
+    },
+    {
+        "id": "293dac44.3b4e64",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "65d119b5.66cb78",
+        "order": 3,
+        "width": 5,
+        "height": 1
+    },
+    {
+        "id": "dc4c63c8.f8b23",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "65d119b5.66cb78",
+        "order": 4,
+        "width": 5,
+        "height": 1
+    },
+    {
+        "id": "64e74123.c901",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "65d119b5.66cb78",
+        "order": 5,
+        "width": 5,
+        "height": 1
+    },
+    {
+        "id": "a12e7433.68e6a8",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "65d119b5.66cb78",
+        "order": 6,
+        "width": 5,
+        "height": 1
+    },
+    {
+        "id": "a9fb10d8.ba92f",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "65d119b5.66cb78",
+        "order": 9,
+        "width": 5,
+        "height": 1
+    },
+    {
+        "id": "ece925c8.8ba198",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "65d119b5.66cb78",
+        "order": 11,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "be8d19f7.7f8f88",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "65d119b5.66cb78",
+        "order": 12,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "9aedf591.78d368",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "65d119b5.66cb78",
+        "order": 13,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "2b41b21f.17571e",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "65d119b5.66cb78",
+        "order": 14,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "26f7112f.8f25de",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "65d119b5.66cb78",
+        "order": 15,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "a4effd53.0dc16",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "f0e58282.f2736",
+        "order": 2,
+        "width": 5,
+        "height": 1
+    },
+    {
+        "id": "b0705265.218e2",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "f0e58282.f2736",
+        "order": 3,
+        "width": 5,
+        "height": 1
+    },
+    {
+        "id": "eb32ddff.6fbe7",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "f0e58282.f2736",
+        "order": 8,
+        "width": 5,
+        "height": 1
+    },
+    {
+        "id": "4dccfe2d.ceeb5",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "f0e58282.f2736",
+        "order": 9,
+        "width": 5,
+        "height": 1
+    },
+    {
+        "id": "9972a47f.8036d8",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "f0e58282.f2736",
+        "order": 10,
+        "width": 5,
+        "height": 1
+    },
+    {
+        "id": "98d5a699.3e57b8",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "f0e58282.f2736",
+        "order": 11,
+        "width": 5,
+        "height": 1
+    },
+    {
+        "id": "170ab02e.4459c",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "f0e58282.f2736",
+        "order": 13,
+        "width": 5,
+        "height": 1
+    },
+    {
+        "id": "986b342f.d05fa8",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "f0e58282.f2736",
+        "order": 14,
+        "width": 5,
+        "height": 1
+    },
+    {
+        "id": "3931976d.677858",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "f0e58282.f2736",
+        "order": 15,
+        "width": 5,
+        "height": 1
+    },
+    {
+        "id": "fc2388ba.f6d328",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "f0e58282.f2736",
+        "order": 16,
+        "width": 5,
+        "height": 1
     },
     {
         "id": "2d617978.71ca86",
@@ -540,8 +775,7 @@
             ],
             [
                 "a26738f1.82d358",
-                "b7f7abe3.8afe58",
-                "d4f4e64.f4cb118"
+                "b7f7abe3.8afe58"
             ],
             [
                 "613ad10.d3ab93",
@@ -614,7 +848,7 @@
         "group": "65d119b5.66cb78",
         "order": 1,
         "width": 5,
-        "height": 3,
+        "height": 4,
         "gtype": "gage",
         "title": "Water Quality",
         "label": "",
@@ -658,8 +892,8 @@
         "label": "Grow lights",
         "tooltip": "Led",
         "group": "f0e58282.f2736",
-        "order": 2,
-        "width": 4,
+        "order": 4,
+        "width": 3,
         "height": 1,
         "passthru": true,
         "decouple": "false",
@@ -801,7 +1035,7 @@
         "z": "1d22c714.e50369",
         "name": "",
         "group": "f0e58282.f2736",
-        "order": 1,
+        "order": 12,
         "width": 8,
         "height": 4,
         "label": "Luminosity",
@@ -832,7 +1066,7 @@
         ],
         "outputs": 1,
         "x": 790,
-        "y": 300,
+        "y": 320,
         "wires": [
             []
         ]
@@ -1015,77 +1249,15 @@
         "org": "organisation",
         "bucket": "bucket",
         "x": 870,
-        "y": 340,
+        "y": 360,
         "wires": []
-    },
-    {
-        "id": "74af2bf6.5a9344",
-        "type": "ui_template",
-        "z": "1d22c714.e50369",
-        "group": "f0e58282.f2736",
-        "name": "Last refresh luminosity",
-        "order": 9,
-        "width": 8,
-        "height": 1,
-        "format": "\n<div ng-style=\"style\"> Last refresh {{ latestUpdate | date: 'medium'}} </div>\n\n\n<script>\n(function(scope) {\n \n  scope.$watch('msg', function(msg) {\n    if (msg) {\n      scope.latestUpdate = new Date(msg.payload[0].time);\n    }\n  });\n})(scope);\n</script>",
-        "storeOutMessages": true,
-        "fwdInMessages": true,
-        "resendOnRefresh": true,
-        "templateScope": "local",
-        "x": 1180,
-        "y": 380,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "4be17712.274be8",
-        "type": "influxdb in",
-        "z": "1d22c714.e50369",
-        "influxdb": "8193652c.e6bda8",
-        "name": "Select past 24 hours",
-        "query": "SELECT * FROM luminosity GROUP BY * ORDER BY DESC LIMIT 1",
-        "rawOutput": false,
-        "precision": "",
-        "retentionPolicy": "",
-        "org": "organisation",
-        "x": 960,
-        "y": 380,
-        "wires": [
-            [
-                "74af2bf6.5a9344"
-            ]
-        ]
-    },
-    {
-        "id": "d4f4e64.f4cb118",
-        "type": "delay",
-        "z": "1d22c714.e50369",
-        "name": "",
-        "pauseType": "delay",
-        "timeout": "2",
-        "timeoutUnits": "seconds",
-        "rate": "1",
-        "nbRateUnits": "1",
-        "rateUnits": "second",
-        "randomFirst": "1",
-        "randomLast": "5",
-        "randomUnits": "seconds",
-        "drop": false,
-        "x": 780,
-        "y": 380,
-        "wires": [
-            [
-                "4be17712.274be8"
-            ]
-        ]
     },
     {
         "id": "54666026.3c8da",
         "type": "ui_led",
         "z": "1d22c714.e50369",
         "group": "f0e58282.f2736",
-        "order": 3,
+        "order": 5,
         "width": 2,
         "height": 1,
         "label": "",
@@ -1134,7 +1306,7 @@
         "group": "65d119b5.66cb78",
         "order": 2,
         "width": 5,
-        "height": 3,
+        "height": 4,
         "gtype": "gage",
         "title": "Water Temperature",
         "label": "",
@@ -1366,7 +1538,7 @@
         "z": "1d22c714.e50369",
         "group": "1c37dc0b.ce28e4",
         "order": 6,
-        "width": 6,
+        "width": 7,
         "height": 1,
         "name": "Description",
         "label": "",
@@ -1413,7 +1585,7 @@
         "type": "ui_text",
         "z": "1d22c714.e50369",
         "group": "1c37dc0b.ce28e4",
-        "order": 8,
+        "order": 7,
         "width": 4,
         "height": 1,
         "name": "SunsetTime",
@@ -1751,10 +1923,10 @@
         "id": "ad68634.aaabaa",
         "type": "ui_chart",
         "z": "1d22c714.e50369",
-        "name": "",
+        "name": "Seed tray historical value graph",
         "group": "65d119b5.66cb78",
-        "order": 5,
-        "width": 10,
+        "order": 10,
+        "width": 14,
         "height": 5,
         "label": "",
         "chartType": "line",
@@ -1783,7 +1955,7 @@
             "#c5b0d5"
         ],
         "outputs": 1,
-        "x": 1670,
+        "x": 1750,
         "y": 380,
         "wires": [
             []
@@ -1794,7 +1966,7 @@
         "type": "function",
         "z": "1d22c714.e50369",
         "name": "",
-        "func": "\n var series =[\"Water quality\", \"Water temperature\"];\n var labels = [\"Water quality\", \"Water temperature\"];\n var data = [];\n var dataWaterQuality = [];\n var dataWaterTemperature = [];\n\n var i, len, string;\n\n for (i = 0, len = msg.payload.waterTemperature.length, string = \"\"; i < len; i++) {\n  dataWaterQuality.push({\n        \"x\":Date.parse(msg.payload.waterTemperature[i].time), \n        \"y\":Number(msg.payload.waterTemperature[i].value)});\n  }\n\n for (i = 0, len = msg.payload.waterQuality.length, string = \"\"; i < len; i++) {\n    dataWaterTemperature.push({\n        \"x\":Date.parse(msg.payload.waterQuality[i].time), \n        \"y\":Number(msg.payload.waterQuality[i].value)});\n }\n     \n\n data = [dataWaterQuality, dataWaterTemperature];\n msg.payload = [{series, data, labels}];\n\n return msg;\n",
+        "func": "\n var series =[\"Water quality\", \"Water temperature\"];\n var labels = [\"Water quality\", \"Water temperature\"];\n var data = [];\n var dataWaterQuality = [];\n var dataWaterTemperature = [];\n\n var i, len, string;\n\n for (i = 0, len = msg.payload.waterTemperature.length, string = \"\"; i < len; i++) {\n  dataWaterTemperature.push({\n        \"x\":Date.parse(msg.payload.waterTemperature[i].time), \n        \"y\":Number(msg.payload.waterTemperature[i].value)});\n  }\n\n for (i = 0, len = msg.payload.waterQuality.length, string = \"\"; i < len; i++) {\n    dataWaterQuality.push({\n        \"x\":Date.parse(msg.payload.waterQuality[i].time), \n        \"y\":Number(msg.payload.waterQuality[i].value)});\n }\n     \n\n data = [dataWaterQuality, dataWaterTemperature];\n msg.payload = [{series, data, labels}];\n\n return msg;\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -1931,7 +2103,7 @@
         "type": "ui_text",
         "z": "1d22c714.e50369",
         "group": "65d119b5.66cb78",
-        "order": 4,
+        "order": 8,
         "width": 5,
         "height": 1,
         "name": "Last refresh - water temp",
@@ -1947,7 +2119,7 @@
         "type": "ui_text",
         "z": "1d22c714.e50369",
         "group": "65d119b5.66cb78",
-        "order": 3,
+        "order": 7,
         "width": 5,
         "height": 1,
         "name": "Last refresh - water quality",
@@ -1984,8 +2156,8 @@
         "label": "Water spray",
         "tooltip": "",
         "group": "f0e58282.f2736",
-        "order": 4,
-        "width": 4,
+        "order": 6,
+        "width": 3,
         "height": 1,
         "passthru": true,
         "decouple": "false",
@@ -2049,7 +2221,7 @@
         "type": "ui_led",
         "z": "1d22c714.e50369",
         "group": "f0e58282.f2736",
-        "order": 5,
+        "order": 7,
         "width": 2,
         "height": 1,
         "label": "",
@@ -2201,28 +2373,55 @@
         "led": "0",
         "awb": "auto",
         "name": "Take Photo",
-        "x": 270,
-        "y": 980,
+        "x": 290,
+        "y": 920,
         "wires": [
-            []
+            [
+                "ec42ca0e.6c9dd8"
+            ]
         ]
     },
     {
         "id": "ec42ca0e.6c9dd8",
         "type": "ui_template",
         "z": "1d22c714.e50369",
-        "group": "65d119b5.66cb78",
-        "name": "",
-        "order": 5,
-        "width": 0,
-        "height": 0,
-        "format": "<script>\nvar value = \"1\";\n// or overwrite value in your callback function ...\nthis.scope.action = function() { return value; }\n\nfunction updateF() {\n  var source = '/photo1.JPEG',\n  timestamp = (new Date()).getTime(),\n  newUrl = source + '?_=' + timestamp;\n  document.getElementById(\"photo\").src = newUrl;\n}\n</script>\n\n<md-button ng-click=\"send({payload:action()})\" onclick=\"setTimeout(updateF, 2500);\"  >\n <ui-icon icon=\"camera\"></ui-icon>\n Take a photo<br>\n</md-button>\n\n<div style=\"margin-bottom:40px;\">\n <img src=\"/photo1.JPEG\" id=\"photo\" width=\"100%\" height=\"100%\">\n</div>",
+        "group": "f0e58282.f2736",
+        "name": "Seed tray image",
+        "order": 1,
+        "width": 8,
+        "height": 8,
+        "format": "<md-card class=\"md-primary\">\n  \n  <md-card-actions>\n   <md-button ng-click=\"send({payload:1})\" >\n       <ui-icon icon=\"camera\"></ui-icon>Take a photo<br>\n   </md-button>\n   <md-button ng-click=\"send({payload:1})\" >\n     <i class=\"fa fa-refresh\" aria-hidden=\"true\">  {{timestamp | date: 'MMM d, y - HH:mm:ss'}}</i>\n   </md-button>\n  </md-card-actions>\n  \n  <md-card-header>\n    <md-card-media>\n         <img width=\"360\" height=\"240\" src=\"{{photoURL}}\" class=\"md-card-image\" >\n    </md-card-media>\n  </md-card-header>\n\n</md-card>\n\n\n\n<script>\n\n(function(scope) {\n    // $watch fires each time the node is triggered in the flow\n    scope.$watch('msg', function(msg) {\n        scope.timestamp = new Date();\n        scope.photoURL = \"/photo1.JPEG?_=\" + new Date();\n    });\n\n})(scope);\n\n</script>",
         "storeOutMessages": true,
-        "fwdInMessages": true,
+        "fwdInMessages": false,
         "resendOnRefresh": true,
         "templateScope": "local",
-        "x": 110,
+        "x": 280,
         "y": 980,
+        "wires": [
+            [
+                "134f40ec.1ec4bf"
+            ]
+        ]
+    },
+    {
+        "id": "e78bf6ed.43bf08",
+        "type": "inject",
+        "z": "1d22c714.e50369",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "600",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "0.2",
+        "topic": "",
+        "payload": "1",
+        "payloadType": "num",
+        "x": 120,
+        "y": 920,
         "wires": [
             [
                 "134f40ec.1ec4bf"
