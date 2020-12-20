@@ -8,10 +8,8 @@
         "node-red-contrib-ui-led": "0.3.3",
         "node-red-contrib-ui-artless-gauge": "0.2.7",
         "node-red-contrib-influxdb": "0.5.2",
-        "node-red-contrib-image-tools": "1.4.0",
         "node-red-contrib-eztimer": "1.2.4",
-        "node-red-contrib-camerapi": "0.0.39",
-        "node-red-contrib-post-object-detection": "0.1.6"
+        "node-red-contrib-camerapi": "0.0.39"
     },
     "node-red": {
         "settings": {
