@@ -1,0 +1,1 @@
+{"timers":[{"starttime":1607986800000,"days":[1,1,1,1,1,1,1],"output":"0","event":true}]}

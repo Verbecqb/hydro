@@ -28,6 +28,128 @@
         "info": ""
     },
     {
+        "id": "a0e631b8.d383b",
+        "type": "mqtt-broker",
+        "name": "Mosquitto",
+        "broker": "localhost",
+        "port": "1883",
+        "clientid": "",
+        "usetls": false,
+        "compatmode": false,
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": ""
+    },
+    {
+        "id": "8193652c.e6bda8",
+        "type": "influxdb",
+        "hostname": "127.0.0.1",
+        "port": "8086",
+        "protocol": "http",
+        "database": "hydro",
+        "name": "",
+        "usetls": false,
+        "tls": "",
+        "influxdbVersion": "1.x",
+        "url": "http://localhost:8086",
+        "rejectUnauthorized": true
+    },
+    {
+        "id": "f0e58282.f2736",
+        "type": "ui_group",
+        "name": "Control - Seed Tray",
+        "tab": "352c089f.6b44d8",
+        "order": 4,
+        "disp": true,
+        "width": 26,
+        "collapse": false,
+        "info": "# Seed tray LEDs"
+    },
+    {
+        "id": "8a9b009f.1b35d",
+        "type": "ui_group",
+        "name": "Room environment",
+        "tab": "352c089f.6b44d8",
+        "order": 2,
+        "disp": true,
+        "width": 13,
+        "collapse": false
+    },
+    {
+        "id": "65d119b5.66cb78",
+        "type": "ui_group",
+        "name": "Seed Tray",
+        "tab": "352c089f.6b44d8",
+        "order": 3,
+        "disp": true,
+        "width": 13,
+        "collapse": false
+    },
+    {
+        "id": "1c37dc0b.ce28e4",
+        "type": "ui_group",
+        "name": "Weather forecast",
+        "tab": "352c089f.6b44d8",
+        "order": 1,
+        "disp": true,
+        "width": 25,
+        "collapse": false
+    },
+    {
+        "id": "bdf4ab4f.fa8958",
+        "type": "ui_group",
+        "name": "Control - Seed tray - Water spray",
+        "tab": "352c089f.6b44d8",
+        "order": 6,
+        "disp": true,
+        "width": 7,
+        "collapse": false
+    },
+    {
+        "id": "72b67add.961f74",
+        "type": "ui_group",
+        "name": "Seed tray - Grow lights",
+        "tab": "352c089f.6b44d8",
+        "order": 5,
+        "disp": true,
+        "width": 7,
+        "collapse": false
+    },
+    {
+        "id": "7c4daf03.72fb9",
+        "type": "ui_group",
+        "name": "Graph",
+        "tab": "8c3cdae1.44ca38",
+        "order": 5,
+        "disp": true,
+        "width": "30",
+        "collapse": true
+    },
+    {
+        "id": "352c089f.6b44d8",
+        "type": "ui_tab",
+        "name": "Hydroponic",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "8c3cdae1.44ca38",
+        "type": "ui_tab",
+        "name": "Grafana",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
         "id": "e8854cf5.bbc99",
         "type": "ui_spacer",
         "name": "spacer",
@@ -116,41 +238,6 @@
         "order": 8,
         "width": 6,
         "height": 1
-    },
-    {
-        "id": "a0e631b8.d383b",
-        "type": "mqtt-broker",
-        "name": "Mosquitto",
-        "broker": "localhost",
-        "port": "1883",
-        "clientid": "",
-        "usetls": false,
-        "compatmode": false,
-        "keepalive": "60",
-        "cleansession": true,
-        "birthTopic": "",
-        "birthQos": "0",
-        "birthPayload": "",
-        "closeTopic": "",
-        "closeQos": "0",
-        "closePayload": "",
-        "willTopic": "",
-        "willQos": "0",
-        "willPayload": ""
-    },
-    {
-        "id": "8193652c.e6bda8",
-        "type": "influxdb",
-        "hostname": "127.0.0.1",
-        "port": "8086",
-        "protocol": "http",
-        "database": "hydro",
-        "name": "",
-        "usetls": false,
-        "tls": "",
-        "influxdbVersion": "1.x",
-        "url": "http://localhost:8086",
-        "rejectUnauthorized": true
     },
     {
         "id": "6dc911ee.ea694",
@@ -243,6 +330,78 @@
         "height": 1
     },
     {
+        "id": "f8e5458c.a3e458",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 5,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "2e5354b4.fa9efc",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 8,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "55451708.9195b8",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 4,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "8a9743e3.77e45",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 6,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "cd7c0825.8eea08",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 7,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "b116a7ee.4a8928",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 6,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "ac904da2.49289",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 7,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "d031979b.9eb4d8",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 9,
+        "width": 6,
+        "height": 1
+    },
+    {
         "id": "d7b17763.6bfd98",
         "type": "ui_base",
         "theme": {
@@ -317,13 +476,14 @@
                 "primary": "indigo",
                 "accents": "blue",
                 "warn": "red",
-                "background": "grey"
+                "background": "grey",
+                "palette": "dark"
             }
         },
         "site": {
             "name": "Node-RED Dashboard",
             "hideToolbar": "false",
-            "allowSwipe": "true",
+            "allowSwipe": "false",
             "lockMenu": "false",
             "allowTempTheme": "none",
             "dateFormat": "DD/MM/YYYY",
@@ -340,166 +500,7 @@
         }
     },
     {
-        "id": "f8e5458c.a3e458",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "",
-        "order": 5,
-        "width": 2,
-        "height": 1
-    },
-    {
-        "id": "2e5354b4.fa9efc",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "",
-        "order": 8,
-        "width": 3,
-        "height": 1
-    },
-    {
-        "id": "55451708.9195b8",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "",
-        "order": 4,
-        "width": 2,
-        "height": 1
-    },
-    {
-        "id": "8a9743e3.77e45",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "",
-        "order": 6,
-        "width": 2,
-        "height": 1
-    },
-    {
-        "id": "cd7c0825.8eea08",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "",
-        "order": 7,
-        "width": 7,
-        "height": 1
-    },
-    {
-        "id": "b116a7ee.4a8928",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "",
-        "order": 6,
-        "width": 6,
-        "height": 1
-    },
-    {
-        "id": "ac904da2.49289",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "",
-        "order": 7,
-        "width": 6,
-        "height": 1
-    },
-    {
-        "id": "d031979b.9eb4d8",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "",
-        "order": 9,
-        "width": 6,
-        "height": 1
-    },
-    {
-        "id": "f0e58282.f2736",
-        "type": "ui_group",
-        "name": "Control - Seed Tray",
-        "tab": "352c089f.6b44d8",
-        "order": 4,
-        "disp": true,
-        "width": 26,
-        "collapse": false,
-        "info": "# Seed tray LEDs"
-    },
-    {
-        "id": "352c089f.6b44d8",
-        "type": "ui_tab",
-        "name": "Hydroponic",
-        "icon": "dashboard",
-        "disabled": false,
-        "hidden": false
-    },
-    {
-        "id": "8a9b009f.1b35d",
-        "type": "ui_group",
-        "name": "Room environment",
-        "tab": "352c089f.6b44d8",
-        "order": 2,
-        "disp": true,
-        "width": 10,
-        "collapse": false
-    },
-    {
-        "id": "65d119b5.66cb78",
-        "type": "ui_group",
-        "name": "Seed Tray",
-        "tab": "352c089f.6b44d8",
-        "order": 3,
-        "disp": true,
-        "width": 16,
-        "collapse": false
-    },
-    {
-        "id": "1c37dc0b.ce28e4",
-        "type": "ui_group",
-        "name": "Weather forecast",
-        "tab": "352c089f.6b44d8",
-        "order": 1,
-        "disp": true,
-        "width": 25,
-        "collapse": false
-    },
-    {
-        "id": "7c4daf03.72fb9",
-        "type": "ui_group",
-        "name": "Graph",
-        "tab": "8c3cdae1.44ca38",
-        "order": 5,
-        "disp": true,
-        "width": "30",
-        "collapse": true
-    },
-    {
-        "id": "8c3cdae1.44ca38",
-        "type": "ui_tab",
-        "name": "Grafana",
-        "icon": "dashboard",
-        "disabled": false,
-        "hidden": false
-    },
-    {
-        "id": "bdf4ab4f.fa8958",
-        "type": "ui_group",
-        "name": "Control - Seed tray - Water spray",
-        "tab": "352c089f.6b44d8",
-        "order": 6,
-        "disp": true,
-        "width": 7,
-        "collapse": false
-    },
-    {
-        "id": "72b67add.961f74",
-        "type": "ui_group",
-        "name": "Seed tray - Grow lights",
-        "tab": "352c089f.6b44d8",
-        "order": 5,
-        "disp": true,
-        "width": 7,
-        "collapse": false
-    },
-    {
-        "id": "c099c40e.2210b8",
+        "id": "cb1deec6.bc99f",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "1c37dc0b.ce28e4",
@@ -508,7 +509,7 @@
         "height": 1
     },
     {
-        "id": "ad7de526.c1b6e8",
+        "id": "8a2a5591.c09188",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "1c37dc0b.ce28e4",
@@ -517,52 +518,97 @@
         "height": 1
     },
     {
-        "id": "9c418c9.365a57",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "8a9b009f.1b35d",
-        "order": 3,
-        "width": 2,
-        "height": 1
-    },
-    {
-        "id": "4b6595e0.6d0f3c",
+        "id": "3f866cfe.2467b4",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
         "order": 4,
-        "width": 2,
+        "width": 1,
         "height": 1
     },
     {
-        "id": "21917ec7.4013a2",
+        "id": "6f95e9b5.037e18",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
         "order": 5,
-        "width": 2,
+        "width": 1,
         "height": 1
     },
     {
-        "id": "b77f43bb.5fbc6",
+        "id": "8b917bb7.7a1c58",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
         "order": 6,
-        "width": 2,
+        "width": 1,
         "height": 1
     },
     {
-        "id": "ed7418f7.476988",
+        "id": "440d5b40.cf6964",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
-        "order": 9,
-        "width": 2,
+        "order": 7,
+        "width": 1,
         "height": 1
     },
     {
-        "id": "34905ade.01c8f6",
+        "id": "2eaecbc3.366b04",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "8a9b009f.1b35d",
+        "order": 11,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "ffb53d2a.2d7ca",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "65d119b5.66cb78",
+        "order": 4,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "6ffdbb7e.5c4c84",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "65d119b5.66cb78",
+        "order": 5,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "f64e9ecc.1652a",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "65d119b5.66cb78",
+        "order": 6,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "a2955a76.a9d0e8",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "65d119b5.66cb78",
+        "order": 7,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "ad8499f3.116978",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "65d119b5.66cb78",
+        "order": 11,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "7ab69aeb.d406f4",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "72b67add.961f74",
@@ -571,7 +617,7 @@
         "height": 1
     },
     {
-        "id": "873a12be.353ec",
+        "id": "1b4cb599.e26d4a",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "72b67add.961f74",
@@ -580,7 +626,7 @@
         "height": 1
     },
     {
-        "id": "b8652617.e609d8",
+        "id": "14ea68eb.0c0457",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "bdf4ab4f.fa8958",
@@ -589,7 +635,7 @@
         "height": 1
     },
     {
-        "id": "4b870eea.64c47",
+        "id": "707f9500.421d1c",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "bdf4ab4f.fa8958",
@@ -598,7 +644,7 @@
         "height": 1
     },
     {
-        "id": "f81a5f9.b8681a",
+        "id": "fb36d53f.4b0018",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "bdf4ab4f.fa8958",
@@ -607,7 +653,7 @@
         "height": 1
     },
     {
-        "id": "3a9428fd.eaafa8",
+        "id": "310cdd75.5aa572",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "bdf4ab4f.fa8958",
@@ -616,7 +662,7 @@
         "height": 1
     },
     {
-        "id": "cf66a7f5.16fa38",
+        "id": "ce232208.647b8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "bdf4ab4f.fa8958",
@@ -688,7 +734,8 @@
             [
                 "4d58abb1.177e64",
                 "e3814403.711458",
-                "7d66ede7.acf094"
+                "7d66ede7.acf094",
+                "38be3152.b77b6e"
             ]
         ]
     },
@@ -739,38 +786,6 @@
         "x": 880,
         "y": 460,
         "wires": []
-    },
-    {
-        "id": "df864faf.11005",
-        "type": "ui_switch",
-        "z": "87cb301d.9893c",
-        "name": "",
-        "label": "Grow lights",
-        "tooltip": "Led",
-        "group": "72b67add.961f74",
-        "order": 1,
-        "width": 4,
-        "height": 1,
-        "passthru": true,
-        "decouple": "false",
-        "topic": "hydroponic/lamp",
-        "style": "",
-        "onvalue": "true",
-        "onvalueType": "bool",
-        "onicon": "",
-        "oncolor": "",
-        "offvalue": "false",
-        "offvalueType": "bool",
-        "officon": "",
-        "offcolor": "",
-        "x": 690,
-        "y": 100,
-        "wires": [
-            [
-                "acca3832.810b88"
-            ]
-        ],
-        "info": "# Seeds tray light"
     },
     {
         "id": "acca3832.810b88",
@@ -832,24 +847,6 @@
             ],
             []
         ]
-    },
-    {
-        "id": "f3e2c3ad.8ebb2",
-        "type": "ui_toast",
-        "z": "5127740.f28848c",
-        "position": "top right",
-        "displayTime": "3",
-        "highlight": "",
-        "sendall": true,
-        "outputs": 0,
-        "ok": "OK",
-        "cancel": "",
-        "raw": false,
-        "topic": "Temperature",
-        "name": "Alert ",
-        "x": 890,
-        "y": 100,
-        "wires": []
     },
     {
         "id": "8fd06c84.9d955",
@@ -1279,96 +1276,6 @@
         "wires": []
     },
     {
-        "id": "509eb66d.0f6d88",
-        "type": "ui_button",
-        "z": "1d22c714.e50369",
-        "name": "IconRefresh",
-        "group": "1c37dc0b.ce28e4",
-        "order": 1,
-        "width": 4,
-        "height": 2,
-        "passthru": false,
-        "label": "",
-        "tooltip": "Refresh",
-        "color": "",
-        "bgcolor": "",
-        "icon": "fa-refresh fa-4x",
-        "payload": "true",
-        "payloadType": "bool",
-        "topic": "",
-        "x": 1270,
-        "y": 300,
-        "wires": [
-            [
-                "45293d1e.aedc04"
-            ]
-        ]
-    },
-    {
-        "id": "75f934f.744b2cc",
-        "type": "ui_text",
-        "z": "1d22c714.e50369",
-        "group": "1c37dc0b.ce28e4",
-        "order": 6,
-        "width": 7,
-        "height": 1,
-        "name": "Description",
-        "label": "",
-        "format": "{{msg.payload.current.weather[0].description}}",
-        "layout": "row-left",
-        "x": 1270,
-        "y": 100,
-        "wires": []
-    },
-    {
-        "id": "c9cadf3c.4dd91",
-        "type": "ui_text",
-        "z": "1d22c714.e50369",
-        "group": "1c37dc0b.ce28e4",
-        "order": 3,
-        "width": 4,
-        "height": 1,
-        "name": "Wind",
-        "label": "",
-        "format": "{{msg.payload.current.wind_speed}}&nbsp;&nbsp;<i class=\"wi wi-darksky-wind\"></i>&nbsp;&nbsp;{{msg.payload.current.wind_cardinal}}",
-        "layout": "col-center",
-        "x": 1250,
-        "y": 180,
-        "wires": []
-    },
-    {
-        "id": "a77336d4.24c878",
-        "type": "ui_text",
-        "z": "1d22c714.e50369",
-        "group": "1c37dc0b.ce28e4",
-        "order": 4,
-        "width": 4,
-        "height": 1,
-        "name": "SunriseTime",
-        "label": "",
-        "format": "<i class=\"wi wi-owm-01d\"></i>&nbsp;<i class=\"fa fa-arrow-up\"></i>&nbsp;&nbsp;{{msg.payload.current.sunrise}}",
-        "layout": "row-left",
-        "x": 1270,
-        "y": 220,
-        "wires": []
-    },
-    {
-        "id": "ffd2dd.8b18ad2",
-        "type": "ui_text",
-        "z": "1d22c714.e50369",
-        "group": "1c37dc0b.ce28e4",
-        "order": 7,
-        "width": 4,
-        "height": 1,
-        "name": "SunsetTime",
-        "label": "",
-        "format": "<i class=\"wi wi-wu-sunny\"></i>&nbsp;<i class=\"fa fa-arrow-down\"></i>&nbsp;&nbsp;{{msg.payload.current.sunset}}",
-        "layout": "row-left",
-        "x": 1270,
-        "y": 260,
-        "wires": []
-    },
-    {
         "id": "85c1ae45.14716",
         "type": "comment",
         "z": "1d22c714.e50369",
@@ -1376,22 +1283,6 @@
         "info": "",
         "x": 550,
         "y": 80,
-        "wires": []
-    },
-    {
-        "id": "ebeb7e6d.61e6c",
-        "type": "ui_text",
-        "z": "1d22c714.e50369",
-        "group": "1c37dc0b.ce28e4",
-        "order": 2,
-        "width": 3,
-        "height": 1,
-        "name": "Temperature",
-        "label": "",
-        "format": "<p style=\"font-size: 200%\">{{msg.payload.current.temp}}</p>",
-        "layout": "row-left",
-        "x": 1270,
-        "y": 140,
         "wires": []
     },
     {
@@ -1558,22 +1449,6 @@
         ]
     },
     {
-        "id": "65b18579.9e97ec",
-        "type": "ui_text",
-        "z": "1d22c714.e50369",
-        "group": "8a9b009f.1b35d",
-        "order": 7,
-        "width": 4,
-        "height": 1,
-        "name": "Last refresh - humidity",
-        "label": "",
-        "format": "<i class=\"fa fa-refresh\" aria-hidden=\"true\">&nbsp; {{ msg.payload | date: 'HH:mm:ss'}}</i> ",
-        "layout": "row-center",
-        "x": 1420,
-        "y": 1440,
-        "wires": []
-    },
-    {
         "id": "58c9bab9.be3fc4",
         "type": "function",
         "z": "1d22c714.e50369",
@@ -1610,22 +1485,6 @@
         ]
     },
     {
-        "id": "1c83a03b.a169c",
-        "type": "ui_text",
-        "z": "1d22c714.e50369",
-        "group": "8a9b009f.1b35d",
-        "order": 8,
-        "width": 4,
-        "height": 1,
-        "name": "Last refresh - temp",
-        "label": "",
-        "format": "<i class=\"fa fa-refresh\" aria-hidden=\"true\">&nbsp; {{ msg.payload | date: 'HH:mm:ss'}}</i> ",
-        "layout": "row-center",
-        "x": 1410,
-        "y": 1300,
-        "wires": []
-    },
-    {
         "id": "f8fee95.2171618",
         "type": "influxdb in",
         "z": "1d22c714.e50369",
@@ -1642,48 +1501,6 @@
             [
                 "fff065af.0a0958"
             ]
-        ]
-    },
-    {
-        "id": "ad68634.aaabaa",
-        "type": "ui_chart",
-        "z": "1d22c714.e50369",
-        "name": "Seed tray historical value graph",
-        "group": "f0e58282.f2736",
-        "order": 2,
-        "width": 18,
-        "height": 8,
-        "label": "",
-        "chartType": "line",
-        "legend": "true",
-        "xformat": "HH:mm:ss",
-        "interpolate": "bezier",
-        "nodata": "",
-        "dot": false,
-        "ymin": "",
-        "ymax": "",
-        "removeOlder": 1,
-        "removeOlderPoints": "",
-        "removeOlderUnit": "3600",
-        "cutout": 0,
-        "useOneColor": false,
-        "useUTC": false,
-        "colors": [
-            "#1f77b4",
-            "#aec7e8",
-            "#ff7f0e",
-            "#2ca02c",
-            "#98df8a",
-            "#d62728",
-            "#ff9896",
-            "#9467bd",
-            "#c5b0d5"
-        ],
-        "outputs": 1,
-        "x": 1830,
-        "y": 800,
-        "wires": [
-            []
         ]
     },
     {
@@ -1824,38 +1641,6 @@
         ]
     },
     {
-        "id": "ad8e7270.bfabd",
-        "type": "ui_text",
-        "z": "1d22c714.e50369",
-        "group": "65d119b5.66cb78",
-        "order": 6,
-        "width": 4,
-        "height": 1,
-        "name": "Last refresh - water temp",
-        "label": "",
-        "format": "<i class=\"fa fa-refresh\" aria-hidden=\"true\">&nbsp; {{ msg.payload | date: 'HH:mm:ss'}}</i> ",
-        "layout": "row-center",
-        "x": 1410,
-        "y": 860,
-        "wires": []
-    },
-    {
-        "id": "383c0ad2.b2e656",
-        "type": "ui_text",
-        "z": "1d22c714.e50369",
-        "group": "65d119b5.66cb78",
-        "order": 5,
-        "width": 4,
-        "height": 1,
-        "name": "Last refresh - water quality",
-        "label": "",
-        "format": "<i class=\"fa fa-refresh\" aria-hidden=\"true\">&nbsp; {{ msg.payload | date: 'HH:mm:ss'}}</i> ",
-        "layout": "row-center",
-        "x": 1440,
-        "y": 500,
-        "wires": []
-    },
-    {
         "id": "eb66256c.111fa8",
         "type": "function",
         "z": "1d22c714.e50369",
@@ -1870,38 +1655,6 @@
         "wires": [
             [
                 "383c0ad2.b2e656"
-            ]
-        ]
-    },
-    {
-        "id": "c1e51a25.bcd2f8",
-        "type": "ui_switch",
-        "z": "87cb301d.9893c",
-        "name": "",
-        "label": "Water spray",
-        "tooltip": "",
-        "group": "bdf4ab4f.fa8958",
-        "order": 1,
-        "width": 4,
-        "height": 1,
-        "passthru": true,
-        "decouple": "false",
-        "topic": "",
-        "style": "",
-        "onvalue": "true",
-        "onvalueType": "bool",
-        "onicon": "",
-        "oncolor": "",
-        "offvalue": "false",
-        "offvalueType": "bool",
-        "officon": "",
-        "offcolor": "",
-        "x": 210,
-        "y": 360,
-        "wires": [
-            [
-                "dec1467a.516188",
-                "e6b06459.aad598"
             ]
         ]
     },
@@ -2080,28 +1833,6 @@
         ]
     },
     {
-        "id": "ec42ca0e.6c9dd8",
-        "type": "ui_template",
-        "z": "1d22c714.e50369",
-        "group": "f0e58282.f2736",
-        "name": "Seed tray image",
-        "order": 1,
-        "width": 8,
-        "height": 8,
-        "format": "<md-card class=\"md-primary\">\n  \n  <md-card-actions>\n   <md-button ng-click=\"send({payload:1})\" >\n       <ui-icon icon=\"camera\"></ui-icon>Take a photo<br>\n   </md-button>\n   <md-button ng-click=\"send({payload:1})\" >\n     <i class=\"fa fa-refresh\" aria-hidden=\"true\">  {{timestamp | date: 'MMM d, y - HH:mm:ss'}}</i>\n   </md-button>\n  </md-card-actions>\n  \n  <md-card-header>\n    <md-card-media>\n         <img width=\"360\" height=\"240\" src=\"{{photoURL}}\" class=\"md-card-image\" >\n    </md-card-media>\n  </md-card-header>\n\n</md-card>\n\n\n\n<script>\n\n(function(scope) {\n    // $watch fires each time the node is triggered in the flow\n    scope.$watch('msg', function(msg) {\n        scope.timestamp = new Date();\n        scope.photoURL = \"/photo1.JPEG?_=\" + new Date();\n    });\n\n})(scope);\n\n</script>",
-        "storeOutMessages": true,
-        "fwdInMessages": false,
-        "resendOnRefresh": true,
-        "templateScope": "local",
-        "x": 360,
-        "y": 1720,
-        "wires": [
-            [
-                "134f40ec.1ec4bf"
-            ]
-        ]
-    },
-    {
         "id": "e78bf6ed.43bf08",
         "type": "inject",
         "z": "1d22c714.e50369",
@@ -2200,8 +1931,8 @@
         "id": "ed698194.f939d",
         "type": "ui_artlessgauge",
         "z": "1d22c714.e50369",
-        "group": "65d119b5.66cb78",
-        "order": 4,
+        "group": "8a9b009f.1b35d",
+        "order": 3,
         "width": 4,
         "height": 4,
         "name": "Luminosity",
@@ -2248,7 +1979,7 @@
                 "dot": 0
             }
         ],
-        "lineWidth": "5",
+        "lineWidth": "3",
         "bgcolorFromTheme": true,
         "diffCenter": "",
         "x": 790,
@@ -2260,7 +1991,7 @@
         "type": "ui_artlessgauge",
         "z": "1d22c714.e50369",
         "group": "65d119b5.66cb78",
-        "order": 2,
+        "order": 3,
         "width": 4,
         "height": 4,
         "name": "Water temperature",
@@ -2307,7 +2038,7 @@
                 "dot": 0
             }
         ],
-        "lineWidth": "5",
+        "lineWidth": "3",
         "bgcolorFromTheme": true,
         "diffCenter": "",
         "x": 790,
@@ -2366,11 +2097,11 @@
                 "dot": 0
             }
         ],
-        "lineWidth": "5",
+        "lineWidth": "3",
         "bgcolorFromTheme": true,
         "diffCenter": "",
         "x": 800,
-        "y": 420,
+        "y": 380,
         "wires": []
     },
     {
@@ -2531,68 +2262,6 @@
         "wires": [
             [
                 "cb675a7c.a85308"
-            ]
-        ]
-    },
-    {
-        "id": "cb675a7c.a85308",
-        "type": "ui_text",
-        "z": "1d22c714.e50369",
-        "group": "65d119b5.66cb78",
-        "order": 8,
-        "width": 4,
-        "height": 1,
-        "name": "Last refresh - luminosity",
-        "label": "",
-        "format": "<i class=\"fa fa-refresh\" aria-hidden=\"true\">&nbsp; {{ msg.payload | date: 'HH:mm:ss'}}</i> ",
-        "layout": "row-center",
-        "x": 1470,
-        "y": 720,
-        "wires": []
-    },
-    {
-        "id": "9fe09f73.82d02",
-        "type": "ui_text_input",
-        "z": "87cb301d.9893c",
-        "name": "",
-        "label": "Timer start",
-        "tooltip": "",
-        "group": "72b67add.961f74",
-        "order": 4,
-        "width": 3,
-        "height": 1,
-        "passthru": true,
-        "mode": "time",
-        "delay": 300,
-        "topic": "on",
-        "x": 150,
-        "y": 80,
-        "wires": [
-            [
-                "80dfb7d3.791078"
-            ]
-        ]
-    },
-    {
-        "id": "6f210002.6f55a",
-        "type": "ui_text_input",
-        "z": "87cb301d.9893c",
-        "name": "",
-        "label": "Timer stop",
-        "tooltip": "",
-        "group": "72b67add.961f74",
-        "order": 5,
-        "width": 3,
-        "height": 1,
-        "passthru": true,
-        "mode": "time",
-        "delay": 300,
-        "topic": "off",
-        "x": 150,
-        "y": 120,
-        "wires": [
-            [
-                "c145646.1fd8e98"
             ]
         ]
     },
@@ -2791,7 +2460,7 @@
         "type": "ui_artlessgauge",
         "z": "1d22c714.e50369",
         "group": "65d119b5.66cb78",
-        "order": 3,
+        "order": 2,
         "width": 4,
         "height": 4,
         "name": "Water PH",
@@ -2832,7 +2501,7 @@
                 "dot": 0
             }
         ],
-        "lineWidth": "5",
+        "lineWidth": "3",
         "bgcolorFromTheme": true,
         "diffCenter": "6",
         "x": 760,
@@ -2965,11 +2634,323 @@
         ]
     },
     {
+        "id": "38be3152.b77b6e",
+        "type": "debug",
+        "z": "1d22c714.e50369",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 540,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "df864faf.11005",
+        "type": "ui_switch",
+        "z": "87cb301d.9893c",
+        "name": "",
+        "label": "Grow lights",
+        "tooltip": "Led",
+        "group": "72b67add.961f74",
+        "order": 1,
+        "width": 4,
+        "height": 1,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "hydroponic/lamp",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "x": 690,
+        "y": 100,
+        "wires": [
+            [
+                "acca3832.810b88"
+            ]
+        ],
+        "info": "# Seeds tray light"
+    },
+    {
+        "id": "c1e51a25.bcd2f8",
+        "type": "ui_switch",
+        "z": "87cb301d.9893c",
+        "name": "",
+        "label": "Water spray",
+        "tooltip": "",
+        "group": "bdf4ab4f.fa8958",
+        "order": 1,
+        "width": 4,
+        "height": 1,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "x": 210,
+        "y": 360,
+        "wires": [
+            [
+                "dec1467a.516188",
+                "e6b06459.aad598"
+            ]
+        ]
+    },
+    {
+        "id": "509eb66d.0f6d88",
+        "type": "ui_button",
+        "z": "1d22c714.e50369",
+        "name": "IconRefresh",
+        "group": "1c37dc0b.ce28e4",
+        "order": 1,
+        "width": 4,
+        "height": 2,
+        "passthru": false,
+        "label": "",
+        "tooltip": "Refresh",
+        "color": "",
+        "bgcolor": "",
+        "icon": "fa-refresh fa-4x",
+        "payload": "true",
+        "payloadType": "bool",
+        "topic": "",
+        "x": 1270,
+        "y": 300,
+        "wires": [
+            [
+                "45293d1e.aedc04"
+            ]
+        ]
+    },
+    {
+        "id": "9fe09f73.82d02",
+        "type": "ui_text_input",
+        "z": "87cb301d.9893c",
+        "name": "",
+        "label": "Timer start",
+        "tooltip": "",
+        "group": "72b67add.961f74",
+        "order": 4,
+        "width": 3,
+        "height": 1,
+        "passthru": true,
+        "mode": "time",
+        "delay": 300,
+        "topic": "on",
+        "x": 150,
+        "y": 80,
+        "wires": [
+            [
+                "80dfb7d3.791078"
+            ]
+        ]
+    },
+    {
+        "id": "6f210002.6f55a",
+        "type": "ui_text_input",
+        "z": "87cb301d.9893c",
+        "name": "",
+        "label": "Timer stop",
+        "tooltip": "",
+        "group": "72b67add.961f74",
+        "order": 5,
+        "width": 3,
+        "height": 1,
+        "passthru": true,
+        "mode": "time",
+        "delay": 300,
+        "topic": "off",
+        "x": 150,
+        "y": 120,
+        "wires": [
+            [
+                "c145646.1fd8e98"
+            ]
+        ]
+    },
+    {
+        "id": "75f934f.744b2cc",
+        "type": "ui_text",
+        "z": "1d22c714.e50369",
+        "group": "1c37dc0b.ce28e4",
+        "order": 6,
+        "width": 7,
+        "height": 1,
+        "name": "Description",
+        "label": "",
+        "format": "{{msg.payload.current.weather[0].description}}",
+        "layout": "row-left",
+        "x": 1270,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "c9cadf3c.4dd91",
+        "type": "ui_text",
+        "z": "1d22c714.e50369",
+        "group": "1c37dc0b.ce28e4",
+        "order": 3,
+        "width": 4,
+        "height": 1,
+        "name": "Wind",
+        "label": "",
+        "format": "{{msg.payload.current.wind_speed}}&nbsp;&nbsp;<i class=\"wi wi-darksky-wind\"></i>&nbsp;&nbsp;{{msg.payload.current.wind_cardinal}}",
+        "layout": "col-center",
+        "x": 1250,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "a77336d4.24c878",
+        "type": "ui_text",
+        "z": "1d22c714.e50369",
+        "group": "1c37dc0b.ce28e4",
+        "order": 4,
+        "width": 4,
+        "height": 1,
+        "name": "SunriseTime",
+        "label": "",
+        "format": "<i class=\"wi wi-owm-01d\"></i>&nbsp;<i class=\"fa fa-arrow-up\"></i>&nbsp;&nbsp;{{msg.payload.current.sunrise}}",
+        "layout": "row-left",
+        "x": 1270,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "ffd2dd.8b18ad2",
+        "type": "ui_text",
+        "z": "1d22c714.e50369",
+        "group": "1c37dc0b.ce28e4",
+        "order": 7,
+        "width": 4,
+        "height": 1,
+        "name": "SunsetTime",
+        "label": "",
+        "format": "<i class=\"wi wi-wu-sunny\"></i>&nbsp;<i class=\"fa fa-arrow-down\"></i>&nbsp;&nbsp;{{msg.payload.current.sunset}}",
+        "layout": "row-left",
+        "x": 1270,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "ebeb7e6d.61e6c",
+        "type": "ui_text",
+        "z": "1d22c714.e50369",
+        "group": "1c37dc0b.ce28e4",
+        "order": 2,
+        "width": 3,
+        "height": 1,
+        "name": "Temperature",
+        "label": "",
+        "format": "<p style=\"font-size: 200%\">{{msg.payload.current.temp}}</p>",
+        "layout": "row-left",
+        "x": 1270,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "65b18579.9e97ec",
+        "type": "ui_text",
+        "z": "1d22c714.e50369",
+        "group": "8a9b009f.1b35d",
+        "order": 9,
+        "width": 4,
+        "height": 1,
+        "name": "Last refresh - humidity",
+        "label": "",
+        "format": "<i class=\"fa fa-refresh\" aria-hidden=\"true\">&nbsp; {{ msg.payload | date: 'HH:mm:ss'}}</i> ",
+        "layout": "row-center",
+        "x": 1420,
+        "y": 1440,
+        "wires": []
+    },
+    {
+        "id": "1c83a03b.a169c",
+        "type": "ui_text",
+        "z": "1d22c714.e50369",
+        "group": "8a9b009f.1b35d",
+        "order": 8,
+        "width": 4,
+        "height": 1,
+        "name": "Last refresh - temp",
+        "label": "",
+        "format": "<i class=\"fa fa-refresh\" aria-hidden=\"true\">&nbsp; {{ msg.payload | date: 'HH:mm:ss'}}</i> ",
+        "layout": "row-center",
+        "x": 1410,
+        "y": 1300,
+        "wires": []
+    },
+    {
+        "id": "ad8e7270.bfabd",
+        "type": "ui_text",
+        "z": "1d22c714.e50369",
+        "group": "65d119b5.66cb78",
+        "order": 9,
+        "width": 4,
+        "height": 1,
+        "name": "Last refresh - water temp",
+        "label": "",
+        "format": "<i class=\"fa fa-refresh\" aria-hidden=\"true\">&nbsp; {{ msg.payload | date: 'HH:mm:ss'}}</i> ",
+        "layout": "row-center",
+        "x": 1410,
+        "y": 860,
+        "wires": []
+    },
+    {
+        "id": "383c0ad2.b2e656",
+        "type": "ui_text",
+        "z": "1d22c714.e50369",
+        "group": "65d119b5.66cb78",
+        "order": 8,
+        "width": 4,
+        "height": 1,
+        "name": "Last refresh - water quality",
+        "label": "",
+        "format": "<i class=\"fa fa-refresh\" aria-hidden=\"true\">&nbsp; {{ msg.payload | date: 'HH:mm:ss'}}</i> ",
+        "layout": "row-center",
+        "x": 1440,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "cb675a7c.a85308",
+        "type": "ui_text",
+        "z": "1d22c714.e50369",
+        "group": "8a9b009f.1b35d",
+        "order": 10,
+        "width": 4,
+        "height": 1,
+        "name": "Last refresh - luminosity",
+        "label": "",
+        "format": "<i class=\"fa fa-refresh\" aria-hidden=\"true\">&nbsp; {{ msg.payload | date: 'HH:mm:ss'}}</i> ",
+        "layout": "row-center",
+        "x": 1470,
+        "y": 720,
+        "wires": []
+    },
+    {
         "id": "1aca970a.1a6d09",
         "type": "ui_text",
         "z": "1d22c714.e50369",
         "group": "65d119b5.66cb78",
-        "order": 7,
+        "order": 10,
         "width": 4,
         "height": 1,
         "name": "Last refresh - water PH",
@@ -2979,5 +2960,87 @@
         "x": 1410,
         "y": 1040,
         "wires": []
+    },
+    {
+        "id": "ad68634.aaabaa",
+        "type": "ui_chart",
+        "z": "1d22c714.e50369",
+        "name": "Seed tray historical value graph",
+        "group": "f0e58282.f2736",
+        "order": 2,
+        "width": 18,
+        "height": 8,
+        "label": "",
+        "chartType": "line",
+        "legend": "true",
+        "xformat": "HH:mm:ss",
+        "interpolate": "bezier",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "x": 1830,
+        "y": 800,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f3e2c3ad.8ebb2",
+        "type": "ui_toast",
+        "z": "5127740.f28848c",
+        "position": "top right",
+        "displayTime": "3",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 0,
+        "ok": "OK",
+        "cancel": "",
+        "raw": false,
+        "topic": "Temperature",
+        "name": "Alert ",
+        "x": 890,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "ec42ca0e.6c9dd8",
+        "type": "ui_template",
+        "z": "1d22c714.e50369",
+        "group": "f0e58282.f2736",
+        "name": "Seed tray image",
+        "order": 1,
+        "width": 8,
+        "height": 8,
+        "format": "<md-card class=\"md-primary\">\n  \n  <md-card-actions>\n   <md-button ng-click=\"send({payload:1})\" >\n       <ui-icon icon=\"camera\"></ui-icon>Take a photo<br>\n   </md-button>\n   <md-button ng-click=\"send({payload:1})\" >\n     <i class=\"fa fa-refresh\" aria-hidden=\"true\">  {{timestamp | date: 'MMM d, y - HH:mm:ss'}}</i>\n   </md-button>\n  </md-card-actions>\n  \n  <md-card-header>\n    <md-card-media>\n         <img width=\"360\" height=\"240\" src=\"{{photoURL}}\" class=\"md-card-image\" >\n    </md-card-media>\n  </md-card-header>\n\n</md-card>\n\n\n\n<script>\n\n(function(scope) {\n    // $watch fires each time the node is triggered in the flow\n    scope.$watch('msg', function(msg) {\n        scope.timestamp = new Date();\n        scope.photoURL = \"/photo1.JPEG?_=\" + new Date();\n    });\n\n})(scope);\n\n</script>",
+        "storeOutMessages": true,
+        "fwdInMessages": false,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "x": 360,
+        "y": 1720,
+        "wires": [
+            [
+                "134f40ec.1ec4bf"
+            ]
+        ]
     }
 ]
