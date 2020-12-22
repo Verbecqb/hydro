@@ -63,6 +63,14 @@
         "rejectUnauthorized": true
     },
     {
+        "id": "352c089f.6b44d8",
+        "type": "ui_tab",
+        "name": "Hydroponic",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
         "id": "f0e58282.f2736",
         "type": "ui_group",
         "name": "Control - Seed Tray",
@@ -122,32 +130,6 @@
         "disp": true,
         "width": 7,
         "collapse": false
-    },
-    {
-        "id": "7c4daf03.72fb9",
-        "type": "ui_group",
-        "name": "Graph",
-        "tab": "8c3cdae1.44ca38",
-        "order": 5,
-        "disp": true,
-        "width": "30",
-        "collapse": true
-    },
-    {
-        "id": "352c089f.6b44d8",
-        "type": "ui_tab",
-        "name": "Hydroponic",
-        "icon": "dashboard",
-        "disabled": false,
-        "hidden": false
-    },
-    {
-        "id": "8c3cdae1.44ca38",
-        "type": "ui_tab",
-        "name": "Grafana",
-        "icon": "dashboard",
-        "disabled": false,
-        "hidden": false
     },
     {
         "id": "e8854cf5.bbc99",
@@ -500,7 +482,7 @@
         }
     },
     {
-        "id": "cb1deec6.bc99f",
+        "id": "d66aec8b.af5f3",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "1c37dc0b.ce28e4",
@@ -509,7 +491,7 @@
         "height": 1
     },
     {
-        "id": "8a2a5591.c09188",
+        "id": "38e6730a.028ffc",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "1c37dc0b.ce28e4",
@@ -518,7 +500,7 @@
         "height": 1
     },
     {
-        "id": "3f866cfe.2467b4",
+        "id": "f07a8a3d.fc4b58",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -527,7 +509,7 @@
         "height": 1
     },
     {
-        "id": "6f95e9b5.037e18",
+        "id": "fc7a4469.d13808",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -536,7 +518,7 @@
         "height": 1
     },
     {
-        "id": "8b917bb7.7a1c58",
+        "id": "f86161e8.caf1a",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -545,7 +527,7 @@
         "height": 1
     },
     {
-        "id": "440d5b40.cf6964",
+        "id": "c510d782.52cf88",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -554,7 +536,7 @@
         "height": 1
     },
     {
-        "id": "2eaecbc3.366b04",
+        "id": "85e95371.ac0dd",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -563,7 +545,7 @@
         "height": 1
     },
     {
-        "id": "ffb53d2a.2d7ca",
+        "id": "201ceec2.aa77e2",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "65d119b5.66cb78",
@@ -572,7 +554,7 @@
         "height": 1
     },
     {
-        "id": "6ffdbb7e.5c4c84",
+        "id": "570b53e6.a66dec",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "65d119b5.66cb78",
@@ -581,7 +563,7 @@
         "height": 1
     },
     {
-        "id": "f64e9ecc.1652a",
+        "id": "36c6f484.6c1d7c",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "65d119b5.66cb78",
@@ -590,7 +572,7 @@
         "height": 1
     },
     {
-        "id": "a2955a76.a9d0e8",
+        "id": "4e8a4cb.457ddb4",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "65d119b5.66cb78",
@@ -599,7 +581,7 @@
         "height": 1
     },
     {
-        "id": "ad8499f3.116978",
+        "id": "90cccb46.343768",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "65d119b5.66cb78",
@@ -608,7 +590,7 @@
         "height": 1
     },
     {
-        "id": "7ab69aeb.d406f4",
+        "id": "67d0e3e8.81bbcc",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "72b67add.961f74",
@@ -617,7 +599,7 @@
         "height": 1
     },
     {
-        "id": "1b4cb599.e26d4a",
+        "id": "cf850671.632578",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "72b67add.961f74",
@@ -626,7 +608,7 @@
         "height": 1
     },
     {
-        "id": "14ea68eb.0c0457",
+        "id": "79a1a1a4.6e7eb",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "bdf4ab4f.fa8958",
@@ -635,7 +617,7 @@
         "height": 1
     },
     {
-        "id": "707f9500.421d1c",
+        "id": "ae893a31.ad0498",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "bdf4ab4f.fa8958",
@@ -644,7 +626,7 @@
         "height": 1
     },
     {
-        "id": "fb36d53f.4b0018",
+        "id": "ae79caf2.f3fbe8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "bdf4ab4f.fa8958",
@@ -653,7 +635,7 @@
         "height": 1
     },
     {
-        "id": "310cdd75.5aa572",
+        "id": "fc0311f9.ebbfc",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "bdf4ab4f.fa8958",
@@ -662,7 +644,7 @@
         "height": 1
     },
     {
-        "id": "ce232208.647b8",
+        "id": "b5ed89cf.7909f8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "bdf4ab4f.fa8958",
@@ -734,8 +716,7 @@
             [
                 "4d58abb1.177e64",
                 "e3814403.711458",
-                "7d66ede7.acf094",
-                "38be3152.b77b6e"
+                "7d66ede7.acf094"
             ]
         ]
     },
@@ -770,24 +751,6 @@
         ]
     },
     {
-        "id": "6a5ac7a1.e350c8",
-        "type": "influxdb out",
-        "z": "1d22c714.e50369",
-        "influxdb": "8193652c.e6bda8",
-        "name": "",
-        "measurement": "water_quality",
-        "precision": "",
-        "retentionPolicy": "",
-        "database": "database",
-        "precisionV18FluxV20": "ms",
-        "retentionPolicyV18Flux": "",
-        "org": "organisation",
-        "bucket": "bucket",
-        "x": 880,
-        "y": 460,
-        "wires": []
-    },
-    {
         "id": "acca3832.810b88",
         "type": "mqtt out",
         "z": "87cb301d.9893c",
@@ -799,25 +762,6 @@
         "x": 830,
         "y": 100,
         "wires": []
-    },
-    {
-        "id": "1b07e4d1.7c4d9b",
-        "type": "influxdb in",
-        "z": "5127740.f28848c",
-        "influxdb": "8193652c.e6bda8",
-        "name": "",
-        "query": "SELECT MEAN(temperature) FROM temperature",
-        "rawOutput": false,
-        "precision": "",
-        "retentionPolicy": "",
-        "org": "organisation",
-        "x": 350,
-        "y": 120,
-        "wires": [
-            [
-                "3e247b14.95d3a4"
-            ]
-        ]
     },
     {
         "id": "3e247b14.95d3a4",
@@ -867,43 +811,6 @@
         ]
     },
     {
-        "id": "b5c12285.51ca3",
-        "type": "influxdb out",
-        "z": "1d22c714.e50369",
-        "influxdb": "8193652c.e6bda8",
-        "name": "",
-        "measurement": "room_temperature",
-        "precision": "",
-        "retentionPolicy": "",
-        "database": "database",
-        "precisionV18FluxV20": "ms",
-        "retentionPolicyV18Flux": "",
-        "org": "organisation",
-        "bucket": "bucket",
-        "x": 960,
-        "y": 1260,
-        "wires": []
-    },
-    {
-        "id": "c2314fab.6c8af",
-        "type": "influxdb in",
-        "z": "1d22c714.e50369",
-        "influxdb": "8193652c.e6bda8",
-        "name": "Select last entry",
-        "query": "SELECT * FROM room_temperature GROUP BY * ORDER BY DESC LIMIT 1",
-        "rawOutput": false,
-        "precision": "",
-        "retentionPolicy": "",
-        "org": "organisation",
-        "x": 1000,
-        "y": 1300,
-        "wires": [
-            [
-                "5914ecc9.808654"
-            ]
-        ]
-    },
-    {
         "id": "e88e5d3f.13895",
         "type": "delay",
         "z": "1d22c714.e50369",
@@ -923,43 +830,6 @@
         "wires": [
             [
                 "c2314fab.6c8af"
-            ]
-        ]
-    },
-    {
-        "id": "f3b265b2.271218",
-        "type": "influxdb out",
-        "z": "1d22c714.e50369",
-        "influxdb": "8193652c.e6bda8",
-        "name": "",
-        "measurement": "room_humidity",
-        "precision": "",
-        "retentionPolicy": "",
-        "database": "database",
-        "precisionV18FluxV20": "ms",
-        "retentionPolicyV18Flux": "",
-        "org": "organisation",
-        "bucket": "bucket",
-        "x": 950,
-        "y": 1400,
-        "wires": []
-    },
-    {
-        "id": "d8035b86.a6d9f8",
-        "type": "influxdb in",
-        "z": "1d22c714.e50369",
-        "influxdb": "8193652c.e6bda8",
-        "name": "Select last entry",
-        "query": "SELECT * FROM room_humidity GROUP BY * ORDER BY DESC LIMIT 1",
-        "rawOutput": false,
-        "precision": "",
-        "retentionPolicy": "",
-        "org": "organisation",
-        "x": 1000,
-        "y": 1440,
-        "wires": [
-            [
-                "58c9bab9.be3fc4"
             ]
         ]
     },
@@ -987,25 +857,6 @@
         ]
     },
     {
-        "id": "7fe995e5.477afc",
-        "type": "influxdb in",
-        "z": "1d22c714.e50369",
-        "influxdb": "8193652c.e6bda8",
-        "name": "Select last entry",
-        "query": "SELECT * FROM water_quality GROUP BY * ORDER BY DESC LIMIT 1",
-        "rawOutput": false,
-        "precision": "",
-        "retentionPolicy": "",
-        "org": "organisation",
-        "x": 940,
-        "y": 500,
-        "wires": [
-            [
-                "eb66256c.111fa8"
-            ]
-        ]
-    },
-    {
         "id": "39bf6628.85f8ba",
         "type": "delay",
         "z": "1d22c714.e50369",
@@ -1028,53 +879,6 @@
                 "f8fee95.2171618"
             ]
         ]
-    },
-    {
-        "id": "b7f7abe3.8afe58",
-        "type": "influxdb out",
-        "z": "1d22c714.e50369",
-        "influxdb": "8193652c.e6bda8",
-        "name": "",
-        "measurement": "luminosity",
-        "precision": "",
-        "retentionPolicy": "",
-        "database": "database",
-        "precisionV18FluxV20": "ms",
-        "retentionPolicyV18Flux": "",
-        "org": "organisation",
-        "bucket": "bucket",
-        "x": 870,
-        "y": 640,
-        "wires": []
-    },
-    {
-        "id": "54666026.3c8da",
-        "type": "ui_led",
-        "z": "1d22c714.e50369",
-        "group": "72b67add.961f74",
-        "order": 3,
-        "width": 2,
-        "height": 1,
-        "label": "",
-        "labelPlacement": "right",
-        "labelAlignment": "right",
-        "colorForValue": [
-            {
-                "color": "red",
-                "value": "false",
-                "valueType": "str"
-            },
-            {
-                "color": "green",
-                "value": "true",
-                "valueType": "str"
-            }
-        ],
-        "allowColorForValueInMessage": false,
-        "name": "Grow lights",
-        "x": 370,
-        "y": 1460,
-        "wires": []
     },
     {
         "id": "a2db89f8.423ad8",
@@ -1148,43 +952,6 @@
                 "f3b265b2.271218",
                 "55893afd.1a9904",
                 "a2c963c.a4756a"
-            ]
-        ]
-    },
-    {
-        "id": "f9ece608.ba06e8",
-        "type": "influxdb out",
-        "z": "1d22c714.e50369",
-        "influxdb": "8193652c.e6bda8",
-        "name": "",
-        "measurement": "water_temperature",
-        "precision": "",
-        "retentionPolicy": "",
-        "database": "database",
-        "precisionV18FluxV20": "ms",
-        "retentionPolicyV18Flux": "",
-        "org": "organisation",
-        "bucket": "bucket",
-        "x": 880,
-        "y": 820,
-        "wires": []
-    },
-    {
-        "id": "61e95af8.591824",
-        "type": "influxdb in",
-        "z": "1d22c714.e50369",
-        "influxdb": "8193652c.e6bda8",
-        "name": "Select last entry",
-        "query": "SELECT * FROM water_temperature GROUP BY * ORDER BY DESC LIMIT 1",
-        "rawOutput": false,
-        "precision": "",
-        "retentionPolicy": "",
-        "org": "organisation",
-        "x": 920,
-        "y": 860,
-        "wires": [
-            [
-                "3e5edd24.dccb82"
             ]
         ]
     },
@@ -1485,25 +1252,6 @@
         ]
     },
     {
-        "id": "f8fee95.2171618",
-        "type": "influxdb in",
-        "z": "1d22c714.e50369",
-        "influxdb": "8193652c.e6bda8",
-        "name": "Select past 24 hours",
-        "query": "SELECT * FROM water_quality GROUP BY * ORDER BY DESC LIMIT 500",
-        "rawOutput": false,
-        "precision": "",
-        "retentionPolicy": "",
-        "org": "organisation",
-        "x": 960,
-        "y": 540,
-        "wires": [
-            [
-                "fff065af.0a0958"
-            ]
-        ]
-    },
-    {
         "id": "8b39391d.356ce8",
         "type": "function",
         "z": "1d22c714.e50369",
@@ -1518,25 +1266,6 @@
         "wires": [
             [
                 "ad68634.aaabaa"
-            ]
-        ]
-    },
-    {
-        "id": "a34db445.a149b8",
-        "type": "influxdb in",
-        "z": "1d22c714.e50369",
-        "influxdb": "8193652c.e6bda8",
-        "name": "Select past 24 hours",
-        "query": "SELECT * FROM water_temperature GROUP BY * ORDER BY DESC LIMIT 500",
-        "rawOutput": false,
-        "precision": "",
-        "retentionPolicy": "",
-        "org": "organisation",
-        "x": 940,
-        "y": 900,
-        "wires": [
-            [
-                "7b566b7.097d094"
             ]
         ]
     },
@@ -1695,35 +1424,6 @@
         "wires": []
     },
     {
-        "id": "d0f89a7b.d9a8f8",
-        "type": "ui_led",
-        "z": "1d22c714.e50369",
-        "group": "bdf4ab4f.fa8958",
-        "order": 3,
-        "width": 2,
-        "height": 1,
-        "label": "",
-        "labelPlacement": "right",
-        "labelAlignment": "right",
-        "colorForValue": [
-            {
-                "color": "red",
-                "value": "false",
-                "valueType": "str"
-            },
-            {
-                "color": "green",
-                "value": "true",
-                "valueType": "str"
-            }
-        ],
-        "allowColorForValueInMessage": false,
-        "name": "water spray",
-        "x": 390,
-        "y": 1520,
-        "wires": []
-    },
-    {
         "id": "a1ae6930.2b69c8",
         "type": "mqtt in",
         "z": "1d22c714.e50369",
@@ -1801,38 +1501,6 @@
         ]
     },
     {
-        "id": "134f40ec.1ec4bf",
-        "type": "camerapi-takephoto",
-        "z": "1d22c714.e50369",
-        "filemode": "1",
-        "filename": "photo1.JPEG",
-        "filedefpath": "0",
-        "filepath": "~/.node-red/projects/Hydroponic/ui-media/",
-        "fileformat": "jpeg",
-        "resolution": "4",
-        "rotation": "0",
-        "fliph": "0",
-        "flipv": "0",
-        "brightness": "50",
-        "contrast": "0",
-        "sharpness": "0",
-        "quality": "80",
-        "imageeffect": "none",
-        "exposuremode": "night",
-        "iso": "0",
-        "agcwait": "1.0",
-        "led": "0",
-        "awb": "auto",
-        "name": "Take Photo",
-        "x": 350,
-        "y": 1660,
-        "wires": [
-            [
-                "ec42ca0e.6c9dd8"
-            ]
-        ]
-    },
-    {
         "id": "e78bf6ed.43bf08",
         "type": "inject",
         "z": "1d22c714.e50369",
@@ -1882,25 +1550,6 @@
         ]
     },
     {
-        "id": "5e814313.84529c",
-        "type": "influxdb in",
-        "z": "1d22c714.e50369",
-        "influxdb": "8193652c.e6bda8",
-        "name": "Select past 24 hours",
-        "query": "SELECT * FROM luminosity GROUP BY * ORDER BY DESC LIMIT 500",
-        "rawOutput": false,
-        "precision": "",
-        "retentionPolicy": "",
-        "org": "organisation",
-        "x": 960,
-        "y": 680,
-        "wires": [
-            [
-                "517995d5.866e6c"
-            ]
-        ]
-    },
-    {
         "id": "517995d5.866e6c",
         "type": "change",
         "z": "1d22c714.e50369",
@@ -1924,6 +1573,604 @@
         "wires": [
             [
                 "abe678a7.9a28b8"
+            ]
+        ]
+    },
+    {
+        "id": "5a973813.655e68",
+        "type": "function",
+        "z": "1d22c714.e50369",
+        "name": "Parse telemetry JSON",
+        "func": "\nvar newMsg =  { \n        payload: new Date(msg.payload[0].time)\n};\nreturn newMsg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 1200,
+        "y": 720,
+        "wires": [
+            [
+                "cb675a7c.a85308"
+            ]
+        ]
+    },
+    {
+        "id": "991c539f.fb285",
+        "type": "comment",
+        "z": "87cb301d.9893c",
+        "name": "### This scenario is permanent and requires a file to read an write to ###",
+        "info": "",
+        "x": 340,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "ef11c701.cd9fa8",
+        "type": "file",
+        "z": "87cb301d.9893c",
+        "name": "WriteFile",
+        "filename": "/home/pi/.node-red/projects/hydro/time-schedule-water-pump.txt",
+        "appendNewline": true,
+        "createDir": true,
+        "overwriteFile": "true",
+        "encoding": "none",
+        "x": 780,
+        "y": 274,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "7822012a.876838",
+        "type": "inject",
+        "z": "87cb301d.9893c",
+        "name": "FireAfterReboot",
+        "props": [
+            {
+                "p": "payload",
+                "v": "",
+                "vt": "date"
+            },
+            {
+                "p": "topic",
+                "v": "",
+                "vt": "string"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 180,
+        "y": 280,
+        "wires": [
+            [
+                "2920de2a.a86312"
+            ]
+        ]
+    },
+    {
+        "id": "2920de2a.a86312",
+        "type": "file in",
+        "z": "87cb301d.9893c",
+        "name": "ReadFile",
+        "filename": "/home/pi/.node-red/projects/hydro/time-schedule-water-pump.txt",
+        "format": "utf8",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "none",
+        "x": 360,
+        "y": 280,
+        "wires": [
+            [
+                "18d69559.b452cb"
+            ]
+        ]
+    },
+    {
+        "id": "80dfb7d3.791078",
+        "type": "function",
+        "z": "87cb301d.9893c",
+        "name": "",
+        "func": "var date = new Date(msg.payload);\nmsg.payload = { \n    \"ontime\": date.getUTCHours() + \":\" + date.getMinutes(),\n};\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 320,
+        "y": 80,
+        "wires": [
+            [
+                "a03a10b3.da32b"
+            ]
+        ]
+    },
+    {
+        "id": "c145646.1fd8e98",
+        "type": "function",
+        "z": "87cb301d.9893c",
+        "name": "",
+        "func": "var date = new Date(msg.payload);\nmsg.payload = { \n    \"offtime\": date.getUTCHours() + \":\" + date.getMinutes(),\n};\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 320,
+        "y": 120,
+        "wires": [
+            [
+                "a03a10b3.da32b"
+            ]
+        ]
+    },
+    {
+        "id": "7d66ede7.acf094",
+        "type": "delay",
+        "z": "1d22c714.e50369",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "2",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "x": 760,
+        "y": 1040,
+        "wires": [
+            [
+                "4594e62e.1bff58",
+                "42b0c0f5.42fdf"
+            ]
+        ]
+    },
+    {
+        "id": "a12ec6c.7faa138",
+        "type": "change",
+        "z": "1d22c714.e50369",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "origin",
+                "pt": "msg",
+                "to": "waterPH",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1160,
+        "y": 1080,
+        "wires": [
+            [
+                "abe678a7.9a28b8"
+            ]
+        ]
+    },
+    {
+        "id": "9442afba.2d0c3",
+        "type": "function",
+        "z": "1d22c714.e50369",
+        "name": "Parse telemetry JSON",
+        "func": "\nvar newMsg =  { \n        payload: new Date(msg.payload[0].time)\n};\nreturn newMsg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 1180,
+        "y": 1040,
+        "wires": [
+            [
+                "1aca970a.1a6d09"
+            ]
+        ]
+    },
+    {
+        "id": "134f40ec.1ec4bf",
+        "type": "camerapi-takephoto",
+        "z": "1d22c714.e50369",
+        "filemode": "1",
+        "filename": "photo1.JPEG",
+        "filedefpath": "0",
+        "filepath": "~/.node-red/projects/hydro/ui-media/",
+        "fileformat": "jpeg",
+        "resolution": "4",
+        "rotation": "0",
+        "fliph": "0",
+        "flipv": "0",
+        "brightness": "50",
+        "contrast": "0",
+        "sharpness": "0",
+        "quality": "80",
+        "imageeffect": "none",
+        "exposuremode": "night",
+        "iso": "0",
+        "agcwait": "1.0",
+        "led": "0",
+        "awb": "auto",
+        "name": "Take Photo",
+        "x": 350,
+        "y": 1660,
+        "wires": [
+            [
+                "ec42ca0e.6c9dd8"
+            ]
+        ]
+    },
+    {
+        "id": "a03a10b3.da32b",
+        "type": "eztimer",
+        "z": "87cb301d.9893c",
+        "name": "",
+        "debug": false,
+        "autoname": "13:39:00 - 13:39:30",
+        "tag": "eztimer",
+        "suspended": false,
+        "sendEventsOnSuspend": false,
+        "lat": "",
+        "lon": "",
+        "timerType": "1",
+        "startupMessage": true,
+        "ontype": "2",
+        "ontimesun": "dawn",
+        "ontimetod": "13:39:00",
+        "onpropertytype": "msg",
+        "onproperty": "payload",
+        "onvaluetype": "bool",
+        "onvalue": "true",
+        "onoffset": 0,
+        "onrandomoffset": 0,
+        "onsuppressrepeats": false,
+        "offtype": "2",
+        "offtimesun": "dusk",
+        "offtimetod": "13:39:30",
+        "offduration": "00:01:00",
+        "offpropertytype": "msg",
+        "offproperty": "payload",
+        "offvaluetype": "bool",
+        "offvalue": "false",
+        "offoffset": 0,
+        "offrandomoffset": 0,
+        "offsuppressrepeats": false,
+        "mon": true,
+        "tue": true,
+        "wed": true,
+        "thu": true,
+        "fri": true,
+        "sat": true,
+        "sun": true,
+        "x": 510,
+        "y": 100,
+        "wires": [
+            [
+                "df864faf.11005"
+            ]
+        ]
+    },
+    {
+        "id": "6a5ac7a1.e350c8",
+        "type": "influxdb out",
+        "z": "1d22c714.e50369",
+        "influxdb": "8193652c.e6bda8",
+        "name": "",
+        "measurement": "water_quality",
+        "precision": "",
+        "retentionPolicy": "",
+        "database": "database",
+        "precisionV18FluxV20": "ms",
+        "retentionPolicyV18Flux": "",
+        "org": "organisation",
+        "bucket": "bucket",
+        "x": 880,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "b5c12285.51ca3",
+        "type": "influxdb out",
+        "z": "1d22c714.e50369",
+        "influxdb": "8193652c.e6bda8",
+        "name": "",
+        "measurement": "room_temperature",
+        "precision": "",
+        "retentionPolicy": "",
+        "database": "database",
+        "precisionV18FluxV20": "ms",
+        "retentionPolicyV18Flux": "",
+        "org": "organisation",
+        "bucket": "bucket",
+        "x": 960,
+        "y": 1260,
+        "wires": []
+    },
+    {
+        "id": "f3b265b2.271218",
+        "type": "influxdb out",
+        "z": "1d22c714.e50369",
+        "influxdb": "8193652c.e6bda8",
+        "name": "",
+        "measurement": "room_humidity",
+        "precision": "",
+        "retentionPolicy": "",
+        "database": "database",
+        "precisionV18FluxV20": "ms",
+        "retentionPolicyV18Flux": "",
+        "org": "organisation",
+        "bucket": "bucket",
+        "x": 950,
+        "y": 1400,
+        "wires": []
+    },
+    {
+        "id": "b7f7abe3.8afe58",
+        "type": "influxdb out",
+        "z": "1d22c714.e50369",
+        "influxdb": "8193652c.e6bda8",
+        "name": "",
+        "measurement": "luminosity",
+        "precision": "",
+        "retentionPolicy": "",
+        "database": "database",
+        "precisionV18FluxV20": "ms",
+        "retentionPolicyV18Flux": "",
+        "org": "organisation",
+        "bucket": "bucket",
+        "x": 870,
+        "y": 640,
+        "wires": []
+    },
+    {
+        "id": "f9ece608.ba06e8",
+        "type": "influxdb out",
+        "z": "1d22c714.e50369",
+        "influxdb": "8193652c.e6bda8",
+        "name": "",
+        "measurement": "water_temperature",
+        "precision": "",
+        "retentionPolicy": "",
+        "database": "database",
+        "precisionV18FluxV20": "ms",
+        "retentionPolicyV18Flux": "",
+        "org": "organisation",
+        "bucket": "bucket",
+        "x": 880,
+        "y": 820,
+        "wires": []
+    },
+    {
+        "id": "e3814403.711458",
+        "type": "influxdb out",
+        "z": "1d22c714.e50369",
+        "influxdb": "8193652c.e6bda8",
+        "name": "",
+        "measurement": "water_ph",
+        "precision": "",
+        "retentionPolicy": "",
+        "database": "database",
+        "precisionV18FluxV20": "ms",
+        "retentionPolicyV18Flux": "",
+        "org": "organisation",
+        "bucket": "bucket",
+        "x": 850,
+        "y": 1000,
+        "wires": []
+    },
+    {
+        "id": "1b07e4d1.7c4d9b",
+        "type": "influxdb in",
+        "z": "5127740.f28848c",
+        "influxdb": "8193652c.e6bda8",
+        "name": "",
+        "query": "SELECT MEAN(temperature) FROM temperature",
+        "rawOutput": false,
+        "precision": "",
+        "retentionPolicy": "",
+        "org": "organisation",
+        "x": 350,
+        "y": 120,
+        "wires": [
+            [
+                "3e247b14.95d3a4"
+            ]
+        ]
+    },
+    {
+        "id": "c2314fab.6c8af",
+        "type": "influxdb in",
+        "z": "1d22c714.e50369",
+        "influxdb": "8193652c.e6bda8",
+        "name": "Select last entry",
+        "query": "SELECT * FROM room_temperature GROUP BY * ORDER BY DESC LIMIT 1",
+        "rawOutput": false,
+        "precision": "",
+        "retentionPolicy": "",
+        "org": "organisation",
+        "x": 1000,
+        "y": 1300,
+        "wires": [
+            [
+                "5914ecc9.808654"
+            ]
+        ]
+    },
+    {
+        "id": "d8035b86.a6d9f8",
+        "type": "influxdb in",
+        "z": "1d22c714.e50369",
+        "influxdb": "8193652c.e6bda8",
+        "name": "Select last entry",
+        "query": "SELECT * FROM room_humidity GROUP BY * ORDER BY DESC LIMIT 1",
+        "rawOutput": false,
+        "precision": "",
+        "retentionPolicy": "",
+        "org": "organisation",
+        "x": 1000,
+        "y": 1440,
+        "wires": [
+            [
+                "58c9bab9.be3fc4"
+            ]
+        ]
+    },
+    {
+        "id": "7fe995e5.477afc",
+        "type": "influxdb in",
+        "z": "1d22c714.e50369",
+        "influxdb": "8193652c.e6bda8",
+        "name": "Select last entry",
+        "query": "SELECT * FROM water_quality GROUP BY * ORDER BY DESC LIMIT 1",
+        "rawOutput": false,
+        "precision": "",
+        "retentionPolicy": "",
+        "org": "organisation",
+        "x": 940,
+        "y": 500,
+        "wires": [
+            [
+                "eb66256c.111fa8"
+            ]
+        ]
+    },
+    {
+        "id": "61e95af8.591824",
+        "type": "influxdb in",
+        "z": "1d22c714.e50369",
+        "influxdb": "8193652c.e6bda8",
+        "name": "Select last entry",
+        "query": "SELECT * FROM water_temperature GROUP BY * ORDER BY DESC LIMIT 1",
+        "rawOutput": false,
+        "precision": "",
+        "retentionPolicy": "",
+        "org": "organisation",
+        "x": 920,
+        "y": 860,
+        "wires": [
+            [
+                "3e5edd24.dccb82"
+            ]
+        ]
+    },
+    {
+        "id": "f8fee95.2171618",
+        "type": "influxdb in",
+        "z": "1d22c714.e50369",
+        "influxdb": "8193652c.e6bda8",
+        "name": "Select past 24 hours",
+        "query": "SELECT * FROM water_quality GROUP BY * ORDER BY DESC LIMIT 500",
+        "rawOutput": false,
+        "precision": "",
+        "retentionPolicy": "",
+        "org": "organisation",
+        "x": 960,
+        "y": 540,
+        "wires": [
+            [
+                "fff065af.0a0958"
+            ]
+        ]
+    },
+    {
+        "id": "a34db445.a149b8",
+        "type": "influxdb in",
+        "z": "1d22c714.e50369",
+        "influxdb": "8193652c.e6bda8",
+        "name": "Select past 24 hours",
+        "query": "SELECT * FROM water_temperature GROUP BY * ORDER BY DESC LIMIT 500",
+        "rawOutput": false,
+        "precision": "",
+        "retentionPolicy": "",
+        "org": "organisation",
+        "x": 940,
+        "y": 900,
+        "wires": [
+            [
+                "7b566b7.097d094"
+            ]
+        ]
+    },
+    {
+        "id": "5e814313.84529c",
+        "type": "influxdb in",
+        "z": "1d22c714.e50369",
+        "influxdb": "8193652c.e6bda8",
+        "name": "Select past 24 hours",
+        "query": "SELECT * FROM luminosity GROUP BY * ORDER BY DESC LIMIT 500",
+        "rawOutput": false,
+        "precision": "",
+        "retentionPolicy": "",
+        "org": "organisation",
+        "x": 960,
+        "y": 680,
+        "wires": [
+            [
+                "517995d5.866e6c"
+            ]
+        ]
+    },
+    {
+        "id": "afc9c5e2.a75b78",
+        "type": "influxdb in",
+        "z": "1d22c714.e50369",
+        "influxdb": "8193652c.e6bda8",
+        "name": "Select last entry",
+        "query": "SELECT * FROM luminosity GROUP BY * ORDER BY DESC LIMIT 1",
+        "rawOutput": false,
+        "precision": "",
+        "retentionPolicy": "",
+        "org": "organisation",
+        "x": 940,
+        "y": 720,
+        "wires": [
+            [
+                "5a973813.655e68"
+            ]
+        ]
+    },
+    {
+        "id": "4594e62e.1bff58",
+        "type": "influxdb in",
+        "z": "1d22c714.e50369",
+        "influxdb": "8193652c.e6bda8",
+        "name": "Select last entry",
+        "query": "SELECT * FROM water_ph GROUP BY * ORDER BY DESC LIMIT 1",
+        "rawOutput": false,
+        "precision": "",
+        "retentionPolicy": "",
+        "org": "organisation",
+        "x": 920,
+        "y": 1040,
+        "wires": [
+            [
+                "9442afba.2d0c3"
+            ]
+        ]
+    },
+    {
+        "id": "42b0c0f5.42fdf",
+        "type": "influxdb in",
+        "z": "1d22c714.e50369",
+        "influxdb": "8193652c.e6bda8",
+        "name": "Select past 24 hours",
+        "query": "SELECT * FROM water_ph GROUP BY * ORDER BY DESC LIMIT 500",
+        "rawOutput": false,
+        "precision": "",
+        "retentionPolicy": "",
+        "org": "organisation",
+        "x": 940,
+        "y": 1080,
+        "wires": [
+            [
+                "a12ec6c.7faa138"
             ]
         ]
     },
@@ -2006,6 +2253,8 @@
         "style": "",
         "colorFromTheme": true,
         "property": "payload",
+        "secondary": "secondary",
+        "inline": true,
         "sectors": [
             {
                 "val": 0,
@@ -2065,6 +2314,8 @@
         "style": "",
         "colorFromTheme": true,
         "property": "payload",
+        "secondary": "secondary",
+        "inline": true,
         "sectors": [
             {
                 "val": 0,
@@ -2097,11 +2348,11 @@
                 "dot": 0
             }
         ],
-        "lineWidth": "3",
+        "lineWidth": "5",
         "bgcolorFromTheme": true,
         "diffCenter": "",
         "x": 800,
-        "y": 380,
+        "y": 400,
         "wires": []
     },
     {
@@ -2124,6 +2375,8 @@
         "style": "",
         "colorFromTheme": true,
         "property": "payload",
+        "secondary": "secondary",
+        "inline": true,
         "sectors": [
             {
                 "val": 0,
@@ -2178,7 +2431,7 @@
         "width": 4,
         "height": 4,
         "name": "Room Humidity DHT11",
-        "icon": "fa-tint ",
+        "icon": "fa-tint",
         "label": "Humidity",
         "unit": "%",
         "layout": "radial",
@@ -2189,6 +2442,8 @@
         "style": "",
         "colorFromTheme": true,
         "property": "payload",
+        "secondary": "secondary",
+        "inline": true,
         "sectors": [
             {
                 "val": 0,
@@ -2227,233 +2482,6 @@
         "x": 890,
         "y": 1360,
         "wires": []
-    },
-    {
-        "id": "afc9c5e2.a75b78",
-        "type": "influxdb in",
-        "z": "1d22c714.e50369",
-        "influxdb": "8193652c.e6bda8",
-        "name": "Select last entry",
-        "query": "SELECT * FROM luminosity GROUP BY * ORDER BY DESC LIMIT 1",
-        "rawOutput": false,
-        "precision": "",
-        "retentionPolicy": "",
-        "org": "organisation",
-        "x": 940,
-        "y": 720,
-        "wires": [
-            [
-                "5a973813.655e68"
-            ]
-        ]
-    },
-    {
-        "id": "5a973813.655e68",
-        "type": "function",
-        "z": "1d22c714.e50369",
-        "name": "Parse telemetry JSON",
-        "func": "\nvar newMsg =  { \n        payload: new Date(msg.payload[0].time)\n};\nreturn newMsg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "x": 1200,
-        "y": 720,
-        "wires": [
-            [
-                "cb675a7c.a85308"
-            ]
-        ]
-    },
-    {
-        "id": "a03a10b3.da32b",
-        "type": "eztimer",
-        "z": "87cb301d.9893c",
-        "name": "",
-        "debug": false,
-        "autoname": "13:39:00 - 13:39:30",
-        "tag": "eztimer",
-        "suspended": false,
-        "sendEventsOnSuspend": false,
-        "lat": "",
-        "lon": "",
-        "timerType": "1",
-        "startupMessage": true,
-        "ontype": "2",
-        "ontimesun": "dawn",
-        "ontimetod": "13:39:00",
-        "onpropertytype": "msg",
-        "onproperty": "payload",
-        "onvaluetype": "bool",
-        "onvalue": "true",
-        "onoffset": 0,
-        "onrandomoffset": 0,
-        "onsuppressrepeats": false,
-        "offtype": "2",
-        "offtimesun": "dusk",
-        "offtimetod": "13:39:30",
-        "offduration": "00:01:00",
-        "offpropertytype": "msg",
-        "offproperty": "payload",
-        "offvaluetype": "bool",
-        "offvalue": "false",
-        "offoffset": 0,
-        "offrandomoffset": 0,
-        "offsuppressrepeats": false,
-        "mon": true,
-        "tue": true,
-        "wed": true,
-        "thu": true,
-        "fri": true,
-        "sat": true,
-        "sun": true,
-        "x": 510,
-        "y": 100,
-        "wires": [
-            [
-                "df864faf.11005"
-            ]
-        ]
-    },
-    {
-        "id": "991c539f.fb285",
-        "type": "comment",
-        "z": "87cb301d.9893c",
-        "name": "### This scenario is permanent and requires a file to read an write to ###",
-        "info": "",
-        "x": 340,
-        "y": 220,
-        "wires": []
-    },
-    {
-        "id": "ef11c701.cd9fa8",
-        "type": "file",
-        "z": "87cb301d.9893c",
-        "name": "WriteFile",
-        "filename": "/home/pi/.node-red/projects/Hydroponic/time-schedule-water-pump.txt",
-        "appendNewline": true,
-        "createDir": true,
-        "overwriteFile": "true",
-        "encoding": "none",
-        "x": 780,
-        "y": 274,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "7822012a.876838",
-        "type": "inject",
-        "z": "87cb301d.9893c",
-        "name": "FireAfterReboot",
-        "props": [
-            {
-                "p": "payload",
-                "v": "",
-                "vt": "date"
-            },
-            {
-                "p": "topic",
-                "v": "",
-                "vt": "string"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": true,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 180,
-        "y": 280,
-        "wires": [
-            [
-                "2920de2a.a86312"
-            ]
-        ]
-    },
-    {
-        "id": "2920de2a.a86312",
-        "type": "file in",
-        "z": "87cb301d.9893c",
-        "name": "ReadFile",
-        "filename": "/home/pi/.node-red/projects/Hydroponic/time-schedule-water-pump.txt",
-        "format": "utf8",
-        "chunk": false,
-        "sendError": false,
-        "encoding": "none",
-        "x": 360,
-        "y": 280,
-        "wires": [
-            [
-                "18d69559.b452cb"
-            ]
-        ]
-    },
-    {
-        "id": "18d69559.b452cb",
-        "type": "ui_time_scheduler",
-        "z": "87cb301d.9893c",
-        "group": "bdf4ab4f.fa8958",
-        "name": "Water spray scheduler",
-        "startDay": "1",
-        "refresh": 60,
-        "devices": [
-            "Schedule water spray"
-        ],
-        "customPayload": false,
-        "eventMode": true,
-        "outputs": 2,
-        "order": 4,
-        "width": 6,
-        "height": 4,
-        "x": 560,
-        "y": 280,
-        "wires": [
-            [
-                "ef11c701.cd9fa8"
-            ],
-            [
-                "c1e51a25.bcd2f8"
-            ]
-        ]
-    },
-    {
-        "id": "80dfb7d3.791078",
-        "type": "function",
-        "z": "87cb301d.9893c",
-        "name": "",
-        "func": "var date = new Date(msg.payload);\nmsg.payload = { \n    \"ontime\": date.getUTCHours() + \":\" + date.getMinutes(),\n};\n\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "x": 320,
-        "y": 80,
-        "wires": [
-            [
-                "a03a10b3.da32b"
-            ]
-        ]
-    },
-    {
-        "id": "c145646.1fd8e98",
-        "type": "function",
-        "z": "87cb301d.9893c",
-        "name": "",
-        "func": "var date = new Date(msg.payload);\nmsg.payload = { \n    \"offtime\": date.getUTCHours() + \":\" + date.getMinutes(),\n};\n\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "x": 320,
-        "y": 120,
-        "wires": [
-            [
-                "a03a10b3.da32b"
-            ]
-        ]
     },
     {
         "id": "4d58abb1.177e64",
@@ -2509,145 +2537,90 @@
         "wires": []
     },
     {
-        "id": "e3814403.711458",
-        "type": "influxdb out",
+        "id": "54666026.3c8da",
+        "type": "ui_led",
         "z": "1d22c714.e50369",
-        "influxdb": "8193652c.e6bda8",
-        "name": "",
-        "measurement": "water_ph",
-        "precision": "",
-        "retentionPolicy": "",
-        "database": "database",
-        "precisionV18FluxV20": "ms",
-        "retentionPolicyV18Flux": "",
-        "org": "organisation",
-        "bucket": "bucket",
-        "x": 850,
-        "y": 1000,
-        "wires": []
-    },
-    {
-        "id": "4594e62e.1bff58",
-        "type": "influxdb in",
-        "z": "1d22c714.e50369",
-        "influxdb": "8193652c.e6bda8",
-        "name": "Select last entry",
-        "query": "SELECT * FROM water_ph GROUP BY * ORDER BY DESC LIMIT 1",
-        "rawOutput": false,
-        "precision": "",
-        "retentionPolicy": "",
-        "org": "organisation",
-        "x": 920,
-        "y": 1040,
-        "wires": [
-            [
-                "9442afba.2d0c3"
-            ]
-        ]
-    },
-    {
-        "id": "7d66ede7.acf094",
-        "type": "delay",
-        "z": "1d22c714.e50369",
-        "name": "",
-        "pauseType": "delay",
-        "timeout": "2",
-        "timeoutUnits": "seconds",
-        "rate": "1",
-        "nbRateUnits": "1",
-        "rateUnits": "second",
-        "randomFirst": "1",
-        "randomLast": "5",
-        "randomUnits": "seconds",
-        "drop": false,
-        "x": 760,
-        "y": 1040,
-        "wires": [
-            [
-                "4594e62e.1bff58",
-                "42b0c0f5.42fdf"
-            ]
-        ]
-    },
-    {
-        "id": "42b0c0f5.42fdf",
-        "type": "influxdb in",
-        "z": "1d22c714.e50369",
-        "influxdb": "8193652c.e6bda8",
-        "name": "Select past 24 hours",
-        "query": "SELECT * FROM water_ph GROUP BY * ORDER BY DESC LIMIT 500",
-        "rawOutput": false,
-        "precision": "",
-        "retentionPolicy": "",
-        "org": "organisation",
-        "x": 940,
-        "y": 1080,
-        "wires": [
-            [
-                "a12ec6c.7faa138"
-            ]
-        ]
-    },
-    {
-        "id": "a12ec6c.7faa138",
-        "type": "change",
-        "z": "1d22c714.e50369",
-        "name": "",
-        "rules": [
+        "group": "72b67add.961f74",
+        "order": 3,
+        "width": 2,
+        "height": 1,
+        "label": "",
+        "labelPlacement": "right",
+        "labelAlignment": "right",
+        "colorForValue": [
             {
-                "t": "set",
-                "p": "origin",
-                "pt": "msg",
-                "to": "waterPH",
-                "tot": "str"
+                "color": "red",
+                "value": "false",
+                "valueType": "str"
+            },
+            {
+                "color": "green",
+                "value": "true",
+                "valueType": "str"
             }
         ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 1160,
-        "y": 1080,
-        "wires": [
-            [
-                "abe678a7.9a28b8"
-            ]
-        ]
-    },
-    {
-        "id": "9442afba.2d0c3",
-        "type": "function",
-        "z": "1d22c714.e50369",
-        "name": "Parse telemetry JSON",
-        "func": "\nvar newMsg =  { \n        payload: new Date(msg.payload[0].time)\n};\nreturn newMsg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "x": 1180,
-        "y": 1040,
-        "wires": [
-            [
-                "1aca970a.1a6d09"
-            ]
-        ]
-    },
-    {
-        "id": "38be3152.b77b6e",
-        "type": "debug",
-        "z": "1d22c714.e50369",
-        "name": "",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "false",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 540,
-        "y": 480,
+        "allowColorForValueInMessage": false,
+        "name": "Grow lights",
+        "x": 370,
+        "y": 1460,
         "wires": []
+    },
+    {
+        "id": "d0f89a7b.d9a8f8",
+        "type": "ui_led",
+        "z": "1d22c714.e50369",
+        "group": "bdf4ab4f.fa8958",
+        "order": 3,
+        "width": 2,
+        "height": 1,
+        "label": "",
+        "labelPlacement": "right",
+        "labelAlignment": "right",
+        "colorForValue": [
+            {
+                "color": "red",
+                "value": "false",
+                "valueType": "str"
+            },
+            {
+                "color": "green",
+                "value": "true",
+                "valueType": "str"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "name": "water spray",
+        "x": 390,
+        "y": 1520,
+        "wires": []
+    },
+    {
+        "id": "18d69559.b452cb",
+        "type": "ui_time_scheduler",
+        "z": "87cb301d.9893c",
+        "group": "bdf4ab4f.fa8958",
+        "name": "Water spray scheduler",
+        "startDay": "1",
+        "refresh": 60,
+        "devices": [
+            "Schedule water spray"
+        ],
+        "customPayload": false,
+        "eventMode": true,
+        "outputs": 2,
+        "order": 4,
+        "width": 6,
+        "height": 4,
+        "x": 560,
+        "y": 260,
+        "wires": [
+            [
+                "ef11c701.cd9fa8"
+            ],
+            [
+                "c1e51a25.bcd2f8"
+            ]
+        ]
     },
     {
         "id": "df864faf.11005",
