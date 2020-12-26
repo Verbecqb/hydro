@@ -448,8 +448,7 @@
                 "primary": "indigo",
                 "accents": "blue",
                 "warn": "red",
-                "background": "grey",
-                "palette": "dark"
+                "background": "grey"
             }
         },
         "site": {
@@ -512,7 +511,7 @@
         "tab": "352c089f.6b44d8",
         "order": 7,
         "disp": true,
-        "width": 8,
+        "width": 7,
         "collapse": false
     },
     {
@@ -561,7 +560,13 @@
         "height": 1
     },
     {
-        "id": "f9b26ecf.563fc",
+        "id": "217cc961.603ce6",
+        "type": "persist-store",
+        "filename": "/home/pi/.node-red/projects/hydro/persistence.json",
+        "interval": "60"
+    },
+    {
+        "id": "7dd21b21.94bf74",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "1c37dc0b.ce28e4",
@@ -570,7 +575,7 @@
         "height": 1
     },
     {
-        "id": "28a9f2c8.dbfdfe",
+        "id": "1498f9c3.8c5cd6",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "1c37dc0b.ce28e4",
@@ -579,7 +584,7 @@
         "height": 1
     },
     {
-        "id": "df31001c.76b83",
+        "id": "ba4beba6.482fd8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -588,7 +593,7 @@
         "height": 1
     },
     {
-        "id": "2b9e05b8.e17b1a",
+        "id": "727ab7b9.e16a78",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -597,7 +602,7 @@
         "height": 1
     },
     {
-        "id": "76337905.c1da78",
+        "id": "6bf46748.1eca48",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -606,7 +611,7 @@
         "height": 1
     },
     {
-        "id": "11eaaba.66d2e54",
+        "id": "f61575df.413e78",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -615,7 +620,7 @@
         "height": 1
     },
     {
-        "id": "8de209f6.11e1a8",
+        "id": "858512c.69c29f",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -624,7 +629,7 @@
         "height": 1
     },
     {
-        "id": "5227c07a.d2e9d",
+        "id": "5a1f4149.4a15f",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "72b67add.961f74",
@@ -633,34 +638,16 @@
         "height": 1
     },
     {
-        "id": "b5eab424.f5fc98",
+        "id": "fa3904a8.629618",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
-        "order": 3,
+        "order": 7,
         "width": 1,
         "height": 1
     },
     {
-        "id": "73f48f28.ff1ce",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "8d4aab9b.4d6328",
-        "order": 6,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "52d6352a.3e042c",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "8d4aab9b.4d6328",
-        "order": 9,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "741468aa.f96fe8",
+        "id": "f050aba8.3eb4c8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -669,37 +656,13 @@
         "height": 1
     },
     {
-        "id": "a4179306.07a46",
+        "id": "3768587a.cc7c88",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
         "order": 13,
-        "width": 2,
-        "height": 1
-    },
-    {
-        "id": "28921ff1.fa86c",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "8d4aab9b.4d6328",
-        "order": 14,
         "width": 1,
         "height": 1
-    },
-    {
-        "id": "62b2f7dd.0bc7c8",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "8d4aab9b.4d6328",
-        "order": 17,
-        "width": 2,
-        "height": 1
-    },
-    {
-        "id": "217cc961.603ce6",
-        "type": "persist-store",
-        "filename": "/home/pi/.node-red/projects/hydro/persistence.json",
-        "interval": "60"
     },
     {
         "id": "e30bc267.9a60e",
@@ -2479,7 +2442,7 @@
         "type": "ui_led",
         "z": "1d22c714.e50369",
         "group": "8d4aab9b.4d6328",
-        "order": 5,
+        "order": 4,
         "width": 2,
         "height": 1,
         "label": "",
@@ -2543,7 +2506,7 @@
         "label": "Water spray",
         "tooltip": "",
         "group": "8d4aab9b.4d6328",
-        "order": 4,
+        "order": 3,
         "width": 5,
         "height": 1,
         "passthru": true,
@@ -2933,7 +2896,7 @@
         "type": "delay",
         "z": "87cb301d.9893c",
         "name": "",
-        "pauseType": "delay",
+        "pauseType": "delayv",
         "timeout": "20",
         "timeoutUnits": "seconds",
         "rate": "1",
@@ -2943,8 +2906,8 @@
         "randomLast": "5",
         "randomUnits": "seconds",
         "drop": false,
-        "x": 620,
-        "y": 440,
+        "x": 920,
+        "y": 460,
         "wires": [
             [
                 "a7364d44.56698"
@@ -2960,7 +2923,7 @@
         "qos": "0",
         "retain": "",
         "broker": "a0e631b8.d383b",
-        "x": 370,
+        "x": 490,
         "y": 380,
         "wires": []
     },
@@ -2983,8 +2946,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 770,
-        "y": 440,
+        "x": 1070,
+        "y": 460,
         "wires": [
             [
                 "648ce0a1.8a9de"
@@ -3006,11 +2969,11 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 420,
-        "y": 440,
+        "x": 300,
+        "y": 460,
         "wires": [
             [
-                "5d2f5ff2.180c5"
+                "bb16ff0b.197e6"
             ]
         ]
     },
@@ -3022,7 +2985,7 @@
         "label": "Nutriments",
         "tooltip": "",
         "group": "8d4aab9b.4d6328",
-        "order": 7,
+        "order": 5,
         "width": 5,
         "height": 1,
         "passthru": true,
@@ -3037,7 +3000,7 @@
         "offvalueType": "bool",
         "officon": "",
         "offcolor": "",
-        "x": 150,
+        "x": 270,
         "y": 380,
         "wires": [
             [
@@ -3068,7 +3031,7 @@
         "type": "ui_led",
         "z": "1d22c714.e50369",
         "group": "8d4aab9b.4d6328",
-        "order": 8,
+        "order": 6,
         "width": 2,
         "height": 1,
         "label": "",
@@ -3465,8 +3428,8 @@
         "type": "ui_slider",
         "z": "87cb301d.9893c",
         "name": "PPM min. value",
-        "label": "Min.",
-        "tooltip": "",
+        "label": "Min. PPM",
+        "tooltip": "Minimum PPM threshold to trigger event",
         "group": "8d4aab9b.4d6328",
         "order": 11,
         "width": 4,
@@ -3477,8 +3440,8 @@
         "min": 0,
         "max": "1400",
         "step": "10",
-        "x": 380,
-        "y": 500,
+        "x": 460,
+        "y": 700,
         "wires": [
             [
                 "db9050e4.c89ba",
@@ -3492,10 +3455,10 @@
         "type": "ui_slider",
         "z": "87cb301d.9893c",
         "name": "PPM max. value",
-        "label": "Max.",
-        "tooltip": "",
+        "label": "Max. PPM",
+        "tooltip": "Max PPM threshold to trigger event",
         "group": "8d4aab9b.4d6328",
-        "order": 15,
+        "order": 14,
         "width": 4,
         "height": 1,
         "passthru": true,
@@ -3504,8 +3467,8 @@
         "min": 0,
         "max": "1400",
         "step": "10",
-        "x": 380,
-        "y": 640,
+        "x": 460,
+        "y": 840,
         "wires": [
             [
                 "86b27ad6.f2ac78",
@@ -3520,14 +3483,14 @@
         "z": "87cb301d.9893c",
         "group": "8d4aab9b.4d6328",
         "order": 12,
-        "width": 1,
+        "width": 2,
         "height": 1,
         "name": "PPM min value",
         "label": "",
         "format": "{{msg.payload}}",
         "layout": "row-center",
-        "x": 620,
-        "y": 500,
+        "x": 700,
+        "y": 700,
         "wires": []
     },
     {
@@ -3535,15 +3498,15 @@
         "type": "ui_text",
         "z": "87cb301d.9893c",
         "group": "8d4aab9b.4d6328",
-        "order": 16,
-        "width": 1,
+        "order": 15,
+        "width": 2,
         "height": 1,
         "name": "PPM max value",
         "label": "",
         "format": "{{msg.payload}}",
         "layout": "row-center",
-        "x": 620,
-        "y": 640,
+        "x": 700,
+        "y": 840,
         "wires": []
     },
     {
@@ -3556,8 +3519,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 640,
-        "y": 540,
+        "x": 720,
+        "y": 740,
         "wires": [
             []
         ]
@@ -3572,8 +3535,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 640,
-        "y": 680,
+        "x": 720,
+        "y": 880,
         "wires": [
             []
         ]
@@ -3613,8 +3576,8 @@
         "z": "87cb301d.9893c",
         "name": "minPPMValue",
         "storageNode": "217cc961.603ce6",
-        "x": 618,
-        "y": 580,
+        "x": 698,
+        "y": 780,
         "wires": []
     },
     {
@@ -3623,8 +3586,8 @@
         "z": "87cb301d.9893c",
         "name": "minPPMValue",
         "storageNode": "217cc961.603ce6",
-        "x": 180,
-        "y": 500,
+        "x": 260,
+        "y": 700,
         "wires": [
             [
                 "e7786898.4b6868"
@@ -3637,8 +3600,8 @@
         "z": "87cb301d.9893c",
         "name": "maxPPMValue",
         "storageNode": "217cc961.603ce6",
-        "x": 620,
-        "y": 720,
+        "x": 700,
+        "y": 920,
         "wires": []
     },
     {
@@ -3647,12 +3610,155 @@
         "z": "87cb301d.9893c",
         "name": "maxPPMValue",
         "storageNode": "217cc961.603ce6",
-        "x": 180,
-        "y": 640,
+        "x": 260,
+        "y": 840,
         "wires": [
             [
                 "49bf0c8e.06b714"
             ]
         ]
+    },
+    {
+        "id": "10e9a27.bb9f05e",
+        "type": "comment",
+        "z": "87cb301d.9893c",
+        "name": "### Nutriments controler ###",
+        "info": "",
+        "x": 220,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "bb16ff0b.197e6",
+        "type": "persist out",
+        "z": "87cb301d.9893c",
+        "name": "nutrimentsTimer",
+        "storageNode": "217cc961.603ce6",
+        "x": 560,
+        "y": 460,
+        "wires": [
+            [
+                "cf53cc34.c3564"
+            ]
+        ]
+    },
+    {
+        "id": "cf53cc34.c3564",
+        "type": "function",
+        "z": "87cb301d.9893c",
+        "name": "msg.delay",
+        "func": "var newMsg = { delay: (msg.payload * 1000) };\nreturn newMsg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 750,
+        "y": 460,
+        "wires": [
+            [
+                "5d2f5ff2.180c5",
+                "22c5ffc7.29a2a"
+            ]
+        ]
+    },
+    {
+        "id": "291d0ce5.3b19f4",
+        "type": "ui_slider",
+        "z": "87cb301d.9893c",
+        "name": "Nutriments duration",
+        "label": "Duration",
+        "tooltip": "",
+        "group": "8d4aab9b.4d6328",
+        "order": 8,
+        "width": 4,
+        "height": 1,
+        "passthru": true,
+        "outs": "all",
+        "topic": "",
+        "min": "1",
+        "max": "30",
+        "step": 1,
+        "x": 480,
+        "y": 560,
+        "wires": [
+            [
+                "bd1a41bd.42258",
+                "40ff0cbf.623994",
+                "5d69fc.7056c604"
+            ]
+        ]
+    },
+    {
+        "id": "bd1a41bd.42258",
+        "type": "ui_text",
+        "z": "87cb301d.9893c",
+        "group": "8d4aab9b.4d6328",
+        "order": 9,
+        "width": 2,
+        "height": 1,
+        "name": "PPM min value",
+        "label": "",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "x": 700,
+        "y": 560,
+        "wires": []
+    },
+    {
+        "id": "40ff0cbf.623994",
+        "type": "function",
+        "z": "87cb301d.9893c",
+        "name": "Save global variable",
+        "func": "\nglobal.set('durationNutriments',msg.payload);\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 720,
+        "y": 600,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "5d69fc.7056c604",
+        "type": "persist in",
+        "z": "87cb301d.9893c",
+        "name": "nutrimentsTimer",
+        "storageNode": "217cc961.603ce6",
+        "x": 698,
+        "y": 640,
+        "wires": []
+    },
+    {
+        "id": "ba7f0c0a.aeb54",
+        "type": "persist out",
+        "z": "87cb301d.9893c",
+        "name": "nutrimentsTimer",
+        "storageNode": "217cc961.603ce6",
+        "x": 260,
+        "y": 560,
+        "wires": [
+            [
+                "291d0ce5.3b19f4"
+            ]
+        ]
+    },
+    {
+        "id": "22c5ffc7.29a2a",
+        "type": "debug",
+        "z": "87cb301d.9893c",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "delay",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 960,
+        "y": 400,
+        "wires": []
     }
 ]
