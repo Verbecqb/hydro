@@ -112,23 +112,13 @@
         "collapse": false
     },
     {
-        "id": "bdf4ab4f.fa8958",
-        "type": "ui_group",
-        "name": "Seed tray - Nutriments",
-        "tab": "352c089f.6b44d8",
-        "order": 7,
-        "disp": true,
-        "width": "6",
-        "collapse": true
-    },
-    {
         "id": "72b67add.961f74",
         "type": "ui_group",
-        "name": "Seed tray - Grow lights",
+        "name": "Seed tray - Schedules",
         "tab": "352c089f.6b44d8",
         "order": 6,
         "disp": true,
-        "width": 7,
+        "width": "7",
         "collapse": false
     },
     {
@@ -518,15 +508,60 @@
     {
         "id": "8d4aab9b.4d6328",
         "type": "ui_group",
-        "name": "Seed tray - Water spray",
+        "name": "Seed tray - Devices",
         "tab": "352c089f.6b44d8",
-        "order": 8,
+        "order": 7,
         "disp": true,
-        "width": "6",
+        "width": 8,
         "collapse": false
     },
     {
-        "id": "4f12a89e.df44d8",
+        "id": "c9b3db5b.545828",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "bdf4ab4f.fa8958",
+        "order": 3,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "817f3f37.e3851",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "bdf4ab4f.fa8958",
+        "order": 4,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "f0e56970.626d48",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "bdf4ab4f.fa8958",
+        "order": 6,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "c33dc565.8c19d8",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "bdf4ab4f.fa8958",
+        "order": 7,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "f4cafd8e.2fc58",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "bdf4ab4f.fa8958",
+        "order": 9,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "f9b26ecf.563fc",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "1c37dc0b.ce28e4",
@@ -535,7 +570,7 @@
         "height": 1
     },
     {
-        "id": "c9e2fcc.59abb",
+        "id": "28a9f2c8.dbfdfe",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "1c37dc0b.ce28e4",
@@ -544,7 +579,7 @@
         "height": 1
     },
     {
-        "id": "687b8858.85e1f8",
+        "id": "df31001c.76b83",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -553,7 +588,7 @@
         "height": 1
     },
     {
-        "id": "8a4493dd.b7c7c",
+        "id": "2b9e05b8.e17b1a",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -562,7 +597,7 @@
         "height": 1
     },
     {
-        "id": "24cfdc1.e4e1e24",
+        "id": "76337905.c1da78",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -571,7 +606,7 @@
         "height": 1
     },
     {
-        "id": "d3cd62b7.b6c3f",
+        "id": "11eaaba.66d2e54",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -580,7 +615,7 @@
         "height": 1
     },
     {
-        "id": "bb0c64d5.601a38",
+        "id": "8de209f6.11e1a8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -589,22 +624,82 @@
         "height": 1
     },
     {
-        "id": "56e9ae7c.fa4ef",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "65d119b5.66cb78",
-        "order": 8,
-        "width": 4,
-        "height": 1
-    },
-    {
-        "id": "6b8f950d.68c2ec",
+        "id": "5227c07a.d2e9d",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "72b67add.961f74",
-        "order": 5,
+        "order": 2,
         "width": 1,
         "height": 1
+    },
+    {
+        "id": "b5eab424.f5fc98",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "8d4aab9b.4d6328",
+        "order": 3,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "73f48f28.ff1ce",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "8d4aab9b.4d6328",
+        "order": 6,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "52d6352a.3e042c",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "8d4aab9b.4d6328",
+        "order": 9,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "741468aa.f96fe8",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "8d4aab9b.4d6328",
+        "order": 10,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "a4179306.07a46",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "8d4aab9b.4d6328",
+        "order": 13,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "28921ff1.fa86c",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "8d4aab9b.4d6328",
+        "order": 14,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "62b2f7dd.0bc7c8",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "8d4aab9b.4d6328",
+        "order": 17,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "217cc961.603ce6",
+        "type": "persist-store",
+        "filename": "/home/pi/.node-red/projects/hydro/persistence.json",
+        "interval": "60"
     },
     {
         "id": "e30bc267.9a60e",
@@ -718,51 +813,55 @@
         "qos": "0",
         "retain": "",
         "broker": "a0e631b8.d383b",
-        "x": 830,
-        "y": 100,
+        "x": 970,
+        "y": 80,
         "wires": []
     },
     {
         "id": "3e247b14.95d3a4",
         "type": "switch",
         "z": "5127740.f28848c",
-        "name": "",
+        "name": "Mean PH greater than 6.5 or less than 5.5",
         "property": "payload[0].mean",
         "propertyType": "msg",
         "rules": [
             {
                 "t": "gt",
-                "v": "500",
+                "v": "6.5",
                 "vt": "str"
             },
             {
-                "t": "true"
+                "t": "lt",
+                "v": "5.5",
+                "vt": "str"
             }
         ],
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 720,
-        "y": 100,
+        "x": 540,
+        "y": 200,
         "wires": [
             [
                 "8fd06c84.9d955"
             ],
-            []
+            [
+                "f76a168.49897e8"
+            ]
         ]
     },
     {
         "id": "8fd06c84.9d955",
         "type": "function",
         "z": "5127740.f28848c",
-        "name": "Simulate an input",
-        "func": "msg.payload = \"Temperature too high\"\nreturn msg;",
+        "name": "Pass message",
+        "func": "msg.payload = \"PH too high\"\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 790,
-        "y": 40,
+        "x": 820,
+        "y": 164,
         "wires": [
             [
                 "f3e2c3ad.8ebb2"
@@ -1362,8 +1461,8 @@
         "randomLast": "5",
         "randomUnits": "seconds",
         "drop": false,
-        "x": 660,
-        "y": 420,
+        "x": 1020,
+        "y": 260,
         "wires": [
             [
                 "25335612.5b58da"
@@ -1379,8 +1478,8 @@
         "qos": "0",
         "retain": "",
         "broker": "a0e631b8.d383b",
-        "x": 430,
-        "y": 360,
+        "x": 790,
+        "y": 200,
         "wires": []
     },
     {
@@ -1429,8 +1528,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 830,
-        "y": 420,
+        "x": 1190,
+        "y": 260,
         "wires": [
             [
                 "c1e51a25.bcd2f8"
@@ -1452,8 +1551,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 460,
-        "y": 420,
+        "x": 820,
+        "y": 260,
         "wires": [
             [
                 "b9dd843.3247178"
@@ -1560,111 +1659,9 @@
         "z": "87cb301d.9893c",
         "name": "### This scenario is permanent and requires a file to read an write to ###",
         "info": "",
-        "x": 340,
-        "y": 220,
+        "x": 760,
+        "y": 160,
         "wires": []
-    },
-    {
-        "id": "ef11c701.cd9fa8",
-        "type": "file",
-        "z": "87cb301d.9893c",
-        "name": "WriteFile",
-        "filename": "/home/pi/.node-red/projects/hydro/time-schedule-water-pump.txt",
-        "appendNewline": true,
-        "createDir": true,
-        "overwriteFile": "true",
-        "encoding": "none",
-        "x": 780,
-        "y": 274,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "7822012a.876838",
-        "type": "inject",
-        "z": "87cb301d.9893c",
-        "name": "FireAfterReboot",
-        "props": [
-            {
-                "p": "payload",
-                "v": "",
-                "vt": "date"
-            },
-            {
-                "p": "topic",
-                "v": "",
-                "vt": "string"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": true,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 180,
-        "y": 280,
-        "wires": [
-            [
-                "2920de2a.a86312"
-            ]
-        ]
-    },
-    {
-        "id": "2920de2a.a86312",
-        "type": "file in",
-        "z": "87cb301d.9893c",
-        "name": "ReadFile",
-        "filename": "/home/pi/.node-red/projects/hydro/time-schedule-water-pump.txt",
-        "format": "utf8",
-        "chunk": false,
-        "sendError": false,
-        "encoding": "none",
-        "x": 360,
-        "y": 280,
-        "wires": [
-            [
-                "18d69559.b452cb"
-            ]
-        ]
-    },
-    {
-        "id": "80dfb7d3.791078",
-        "type": "function",
-        "z": "87cb301d.9893c",
-        "name": "",
-        "func": "var date = new Date(msg.payload);\nmsg.payload = { \n    \"ontime\": date.getUTCHours() + \":\" + date.getMinutes(),\n};\n\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "x": 320,
-        "y": 80,
-        "wires": [
-            [
-                "a03a10b3.da32b"
-            ]
-        ]
-    },
-    {
-        "id": "c145646.1fd8e98",
-        "type": "function",
-        "z": "87cb301d.9893c",
-        "name": "",
-        "func": "var date = new Date(msg.payload);\nmsg.payload = { \n    \"offtime\": date.getUTCHours() + \":\" + date.getMinutes(),\n};\n\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "x": 320,
-        "y": 120,
-        "wires": [
-            [
-                "a03a10b3.da32b"
-            ]
-        ]
     },
     {
         "id": "7d66ede7.acf094",
@@ -1764,56 +1761,6 @@
         "wires": [
             [
                 "ec42ca0e.6c9dd8"
-            ]
-        ]
-    },
-    {
-        "id": "a03a10b3.da32b",
-        "type": "eztimer",
-        "z": "87cb301d.9893c",
-        "name": "",
-        "debug": false,
-        "autoname": "13:39:00 - 13:39:30",
-        "tag": "eztimer",
-        "suspended": false,
-        "sendEventsOnSuspend": false,
-        "lat": "",
-        "lon": "",
-        "timerType": "1",
-        "startupMessage": true,
-        "ontype": "2",
-        "ontimesun": "dawn",
-        "ontimetod": "13:39:00",
-        "onpropertytype": "msg",
-        "onproperty": "payload",
-        "onvaluetype": "bool",
-        "onvalue": "true",
-        "onoffset": 0,
-        "onrandomoffset": 0,
-        "onsuppressrepeats": false,
-        "offtype": "2",
-        "offtimesun": "dusk",
-        "offtimetod": "13:39:30",
-        "offduration": "00:01:00",
-        "offpropertytype": "msg",
-        "offproperty": "payload",
-        "offvaluetype": "bool",
-        "offvalue": "false",
-        "offoffset": 0,
-        "offrandomoffset": 0,
-        "offsuppressrepeats": false,
-        "mon": true,
-        "tue": true,
-        "wed": true,
-        "thu": true,
-        "fri": true,
-        "sat": true,
-        "sun": true,
-        "x": 510,
-        "y": 100,
-        "wires": [
-            [
-                "df864faf.11005"
             ]
         ]
     },
@@ -1930,14 +1877,14 @@
         "type": "influxdb in",
         "z": "5127740.f28848c",
         "influxdb": "8193652c.e6bda8",
-        "name": "",
-        "query": "SELECT MEAN(temperature) FROM temperature",
+        "name": "Mean water PH over last 20min",
+        "query": "SELECT mean(value) FROM water_ph WHERE time >= now() - 20m",
         "rawOutput": false,
         "precision": "",
         "retentionPolicy": "",
         "org": "organisation",
-        "x": 350,
-        "y": 120,
+        "x": 210,
+        "y": 200,
         "wires": [
             [
                 "3e247b14.95d3a4"
@@ -2502,7 +2449,7 @@
         "id": "54666026.3c8da",
         "type": "ui_led",
         "z": "1d22c714.e50369",
-        "group": "72b67add.961f74",
+        "group": "8d4aab9b.4d6328",
         "order": 2,
         "width": 2,
         "height": 1,
@@ -2532,7 +2479,7 @@
         "type": "ui_led",
         "z": "1d22c714.e50369",
         "group": "8d4aab9b.4d6328",
-        "order": 2,
+        "order": 5,
         "width": 2,
         "height": 1,
         "label": "",
@@ -2557,41 +2504,13 @@
         "wires": []
     },
     {
-        "id": "18d69559.b452cb",
-        "type": "ui_time_scheduler",
-        "z": "87cb301d.9893c",
-        "group": "8d4aab9b.4d6328",
-        "name": "Water spray scheduler",
-        "startDay": "1",
-        "refresh": 60,
-        "devices": [
-            "Schedule water spray"
-        ],
-        "customPayload": false,
-        "eventMode": true,
-        "outputs": 2,
-        "order": 3,
-        "width": 6,
-        "height": 1,
-        "x": 560,
-        "y": 280,
-        "wires": [
-            [
-                "ef11c701.cd9fa8"
-            ],
-            [
-                "c1e51a25.bcd2f8"
-            ]
-        ]
-    },
-    {
         "id": "df864faf.11005",
         "type": "ui_switch",
         "z": "87cb301d.9893c",
         "name": "",
         "label": "Grow lights",
         "tooltip": "Led",
-        "group": "72b67add.961f74",
+        "group": "8d4aab9b.4d6328",
         "order": 1,
         "width": 5,
         "height": 1,
@@ -2607,8 +2526,8 @@
         "offvalueType": "bool",
         "officon": "",
         "offcolor": "",
-        "x": 690,
-        "y": 100,
+        "x": 830,
+        "y": 80,
         "wires": [
             [
                 "acca3832.810b88"
@@ -2624,8 +2543,8 @@
         "label": "Water spray",
         "tooltip": "",
         "group": "8d4aab9b.4d6328",
-        "order": 1,
-        "width": 4,
+        "order": 4,
+        "width": 5,
         "height": 1,
         "passthru": true,
         "decouple": "false",
@@ -2639,8 +2558,8 @@
         "offvalueType": "bool",
         "officon": "",
         "offcolor": "",
-        "x": 210,
-        "y": 360,
+        "x": 570,
+        "y": 200,
         "wires": [
             [
                 "dec1467a.516188",
@@ -2671,52 +2590,6 @@
         "wires": [
             [
                 "45293d1e.aedc04"
-            ]
-        ]
-    },
-    {
-        "id": "9fe09f73.82d02",
-        "type": "ui_text_input",
-        "z": "87cb301d.9893c",
-        "name": "",
-        "label": "Timer start",
-        "tooltip": "",
-        "group": "72b67add.961f74",
-        "order": 3,
-        "width": 3,
-        "height": 1,
-        "passthru": true,
-        "mode": "time",
-        "delay": 300,
-        "topic": "on",
-        "x": 150,
-        "y": 80,
-        "wires": [
-            [
-                "80dfb7d3.791078"
-            ]
-        ]
-    },
-    {
-        "id": "6f210002.6f55a",
-        "type": "ui_text_input",
-        "z": "87cb301d.9893c",
-        "name": "",
-        "label": "Timer stop",
-        "tooltip": "",
-        "group": "72b67add.961f74",
-        "order": 4,
-        "width": 3,
-        "height": 1,
-        "passthru": true,
-        "mode": "time",
-        "delay": 300,
-        "topic": "off",
-        "x": 150,
-        "y": 120,
-        "wires": [
-            [
-                "c145646.1fd8e98"
             ]
         ]
     },
@@ -2950,10 +2823,10 @@
         "ok": "OK",
         "cancel": "",
         "raw": false,
-        "topic": "Temperature",
+        "topic": "Water PH",
         "name": "Alert ",
-        "x": 890,
-        "y": 100,
+        "x": 1010,
+        "y": 184,
         "wires": []
     },
     {
@@ -3070,8 +2943,8 @@
         "randomLast": "5",
         "randomUnits": "seconds",
         "drop": false,
-        "x": 680,
-        "y": 560,
+        "x": 620,
+        "y": 440,
         "wires": [
             [
                 "a7364d44.56698"
@@ -3087,8 +2960,8 @@
         "qos": "0",
         "retain": "",
         "broker": "a0e631b8.d383b",
-        "x": 430,
-        "y": 500,
+        "x": 370,
+        "y": 380,
         "wires": []
     },
     {
@@ -3110,8 +2983,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 830,
-        "y": 560,
+        "x": 770,
+        "y": 440,
         "wires": [
             [
                 "648ce0a1.8a9de"
@@ -3133,8 +3006,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 480,
-        "y": 560,
+        "x": 420,
+        "y": 440,
         "wires": [
             [
                 "5d2f5ff2.180c5"
@@ -3148,9 +3021,9 @@
         "name": "",
         "label": "Nutriments",
         "tooltip": "",
-        "group": "bdf4ab4f.fa8958",
-        "order": 1,
-        "width": 4,
+        "group": "8d4aab9b.4d6328",
+        "order": 7,
+        "width": 5,
         "height": 1,
         "passthru": true,
         "decouple": "false",
@@ -3164,8 +3037,8 @@
         "offvalueType": "bool",
         "officon": "",
         "offcolor": "",
-        "x": 210,
-        "y": 500,
+        "x": 150,
+        "y": 380,
         "wires": [
             [
                 "93cd22de.a5d2c",
@@ -3194,8 +3067,8 @@
         "id": "2617b5f9.5aa3da",
         "type": "ui_led",
         "z": "1d22c714.e50369",
-        "group": "bdf4ab4f.fa8958",
-        "order": 2,
+        "group": "8d4aab9b.4d6328",
+        "order": 8,
         "width": 2,
         "height": 1,
         "label": "",
@@ -3328,7 +3201,7 @@
         "type": "ui_text",
         "z": "1d22c714.e50369",
         "group": "65d119b5.66cb78",
-        "order": 7,
+        "order": 8,
         "width": 4,
         "height": 1,
         "name": "Last refresh - water level",
@@ -3338,5 +3211,448 @@
         "x": 1410,
         "y": 1220,
         "wires": []
+    },
+    {
+        "id": "4c00e295.9a2f5c",
+        "type": "inject",
+        "z": "5127740.f28848c",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "15",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 130,
+        "y": 140,
+        "wires": [
+            [
+                "1b07e4d1.7c4d9b"
+            ]
+        ]
+    },
+    {
+        "id": "f76a168.49897e8",
+        "type": "function",
+        "z": "5127740.f28848c",
+        "name": "Simulate an input",
+        "func": "msg.payload = \"PH too low\"\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 830,
+        "y": 224,
+        "wires": [
+            [
+                "f3e2c3ad.8ebb2"
+            ]
+        ]
+    },
+    {
+        "id": "5d9dc44f.a6cccc",
+        "type": "switch",
+        "z": "5127740.f28848c",
+        "name": "PPM conditions, min and max values",
+        "property": "payload[0].mean",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "gt",
+                "v": "maxPPM",
+                "vt": "global"
+            },
+            {
+                "t": "lt",
+                "v": "minPPM",
+                "vt": "global"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 528,
+        "y": 334,
+        "wires": [
+            [
+                "78ee2d93.0854e4"
+            ],
+            [
+                "7485b5.c5f5ca4c"
+            ]
+        ]
+    },
+    {
+        "id": "78ee2d93.0854e4",
+        "type": "function",
+        "z": "5127740.f28848c",
+        "name": "Simulate an input",
+        "func": "msg.payload = \"PPM too high\"\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 828,
+        "y": 298,
+        "wires": [
+            [
+                "7ebdaedb.473e9"
+            ]
+        ]
+    },
+    {
+        "id": "6b31749d.19ee4c",
+        "type": "influxdb in",
+        "z": "5127740.f28848c",
+        "influxdb": "8193652c.e6bda8",
+        "name": "Mean PPM over last 20min",
+        "query": "SELECT mean(value) FROM water_quality WHERE time >= now() - 20m",
+        "rawOutput": false,
+        "precision": "",
+        "retentionPolicy": "",
+        "org": "organisation",
+        "x": 198,
+        "y": 334,
+        "wires": [
+            [
+                "5d9dc44f.a6cccc"
+            ]
+        ]
+    },
+    {
+        "id": "7ebdaedb.473e9",
+        "type": "ui_toast",
+        "z": "5127740.f28848c",
+        "position": "top right",
+        "displayTime": "3",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 0,
+        "ok": "OK",
+        "cancel": "",
+        "raw": false,
+        "topic": "Water PPM",
+        "name": "Alert ",
+        "x": 1008,
+        "y": 318,
+        "wires": []
+    },
+    {
+        "id": "7485b5.c5f5ca4c",
+        "type": "function",
+        "z": "5127740.f28848c",
+        "name": "Simulate an input",
+        "func": "msg.payload = \"PPM too low\"\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 828,
+        "y": 358,
+        "wires": [
+            [
+                "7ebdaedb.473e9"
+            ]
+        ]
+    },
+    {
+        "id": "4c35d949.85d758",
+        "type": "file",
+        "z": "87cb301d.9893c",
+        "name": "WriteFile",
+        "filename": "/home/pi/.node-red/projects/hydro/time-scheduler.txt",
+        "appendNewline": true,
+        "createDir": true,
+        "overwriteFile": "true",
+        "encoding": "none",
+        "x": 817,
+        "y": 33,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "6705ebab.d4f8a4",
+        "type": "inject",
+        "z": "87cb301d.9893c",
+        "name": "FireAfterReboot",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 180,
+        "y": 46,
+        "wires": [
+            [
+                "8dafbb4d.b18898"
+            ]
+        ]
+    },
+    {
+        "id": "8dafbb4d.b18898",
+        "type": "file in",
+        "z": "87cb301d.9893c",
+        "name": "ReadFile",
+        "filename": "/home/pi/.node-red/projects/hydro/time-scheduler.txt",
+        "format": "utf8",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "none",
+        "x": 360,
+        "y": 46,
+        "wires": [
+            [
+                "28cc1585.a3940a"
+            ]
+        ]
+    },
+    {
+        "id": "28cc1585.a3940a",
+        "type": "ui_time_scheduler",
+        "z": "87cb301d.9893c",
+        "group": "72b67add.961f74",
+        "name": "Grow lights scheduler",
+        "startDay": "1",
+        "refresh": 60,
+        "devices": [
+            "Schedule grow lights",
+            "Schedule water pump"
+        ],
+        "customPayload": false,
+        "eventMode": true,
+        "outputs": 3,
+        "order": 1,
+        "width": 6,
+        "height": 1,
+        "x": 560,
+        "y": 46,
+        "wires": [
+            [
+                "4c35d949.85d758"
+            ],
+            [
+                "df864faf.11005"
+            ],
+            [
+                "c1e51a25.bcd2f8"
+            ]
+        ]
+    },
+    {
+        "id": "e7786898.4b6868",
+        "type": "ui_slider",
+        "z": "87cb301d.9893c",
+        "name": "PPM min. value",
+        "label": "Min.",
+        "tooltip": "",
+        "group": "8d4aab9b.4d6328",
+        "order": 11,
+        "width": 4,
+        "height": 1,
+        "passthru": true,
+        "outs": "end",
+        "topic": "",
+        "min": 0,
+        "max": "1400",
+        "step": "10",
+        "x": 380,
+        "y": 500,
+        "wires": [
+            [
+                "db9050e4.c89ba",
+                "af84a357.025ea",
+                "f4e8ce43.86774"
+            ]
+        ]
+    },
+    {
+        "id": "49bf0c8e.06b714",
+        "type": "ui_slider",
+        "z": "87cb301d.9893c",
+        "name": "PPM max. value",
+        "label": "Max.",
+        "tooltip": "",
+        "group": "8d4aab9b.4d6328",
+        "order": 15,
+        "width": 4,
+        "height": 1,
+        "passthru": true,
+        "outs": "end",
+        "topic": "",
+        "min": 0,
+        "max": "1400",
+        "step": "10",
+        "x": 380,
+        "y": 640,
+        "wires": [
+            [
+                "86b27ad6.f2ac78",
+                "b5da2f47.50eca",
+                "ceb34ebd.f74e8"
+            ]
+        ]
+    },
+    {
+        "id": "db9050e4.c89ba",
+        "type": "ui_text",
+        "z": "87cb301d.9893c",
+        "group": "8d4aab9b.4d6328",
+        "order": 12,
+        "width": 1,
+        "height": 1,
+        "name": "PPM min value",
+        "label": "",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "x": 620,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "86b27ad6.f2ac78",
+        "type": "ui_text",
+        "z": "87cb301d.9893c",
+        "group": "8d4aab9b.4d6328",
+        "order": 16,
+        "width": 1,
+        "height": 1,
+        "name": "PPM max value",
+        "label": "",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "x": 620,
+        "y": 640,
+        "wires": []
+    },
+    {
+        "id": "af84a357.025ea",
+        "type": "function",
+        "z": "87cb301d.9893c",
+        "name": "Save global variable",
+        "func": "\nglobal.set('minPPM',msg.payload);\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 640,
+        "y": 540,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b5da2f47.50eca",
+        "type": "function",
+        "z": "87cb301d.9893c",
+        "name": "Save global variable",
+        "func": "\nglobal.set('maxPPM',msg.payload);\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 640,
+        "y": 680,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "23810c02.07fa14",
+        "type": "inject",
+        "z": "5127740.f28848c",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "15",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "1",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 130,
+        "y": 280,
+        "wires": [
+            [
+                "6b31749d.19ee4c"
+            ]
+        ]
+    },
+    {
+        "id": "f4e8ce43.86774",
+        "type": "persist in",
+        "z": "87cb301d.9893c",
+        "name": "minPPMValue",
+        "storageNode": "217cc961.603ce6",
+        "x": 618,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "d1ca6b99.9ac888",
+        "type": "persist out",
+        "z": "87cb301d.9893c",
+        "name": "minPPMValue",
+        "storageNode": "217cc961.603ce6",
+        "x": 180,
+        "y": 500,
+        "wires": [
+            [
+                "e7786898.4b6868"
+            ]
+        ]
+    },
+    {
+        "id": "ceb34ebd.f74e8",
+        "type": "persist in",
+        "z": "87cb301d.9893c",
+        "name": "maxPPMValue",
+        "storageNode": "217cc961.603ce6",
+        "x": 620,
+        "y": 720,
+        "wires": []
+    },
+    {
+        "id": "1e9754d8.8de89b",
+        "type": "persist out",
+        "z": "87cb301d.9893c",
+        "name": "maxPPMValue",
+        "storageNode": "217cc961.603ce6",
+        "x": 180,
+        "y": 640,
+        "wires": [
+            [
+                "49bf0c8e.06b714"
+            ]
+        ]
     }
 ]
