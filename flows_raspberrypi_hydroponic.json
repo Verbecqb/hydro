@@ -73,11 +73,11 @@
     {
         "id": "f0e58282.f2736",
         "type": "ui_group",
-        "name": "Control - Seed Tray",
+        "name": "Seed Tray - Visualize",
         "tab": "352c089f.6b44d8",
-        "order": 4,
+        "order": 5,
         "disp": true,
-        "width": 26,
+        "width": "26",
         "collapse": false,
         "info": "# Seed tray LEDs"
     },
@@ -86,7 +86,7 @@
         "type": "ui_group",
         "name": "Room environment",
         "tab": "352c089f.6b44d8",
-        "order": 2,
+        "order": 3,
         "disp": true,
         "width": 13,
         "collapse": false
@@ -96,9 +96,9 @@
         "type": "ui_group",
         "name": "Seed Tray",
         "tab": "352c089f.6b44d8",
-        "order": 3,
+        "order": 4,
         "disp": true,
-        "width": 13,
+        "width": 16,
         "collapse": false
     },
     {
@@ -108,25 +108,25 @@
         "tab": "352c089f.6b44d8",
         "order": 1,
         "disp": true,
-        "width": 25,
+        "width": 20,
         "collapse": false
     },
     {
         "id": "bdf4ab4f.fa8958",
         "type": "ui_group",
-        "name": "Control - Seed tray - Water spray",
+        "name": "Seed tray - Nutriments",
         "tab": "352c089f.6b44d8",
-        "order": 6,
+        "order": 7,
         "disp": true,
-        "width": 7,
-        "collapse": false
+        "width": "6",
+        "collapse": true
     },
     {
         "id": "72b67add.961f74",
         "type": "ui_group",
         "name": "Seed tray - Grow lights",
         "tab": "352c089f.6b44d8",
-        "order": 5,
+        "order": 6,
         "disp": true,
         "width": 7,
         "collapse": false
@@ -482,25 +482,69 @@
         }
     },
     {
-        "id": "d66aec8b.af5f3",
+        "id": "ae8ddbfd.c58db8",
+        "type": "ui_group",
+        "name": "System control",
+        "tab": "352c089f.6b44d8",
+        "order": 2,
+        "disp": true,
+        "width": 4,
+        "collapse": true
+    },
+    {
+        "id": "9f76d55b.b58878",
+        "type": "remote-config",
+        "name": "Node-RED UI",
+        "host": "10.0.0.10",
+        "protocol": "http",
+        "port": "1880",
+        "baseurl": "/ui",
+        "instancehash": "ktr0ugw85xjlfnbdbck3dtjhkq75ke5s6m3a8rvyw6rlfpvd75eaikzfcaloh1xj",
+        "server": "nodered02.remote-red.com",
+        "region": "de"
+    },
+    {
+        "id": "d1c9d5e1.84cd88",
+        "type": "remote-config",
+        "name": "Node-RED UI",
+        "host": "10.0.0.10",
+        "protocol": "http",
+        "port": "1880",
+        "baseurl": "/ui",
+        "instancehash": "tn0e1h0zfv6e8j8ihfdatlcfe245y08mbtl176ivq31mipbz8z2yvmmmwrfblami",
+        "server": "nodered02.remote-red.com",
+        "region": "de"
+    },
+    {
+        "id": "8d4aab9b.4d6328",
+        "type": "ui_group",
+        "name": "Seed tray - Water spray",
+        "tab": "352c089f.6b44d8",
+        "order": 8,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "4f12a89e.df44d8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "1c37dc0b.ce28e4",
         "order": 5,
-        "width": 10,
+        "width": 5,
         "height": 1
     },
     {
-        "id": "38e6730a.028ffc",
+        "id": "c9e2fcc.59abb",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "1c37dc0b.ce28e4",
-        "order": 8,
-        "width": 10,
+        "order": 9,
+        "width": 5,
         "height": 1
     },
     {
-        "id": "f07a8a3d.fc4b58",
+        "id": "687b8858.85e1f8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -509,7 +553,7 @@
         "height": 1
     },
     {
-        "id": "fc7a4469.d13808",
+        "id": "8a4493dd.b7c7c",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -518,7 +562,7 @@
         "height": 1
     },
     {
-        "id": "f86161e8.caf1a",
+        "id": "24cfdc1.e4e1e24",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -527,7 +571,7 @@
         "height": 1
     },
     {
-        "id": "c510d782.52cf88",
+        "id": "d3cd62b7.b6c3f",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -536,7 +580,7 @@
         "height": 1
     },
     {
-        "id": "85e95371.ac0dd",
+        "id": "bb0c64d5.601a38",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -545,110 +589,20 @@
         "height": 1
     },
     {
-        "id": "201ceec2.aa77e2",
+        "id": "56e9ae7c.fa4ef",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "65d119b5.66cb78",
-        "order": 4,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "570b53e6.a66dec",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "65d119b5.66cb78",
-        "order": 5,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "36c6f484.6c1d7c",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "65d119b5.66cb78",
-        "order": 6,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "4e8a4cb.457ddb4",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "65d119b5.66cb78",
-        "order": 7,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "90cccb46.343768",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "65d119b5.66cb78",
-        "order": 11,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "67d0e3e8.81bbcc",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "72b67add.961f74",
-        "order": 2,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "cf850671.632578",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "72b67add.961f74",
-        "order": 6,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "79a1a1a4.6e7eb",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "bdf4ab4f.fa8958",
-        "order": 2,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "ae893a31.ad0498",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "bdf4ab4f.fa8958",
-        "order": 5,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "ae79caf2.f3fbe8",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "bdf4ab4f.fa8958",
-        "order": 6,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "fc0311f9.ebbfc",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "bdf4ab4f.fa8958",
-        "order": 7,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "b5ed89cf.7909f8",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "bdf4ab4f.fa8958",
         "order": 8,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "6b8f950d.68c2ec",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "72b67add.961f74",
+        "order": 5,
         "width": 1,
         "height": 1
     },
@@ -690,8 +644,8 @@
         "type": "function",
         "z": "1d22c714.e50369",
         "name": "Parse telemetry JSON",
-        "func": "\n\nvar waterQualityMsg = { \n    payload: msg.payload.s.water.ppm\n};\n\nvar waterTempMsg = { \n    payload: msg.payload.s.water.temp\n};\n\nvar waterPhMsg = { \n    payload: msg.payload.s.water.ph\n};\n\nvar luminosityMsg = { \n    payload: msg.payload.s.lux\n};\n\n\nreturn [\n    waterQualityMsg, \n    luminosityMsg, \n    waterTempMsg,\n    waterPhMsg\n];",
-        "outputs": 4,
+        "func": "\n\nvar waterQualityMsg = { \n    payload: msg.payload.s.water.ppm\n};\n\nvar waterTempMsg = { \n    payload: msg.payload.s.water.temp\n};\n\nvar waterPhMsg = { \n    payload: msg.payload.s.water.ph\n};\n\nvar waterLevelMsg = { \n    payload: msg.payload.s.water.level\n};\n\nvar luminosityMsg = { \n    payload: msg.payload.s.lux\n};\n\n\nreturn [\n    waterQualityMsg, \n    luminosityMsg, \n    waterTempMsg,\n    waterPhMsg,\n    waterLevelMsg\n];",
+        "outputs": 5,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
@@ -717,6 +671,11 @@
                 "4d58abb1.177e64",
                 "e3814403.711458",
                 "7d66ede7.acf094"
+            ],
+            [
+                "821d2e1a.d0244",
+                "b1c0fbbf.8e9c58",
+                "ce4f2657.0c3588"
             ]
         ]
     },
@@ -826,7 +785,7 @@
         "randomUnits": "seconds",
         "drop": false,
         "x": 840,
-        "y": 1300,
+        "y": 1420,
         "wires": [
             [
                 "c2314fab.6c8af"
@@ -849,7 +808,7 @@
         "randomUnits": "seconds",
         "drop": false,
         "x": 840,
-        "y": 1440,
+        "y": 1560,
         "wires": [
             [
                 "d8035b86.a6d9f8"
@@ -890,7 +849,7 @@
         "datatype": "auto",
         "broker": "a0e631b8.d383b",
         "x": 190,
-        "y": 1460,
+        "y": 1580,
         "wires": [
             [
                 "54666026.3c8da"
@@ -907,7 +866,7 @@
         "datatype": "auto",
         "broker": "a0e631b8.d383b",
         "x": 190,
-        "y": 1300,
+        "y": 1420,
         "wires": [
             [
                 "7023be29.a8b"
@@ -923,7 +882,7 @@
         "action": "",
         "pretty": false,
         "x": 390,
-        "y": 1300,
+        "y": 1420,
         "wires": [
             [
                 "1e6d501a.c6f28"
@@ -941,7 +900,7 @@
         "initialize": "",
         "finalize": "",
         "x": 600,
-        "y": 1300,
+        "y": 1420,
         "wires": [
             [
                 "b5c12285.51ca3",
@@ -1107,7 +1066,7 @@
         "type": "function",
         "z": "1d22c714.e50369",
         "name": "Format current data",
-        "func": "var icon = {};\n\nvar units=flow.get('units');\nif (units===undefined)\n{\n  units=\"imperial\";\n}\n\nfunction timeConvert(UNIX_timestamp){\n  var a = new Date(UNIX_timestamp * 1000);\n  var hour = a.getHours();\n  var suffix = \" am\";\n  if (hour >= 12) {\n    hour = hour - 12;\n    suffix = \" pm\";\n  }\n  if (hour === 0) {\n    hour = 12;\n  }\n  var min = a.getMinutes();\n  if (min < 10) {min = \"0\" + min;}\n  return hour + ':' + min + suffix;\n}\n\nvar degreesToCardinal = function(deg){\nif (deg>11.25 && deg<=33.75){\nreturn \"NNE\";\n  }else if (deg>33.75 && deg<56.25){\nreturn \"NE\";\n  }else if (deg>56.25 && deg<78.75){\nreturn \"ENE\";\n  }else if (deg>78.75 && deg<101.25){\nreturn \"E\";\n  }else if (deg>101.25 && deg<123.75){\nreturn \"ESE\";\n  }else if (deg>123.75 && deg<146.25){\nreturn \"SE\";\n  }else if (deg>146.25 && deg<168.75){\nreturn \"SSE\";\n  }else if (deg>168.75 && deg<191.25){\nreturn \"S\";\n  }else if (deg>191.25 && deg<213.75){\nreturn \"SSW\";\n  }else if (deg>213.75 && deg<236.25){\nreturn \"SW\";\n  }else if (deg>236.25 && deg<258.75){\nreturn \"WSW\";\n  }else if (deg>258.75 && deg<281.25){\nreturn \"W\";\n  }else if (deg>281.25 && deg<303.75){\nreturn \"WNW\";\n  }else if (deg>303.75 && deg<326.25){\nreturn \"NW\";\n  }else if (deg>326.25 && deg<348.75){\nreturn \"NNW\";\n  }else{\nreturn \"N\"; \n  }\n}\n\nif (units == \"imperial\")\n{\n  msg.payload.current.temp = msg.payload.current.temp.toFixed() + ' °F';\n  msg.payload.current.wind_speed = msg.payload.current.wind_speed.toFixed() + ' mph';\n}\nelse // metric units\n{\n  msg.payload.current.temp = msg.payload.current.temp.toFixed(1) + ' °C';\n  msg.payload.current.wind_speed = msg.payload.current.wind_speed.toFixed(1) + ' m/s';\n}\n\nmsg.payload.current.wind_cardinal = degreesToCardinal(msg.payload.current.wind_deg);\nmsg.payload.current.sunrise = timeConvert(msg.payload.current.sunrise);\nmsg.payload.current.sunset = timeConvert(msg.payload.current.sunset);\n\nvar iconString = 'wi-owm-' + msg.payload.current.weather[0].icon + ' wi-4x';\nicon = {\n    ui_control: {\n        icon: iconString\n    }\n}; \n\nreturn [msg, icon];",
+        "func": "var icon = {};\n\nvar units=flow.get('units');\nif (units===undefined)\n{\n  units=\"imperial\";\n}\n\nfunction timeConvert(UNIX_timestamp, offset){\n  var a = new Date(UNIX_timestamp * 1000 + offset*1000);\n  var hour = a.getHours();\n  var suffix = \" am\";\n  if (hour >= 12) {\n    hour = hour - 12;\n    suffix = \" pm\";\n  }\n  if (hour === 0) {\n    hour = 12;\n  }\n  var min = a.getMinutes();\n  if (min < 10) {min = \"0\" + min;}\n  return hour + ':' + min + suffix;\n}\n\nvar degreesToCardinal = function(deg){\nif (deg>11.25 && deg<=33.75){\nreturn \"NNE\";\n  }else if (deg>33.75 && deg<56.25){\nreturn \"NE\";\n  }else if (deg>56.25 && deg<78.75){\nreturn \"ENE\";\n  }else if (deg>78.75 && deg<101.25){\nreturn \"E\";\n  }else if (deg>101.25 && deg<123.75){\nreturn \"ESE\";\n  }else if (deg>123.75 && deg<146.25){\nreturn \"SE\";\n  }else if (deg>146.25 && deg<168.75){\nreturn \"SSE\";\n  }else if (deg>168.75 && deg<191.25){\nreturn \"S\";\n  }else if (deg>191.25 && deg<213.75){\nreturn \"SSW\";\n  }else if (deg>213.75 && deg<236.25){\nreturn \"SW\";\n  }else if (deg>236.25 && deg<258.75){\nreturn \"WSW\";\n  }else if (deg>258.75 && deg<281.25){\nreturn \"W\";\n  }else if (deg>281.25 && deg<303.75){\nreturn \"WNW\";\n  }else if (deg>303.75 && deg<326.25){\nreturn \"NW\";\n  }else if (deg>326.25 && deg<348.75){\nreturn \"NNW\";\n  }else{\nreturn \"N\"; \n  }\n}\n\nif (units == \"imperial\")\n{\n  msg.payload.current.temp = msg.payload.current.temp.toFixed() + ' °F';\n  msg.payload.current.wind_speed = msg.payload.current.wind_speed.toFixed() + ' mph';\n}\nelse // metric units\n{\n  msg.payload.current.temp = msg.payload.current.temp.toFixed(1) + ' °C';\n  msg.payload.current.wind_speed = msg.payload.current.wind_speed.toFixed(1) + ' m/s';\n}\n\nmsg.payload.current.wind_cardinal = degreesToCardinal(msg.payload.current.wind_deg);\nmsg.payload.current.sunrise = timeConvert(msg.payload.current.sunrise, msg.payload.timezone_offset);\nmsg.payload.current.sunset = timeConvert(msg.payload.current.sunset, msg.payload.timezone_offset);\n\nvar iconString = 'wi-owm-' + msg.payload.current.weather[0].icon + ' wi-4x';\nicon = {\n    ui_control: {\n        icon: iconString\n    }\n}; \n\nreturn [msg, icon];",
         "outputs": 2,
         "noerr": 0,
         "initialize": "",
@@ -1120,7 +1079,8 @@
                 "c9cadf3c.4dd91",
                 "75f934f.744b2cc",
                 "a77336d4.24c878",
-                "ffd2dd.8b18ad2"
+                "ffd2dd.8b18ad2",
+                "f9da79c2.9a6128"
             ],
             [
                 "509eb66d.0f6d88"
@@ -1226,7 +1186,7 @@
         "initialize": "",
         "finalize": "",
         "x": 1200,
-        "y": 1440,
+        "y": 1560,
         "wires": [
             [
                 "65b18579.9e97ec"
@@ -1244,7 +1204,7 @@
         "initialize": "",
         "finalize": "",
         "x": 1200,
-        "y": 1300,
+        "y": 1420,
         "wires": [
             [
                 "1c83a03b.a169c"
@@ -1433,7 +1393,7 @@
         "datatype": "auto",
         "broker": "a0e631b8.d383b",
         "x": 210,
-        "y": 1520,
+        "y": 1640,
         "wires": [
             [
                 "d0f89a7b.d9a8f8"
@@ -1518,7 +1478,7 @@
         "payload": "1",
         "payloadType": "num",
         "x": 180,
-        "y": 1660,
+        "y": 1780,
         "wires": [
             [
                 "134f40ec.1ec4bf"
@@ -1569,7 +1529,7 @@
         "to": "",
         "reg": false,
         "x": 1180,
-        "y": 680,
+        "y": 720,
         "wires": [
             [
                 "abe678a7.9a28b8"
@@ -1587,7 +1547,7 @@
         "initialize": "",
         "finalize": "",
         "x": 1200,
-        "y": 720,
+        "y": 680,
         "wires": [
             [
                 "cb675a7c.a85308"
@@ -1800,7 +1760,7 @@
         "awb": "auto",
         "name": "Take Photo",
         "x": 350,
-        "y": 1660,
+        "y": 1780,
         "wires": [
             [
                 "ec42ca0e.6c9dd8"
@@ -1890,7 +1850,7 @@
         "org": "organisation",
         "bucket": "bucket",
         "x": 960,
-        "y": 1260,
+        "y": 1380,
         "wires": []
     },
     {
@@ -1908,7 +1868,7 @@
         "org": "organisation",
         "bucket": "bucket",
         "x": 950,
-        "y": 1400,
+        "y": 1520,
         "wires": []
     },
     {
@@ -1996,7 +1956,7 @@
         "retentionPolicy": "",
         "org": "organisation",
         "x": 1000,
-        "y": 1300,
+        "y": 1420,
         "wires": [
             [
                 "5914ecc9.808654"
@@ -2015,7 +1975,7 @@
         "retentionPolicy": "",
         "org": "organisation",
         "x": 1000,
-        "y": 1440,
+        "y": 1560,
         "wires": [
             [
                 "58c9bab9.be3fc4"
@@ -2066,7 +2026,7 @@
         "z": "1d22c714.e50369",
         "influxdb": "8193652c.e6bda8",
         "name": "Select past 24 hours",
-        "query": "SELECT * FROM water_quality GROUP BY * ORDER BY DESC LIMIT 500",
+        "query": "SELECT * FROM water_quality  WHERE time >= now() - 24h ORDER BY time DESC",
         "rawOutput": false,
         "precision": "",
         "retentionPolicy": "",
@@ -2085,7 +2045,7 @@
         "z": "1d22c714.e50369",
         "influxdb": "8193652c.e6bda8",
         "name": "Select past 24 hours",
-        "query": "SELECT * FROM water_temperature GROUP BY * ORDER BY DESC LIMIT 500",
+        "query": "SELECT * FROM water_temperature  WHERE time >= now() - 24h ORDER BY time DESC",
         "rawOutput": false,
         "precision": "",
         "retentionPolicy": "",
@@ -2104,13 +2064,13 @@
         "z": "1d22c714.e50369",
         "influxdb": "8193652c.e6bda8",
         "name": "Select past 24 hours",
-        "query": "SELECT * FROM luminosity GROUP BY * ORDER BY DESC LIMIT 500",
+        "query": "SELECT * FROM luminosity  WHERE time >= now() - 24h ORDER BY time DESC",
         "rawOutput": false,
         "precision": "",
         "retentionPolicy": "",
         "org": "organisation",
         "x": 960,
-        "y": 680,
+        "y": 720,
         "wires": [
             [
                 "517995d5.866e6c"
@@ -2129,7 +2089,7 @@
         "retentionPolicy": "",
         "org": "organisation",
         "x": 940,
-        "y": 720,
+        "y": 680,
         "wires": [
             [
                 "5a973813.655e68"
@@ -2161,7 +2121,7 @@
         "z": "1d22c714.e50369",
         "influxdb": "8193652c.e6bda8",
         "name": "Select past 24 hours",
-        "query": "SELECT * FROM water_ph GROUP BY * ORDER BY DESC LIMIT 500",
+        "query": "SELECT * FROM water_ph WHERE time >= now() - 24h ORDER BY time DESC",
         "rawOutput": false,
         "precision": "",
         "retentionPolicy": "",
@@ -2419,7 +2379,7 @@
         "bgcolorFromTheme": true,
         "diffCenter": "",
         "x": 900,
-        "y": 1200,
+        "y": 1320,
         "wires": []
     },
     {
@@ -2480,7 +2440,7 @@
         "bgcolorFromTheme": true,
         "diffCenter": "",
         "x": 890,
-        "y": 1360,
+        "y": 1480,
         "wires": []
     },
     {
@@ -2496,13 +2456,15 @@
         "label": "Water PH",
         "unit": "PH",
         "layout": "radial",
-        "decimals": "2",
+        "decimals": "1",
         "differential": true,
         "minmax": true,
         "colorTrack": "#555555",
         "style": "",
         "colorFromTheme": true,
         "property": "payload",
+        "secondary": "secondary",
+        "inline": true,
         "sectors": [
             {
                 "val": 0,
@@ -2541,7 +2503,7 @@
         "type": "ui_led",
         "z": "1d22c714.e50369",
         "group": "72b67add.961f74",
-        "order": 3,
+        "order": 2,
         "width": 2,
         "height": 1,
         "label": "",
@@ -2561,16 +2523,16 @@
         ],
         "allowColorForValueInMessage": false,
         "name": "Grow lights",
-        "x": 370,
-        "y": 1460,
+        "x": 390,
+        "y": 1580,
         "wires": []
     },
     {
         "id": "d0f89a7b.d9a8f8",
         "type": "ui_led",
         "z": "1d22c714.e50369",
-        "group": "bdf4ab4f.fa8958",
-        "order": 3,
+        "group": "8d4aab9b.4d6328",
+        "order": 2,
         "width": 2,
         "height": 1,
         "label": "",
@@ -2591,14 +2553,14 @@
         "allowColorForValueInMessage": false,
         "name": "water spray",
         "x": 390,
-        "y": 1520,
+        "y": 1640,
         "wires": []
     },
     {
         "id": "18d69559.b452cb",
         "type": "ui_time_scheduler",
         "z": "87cb301d.9893c",
-        "group": "bdf4ab4f.fa8958",
+        "group": "8d4aab9b.4d6328",
         "name": "Water spray scheduler",
         "startDay": "1",
         "refresh": 60,
@@ -2608,11 +2570,11 @@
         "customPayload": false,
         "eventMode": true,
         "outputs": 2,
-        "order": 4,
+        "order": 3,
         "width": 6,
-        "height": 4,
+        "height": 1,
         "x": 560,
-        "y": 260,
+        "y": 280,
         "wires": [
             [
                 "ef11c701.cd9fa8"
@@ -2631,7 +2593,7 @@
         "tooltip": "Led",
         "group": "72b67add.961f74",
         "order": 1,
-        "width": 4,
+        "width": 5,
         "height": 1,
         "passthru": true,
         "decouple": "false",
@@ -2661,7 +2623,7 @@
         "name": "",
         "label": "Water spray",
         "tooltip": "",
-        "group": "bdf4ab4f.fa8958",
+        "group": "8d4aab9b.4d6328",
         "order": 1,
         "width": 4,
         "height": 1,
@@ -2720,7 +2682,7 @@
         "label": "Timer start",
         "tooltip": "",
         "group": "72b67add.961f74",
-        "order": 4,
+        "order": 3,
         "width": 3,
         "height": 1,
         "passthru": true,
@@ -2743,7 +2705,7 @@
         "label": "Timer stop",
         "tooltip": "",
         "group": "72b67add.961f74",
-        "order": 5,
+        "order": 4,
         "width": 3,
         "height": 1,
         "passthru": true,
@@ -2764,7 +2726,7 @@
         "z": "1d22c714.e50369",
         "group": "1c37dc0b.ce28e4",
         "order": 6,
-        "width": 7,
+        "width": 4,
         "height": 1,
         "name": "Description",
         "label": "",
@@ -2780,7 +2742,7 @@
         "z": "1d22c714.e50369",
         "group": "1c37dc0b.ce28e4",
         "order": 3,
-        "width": 4,
+        "width": 3,
         "height": 1,
         "name": "Wind",
         "label": "",
@@ -2811,7 +2773,7 @@
         "type": "ui_text",
         "z": "1d22c714.e50369",
         "group": "1c37dc0b.ce28e4",
-        "order": 7,
+        "order": 8,
         "width": 4,
         "height": 1,
         "name": "SunsetTime",
@@ -2827,7 +2789,7 @@
         "type": "ui_text",
         "z": "1d22c714.e50369",
         "group": "1c37dc0b.ce28e4",
-        "order": 2,
+        "order": 7,
         "width": 3,
         "height": 1,
         "name": "Temperature",
@@ -2851,7 +2813,7 @@
         "format": "<i class=\"fa fa-refresh\" aria-hidden=\"true\">&nbsp; {{ msg.payload | date: 'HH:mm:ss'}}</i> ",
         "layout": "row-center",
         "x": 1420,
-        "y": 1440,
+        "y": 1560,
         "wires": []
     },
     {
@@ -2867,7 +2829,7 @@
         "format": "<i class=\"fa fa-refresh\" aria-hidden=\"true\">&nbsp; {{ msg.payload | date: 'HH:mm:ss'}}</i> ",
         "layout": "row-center",
         "x": 1410,
-        "y": 1300,
+        "y": 1420,
         "wires": []
     },
     {
@@ -2875,7 +2837,7 @@
         "type": "ui_text",
         "z": "1d22c714.e50369",
         "group": "65d119b5.66cb78",
-        "order": 9,
+        "order": 6,
         "width": 4,
         "height": 1,
         "name": "Last refresh - water temp",
@@ -2891,7 +2853,7 @@
         "type": "ui_text",
         "z": "1d22c714.e50369",
         "group": "65d119b5.66cb78",
-        "order": 8,
+        "order": 5,
         "width": 4,
         "height": 1,
         "name": "Last refresh - water quality",
@@ -2915,7 +2877,7 @@
         "format": "<i class=\"fa fa-refresh\" aria-hidden=\"true\">&nbsp; {{ msg.payload | date: 'HH:mm:ss'}}</i> ",
         "layout": "row-center",
         "x": 1470,
-        "y": 720,
+        "y": 680,
         "wires": []
     },
     {
@@ -2923,7 +2885,7 @@
         "type": "ui_text",
         "z": "1d22c714.e50369",
         "group": "65d119b5.66cb78",
-        "order": 10,
+        "order": 7,
         "width": 4,
         "height": 1,
         "name": "Last refresh - water PH",
@@ -3009,11 +2971,372 @@
         "resendOnRefresh": true,
         "templateScope": "local",
         "x": 360,
-        "y": 1720,
+        "y": 1840,
         "wires": [
             [
                 "134f40ec.1ec4bf"
             ]
         ]
+    },
+    {
+        "id": "f9da79c2.9a6128",
+        "type": "ui_text",
+        "z": "1d22c714.e50369",
+        "group": "1c37dc0b.ce28e4",
+        "order": 2,
+        "width": 4,
+        "height": 1,
+        "name": "Timezone",
+        "label": "",
+        "format": "{{msg.payload.timezone}}",
+        "layout": "row-left",
+        "x": 1260,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "b5d6c4cf.de8008",
+        "type": "mqtt in",
+        "z": "1d22c714.e50369",
+        "name": "",
+        "topic": "hydro/state/arduino",
+        "qos": "0",
+        "datatype": "auto",
+        "broker": "a0e631b8.d383b",
+        "x": 170,
+        "y": 320,
+        "wires": [
+            [
+                "c278aca9.b3501",
+                "f6a43f05.a59d7"
+            ]
+        ]
+    },
+    {
+        "id": "c278aca9.b3501",
+        "type": "ui_text",
+        "z": "1d22c714.e50369",
+        "group": "ae8ddbfd.c58db8",
+        "order": 1,
+        "width": 4,
+        "height": 1,
+        "name": "arduino state",
+        "label": "Arduino ",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "x": 370,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "241d7684.cf23fa",
+        "type": "remote-access",
+        "z": "1d22c714.e50369",
+        "confignode": "9f76d55b.b58878",
+        "name": "",
+        "x": 180,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "f6a43f05.a59d7",
+        "type": "remote-notification",
+        "z": "1d22c714.e50369",
+        "confignode": "d1c9d5e1.84cd88",
+        "name": "",
+        "notificationTitle": "payload",
+        "notificationTitleType": "msg",
+        "notificationBody": "payload",
+        "notificationBodyType": "msg",
+        "output": 1,
+        "x": 390,
+        "y": 380,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "5d2f5ff2.180c5",
+        "type": "delay",
+        "z": "87cb301d.9893c",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "20",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "x": 680,
+        "y": 560,
+        "wires": [
+            [
+                "a7364d44.56698"
+            ]
+        ]
+    },
+    {
+        "id": "5be7de2e.ba1d2",
+        "type": "mqtt out",
+        "z": "87cb301d.9893c",
+        "name": "Nutriments",
+        "topic": "hydro/nutriments/switch",
+        "qos": "0",
+        "retain": "",
+        "broker": "a0e631b8.d383b",
+        "x": 430,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "a7364d44.56698",
+        "type": "change",
+        "z": "87cb301d.9893c",
+        "name": "Switch to off",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "false",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 830,
+        "y": 560,
+        "wires": [
+            [
+                "648ce0a1.8a9de"
+            ]
+        ]
+    },
+    {
+        "id": "93cd22de.a5d2c",
+        "type": "switch",
+        "z": "87cb301d.9893c",
+        "name": "When nutriments spray on",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "true"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 480,
+        "y": 560,
+        "wires": [
+            [
+                "5d2f5ff2.180c5"
+            ]
+        ]
+    },
+    {
+        "id": "648ce0a1.8a9de",
+        "type": "ui_switch",
+        "z": "87cb301d.9893c",
+        "name": "",
+        "label": "Nutriments",
+        "tooltip": "",
+        "group": "bdf4ab4f.fa8958",
+        "order": 1,
+        "width": 4,
+        "height": 1,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "x": 210,
+        "y": 500,
+        "wires": [
+            [
+                "93cd22de.a5d2c",
+                "5be7de2e.ba1d2"
+            ]
+        ]
+    },
+    {
+        "id": "9cd0faa8.7a4eb8",
+        "type": "mqtt in",
+        "z": "1d22c714.e50369",
+        "name": "",
+        "topic": "hydro/nutriments/s",
+        "qos": "0",
+        "datatype": "auto",
+        "broker": "a0e631b8.d383b",
+        "x": 210,
+        "y": 1700,
+        "wires": [
+            [
+                "2617b5f9.5aa3da"
+            ]
+        ]
+    },
+    {
+        "id": "2617b5f9.5aa3da",
+        "type": "ui_led",
+        "z": "1d22c714.e50369",
+        "group": "bdf4ab4f.fa8958",
+        "order": 2,
+        "width": 2,
+        "height": 1,
+        "label": "",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "red",
+                "value": "false",
+                "valueType": "str"
+            },
+            {
+                "color": "green",
+                "value": "true",
+                "valueType": "str"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "name": "Nutriments",
+        "x": 390,
+        "y": 1700,
+        "wires": []
+    },
+    {
+        "id": "821d2e1a.d0244",
+        "type": "ui_gauge",
+        "z": "1d22c714.e50369",
+        "name": "Water level",
+        "group": "65d119b5.66cb78",
+        "order": 4,
+        "width": 4,
+        "height": 4,
+        "gtype": "wave",
+        "title": "Water level",
+        "label": "cm",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "50",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "x": 770,
+        "y": 1140,
+        "wires": []
+    },
+    {
+        "id": "b1c0fbbf.8e9c58",
+        "type": "influxdb out",
+        "z": "1d22c714.e50369",
+        "influxdb": "8193652c.e6bda8",
+        "name": "",
+        "measurement": "water_level",
+        "precision": "",
+        "retentionPolicy": "",
+        "database": "database",
+        "precisionV18FluxV20": "ms",
+        "retentionPolicyV18Flux": "",
+        "org": "organisation",
+        "bucket": "bucket",
+        "x": 860,
+        "y": 1180,
+        "wires": []
+    },
+    {
+        "id": "ce4f2657.0c3588",
+        "type": "delay",
+        "z": "1d22c714.e50369",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "2",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "x": 760,
+        "y": 1220,
+        "wires": [
+            [
+                "f0da22f5.a0782"
+            ]
+        ]
+    },
+    {
+        "id": "8e23d689.2cf748",
+        "type": "function",
+        "z": "1d22c714.e50369",
+        "name": "Parse telemetry JSON",
+        "func": "\nvar newMsg =  { \n        payload: new Date(msg.payload[0].time)\n};\nreturn newMsg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 1180,
+        "y": 1220,
+        "wires": [
+            [
+                "62029373.97ee9c"
+            ]
+        ]
+    },
+    {
+        "id": "f0da22f5.a0782",
+        "type": "influxdb in",
+        "z": "1d22c714.e50369",
+        "influxdb": "8193652c.e6bda8",
+        "name": "Select last entry",
+        "query": "SELECT * FROM water_level GROUP BY * ORDER BY DESC LIMIT 1",
+        "rawOutput": false,
+        "precision": "",
+        "retentionPolicy": "",
+        "org": "organisation",
+        "x": 920,
+        "y": 1220,
+        "wires": [
+            [
+                "8e23d689.2cf748"
+            ]
+        ]
+    },
+    {
+        "id": "62029373.97ee9c",
+        "type": "ui_text",
+        "z": "1d22c714.e50369",
+        "group": "65d119b5.66cb78",
+        "order": 7,
+        "width": 4,
+        "height": 1,
+        "name": "Last refresh - water level",
+        "label": "",
+        "format": "<i class=\"fa fa-refresh\" aria-hidden=\"true\">&nbsp; {{ msg.payload | date: 'HH:mm:ss'}}</i> ",
+        "layout": "row-center",
+        "x": 1410,
+        "y": 1220,
+        "wires": []
     }
 ]
