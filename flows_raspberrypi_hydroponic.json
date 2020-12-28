@@ -569,7 +569,7 @@
         "collapse": false
     },
     {
-        "id": "d5168fa9.949a9",
+        "id": "48b999ed.1bff88",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "1c37dc0b.ce28e4",
@@ -578,7 +578,7 @@
         "height": 1
     },
     {
-        "id": "21ba58bb.b08088",
+        "id": "e7149442.d55c18",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "1c37dc0b.ce28e4",
@@ -587,7 +587,7 @@
         "height": 1
     },
     {
-        "id": "9a95f0dc.d8253",
+        "id": "98d1bc6f.60fa9",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -596,7 +596,7 @@
         "height": 1
     },
     {
-        "id": "d3cafed1.f64b",
+        "id": "6adbc42a.d2cbbc",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -605,16 +605,7 @@
         "height": 1
     },
     {
-        "id": "7f25066d.7534e8",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "72b67add.961f74",
-        "order": 2,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "fab35cac.bf319",
+        "id": "f9091a2c.8eddb8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -623,7 +614,7 @@
         "height": 1
     },
     {
-        "id": "a9dc6058.eb147",
+        "id": "d3d3995e.c3fc38",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -632,7 +623,7 @@
         "height": 1
     },
     {
-        "id": "d2690902.39cfc8",
+        "id": "9e7cbb69.adddc8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -641,12 +632,30 @@
         "height": 1
     },
     {
-        "id": "27897cb9.50c694",
+        "id": "36dfa8f7.aa78b8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
         "order": 14,
         "width": 1,
+        "height": 1
+    },
+    {
+        "id": "8d2c341.da363c8",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "c6be6d42.f806a",
+        "order": 8,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "5bece8cc.674c08",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "c6be6d42.f806a",
+        "order": 10,
+        "width": 4,
         "height": 1
     },
     {
@@ -3292,7 +3301,7 @@
         "tooltip": "Minimum PPM threshold to trigger event",
         "group": "c6be6d42.f806a",
         "order": 1,
-        "width": "6",
+        "width": 6,
         "height": 1,
         "passthru": true,
         "outs": "end",
@@ -3318,8 +3327,8 @@
         "label": "Max. PPM",
         "tooltip": "Max PPM threshold to trigger event",
         "group": "c6be6d42.f806a",
-        "order": 3,
-        "width": "6",
+        "order": 4,
+        "width": 6,
         "height": 1,
         "passthru": true,
         "outs": "end",
@@ -3358,7 +3367,7 @@
         "type": "ui_text",
         "z": "87cb301d.9893c",
         "group": "c6be6d42.f806a",
-        "order": 4,
+        "order": 3,
         "width": 2,
         "height": 1,
         "name": "PPM max value",
@@ -3611,8 +3620,8 @@
         "label": "Min. PH",
         "tooltip": "Minimum PH threshold to trigger event",
         "group": "c6be6d42.f806a",
-        "order": 5,
-        "width": "6",
+        "order": 7,
+        "width": 6,
         "height": 1,
         "passthru": true,
         "outs": "end",
@@ -3638,8 +3647,8 @@
         "label": "Max. PH",
         "tooltip": "Max PH threshold to trigger event",
         "group": "c6be6d42.f806a",
-        "order": 7,
-        "width": "6",
+        "order": 9,
+        "width": 6,
         "height": 1,
         "passthru": true,
         "outs": "end",
@@ -3662,7 +3671,7 @@
         "type": "ui_text",
         "z": "87cb301d.9893c",
         "group": "c6be6d42.f806a",
-        "order": 6,
+        "order": 5,
         "width": 2,
         "height": 1,
         "name": "PH min value",
@@ -3678,7 +3687,7 @@
         "type": "ui_text",
         "z": "87cb301d.9893c",
         "group": "c6be6d42.f806a",
-        "order": 8,
+        "order": 6,
         "width": 2,
         "height": 1,
         "name": "PH max value",
