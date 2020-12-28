@@ -4151,9 +4151,7 @@
         "x": 960,
         "y": 280,
         "wires": [
-            [
-                "969eda8e.3f91c8"
-            ]
+            []
         ]
     },
     {
@@ -4175,22 +4173,6 @@
         "wires": [
             []
         ]
-    },
-    {
-        "id": "969eda8e.3f91c8",
-        "type": "debug",
-        "z": "1d22c714.e50369",
-        "name": "",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "false",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1240,
-        "y": 360,
-        "wires": []
     },
     {
         "id": "ef00a771.3c50d8",
@@ -4231,10 +4213,10 @@
         "width": 0,
         "height": 0,
         "name": "",
-        "label": "",
-        "format": "Sunlight {{global.sun.total}}",
+        "label": "Sunlight ",
+        "format": "<i class=\"wi wi-owm-01d\"></i>{{global.sun.total}}",
         "layout": "row-center",
-        "x": 350,
+        "x": 360,
         "y": 2020,
         "wires": []
     },
