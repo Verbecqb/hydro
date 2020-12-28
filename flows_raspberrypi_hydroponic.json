@@ -4143,7 +4143,7 @@
         "type": "function",
         "z": "1d22c714.e50369",
         "name": "Save Global variable - total natural light",
-        "func": "var sunrise = new Date(msg.payload.current.sunrise);\nvar sunset = new Date(msg.payload.current.sunset);\nvar totalNaturalLight = sunset - sunrise;\n\nglobal.set('totalNaturaLight',totalNaturalLight);\n\nmsg.payload = totalNaturalLight;\nreturn msg;",
+        "func": "var sunrise = new Date(msg.payload.current.sunrise);\nvar sunset = new Date(msg.payload.current.sunset);\nvar totalNaturalLight = sunset - sunrise;\n\nglobal.set('totalNaturaLight', totalNaturalLight);\n\nmsg.payload = totalNaturalLight;\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
