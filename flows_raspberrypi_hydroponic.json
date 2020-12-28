@@ -579,7 +579,7 @@
         "collapse": false
     },
     {
-        "id": "9789b355.86571",
+        "id": "23a4b66.242514a",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "1c37dc0b.ce28e4",
@@ -588,7 +588,7 @@
         "height": 1
     },
     {
-        "id": "a4e51b8d.be5b78",
+        "id": "15edeb19.25c995",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "1c37dc0b.ce28e4",
@@ -597,7 +597,7 @@
         "height": 1
     },
     {
-        "id": "dd9dd3de.05276",
+        "id": "22a6866b.bfb56a",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -606,7 +606,7 @@
         "height": 1
     },
     {
-        "id": "308dfa94.b98e96",
+        "id": "d894e7df.e68d18",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -615,7 +615,7 @@
         "height": 1
     },
     {
-        "id": "88e13ecc.59e0c",
+        "id": "f8a1da05.2eeb58",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "72b67add.961f74",
@@ -624,7 +624,7 @@
         "height": 1
     },
     {
-        "id": "59b203c4.63850c",
+        "id": "74227ea8.ba842",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -633,7 +633,7 @@
         "height": 1
     },
     {
-        "id": "828202a8.202c2",
+        "id": "c44c4491.db0078",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -642,7 +642,7 @@
         "height": 1
     },
     {
-        "id": "41dd5736.989a78",
+        "id": "8ff1507f.ae733",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -651,12 +651,48 @@
         "height": 1
     },
     {
-        "id": "68cf3957.b74bb8",
+        "id": "ad738bcd.f00228",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
         "order": 12,
         "width": 1,
+        "height": 1
+    },
+    {
+        "id": "ae3f0519.cd6078",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "45199dde.854f64",
+        "order": 1,
+        "width": 5,
+        "height": 1
+    },
+    {
+        "id": "54404cae.c54794",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "45199dde.854f64",
+        "order": 3,
+        "width": 5,
+        "height": 1
+    },
+    {
+        "id": "d8091645.143c98",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "45199dde.854f64",
+        "order": 5,
+        "width": 5,
+        "height": 1
+    },
+    {
+        "id": "c1de101.9dde0f",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "45199dde.854f64",
+        "order": 7,
+        "width": 4,
         "height": 1
     },
     {
@@ -2299,7 +2335,7 @@
         "type": "ui_led",
         "z": "1d22c714.e50369",
         "group": "45199dde.854f64",
-        "order": 6,
+        "order": 8,
         "width": 2,
         "height": 1,
         "label": "",
@@ -2360,8 +2396,8 @@
         "label": "<i class=\"fa fa-lightbulb-o\"></i> Grow lights",
         "tooltip": "Led",
         "group": "45199dde.854f64",
-        "order": 5,
-        "width": 3,
+        "order": 9,
+        "width": 2,
         "height": 1,
         "passthru": true,
         "decouple": "false",
@@ -4161,13 +4197,13 @@
         "z": "1d22c714.e50369",
         "group": "45199dde.854f64",
         "order": 2,
-        "width": 5,
+        "width": 3,
         "height": 1,
-        "name": "",
+        "name": "Sun light",
         "label": "",
         "format": "<i class=\"fa  fa-sun-o\"></i> Sunlight : {{msg.sun.total}}",
         "layout": "row-left",
-        "x": 390,
+        "x": 400,
         "y": 2020,
         "wires": []
     },
@@ -4176,14 +4212,14 @@
         "type": "ui_text",
         "z": "1d22c714.e50369",
         "group": "45199dde.854f64",
-        "order": 3,
-        "width": 5,
+        "order": 4,
+        "width": 3,
         "height": 1,
-        "name": "",
+        "name": "LED light",
         "label": "",
         "format": "<i class=\"fa fa-lightbulb-o\"></i> LED light : {{msg.payload}}",
         "layout": "row-left",
-        "x": 390,
+        "x": 400,
         "y": 2060,
         "wires": []
     },
@@ -4192,99 +4228,16 @@
         "type": "ui_text",
         "z": "1d22c714.e50369",
         "group": "45199dde.854f64",
-        "order": 4,
-        "width": 5,
+        "order": 6,
+        "width": 3,
         "height": 1,
-        "name": "",
+        "name": "Dark mode",
         "label": "",
         "format": "<i class=\"fa  fa-moon-o\"></i> Dark mode: {{msg.payload}}",
         "layout": "row-left",
-        "x": 390,
+        "x": 410,
         "y": 2100,
         "wires": []
-    },
-    {
-        "id": "d9bc05fb.665518",
-        "type": "ui_svg_graphics",
-        "z": "1d22c714.e50369",
-        "group": "",
-        "order": 1,
-        "width": 3,
-        "height": 4,
-        "svgString": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"1170px\" height=\"480px\" viewBox=\"0 0  1170 480\" preserveAspectRatio=\"xMidYMid meet\"><defs id=\"svgEditorDefs\"><symbol xmlns=\"http://www.w3.org/2000/svg\" id=\"f0eb\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 352 512\"><path d=\"M96.06 454.35c.01 6.29 1.87 12.45 5.36 17.69l17.09 25.69a31.99 31.99 0 0 0 26.64 14.28h61.71a31.99 31.99 0 0 0 26.64-14.28l17.09-25.69a31.989 31.989 0 0 0 5.36-17.69l.04-38.35H96.01l.05 38.35zM0 176c0 44.37 16.45 84.85 43.56 115.78 16.52 18.85 42.36 58.23 52.21 91.45.04.26.07.52.11.78h160.24c.04-.26.07-.51.11-.78 9.85-33.22 35.69-72.6 52.21-91.45C335.55 260.85 352 220.37 352 176 352 78.61 272.91-.3 175.45 0 73.44.31 0 82.97 0 176zm176-80c-44.11 0-80 35.89-80 80 0 8.84-7.16 16-16 16s-16-7.16-16-16c0-61.76 50.24-112 112-112 8.84 0 16 7.16 16 16s-7.16 16-16 16z\"/></symbol><symbol xmlns=\"http://www.w3.org/2000/svg\" id=\"f185\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 512 512\"><path d=\"M256 160c-52.9 0-96 43.1-96 96s43.1 96 96 96 96-43.1 96-96-43.1-96-96-96zm246.4 80.5l-94.7-47.3 33.5-100.4c4.5-13.6-8.4-26.5-21.9-21.9l-100.4 33.5-47.4-94.8c-6.4-12.8-24.6-12.8-31 0l-47.3 94.7L92.7 70.8c-13.6-4.5-26.5 8.4-21.9 21.9l33.5 100.4-94.7 47.4c-12.8 6.4-12.8 24.6 0 31l94.7 47.3-33.5 100.5c-4.5 13.6 8.4 26.5 21.9 21.9l100.4-33.5 47.3 94.7c6.4 12.8 24.6 12.8 31 0l47.3-94.7 100.4 33.5c13.6 4.5 26.5-8.4 21.9-21.9l-33.5-100.4 94.7-47.3c13-6.5 13-24.7.2-31.1zm-155.9 106c-49.9 49.9-131.1 49.9-181 0-49.9-49.9-49.9-131.1 0-181 49.9-49.9 131.1-49.9 181 0 49.9 49.9 49.9 131.1 0 181z\"/></symbol></defs>\n    <rect id=\"svgEditorBackground\" x=\"0\" y=\"0\" width=\"1170\" height=\"480\" style=\"fill: none; stroke: none;\"/>\n    <circle cx=\"50\" cy=\"50\" r=\"40\" stroke=\"rgb(211,211,211)\" stroke-width=\"2\" style=\"stroke-opacity:1;fill:none;\"/>\n<use xlink:href=\"#f0eb\" x=\"43.04\" y=\"46.04\" width=\"0.69\" height=\"1.00\" id=\"e1_icon\" style=\"fill:rosybrown;\"/><use xlink:href=\"#f185\" x=\"42.03730773925781\" y=\"41.03012654391795\" width=\"15.010000\" height=\"15.010000\" id=\"e3_icon\" style=\"fill:darkorange;stroke:darkorange;\"/><g id=\"g_e6_svg\"/><text style=\"fill:darkorange;font-family:Comic Sans;font-size:20px;\" x=\"46.04\" y=\"67.06\" id=\"e7_texte\" transform=\"matrix(0.624585 0 0 0.624585 7.33101 26.2013)\">Light</text></svg>",
-        "clickableShapes": [],
-        "javascriptHandlers": [],
-        "smilAnimations": [],
-        "bindings": [
-            {
-                "selector": "",
-                "bindSource": "",
-                "bindType": "text",
-                "attribute": ""
-            }
-        ],
-        "showCoordinates": false,
-        "autoFormatAfterEdit": false,
-        "showBrowserErrors": false,
-        "showBrowserEvents": false,
-        "enableJsDebugging": false,
-        "sendMsgWhenLoaded": false,
-        "outputField": "payload",
-        "editorUrl": "//drawsvg.org/drawsvg.html",
-        "directory": "",
-        "panning": "disabled",
-        "zooming": "disabled",
-        "panOnlyWhenZoomed": false,
-        "doubleClickZoomEnabled": false,
-        "mouseWheelZoomEnabled": false,
-        "name": "",
-        "x": 570,
-        "y": 2160,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "de32229d.4c3c2",
-        "type": "ui_chart",
-        "z": "1d22c714.e50369",
-        "name": "",
-        "group": "45199dde.854f64",
-        "order": 9,
-        "width": 0,
-        "height": 0,
-        "label": "",
-        "chartType": "pie",
-        "legend": "false",
-        "xformat": "HH:mm:ss",
-        "interpolate": "linear",
-        "nodata": "",
-        "dot": false,
-        "ymin": "0",
-        "ymax": "24",
-        "removeOlder": 1,
-        "removeOlderPoints": "",
-        "removeOlderUnit": "3600",
-        "cutout": 0,
-        "useOneColor": false,
-        "useUTC": false,
-        "colors": [
-            "#1f77b4",
-            "#aec7e8",
-            "#ff7f0e",
-            "#2ca02c",
-            "#98df8a",
-            "#d62728",
-            "#ff9896",
-            "#9467bd",
-            "#c5b0d5"
-        ],
-        "outputs": 1,
-        "x": 320,
-        "y": 2160,
-        "wires": [
-            []
-        ]
     },
     {
         "id": "7b62dc10.8cd624",
@@ -4300,27 +4253,9 @@
         "y": 2020,
         "wires": [
             [
-                "8b1e31fb.674d8",
-                "d7e4ffad.53086"
+                "8b1e31fb.674d8"
             ]
         ]
-    },
-    {
-        "id": "d7e4ffad.53086",
-        "type": "debug",
-        "z": "1d22c714.e50369",
-        "name": "",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "sun.total",
-        "targetType": "msg",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 610,
-        "y": 2060,
-        "wires": []
     },
     {
         "id": "15bc06eb.0cde59",
