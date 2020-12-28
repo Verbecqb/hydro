@@ -4303,7 +4303,7 @@
         "height": 4,
         "label": "Titla",
         "chartType": "pie",
-        "legend": "true",
+        "legend": "false",
         "xformat": "HH:mm:ss",
         "interpolate": "linear",
         "nodata": "",
@@ -4313,13 +4313,13 @@
         "removeOlder": 1,
         "removeOlderPoints": "",
         "removeOlderUnit": "3600",
-        "cutout": "50",
+        "cutout": "85",
         "useOneColor": false,
         "useUTC": false,
         "colors": [
-            "#1f77b4",
-            "#aec7e8",
-            "#ff7f0e",
+            "#ff7f18",
+            "#ebaa60",
+            "#d9d9d9",
             "#2ca02c",
             "#98df8a",
             "#d62728",
@@ -4328,8 +4328,8 @@
             "#c5b0d5"
         ],
         "outputs": 1,
-        "x": 340,
-        "y": 2160,
+        "x": 390,
+        "y": 2140,
         "wires": [
             []
         ]
