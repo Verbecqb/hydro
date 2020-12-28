@@ -4181,13 +4181,6 @@
                 "pt": "global",
                 "to": "payload",
                 "tot": "msg"
-            },
-            {
-                "t": "set",
-                "p": "artificial.light",
-                "pt": "global",
-                "to": "",
-                "tot": "str"
             }
         ],
         "action": "",
@@ -4195,7 +4188,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 220,
+        "x": 230,
         "y": 2020,
         "wires": [
             [
