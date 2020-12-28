@@ -570,7 +570,7 @@
         "collapse": false
     },
     {
-        "id": "794b4ed2.8268e",
+        "id": "d811e2ab.db278",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "1c37dc0b.ce28e4",
@@ -579,7 +579,7 @@
         "height": 1
     },
     {
-        "id": "d5903433.78f2e8",
+        "id": "b9be091a.9ceab8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "1c37dc0b.ce28e4",
@@ -588,7 +588,7 @@
         "height": 1
     },
     {
-        "id": "3d8b1f23.62dc1",
+        "id": "300fc0a4.10281",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -597,7 +597,7 @@
         "height": 1
     },
     {
-        "id": "f0ec4a31.fd3df8",
+        "id": "4bf22185.3b67b",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -606,7 +606,7 @@
         "height": 1
     },
     {
-        "id": "6088fb5c.7f0884",
+        "id": "fdd69d0c.58ace",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -615,7 +615,7 @@
         "height": 1
     },
     {
-        "id": "7af56bd5.a82fb4",
+        "id": "9994705f.c79b8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -624,7 +624,7 @@
         "height": 1
     },
     {
-        "id": "88b08126.11889",
+        "id": "5293d26e.4f869c",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -633,7 +633,7 @@
         "height": 1
     },
     {
-        "id": "1c8671de.6b3dde",
+        "id": "ee094e4a.2f0a8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "72b67add.961f74",
@@ -642,7 +642,7 @@
         "height": 1
     },
     {
-        "id": "249b3362.3677cc",
+        "id": "30187b19.d55a14",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -651,7 +651,7 @@
         "height": 1
     },
     {
-        "id": "ed7a3daa.e14be",
+        "id": "e1d2307f.a5022",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -660,7 +660,7 @@
         "height": 1
     },
     {
-        "id": "56e9073e.b9f168",
+        "id": "c729982e.004d88",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -669,7 +669,7 @@
         "height": 1
     },
     {
-        "id": "611c1bb5.bdddd4",
+        "id": "3ecf9e31.297ab2",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -3551,7 +3551,7 @@
         "tooltip": "Nutriments pump duration",
         "group": "8d4aab9b.4d6328",
         "order": 12,
-        "width": 4,
+        "width": 3,
         "height": 1,
         "passthru": true,
         "outs": "all",
@@ -3575,7 +3575,7 @@
         "z": "87cb301d.9893c",
         "group": "8d4aab9b.4d6328",
         "order": 13,
-        "width": 1,
+        "width": 2,
         "height": 1,
         "name": "Nutriments timer ",
         "label": "",
@@ -3836,7 +3836,7 @@
         "tooltip": "Water spray duration",
         "group": "8d4aab9b.4d6328",
         "order": 6,
-        "width": 4,
+        "width": 3,
         "height": 1,
         "passthru": true,
         "outs": "all",
@@ -3860,7 +3860,7 @@
         "z": "87cb301d.9893c",
         "group": "8d4aab9b.4d6328",
         "order": 7,
-        "width": 1,
+        "width": 2,
         "height": 1,
         "name": "Water spray duration min value",
         "label": "",
