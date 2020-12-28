@@ -4199,8 +4199,7 @@
         "y": 2080,
         "wires": [
             [
-                "a438eaca.290ea8",
-                "8b1e31fb.674d8"
+                "a438eaca.290ea8"
             ]
         ]
     },
@@ -4214,9 +4213,9 @@
         "height": 0,
         "name": "",
         "label": "",
-        "format": "<i class=\"wi wi-owm-01d\"></i> Sunlight : {{global.sun.total}}",
+        "format": "<i class=\"wi wi-owm-01d\"></i> Sunlight : {{msg.payload}}",
         "layout": "row-center",
-        "x": 350,
+        "x": 430,
         "y": 2020,
         "wires": []
     },
@@ -4236,6 +4235,33 @@
         "wires": [
             [
                 "8e9a3664.ba9e68"
+            ]
+        ]
+    },
+    {
+        "id": "2f5a8d87.bd9f22",
+        "type": "change",
+        "z": "1d22c714.e50369",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "sun.total",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 210,
+        "y": 2020,
+        "wires": [
+            [
+                "8b1e31fb.674d8"
             ]
         ]
     }
