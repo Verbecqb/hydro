@@ -4213,10 +4213,10 @@
         "width": 0,
         "height": 0,
         "name": "",
-        "label": "Sunlight ",
-        "format": "<i class=\"wi wi-owm-01d\"></i>{{global.sun.total}}",
+        "label": "",
+        "format": "<i class=\"wi wi-owm-01d\"></i> Sunlight : {{global.sun.total}}",
         "layout": "row-center",
-        "x": 360,
+        "x": 350,
         "y": 2020,
         "wires": []
     },
