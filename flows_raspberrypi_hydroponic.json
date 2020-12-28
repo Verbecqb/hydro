@@ -2332,8 +2332,8 @@
             }
         ],
         "allowColorForValueInMessage": false,
-        "name": "Grow lights",
-        "x": 390,
+        "name": "<i class=\"fa fa-lightbulb-o fa-2x nr-dashboard-warning\"></i>Grow lights",
+        "x": 580,
         "y": 1580,
         "wires": []
     },
