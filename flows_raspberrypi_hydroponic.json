@@ -4099,7 +4099,7 @@
         "unit": "",
         "blur": true,
         "minmax": true,
-        "showvalue": false,
+        "showvalue": true,
         "decimals": 0,
         "colorLine": "#ff9900",
         "colorFromTheme": true,
