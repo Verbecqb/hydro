@@ -579,7 +579,7 @@
         "collapse": false
     },
     {
-        "id": "7f77719b.de446",
+        "id": "c5430ea1.b2bc5",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "1c37dc0b.ce28e4",
@@ -588,7 +588,7 @@
         "height": 1
     },
     {
-        "id": "f5dce7a8.5a8598",
+        "id": "b1fa786e.4ba448",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "1c37dc0b.ce28e4",
@@ -597,7 +597,7 @@
         "height": 1
     },
     {
-        "id": "7819f5e5.ec337c",
+        "id": "4e7d9c76.3b23f4",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -606,7 +606,7 @@
         "height": 1
     },
     {
-        "id": "44ca5192.d93ff",
+        "id": "eff85e3.e13cca",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -615,7 +615,7 @@
         "height": 1
     },
     {
-        "id": "1e3a9046.b41a",
+        "id": "3e9472fc.ee01de",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "72b67add.961f74",
@@ -624,7 +624,7 @@
         "height": 1
     },
     {
-        "id": "b8c2bbc4.abec18",
+        "id": "9dbafd5c.0469f",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -633,7 +633,7 @@
         "height": 1
     },
     {
-        "id": "972f6664.170df8",
+        "id": "27de9d0a.b8a792",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -642,7 +642,7 @@
         "height": 1
     },
     {
-        "id": "109325e.c8e71da",
+        "id": "5bf825c3.dc392c",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -651,30 +651,12 @@
         "height": 1
     },
     {
-        "id": "ccb194b5.626598",
+        "id": "7162ea1b.1776b4",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
         "order": 12,
         "width": 1,
-        "height": 1
-    },
-    {
-        "id": "a8fb00ca.de869",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "45199dde.854f64",
-        "order": 4,
-        "width": 5,
-        "height": 1
-    },
-    {
-        "id": "e2b9910e.03b56",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "45199dde.854f64",
-        "order": 5,
-        "width": 5,
         "height": 1
     },
     {
@@ -2317,7 +2299,7 @@
         "type": "ui_led",
         "z": "1d22c714.e50369",
         "group": "45199dde.854f64",
-        "order": 3,
+        "order": 6,
         "width": 2,
         "height": 1,
         "label": "",
@@ -2378,7 +2360,7 @@
         "label": "<i class=\"fa fa-lightbulb-o\"></i> Grow lights",
         "tooltip": "Led",
         "group": "45199dde.854f64",
-        "order": 2,
+        "order": 5,
         "width": 3,
         "height": 1,
         "passthru": true,
@@ -4186,7 +4168,7 @@
         "resendOnRefresh": true,
         "templateScope": "local",
         "x": 400,
-        "y": 2120,
+        "y": 2160,
         "wires": [
             []
         ]
@@ -4196,7 +4178,7 @@
         "type": "ui_text",
         "z": "1d22c714.e50369",
         "group": "45199dde.854f64",
-        "order": 6,
+        "order": 3,
         "width": 5,
         "height": 1,
         "name": "",
@@ -4247,15 +4229,31 @@
         "type": "ui_text",
         "z": "1d22c714.e50369",
         "group": "45199dde.854f64",
-        "order": 6,
+        "order": 4,
         "width": 5,
         "height": 1,
         "name": "",
         "label": "",
-        "format": "<i class=\"wi wi-owm-01d\"></i> Sunlight : {{msg.payload}}",
+        "format": "<i class=\"fa fa-lightbulb-o\"></i> LED light : {{msg.payload}}",
         "layout": "row-center",
         "x": 390,
         "y": 2060,
+        "wires": []
+    },
+    {
+        "id": "f29c482.590a3b8",
+        "type": "ui_text",
+        "z": "1d22c714.e50369",
+        "group": "45199dde.854f64",
+        "order": 2,
+        "width": 5,
+        "height": 1,
+        "name": "",
+        "label": "",
+        "format": "<i class=\"fa-moon-o \"></i> Dark mode: {{msg.payload}}",
+        "layout": "row-center",
+        "x": 390,
+        "y": 2100,
         "wires": []
     }
 ]
