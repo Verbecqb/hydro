@@ -4150,7 +4150,9 @@
         "x": 960,
         "y": 280,
         "wires": [
-            []
+            [
+                "15bc06eb.0cde59"
+            ]
         ]
     },
     {
@@ -4319,5 +4321,33 @@
         "x": 610,
         "y": 2060,
         "wires": []
+    },
+    {
+        "id": "15bc06eb.0cde59",
+        "type": "link out",
+        "z": "1d22c714.e50369",
+        "name": "Global var - Total day light",
+        "links": [
+            "de54877b.8ab618"
+        ],
+        "x": 1125,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "de54877b.8ab618",
+        "type": "link in",
+        "z": "1d22c714.e50369",
+        "name": "",
+        "links": [
+            "15bc06eb.0cde59"
+        ],
+        "x": 95,
+        "y": 2020,
+        "wires": [
+            [
+                "7b62dc10.8cd624"
+            ]
+        ]
     }
 ]
