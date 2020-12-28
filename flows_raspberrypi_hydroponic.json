@@ -4298,8 +4298,26 @@
         "y": 2020,
         "wires": [
             [
-                "8b1e31fb.674d8"
+                "8b1e31fb.674d8",
+                "d7e4ffad.53086"
             ]
         ]
+    },
+    {
+        "id": "d7e4ffad.53086",
+        "type": "debug",
+        "z": "1d22c714.e50369",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "sun.total",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 610,
+        "y": 2060,
+        "wires": []
     }
 ]
