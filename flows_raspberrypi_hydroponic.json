@@ -4271,7 +4271,7 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "\n<div>Natural day light: {{msg.payload | date: 'HH:mm:ss'}}</div>",
+        "template": "\n<div>Natural day light: {{global.sun.total | date: 'HH:mm:ss'}}</div>",
         "output": "str",
         "x": 350,
         "y": 2200,
