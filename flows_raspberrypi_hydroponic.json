@@ -4265,11 +4265,18 @@
         "order": 6,
         "width": 0,
         "height": 0,
-        "svgString": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0\" y=\"0\" height=\"100\" viewBox=\"0 0 100 100\" width=\"100\" preserveAspectRatio=\"xMidYMid meet\"><rect id=\"svgEditorBackground\" x=\"0\" y=\"0\" width=\"100\" height=\"100\" style=\"fill: none; stroke: none;\"/><defs id=\"svgEditorDefs\"><linearGradient gradientUnits=\"objectBoundingBox\" id=\"lgrd2-black-white\" spreadMethod=\"pad\" x1=\"0%\" x2=\"100%\" y1=\"0%\" y2=\"100%\"><stop offset=\"0%\" stop-color=\"black\"/><stop offset=\"100%\" stop-color=\"white\"/></linearGradient><marker id=\"circle12\" markerHeight=\"12\" markerUnits=\"strokeWidth\" markerWidth=\"12\" orient=\"auto\" refX=\"0\" refY=\"0\" viewBox=\"-5 -5 10 10\"><circle cx=\"0\" cy=\"0\" r=\"5\" style=\"fill:black;stroke:none;\"/></marker><marker id=\"marker1\" markerHeight=\"12\" markerUnits=\"strokeWidth\" markerWidth=\"12\" orient=\"auto\" refX=\"0\" refY=\"0\" viewBox=\"-5 -5 10 10\"><circle cx=\"0\" cy=\"0\" r=\"5\" style=\"fill:black;stroke:none;\"/></marker><marker id=\"circle8\" markerHeight=\"8\" markerUnits=\"strokeWidth\" markerWidth=\"8\" orient=\"auto\" refX=\"0\" refY=\"0\" viewBox=\"-5 -5 10 10\"><circle cx=\"0\" cy=\"0\" fill=\"black;stroke:none;\" r=\"5\"/></marker><marker id=\"circle4\" markerHeight=\"4\" markerUnits=\"strokeWidth\" markerWidth=\"4\" orient=\"auto\" refX=\"0\" refY=\"0\" viewBox=\"-5 -5 10 10\"><circle cx=\"0\" cy=\"0\" r=\"5\" style=\"fill:black;stroke:none;\"/></marker></defs><path d=\"M0,0h4a4,4,0,0,0,-4,-4v4v-4a4,4,0,0,0,-4,4h4h-4a4,4,0,0,0,4,4v-4v4a4,4,0,0,0,4,-4h-4Z\" style=\"vector-effect: non-scaling-stroke; stroke-width: 5px; stroke: rgb(224, 220, 220); fill: none; stroke-opacity: 1;marker-start:url(#circle8);marker-mid:url(#circle8);marker-end:url(#circle4);\" id=\"e1_shape\" transform=\"matrix(5.56133 0 0 5.56133 103.534 41.1642)\"/></svg>",
+        "svgString": "<svg height=\"100\" width=\"100\">\n  <circle cx=\"50\" cy=\"50\" r=\"40\" stroke=\"black\" stroke-width=\"3\" fill=\"red\" />\n</svg>",
         "clickableShapes": [],
         "javascriptHandlers": [],
         "smilAnimations": [],
-        "bindings": [],
+        "bindings": [
+            {
+                "selector": "",
+                "bindSource": "",
+                "bindType": "text",
+                "attribute": ""
+            }
+        ],
         "showCoordinates": false,
         "autoFormatAfterEdit": false,
         "showBrowserErrors": false,
