@@ -566,11 +566,11 @@
         "tab": "352c089f.6b44d8",
         "order": 8,
         "disp": true,
-        "width": "6",
+        "width": 10,
         "collapse": false
     },
     {
-        "id": "c1ace111.4e828",
+        "id": "794b4ed2.8268e",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "1c37dc0b.ce28e4",
@@ -579,7 +579,7 @@
         "height": 1
     },
     {
-        "id": "7edc6fc7.5456a",
+        "id": "d5903433.78f2e8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "1c37dc0b.ce28e4",
@@ -588,7 +588,7 @@
         "height": 1
     },
     {
-        "id": "e7760eb0.26497",
+        "id": "3d8b1f23.62dc1",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -597,7 +597,7 @@
         "height": 1
     },
     {
-        "id": "92e2b34.9ff815",
+        "id": "f0ec4a31.fd3df8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -606,7 +606,7 @@
         "height": 1
     },
     {
-        "id": "f5bcc42.b6b3738",
+        "id": "6088fb5c.7f0884",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -615,7 +615,7 @@
         "height": 1
     },
     {
-        "id": "cfa7db93.d4d7d8",
+        "id": "7af56bd5.a82fb4",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -624,7 +624,7 @@
         "height": 1
     },
     {
-        "id": "7ef0937c.9ad92c",
+        "id": "88b08126.11889",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -633,7 +633,7 @@
         "height": 1
     },
     {
-        "id": "47c68fed.db78d",
+        "id": "1c8671de.6b3dde",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "72b67add.961f74",
@@ -642,7 +642,7 @@
         "height": 1
     },
     {
-        "id": "19eb2c42.a06d84",
+        "id": "249b3362.3677cc",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -651,7 +651,7 @@
         "height": 1
     },
     {
-        "id": "b6f775d1.fefb58",
+        "id": "ed7a3daa.e14be",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -660,7 +660,7 @@
         "height": 1
     },
     {
-        "id": "680b954.32ee06c",
+        "id": "56e9073e.b9f168",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -669,7 +669,7 @@
         "height": 1
     },
     {
-        "id": "6364a3a6.c3098c",
+        "id": "611c1bb5.bdddd4",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -3314,7 +3314,7 @@
         "tooltip": "Minimum PPM threshold to trigger event",
         "group": "c6be6d42.f806a",
         "order": 1,
-        "width": 4,
+        "width": 8,
         "height": 1,
         "passthru": true,
         "outs": "end",
@@ -3341,7 +3341,7 @@
         "tooltip": "Max PPM threshold to trigger event",
         "group": "c6be6d42.f806a",
         "order": 3,
-        "width": 4,
+        "width": 8,
         "height": 1,
         "passthru": true,
         "outs": "end",
@@ -3634,7 +3634,7 @@
         "tooltip": "Minimum PH threshold to trigger event",
         "group": "c6be6d42.f806a",
         "order": 5,
-        "width": 4,
+        "width": 8,
         "height": 1,
         "passthru": true,
         "outs": "end",
@@ -3661,7 +3661,7 @@
         "tooltip": "Max PH threshold to trigger event",
         "group": "c6be6d42.f806a",
         "order": 7,
-        "width": 4,
+        "width": 8,
         "height": 1,
         "passthru": true,
         "outs": "end",
@@ -4012,8 +4012,8 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 540,
-        "y": 1640,
+        "x": 710,
+        "y": 1520,
         "wires": []
     },
     {
@@ -4033,8 +4033,8 @@
         "topic": "",
         "payload": "false",
         "payloadType": "bool",
-        "x": 200,
-        "y": 1580,
+        "x": 210,
+        "y": 1560,
         "wires": [
             [
                 "da7d1a1e.239e58"
@@ -4072,7 +4072,7 @@
         "z": "87cb301d.9893c",
         "name": "### Hydro solution ###",
         "info": "",
-        "x": 160,
+        "x": 240,
         "y": 1440,
         "wires": []
     }
