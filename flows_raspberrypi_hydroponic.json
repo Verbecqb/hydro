@@ -909,7 +909,7 @@
         "qos": "0",
         "datatype": "auto",
         "broker": "a0e631b8.d383b",
-        "x": 170,
+        "x": 210,
         "y": 1960,
         "wires": [
             [
@@ -4168,40 +4168,10 @@
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
-        "x": 480,
+        "x": 400,
         "y": 2080,
         "wires": [
             []
-        ]
-    },
-    {
-        "id": "ef00a771.3c50d8",
-        "type": "inject",
-        "z": "1d22c714.e50369",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": true,
-        "onceDelay": "2",
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 150,
-        "y": 2080,
-        "wires": [
-            [
-                "a438eaca.290ea8",
-                "2f5a8d87.bd9f22"
-            ]
         ]
     },
     {
@@ -4216,28 +4186,9 @@
         "label": "",
         "format": "<i class=\"wi wi-owm-01d\"></i> Sunlight : {{msg.payload}}",
         "layout": "row-center",
-        "x": 430,
+        "x": 390,
         "y": 2020,
         "wires": []
-    },
-    {
-        "id": "a438eaca.290ea8",
-        "type": "template",
-        "z": "1d22c714.e50369",
-        "name": "",
-        "field": "payload",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "\n<div>Natural day light: {{global.sun.total}}</div>",
-        "output": "str",
-        "x": 350,
-        "y": 2200,
-        "wires": [
-            [
-                "8e9a3664.ba9e68"
-            ]
-        ]
     },
     {
         "id": "2f5a8d87.bd9f22",
@@ -4262,7 +4213,8 @@
         "y": 2020,
         "wires": [
             [
-                "8b1e31fb.674d8"
+                "8b1e31fb.674d8",
+                "8e9a3664.ba9e68"
             ]
         ]
     }
