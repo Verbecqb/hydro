@@ -565,11 +565,11 @@
         "tab": "352c089f.6b44d8",
         "order": 8,
         "disp": true,
-        "width": 8,
+        "width": 7,
         "collapse": false
     },
     {
-        "id": "36585712.c5e828",
+        "id": "c93fcba2.b5ce68",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "1c37dc0b.ce28e4",
@@ -578,7 +578,7 @@
         "height": 1
     },
     {
-        "id": "dc5cc40e.147768",
+        "id": "e55c0b4.cf4eef8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "1c37dc0b.ce28e4",
@@ -587,7 +587,7 @@
         "height": 1
     },
     {
-        "id": "bc85bead.462b4",
+        "id": "dc91ec38.1a773",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -596,7 +596,7 @@
         "height": 1
     },
     {
-        "id": "d99cb772.b25e68",
+        "id": "b8119ad5.f3ac68",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -605,7 +605,7 @@
         "height": 1
     },
     {
-        "id": "843911c2.bc1c3",
+        "id": "ca8ccf5c.4e8ad",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "72b67add.961f74",
@@ -614,7 +614,7 @@
         "height": 1
     },
     {
-        "id": "9b5f2d8e.59ec6",
+        "id": "23011ca4.15df84",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -623,7 +623,7 @@
         "height": 1
     },
     {
-        "id": "d1006f9c.fbb81",
+        "id": "5e1c736f.c58c3c",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -632,7 +632,7 @@
         "height": 1
     },
     {
-        "id": "ab9a91c3.e053",
+        "id": "43adae7e.1e50a",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -641,7 +641,7 @@
         "height": 1
     },
     {
-        "id": "a534f5bf.b73808",
+        "id": "e47ffbf3.b7d058",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -3343,7 +3343,7 @@
         "z": "87cb301d.9893c",
         "group": "c6be6d42.f806a",
         "order": 2,
-        "width": 2,
+        "width": 1,
         "height": 1,
         "name": "PPM min value",
         "label": "",
@@ -3359,7 +3359,7 @@
         "z": "87cb301d.9893c",
         "group": "c6be6d42.f806a",
         "order": 4,
-        "width": 2,
+        "width": 1,
         "height": 1,
         "name": "PPM max value",
         "label": "",
@@ -3663,7 +3663,7 @@
         "z": "87cb301d.9893c",
         "group": "c6be6d42.f806a",
         "order": 6,
-        "width": 2,
+        "width": 1,
         "height": 1,
         "name": "PH min value",
         "label": "",
@@ -3679,7 +3679,7 @@
         "z": "87cb301d.9893c",
         "group": "c6be6d42.f806a",
         "order": 8,
-        "width": 2,
+        "width": 1,
         "height": 1,
         "name": "PH max value",
         "label": "",
