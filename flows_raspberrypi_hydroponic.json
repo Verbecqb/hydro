@@ -4238,31 +4238,6 @@
         "wires": []
     },
     {
-        "id": "a6261764.a4c278",
-        "type": "change",
-        "z": "1d22c714.e50369",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "sun.total",
-                "tot": "global"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 200,
-        "y": 2020,
-        "wires": [
-            []
-        ]
-    },
-    {
         "id": "a438eaca.290ea8",
         "type": "template",
         "z": "1d22c714.e50369",
