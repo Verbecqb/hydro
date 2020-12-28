@@ -579,87 +579,6 @@
         "collapse": false
     },
     {
-        "id": "30c2e341.0d22dc",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "1c37dc0b.ce28e4",
-        "order": 5,
-        "width": 5,
-        "height": 1
-    },
-    {
-        "id": "dd0924b2.5795d8",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "1c37dc0b.ce28e4",
-        "order": 9,
-        "width": 5,
-        "height": 1
-    },
-    {
-        "id": "94d020f2.a2538",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "8a9b009f.1b35d",
-        "order": 6,
-        "width": 2,
-        "height": 1
-    },
-    {
-        "id": "1c9b58ab.6854e7",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "8a9b009f.1b35d",
-        "order": 8,
-        "width": 2,
-        "height": 1
-    },
-    {
-        "id": "19005b98.3d4174",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "72b67add.961f74",
-        "order": 2,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "5f7988e0.d378e8",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "8d4aab9b.4d6328",
-        "order": 3,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "86750f80.938aa",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "8d4aab9b.4d6328",
-        "order": 6,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "4914bd20.e79904",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "8d4aab9b.4d6328",
-        "order": 9,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "512a2b3d.46d244",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "8d4aab9b.4d6328",
-        "order": 12,
-        "width": 1,
-        "height": 1
-    },
-    {
         "id": "89749fb7.87f01",
         "type": "ui_group",
         "name": "Charts",
@@ -692,6 +611,87 @@
         "name": "Charts",
         "icon": "dashboard",
         "order": 2
+    },
+    {
+        "id": "76d0ea2c.b2a404",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "1c37dc0b.ce28e4",
+        "order": 5,
+        "width": 5,
+        "height": 1
+    },
+    {
+        "id": "2c026045.4d1d8",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "1c37dc0b.ce28e4",
+        "order": 9,
+        "width": 5,
+        "height": 1
+    },
+    {
+        "id": "5c42dc0d.c4b324",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "8a9b009f.1b35d",
+        "order": 6,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "36bbb48e.bfa62c",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "8a9b009f.1b35d",
+        "order": 8,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "1a725ce1.fb8fc3",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "72b67add.961f74",
+        "order": 2,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "c479c7d1.9bf9e8",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "8d4aab9b.4d6328",
+        "order": 3,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "54853515.c8fcec",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "8d4aab9b.4d6328",
+        "order": 6,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "1126cf04.a3c481",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "8d4aab9b.4d6328",
+        "order": 9,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "eb14c55d.832668",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "8d4aab9b.4d6328",
+        "order": 12,
+        "width": 1,
+        "height": 1
     },
     {
         "id": "e30bc267.9a60e",
@@ -2333,7 +2333,7 @@
         "type": "ui_led",
         "z": "1d22c714.e50369",
         "group": "45199dde.854f64",
-        "order": 5,
+        "order": 6,
         "width": 2,
         "height": 1,
         "label": "",
@@ -2394,7 +2394,7 @@
         "label": "<i class=\"fa fa-lightbulb-o\"></i> Grow lights",
         "tooltip": "Led",
         "group": "45199dde.854f64",
-        "order": 6,
+        "order": 5,
         "width": 2,
         "height": 1,
         "passthru": true,
