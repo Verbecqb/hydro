@@ -4294,7 +4294,7 @@
         "order": 1,
         "width": 4,
         "height": 4,
-        "label": "<i class=\"fa  fa-sun-o\"></i><br/> Light",
+        "label": "<i class=\"wi wi-owm-01d\"></i>&nbsp;<br/> Light",
         "chartType": "pie",
         "legend": "false",
         "xformat": "HH:mm:ss",
