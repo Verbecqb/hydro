@@ -4247,5 +4247,21 @@
                 "65f5147e.68539c"
             ]
         ]
+    },
+    {
+        "id": "8b1e31fb.674d8",
+        "type": "ui_text",
+        "z": "1d22c714.e50369",
+        "group": "1c37dc0b.ce28e4",
+        "order": 9,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "text",
+        "format": "{{global.sun.total | date: 'HH:mm:ss'}}",
+        "layout": "row-center",
+        "x": 340,
+        "y": 2120,
+        "wires": []
     }
 ]
