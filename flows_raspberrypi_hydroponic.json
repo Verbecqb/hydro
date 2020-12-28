@@ -77,21 +77,21 @@
     {
         "id": "8a9b009f.1b35d",
         "type": "ui_group",
-        "name": "Room environment",
+        "name": "Room environment - Sensors",
         "tab": "352c089f.6b44d8",
         "order": 3,
         "disp": true,
-        "width": 13,
+        "width": "6",
         "collapse": false
     },
     {
         "id": "65d119b5.66cb78",
         "type": "ui_group",
-        "name": "Seed Tray",
+        "name": "Seed Tray - Sensors",
         "tab": "352c089f.6b44d8",
         "order": 4,
         "disp": true,
-        "width": 16,
+        "width": "12",
         "collapse": false
     },
     {
@@ -441,8 +441,7 @@
                 "primary": "indigo",
                 "accents": "blue",
                 "warn": "red",
-                "background": "grey",
-                "palette": "dark"
+                "background": "grey"
             }
         },
         "site": {
@@ -459,8 +458,8 @@
                 "gy": 12,
                 "cx": 0,
                 "cy": 0,
-                "px": 5,
-                "py": 5
+                "px": 0,
+                "py": 0
             }
         }
     },
@@ -570,7 +569,7 @@
         "collapse": false
     },
     {
-        "id": "74d7ee7f.f45",
+        "id": "d5168fa9.949a9",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "1c37dc0b.ce28e4",
@@ -579,7 +578,7 @@
         "height": 1
     },
     {
-        "id": "9b465596.f65888",
+        "id": "21ba58bb.b08088",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "1c37dc0b.ce28e4",
@@ -588,61 +587,25 @@
         "height": 1
     },
     {
-        "id": "ae71bcb.e2c874",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "8a9b009f.1b35d",
-        "order": 4,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "fee49ede.8c4c",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "8a9b009f.1b35d",
-        "order": 5,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "60969e5.0f2426",
+        "id": "9a95f0dc.d8253",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
         "order": 6,
-        "width": 1,
+        "width": 2,
         "height": 1
     },
     {
-        "id": "34007b9a.a7e124",
+        "id": "d3cafed1.f64b",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
-        "order": 7,
-        "width": 1,
+        "order": 8,
+        "width": 2,
         "height": 1
     },
     {
-        "id": "b5c7bf0f.e7a13",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "8a9b009f.1b35d",
-        "order": 11,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "1407a12c.6c433f",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "65d119b5.66cb78",
-        "order": 10,
-        "width": 12,
-        "height": 1
-    },
-    {
-        "id": "70c15ba2.916964",
+        "id": "7f25066d.7534e8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "72b67add.961f74",
@@ -651,7 +614,7 @@
         "height": 1
     },
     {
-        "id": "77622e27.d26b7",
+        "id": "fab35cac.bf319",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -660,7 +623,7 @@
         "height": 1
     },
     {
-        "id": "3d19d276.382e9e",
+        "id": "a9dc6058.eb147",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -669,7 +632,7 @@
         "height": 1
     },
     {
-        "id": "b94ef9e6.b0f208",
+        "id": "d2690902.39cfc8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -678,7 +641,7 @@
         "height": 1
     },
     {
-        "id": "5312d7af.386998",
+        "id": "27897cb9.50c694",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -751,12 +714,14 @@
             [
                 "e3814403.711458",
                 "7d66ede7.acf094",
-                "84888512.5d3ad8"
+                "84888512.5d3ad8",
+                "58d46bc7.965d04"
             ],
             [
                 "b1c0fbbf.8e9c58",
                 "ce4f2657.0c3588",
-                "b8023ba0.969078"
+                "b8023ba0.969078",
+                "7116d9ef.642a58"
             ]
         ]
     },
@@ -1592,7 +1557,7 @@
         "randomUnits": "seconds",
         "drop": false,
         "x": 760,
-        "y": 1040,
+        "y": 1080,
         "wires": [
             [
                 "4594e62e.1bff58",
@@ -1620,7 +1585,7 @@
         "to": "",
         "reg": false,
         "x": 1160,
-        "y": 1080,
+        "y": 1120,
         "wires": [
             [
                 "abe678a7.9a28b8"
@@ -1638,7 +1603,7 @@
         "initialize": "",
         "finalize": "",
         "x": 1180,
-        "y": 1040,
+        "y": 1080,
         "wires": [
             [
                 "1aca970a.1a6d09"
@@ -1782,7 +1747,7 @@
         "org": "organisation",
         "bucket": "bucket",
         "x": 850,
-        "y": 1000,
+        "y": 1040,
         "wires": []
     },
     {
@@ -1968,7 +1933,7 @@
         "retentionPolicy": "",
         "org": "organisation",
         "x": 920,
-        "y": 1040,
+        "y": 1080,
         "wires": [
             [
                 "9442afba.2d0c3"
@@ -1987,7 +1952,7 @@
         "retentionPolicy": "",
         "org": "organisation",
         "x": 940,
-        "y": 1080,
+        "y": 1120,
         "wires": [
             [
                 "a12ec6c.7faa138"
@@ -2000,13 +1965,13 @@
         "z": "1d22c714.e50369",
         "group": "8a9b009f.1b35d",
         "order": 3,
-        "width": 4,
-        "height": 4,
+        "width": 0,
+        "height": 0,
         "name": "Luminosity",
         "icon": "fa-fire",
         "label": "Luminosity",
         "unit": "Lux",
-        "layout": "radial",
+        "layout": "linear",
         "decimals": 0,
         "differential": false,
         "minmax": true,
@@ -2042,14 +2007,14 @@
         "type": "ui_artlessgauge",
         "z": "1d22c714.e50369",
         "group": "65d119b5.66cb78",
-        "order": 3,
-        "width": 4,
-        "height": 4,
+        "order": 1,
+        "width": 9,
+        "height": 1,
         "name": "Water temperature",
         "icon": "fa-thermometer",
         "label": "Water temperature",
         "unit": " °C",
-        "layout": "radial",
+        "layout": "linear",
         "decimals": 0,
         "differential": false,
         "minmax": true,
@@ -2103,7 +2068,7 @@
         "type": "ui_artlessgauge",
         "z": "1d22c714.e50369",
         "group": "65d119b5.66cb78",
-        "order": 1,
+        "order": 7,
         "width": 4,
         "height": 4,
         "name": "Water Quality",
@@ -2147,13 +2112,13 @@
         "z": "1d22c714.e50369",
         "group": "8a9b009f.1b35d",
         "order": 1,
-        "width": 4,
-        "height": 4,
+        "width": 0,
+        "height": 0,
         "name": "Room temperature DHT11",
         "icon": "fa-thermometer-full",
         "label": "Temperature",
         "unit": " °C",
-        "layout": "radial",
+        "layout": "linear",
         "decimals": 0,
         "differential": false,
         "minmax": true,
@@ -2208,13 +2173,13 @@
         "z": "1d22c714.e50369",
         "group": "8a9b009f.1b35d",
         "order": 2,
-        "width": 4,
-        "height": 4,
+        "width": 0,
+        "height": 0,
         "name": "Room Humidity DHT11",
         "icon": "fa-tint",
         "label": "Humidity",
         "unit": "%",
-        "layout": "radial",
+        "layout": "linear",
         "decimals": 0,
         "differential": false,
         "minmax": true,
@@ -2268,7 +2233,7 @@
         "type": "ui_artlessgauge",
         "z": "1d22c714.e50369",
         "group": "65d119b5.66cb78",
-        "order": 2,
+        "order": 6,
         "width": 4,
         "height": 4,
         "name": "Water PH",
@@ -2315,7 +2280,7 @@
         "bgcolorFromTheme": true,
         "diffCenter": "",
         "x": 980,
-        "y": 960,
+        "y": 1000,
         "wires": []
     },
     {
@@ -2551,7 +2516,7 @@
         "type": "ui_text",
         "z": "1d22c714.e50369",
         "group": "8a9b009f.1b35d",
-        "order": 9,
+        "order": 5,
         "width": 4,
         "height": 1,
         "name": "Last refresh - humidity",
@@ -2567,9 +2532,9 @@
         "type": "ui_text",
         "z": "1d22c714.e50369",
         "group": "8a9b009f.1b35d",
-        "order": 8,
-        "width": 4,
-        "height": 1,
+        "order": 4,
+        "width": 0,
+        "height": 0,
         "name": "Last refresh - temp",
         "label": "",
         "format": "<i class=\"fa fa-refresh\" aria-hidden=\"true\">&nbsp; {{ msg.payload | date: 'HH:mm:ss'}}</i> ",
@@ -2582,9 +2547,10 @@
         "id": "ad8e7270.bfabd",
         "type": "ui_text",
         "z": "1d22c714.e50369",
+        "d": true,
         "group": "65d119b5.66cb78",
-        "order": 6,
-        "width": 4,
+        "order": 4,
+        "width": 3,
         "height": 1,
         "name": "Last refresh - water temp",
         "label": "",
@@ -2598,8 +2564,9 @@
         "id": "383c0ad2.b2e656",
         "type": "ui_text",
         "z": "1d22c714.e50369",
+        "d": true,
         "group": "65d119b5.66cb78",
-        "order": 9,
+        "order": 5,
         "width": 4,
         "height": 1,
         "name": "Last refresh - water quality",
@@ -2615,7 +2582,7 @@
         "type": "ui_text",
         "z": "1d22c714.e50369",
         "group": "8a9b009f.1b35d",
-        "order": 10,
+        "order": 7,
         "width": 4,
         "height": 1,
         "name": "Last refresh - luminosity",
@@ -2630,16 +2597,17 @@
         "id": "1aca970a.1a6d09",
         "type": "ui_text",
         "z": "1d22c714.e50369",
+        "d": true,
         "group": "65d119b5.66cb78",
-        "order": 7,
-        "width": 4,
+        "order": 3,
+        "width": 5,
         "height": 1,
         "name": "Last refresh - water PH",
         "label": "",
         "format": "<i class=\"fa fa-refresh\" aria-hidden=\"true\">&nbsp; {{ msg.payload | date: 'HH:mm:ss'}}</i> ",
         "layout": "row-center",
         "x": 1410,
-        "y": 1040,
+        "y": 1080,
         "wires": []
     },
     {
@@ -2764,7 +2732,7 @@
         "group": "ae8ddbfd.c58db8",
         "order": 1,
         "width": 4,
-        "height": 1,
+        "height": 2,
         "name": "arduino state",
         "label": "Arduino ",
         "format": "{{msg.payload}}",
@@ -2953,15 +2921,15 @@
         "z": "1d22c714.e50369",
         "name": "Water level",
         "group": "65d119b5.66cb78",
-        "order": 4,
+        "order": 8,
         "width": 4,
         "height": 4,
         "gtype": "wave",
         "title": "Water level",
-        "label": "cm",
+        "label": "%",
         "format": "{{value}}",
         "min": 0,
-        "max": "50",
+        "max": "100",
         "colors": [
             "#00b500",
             "#e6e600",
@@ -2969,8 +2937,8 @@
         ],
         "seg1": "",
         "seg2": "",
-        "x": 910,
-        "y": 1140,
+        "x": 1030,
+        "y": 1220,
         "wires": []
     },
     {
@@ -2988,7 +2956,7 @@
         "org": "organisation",
         "bucket": "bucket",
         "x": 860,
-        "y": 1180,
+        "y": 1260,
         "wires": []
     },
     {
@@ -3007,7 +2975,7 @@
         "randomUnits": "seconds",
         "drop": false,
         "x": 760,
-        "y": 1220,
+        "y": 1300,
         "wires": [
             [
                 "f0da22f5.a0782"
@@ -3025,7 +2993,7 @@
         "initialize": "",
         "finalize": "",
         "x": 1180,
-        "y": 1220,
+        "y": 1300,
         "wires": [
             [
                 "62029373.97ee9c"
@@ -3044,7 +3012,7 @@
         "retentionPolicy": "",
         "org": "organisation",
         "x": 920,
-        "y": 1220,
+        "y": 1300,
         "wires": [
             [
                 "8e23d689.2cf748"
@@ -3056,15 +3024,15 @@
         "type": "ui_text",
         "z": "1d22c714.e50369",
         "group": "65d119b5.66cb78",
-        "order": 8,
-        "width": 4,
+        "order": 2,
+        "width": 3,
         "height": 1,
         "name": "Last refresh - water level",
         "label": "",
         "format": "<i class=\"fa fa-refresh\" aria-hidden=\"true\">&nbsp; {{ msg.payload | date: 'HH:mm:ss'}}</i> ",
         "layout": "row-center",
         "x": 1410,
-        "y": 1220,
+        "y": 1300,
         "wires": []
     },
     {
@@ -3812,7 +3780,7 @@
         "initialize": "",
         "finalize": "",
         "x": 800,
-        "y": 960,
+        "y": 1000,
         "wires": [
             [
                 "4d58abb1.177e64"
@@ -3976,14 +3944,14 @@
         "id": "b8023ba0.969078",
         "type": "function",
         "z": "1d22c714.e50369",
-        "name": "",
-        "func": "msg.ui_control = {options: {\n    //circleColor:\"#FF7777\",\n    //textColor:\"#FF4444\", \n    //waveTextColor:\"#FFAAAA\",\n    waveColor:\"#FFDDDD\",\n    circleThickness: 0.01,\n    circleColor: \"#0fbaac\",\n    waveAnimate: true,\n    waveAnimateTime: 3000,\n    waveCount: 3,\n }\n}\n \nreturn msg; ",
+        "name": "Configure gauge widget",
+        "func": "msg.ui_control = {options: {\n    textColor:\"#FFFFFF\", \n    waveTextColor:\"#FFFFFF\", \n    textSize: 0.7,\n    textVertPosition: .6,\n    displayPercent: true,\n    waveColor:\"#0fbaac\",\n    //waveAnimate: true,\n    //waveAnimateTime: 200000,\n    //waveCount: 3,\n    waveOffset: 0.25,\n    circleThickness: 0.05,\n    circleColor: \"#0fbaac\",\n    valueCountUp: false // disable count up upon loading \n\n }\n};\nmsg.payload = parseInt(msg.payload * 100 / 7);\nreturn msg; ",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 760,
-        "y": 1140,
+        "x": 810,
+        "y": 1220,
         "wires": [
             [
                 "821d2e1a.d0244"
@@ -4091,23 +4059,71 @@
         "type": "ui_valuetrail",
         "z": "1d22c714.e50369",
         "group": "65d119b5.66cb78",
-        "order": 5,
+        "order": 10,
         "width": 4,
         "height": 1,
-        "name": "",
+        "name": "Water quality trail",
         "label": "",
         "unit": "",
         "blur": true,
         "minmax": true,
-        "showvalue": true,
+        "showvalue": false,
         "decimals": 0,
         "colorLine": "#ff9900",
         "colorFromTheme": true,
         "stroke": 2,
         "property": "payload",
         "pointcount": 8,
-        "x": 780,
+        "x": 810,
         "y": 380,
+        "wires": []
+    },
+    {
+        "id": "58d46bc7.965d04",
+        "type": "ui_valuetrail",
+        "z": "1d22c714.e50369",
+        "group": "65d119b5.66cb78",
+        "order": 9,
+        "width": 4,
+        "height": 1,
+        "name": "Water PH trail",
+        "label": "",
+        "unit": "",
+        "blur": true,
+        "minmax": true,
+        "showvalue": false,
+        "decimals": "1",
+        "colorLine": "#ff9900",
+        "colorFromTheme": true,
+        "stroke": 2,
+        "property": "payload",
+        "pointcount": 8,
+        "x": 780,
+        "y": 960,
+        "wires": []
+    },
+    {
+        "id": "7116d9ef.642a58",
+        "type": "ui_valuetrail",
+        "z": "1d22c714.e50369",
+        "group": "65d119b5.66cb78",
+        "order": 11,
+        "width": 4,
+        "height": 1,
+        "name": "Water level trail",
+        "label": "",
+        "unit": "",
+        "blur": true,
+        "minmax": true,
+        "showvalue": false,
+        "decimals": "2",
+        "colorLine": "#ff9900",
+        "colorFromTheme": true,
+        "stroke": 2,
+        "property": "payload",
+        "pointcount": 8,
+        "x": 780,
+        "y": 1180,
         "wires": []
     }
 ]
