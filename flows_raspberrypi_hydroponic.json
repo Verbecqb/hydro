@@ -3832,7 +3832,7 @@
         "type": "ui_slider",
         "z": "87cb301d.9893c",
         "name": "Water spray duration",
-        "label": "Duration",
+        "label": "<i class=\"fa fa-clock-o\"></i> Duration",
         "tooltip": "Water spray duration",
         "group": "8d4aab9b.4d6328",
         "order": 6,
