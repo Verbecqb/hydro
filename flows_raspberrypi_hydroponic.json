@@ -570,7 +570,7 @@
         "collapse": false
     },
     {
-        "id": "d811e2ab.db278",
+        "id": "74d7ee7f.f45",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "1c37dc0b.ce28e4",
@@ -579,7 +579,7 @@
         "height": 1
     },
     {
-        "id": "b9be091a.9ceab8",
+        "id": "9b465596.f65888",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "1c37dc0b.ce28e4",
@@ -588,7 +588,7 @@
         "height": 1
     },
     {
-        "id": "300fc0a4.10281",
+        "id": "ae71bcb.e2c874",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -597,7 +597,7 @@
         "height": 1
     },
     {
-        "id": "4bf22185.3b67b",
+        "id": "fee49ede.8c4c",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -606,7 +606,7 @@
         "height": 1
     },
     {
-        "id": "fdd69d0c.58ace",
+        "id": "60969e5.0f2426",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -615,7 +615,7 @@
         "height": 1
     },
     {
-        "id": "9994705f.c79b8",
+        "id": "34007b9a.a7e124",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -624,7 +624,7 @@
         "height": 1
     },
     {
-        "id": "5293d26e.4f869c",
+        "id": "b5c7bf0f.e7a13",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -633,7 +633,16 @@
         "height": 1
     },
     {
-        "id": "ee094e4a.2f0a8",
+        "id": "1407a12c.6c433f",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "65d119b5.66cb78",
+        "order": 10,
+        "width": 12,
+        "height": 1
+    },
+    {
+        "id": "70c15ba2.916964",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "72b67add.961f74",
@@ -642,7 +651,7 @@
         "height": 1
     },
     {
-        "id": "30187b19.d55a14",
+        "id": "77622e27.d26b7",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -651,7 +660,7 @@
         "height": 1
     },
     {
-        "id": "e1d2307f.a5022",
+        "id": "3d19d276.382e9e",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -660,7 +669,7 @@
         "height": 1
     },
     {
-        "id": "c729982e.004d88",
+        "id": "b94ef9e6.b0f208",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -669,7 +678,7 @@
         "height": 1
     },
     {
-        "id": "3ecf9e31.297ab2",
+        "id": "5312d7af.386998",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -726,7 +735,8 @@
             [
                 "6a5ac7a1.e350c8",
                 "39bf6628.85f8ba",
-                "b2d124cc.ae5b18"
+                "b2d124cc.ae5b18",
+                "b74e71c3.dd092"
             ],
             [
                 "b7f7abe3.8afe58",
@@ -2589,7 +2599,7 @@
         "type": "ui_text",
         "z": "1d22c714.e50369",
         "group": "65d119b5.66cb78",
-        "order": 5,
+        "order": 9,
         "width": 4,
         "height": 1,
         "name": "Last refresh - water quality",
@@ -4074,6 +4084,30 @@
         "info": "",
         "x": 240,
         "y": 1440,
+        "wires": []
+    },
+    {
+        "id": "b74e71c3.dd092",
+        "type": "ui_valuetrail",
+        "z": "1d22c714.e50369",
+        "group": "65d119b5.66cb78",
+        "order": 5,
+        "width": 4,
+        "height": 1,
+        "name": "",
+        "label": "",
+        "unit": "",
+        "blur": true,
+        "minmax": false,
+        "showvalue": false,
+        "decimals": 0,
+        "colorLine": "#ff9900",
+        "colorFromTheme": true,
+        "stroke": 2,
+        "property": "payload",
+        "pointcount": 8,
+        "x": 780,
+        "y": 380,
         "wires": []
     }
 ]
