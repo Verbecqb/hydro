@@ -579,7 +579,7 @@
         "collapse": false
     },
     {
-        "id": "23a4b66.242514a",
+        "id": "30c2e341.0d22dc",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "1c37dc0b.ce28e4",
@@ -588,7 +588,7 @@
         "height": 1
     },
     {
-        "id": "15edeb19.25c995",
+        "id": "dd0924b2.5795d8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "1c37dc0b.ce28e4",
@@ -597,7 +597,7 @@
         "height": 1
     },
     {
-        "id": "22a6866b.bfb56a",
+        "id": "94d020f2.a2538",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -606,7 +606,7 @@
         "height": 1
     },
     {
-        "id": "d894e7df.e68d18",
+        "id": "1c9b58ab.6854e7",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -615,7 +615,7 @@
         "height": 1
     },
     {
-        "id": "f8a1da05.2eeb58",
+        "id": "19005b98.3d4174",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "72b67add.961f74",
@@ -624,7 +624,7 @@
         "height": 1
     },
     {
-        "id": "74227ea8.ba842",
+        "id": "5f7988e0.d378e8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -633,7 +633,7 @@
         "height": 1
     },
     {
-        "id": "c44c4491.db0078",
+        "id": "86750f80.938aa",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -642,7 +642,7 @@
         "height": 1
     },
     {
-        "id": "8ff1507f.ae733",
+        "id": "4914bd20.e79904",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -651,48 +651,12 @@
         "height": 1
     },
     {
-        "id": "ad738bcd.f00228",
+        "id": "512a2b3d.46d244",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
         "order": 12,
         "width": 1,
-        "height": 1
-    },
-    {
-        "id": "ae3f0519.cd6078",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "45199dde.854f64",
-        "order": 1,
-        "width": 5,
-        "height": 1
-    },
-    {
-        "id": "54404cae.c54794",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "45199dde.854f64",
-        "order": 3,
-        "width": 5,
-        "height": 1
-    },
-    {
-        "id": "d8091645.143c98",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "45199dde.854f64",
-        "order": 5,
-        "width": 5,
-        "height": 1
-    },
-    {
-        "id": "c1de101.9dde0f",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "45199dde.854f64",
-        "order": 7,
-        "width": 4,
         "height": 1
     },
     {
@@ -2335,7 +2299,7 @@
         "type": "ui_led",
         "z": "1d22c714.e50369",
         "group": "45199dde.854f64",
-        "order": 8,
+        "order": 5,
         "width": 2,
         "height": 1,
         "label": "",
@@ -2396,7 +2360,7 @@
         "label": "<i class=\"fa fa-lightbulb-o\"></i> Grow lights",
         "tooltip": "Led",
         "group": "45199dde.854f64",
-        "order": 9,
+        "order": 6,
         "width": 2,
         "height": 1,
         "passthru": true,
@@ -4197,7 +4161,7 @@
         "z": "1d22c714.e50369",
         "group": "45199dde.854f64",
         "order": 2,
-        "width": 3,
+        "width": 4,
         "height": 1,
         "name": "Sun light",
         "label": "",
@@ -4212,8 +4176,8 @@
         "type": "ui_text",
         "z": "1d22c714.e50369",
         "group": "45199dde.854f64",
-        "order": 4,
-        "width": 3,
+        "order": 3,
+        "width": 4,
         "height": 1,
         "name": "LED light",
         "label": "",
@@ -4228,8 +4192,8 @@
         "type": "ui_text",
         "z": "1d22c714.e50369",
         "group": "45199dde.854f64",
-        "order": 6,
-        "width": 3,
+        "order": 4,
+        "width": 4,
         "height": 1,
         "name": "Dark mode",
         "label": "",
@@ -4291,9 +4255,9 @@
         "z": "1d22c714.e50369",
         "name": "",
         "group": "45199dde.854f64",
-        "order": 9,
-        "width": 0,
-        "height": 0,
+        "order": 1,
+        "width": 4,
+        "height": 4,
         "label": "",
         "chartType": "pie",
         "legend": "false",
