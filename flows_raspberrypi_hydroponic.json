@@ -4151,7 +4151,9 @@
         "x": 960,
         "y": 280,
         "wires": [
-            []
+            [
+                "969eda8e.3f91c8"
+            ]
         ]
     },
     {
@@ -4173,5 +4175,21 @@
         "wires": [
             []
         ]
+    },
+    {
+        "id": "969eda8e.3f91c8",
+        "type": "debug",
+        "z": "1d22c714.e50369",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1240,
+        "y": 360,
+        "wires": []
     }
 ]
