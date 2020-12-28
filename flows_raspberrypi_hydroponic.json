@@ -565,11 +565,11 @@
         "tab": "352c089f.6b44d8",
         "order": 8,
         "disp": true,
-        "width": 10,
+        "width": 8,
         "collapse": false
     },
     {
-        "id": "48b999ed.1bff88",
+        "id": "36585712.c5e828",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "1c37dc0b.ce28e4",
@@ -578,7 +578,7 @@
         "height": 1
     },
     {
-        "id": "e7149442.d55c18",
+        "id": "dc5cc40e.147768",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "1c37dc0b.ce28e4",
@@ -587,7 +587,7 @@
         "height": 1
     },
     {
-        "id": "98d1bc6f.60fa9",
+        "id": "bc85bead.462b4",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -596,7 +596,7 @@
         "height": 1
     },
     {
-        "id": "6adbc42a.d2cbbc",
+        "id": "d99cb772.b25e68",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -605,7 +605,16 @@
         "height": 1
     },
     {
-        "id": "f9091a2c.8eddb8",
+        "id": "843911c2.bc1c3",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "72b67add.961f74",
+        "order": 2,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "9b5f2d8e.59ec6",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -614,7 +623,7 @@
         "height": 1
     },
     {
-        "id": "d3d3995e.c3fc38",
+        "id": "d1006f9c.fbb81",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -623,7 +632,7 @@
         "height": 1
     },
     {
-        "id": "9e7cbb69.adddc8",
+        "id": "ab9a91c3.e053",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -632,30 +641,12 @@
         "height": 1
     },
     {
-        "id": "36dfa8f7.aa78b8",
+        "id": "a534f5bf.b73808",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
         "order": 14,
         "width": 1,
-        "height": 1
-    },
-    {
-        "id": "8d2c341.da363c8",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "c6be6d42.f806a",
-        "order": 8,
-        "width": 4,
-        "height": 1
-    },
-    {
-        "id": "5bece8cc.674c08",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "c6be6d42.f806a",
-        "order": 10,
-        "width": 4,
         "height": 1
     },
     {
@@ -3327,7 +3318,7 @@
         "label": "Max. PPM",
         "tooltip": "Max PPM threshold to trigger event",
         "group": "c6be6d42.f806a",
-        "order": 4,
+        "order": 3,
         "width": 6,
         "height": 1,
         "passthru": true,
@@ -3367,7 +3358,7 @@
         "type": "ui_text",
         "z": "87cb301d.9893c",
         "group": "c6be6d42.f806a",
-        "order": 3,
+        "order": 4,
         "width": 2,
         "height": 1,
         "name": "PPM max value",
@@ -3620,7 +3611,7 @@
         "label": "Min. PH",
         "tooltip": "Minimum PH threshold to trigger event",
         "group": "c6be6d42.f806a",
-        "order": 7,
+        "order": 5,
         "width": 6,
         "height": 1,
         "passthru": true,
@@ -3647,7 +3638,7 @@
         "label": "Max. PH",
         "tooltip": "Max PH threshold to trigger event",
         "group": "c6be6d42.f806a",
-        "order": 9,
+        "order": 7,
         "width": 6,
         "height": 1,
         "passthru": true,
@@ -3671,7 +3662,7 @@
         "type": "ui_text",
         "z": "87cb301d.9893c",
         "group": "c6be6d42.f806a",
-        "order": 5,
+        "order": 6,
         "width": 2,
         "height": 1,
         "name": "PH min value",
@@ -3687,7 +3678,7 @@
         "type": "ui_text",
         "z": "87cb301d.9893c",
         "group": "c6be6d42.f806a",
-        "order": 6,
+        "order": 8,
         "width": 2,
         "height": 1,
         "name": "PH max value",
