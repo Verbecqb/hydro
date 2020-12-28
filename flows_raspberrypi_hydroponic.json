@@ -909,8 +909,8 @@
         "qos": "0",
         "datatype": "auto",
         "broker": "a0e631b8.d383b",
-        "x": 190,
-        "y": 1580,
+        "x": 170,
+        "y": 1960,
         "wires": [
             [
                 "54666026.3c8da"
@@ -2299,7 +2299,7 @@
         "id": "54666026.3c8da",
         "type": "ui_led",
         "z": "1d22c714.e50369",
-        "group": "8d4aab9b.4d6328",
+        "group": "45199dde.854f64",
         "order": 2,
         "width": 2,
         "height": 1,
@@ -2320,8 +2320,8 @@
         ],
         "allowColorForValueInMessage": false,
         "name": "Grow lights",
-        "x": 390,
-        "y": 1580,
+        "x": 370,
+        "y": 1960,
         "wires": []
     },
     {
@@ -4151,25 +4151,27 @@
         "x": 960,
         "y": 280,
         "wires": [
-            [
-                "572c40ff.bb8c"
-            ]
+            []
         ]
     },
     {
-        "id": "572c40ff.bb8c",
-        "type": "debug",
+        "id": "8e9a3664.ba9e68",
+        "type": "ui_template",
         "z": "1d22c714.e50369",
+        "group": "45199dde.854f64",
         "name": "",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "false",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1160,
-        "y": 360,
-        "wires": []
+        "order": 9,
+        "width": 0,
+        "height": 0,
+        "format": "<md-card>\n        <md-card-title>\n          <md-card-title-text>\n            <span class=\"md-headline\">Light</span>\n          </md-card-title-text>\n        </md-card-title>\n        <md-card-content layout=\"row\" layout-align=\"space-between\">\n          <div class=\"md-media-xl card-media\"></div>\n          <div>{globa.totalNaturalLight}} </div>\n          <md-card-actions >\n            <md-button class=\"md-icon-button\">\n              <md-icon md-svg-icon=\"img/icons/favorite.svg\">Settings</md-icon>\n            </md-button>\n          </md-card-actions>\n        </md-card-content>\n      </md-card>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "x": 360,
+        "y": 2040,
+        "wires": [
+            []
+        ]
     }
 ]
