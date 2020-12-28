@@ -2316,7 +2316,7 @@
         "order": 2,
         "width": 2,
         "height": 1,
-        "label": "",
+        "label": "<i class=\"fa fa-lightbulb-o fa-2x nr-dashboard-warning\"></i>Grow lights",
         "labelPlacement": "right",
         "labelAlignment": "right",
         "colorForValue": [
@@ -2332,8 +2332,8 @@
             }
         ],
         "allowColorForValueInMessage": false,
-        "name": "<i class=\"fa fa-lightbulb-o fa-2x nr-dashboard-warning\"></i>Grow lights",
-        "x": 580,
+        "name": "Grow lights",
+        "x": 390,
         "y": 1580,
         "wires": []
     },
