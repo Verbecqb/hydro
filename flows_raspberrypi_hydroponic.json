@@ -4163,39 +4163,11 @@
         "height": 1,
         "name": "",
         "label": "",
-        "format": "<i class=\"fa  fa-sun-o\"></i> Sunlight : {{msg.payload}}",
+        "format": "<i class=\"fa  fa-sun-o\"></i> Sunlight : {{msg.sun.total}}",
         "layout": "row-left",
         "x": 390,
         "y": 2020,
         "wires": []
-    },
-    {
-        "id": "2f5a8d87.bd9f22",
-        "type": "change",
-        "z": "1d22c714.e50369",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "sun.total",
-                "pt": "global",
-                "to": "payload",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 230,
-        "y": 2020,
-        "wires": [
-            [
-                "8b1e31fb.674d8",
-                "de32229d.4c3c2"
-            ]
-        ]
     },
     {
         "id": "40722a2.55018d4",
@@ -4280,7 +4252,7 @@
         "width": 0,
         "height": 0,
         "label": "",
-        "chartType": "radar",
+        "chartType": "pie",
         "legend": "false",
         "xformat": "HH:mm:ss",
         "interpolate": "linear",
@@ -4310,6 +4282,24 @@
         "y": 2160,
         "wires": [
             []
+        ]
+    },
+    {
+        "id": "7b62dc10.8cd624",
+        "type": "function",
+        "z": "1d22c714.e50369",
+        "name": "",
+        "func": "var timestamp = global.get('sun.total');\nvar a = new Date();\nvar hour = a.getHours();\nvar min = a.getMinutes();\nif (min < 10) {min = \"0\" + min;}\nmsg.sun.total = hour + ':' + min;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 200,
+        "y": 2020,
+        "wires": [
+            [
+                "8b1e31fb.674d8"
+            ]
         ]
     }
 ]
