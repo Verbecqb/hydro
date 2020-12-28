@@ -2316,7 +2316,7 @@
         "order": 2,
         "width": 2,
         "height": 1,
-        "label": "<i class=\"fa fa-lightbulb-o fa-2x nr-dashboard-warning\"></i>Grow lights",
+        "label": "",
         "labelPlacement": "right",
         "labelAlignment": "right",
         "colorForValue": [
@@ -2371,7 +2371,7 @@
         "type": "ui_switch",
         "z": "87cb301d.9893c",
         "name": "",
-        "label": "Grow lights",
+        "label": "<i class=\"fa fa-lightbulb-o fa-2x nr-dashboard-warning\">Grow lights</i>",
         "tooltip": "Led",
         "group": "8d4aab9b.4d6328",
         "order": 1,
@@ -2389,7 +2389,7 @@
         "offvalueType": "bool",
         "officon": "",
         "offcolor": "",
-        "x": 550,
+        "x": 740,
         "y": 140,
         "wires": [
             [
