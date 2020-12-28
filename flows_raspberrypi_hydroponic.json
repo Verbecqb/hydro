@@ -651,6 +651,16 @@
         "height": 1
     },
     {
+        "id": "45199dde.854f64",
+        "type": "ui_group",
+        "name": "Seed tray - Light",
+        "tab": "352c089f.6b44d8",
+        "order": 9,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
         "id": "e30bc267.9a60e",
         "type": "mqtt in",
         "z": "1d22c714.e50369",
@@ -1016,7 +1026,8 @@
         "y": 200,
         "wires": [
             [
-                "fe79ff8b.aa786"
+                "fe79ff8b.aa786",
+                "6c1d8e8.c6bf77"
             ]
         ]
     },
@@ -2349,7 +2360,7 @@
         "name": "Grow lights",
         "label": "<i class=\"fa fa-lightbulb-o\"></i> Grow lights",
         "tooltip": "Led",
-        "group": "8d4aab9b.4d6328",
+        "group": "45199dde.854f64",
         "order": 1,
         "width": 5,
         "height": 1,
@@ -4125,6 +4136,40 @@
         "pointcount": 8,
         "x": 780,
         "y": 1180,
+        "wires": []
+    },
+    {
+        "id": "6c1d8e8.c6bf77",
+        "type": "function",
+        "z": "1d22c714.e50369",
+        "name": "Save Global variable - total natural light",
+        "func": "var sunrise = new Date(msg.payload.current.sunrise);\nvar sunset = new Date(msg.payload.current.sunset);\nvar totalNaturalLight = sunset - sunrise;\n\nglobal.set('totalNaturaLight',totalNaturalLight);\n\nmsg.payload = totalNaturalLight;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 960,
+        "y": 280,
+        "wires": [
+            [
+                "572c40ff.bb8c"
+            ]
+        ]
+    },
+    {
+        "id": "572c40ff.bb8c",
+        "type": "debug",
+        "z": "1d22c714.e50369",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1160,
+        "y": 360,
         "wires": []
     }
 ]
