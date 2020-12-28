@@ -4098,7 +4098,7 @@
         "label": "",
         "unit": "",
         "blur": true,
-        "minmax": false,
+        "minmax": true,
         "showvalue": false,
         "decimals": 0,
         "colorLine": "#ff9900",
