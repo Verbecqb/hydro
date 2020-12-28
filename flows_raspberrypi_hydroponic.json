@@ -4284,5 +4284,47 @@
                 "7b62dc10.8cd624"
             ]
         ]
+    },
+    {
+        "id": "abb9ac18.9b28d",
+        "type": "ui_chart",
+        "z": "1d22c714.e50369",
+        "name": "",
+        "group": "45199dde.854f64",
+        "order": 9,
+        "width": 0,
+        "height": 0,
+        "label": "",
+        "chartType": "pie",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "x": 340,
+        "y": 2160,
+        "wires": [
+            []
+        ]
     }
 ]
