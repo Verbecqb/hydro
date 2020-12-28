@@ -4183,8 +4183,8 @@
         "height": 1,
         "name": "",
         "label": "",
-        "format": "<i class=\"wi wi-owm-01d\"></i> Sunlight : {{msg.payload}}",
-        "layout": "row-center",
+        "format": "<i class=\"fa-sun-o\"></i> Sunlight : {{msg.payload}}",
+        "layout": "row-left",
         "x": 390,
         "y": 2020,
         "wires": []
@@ -4235,7 +4235,7 @@
         "name": "",
         "label": "",
         "format": "<i class=\"fa fa-lightbulb-o\"></i> LED light : {{msg.payload}}",
-        "layout": "row-center",
+        "layout": "row-left",
         "x": 390,
         "y": 2060,
         "wires": []
@@ -4251,7 +4251,7 @@
         "name": "",
         "label": "",
         "format": "<i class=\"fa-moon-o \"></i> Dark mode: {{msg.payload}}",
-        "layout": "row-center",
+        "layout": "row-left",
         "x": 390,
         "y": 2100,
         "wires": []
