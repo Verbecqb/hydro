@@ -441,8 +441,7 @@
                 "primary": "indigo",
                 "accents": "blue",
                 "warn": "red",
-                "background": "grey",
-                "palette": "dark"
+                "background": "grey"
             }
         },
         "site": {
@@ -570,7 +569,17 @@
         "collapse": false
     },
     {
-        "id": "c93fcba2.b5ce68",
+        "id": "45199dde.854f64",
+        "type": "ui_group",
+        "name": "Seed tray - Light",
+        "tab": "352c089f.6b44d8",
+        "order": 9,
+        "disp": true,
+        "width": 8,
+        "collapse": false
+    },
+    {
+        "id": "7f77719b.de446",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "1c37dc0b.ce28e4",
@@ -579,7 +588,7 @@
         "height": 1
     },
     {
-        "id": "e55c0b4.cf4eef8",
+        "id": "f5dce7a8.5a8598",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "1c37dc0b.ce28e4",
@@ -588,7 +597,7 @@
         "height": 1
     },
     {
-        "id": "dc91ec38.1a773",
+        "id": "7819f5e5.ec337c",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -597,7 +606,7 @@
         "height": 1
     },
     {
-        "id": "b8119ad5.f3ac68",
+        "id": "44ca5192.d93ff",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -606,7 +615,7 @@
         "height": 1
     },
     {
-        "id": "ca8ccf5c.4e8ad",
+        "id": "1e3a9046.b41a",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "72b67add.961f74",
@@ -615,50 +624,58 @@
         "height": 1
     },
     {
-        "id": "23011ca4.15df84",
+        "id": "b8c2bbc4.abec18",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
-        "order": 5,
+        "order": 3,
         "width": 1,
         "height": 1
     },
     {
-        "id": "5e1c736f.c58c3c",
+        "id": "972f6664.170df8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
-        "order": 8,
+        "order": 6,
         "width": 1,
         "height": 1
     },
     {
-        "id": "43adae7e.1e50a",
+        "id": "109325e.c8e71da",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
-        "order": 11,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "e47ffbf3.b7d058",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "8d4aab9b.4d6328",
-        "order": 14,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "45199dde.854f64",
-        "type": "ui_group",
-        "name": "Seed tray - Light",
-        "tab": "352c089f.6b44d8",
         "order": 9,
-        "disp": true,
-        "width": "6",
-        "collapse": false
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "ccb194b5.626598",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "8d4aab9b.4d6328",
+        "order": 12,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "a8fb00ca.de869",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "45199dde.854f64",
+        "order": 4,
+        "width": 5,
+        "height": 1
+    },
+    {
+        "id": "e2b9910e.03b56",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "45199dde.854f64",
+        "order": 5,
+        "width": 5,
+        "height": 1
     },
     {
         "id": "e30bc267.9a60e",
@@ -2300,7 +2317,7 @@
         "type": "ui_led",
         "z": "1d22c714.e50369",
         "group": "45199dde.854f64",
-        "order": 2,
+        "order": 3,
         "width": 2,
         "height": 1,
         "label": "",
@@ -2329,7 +2346,7 @@
         "type": "ui_led",
         "z": "1d22c714.e50369",
         "group": "8d4aab9b.4d6328",
-        "order": 4,
+        "order": 2,
         "width": 2,
         "height": 1,
         "label": "",
@@ -2361,8 +2378,8 @@
         "label": "<i class=\"fa fa-lightbulb-o\"></i> Grow lights",
         "tooltip": "Led",
         "group": "45199dde.854f64",
-        "order": 1,
-        "width": 5,
+        "order": 2,
+        "width": 3,
         "height": 1,
         "passthru": true,
         "decouple": "false",
@@ -2393,7 +2410,7 @@
         "label": "<i class=\"fa fa-tint\"></i> Water spray",
         "tooltip": "",
         "group": "8d4aab9b.4d6328",
-        "order": 3,
+        "order": 1,
         "width": 5,
         "height": 1,
         "passthru": true,
@@ -2501,7 +2518,7 @@
         "height": 1,
         "name": "SunsetTime",
         "label": "",
-        "format": "<i class=\"wi wi-wu-sunny\"></i>&nbsp;<i class=\"fa fa-arrow-down\"></i>&nbsp;&nbsp;{{msg.payload.current.sunset}}",
+        "format": "<i class=\"wi wi-moon-02\"></i>&nbsp;<i class=\"fa fa-arrow-down\"></i>&nbsp;&nbsp;{{msg.payload.current.sunset}}",
         "layout": "row-left",
         "x": 1270,
         "y": 260,
@@ -2857,7 +2874,7 @@
         "label": "<i class=\"fa fa-angle-double-up\"></i> Nutriments",
         "tooltip": "",
         "group": "8d4aab9b.4d6328",
-        "order": 9,
+        "order": 7,
         "width": 5,
         "height": 1,
         "passthru": true,
@@ -2903,7 +2920,7 @@
         "type": "ui_led",
         "z": "1d22c714.e50369",
         "group": "8d4aab9b.4d6328",
-        "order": 10,
+        "order": 8,
         "width": 2,
         "height": 1,
         "label": "",
@@ -3540,7 +3557,7 @@
         "label": "<i class=\"fa fa-clock-o\"></i>",
         "tooltip": "Nutriments pump duration",
         "group": "8d4aab9b.4d6328",
-        "order": 12,
+        "order": 10,
         "width": 3,
         "height": 1,
         "passthru": true,
@@ -3564,7 +3581,7 @@
         "type": "ui_text",
         "z": "87cb301d.9893c",
         "group": "8d4aab9b.4d6328",
-        "order": 13,
+        "order": 11,
         "width": 2,
         "height": 1,
         "name": "Nutriments timer ",
@@ -3825,7 +3842,7 @@
         "label": "<i class=\"fa fa-clock-o\"></i>",
         "tooltip": "Water spray duration",
         "group": "8d4aab9b.4d6328",
-        "order": 6,
+        "order": 4,
         "width": 3,
         "height": 1,
         "passthru": true,
@@ -3849,7 +3866,7 @@
         "type": "ui_text",
         "z": "87cb301d.9893c",
         "group": "8d4aab9b.4d6328",
-        "order": 7,
+        "order": 5,
         "width": 2,
         "height": 1,
         "name": "Water spray duration min value",
@@ -4160,16 +4177,16 @@
         "z": "1d22c714.e50369",
         "group": "45199dde.854f64",
         "name": "",
-        "order": 9,
-        "width": 0,
-        "height": 0,
+        "order": 1,
+        "width": 3,
+        "height": 4,
         "format": "{{msg.payload}}\n<md-card>\n        <md-card-title>\n          <md-card-title-text>\n            <span class=\"md-headline\">Light</span>\n          </md-card-title-text>\n        </md-card-title>\n        <md-card-content layout=\"row\" layout-align=\"space-between\">\n          <div class=\"md-media-xl card-media\"></div>\n          <div>{{msg.payload | date: 'HH:mm:ss'}}</div>\n          <md-card-actions >\n            <md-button class=\"md-icon-button\">\n              <md-icon md-svg-icon=\"img/icons/favorite.svg\">Settings</md-icon>\n            </md-button>\n          </md-card-actions>\n        </md-card-content>\n      </md-card>",
         "storeOutMessages": true,
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
         "x": 400,
-        "y": 2080,
+        "y": 2120,
         "wires": [
             []
         ]
@@ -4179,9 +4196,9 @@
         "type": "ui_text",
         "z": "1d22c714.e50369",
         "group": "45199dde.854f64",
-        "order": 9,
-        "width": 0,
-        "height": 0,
+        "order": 6,
+        "width": 5,
+        "height": 1,
         "name": "",
         "label": "",
         "format": "<i class=\"wi wi-owm-01d\"></i> Sunlight : {{msg.payload}}",
@@ -4202,6 +4219,13 @@
                 "pt": "global",
                 "to": "payload",
                 "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "artificial.light",
+                "pt": "global",
+                "to": "",
+                "tot": "str"
             }
         ],
         "action": "",
@@ -4209,7 +4233,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 210,
+        "x": 220,
         "y": 2020,
         "wires": [
             [
@@ -4217,5 +4241,21 @@
                 "8e9a3664.ba9e68"
             ]
         ]
+    },
+    {
+        "id": "40722a2.55018d4",
+        "type": "ui_text",
+        "z": "1d22c714.e50369",
+        "group": "45199dde.854f64",
+        "order": 6,
+        "width": 5,
+        "height": 1,
+        "name": "",
+        "label": "",
+        "format": "<i class=\"wi wi-owm-01d\"></i> Sunlight : {{msg.payload}}",
+        "layout": "row-center",
+        "x": 390,
+        "y": 2060,
+        "wires": []
     }
 ]
