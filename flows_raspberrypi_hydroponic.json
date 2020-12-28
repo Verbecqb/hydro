@@ -4313,7 +4313,7 @@
         "removeOlder": 1,
         "removeOlderPoints": "",
         "removeOlderUnit": "3600",
-        "cutout": 0,
+        "cutout": "50",
         "useOneColor": false,
         "useUTC": false,
         "colors": [
@@ -4693,11 +4693,10 @@
             "#9467bd",
             "#c5b0d5"
         ],
-        "outputs": 2,
+        "outputs": 1,
         "x": 650,
         "y": 360,
         "wires": [
-            [],
             []
         ]
     },
