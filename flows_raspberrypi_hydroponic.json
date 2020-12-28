@@ -4165,12 +4165,12 @@
         "order": 9,
         "width": 0,
         "height": 0,
-        "format": "{{global.sun.total}}\n<md-card>\n        <md-card-title>\n          <md-card-title-text>\n            <span class=\"md-headline\">Light</span>\n          </md-card-title-text>\n        </md-card-title>\n        <md-card-content layout=\"row\" layout-align=\"space-between\">\n          <div class=\"md-media-xl card-media\"></div>\n          <div>{{global.sun.total}}</div>\n          <md-card-actions >\n            <md-button class=\"md-icon-button\">\n              <md-icon md-svg-icon=\"img/icons/favorite.svg\">Settings</md-icon>\n            </md-button>\n          </md-card-actions>\n        </md-card-content>\n      </md-card>",
+        "format": "{{msg.payload}}\n<md-card>\n        <md-card-title>\n          <md-card-title-text>\n            <span class=\"md-headline\">Light</span>\n          </md-card-title-text>\n        </md-card-title>\n        <md-card-content layout=\"row\" layout-align=\"space-between\">\n          <div class=\"md-media-xl card-media\"></div>\n          <div>{{msg.payload}}</div>\n          <md-card-actions >\n            <md-button class=\"md-icon-button\">\n              <md-icon md-svg-icon=\"img/icons/favorite.svg\">Settings</md-icon>\n            </md-button>\n          </md-card-actions>\n        </md-card-content>\n      </md-card>",
         "storeOutMessages": true,
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
-        "x": 360,
+        "x": 480,
         "y": 2040,
         "wires": [
             []
@@ -4193,7 +4193,34 @@
         "wires": []
     },
     {
-        "id": "913c8aaa.7a6638",
+        "id": "65f5147e.68539c",
+        "type": "change",
+        "z": "1d22c714.e50369",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "sun.total",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 300,
+        "y": 2040,
+        "wires": [
+            [
+                "8e9a3664.ba9e68"
+            ]
+        ]
+    },
+    {
+        "id": "ef00a771.3c50d8",
         "type": "inject",
         "z": "1d22c714.e50369",
         "name": "",
@@ -4209,15 +4236,15 @@
         "repeat": "",
         "crontab": "",
         "once": true,
-        "onceDelay": "1",
+        "onceDelay": "2",
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 230,
-        "y": 2060,
+        "x": 150,
+        "y": 2080,
         "wires": [
             [
-                "8e9a3664.ba9e68"
+                "65f5147e.68539c"
             ]
         ]
     }
