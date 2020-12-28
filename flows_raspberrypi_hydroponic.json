@@ -4162,7 +4162,7 @@
         "order": 1,
         "width": 3,
         "height": 4,
-        "format": "{{msg.payload}}\n<md-card>\n        <md-card-title>\n          <md-card-title-text>\n            <span class=\"md-headline\">Light</span>\n          </md-card-title-text>\n        </md-card-title>\n        <md-card-content layout=\"row\" layout-align=\"space-between\">\n          <div class=\"md-media-xl card-media\"></div>\n          <div>{{msg.payload | date: 'HH:mm:ss'}}</div>\n          <md-card-actions >\n            <md-button class=\"md-icon-button\">\n              <md-icon md-svg-icon=\"img/icons/favorite.svg\">Settings</md-icon>\n            </md-button>\n          </md-card-actions>\n        </md-card-content>\n      </md-card>",
+        "format": "\n<md-card>\n        <md-card-title>\n          <md-card-title-text>\n            <span class=\"md-headline\">Light</span>\n          </md-card-title-text>\n        </md-card-title>\n        <md-card-content layout=\"row\" layout-align=\"space-between\">\n          <div class=\"md-media-xl card-media\">\n            <svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\">\n                <circle cx=\"50\" cy=\"50\" r=\"50\"/>\n            </svg>\n          </div>\n          <div>{{msg.payload | date: 'HH:mm:ss'}}</div>\n          <md-card-actions >\n            <md-button class=\"md-icon-button\">\n              <md-icon md-svg-icon=\"img/icons/favorite.svg\">Settings</md-icon>\n            </md-button>\n          </md-card-actions>\n        </md-card-content>\n      </md-card>",
         "storeOutMessages": true,
         "fwdInMessages": true,
         "resendOnRefresh": true,
