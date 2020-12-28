@@ -4291,7 +4291,7 @@
         "type": "function",
         "z": "1d22c714.e50369",
         "name": "",
-        "func": "var timestamp = global.get('sun.total');\nconsole.log(timestamp);\nvar a = new Date(timestamp);\nvar hour = a.getHours();\nvar min = a.getMinutes();\nif (min < 10) {min = \"0\" + min;}\n\nmsg = {\n    \"sun\": {\n        \"total\": hour + ':' + min\n    }\n};\n\nreturn msg;",
+        "func": "var timestamp = global.get('sun.total');\nconsole.log();\nnode.warn(\"timestamp\"+timestamp);\nvar a = new Date(timestamp);\nvar hour = a.getHours();\nvar min = a.getMinutes();\nif (min < 10) {min = \"0\" + min;}\n\nmsg = {\n    \"sun\": {\n        \"total\": hour + ':' + min\n    }\n};\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
