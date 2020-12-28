@@ -4200,7 +4200,7 @@
         "wires": [
             [
                 "8b1e31fb.674d8",
-                "d9bc05fb.665518"
+                "de32229d.4c3c2"
             ]
         ]
     },
@@ -4240,7 +4240,7 @@
         "id": "d9bc05fb.665518",
         "type": "ui_svg_graphics",
         "z": "1d22c714.e50369",
-        "group": "45199dde.854f64",
+        "group": "",
         "order": 1,
         "width": 3,
         "height": 4,
@@ -4272,6 +4272,48 @@
         "mouseWheelZoomEnabled": false,
         "name": "",
         "x": 570,
+        "y": 2160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "de32229d.4c3c2",
+        "type": "ui_chart",
+        "z": "1d22c714.e50369",
+        "name": "",
+        "group": "1c37dc0b.ce28e4",
+        "order": 9,
+        "width": 0,
+        "height": 0,
+        "label": "chart",
+        "chartType": "polar-area",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "24",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "x": 320,
         "y": 2160,
         "wires": [
             []
