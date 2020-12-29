@@ -4327,7 +4327,7 @@
         "label": "",
         "format": "{{msg.payload}} hours.",
         "layout": "row-center",
-        "x": 1110,
+        "x": 1250,
         "y": 260,
         "wires": []
     },
@@ -4341,7 +4341,7 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 1120,
+        "x": 1260,
         "y": 300,
         "wires": [
             []
@@ -4353,7 +4353,7 @@
         "z": "87cb301d.9893c",
         "name": "seed.totalLight",
         "storageNode": "217cc961.603ce6",
-        "x": 1100,
+        "x": 1240,
         "y": 340,
         "wires": []
     },
@@ -4379,8 +4379,8 @@
         "links": [
             "3dfc5ff2.440c6"
         ],
-        "x": 1035,
-        "y": 220,
+        "x": 1095,
+        "y": 200,
         "wires": []
     },
     {
@@ -4451,7 +4451,7 @@
         "min": 0,
         "max": "24",
         "step": 1,
-        "x": 860,
+        "x": 1000,
         "y": 260,
         "wires": [
             [
@@ -4467,13 +4467,13 @@
         "type": "function",
         "z": "87cb301d.9893c",
         "name": "Configure widget",
-        "func": "var minValue = global.get('sun.total') || 1;\nmsg.ui_control = {\"min\":minValue};\n\nreturn msg; ",
+        "func": "var minValue = global.get('sun.total') || 1;\nmsg.ui_control = {\"min\":Math.floor(minValue/3600)};\n\nreturn msg; ",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 770,
-        "y": 320,
+        "x": 830,
+        "y": 260,
         "wires": [
             [
                 "f50badb3.8eccf"
