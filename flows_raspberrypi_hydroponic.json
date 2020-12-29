@@ -586,7 +586,7 @@
         "order": 2
     },
     {
-        "id": "2d6925b1.bcb9ca",
+        "id": "506eb0d6.ac28c",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "1c37dc0b.ce28e4",
@@ -595,7 +595,7 @@
         "height": 1
     },
     {
-        "id": "4f464c11.4eba34",
+        "id": "3b8e0a46.184186",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "1c37dc0b.ce28e4",
@@ -604,7 +604,7 @@
         "height": 1
     },
     {
-        "id": "ed3d291e.37a648",
+        "id": "79f78d44.ba1b04",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -613,7 +613,7 @@
         "height": 1
     },
     {
-        "id": "c5fe62cf.44af2",
+        "id": "bc98f1fe.0616c",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -622,7 +622,7 @@
         "height": 1
     },
     {
-        "id": "45aa14db.8cec9c",
+        "id": "ab0a96dd.200758",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "72b67add.961f74",
@@ -631,7 +631,7 @@
         "height": 1
     },
     {
-        "id": "c1bc2284.0e6d3",
+        "id": "d5409185.d0b9f",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -640,7 +640,7 @@
         "height": 1
     },
     {
-        "id": "2cdaf752.6c2b68",
+        "id": "bbba4d8c.25313",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -649,7 +649,7 @@
         "height": 1
     },
     {
-        "id": "a7f77095.7bb08",
+        "id": "e1a33d1e.d2094",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -658,7 +658,7 @@
         "height": 1
     },
     {
-        "id": "ad05624c.a43b",
+        "id": "a94431e7.11945",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -667,47 +667,38 @@
         "height": 1
     },
     {
-        "id": "fbb9a53e.3f7868",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "45199dde.854f64",
-        "order": 3,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "6d57a98d.947bb8",
+        "id": "3dcebceb.1559d4",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
         "order": 5,
-        "width": 1,
+        "width": 7,
         "height": 1
     },
     {
-        "id": "5717b584.9cccfc",
+        "id": "2034f96a.5c4756",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
         "order": 7,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "6e97e2aa.412f3c",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "45199dde.854f64",
-        "order": 10,
         "width": 4,
         "height": 1
     },
     {
-        "id": "37631a1e.8f40b6",
+        "id": "c29923bf.04387",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
-        "order": 13,
+        "order": 9,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "4b20b553.cf1d0c",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "45199dde.854f64",
+        "order": 10,
         "width": 4,
         "height": 1
     },
@@ -2351,7 +2342,7 @@
         "type": "ui_led",
         "z": "1d22c714.e50369",
         "group": "45199dde.854f64",
-        "order": 9,
+        "order": 6,
         "width": 2,
         "height": 1,
         "label": "",
@@ -4213,7 +4204,7 @@
         "z": "1d22c714.e50369",
         "group": "45199dde.854f64",
         "order": 2,
-        "width": 4,
+        "width": 5,
         "height": 1,
         "name": "Sun light",
         "label": "<i class=\"fa  fa-sun-o\"></i> Sunlight :",
@@ -4228,8 +4219,8 @@
         "type": "ui_text",
         "z": "1d22c714.e50369",
         "group": "45199dde.854f64",
-        "order": 4,
-        "width": 4,
+        "order": 3,
+        "width": 5,
         "height": 1,
         "name": "LED light",
         "label": "<i class=\"fa fa-lightbulb-o\"></i> LED light :",
@@ -4244,8 +4235,8 @@
         "type": "ui_text",
         "z": "1d22c714.e50369",
         "group": "45199dde.854f64",
-        "order": 6,
-        "width": 4,
+        "order": 4,
+        "width": 5,
         "height": 1,
         "name": "Dark mode",
         "label": "<i class=\"fa  fa-moon-o\"></i> Dark: ",
