@@ -2103,7 +2103,7 @@
         "icon": "",
         "label": "",
         "unit": "Lux",
-        "layout": "radial",
+        "layout": "linear",
         "decimals": 0,
         "differential": false,
         "minmax": true,
