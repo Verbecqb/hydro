@@ -586,105 +586,6 @@
         "order": 2
     },
     {
-        "id": "52fad04b.9716b",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "1c37dc0b.ce28e4",
-        "order": 5,
-        "width": 5,
-        "height": 1
-    },
-    {
-        "id": "accbadb5.9eb1a",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "1c37dc0b.ce28e4",
-        "order": 9,
-        "width": 5,
-        "height": 1
-    },
-    {
-        "id": "f458b214.df09",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "8a9b009f.1b35d",
-        "order": 5,
-        "width": 2,
-        "height": 1
-    },
-    {
-        "id": "bff9ea7.cd5b418",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "72b67add.961f74",
-        "order": 2,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "1a6ee5cc.78fe6a",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "8d4aab9b.4d6328",
-        "order": 3,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "1c175c1b.f04814",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "8d4aab9b.4d6328",
-        "order": 6,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "52cd32aa.16434c",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "8d4aab9b.4d6328",
-        "order": 9,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "2cc3a99.2a1a656",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "8d4aab9b.4d6328",
-        "order": 11,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "4514d02a.e6cb6",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "45199dde.854f64",
-        "order": 8,
-        "width": 4,
-        "height": 1
-    },
-    {
-        "id": "a27203cb.b323",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "45199dde.854f64",
-        "order": 10,
-        "width": 2,
-        "height": 1
-    },
-    {
-        "id": "ff4c8430.54fc08",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "45199dde.854f64",
-        "order": 11,
-        "width": 4,
-        "height": 1
-    },
-    {
         "id": "9b8f575a.b741a8",
         "type": "ui_group",
         "name": "Stat",
@@ -734,6 +635,114 @@
         "type": "ui_tab",
         "name": "Schedulers",
         "icon": "dashboard"
+    },
+    {
+        "id": "e797dd05.2c7cd",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "1c37dc0b.ce28e4",
+        "order": 5,
+        "width": 5,
+        "height": 1
+    },
+    {
+        "id": "552e55b8.01dd8c",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "1c37dc0b.ce28e4",
+        "order": 9,
+        "width": 5,
+        "height": 1
+    },
+    {
+        "id": "be656a19.fb1258",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "8a9b009f.1b35d",
+        "order": 5,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "c9835045.c6b17",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "72b67add.961f74",
+        "order": 2,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "d5bd2d44.e09c8",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "8d4aab9b.4d6328",
+        "order": 3,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "6f85aae8.082de4",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "8d4aab9b.4d6328",
+        "order": 6,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "452f33fe.eaa37c",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "8d4aab9b.4d6328",
+        "order": 9,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "da604de1.bb232",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "8d4aab9b.4d6328",
+        "order": 11,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "220ab37b.68fb2c",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "45199dde.854f64",
+        "order": 8,
+        "width": 9,
+        "height": 1
+    },
+    {
+        "id": "e37b7e36.407da",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "45199dde.854f64",
+        "order": 11,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "623ccf47.38884",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "45199dde.854f64",
+        "order": 13,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "e47604ca.7f73f8",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "45199dde.854f64",
+        "order": 16,
+        "width": 7,
+        "height": 1
     },
     {
         "id": "e30bc267.9a60e",
@@ -989,7 +998,7 @@
         "wires": [
             [
                 "54666026.3c8da",
-                "6d9e0f99.27f87"
+                "e801a157.b40ee"
             ]
         ]
     },
@@ -2375,8 +2384,9 @@
         "id": "54666026.3c8da",
         "type": "ui_led",
         "z": "1d22c714.e50369",
+        "d": true,
         "group": "45199dde.854f64",
-        "order": 3,
+        "order": 12,
         "width": 2,
         "height": 1,
         "label": "",
@@ -2397,7 +2407,7 @@
         "allowColorForValueInMessage": false,
         "name": "Grow lights",
         "x": 330,
-        "y": 1940,
+        "y": 1900,
         "wires": []
     },
     {
@@ -2437,7 +2447,7 @@
         "label": "<span style=\"color:blue\">LED light:</span>",
         "tooltip": "Led",
         "group": "45199dde.854f64",
-        "order": 9,
+        "order": 10,
         "width": 3,
         "height": 1,
         "passthru": true,
@@ -4241,7 +4251,7 @@
         "width": 5,
         "height": 1,
         "name": "Sun light",
-        "label": "<i class=\"fa  fa-sun-o\"></i> Sunlight :</front>",
+        "label": "<font color=\"orange\"><i class=\"fa  fa-sun-o\"></i> Sunlight :</front>",
         "format": "<font color=\"orange\">{{msg.sun.total}}</front>",
         "layout": "row-spread",
         "x": 400,
@@ -4253,8 +4263,8 @@
         "type": "ui_text",
         "z": "1d22c714.e50369",
         "group": "45199dde.854f64",
-        "order": 6,
-        "width": 5,
+        "order": 3,
+        "width": 2,
         "height": 1,
         "name": "LED light",
         "label": "<i class=\"fa fa-lightbulb-o\"></i> LED light :",
@@ -4269,7 +4279,7 @@
         "type": "ui_text",
         "z": "1d22c714.e50369",
         "group": "45199dde.854f64",
-        "order": 7,
+        "order": 9,
         "width": 5,
         "height": 1,
         "name": "Dark mode",
@@ -4380,7 +4390,7 @@
         "label": "<i class=\"fa fa-clock-o\"></i>",
         "tooltip": "Total light",
         "group": "45199dde.854f64",
-        "order": 12,
+        "order": 14,
         "width": 3,
         "height": 1,
         "passthru": true,
@@ -4405,7 +4415,7 @@
         "type": "ui_text",
         "z": "87cb301d.9893c",
         "group": "45199dde.854f64",
-        "order": 13,
+        "order": 15,
         "width": 2,
         "height": 1,
         "name": "Total light duration",
@@ -4485,44 +4495,37 @@
         ]
     },
     {
-        "id": "6d9e0f99.27f87",
-        "type": "switch",
+        "id": "8a33db55.7d1068",
+        "type": "ui_text",
+        "z": "1d22c714.e50369",
+        "group": "45199dde.854f64",
+        "order": 6,
+        "width": 5,
+        "height": 1,
+        "name": "State on",
+        "label": "<font color=\"{{msg.color}}\"><i class=\"fa  fa-lightbulb-o\"></i></front>",
+        "format": "",
+        "layout": "row-spread",
+        "x": 520,
+        "y": 1940,
+        "wires": []
+    },
+    {
+        "id": "e801a157.b40ee",
+        "type": "function",
         "z": "1d22c714.e50369",
         "name": "",
-        "property": "payload",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "eq",
-                "v": "",
-                "vt": "str"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
+        "func": "msg.color = (msg.payload) ? \"yellow\" : \"grey\";\nreturn msg;",
         "outputs": 1,
-        "x": 480,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 350,
         "y": 1940,
         "wires": [
             [
                 "8a33db55.7d1068"
             ]
         ]
-    },
-    {
-        "id": "8a33db55.7d1068",
-        "type": "ui_text",
-        "z": "1d22c714.e50369",
-        "group": "45199dde.854f64",
-        "order": 5,
-        "width": 5,
-        "height": 1,
-        "name": "Sun light",
-        "label": "",
-        "format": "",
-        "layout": "row-spread",
-        "x": 620,
-        "y": 1900,
-        "wires": []
     }
 ]
