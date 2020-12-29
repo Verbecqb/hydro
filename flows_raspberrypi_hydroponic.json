@@ -580,7 +580,7 @@
         "collapse": false
     },
     {
-        "id": "5cb4c012.e48e7",
+        "id": "f7c5cad1.9e1ab8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "1c37dc0b.ce28e4",
@@ -589,7 +589,7 @@
         "height": 1
     },
     {
-        "id": "5261c011.bb3",
+        "id": "2f18e1fc.57c71e",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "1c37dc0b.ce28e4",
@@ -598,7 +598,7 @@
         "height": 1
     },
     {
-        "id": "a5760957.a0a648",
+        "id": "ad4908eb.7b5638",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -607,7 +607,7 @@
         "height": 1
     },
     {
-        "id": "edc28c35.bcbb1",
+        "id": "b170b266.90c43",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -616,7 +616,7 @@
         "height": 1
     },
     {
-        "id": "e3a408e.0f88cf8",
+        "id": "31aad85b.f52ee8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -625,7 +625,7 @@
         "height": 1
     },
     {
-        "id": "bb17bd1.87dba4",
+        "id": "e1db50c2.2119e",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
@@ -634,7 +634,7 @@
         "height": 1
     },
     {
-        "id": "cbc30448.fa4318",
+        "id": "98bffa92.037418",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
@@ -643,7 +643,7 @@
         "height": 1
     },
     {
-        "id": "ec8ea008.0c471",
+        "id": "7d878fe.7203f7",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
@@ -652,7 +652,7 @@
         "height": 1
     },
     {
-        "id": "709abeb0.3d783",
+        "id": "3837414f.68e1de",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
@@ -661,7 +661,7 @@
         "height": 1
     },
     {
-        "id": "33cccb60.7d6af4",
+        "id": "138bfe59.b62422",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "6c15eb0d.8f5814",
@@ -670,7 +670,7 @@
         "height": 1
     },
     {
-        "id": "6bc90a51.d2f2f4",
+        "id": "72d472b3.5edc7c",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "6c15eb0d.8f5814",
@@ -679,7 +679,7 @@
         "height": 1
     },
     {
-        "id": "54b30c1a.190f04",
+        "id": "7eeda43f.e5431c",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "6c15eb0d.8f5814",
@@ -688,43 +688,34 @@
         "height": 1
     },
     {
-        "id": "8433ff77.0f992",
+        "id": "d865c7a8.dfc878",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
         "order": 2,
-        "width": 3,
+        "width": 4,
         "height": 1
     },
     {
-        "id": "bbdbe0d6.fb1bd",
+        "id": "b56a7e28.0f33",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
         "order": 3,
-        "width": 1,
+        "width": 4,
         "height": 1
     },
     {
-        "id": "f2e1ff9a.211dc",
+        "id": "5397507d.de276",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
-        "order": 5,
-        "width": 3,
+        "order": 4,
+        "width": 4,
         "height": 1
     },
     {
-        "id": "fa6fbb66.b09158",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "8d4aab9b.4d6328",
-        "order": 6,
-        "width": 3,
-        "height": 1
-    },
-    {
-        "id": "e9bae9c2.7f9798",
+        "id": "a3d86a8a.a69708",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -733,43 +724,7 @@
         "height": 1
     },
     {
-        "id": "53b9f281.8599ec",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "8d4aab9b.4d6328",
-        "order": 9,
-        "width": 2,
-        "height": 1
-    },
-    {
-        "id": "1f83ad4b.e25283",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "8d4aab9b.4d6328",
-        "order": 11,
-        "width": 3,
-        "height": 1
-    },
-    {
-        "id": "248abad2.3cfb46",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "8d4aab9b.4d6328",
-        "order": 13,
-        "width": 2,
-        "height": 1
-    },
-    {
-        "id": "6b4eb0a1.2426b",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "8d4aab9b.4d6328",
-        "order": 16,
-        "width": 3,
-        "height": 1
-    },
-    {
-        "id": "7fbca061.715f3",
+        "id": "2f95abae.239c14",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "65d119b5.66cb78",
@@ -778,7 +733,7 @@
         "height": 1
     },
     {
-        "id": "3d789053.d79d5",
+        "id": "c990d5e0.fd0cd8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "65d119b5.66cb78",
@@ -787,7 +742,7 @@
         "height": 1
     },
     {
-        "id": "b0d553e4.71b02",
+        "id": "b40cdea4.5f9ad",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "65d119b5.66cb78",
@@ -796,7 +751,7 @@
         "height": 1
     },
     {
-        "id": "8a8f740e.bb5308",
+        "id": "3fa11a85.3abd26",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "65d119b5.66cb78",
@@ -805,7 +760,7 @@
         "height": 1
     },
     {
-        "id": "4fe15eec.26e6b",
+        "id": "8a0be003.c2b81",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "72b67add.961f74",
@@ -2173,8 +2128,8 @@
         "z": "1d22c714.e50369",
         "group": "8d4aab9b.4d6328",
         "order": 1,
-        "width": 4,
-        "height": 4,
+        "width": 3,
+        "height": 3,
         "name": "Water Quality",
         "icon": "fa-filter",
         "label": "Water quality",
@@ -2874,8 +2829,8 @@
         "label": "<i class=\"fa fa-angle-double-up\"></i> Nutriments",
         "tooltip": "",
         "group": "8d4aab9b.4d6328",
-        "order": 12,
-        "width": 5,
+        "order": 6,
+        "width": 3,
         "height": 1,
         "passthru": true,
         "decouple": "false",
@@ -2911,39 +2866,9 @@
         "y": 2480,
         "wires": [
             [
-                "2617b5f9.5aa3da",
                 "222cf8a.db51b08"
             ]
         ]
-    },
-    {
-        "id": "2617b5f9.5aa3da",
-        "type": "ui_led",
-        "z": "1d22c714.e50369",
-        "group": "8d4aab9b.4d6328",
-        "order": 10,
-        "width": 2,
-        "height": 1,
-        "label": "",
-        "labelPlacement": "left",
-        "labelAlignment": "left",
-        "colorForValue": [
-            {
-                "color": "red",
-                "value": "false",
-                "valueType": "str"
-            },
-            {
-                "color": "green",
-                "value": "true",
-                "valueType": "str"
-            }
-        ],
-        "allowColorForValueInMessage": false,
-        "name": "Nutriments",
-        "x": 350,
-        "y": 2480,
-        "wires": []
     },
     {
         "id": "821d2e1a.d0244",
@@ -3558,7 +3483,7 @@
         "label": "<i class=\"fa fa-clock-o\"></i>",
         "tooltip": "Nutriments pump duration",
         "group": "8d4aab9b.4d6328",
-        "order": 14,
+        "order": 9,
         "width": 3,
         "height": 1,
         "passthru": true,
@@ -3582,8 +3507,8 @@
         "type": "ui_text",
         "z": "87cb301d.9893c",
         "group": "8d4aab9b.4d6328",
-        "order": 4,
-        "width": 2,
+        "order": 10,
+        "width": 1,
         "height": 1,
         "name": "Nutriments timer ",
         "label": "",
@@ -4090,8 +4015,8 @@
         "type": "ui_valuetrail",
         "z": "1d22c714.e50369",
         "group": "8d4aab9b.4d6328",
-        "order": 7,
-        "width": 4,
+        "order": 5,
+        "width": 3,
         "height": 1,
         "name": "Water quality trail",
         "label": "",
@@ -4767,15 +4692,15 @@
         "type": "ui_text",
         "z": "1d22c714.e50369",
         "group": "8d4aab9b.4d6328",
-        "order": 15,
+        "order": 7,
         "width": 1,
         "height": 1,
         "name": "Nutriments pump on/off state",
         "label": "<font color=\"{{msg.color}}\"><i class=\"fa fa-battery-half  fa-2x\"></i></front>",
         "format": "",
         "layout": "row-spread",
-        "x": 590,
-        "y": 2520,
+        "x": 550,
+        "y": 2480,
         "wires": []
     },
     {
@@ -4788,8 +4713,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 350,
-        "y": 2520,
+        "x": 340,
+        "y": 2480,
         "wires": [
             [
                 "aadaca25.5f3598"
