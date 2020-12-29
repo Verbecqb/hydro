@@ -77,7 +77,7 @@
     {
         "id": "8a9b009f.1b35d",
         "type": "ui_group",
-        "name": "Room environment - Sensors",
+        "name": "Sensors",
         "tab": "352c089f.6b44d8",
         "order": 4,
         "disp": true,
@@ -580,7 +580,7 @@
         "collapse": false
     },
     {
-        "id": "b1c1dac7.d91558",
+        "id": "f035505.36c2bb",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "1c37dc0b.ce28e4",
@@ -589,7 +589,7 @@
         "height": 1
     },
     {
-        "id": "8c719650.db08c8",
+        "id": "b354c5fb.918bb8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "1c37dc0b.ce28e4",
@@ -598,7 +598,7 @@
         "height": 1
     },
     {
-        "id": "a343ad3e.44baf",
+        "id": "98d5bada.10ea38",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
@@ -607,7 +607,7 @@
         "height": 1
     },
     {
-        "id": "2ab72c0b.df4a74",
+        "id": "ca14f996.0d8548",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
@@ -616,7 +616,7 @@
         "height": 1
     },
     {
-        "id": "ad366e49.d820a",
+        "id": "61342068.8960d",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
@@ -625,7 +625,7 @@
         "height": 1
     },
     {
-        "id": "338e8d68.eb8af2",
+        "id": "7bd691a2.70652",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
@@ -634,7 +634,7 @@
         "height": 1
     },
     {
-        "id": "f22946d9.31ac08",
+        "id": "b0be5355.0921a",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "6c15eb0d.8f5814",
@@ -643,7 +643,7 @@
         "height": 1
     },
     {
-        "id": "fbcaf274.dee76",
+        "id": "fee8446b.02ddb8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "6c15eb0d.8f5814",
@@ -652,7 +652,7 @@
         "height": 1
     },
     {
-        "id": "84e0451a.830aa8",
+        "id": "3b6fe9c.bde6616",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "6c15eb0d.8f5814",
@@ -661,79 +661,115 @@
         "height": 1
     },
     {
-        "id": "3ec81a84.865c96",
+        "id": "9c5a1ea.2d05be",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "8a9b009f.1b35d",
+        "order": 1,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "96479738.d35348",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "8a9b009f.1b35d",
+        "order": 3,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "ab25ee69.a408c",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
         "order": 5,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "73e2329d.8cc86c",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "8a9b009f.1b35d",
+        "order": 7,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "dcf95608.a0d3a8",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "8a9b009f.1b35d",
+        "order": 9,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "494221cd.68e3a",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "65d119b5.66cb78",
+        "order": 3,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "5cf14f93.37f3e",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "65d119b5.66cb78",
+        "order": 6,
         "width": 2,
         "height": 1
     },
     {
-        "id": "8dc58670.4d4448",
+        "id": "8cabc932.a4af78",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "65d119b5.66cb78",
         "order": 7,
-        "width": 6,
+        "width": 12,
         "height": 1
     },
     {
-        "id": "1aecf154.a77b3f",
+        "id": "5680e30e.5d9a5c",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "65d119b5.66cb78",
-        "order": 8,
+        "order": 10,
         "width": 4,
         "height": 1
     },
     {
-        "id": "6978f9fd.3a11a8",
+        "id": "850574be.d76188",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "65d119b5.66cb78",
-        "order": 11,
+        "order": 12,
         "width": 4,
         "height": 1
     },
     {
-        "id": "1349c0c2.a899af",
+        "id": "abc17af0.dd47c8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "65d119b5.66cb78",
         "order": 13,
-        "width": 4,
+        "width": 8,
         "height": 1
     },
     {
-        "id": "398e0088.447b4",
+        "id": "576cc0f3.fa472",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "65d119b5.66cb78",
         "order": 14,
-        "width": 4,
+        "width": 8,
         "height": 1
     },
     {
-        "id": "52dceaf0.e3a2c4",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "65d119b5.66cb78",
-        "order": 15,
-        "width": 4,
-        "height": 1
-    },
-    {
-        "id": "cdaa8b4e.22fe78",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "65d119b5.66cb78",
-        "order": 16,
-        "width": 4,
-        "height": 1
-    },
-    {
-        "id": "2814196f.9c5a96",
+        "id": "650ed133.e11c1",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "72b67add.961f74",
@@ -742,7 +778,7 @@
         "height": 1
     },
     {
-        "id": "2e4abd98.ba7002",
+        "id": "1c1aa45d.d53ebc",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -751,7 +787,7 @@
         "height": 1
     },
     {
-        "id": "910f6d2f.12867",
+        "id": "7cb7dc0b.ca73f4",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -760,7 +796,7 @@
         "height": 1
     },
     {
-        "id": "c2d6fafb.641488",
+        "id": "c64e0d4e.003c9",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -962,29 +998,6 @@
         ]
     },
     {
-        "id": "55893afd.1a9904",
-        "type": "delay",
-        "z": "1d22c714.e50369",
-        "name": "",
-        "pauseType": "delay",
-        "timeout": "2",
-        "timeoutUnits": "seconds",
-        "rate": "1",
-        "nbRateUnits": "1",
-        "rateUnits": "second",
-        "randomFirst": "1",
-        "randomLast": "5",
-        "randomUnits": "seconds",
-        "drop": false,
-        "x": 840,
-        "y": 1620,
-        "wires": [
-            [
-                "d8035b86.a6d9f8"
-            ]
-        ]
-    },
-    {
         "id": "39bf6628.85f8ba",
         "type": "delay",
         "z": "1d22c714.e50369",
@@ -1078,7 +1091,6 @@
             ],
             [
                 "f3b265b2.271218",
-                "55893afd.1a9904",
                 "a2c963c.a4756a"
             ]
         ]
@@ -1279,24 +1291,6 @@
         "wires": [
             [
                 "a887c10.0424b4"
-            ]
-        ]
-    },
-    {
-        "id": "58c9bab9.be3fc4",
-        "type": "function",
-        "z": "1d22c714.e50369",
-        "name": "Parse telemetry JSON",
-        "func": "\nvar newMsg =  { \n        payload: new Date(msg.payload[0].time)\n};\nreturn newMsg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "x": 1200,
-        "y": 1620,
-        "wires": [
-            [
-                "65b18579.9e97ec"
             ]
         ]
     },
@@ -1909,25 +1903,6 @@
         ]
     },
     {
-        "id": "d8035b86.a6d9f8",
-        "type": "influxdb in",
-        "z": "1d22c714.e50369",
-        "influxdb": "8193652c.e6bda8",
-        "name": "Select last entry",
-        "query": "SELECT * FROM room_humidity GROUP BY * ORDER BY DESC LIMIT 1",
-        "rawOutput": false,
-        "precision": "",
-        "retentionPolicy": "",
-        "org": "organisation",
-        "x": 1000,
-        "y": 1620,
-        "wires": [
-            [
-                "58c9bab9.be3fc4"
-            ]
-        ]
-    },
-    {
         "id": "7fe995e5.477afc",
         "type": "influxdb in",
         "z": "1d22c714.e50369",
@@ -2126,9 +2101,9 @@
         "id": "ddf60a00.0b8158",
         "type": "ui_artlessgauge",
         "z": "1d22c714.e50369",
-        "group": "65d119b5.66cb78",
-        "order": 1,
-        "width": 9,
+        "group": "8a9b009f.1b35d",
+        "order": 10,
+        "width": 5,
         "height": 1,
         "name": "Water temperature",
         "icon": "fa-thermometer",
@@ -2188,7 +2163,7 @@
         "type": "ui_artlessgauge",
         "z": "1d22c714.e50369",
         "group": "65d119b5.66cb78",
-        "order": 9,
+        "order": 8,
         "width": 4,
         "height": 4,
         "name": "Water Quality",
@@ -2231,9 +2206,9 @@
         "type": "ui_artlessgauge",
         "z": "1d22c714.e50369",
         "group": "8a9b009f.1b35d",
-        "order": 1,
-        "width": 0,
-        "height": 0,
+        "order": 4,
+        "width": 5,
+        "height": 1,
         "name": "Room temperature DHT11",
         "icon": "fa-thermometer-full",
         "label": "Temperature",
@@ -2284,7 +2259,7 @@
         "bgcolorFromTheme": true,
         "diffCenter": "",
         "x": 900,
-        "y": 1380,
+        "y": 1400,
         "wires": []
     },
     {
@@ -2292,9 +2267,9 @@
         "type": "ui_artlessgauge",
         "z": "1d22c714.e50369",
         "group": "8a9b009f.1b35d",
-        "order": 2,
-        "width": 0,
-        "height": 0,
+        "order": 6,
+        "width": 5,
+        "height": 1,
         "name": "Room Humidity DHT11",
         "icon": "fa-tint",
         "label": "Humidity",
@@ -2353,7 +2328,7 @@
         "type": "ui_artlessgauge",
         "z": "1d22c714.e50369",
         "group": "65d119b5.66cb78",
-        "order": 6,
+        "order": 5,
         "width": 6,
         "height": 1,
         "name": "Water PH",
@@ -2574,29 +2549,13 @@
         "wires": []
     },
     {
-        "id": "65b18579.9e97ec",
-        "type": "ui_text",
-        "z": "1d22c714.e50369",
-        "group": "8a9b009f.1b35d",
-        "order": 4,
-        "width": 4,
-        "height": 1,
-        "name": "Last refresh - humidity",
-        "label": "",
-        "format": "<i class=\"fa fa-refresh\" aria-hidden=\"true\">&nbsp; {{ msg.payload | date: 'HH:mm:ss'}}</i> ",
-        "layout": "row-center",
-        "x": 1420,
-        "y": 1620,
-        "wires": []
-    },
-    {
         "id": "1c83a03b.a169c",
         "type": "ui_text",
         "z": "1d22c714.e50369",
         "group": "8a9b009f.1b35d",
-        "order": 3,
-        "width": 0,
-        "height": 0,
+        "order": 2,
+        "width": 2,
+        "height": 1,
         "name": "Last refresh - temp",
         "label": "",
         "format": "<i class=\"fa fa-refresh\" aria-hidden=\"true\">&nbsp; {{ msg.payload | date: 'HH:mm:ss'}}</i> ",
@@ -2609,10 +2568,9 @@
         "id": "ad8e7270.bfabd",
         "type": "ui_text",
         "z": "1d22c714.e50369",
-        "d": true,
-        "group": "65d119b5.66cb78",
-        "order": 4,
-        "width": 3,
+        "group": "8a9b009f.1b35d",
+        "order": 8,
+        "width": 2,
         "height": 1,
         "name": "Last refresh - water temp",
         "label": "",
@@ -2628,7 +2586,7 @@
         "z": "1d22c714.e50369",
         "d": true,
         "group": "65d119b5.66cb78",
-        "order": 5,
+        "order": 4,
         "width": 4,
         "height": 1,
         "name": "Last refresh - water quality",
@@ -2661,7 +2619,7 @@
         "z": "1d22c714.e50369",
         "d": true,
         "group": "65d119b5.66cb78",
-        "order": 3,
+        "order": 2,
         "width": 5,
         "height": 1,
         "name": "Last refresh - water PH",
@@ -3086,7 +3044,7 @@
         "type": "ui_text",
         "z": "1d22c714.e50369",
         "group": "65d119b5.66cb78",
-        "order": 2,
+        "order": 1,
         "width": 3,
         "height": 1,
         "name": "Last refresh - water level",
@@ -4122,7 +4080,7 @@
         "type": "ui_valuetrail",
         "z": "1d22c714.e50369",
         "group": "65d119b5.66cb78",
-        "order": 12,
+        "order": 11,
         "width": 4,
         "height": 1,
         "name": "Water quality trail",
@@ -4146,7 +4104,7 @@
         "type": "ui_valuetrail",
         "z": "1d22c714.e50369",
         "group": "65d119b5.66cb78",
-        "order": 10,
+        "order": 9,
         "width": 4,
         "height": 1,
         "name": "Water PH trail",
