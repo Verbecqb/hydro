@@ -603,7 +603,7 @@
         "collapse": false
     },
     {
-        "id": "ef272011.8dc71",
+        "id": "620d3df5.1ee144",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "1c37dc0b.ce28e4",
@@ -612,7 +612,7 @@
         "height": 1
     },
     {
-        "id": "e0f2d01e.30365",
+        "id": "717790b4.52023",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "1c37dc0b.ce28e4",
@@ -621,7 +621,7 @@
         "height": 1
     },
     {
-        "id": "93a23939.5bfb88",
+        "id": "73d5a4c1.ea2a9c",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -630,7 +630,7 @@
         "height": 1
     },
     {
-        "id": "c1632764.a68c68",
+        "id": "5da572be.b0e98c",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "65d119b5.66cb78",
@@ -639,7 +639,7 @@
         "height": 1
     },
     {
-        "id": "be6b29d9.95d278",
+        "id": "75a4fcb8.32d6c4",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "65d119b5.66cb78",
@@ -648,7 +648,7 @@
         "height": 1
     },
     {
-        "id": "3274b89b.c69e58",
+        "id": "5a64fae5.705ce4",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "65d119b5.66cb78",
@@ -657,7 +657,7 @@
         "height": 1
     },
     {
-        "id": "1202473d.291ea9",
+        "id": "66837a93.2052e4",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "65d119b5.66cb78",
@@ -666,7 +666,7 @@
         "height": 1
     },
     {
-        "id": "41d618c4.001898",
+        "id": "d594e91d.aea408",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "65d119b5.66cb78",
@@ -675,7 +675,7 @@
         "height": 1
     },
     {
-        "id": "e8b91376.f211d",
+        "id": "406aa359.a681cc",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "65d119b5.66cb78",
@@ -684,7 +684,7 @@
         "height": 1
     },
     {
-        "id": "159d217a.cf5f5f",
+        "id": "98a7d41b.1b0188",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "65d119b5.66cb78",
@@ -693,7 +693,7 @@
         "height": 1
     },
     {
-        "id": "306b959b.6f466a",
+        "id": "20843b6.88a91c4",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "72b67add.961f74",
@@ -702,7 +702,7 @@
         "height": 1
     },
     {
-        "id": "519d76e9.860478",
+        "id": "d4cae09c.f5a9e",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -711,7 +711,7 @@
         "height": 1
     },
     {
-        "id": "960a13f0.6376d",
+        "id": "2abee9f9.cd8416",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -720,7 +720,7 @@
         "height": 1
     },
     {
-        "id": "ef286e51.8fa9",
+        "id": "2fc565a4.32627a",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -729,7 +729,7 @@
         "height": 1
     },
     {
-        "id": "fecc610f.dd73d",
+        "id": "a507ab41.5343a8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
@@ -738,7 +738,7 @@
         "height": 1
     },
     {
-        "id": "fb28a7d5.9e17d8",
+        "id": "b580227e.cfd38",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
@@ -747,7 +747,7 @@
         "height": 1
     },
     {
-        "id": "80f2d50a.ab2f58",
+        "id": "b8919d50.73a66",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
@@ -756,7 +756,7 @@
         "height": 1
     },
     {
-        "id": "5ac16042.db9d4",
+        "id": "fcf7dde3.cfd0f",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
@@ -765,7 +765,7 @@
         "height": 1
     },
     {
-        "id": "335fdbd3.a4a744",
+        "id": "d91ce94.e1c6818",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "6c15eb0d.8f5814",
@@ -774,7 +774,7 @@
         "height": 1
     },
     {
-        "id": "704fcc34.3236f4",
+        "id": "d5eeea49.3b1428",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "6c15eb0d.8f5814",
@@ -4518,7 +4518,7 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "<font face=\"Roboto\">\n\n{{#global.seedTray.water.level.warning}}\n <font color=\"red\" align=\"center\"> <i class=\"fa fa-exclamation-circle\"></i>.  Water level is too low.</font>\n{{/global.seedTray.water.level.warning}} \n\n  \n<br/><br/>\n\npump runs for <font color=\"#0077be\"> {{global.durationWaterSpray}}</font> \nseconds every  <font color=\"#0077be\">two days</font>\n</font>\n<br/><br/><br/>\n<hr><br/>",
+        "template": "<font face=\"Roboto\">\n\n{{#global.seedTray.water.level.warning}}\n <font color=\"red\" align=\"center\"> <i class=\"fa fa-exclamation-circle\"></i>.  Water level is too low.</font>\n{{/global.seedTray.water.level.warning}} \n\n  \n<br/><br/>\n\npump runs for <font color=\"#0077be\"> {{global.durationWaterSpray}}</font> \nseconds every  <font color=\"#0077be\">two days</font>\n</font>\n<br/><br/><br/>\n<hr>",
         "output": "str",
         "x": 360,
         "y": 2340,
