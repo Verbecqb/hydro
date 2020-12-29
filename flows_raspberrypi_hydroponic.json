@@ -4484,7 +4484,7 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "{{payload.sun.total}}\n<dl> \n  <dt>\n      <font color=\"#FF7F18\">\n          <i class=\"fa fa-sun-o\"></i> Sunlight :\n      </font>\n  </dt>\n  <di>\n     <font color=\"#FF7F18\">\n         {{msg.payload.sun.total}}\n     </font>\n  </di>\n  <dt>\n     <font color=\"#F5E056\">\n         <i class=\"fa fa-lightbulb-o\"></i> LED light :\n     </font>\n  </dt>\n  <di>\n     <font color=\"#F5E056\">\n         {{msg.payload.led.total}}\n     </font>\n  </di>\n    <dt>\n     <i class=\"fa fa-moon-o\"></i> Dark: \n  </dt>\n  <di>\n     <font>\n         {{msg.payload.dark.total}}\n     </font>\n  </di>\n</dl>",
+        "template": "\n<dl> \n  <dt>\n      <font color=\"#FF7F18\">\n          <i class=\"fa fa-sun-o\"></i> Sunlight :\n      </font>\n  </dt>\n  <di>\n     <font color=\"#FF7F18\">\n         {{payload.sun.total}}\n     </font>\n  </di>\n  <dt>\n     <font color=\"#F5E056\">\n         <i class=\"fa fa-lightbulb-o\"></i> LED light :\n     </font>\n  </dt>\n  <di>\n     <font color=\"#F5E056\">\n         {{payload.led.total}}\n     </font>\n  </di>\n    <dt>\n     <i class=\"fa fa-moon-o\"></i> Dark: \n  </dt>\n  <di>\n     <font>\n         {{payload.dark.total}}\n     </font>\n  </di>\n</dl>",
         "output": "str",
         "x": 580,
         "y": 2040,
