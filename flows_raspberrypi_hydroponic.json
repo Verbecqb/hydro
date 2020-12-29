@@ -2466,11 +2466,11 @@
         "onvalue": "true",
         "onvalueType": "bool",
         "onicon": "fa-toggle-on fa-2x",
-        "oncolor": "blue",
+        "oncolor": "#0fbaac",
         "offvalue": "false",
         "offvalueType": "bool",
         "officon": "fa-toggle-off fa-2x",
-        "offcolor": "blue",
+        "offcolor": "#0fbaac",
         "x": 611,
         "y": 420,
         "wires": [
