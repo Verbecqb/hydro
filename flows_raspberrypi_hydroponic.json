@@ -592,7 +592,7 @@
         "icon": "dashboard"
     },
     {
-        "id": "34eb00c6.9001c",
+        "id": "7b1213b2.c8e78c",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "1c37dc0b.ce28e4",
@@ -601,7 +601,7 @@
         "height": 1
     },
     {
-        "id": "9e999da2.34c3a",
+        "id": "c3c77b9b.aaba08",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "1c37dc0b.ce28e4",
@@ -610,7 +610,7 @@
         "height": 1
     },
     {
-        "id": "74f47dbd.987704",
+        "id": "5bd9fbc6.bdc564",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -619,7 +619,7 @@
         "height": 1
     },
     {
-        "id": "feb8cc29.abf96",
+        "id": "2139ed73.2d0872",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "72b67add.961f74",
@@ -628,7 +628,7 @@
         "height": 1
     },
     {
-        "id": "ccb7e28e.29742",
+        "id": "8bb1cbe3.180e88",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -637,7 +637,7 @@
         "height": 1
     },
     {
-        "id": "40f3a0e6.b83b4",
+        "id": "a4bc761c.c34f58",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -646,7 +646,7 @@
         "height": 1
     },
     {
-        "id": "53f0a7c0.155718",
+        "id": "a213d51a.9aeab8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -655,7 +655,7 @@
         "height": 1
     },
     {
-        "id": "ba415d52.ca65d",
+        "id": "1b257e3b.fa9702",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -664,16 +664,16 @@
         "height": 1
     },
     {
-        "id": "7a085327.f9b21c",
+        "id": "933e5654.7e0578",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
-        "order": 3,
+        "order": 2,
         "width": 5,
         "height": 1
     },
     {
-        "id": "7d49f97a.83e468",
+        "id": "d48248b9.5dc7a8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
@@ -682,7 +682,7 @@
         "height": 1
     },
     {
-        "id": "3b9de47a.7cfd4c",
+        "id": "7603082.b0bacf8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
@@ -691,7 +691,7 @@
         "height": 1
     },
     {
-        "id": "8d974196.f968a",
+        "id": "88f68cb6.a0446",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
@@ -700,7 +700,7 @@
         "height": 1
     },
     {
-        "id": "da2f16d8.71a108",
+        "id": "d5a0d06.8c93a3",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
@@ -709,7 +709,7 @@
         "height": 1
     },
     {
-        "id": "1743a082.e0749f",
+        "id": "e4d7f0c3.118f5",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
@@ -718,7 +718,7 @@
         "height": 1
     },
     {
-        "id": "ea9f6a4f.fcd5d8",
+        "id": "d5ac7c78.6e3e",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
@@ -4441,7 +4441,7 @@
         "fieldType": "msg",
         "format": "html",
         "syntax": "mustache",
-        "template": "\n\n      <font color=\"#FF7F18\">\n          <i class=\"fa fa-sun-o\"></i> Sunlight :\n      </font>\n \n  \n     <font color=\"#FF7F18\">\n         {{payload.sun.total}}\n     </font>\n  \n<br/>\n     <font color=\"#F5E056\">\n         <i class=\"fa fa-lightbulb-o\"></i> LED light :\n     </font>\n\n     <font color=\"#F5E056\">\n         {{payload.led.total}}\n     </font>\n    <br/>\n     <i class=\"fa fa-moon-o\"></i> Dark: <font> {{payload.dark.total}}</font>",
+        "template": "\n\n      <font color=\"#FF7F18\">\n          <i class=\"fa fa-sun-o\"></i> Sunlight :\n      </font>\n \n  \n     <font color=\"#FF7F18\">\n         {{payload.sun.total}}\n     </font>\n  \n<br/>\n     <font color=\"#F5E056\">\n         <i class=\"fa fa-lightbulb-o\"></i> LED light :\n     </font>\n\n     <font color=\"#F5E056\">\n         {{payload.led.total}}\n     </font>\n    <br/>\n <i class=\"fa fa-moon-o\"></i> Dark: <font> {{payload.dark.total}}</font>\n <hr>\n \n \n     ",
         "output": "str",
         "x": 360,
         "y": 2040,
@@ -4457,7 +4457,7 @@
         "z": "1d22c714.e50369",
         "group": "45199dde.854f64",
         "name": "",
-        "order": 2,
+        "order": 3,
         "width": 5,
         "height": 2,
         "format": "<div ng-bind-html=\"msg.payload\"></div>",
