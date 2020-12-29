@@ -4513,7 +4513,7 @@
         "fieldType": "msg",
         "format": "html",
         "syntax": "mustache",
-        "template": "<i style=\"color:red\" class=\"fa fa-exclamation-circle\"></i>water level too low\n\n<br/><br/>\npump runs for <span style=\"color:blue\"> {{global.}}</span> \nevery <span style=\"color:blue\">50 minutes</span>",
+        "template": "<i style=\"color:red\" class=\"fa fa-exclamation-circle\"></i>water level too low\n\n<br/><br/>\npump runs for <span style=\"color:blue\"> {{global.durationWaterSpray}}</span> \nseconds every <span style=\"color:blue\">50 minutes</span>",
         "output": "str",
         "x": 360,
         "y": 2340,
