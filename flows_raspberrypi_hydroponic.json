@@ -997,7 +997,6 @@
         "y": 1940,
         "wires": [
             [
-                "54666026.3c8da",
                 "e801a157.b40ee"
             ]
         ]
@@ -2378,36 +2377,6 @@
         "diffCenter": "",
         "x": 980,
         "y": 1000,
-        "wires": []
-    },
-    {
-        "id": "54666026.3c8da",
-        "type": "ui_led",
-        "z": "1d22c714.e50369",
-        "d": true,
-        "group": "45199dde.854f64",
-        "order": 9,
-        "width": 3,
-        "height": 1,
-        "label": "",
-        "labelPlacement": "right",
-        "labelAlignment": "right",
-        "colorForValue": [
-            {
-                "color": "red",
-                "value": "false",
-                "valueType": "str"
-            },
-            {
-                "color": "green",
-                "value": "true",
-                "valueType": "str"
-            }
-        ],
-        "allowColorForValueInMessage": false,
-        "name": "Grow lights",
-        "x": 330,
-        "y": 1900,
         "wires": []
     },
     {
