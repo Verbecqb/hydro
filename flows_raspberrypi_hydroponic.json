@@ -4482,7 +4482,7 @@
         "name": "",
         "field": "payload",
         "fieldType": "msg",
-        "format": "handlebars",
+        "format": "html",
         "syntax": "mustache",
         "template": "\n\n      <font color=\"#FF7F18\">\n          <i class=\"fa fa-sun-o\"></i> Sunlight :\n      </font>\n \n  \n     <font color=\"#FF7F18\">\n         {{payload.sun.total}}\n     </font>\n  \n<br/>\n     <font color=\"#F5E056\">\n         <i class=\"fa fa-lightbulb-o\"></i> LED light :\n     </font>\n\n     <font color=\"#F5E056\">\n         {{payload.led.total}}\n     </font>\n    <br/>\n     <i class=\"fa fa-moon-o\"></i> Dark: <font> {{payload.dark.total}}</font>\n</dl>",
         "output": "str",
