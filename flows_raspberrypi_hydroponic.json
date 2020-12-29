@@ -4438,7 +4438,7 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "<mat-list>\n <mat-list-item> \n        <font color=\"#FF7F18\"> \n          <i class=\"fa fa-sun-o\"></i> \n          Sunlight : {{payload.sun.total}}\n        </font> \n </mat-list-item>\n \n <mat-list-item> \n   <font color=\"#F5E056\">\n        <i class=\"fa fa-lightbulb-o\"></i>\n        LED light : {{payload.led.total}}\n    </font>\n </mat-list-item>\n \n <mat-list-item>\n     <i class=\"fa fa-moon-o\"></i> Dark: <font> {{payload.dark.total}}</font>\n </mat-list-item>\n \n</mat-list>\n\n <font face=\"Roboto\"></font>\n\n<hr style=\"width:20%;\">\n\n\n \n     ",
+        "template": "<mat-list>\n <mat-list-item> \n        <font color=\"#FF7F18\"> \n          <i class=\"fa fa-sun-o\"></i> \n          Sunlight : {{payload.sun.total}}\n        </font> \n </mat-list-item>\n \n <mat-list-item> \n   <font color=\"#F5E056\">\n        <i class=\"fa fa-lightbulb-o\"></i>\n        LED light : {{payload.led.total}}\n    </font>\n </mat-list-item>\n \n <mat-list-item>\n     <i class=\"fa fa-moon-o\"></i> Dark: <font> {{payload.dark.total}}</font>\n </mat-list-item>\n \n</mat-list>\n\n<mat-divider></mat-divider>\n\n\n \n     ",
         "output": "str",
         "x": 360,
         "y": 2040,
