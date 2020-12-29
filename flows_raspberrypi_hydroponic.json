@@ -4491,7 +4491,7 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "<font face=\"Roboto\">\n    \n{{#if (global.get('seedTray.water') < 40)}}\n <font color=\"red\" align=\"center\"> <i class=\"fa fa-exclamation-circle\"></i>.  Water level is too low.</font>\n{{/if}} \n\n  \n<br/><br/>\n\npump runs for <font color=\"#0077be\"> {{global.durationWaterSpray}}</font> \nseconds every  <font color=\"#0077be\">two days</font>\n</font>",
+        "template": "<font face=\"Roboto\">\n    \n{{#if global.get('seedTray.water')}}\n <font color=\"red\" align=\"center\"> <i class=\"fa fa-exclamation-circle\"></i>.  Water level is too low.</font>\n{{/if}} \n\n  \n<br/><br/>\n\npump runs for <font color=\"#0077be\"> {{global.durationWaterSpray}}</font> \nseconds every  <font color=\"#0077be\">two days</font>\n</font>",
         "output": "str",
         "x": 360,
         "y": 2340,
@@ -4566,9 +4566,10 @@
         "id": "593527d0.c1f528",
         "type": "link in",
         "z": "1d22c714.e50369",
-        "name": "",
+        "name": "Refresh template seed tray water",
         "links": [
-            "bbae5ec0.7849"
+            "bbae5ec0.7849",
+            "bec62e16.5d9dc"
         ],
         "x": 175,
         "y": 2400,
@@ -4583,7 +4584,7 @@
         "type": "function",
         "z": "1d22c714.e50369",
         "name": "Global var water level",
-        "func": "global.set(\"seedTray.water.level\", parseInt(msg.payload * 100 / 7));",
+        "func": "global.set(\"seedTray.water.level\", parseInt(msg.payload * 100 / 7));\n\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -4591,7 +4592,106 @@
         "x": 800,
         "y": 1180,
         "wires": [
-            []
+            [
+                "95010803.903fd8"
+            ]
         ]
+    },
+    {
+        "id": "7ecc7a58.da9d54",
+        "type": "change",
+        "z": "1d22c714.e50369",
+        "name": "",
+        "rules": [
+            {
+                "t": "delete",
+                "p": "seedTray.water.level.warning",
+                "pt": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1200,
+        "y": 1200,
+        "wires": [
+            [
+                "bec62e16.5d9dc"
+            ]
+        ]
+    },
+    {
+        "id": "95010803.903fd8",
+        "type": "switch",
+        "z": "1d22c714.e50369",
+        "name": "",
+        "property": "seedTray.water.level",
+        "propertyType": "global",
+        "rules": [
+            {
+                "t": "gt",
+                "v": "40",
+                "vt": "num"
+            },
+            {
+                "t": "lte",
+                "v": "40",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 970,
+        "y": 1180,
+        "wires": [
+            [
+                "72135be4.a024e4"
+            ],
+            [
+                "7ecc7a58.da9d54"
+            ]
+        ]
+    },
+    {
+        "id": "72135be4.a024e4",
+        "type": "change",
+        "z": "1d22c714.e50369",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "seedTray.water.level.warning",
+                "pt": "global",
+                "to": "true",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1190,
+        "y": 1160,
+        "wires": [
+            [
+                "bec62e16.5d9dc"
+            ]
+        ]
+    },
+    {
+        "id": "bec62e16.5d9dc",
+        "type": "link out",
+        "z": "1d22c714.e50369",
+        "name": "",
+        "links": [
+            "593527d0.c1f528"
+        ],
+        "x": 1405,
+        "y": 1180,
+        "wires": []
     }
 ]
