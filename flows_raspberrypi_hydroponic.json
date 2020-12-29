@@ -590,7 +590,7 @@
         "collapse": false
     },
     {
-        "id": "ef6b201f.22f2c",
+        "id": "e6691054.3d5e3",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "1c37dc0b.ce28e4",
@@ -599,7 +599,7 @@
         "height": 1
     },
     {
-        "id": "7cff1735.202008",
+        "id": "db404460.5cf678",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "1c37dc0b.ce28e4",
@@ -608,7 +608,7 @@
         "height": 1
     },
     {
-        "id": "152ac5f1.741aba",
+        "id": "9ff85f46.02334",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -617,7 +617,7 @@
         "height": 1
     },
     {
-        "id": "fe8e192e.b96fe8",
+        "id": "8b75eba0.102f98",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "65d119b5.66cb78",
@@ -626,7 +626,7 @@
         "height": 1
     },
     {
-        "id": "78d3bb27.755064",
+        "id": "bc0b6b51.51a068",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "65d119b5.66cb78",
@@ -635,7 +635,7 @@
         "height": 1
     },
     {
-        "id": "33d6356b.e3d26a",
+        "id": "614726ad.1234b8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "65d119b5.66cb78",
@@ -644,7 +644,7 @@
         "height": 1
     },
     {
-        "id": "a432dbde.caad58",
+        "id": "7f0d7f45.03aa8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "65d119b5.66cb78",
@@ -653,7 +653,7 @@
         "height": 1
     },
     {
-        "id": "7ee641d2.86e33",
+        "id": "3abb2c4a.a83a04",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "65d119b5.66cb78",
@@ -662,7 +662,7 @@
         "height": 1
     },
     {
-        "id": "1eca7589.1e3b6a",
+        "id": "3dbd84f0.da2ccc",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "65d119b5.66cb78",
@@ -671,7 +671,7 @@
         "height": 1
     },
     {
-        "id": "4abe3e55.d9b5f",
+        "id": "b291d96b.7c52d8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "65d119b5.66cb78",
@@ -680,7 +680,7 @@
         "height": 1
     },
     {
-        "id": "8cb9a3b2.0ecae",
+        "id": "805bae1f.6f0cc",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "72b67add.961f74",
@@ -689,7 +689,7 @@
         "height": 1
     },
     {
-        "id": "3fae83f4.134bdc",
+        "id": "e79451aa.d4eae",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -698,7 +698,7 @@
         "height": 1
     },
     {
-        "id": "53a276d.5583288",
+        "id": "d0db576e.585aa8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -707,7 +707,7 @@
         "height": 1
     },
     {
-        "id": "ebe4eba2.f4bff8",
+        "id": "408f46f0.402828",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -716,34 +716,25 @@
         "height": 1
     },
     {
-        "id": "94bd0cf5.32b1c",
+        "id": "9c4df34.174831",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
-        "order": 2,
-        "width": 4,
-        "height": 1
-    },
-    {
-        "id": "afeaaba1.b6fc48",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "45199dde.854f64",
-        "order": 8,
+        "order": 7,
         "width": 1,
         "height": 1
     },
     {
-        "id": "53e61ed2.0f61e",
+        "id": "fe2da56e.ce0278",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
-        "order": 10,
+        "order": 9,
         "width": 1,
         "height": 1
     },
     {
-        "id": "4e568765.664178",
+        "id": "f8078e1f.e5178",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "6c15eb0d.8f5814",
@@ -752,7 +743,7 @@
         "height": 1
     },
     {
-        "id": "14a2f013.102be",
+        "id": "44355884.faac58",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "6c15eb0d.8f5814",
@@ -2076,7 +2067,7 @@
         "type": "ui_artlessgauge",
         "z": "1d22c714.e50369",
         "group": "45199dde.854f64",
-        "order": 4,
+        "order": 3,
         "width": 3,
         "height": 3,
         "name": "Luminosity",
@@ -2403,7 +2394,7 @@
         "label": "LED light",
         "tooltip": "Led",
         "group": "45199dde.854f64",
-        "order": 5,
+        "order": 4,
         "width": 3,
         "height": 1,
         "passthru": true,
@@ -2636,7 +2627,7 @@
         "type": "ui_text",
         "z": "1d22c714.e50369",
         "group": "45199dde.854f64",
-        "order": 9,
+        "order": 8,
         "width": 3,
         "height": 1,
         "name": "Last refresh - luminosity",
@@ -4340,7 +4331,7 @@
         "type": "ui_text",
         "z": "1d22c714.e50369",
         "group": "45199dde.854f64",
-        "order": 6,
+        "order": 5,
         "width": 1,
         "height": 1,
         "name": "Lamp on/off state",
@@ -4377,7 +4368,7 @@
         "label": "<i class=\"fa fa-clock-o\"></i>",
         "tooltip": "Total light",
         "group": "45199dde.854f64",
-        "order": 7,
+        "order": 6,
         "width": 3,
         "height": 1,
         "wrap": false,
@@ -4421,9 +4412,9 @@
         "z": "1d22c714.e50369",
         "group": "45199dde.854f64",
         "name": "",
-        "order": 3,
+        "order": 2,
         "width": 4,
-        "height": 2,
+        "height": 3,
         "format": "<md-list>\n  <md-list-item style=\"padding:10px;max-height:20px;\"\n   ng-repeat = \"(index, item) in msg.payload\">\n        <div class=\"md-list-item-text compact\">\n          <font color=\"{{item.hexColor}}\"> \n              <i class=\"{{item.icon}}\"> </i> \n               {{item.title}} : {{item.description}}\n          </font> \n        \n        </div>\n       \n </md-list-item>\n \n</md-list>\n\n<md-divider md-inset=\"\"></md-divider>",
         "storeOutMessages": true,
         "fwdInMessages": true,
