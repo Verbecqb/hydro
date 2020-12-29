@@ -68,7 +68,7 @@
         "type": "ui_group",
         "name": "Seed Tray - Visualize",
         "tab": "352c089f.6b44d8",
-        "order": 5,
+        "order": 6,
         "disp": true,
         "width": "26",
         "collapse": false,
@@ -79,7 +79,7 @@
         "type": "ui_group",
         "name": "Room environment - Sensors",
         "tab": "352c089f.6b44d8",
-        "order": 3,
+        "order": 4,
         "disp": true,
         "width": "6",
         "collapse": false
@@ -89,7 +89,7 @@
         "type": "ui_group",
         "name": "Seed Tray - Sensors",
         "tab": "352c089f.6b44d8",
-        "order": 4,
+        "order": 5,
         "disp": true,
         "width": "12",
         "collapse": false
@@ -109,7 +109,7 @@
         "type": "ui_group",
         "name": "Seed tray - Schedules",
         "tab": "352c089f.6b44d8",
-        "order": 6,
+        "order": 7,
         "disp": true,
         "width": "7",
         "collapse": false
@@ -465,16 +465,6 @@
         }
     },
     {
-        "id": "ae8ddbfd.c58db8",
-        "type": "ui_group",
-        "name": "System control",
-        "tab": "352c089f.6b44d8",
-        "order": 2,
-        "disp": true,
-        "width": 4,
-        "collapse": true
-    },
-    {
         "id": "9f76d55b.b58878",
         "type": "remote-config",
         "name": "Node-RED UI",
@@ -503,7 +493,7 @@
         "type": "ui_group",
         "name": "Seed tray - Devices",
         "tab": "352c089f.6b44d8",
-        "order": 7,
+        "order": 8,
         "disp": true,
         "width": 7,
         "collapse": false
@@ -564,7 +554,7 @@
         "type": "ui_group",
         "name": "Seed tray - Environment control",
         "tab": "352c089f.6b44d8",
-        "order": 8,
+        "order": 9,
         "disp": true,
         "width": 7,
         "collapse": false
@@ -574,7 +564,7 @@
         "type": "ui_group",
         "name": "Seed tray - Light",
         "tab": "352c089f.6b44d8",
-        "order": 9,
+        "order": 2,
         "disp": true,
         "width": 6,
         "collapse": false
@@ -2819,7 +2809,7 @@
         "id": "c278aca9.b3501",
         "type": "ui_text",
         "z": "1d22c714.e50369",
-        "group": "ae8ddbfd.c58db8",
+        "group": "",
         "order": 1,
         "width": 4,
         "height": 2,
