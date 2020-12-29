@@ -3877,7 +3877,7 @@
         "type": "function",
         "z": "1d22c714.e50369",
         "name": "Configure PH sectors",
-        "func": "var minPH = global.get('minPH') || 0;\nvar maxPH = global.get('maxPH') || 0;\nvar centerPH = parseInt((minPH + maxPH) / 2);\n\nvar newSectors = [\n    {t:\"min\",val:0,col:\"#ff5252\",dot:0},\n    {t:\"sec\",val:minPH,col:\"#4CAF50\",dot:2},\n    {t:\"sec\",val:maxPH,col:\"#ff5252\",dot:2},\n    {t:\"max\",val:10,col:\"#ff5252\",dot:0}] \n\n\nmsg.control = \n  {sectors:newSectors, center: centerPH}\n\nreturn msg;\n",
+        "func": "var minPH = global.get('minPH') || 0;\nvar maxPH = global.get('maxPH') || 0;\nvar centerPH = parseInt((minPH + maxPH) / 2);\n\nvar newSectors = [\n    {t:\"min\",val:0,col:\"#ff5252\",dot:0},\n    {t:\"sec\",val:minPH,col:\"#4CAF50\",dot:4},\n    {t:\"sec\",val:maxPH,col:\"#ff5252\",dot:4},\n    {t:\"max\",val:10,col:\"#ff5252\",dot:0}] \n\n\nmsg.control = \n  {sectors:newSectors, center: centerPH}\n\nreturn msg;\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
