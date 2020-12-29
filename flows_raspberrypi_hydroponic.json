@@ -4291,7 +4291,7 @@
         "id": "abb9ac18.9b28d",
         "type": "ui_chart",
         "z": "1d22c714.e50369",
-        "name": "Chart",
+        "name": "Pi char - Light split",
         "group": "45199dde.854f64",
         "order": 1,
         "width": 4,
@@ -4323,7 +4323,7 @@
             "#c5b0d5"
         ],
         "outputs": 1,
-        "x": 390,
+        "x": 430,
         "y": 2140,
         "wires": [
             []
