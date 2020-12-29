@@ -637,7 +637,7 @@
         "icon": "dashboard"
     },
     {
-        "id": "77625ba2.f21a54",
+        "id": "fba86da8.af395",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "1c37dc0b.ce28e4",
@@ -646,7 +646,7 @@
         "height": 1
     },
     {
-        "id": "3e0fea7d.2f1476",
+        "id": "4564c2c3.18c0fc",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "1c37dc0b.ce28e4",
@@ -655,7 +655,7 @@
         "height": 1
     },
     {
-        "id": "80355d93.315c8",
+        "id": "27e88d33.2111c2",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -664,7 +664,7 @@
         "height": 1
     },
     {
-        "id": "18f3ad4e.799783",
+        "id": "f0a96f24.5979c",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "72b67add.961f74",
@@ -673,7 +673,7 @@
         "height": 1
     },
     {
-        "id": "ecef2ae8.663d78",
+        "id": "e7f9aa61.884e28",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -682,7 +682,7 @@
         "height": 1
     },
     {
-        "id": "645def21.1dc77",
+        "id": "77783cc0.da6be4",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -691,7 +691,7 @@
         "height": 1
     },
     {
-        "id": "df251aaf.501128",
+        "id": "5f21b79f.e1b108",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -700,7 +700,7 @@
         "height": 1
     },
     {
-        "id": "5e4f03cb.11088c",
+        "id": "daaaabe6.0bbe58",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -709,7 +709,7 @@
         "height": 1
     },
     {
-        "id": "d52038a8.bfa298",
+        "id": "ba3e747f.b01768",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
@@ -718,7 +718,7 @@
         "height": 1
     },
     {
-        "id": "20e74b57.ef8414",
+        "id": "2d4f409c.8a0f8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
@@ -727,16 +727,16 @@
         "height": 1
     },
     {
-        "id": "21af71a9.af41fe",
+        "id": "1af9871b.f6f709",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
         "order": 12,
-        "width": 5,
+        "width": 9,
         "height": 1
     },
     {
-        "id": "c1290d81.01469",
+        "id": "52916cca.fccfb4",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
@@ -2062,7 +2062,7 @@
         "group": "45199dde.854f64",
         "order": 5,
         "width": 4,
-        "height": 4,
+        "height": 3,
         "name": "Luminosity",
         "icon": "",
         "label": "",
