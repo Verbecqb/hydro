@@ -4467,7 +4467,7 @@
         "type": "function",
         "z": "87cb301d.9893c",
         "name": "Configure widget",
-        "func": "var minValue = global.get('sun.total') || 1;\nmsg.ui_numeric = {min:5};\n\nreturn msg; ",
+        "func": "var minValue = global.get('sun.total') || 1;\nmsg.ui_control = {\"min\":5};\n\nreturn msg; ",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
