@@ -2654,7 +2654,7 @@
         "height": 1,
         "name": "Last refresh - luminosity",
         "label": "",
-        "format": "<i class=\"fa fa-refresh\" aria-hidden=\"true\">&nbsp; {{ msg.payload | date: 'HH:mm:ss'}}</i> ",
+        "format": "<front size = \"1\"><i class=\"fa fa-refresh fa-0.5x\">&nbsp; {{ msg.payload | date: 'HH:mm:ss'}}</i> </font>",
         "layout": "row-center",
         "x": 1470,
         "y": 680,
