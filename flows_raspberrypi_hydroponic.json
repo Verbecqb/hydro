@@ -4665,10 +4665,11 @@
         "tosidebar": true,
         "console": false,
         "tostatus": false,
-        "complete": "false",
+        "complete": "payload[0]",
+        "targetType": "msg",
         "statusVal": "",
         "statusType": "auto",
-        "x": 370,
+        "x": 380,
         "y": 2080,
         "wires": []
     }
