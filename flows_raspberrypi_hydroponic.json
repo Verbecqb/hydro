@@ -4213,7 +4213,7 @@
         "height": 1,
         "name": "Dark mode",
         "label": "",
-        "format": "<i class=\"fa  fa-moon-o\"></i> Dark mode: {{msg.dark.total}}",
+        "format": "<i class=\"fa  fa-moon-o\"></i> Dark: {{msg.dark.total}}",
         "layout": "row-left",
         "x": 410,
         "y": 2100,
