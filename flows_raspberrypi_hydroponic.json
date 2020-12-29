@@ -4430,7 +4430,7 @@
         "fieldType": "msg",
         "format": "html",
         "syntax": "mustache",
-        "template": "<md-list>\n  <md-list-item>\n    <span>\n        <font color=\"#FF7F18\"> \n          <i class=\"fa fa-sun-o\"> </i> \n           Sunlight : {{payload.sun.total}}\n        </font> \n    </span>\n </md-list-item>\n \n <md-list-item> \n    <span>\n       <font color=\"#F5E056\">\n            <i class=\"fa fa-lightbulb-o\"></i>\n            LED light : {{payload.led.total}}\n        </font>\n    </span>\n </md-list-item>\n \n <md-list-item>\n     <span>\n       <i class=\"fa fa-moon-o\"></i> Dark: <font> {{payload.dark.total}}</font>\n     </span>\n </md-list-item>\n \n</md-list>\n\n<md-divider md-inset=\"\"></md-divider>\n\n\n \n     ",
+        "template": "<md-list>\n  <md-list-item>\n    <span>\n        <font color=\"#FF7F18\"> \n          <i class=\"fa fa-sun-o\"> </i> \n           Sunlight : {{payload[0].description}}\n        </font> \n    </span>\n </md-list-item>\n \n <md-list-item> \n    <span>\n       <font color=\"#F5E056\">\n            <i class=\"fa fa-lightbulb-o\"></i>\n            LED light : {{payload[1].description}}\n        </font>\n    </span>\n </md-list-item>\n \n <md-list-item>\n     <span>\n       <i class=\"fa fa-moon-o\"></i> Dark: <font> \n       {{payload[2].description}}</font>\n     </span>\n </md-list-item>\n \n</md-list>\n\n<md-divider md-inset=\"\"></md-divider>\n\n\n \n     ",
         "output": "str",
         "x": 360,
         "y": 2040,
