@@ -4445,7 +4445,7 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "<div  tyle=\"text-align: center;\">\n<font face=\"Roboto\">\n    \n    <font color=\"#FF7F18\"> \n      <i class=\"fa fa-sun-o\"></i> Sunlight :\n    </font>\n    <font color=\"#FF7F18\"> {{payload.sun.total}}</font>\n     \n    <br/>\n    <font color=\"#F5E056\">\n        <i class=\"fa fa-lightbulb-o\"></i>\n         LED light :\n    </font>\n    <font color=\"#F5E056\">{{payload.led.total}}</font>\n    \n    <br/>\n    \n    <i class=\"fa fa-moon-o\"></i> Dark: <font> {{payload.dark.total}}</font>\n</font>\n\n<br/>\n \n<hr style=\"width:20%;\">\n</div>\n<br/>\n\n \n     ",
+        "template": "<div style=\"text-align: center;\">\n<font face=\"Roboto\">\n    \n    <font color=\"#FF7F18\"> \n      <i class=\"fa fa-sun-o\"></i> Sunlight :\n    </font>\n    <font color=\"#FF7F18\"> {{payload.sun.total}}</font>\n     \n    <br/>\n    <font color=\"#F5E056\">\n        <i class=\"fa fa-lightbulb-o\"></i>\n         LED light :\n    </font>\n    <font color=\"#F5E056\">{{payload.led.total}}</font>\n    \n    <br/>\n    \n    <i class=\"fa fa-moon-o\"></i> Dark: <font> {{payload.dark.total}}</font>\n</font>\n\n<br/>\n \n<hr style=\"width:20%;\">\n</div>\n<br/>\n\n \n     ",
         "output": "str",
         "x": 360,
         "y": 2040,
