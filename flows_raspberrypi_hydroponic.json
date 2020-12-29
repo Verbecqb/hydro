@@ -4746,7 +4746,6 @@
         "id": "bd0f3b34.8fff68",
         "type": "file",
         "z": "1d22c714.e50369",
-        "d": true,
         "name": "WriteFile",
         "filename": "/home/pi/.node-red/projects/hydro/time-scheduler.txt",
         "appendNewline": true,
