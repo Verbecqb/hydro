@@ -3993,13 +3993,13 @@
         "id": "b8023ba0.969078",
         "type": "function",
         "z": "1d22c714.e50369",
-        "name": "Configure gauge widget",
+        "name": "Configure water level widget",
         "func": "msg.payload = parseInt(msg.payload * 100 / 7);\nvar threshold = 40;\n\nmsg.ui_control = {options: {\n    textColor:\"#FFFFFF\", \n    waveTextColor:\"#FFFFFF\", \n    textSize: 0.7,\n    textVertPosition: .6,\n    displayPercent: true,\n    waveColor: (msg.payload > threshold) ? \"#0fbaac\" : \"#cc3300\",\n    //waveAnimate: true,\n    //waveAnimateTime: 200000,\n    //waveCount: 3,\n    waveOffset: 0.25,\n    circleThickness: 0.05,\n    circleColor: (msg.payload > threshold) ? \"#0fbaac\" : \"#cc3300\",\n    valueCountUp: false // disable count up upon loading \n\n }\n};\n\nreturn msg; ",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 810,
+        "x": 820,
         "y": 1220,
         "wires": [
             [
@@ -4514,7 +4514,7 @@
         "fieldType": "msg",
         "format": "html",
         "syntax": "mustache",
-        "template": "<i style=\"color:red\" class=\"fa fa-exclamation-circle\"></i>water level too low\n\n<br/><br/>\npump runs for <span style=\"color:blue\"> {{global.durationWaterSpray}}</span> \nseconds every <span style=\"color:blue\">50 minutes</span>",
+        "template": "<font color=\"red\"> <i class=\"fa fa-exclamation-circle\"></i> Water level is too low.</font>\n\n<br/><br/>\npump runs for <font color=\"#0fbaac\"> {{global.durationWaterSpray}}</font> \nseconds every  <font color=\"#0fbaac\">two days</font>",
         "output": "str",
         "x": 360,
         "y": 2340,
@@ -4565,8 +4565,8 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 220,
-        "y": 2360,
+        "x": 170,
+        "y": 2340,
         "wires": [
             [
                 "f3b66e1d.ccca9"
