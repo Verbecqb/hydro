@@ -2023,7 +2023,7 @@
         "height": 1,
         "name": "Luminosity",
         "icon": "fa-fire",
-        "label": "Luminosity",
+        "label": "",
         "unit": "Lux",
         "layout": "linear",
         "decimals": 0,
