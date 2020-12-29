@@ -4179,7 +4179,7 @@
         "type": "function",
         "z": "1d22c714.e50369",
         "name": "Save Global variable - total natural light",
-        "func": "var sunrise = new Date(msg.payload.current.sunrise);\nvar sunset = new Date(msg.payload.current.sunset);\nvar totalNaturalLight = sunset - sunrise;\n\nglobal.set('sun.total', totalNaturalLight);\n\nmsg.payload = totalNaturalLight;\nreturn msg;",
+        "func": "var sunrise = new Date(msg.payload.current.sunrise);\nvar sunset = new Date(msg.payload.current.sunset);\nvar totalNaturalLight = sunset - sunrise;\n\nglobal.set('sunrise.timestamp', msg.payload.current.sunrise);\nglobal.set('sunset.timestamp', msg.payload.current.sunset);\nglobal.set('sun.total', totalNaturalLight);\n\nmsg.payload = totalNaturalLight;\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -4197,8 +4197,8 @@
         "type": "function",
         "z": "1d22c714.e50369",
         "name": "",
-        "func": "var timestampSunLight = global.get('sun.total'); // in seconds\nvar totalLight = global.get('seed.totalLight') * 60 * 60; // in seconds\n\nvar ledLight = totalLight - timestampSunLight;\nvar darkMode = 24*60*60 - totalLight;\n\nfunction format(time) {   \n    // Hours, minutes and seconds\n    var hrs = ~~(time / 3600);\n    var mins = ~~((time % 3600) / 60);\n\n    // Output like \"1:01\" or \"4:03\" or \"123:03\"\n    var ret = \"\";\n    if (hrs > 0) {\n        ret += \"\" + hrs + \" hr \"; \n        if (mins > 0) {\n            ret += (mins < 10 ? \"0\" : \"\") + mins + \" min\";\n        }\n    } else {\n        if (mins > 0) {\n            ret = (mins < 10 ? \"0\" : \"\") + mins + \" min\";\n        }\n    }\n    return ret;\n}\n\nvar labelsMsg = {\"payload\": \n    [\n        {\n            \"title\": \"Sun\",\n            \"description\": format(timestampSunLight),\n            \"icon_name\": \"wi wi-owm-01d\",\n            \"hexColor\": \"#FF7F18\"\n        }, \n        {  \n            \"title\": \"Led\",\n            \"description\": format(ledLight),\n            \"icon_name\": \"fa fa-lightbulb-o\",\n            \"hexColor\": \"#F3DF5E\"\n        },\n        {\n            \"title\" : \"Dark\",\n            \"description\": format(darkMode),\n            \"icon_name\": \"fa fa-moon-o\"\n        }\n    ]\n};\n\n\n var series =[\"Sun light\", \"LED\", \"Dark\"];\n var labels = [\"Sun light\", \"LED\", \"Dark\"];\n var data = [];\n var dataWaterQuality = [];\n var dataWaterPH = [];\n var dataWaterTemperature = [];\n var dataLuminosity = [];\n\n data = [930, 300, (2400-(930+300))];\n    \n msg.payload = [{series, data, labels}];\n\nvar m = {};\nm.labels = [\"Sun light\", \"LED\", \"Darks\"];\nm.data = [[timestampSunLight, ledLight, darkMode]];\nm.series = [\"Total light\"];\nmsg.payload = [m];\nmsg.topic = \"\";\n\n\nreturn [labelsMsg,msg];",
-        "outputs": 2,
+        "func": "var timestampSunLight = global.get('sun.total'); // in seconds\nvar totalLight = global.get('seed.totalLight') * 60 * 60; // in seconds\n\nvar ledLight = totalLight - timestampSunLight; // total seconds needs \nglobal.set('seed.ledLight', ledLight);\nvar darkMode = 24*60*60 - totalLight;\n\nfunction format(time) {   \n    // Hours, minutes and seconds\n    var hrs = ~~(time / 3600);\n    var mins = ~~((time % 3600) / 60);\n\n    // Output like \"1:01\" or \"4:03\" or \"123:03\"\n    var ret = \"\";\n    if (hrs > 0) {\n        ret += \"\" + hrs + \" hr \"; \n        if (mins > 0) {\n            ret += (mins < 10 ? \"0\" : \"\") + mins + \" min\";\n        }\n    } else {\n        if (mins > 0) {\n            ret = (mins < 10 ? \"0\" : \"\") + mins + \" min\";\n        }\n    }\n    return ret;\n}\n\nvar labelsMsg = {\"payload\": \n    [\n        {\n            \"title\": \"Sun\",\n            \"description\": format(timestampSunLight),\n            \"icon_name\": \"wi wi-owm-01d\",\n            \"hexColor\": \"#FF7F18\",\n            \"start\": global.get('sunrise.timestamp'),\n            \"end\": \"\",\n        }, \n        {  \n            \"title\": \"Led\",\n            \"description\": format(ledLight),\n            \"icon_name\": \"fa fa-lightbulb-o\",\n            \"hexColor\": \"#F3DF5E\",\n            \"start\": \"\",\n            \"end\": \"\",\n        },\n        {\n            \"title\" : \"Dark\",\n            \"description\": format(darkMode),\n            \"icon_name\": \"fa fa-moon-o\",\n            \"start\": \"\"\n        }\n    ]\n};\n\n\n var series =[\"Sun light\", \"LED\", \"Dark\"];\n var labels = [\"Sun light\", \"LED\", \"Dark\"];\n var data = [];\n var dataWaterQuality = [];\n var dataWaterPH = [];\n var dataWaterTemperature = [];\n var dataLuminosity = [];\n\n data = [930, 300, (2400-(930+300))];\n    \n msg.payload = [{series, data, labels}];\n\nvar m = {};\nm.labels = [\"Sun light\", \"LED\", \"Darks\"];\nm.data = [[timestampSunLight, ledLight, darkMode]];\nm.series = [\"Total light\"];\nmsg.payload = [m];\nmsg.topic = \"\";\n\n\nreturn [labelsMsg,ledLight,msg];",
+        "outputs": 3,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
@@ -4207,6 +4207,9 @@
         "wires": [
             [
                 "e765c1ba.7b85"
+            ],
+            [
+                "a9374d16.74677"
             ],
             [
                 "abb9ac18.9b28d"
@@ -4277,8 +4280,8 @@
             "#c5b0d5"
         ],
         "outputs": 1,
-        "x": 390,
-        "y": 2100,
+        "x": 370,
+        "y": 2120,
         "wires": [
             []
         ]
@@ -4445,8 +4448,8 @@
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
-        "x": 360,
-        "y": 2060,
+        "x": 340,
+        "y": 2040,
         "wires": [
             []
         ]
@@ -4629,40 +4632,6 @@
         "wires": []
     },
     {
-        "id": "e0036bf7.74b318",
-        "type": "file in",
-        "z": "87cb301d.9893c",
-        "name": "ReadFile",
-        "filename": "/home/pi/.node-red/projects/hydro/time-scheduler.txt",
-        "format": "utf8",
-        "chunk": false,
-        "sendError": false,
-        "encoding": "none",
-        "x": 140,
-        "y": 360,
-        "wires": [
-            [
-                "d1a4df30.9ea56"
-            ]
-        ]
-    },
-    {
-        "id": "d1a4df30.9ea56",
-        "type": "json",
-        "z": "87cb301d.9893c",
-        "name": "",
-        "property": "payload",
-        "action": "",
-        "pretty": false,
-        "x": 270,
-        "y": 360,
-        "wires": [
-            [
-                "70a78068.18bad"
-            ]
-        ]
-    },
-    {
         "id": "1215f75c.2eba49",
         "type": "inject",
         "z": "87cb301d.9893c",
@@ -4686,15 +4655,81 @@
         "x": 130,
         "y": 440,
         "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a9374d16.74677",
+        "type": "file in",
+        "z": "1d22c714.e50369",
+        "name": "ReadFile",
+        "filename": "/home/pi/.node-red/projects/hydro/time-scheduler.txt",
+        "format": "utf8",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "none",
+        "x": 360,
+        "y": 2080,
+        "wires": [
             [
-                "e0036bf7.74b318"
+                "ed8e6bb5.af6b78"
             ]
         ]
     },
     {
-        "id": "70a78068.18bad",
+        "id": "ed8e6bb5.af6b78",
+        "type": "json",
+        "z": "1d22c714.e50369",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 490,
+        "y": 2080,
+        "wires": [
+            [
+                "d82e4b39.5671a8"
+            ]
+        ]
+    },
+    {
+        "id": "d82e4b39.5671a8",
+        "type": "change",
+        "z": "1d22c714.e50369",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "timers[1].startime",
+                "pt": "msg",
+                "to": "sunset.timestamp",
+                "tot": "global"
+            },
+            {
+                "t": "set",
+                "p": "timers[2].startime",
+                "pt": "msg",
+                "to": "(global.seed.ledLight)+(global.ledLight)",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 640,
+        "y": 2080,
+        "wires": [
+            [
+                "3a93bf6e.3736"
+            ]
+        ]
+    },
+    {
+        "id": "3a93bf6e.3736",
         "type": "debug",
-        "z": "87cb301d.9893c",
+        "z": "1d22c714.e50369",
         "name": "",
         "active": true,
         "tosidebar": true,
@@ -4703,8 +4738,8 @@
         "complete": "false",
         "statusVal": "",
         "statusType": "auto",
-        "x": 410,
-        "y": 360,
+        "x": 860,
+        "y": 2080,
         "wires": []
     }
 ]
