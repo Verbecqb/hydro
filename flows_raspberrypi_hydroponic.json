@@ -4525,7 +4525,7 @@
         "width": 2,
         "height": 1,
         "name": "State on",
-        "label": "<font color=\"{{msg.color}}\"><i class=\"fa  fa-fa-tint fa-2x\"></i></front>",
+        "label": "<font color=\"{{msg.color}}\"><i class=\"fa fa-tint fa-2x\"></i></front>",
         "format": "",
         "layout": "row-spread",
         "x": 500,
