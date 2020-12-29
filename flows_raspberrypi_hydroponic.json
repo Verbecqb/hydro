@@ -4515,7 +4515,7 @@
         "fieldType": "msg",
         "format": "html",
         "syntax": "mustache",
-        "template": "<font face=\"TT Commons\">\n\n<font color=\"red\" align=\"center\"> <i class=\"fa fa-exclamation-circle\"></i>.  Water level is too low.</font>\n\n<br/><br/>\n\npump runs for <font color=\"#0fbaac\"> {{global.durationWaterSpray}}</font> \nseconds every  <font color=\"#0fbaac\">two days</font>\n</font>",
+        "template": "<font face=\"Roboto\">\n\n<font color=\"red\" align=\"center\"> <i class=\"fa fa-exclamation-circle\"></i>.  Water level is too low.</font>\n\n<br/><br/>\n\npump runs for <font color=\"#0fbaac\"> {{global.durationWaterSpray}}</font> \nseconds every  <font color=\"#0fbaac\">two days</font>\n</font>",
         "output": "str",
         "x": 360,
         "y": 2340,
