@@ -586,7 +586,7 @@
         "order": 2
     },
     {
-        "id": "bd84a0df.792d",
+        "id": "b7b13931.d68378",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "1c37dc0b.ce28e4",
@@ -595,7 +595,7 @@
         "height": 1
     },
     {
-        "id": "4ccaae6f.d5368",
+        "id": "f74a90cd.60516",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "1c37dc0b.ce28e4",
@@ -604,7 +604,7 @@
         "height": 1
     },
     {
-        "id": "b08eba83.d10a48",
+        "id": "d92da333.d3277",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -613,7 +613,7 @@
         "height": 1
     },
     {
-        "id": "7e1e4905.362978",
+        "id": "bf974924.214468",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -622,7 +622,7 @@
         "height": 1
     },
     {
-        "id": "996d86b0.60b768",
+        "id": "b68b6fa0.ace21",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "72b67add.961f74",
@@ -631,7 +631,7 @@
         "height": 1
     },
     {
-        "id": "c20b304b.2f0dc",
+        "id": "683fdcc2.dfbde4",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -640,7 +640,7 @@
         "height": 1
     },
     {
-        "id": "34bffae0.7e0376",
+        "id": "5b74670c.2601e8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -649,7 +649,7 @@
         "height": 1
     },
     {
-        "id": "1f6b13d4.9fd90c",
+        "id": "c21af5e2.e09438",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -658,7 +658,7 @@
         "height": 1
     },
     {
-        "id": "87636559.e7d008",
+        "id": "71bdb7d2.3515b8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -667,11 +667,29 @@
         "height": 1
     },
     {
-        "id": "ac0dc668.5febb8",
+        "id": "bf91ac18.adde1",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "45199dde.854f64",
+        "order": 5,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "58642b2d.384b84",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
         "order": 7,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "26e22783.08c488",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "45199dde.854f64",
+        "order": 9,
         "width": 4,
         "height": 1
     },
@@ -2376,8 +2394,8 @@
         "label": "<i class=\"fa fa-lightbulb-o\"></i> Grow lights",
         "tooltip": "Led",
         "group": "45199dde.854f64",
-        "order": 5,
-        "width": 3,
+        "order": 8,
+        "width": 5,
         "height": 1,
         "passthru": true,
         "decouple": "false",
@@ -4319,7 +4337,7 @@
         "label": "<i class=\"fa fa-clock-o\"></i>",
         "tooltip": "Total light",
         "group": "45199dde.854f64",
-        "order": 8,
+        "order": 10,
         "width": 3,
         "height": 1,
         "passthru": true,
@@ -4344,7 +4362,7 @@
         "type": "ui_text",
         "z": "87cb301d.9893c",
         "group": "45199dde.854f64",
-        "order": 9,
+        "order": 11,
         "width": 2,
         "height": 1,
         "name": "Total light duration",
