@@ -586,7 +586,7 @@
         "order": 2
     },
     {
-        "id": "8f911a84.b1cf68",
+        "id": "bd84a0df.792d",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "1c37dc0b.ce28e4",
@@ -595,7 +595,7 @@
         "height": 1
     },
     {
-        "id": "f8bb2b0.c6936d8",
+        "id": "4ccaae6f.d5368",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "1c37dc0b.ce28e4",
@@ -604,7 +604,7 @@
         "height": 1
     },
     {
-        "id": "f07de8e0.dd8398",
+        "id": "b08eba83.d10a48",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -613,7 +613,7 @@
         "height": 1
     },
     {
-        "id": "1ff4b5c0.e52bda",
+        "id": "7e1e4905.362978",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -622,7 +622,7 @@
         "height": 1
     },
     {
-        "id": "f0d8d43e.b324d8",
+        "id": "996d86b0.60b768",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "72b67add.961f74",
@@ -631,7 +631,7 @@
         "height": 1
     },
     {
-        "id": "5f7bb761.4fc6a8",
+        "id": "c20b304b.2f0dc",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -640,7 +640,7 @@
         "height": 1
     },
     {
-        "id": "68143b90.0609e4",
+        "id": "34bffae0.7e0376",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -649,48 +649,30 @@
         "height": 1
     },
     {
-        "id": "7ee9ae93.8d89f",
+        "id": "1f6b13d4.9fd90c",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
-        "order": 10,
+        "order": 9,
         "width": 1,
         "height": 1
     },
     {
-        "id": "b3022d.9c859dd",
+        "id": "87636559.e7d008",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
-        "order": 12,
+        "order": 11,
         "width": 1,
         "height": 1
     },
     {
-        "id": "b25f2eb.f39cfd",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "8d4aab9b.4d6328",
-        "order": 14,
-        "width": 5,
-        "height": 1
-    },
-    {
-        "id": "cc11758f.42ef88",
+        "id": "ac0dc668.5febb8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
         "order": 7,
         "width": 4,
-        "height": 1
-    },
-    {
-        "id": "951218a4.b8e6b8",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "45199dde.854f64",
-        "order": 9,
-        "width": 2,
         "height": 1
     },
     {
@@ -2394,7 +2376,7 @@
         "label": "<i class=\"fa fa-lightbulb-o\"></i> Grow lights",
         "tooltip": "Led",
         "group": "45199dde.854f64",
-        "order": 8,
+        "order": 5,
         "width": 3,
         "height": 1,
         "passthru": true,
@@ -2890,7 +2872,7 @@
         "label": "<i class=\"fa fa-angle-double-up\"></i> Nutriments",
         "tooltip": "",
         "group": "8d4aab9b.4d6328",
-        "order": 8,
+        "order": 7,
         "width": 5,
         "height": 1,
         "passthru": true,
@@ -2936,7 +2918,7 @@
         "type": "ui_led",
         "z": "1d22c714.e50369",
         "group": "8d4aab9b.4d6328",
-        "order": 9,
+        "order": 8,
         "width": 2,
         "height": 1,
         "label": "",
@@ -3573,7 +3555,7 @@
         "label": "<i class=\"fa fa-clock-o\"></i>",
         "tooltip": "Nutriments pump duration",
         "group": "8d4aab9b.4d6328",
-        "order": 11,
+        "order": 10,
         "width": 3,
         "height": 1,
         "passthru": true,
@@ -3597,7 +3579,7 @@
         "type": "ui_text",
         "z": "87cb301d.9893c",
         "group": "8d4aab9b.4d6328",
-        "order": 13,
+        "order": 12,
         "width": 2,
         "height": 1,
         "name": "Nutriments timer ",
@@ -4215,7 +4197,7 @@
         "height": 1,
         "name": "LED light",
         "label": "",
-        "format": "<i class=\"fa fa-lightbulb-o\"></i> LED light : {{msg.payload}}",
+        "format": "<i class=\"fa fa-lightbulb-o\"></i> LED light : {{msg.led.total}}",
         "layout": "row-left",
         "x": 400,
         "y": 2060,
@@ -4231,7 +4213,7 @@
         "height": 1,
         "name": "Dark mode",
         "label": "",
-        "format": "<i class=\"fa  fa-moon-o\"></i> Dark mode: {{msg.payload}}",
+        "format": "<i class=\"fa  fa-moon-o\"></i> Dark mode: {{msg.dark.total}}",
         "layout": "row-left",
         "x": 410,
         "y": 2100,
@@ -4242,7 +4224,7 @@
         "type": "function",
         "z": "1d22c714.e50369",
         "name": "",
-        "func": "var timestamp = global.get('sun.total');\n\nfunction format(time) {   \n    // Hours, minutes and seconds\n    var hrs = ~~(time / 3600);\n    var mins = ~~((time % 3600) / 60);\n\n    // Output like \"1:01\" or \"4:03\" or \"123:03\"\n    var ret = \"\";\n    if (hrs > 0) {\n        ret += \"\" + hrs + \" hr \" + (mins < 10 ? \"0\" : \"\");\n    }\n    ret += \"\" + mins + \" min\"\n    return ret;\n}\n\nmsg = {\n    \"sun\": {\n        \"total\": format(timestamp)\n    }\n};\n\n\n var series =[\"Sun light\", \"LED\", \"Dark\"];\n var labels = [\"Sun light\", \"LED\", \"Dark\"];\n var data = [];\n var dataWaterQuality = [];\n var dataWaterPH = [];\n var dataWaterTemperature = [];\n var dataLuminosity = [];\n\n data = [930, 300, (2400-(930+300))];\n    \n msg.payload = [{series, data, labels}];\n\nvar m = {};\nm.labels = [\"Sun light\", \"LED\", \"Darks\"];\nm.data = [[930, 300, (2400-(930+300))]];\nm.series = [\"Total light\"];\nmsg.payload = [m];\nmsg.topic = \"\";\n\n\nreturn msg;",
+        "func": "var timestampSunLight = global.get('sun.total'); // in seconds\nvar totalLight = global.get('seed.totalLight') * 60 * 60; // in seconds\n\nvar ledLight = totalLight - timestampSunLight;\nvar darkMode = 24*60*60 - totalLight;\n\nfunction format(time) {   \n    // Hours, minutes and seconds\n    var hrs = ~~(time / 3600);\n    var mins = ~~((time % 3600) / 60);\n\n    // Output like \"1:01\" or \"4:03\" or \"123:03\"\n    var ret = \"\";\n    if (hrs > 0) {\n        ret += \"\" + hrs + \" hr \" + (mins < 10 ? \"0\" : \"\");\n    }\n    ret += \"\" + mins + \" min\"\n    return ret;\n}\n\nmsg = {\n    \"sun\": {\n        \"total\": format(timestampSunLight)\n    }, \n    \"led\": {\n        \"total\": format(ledLight)\n    },\n    \"dark\" : {\n        \"total\": format(darkMode)\n    }\n};\n\n\n var series =[\"Sun light\", \"LED\", \"Dark\"];\n var labels = [\"Sun light\", \"LED\", \"Dark\"];\n var data = [];\n var dataWaterQuality = [];\n var dataWaterPH = [];\n var dataWaterTemperature = [];\n var dataLuminosity = [];\n\n data = [930, 300, (2400-(930+300))];\n    \n msg.payload = [{series, data, labels}];\n\nvar m = {};\nm.labels = [\"Sun light\", \"LED\", \"Darks\"];\nm.data = [[timestampSunLight, ledLight, darkMode]];\nm.series = [\"Total light\"];\nmsg.payload = [m];\nmsg.topic = \"\";\n\n\nreturn msg;",
         "outputs": 2,
         "noerr": 0,
         "initialize": "",
@@ -4252,7 +4234,9 @@
         "wires": [
             [
                 "8b1e31fb.674d8",
-                "abb9ac18.9b28d"
+                "abb9ac18.9b28d",
+                "40722a2.55018d4",
+                "f29c482.590a3b8"
             ],
             []
         ]
@@ -4335,7 +4319,7 @@
         "label": "<i class=\"fa fa-clock-o\"></i>",
         "tooltip": "Total light",
         "group": "45199dde.854f64",
-        "order": 5,
+        "order": 8,
         "width": 3,
         "height": 1,
         "passthru": true,
@@ -4359,7 +4343,7 @@
         "type": "ui_text",
         "z": "87cb301d.9893c",
         "group": "45199dde.854f64",
-        "order": 7,
+        "order": 9,
         "width": 2,
         "height": 1,
         "name": "Total light duration",
