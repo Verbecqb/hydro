@@ -4204,7 +4204,8 @@
         "y": 2080,
         "wires": [
             [
-                "e30c3f71.9a595"
+                "e30c3f71.9a595",
+                "30af936.cc2606c"
             ],
             [
                 "abb9ac18.9b28d"
@@ -4643,6 +4644,24 @@
         "statusType": "auto",
         "x": 1430,
         "y": 1120,
+        "wires": []
+    },
+    {
+        "id": "30af936.cc2606c",
+        "type": "ui_list",
+        "z": "1d22c714.e50369",
+        "group": "45199dde.854f64",
+        "name": "",
+        "order": 9,
+        "width": 0,
+        "height": 0,
+        "lineType": "two",
+        "actionType": "none",
+        "allowHTML": true,
+        "outputs": 0,
+        "topic": "",
+        "x": 350,
+        "y": 2000,
         "wires": []
     }
 ]
