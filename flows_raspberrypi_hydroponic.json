@@ -576,7 +576,7 @@
         "tab": "352c089f.6b44d8",
         "order": 9,
         "disp": true,
-        "width": 7,
+        "width": 6,
         "collapse": false
     },
     {
@@ -590,7 +590,7 @@
         "collapse": false
     },
     {
-        "id": "eccc4c7d.7502c",
+        "id": "a212e407.e1a398",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "1c37dc0b.ce28e4",
@@ -599,7 +599,7 @@
         "height": 1
     },
     {
-        "id": "30fb2cfd.dac034",
+        "id": "9b273b0.7e8f1c8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "1c37dc0b.ce28e4",
@@ -608,7 +608,7 @@
         "height": 1
     },
     {
-        "id": "bdb874c3.613c28",
+        "id": "29cfe905.b48706",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -617,7 +617,7 @@
         "height": 1
     },
     {
-        "id": "770b5bf5.197f24",
+        "id": "d98a1bf4.1598b8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "65d119b5.66cb78",
@@ -626,7 +626,7 @@
         "height": 1
     },
     {
-        "id": "b96842e7.fca8e",
+        "id": "450b8b6b.56f784",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "65d119b5.66cb78",
@@ -635,7 +635,7 @@
         "height": 1
     },
     {
-        "id": "9615f8b1.56f778",
+        "id": "27110d77.fa9662",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "65d119b5.66cb78",
@@ -644,7 +644,7 @@
         "height": 1
     },
     {
-        "id": "d75f2ff0.6da54",
+        "id": "6ce02ca.a29d9d4",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "65d119b5.66cb78",
@@ -653,7 +653,7 @@
         "height": 1
     },
     {
-        "id": "16f862b0.4e328d",
+        "id": "84396d4c.48aac",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "65d119b5.66cb78",
@@ -662,7 +662,7 @@
         "height": 1
     },
     {
-        "id": "af5d14de.451588",
+        "id": "c05b3285.97dd8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "65d119b5.66cb78",
@@ -671,7 +671,7 @@
         "height": 1
     },
     {
-        "id": "de3606cf.482278",
+        "id": "5f190637.97dee8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "65d119b5.66cb78",
@@ -680,7 +680,7 @@
         "height": 1
     },
     {
-        "id": "120bc229.ff567e",
+        "id": "6517d33.1fbae2c",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "72b67add.961f74",
@@ -689,7 +689,7 @@
         "height": 1
     },
     {
-        "id": "f2d9fb95.bb7248",
+        "id": "902fad93.3fc4b",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -698,7 +698,7 @@
         "height": 1
     },
     {
-        "id": "99e5bd3.8e8614",
+        "id": "e515bce6.f138f",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -707,7 +707,7 @@
         "height": 1
     },
     {
-        "id": "6fa5db2a.5467b4",
+        "id": "ed38f530.1884c8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -716,16 +716,16 @@
         "height": 1
     },
     {
-        "id": "fde2e337.b4beb",
+        "id": "1f4c542f.a2e74c",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
         "order": 3,
-        "width": 2,
+        "width": 1,
         "height": 1
     },
     {
-        "id": "74673bcc.cc2e54",
+        "id": "54ef1d4d.e29bb4",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
@@ -734,7 +734,7 @@
         "height": 1
     },
     {
-        "id": "a1fa6851.5dee78",
+        "id": "7e12ba6b.e59ad4",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
@@ -743,7 +743,7 @@
         "height": 1
     },
     {
-        "id": "fb01145d.3d5928",
+        "id": "9fd0676a.bbd9e8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
@@ -752,7 +752,7 @@
         "height": 1
     },
     {
-        "id": "c44af93d.9f05e8",
+        "id": "7751132d.b02cbc",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
@@ -761,7 +761,7 @@
         "height": 1
     },
     {
-        "id": "ea88d5ab.9bc5d8",
+        "id": "71a30f32.d27b4",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
@@ -770,16 +770,7 @@
         "height": 1
     },
     {
-        "id": "aff3dd02.b3d9b",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "45199dde.854f64",
-        "order": 13,
-        "width": 3,
-        "height": 1
-    },
-    {
-        "id": "b3119fed.225a",
+        "id": "e93f51df.b15df",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "6c15eb0d.8f5814",
@@ -788,7 +779,7 @@
         "height": 1
     },
     {
-        "id": "5f264088.28f22",
+        "id": "3c53df4a.6347c",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "6c15eb0d.8f5814",
@@ -797,7 +788,7 @@
         "height": 1
     },
     {
-        "id": "4c27c140.d4a88",
+        "id": "60f4976b.cff1e8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "6c15eb0d.8f5814",
@@ -2122,8 +2113,8 @@
         "z": "1d22c714.e50369",
         "group": "45199dde.854f64",
         "order": 9,
-        "width": 4,
-        "height": 4,
+        "width": 3,
+        "height": 3,
         "name": "Luminosity",
         "icon": "",
         "label": "",
@@ -2449,7 +2440,7 @@
         "tooltip": "Led",
         "group": "45199dde.854f64",
         "order": 6,
-        "width": 3,
+        "width": 2,
         "height": 1,
         "passthru": true,
         "decouple": "false",
@@ -2681,8 +2672,8 @@
         "type": "ui_text",
         "z": "1d22c714.e50369",
         "group": "45199dde.854f64",
-        "order": 14,
-        "width": 4,
+        "order": 13,
+        "width": 3,
         "height": 1,
         "name": "Last refresh - luminosity",
         "label": "",
@@ -4467,7 +4458,7 @@
         "group": "45199dde.854f64",
         "name": "",
         "order": 4,
-        "width": 4,
+        "width": 3,
         "height": 2,
         "format": "<md-list style=\"margin-top:0px;\">\n  <md-list-item style=\"padding-bottom:15px;padding-left:10px;max-height:10px;min-height:0px;\"\n   ng-repeat = \"(index, item) in msg.payload\">\n        <div class=\"md-list-item-text compact\">\n          <font color=\"{{item.hexColor}}\"> \n              <i class=\"{{item.icon_name}}\"> </i> \n               {{item.title}} {{item.description}}\n          </font> \n        \n        </div>\n       \n </md-list-item>\n \n</md-list>\n\n<md-divider></md-divider>",
         "storeOutMessages": true,
