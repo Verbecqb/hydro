@@ -4495,7 +4495,7 @@
         "fieldType": "msg",
         "format": "html",
         "syntax": "mustache",
-        "template": "\n\n      <font color=\"#FF7F18\">\n          Sunlight :\n      </font>\n \n  \n     <font color=\"#FF7F18\">\n         {{payload.sun.total}}\n     </font>\n  \n<br/>\n     <font color=\"#F5E056\">\n         LED light :\n     </font>\n\n     <font color=\"#F5E056\">\n         {{payload.led.total}}\n     </font>\n    <br/>\n    Dark: <font> {{payload.dark.total}}</font>\n \n <br/>\n <br/>\n <hr style=\"width:50%;\">\n \n     ",
+        "template": "\n\n      <font color=\"#FF7F18\">\n          Sunlight :\n      </font>\n \n  \n     <font color=\"#FF7F18\">\n         {{payload.sun.total}}\n     </font>\n  \n<br/>\n     <font color=\"#F5E056\">\n         LED light :\n     </font>\n\n     <font color=\"#F5E056\">\n         {{payload.led.total}}\n     </font>\n    <br/>\n    Dark: <font> {{payload.dark.total}}</font>\n \n <br/>\n <br/>\n <hr style=\"width:20%;\">\n \n     ",
         "output": "str",
         "x": 360,
         "y": 2040,
