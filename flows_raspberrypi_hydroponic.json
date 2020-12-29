@@ -3995,7 +3995,7 @@
         "type": "function",
         "z": "1d22c714.e50369",
         "name": "Configure water level widget",
-        "func": "msg.payload = parseInt(msg.payload * 100 / 7);\nvar threshold = 40;\n\nmsg.ui_control = {options: {\n    textColor:\"#FFFFFF\", \n    waveTextColor:\"#FFFFFF\", \n    textSize: 0.7,\n    textVertPosition: .6,\n    displayPercent: true,\n    waveColor: (msg.payload > threshold) ? \"#0fbaac\" : \"#cc3300\",\n    //waveAnimate: true,\n    //waveAnimateTime: 200000,\n    //waveCount: 3,\n    waveOffset: 0.25,\n    circleThickness: 0.05,\n    circleColor: (msg.payload > threshold) ? \"#0fbaac\" : \"#cc3300\",\n    valueCountUp: false // disable count up upon loading \n\n }\n};\n\nreturn msg; ",
+        "func": "msg.payload = parseInt(msg.payload * 100 / 7);\nvar threshold = 40;\n\nmsg.ui_control = {options: {\n    textColor:\"#FFFFFF\", \n    waveTextColor:\"#FFFFFF\", \n    textSize: 0.7,\n    textVertPosition: .6,\n    displayPercent: true,\n    waveColor: (msg.payload > threshold) ? \"#0077be\" : \"#cc3300\",\n    //waveAnimate: true,\n    //waveAnimateTime: 200000,\n    //waveCount: 3,\n    waveOffset: 0.25,\n    circleThickness: 0.05,\n    circleColor: (msg.payload > threshold) ? \"#0077be\" : \"#cc3300\",\n    valueCountUp: false // disable count up upon loading \n\n }\n};\n\nreturn msg; ",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
