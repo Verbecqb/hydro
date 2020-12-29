@@ -4515,7 +4515,7 @@
         "type": "function",
         "z": "1d22c714.e50369",
         "name": "",
-        "func": "msg.color = (msg.payload == \"true\") ? \"yellow\" : \"grey\";\nreturn msg;",
+        "func": "msg.color = (msg.payload == \"true\") ? \"orange\" : \"grey\";\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
