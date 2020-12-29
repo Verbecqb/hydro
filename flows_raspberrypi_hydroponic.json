@@ -637,7 +637,7 @@
         "icon": "dashboard"
     },
     {
-        "id": "3b939793.0aecd8",
+        "id": "b65da727.62db18",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "1c37dc0b.ce28e4",
@@ -646,7 +646,7 @@
         "height": 1
     },
     {
-        "id": "75fa2498.ca07fc",
+        "id": "13c7ee9c.292641",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "1c37dc0b.ce28e4",
@@ -655,7 +655,7 @@
         "height": 1
     },
     {
-        "id": "f6681970.0cb288",
+        "id": "f214d0af.2b82e",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -664,7 +664,7 @@
         "height": 1
     },
     {
-        "id": "a6c8744b.0d4828",
+        "id": "d8025073.ca3ad",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "72b67add.961f74",
@@ -673,7 +673,7 @@
         "height": 1
     },
     {
-        "id": "cdbd11e7.178c9",
+        "id": "475d32db.4ff13c",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -682,7 +682,7 @@
         "height": 1
     },
     {
-        "id": "81e210f0.72872",
+        "id": "33b7739.c578d8c",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -691,7 +691,7 @@
         "height": 1
     },
     {
-        "id": "3aa034ee.c3879c",
+        "id": "610d004b.75c23",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -700,7 +700,7 @@
         "height": 1
     },
     {
-        "id": "2911b325.7e835c",
+        "id": "ab804793.c08378",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -709,7 +709,7 @@
         "height": 1
     },
     {
-        "id": "e65267eb.e18178",
+        "id": "6c9de14c.b4ea1",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
@@ -718,21 +718,30 @@
         "height": 1
     },
     {
-        "id": "4355c918.e99ec8",
+        "id": "2a6ce9db.b7ec36",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
-        "order": 7,
-        "width": 1,
+        "order": 6,
+        "width": 4,
         "height": 1
     },
     {
-        "id": "c367cecc.fcfd8",
+        "id": "45b6086.503b5f8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
-        "order": 11,
-        "width": 1,
+        "order": 9,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "51ca0500.a96b6c",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "45199dde.854f64",
+        "order": 12,
+        "width": 4,
         "height": 1
     },
     {
@@ -2051,7 +2060,7 @@
         "type": "ui_artlessgauge",
         "z": "1d22c714.e50369",
         "group": "45199dde.854f64",
-        "order": 6,
+        "order": 7,
         "width": 3,
         "height": 1,
         "name": "Luminosity",
@@ -2407,7 +2416,7 @@
         "label": "<span style=\"color:blue\">LED light:</span>",
         "tooltip": "Led",
         "group": "45199dde.854f64",
-        "order": 8,
+        "order": 10,
         "width": 4,
         "height": 1,
         "passthru": true,
@@ -2640,8 +2649,8 @@
         "type": "ui_text",
         "z": "1d22c714.e50369",
         "group": "45199dde.854f64",
-        "order": 10,
-        "width": 3,
+        "order": 8,
+        "width": 2,
         "height": 1,
         "name": "Last refresh - luminosity",
         "label": "",
@@ -4350,7 +4359,7 @@
         "label": "<i class=\"fa fa-clock-o\"></i>",
         "tooltip": "Total light",
         "group": "45199dde.854f64",
-        "order": 12,
+        "order": 13,
         "width": 3,
         "height": 1,
         "passthru": true,
@@ -4375,7 +4384,7 @@
         "type": "ui_text",
         "z": "87cb301d.9893c",
         "group": "45199dde.854f64",
-        "order": 13,
+        "order": 14,
         "width": 2,
         "height": 1,
         "name": "Total light duration",
@@ -4459,7 +4468,7 @@
         "type": "ui_text",
         "z": "1d22c714.e50369",
         "group": "45199dde.854f64",
-        "order": 9,
+        "order": 11,
         "width": 1,
         "height": 1,
         "name": "State on",
