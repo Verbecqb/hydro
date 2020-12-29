@@ -4699,7 +4699,7 @@
         "rules": [
             {
                 "t": "set",
-                "p": "payload.timers[1].starttime",
+                "p": "payload.timers[0].starttime",
                 "pt": "msg",
                 "to": "sunset.timestamp",
                 "tot": "global"
@@ -4739,7 +4739,6 @@
         "id": "bd0f3b34.8fff68",
         "type": "file",
         "z": "1d22c714.e50369",
-        "d": true,
         "name": "WriteFile",
         "filename": "/home/pi/.node-red/projects/hydro/time-scheduler.txt",
         "appendNewline": true,
