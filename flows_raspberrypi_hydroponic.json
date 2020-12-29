@@ -442,11 +442,11 @@
                 "accents": "blue",
                 "warn": "red",
                 "background": "grey",
-                "palette": "dark"
+                "palette": "light"
             }
         },
         "site": {
-            "name": "Node-RED Dashboard",
+            "name": "Hydroponic",
             "hideToolbar": "false",
             "allowSwipe": "false",
             "lockMenu": "false",
@@ -578,12 +578,6 @@
         "disp": true,
         "width": 7,
         "collapse": false
-    },
-    {
-        "id": "8eef0cc0.5b1bf",
-        "type": "ui_tab",
-        "name": "Schedulers",
-        "icon": "dashboard"
     },
     {
         "id": "6c15eb0d.8f5814",
