@@ -590,7 +590,7 @@
         "collapse": false
     },
     {
-        "id": "e6691054.3d5e3",
+        "id": "2203987c.59c248",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "1c37dc0b.ce28e4",
@@ -599,7 +599,7 @@
         "height": 1
     },
     {
-        "id": "db404460.5cf678",
+        "id": "8fadabbd.05c9f8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "1c37dc0b.ce28e4",
@@ -608,7 +608,7 @@
         "height": 1
     },
     {
-        "id": "9ff85f46.02334",
+        "id": "792885a9.9498ac",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -617,7 +617,7 @@
         "height": 1
     },
     {
-        "id": "8b75eba0.102f98",
+        "id": "81224cef.cd10f",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "65d119b5.66cb78",
@@ -626,7 +626,7 @@
         "height": 1
     },
     {
-        "id": "bc0b6b51.51a068",
+        "id": "736add17.4d6604",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "65d119b5.66cb78",
@@ -635,7 +635,7 @@
         "height": 1
     },
     {
-        "id": "614726ad.1234b8",
+        "id": "8e61f2f8.c3d28",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "65d119b5.66cb78",
@@ -644,7 +644,7 @@
         "height": 1
     },
     {
-        "id": "7f0d7f45.03aa8",
+        "id": "44e94f74.7f532",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "65d119b5.66cb78",
@@ -653,7 +653,7 @@
         "height": 1
     },
     {
-        "id": "3abb2c4a.a83a04",
+        "id": "8bd80283.15dcb",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "65d119b5.66cb78",
@@ -662,7 +662,7 @@
         "height": 1
     },
     {
-        "id": "3dbd84f0.da2ccc",
+        "id": "91ce3cbe.6c5fa",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "65d119b5.66cb78",
@@ -671,7 +671,7 @@
         "height": 1
     },
     {
-        "id": "b291d96b.7c52d8",
+        "id": "a2c7c21.6a71e4",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "65d119b5.66cb78",
@@ -680,7 +680,7 @@
         "height": 1
     },
     {
-        "id": "805bae1f.6f0cc",
+        "id": "cd5940ad.a9424",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "72b67add.961f74",
@@ -689,7 +689,7 @@
         "height": 1
     },
     {
-        "id": "e79451aa.d4eae",
+        "id": "a93d74dc.e71a38",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -698,7 +698,7 @@
         "height": 1
     },
     {
-        "id": "d0db576e.585aa8",
+        "id": "25a1d484.6603fc",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -707,7 +707,7 @@
         "height": 1
     },
     {
-        "id": "408f46f0.402828",
+        "id": "519023ba.c7fb1c",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -716,7 +716,7 @@
         "height": 1
     },
     {
-        "id": "9c4df34.174831",
+        "id": "d313934e.71a96",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
@@ -725,7 +725,7 @@
         "height": 1
     },
     {
-        "id": "fe2da56e.ce0278",
+        "id": "b653f869.e9bfd8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
@@ -734,20 +734,29 @@
         "height": 1
     },
     {
-        "id": "f8078e1f.e5178",
+        "id": "b4ae1ba4.27d5f8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "6c15eb0d.8f5814",
-        "order": 3,
+        "order": 2,
+        "width": 5,
+        "height": 1
+    },
+    {
+        "id": "30780c65.db65e4",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "6c15eb0d.8f5814",
+        "order": 4,
         "width": 3,
         "height": 1
     },
     {
-        "id": "44355884.faac58",
+        "id": "d49090a0.b8f97",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "6c15eb0d.8f5814",
-        "order": 6,
+        "order": 7,
         "width": 3,
         "height": 1
     },
@@ -2426,7 +2435,7 @@
         "label": "<i class=\"fa fa-tint\"></i> Water spray",
         "tooltip": "",
         "group": "6c15eb0d.8f5814",
-        "order": 4,
+        "order": 5,
         "width": 3,
         "height": 1,
         "passthru": true,
@@ -3858,7 +3867,7 @@
         "label": "<i class=\"fa fa-clock-o\"></i>",
         "tooltip": "Water spray duration",
         "group": "6c15eb0d.8f5814",
-        "order": 7,
+        "order": 8,
         "width": 3,
         "height": 1,
         "passthru": true,
@@ -3883,7 +3892,7 @@
         "type": "ui_text",
         "z": "87cb301d.9893c",
         "group": "6c15eb0d.8f5814",
-        "order": 8,
+        "order": 9,
         "width": 2,
         "height": 1,
         "name": "Water spray duration min value",
@@ -4449,7 +4458,7 @@
         "type": "ui_text",
         "z": "1d22c714.e50369",
         "group": "6c15eb0d.8f5814",
-        "order": 5,
+        "order": 6,
         "width": 2,
         "height": 1,
         "name": "Water spray on/off state",
@@ -4485,9 +4494,9 @@
         "z": "1d22c714.e50369",
         "group": "6c15eb0d.8f5814",
         "name": "",
-        "order": 2,
+        "order": 3,
         "width": 5,
-        "height": 3,
+        "height": 2,
         "format": "<div ng-bind-html=\"msg.payload\"></div>",
         "storeOutMessages": true,
         "fwdInMessages": true,
