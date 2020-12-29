@@ -4185,54 +4185,6 @@
         ]
     },
     {
-        "id": "8b1e31fb.674d8",
-        "type": "ui_text",
-        "z": "1d22c714.e50369",
-        "group": "45199dde.854f64",
-        "order": 2,
-        "width": 5,
-        "height": 1,
-        "name": "Sun light",
-        "label": "<font color=\"#FF7F18\"><i class=\"fa  fa-sun-o\"></i> Sunlight :</front>",
-        "format": "<font color=\"#FF7F18\">{{msg.sun.total}}</front>",
-        "layout": "row-left",
-        "x": 400,
-        "y": 2020,
-        "wires": []
-    },
-    {
-        "id": "40722a2.55018d4",
-        "type": "ui_text",
-        "z": "1d22c714.e50369",
-        "group": "45199dde.854f64",
-        "order": 3,
-        "width": 5,
-        "height": 1,
-        "name": "LED light",
-        "label": "<font color=\"#F5E056\"><i class=\"fa fa-lightbulb-o\"></i> LED light :</font>",
-        "format": "<font color=\"#F5E056\">{{msg.led.total}}</front>",
-        "layout": "row-left",
-        "x": 400,
-        "y": 2060,
-        "wires": []
-    },
-    {
-        "id": "f29c482.590a3b8",
-        "type": "ui_text",
-        "z": "1d22c714.e50369",
-        "group": "45199dde.854f64",
-        "order": 4,
-        "width": 5,
-        "height": 1,
-        "name": "Dark mode",
-        "label": "<i class=\"fa  fa-moon-o\"></i> Dark: ",
-        "format": "{{msg.dark.total}}",
-        "layout": "row-left",
-        "x": 410,
-        "y": 2100,
-        "wires": []
-    },
-    {
         "id": "7b62dc10.8cd624",
         "type": "function",
         "z": "1d22c714.e50369",
@@ -4246,11 +4198,7 @@
         "y": 2080,
         "wires": [
             [
-                "8b1e31fb.674d8",
-                "40722a2.55018d4",
-                "f29c482.590a3b8",
-                "e30c3f71.9a595",
-                "c6ff6796.ce8428"
+                "e30c3f71.9a595"
             ],
             [
                 "abb9ac18.9b28d"
@@ -4321,8 +4269,8 @@
             "#c5b0d5"
         ],
         "outputs": 1,
-        "x": 410,
-        "y": 2200,
+        "x": 390,
+        "y": 2120,
         "wires": [
             []
         ]
@@ -4486,7 +4434,7 @@
         "syntax": "mustache",
         "template": "\n\n      <font color=\"#FF7F18\">\n          <i class=\"fa fa-sun-o\"></i> Sunlight :\n      </font>\n \n  \n     <font color=\"#FF7F18\">\n         {{payload.sun.total}}\n     </font>\n  \n<br/>\n     <font color=\"#F5E056\">\n         <i class=\"fa fa-lightbulb-o\"></i> LED light :\n     </font>\n\n     <font color=\"#F5E056\">\n         {{payload.led.total}}\n     </font>\n    <br/>\n     <i class=\"fa fa-moon-o\"></i> Dark: <font> {{payload.dark.total}}</font>\n</dl>",
         "output": "str",
-        "x": 580,
+        "x": 360,
         "y": 2040,
         "wires": [
             [
@@ -4508,26 +4456,10 @@
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
-        "x": 740,
+        "x": 520,
         "y": 2040,
         "wires": [
             []
         ]
-    },
-    {
-        "id": "c6ff6796.ce8428",
-        "type": "debug",
-        "z": "1d22c714.e50369",
-        "name": "",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "false",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 600,
-        "y": 1960,
-        "wires": []
     }
 ]
