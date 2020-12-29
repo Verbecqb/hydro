@@ -592,7 +592,7 @@
         "icon": "dashboard"
     },
     {
-        "id": "320f012.5c64dfe",
+        "id": "877f03eb.a23c1",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "1c37dc0b.ce28e4",
@@ -601,7 +601,7 @@
         "height": 1
     },
     {
-        "id": "4d3d277c.be95d8",
+        "id": "355f3e99.2e9b22",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "1c37dc0b.ce28e4",
@@ -610,7 +610,7 @@
         "height": 1
     },
     {
-        "id": "a93463ce.a9f31",
+        "id": "f7eab88b.9dcf08",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -619,7 +619,7 @@
         "height": 1
     },
     {
-        "id": "1922a7fb.3e0018",
+        "id": "86af4c88.aea8a",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "72b67add.961f74",
@@ -628,7 +628,7 @@
         "height": 1
     },
     {
-        "id": "9f50445e.ee6078",
+        "id": "68a7b234.5c55ac",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -637,7 +637,7 @@
         "height": 1
     },
     {
-        "id": "55c58fa8.1898a",
+        "id": "b99c3cc.16fb0c",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -646,7 +646,7 @@
         "height": 1
     },
     {
-        "id": "162581ba.4a38ae",
+        "id": "a7d2d58a.3158f8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -655,7 +655,7 @@
         "height": 1
     },
     {
-        "id": "dea6653a.adef38",
+        "id": "c74756d6.50e5d8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -664,7 +664,7 @@
         "height": 1
     },
     {
-        "id": "b65014fd.f0d7f8",
+        "id": "bc9f93b8.57a1a",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
@@ -673,7 +673,7 @@
         "height": 1
     },
     {
-        "id": "b0d3bdb0.9b1c8",
+        "id": "be3c978c.0aa1a8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
@@ -682,7 +682,7 @@
         "height": 1
     },
     {
-        "id": "d8df39bc.e047f8",
+        "id": "bbf58b72.f126e8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
@@ -691,7 +691,7 @@
         "height": 1
     },
     {
-        "id": "a0983391.886f2",
+        "id": "456e8282.09cadc",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
@@ -700,7 +700,7 @@
         "height": 1
     },
     {
-        "id": "8f64e9ee.b85aa8",
+        "id": "27c6dfb3.938b5",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
@@ -709,7 +709,7 @@
         "height": 1
     },
     {
-        "id": "8b5244f.8b1eab8",
+        "id": "bf17d9bb.c053c8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
@@ -4498,9 +4498,9 @@
         "z": "1d22c714.e50369",
         "group": "45199dde.854f64",
         "name": "",
-        "order": 9,
-        "width": 0,
-        "height": 0,
+        "order": 16,
+        "width": 9,
+        "height": 3,
         "format": "<div ng-bind-html=\"msg.payload\"></div>",
         "storeOutMessages": true,
         "fwdInMessages": true,
