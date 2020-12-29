@@ -4513,7 +4513,7 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "<i color=\"red\" class=\"fa fa-exclamation-circle\"></i>water level too low",
+        "template": "<i color=\"red\" class=\"fa fa-exclamation-circle\"></i>water level too low\n\npump runs for <span color=\"blue\">5 minutes</span> \nevery <span color=\"blue\">50 minutes</span>",
         "output": "str",
         "x": 360,
         "y": 2340,
