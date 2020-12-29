@@ -4530,5 +4530,44 @@
         "x": 500,
         "y": 2280,
         "wires": []
+    },
+    {
+        "id": "f3b66e1d.ccca9",
+        "type": "template",
+        "z": "1d22c714.e50369",
+        "name": "",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "html",
+        "syntax": "mustache",
+        "template": "<i color=\"red\" class=\"fa fa-exclamation-circle\">water level too low</i>",
+        "output": "str",
+        "x": 360,
+        "y": 2340,
+        "wires": [
+            [
+                "f64b20c.caba7e"
+            ]
+        ]
+    },
+    {
+        "id": "f64b20c.caba7e",
+        "type": "ui_template",
+        "z": "1d22c714.e50369",
+        "group": "6c15eb0d.8f5814",
+        "name": "",
+        "order": 3,
+        "width": 5,
+        "height": 2,
+        "format": "<div ng-bind-html=\"msg.payload\"></div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "x": 520,
+        "y": 2340,
+        "wires": [
+            []
+        ]
     }
 ]
