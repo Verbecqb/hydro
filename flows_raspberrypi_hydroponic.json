@@ -4249,7 +4249,8 @@
                 "8b1e31fb.674d8",
                 "40722a2.55018d4",
                 "f29c482.590a3b8",
-                "e30c3f71.9a595"
+                "e30c3f71.9a595",
+                "c6ff6796.ce8428"
             ],
             [
                 "abb9ac18.9b28d"
@@ -4512,5 +4513,21 @@
         "wires": [
             []
         ]
+    },
+    {
+        "id": "c6ff6796.ce8428",
+        "type": "debug",
+        "z": "1d22c714.e50369",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 600,
+        "y": 1960,
+        "wires": []
     }
 ]
