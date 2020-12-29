@@ -586,51 +586,6 @@
         "order": 2
     },
     {
-        "id": "9b8f575a.b741a8",
-        "type": "ui_group",
-        "name": "Stat",
-        "tab": "8eef0cc0.5b1bf",
-        "order": 2,
-        "disp": false,
-        "width": "6"
-    },
-    {
-        "id": "f0089344.b8ed1",
-        "type": "ui_group",
-        "name": "Ora",
-        "tab": "8eef0cc0.5b1bf",
-        "order": 2,
-        "disp": false,
-        "width": "6"
-    },
-    {
-        "id": "f1a9197e.2dfc88",
-        "type": "ui_group",
-        "name": "Stat1",
-        "tab": "8eef0cc0.5b1bf",
-        "order": 1,
-        "disp": false,
-        "width": "6"
-    },
-    {
-        "id": "f59caa4c.0eb048",
-        "type": "ui_group",
-        "name": "ON OFF scheduler",
-        "tab": "8eef0cc0.5b1bf",
-        "order": 4,
-        "disp": false,
-        "width": "6"
-    },
-    {
-        "id": "236e90ca.4e1d",
-        "type": "ui_group",
-        "name": "Stat2",
-        "tab": "8eef0cc0.5b1bf",
-        "order": 5,
-        "disp": false,
-        "width": "6"
-    },
-    {
         "id": "8eef0cc0.5b1bf",
         "type": "ui_tab",
         "name": "Schedulers",
@@ -4361,34 +4316,6 @@
         ]
     },
     {
-        "id": "c9a5fcab.6996d",
-        "type": "ui_slider",
-        "z": "87cb301d.9893c",
-        "name": "Total light",
-        "label": "<i class=\"fa fa-clock-o\"></i>",
-        "tooltip": "Total light",
-        "group": "45199dde.854f64",
-        "order": 12,
-        "width": 3,
-        "height": 1,
-        "passthru": true,
-        "outs": "all",
-        "topic": "",
-        "min": "0",
-        "max": "24",
-        "step": "1",
-        "x": 781,
-        "y": 260,
-        "wires": [
-            [
-                "cb63798e.fcba98",
-                "9cd5273c.8a7168",
-                "7f12ae51.caa38",
-                "a3e3f133.15036"
-            ]
-        ]
-    },
-    {
         "id": "cb63798e.fcba98",
         "type": "ui_text",
         "z": "87cb301d.9893c",
@@ -4400,7 +4327,7 @@
         "label": "",
         "format": "{{msg.payload}} hours.",
         "layout": "row-center",
-        "x": 991,
+        "x": 1110,
         "y": 260,
         "wires": []
     },
@@ -4414,7 +4341,7 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 1001,
+        "x": 1120,
         "y": 300,
         "wires": [
             []
@@ -4426,7 +4353,7 @@
         "z": "87cb301d.9893c",
         "name": "seed.totalLight",
         "storageNode": "217cc961.603ce6",
-        "x": 981,
+        "x": 1100,
         "y": 340,
         "wires": []
     },
@@ -4440,7 +4367,7 @@
         "y": 260,
         "wires": [
             [
-                "c9a5fcab.6996d"
+                "38dad879.083c28"
             ]
         ]
     },
@@ -4452,7 +4379,7 @@
         "links": [
             "3dfc5ff2.440c6"
         ],
-        "x": 916,
+        "x": 1035,
         "y": 220,
         "wires": []
     },
@@ -4503,6 +4430,53 @@
         "wires": [
             [
                 "8a33db55.7d1068"
+            ]
+        ]
+    },
+    {
+        "id": "f50badb3.8eccf",
+        "type": "ui_numeric",
+        "z": "87cb301d.9893c",
+        "name": "Total light",
+        "label": "<i class=\"fa fa-clock-o\"></i>",
+        "tooltip": "Total light",
+        "group": "45199dde.854f64",
+        "order": 15,
+        "width": 0,
+        "height": 0,
+        "wrap": false,
+        "passthru": true,
+        "topic": "",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "24",
+        "step": 1,
+        "x": 860,
+        "y": 260,
+        "wires": [
+            [
+                "a3e3f133.15036",
+                "cb63798e.fcba98",
+                "9cd5273c.8a7168",
+                "7f12ae51.caa38"
+            ]
+        ]
+    },
+    {
+        "id": "38dad879.083c28",
+        "type": "function",
+        "z": "87cb301d.9893c",
+        "name": "Configure widget",
+        "func": "var minValue = global.get('sun.total') || 1;\nmsg.UI_control = {min:5};\n\nreturn msg; ",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 770,
+        "y": 320,
+        "wires": [
+            [
+                "f50badb3.8eccf"
             ]
         ]
     }
