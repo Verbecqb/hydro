@@ -491,11 +491,11 @@
     {
         "id": "8d4aab9b.4d6328",
         "type": "ui_group",
-        "name": "Seed tray - Devices",
+        "name": "Seed tray - Nutriments",
         "tab": "352c089f.6b44d8",
         "order": 8,
         "disp": true,
-        "width": 7,
+        "width": "7",
         "collapse": false
     },
     {
@@ -2880,11 +2880,12 @@
         "qos": "0",
         "datatype": "auto",
         "broker": "a0e631b8.d383b",
-        "x": 210,
-        "y": 1700,
+        "x": 170,
+        "y": 2480,
         "wires": [
             [
-                "2617b5f9.5aa3da"
+                "2617b5f9.5aa3da",
+                "222cf8a.db51b08"
             ]
         ]
     },
@@ -2913,8 +2914,8 @@
         ],
         "allowColorForValueInMessage": false,
         "name": "Nutriments",
-        "x": 390,
-        "y": 1700,
+        "x": 350,
+        "y": 2480,
         "wires": []
     },
     {
@@ -4733,5 +4734,39 @@
         "x": 830,
         "y": 1700,
         "wires": []
+    },
+    {
+        "id": "aadaca25.5f3598",
+        "type": "ui_text",
+        "z": "1d22c714.e50369",
+        "group": "8d4aab9b.4d6328",
+        "order": 6,
+        "width": 1,
+        "height": 1,
+        "name": "Nutriments pump on/off state",
+        "label": "<font color=\"{{msg.color}}\"><i class=\"fa fa-battery-half  fa-2x\"></i></front>",
+        "format": "",
+        "layout": "row-spread",
+        "x": 590,
+        "y": 2520,
+        "wires": []
+    },
+    {
+        "id": "222cf8a.db51b08",
+        "type": "function",
+        "z": "1d22c714.e50369",
+        "name": "Set color",
+        "func": "msg.color = (msg.payload == \"true\") ? \"purple\" : \"grey\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 350,
+        "y": 2520,
+        "wires": [
+            [
+                "aadaca25.5f3598"
+            ]
+        ]
     }
 ]
