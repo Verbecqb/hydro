@@ -4503,7 +4503,7 @@
         "width": 5,
         "height": 1,
         "name": "State on",
-        "label": "<font color=\"{{msg.color}}\"><i class=\"fa  fa-lightbulb-o\"></i></front>",
+        "label": "<font color=\"{{msg.color}}\"><i class=\"fa  fa-lightbulb-o fa-2x\"></i></front>",
         "format": "",
         "layout": "row-spread",
         "x": 520,
