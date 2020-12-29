@@ -4334,7 +4334,8 @@
             [
                 "cb63798e.fcba98",
                 "9cd5273c.8a7168",
-                "7f12ae51.caa38"
+                "7f12ae51.caa38",
+                "a3e3f133.15036"
             ]
         ]
     },
@@ -4391,6 +4392,34 @@
         "wires": [
             [
                 "c9a5fcab.6996d"
+            ]
+        ]
+    },
+    {
+        "id": "a3e3f133.15036",
+        "type": "link out",
+        "z": "87cb301d.9893c",
+        "name": "Change total light slider",
+        "links": [
+            "3dfc5ff2.440c6"
+        ],
+        "x": 1055,
+        "y": 40,
+        "wires": []
+    },
+    {
+        "id": "3dfc5ff2.440c6",
+        "type": "link in",
+        "z": "1d22c714.e50369",
+        "name": "",
+        "links": [
+            "a3e3f133.15036"
+        ],
+        "x": 95,
+        "y": 2080,
+        "wires": [
+            [
+                "7b62dc10.8cd624"
             ]
         ]
     }
