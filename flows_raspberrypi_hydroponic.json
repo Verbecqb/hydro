@@ -1503,11 +1503,11 @@
         "qos": "0",
         "datatype": "auto",
         "broker": "a0e631b8.d383b",
-        "x": 208,
-        "y": 1640,
+        "x": 170,
+        "y": 2280,
         "wires": [
             [
-                "d0f89a7b.d9a8f8"
+                "bde231de.d54eb"
             ]
         ]
     },
@@ -2408,35 +2408,6 @@
         "wires": []
     },
     {
-        "id": "d0f89a7b.d9a8f8",
-        "type": "ui_led",
-        "z": "1d22c714.e50369",
-        "group": "8d4aab9b.4d6328",
-        "order": 2,
-        "width": 2,
-        "height": 1,
-        "label": "",
-        "labelPlacement": "right",
-        "labelAlignment": "right",
-        "colorForValue": [
-            {
-                "color": "red",
-                "value": "false",
-                "valueType": "str"
-            },
-            {
-                "color": "green",
-                "value": "true",
-                "valueType": "str"
-            }
-        ],
-        "allowColorForValueInMessage": false,
-        "name": "water spray",
-        "x": 388,
-        "y": 1640,
-        "wires": []
-    },
-    {
         "id": "df864faf.11005",
         "type": "ui_switch",
         "z": "87cb301d.9893c",
@@ -2973,7 +2944,7 @@
         "qos": "0",
         "datatype": "auto",
         "broker": "a0e631b8.d383b",
-        "x": 205,
+        "x": 210,
         "y": 1700,
         "wires": [
             [
@@ -3006,7 +2977,7 @@
         ],
         "allowColorForValueInMessage": false,
         "name": "Nutriments",
-        "x": 385,
+        "x": 390,
         "y": 1700,
         "wires": []
     },
@@ -4516,5 +4487,39 @@
         "wires": [
             []
         ]
+    },
+    {
+        "id": "bde231de.d54eb",
+        "type": "function",
+        "z": "1d22c714.e50369",
+        "name": "",
+        "func": "msg.color = (msg.payload == \"true\") ? \"orange\" : \"grey\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 360,
+        "y": 2280,
+        "wires": [
+            [
+                "b2382129.49d1f"
+            ]
+        ]
+    },
+    {
+        "id": "b2382129.49d1f",
+        "type": "ui_text",
+        "z": "1d22c714.e50369",
+        "group": "6c15eb0d.8f5814",
+        "order": 6,
+        "width": 1,
+        "height": 1,
+        "name": "State on",
+        "label": "<font color=\"{{msg.color}}\"><i class=\"fa  fa-fa-tint fa-2x\"></i></front>",
+        "format": "",
+        "layout": "row-spread",
+        "x": 500,
+        "y": 2280,
+        "wires": []
     }
 ]
