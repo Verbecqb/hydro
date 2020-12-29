@@ -441,7 +441,8 @@
                 "primary": "indigo",
                 "accents": "blue",
                 "warn": "red",
-                "background": "grey"
+                "background": "grey",
+                "palette": "dark"
             }
         },
         "site": {
@@ -449,7 +450,7 @@
             "hideToolbar": "false",
             "allowSwipe": "false",
             "lockMenu": "false",
-            "allowTempTheme": "true",
+            "allowTempTheme": "none",
             "dateFormat": "DD/MM/YYYY",
             "sizes": {
                 "sx": 48,
