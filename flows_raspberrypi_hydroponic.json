@@ -590,7 +590,7 @@
         "collapse": false
     },
     {
-        "id": "d986f328.26416",
+        "id": "f6645799.c5d468",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "1c37dc0b.ce28e4",
@@ -599,7 +599,7 @@
         "height": 1
     },
     {
-        "id": "8acc197d.bfc948",
+        "id": "b3d60d0f.2686d",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "1c37dc0b.ce28e4",
@@ -608,7 +608,7 @@
         "height": 1
     },
     {
-        "id": "ca021932.c7b3b8",
+        "id": "f9055379.7550e",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -617,7 +617,7 @@
         "height": 1
     },
     {
-        "id": "ba9075f5.021b58",
+        "id": "525b9c31.bf7284",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "65d119b5.66cb78",
@@ -626,7 +626,7 @@
         "height": 1
     },
     {
-        "id": "cbe2fd77.1570a",
+        "id": "60511996.beb5a8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "65d119b5.66cb78",
@@ -635,7 +635,7 @@
         "height": 1
     },
     {
-        "id": "8190d1e2.4333",
+        "id": "86aa7569.bb2928",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "65d119b5.66cb78",
@@ -644,7 +644,7 @@
         "height": 1
     },
     {
-        "id": "445d781d.1a85a8",
+        "id": "55f6d366.c5a2ac",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "65d119b5.66cb78",
@@ -653,7 +653,7 @@
         "height": 1
     },
     {
-        "id": "b13236ea.4ec988",
+        "id": "3c235ddf.c30172",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "65d119b5.66cb78",
@@ -662,7 +662,7 @@
         "height": 1
     },
     {
-        "id": "5af9255f.d1293c",
+        "id": "6b65d805.f55ed8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "65d119b5.66cb78",
@@ -671,7 +671,7 @@
         "height": 1
     },
     {
-        "id": "4e66ff4c.0ccb1",
+        "id": "bd5bfdd4.7d4b6",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "65d119b5.66cb78",
@@ -680,7 +680,7 @@
         "height": 1
     },
     {
-        "id": "db17559f.35f448",
+        "id": "a9a8f8ff.83c338",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "72b67add.961f74",
@@ -689,7 +689,7 @@
         "height": 1
     },
     {
-        "id": "c28e00b0.3d33e",
+        "id": "ec232bf1.b425e8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -698,7 +698,7 @@
         "height": 1
     },
     {
-        "id": "f8680fc3.ea44",
+        "id": "46a3fa07.0973e4",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -707,7 +707,7 @@
         "height": 1
     },
     {
-        "id": "8ad16d60.e42d1",
+        "id": "250d3d1f.f66632",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -716,7 +716,7 @@
         "height": 1
     },
     {
-        "id": "5ff8685b.226e98",
+        "id": "c4a49b6b.dabf58",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
@@ -725,34 +725,88 @@
         "height": 1
     },
     {
-        "id": "dbc3801d.fa1bc",
+        "id": "86996938.915a58",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "45199dde.854f64",
+        "order": 5,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "f0fdad65.8ffe6",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
         "order": 8,
-        "width": 4,
+        "width": 3,
         "height": 1
     },
     {
-        "id": "2c219d51.084cd2",
+        "id": "85ea99e7.96e2c8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
-        "order": 9,
-        "width": 4,
+        "order": 10,
+        "width": 1,
         "height": 1
     },
     {
-        "id": "ce46a073.7b46e",
+        "id": "ada00fb1.c0632",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
         "order": 11,
-        "width": 4,
+        "width": 3,
         "height": 1
     },
     {
-        "id": "61d72107.ff032",
+        "id": "62eff295.e7f19c",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "45199dde.854f64",
+        "order": 12,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "6bf7334a.055c6c",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "45199dde.854f64",
+        "order": 13,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "43dfe896.4a7bc8",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "45199dde.854f64",
+        "order": 14,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "462080dc.ca7d8",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "45199dde.854f64",
+        "order": 15,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "c233f18f.d7026",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "45199dde.854f64",
+        "order": 17,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "6c1a43d0.a6c72c",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "6c15eb0d.8f5814",
@@ -761,7 +815,7 @@
         "height": 1
     },
     {
-        "id": "8b197049.86346",
+        "id": "fdb092a7.353f5",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "6c15eb0d.8f5814",
@@ -770,7 +824,7 @@
         "height": 1
     },
     {
-        "id": "7bf20322.fc5c4c",
+        "id": "73a4ebc4.a93fc4",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "6c15eb0d.8f5814",
@@ -2094,7 +2148,7 @@
         "type": "ui_artlessgauge",
         "z": "1d22c714.e50369",
         "group": "45199dde.854f64",
-        "order": 5,
+        "order": 9,
         "width": 3,
         "height": 3,
         "name": "Luminosity",
@@ -2654,7 +2708,7 @@
         "type": "ui_text",
         "z": "1d22c714.e50369",
         "group": "45199dde.854f64",
-        "order": 10,
+        "order": 16,
         "width": 3,
         "height": 1,
         "name": "Last refresh - luminosity",
