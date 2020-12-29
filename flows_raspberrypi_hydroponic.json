@@ -4222,7 +4222,7 @@
         "name": "Sun light",
         "label": "<font color=\"#FF7F18\"><i class=\"fa  fa-sun-o\"></i> Sunlight :</front>",
         "format": "<font color=\"#FF7F18\">{{msg.sun.total}}</front>",
-        "layout": "row-spread",
+        "layout": "row-left",
         "x": 400,
         "y": 2020,
         "wires": []
@@ -4238,7 +4238,7 @@
         "name": "LED light",
         "label": "<font color=\"#F5E056\"><i class=\"fa fa-lightbulb-o\"></i> LED light :</font>",
         "format": "<font color=\"#F5E056\">{{msg.led.total}}</front>",
-        "layout": "row-spread",
+        "layout": "row-left",
         "x": 400,
         "y": 2060,
         "wires": []
@@ -4254,7 +4254,7 @@
         "name": "Dark mode",
         "label": "<i class=\"fa  fa-moon-o\"></i> Dark: ",
         "format": "{{msg.dark.total}}",
-        "layout": "row-spread",
+        "layout": "row-left",
         "x": 410,
         "y": 2100,
         "wires": []
