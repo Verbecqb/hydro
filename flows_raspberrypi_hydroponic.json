@@ -4220,7 +4220,8 @@
         "z": "1d22c714.e50369",
         "name": "Global var - Total day light",
         "links": [
-            "de54877b.8ab618"
+            "de54877b.8ab618",
+            "319aa41.d00645c"
         ],
         "x": 1125,
         "y": 360,
@@ -4720,7 +4721,8 @@
         "y": 2080,
         "wires": [
             [
-                "3a93bf6e.3736"
+                "3a93bf6e.3736",
+                "bd0f3b34.8fff68"
             ]
         ]
     },
@@ -4739,5 +4741,51 @@
         "x": 860,
         "y": 2080,
         "wires": []
+    },
+    {
+        "id": "bd0f3b34.8fff68",
+        "type": "file",
+        "z": "1d22c714.e50369",
+        "name": "WriteFile",
+        "filename": "/home/pi/.node-red/projects/hydro/time-scheduler.txt",
+        "appendNewline": true,
+        "createDir": true,
+        "overwriteFile": "true",
+        "encoding": "none",
+        "x": 860,
+        "y": 2120,
+        "wires": [
+            [
+                "84752e32.a3167"
+            ]
+        ]
+    },
+    {
+        "id": "84752e32.a3167",
+        "type": "link out",
+        "z": "1d22c714.e50369",
+        "name": "Configure seed led scheduler",
+        "links": [
+            "3ca07431.002fec"
+        ],
+        "x": 955,
+        "y": 2120,
+        "wires": []
+    },
+    {
+        "id": "3ca07431.002fec",
+        "type": "link in",
+        "z": "87cb301d.9893c",
+        "name": "",
+        "links": [
+            "84752e32.a3167"
+        ],
+        "x": 205,
+        "y": 100,
+        "wires": [
+            [
+                "8dafbb4d.b18898"
+            ]
+        ]
     }
 ]
