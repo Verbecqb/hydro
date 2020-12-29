@@ -79,7 +79,7 @@
         "type": "ui_group",
         "name": "Sensors",
         "tab": "352c089f.6b44d8",
-        "order": 4,
+        "order": 2,
         "disp": true,
         "width": "6",
         "collapse": false
@@ -564,7 +564,7 @@
         "type": "ui_group",
         "name": "Seed tray - Light",
         "tab": "352c089f.6b44d8",
-        "order": 2,
+        "order": 3,
         "disp": true,
         "width": 7,
         "collapse": false
@@ -574,7 +574,7 @@
         "type": "ui_group",
         "name": "Seed Tray - Water",
         "tab": "352c089f.6b44d8",
-        "order": 3,
+        "order": 4,
         "disp": true,
         "width": 8,
         "collapse": false
