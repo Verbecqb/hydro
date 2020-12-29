@@ -4431,7 +4431,7 @@
         "order": 3,
         "width": 4,
         "height": 2,
-        "format": "<md-list>\n   <md-list-item \n   ng-repeat = \"(index, item) in msg.payload\">\n        <font color=\"{{item.hexColor}}\"> \n          <i class=\"{{item.icon}}\"> </i> \n           {{item.title}} : {{item.description}}\n        </font> \n </md-list-item>\n \n</md-list>\n\n<md-divider md-inset=\"\"></md-divider>",
+        "format": "<md-list>\n    <md-subheader class = \"md-no-sticky\">Test</md-subheader>\n   <md-list-item \n   ng-repeat = \"(index, item) in msg.payload\">\n        <font color=\"{{item.hexColor}}\"> \n          <i class=\"{{item.icon}}\"> </i> \n           {{item.title}} : {{item.description}}\n        </font> \n </md-list-item>\n \n</md-list>\n\n<md-divider md-inset=\"\"></md-divider>",
         "storeOutMessages": true,
         "fwdInMessages": true,
         "resendOnRefresh": true,
