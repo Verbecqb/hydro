@@ -592,7 +592,7 @@
         "icon": "dashboard"
     },
     {
-        "id": "bd4275a3.153bd8",
+        "id": "d2b4bb14.ddca38",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "1c37dc0b.ce28e4",
@@ -601,7 +601,7 @@
         "height": 1
     },
     {
-        "id": "54fb2f3e.370fb",
+        "id": "b1dd15c0.6092c8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "1c37dc0b.ce28e4",
@@ -610,7 +610,7 @@
         "height": 1
     },
     {
-        "id": "c277a457.da9c58",
+        "id": "5fd7a67a.1c9ab8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -619,7 +619,7 @@
         "height": 1
     },
     {
-        "id": "fa65fcd9.d8138",
+        "id": "c1f4d460.3a2d08",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "72b67add.961f74",
@@ -628,7 +628,7 @@
         "height": 1
     },
     {
-        "id": "f5d6a39b.93f7a",
+        "id": "54a00f95.b1c51",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -637,7 +637,7 @@
         "height": 1
     },
     {
-        "id": "46a2fe92.dca96",
+        "id": "56a62f88.8ed7b",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -646,7 +646,7 @@
         "height": 1
     },
     {
-        "id": "c035f2e6.c3b69",
+        "id": "c31a6982.757698",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -655,7 +655,7 @@
         "height": 1
     },
     {
-        "id": "f62062e1.783b7",
+        "id": "21bfcd68.e5c332",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -664,47 +664,65 @@
         "height": 1
     },
     {
-        "id": "412650ef.26916",
+        "id": "79838936.d33578",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
         "order": 6,
-        "width": 6,
-        "height": 1
-    },
-    {
-        "id": "e11d72ac.5518f",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "45199dde.854f64",
-        "order": 7,
         "width": 1,
         "height": 1
     },
     {
-        "id": "3b908538.1c5e1a",
+        "id": "a55f93fb.2297b",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
-        "order": 9,
+        "order": 8,
         "width": 1,
         "height": 1
     },
     {
-        "id": "b913d2c7.837c5",
+        "id": "4b49c32f.e0257c",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
-        "order": 11,
+        "order": 10,
         "width": 1,
         "height": 1
     },
     {
-        "id": "b7fc346b.4649a8",
+        "id": "bf5920a2.deb5b",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "45199dde.854f64",
+        "order": 12,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "bee6800.f20e38",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "45199dde.854f64",
+        "order": 13,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "562e29c5.dc3b58",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
         "order": 15,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "2dd1cbf.381bc34",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "45199dde.854f64",
+        "order": 17,
         "width": 6,
         "height": 1
     },
@@ -2380,7 +2398,7 @@
         "label": "<span style=\"color:blue\">LED light:</span>",
         "tooltip": "Led",
         "group": "45199dde.854f64",
-        "order": 8,
+        "order": 7,
         "width": 3,
         "height": 1,
         "passthru": true,
@@ -2613,7 +2631,7 @@
         "type": "ui_text",
         "z": "1d22c714.e50369",
         "group": "45199dde.854f64",
-        "order": 14,
+        "order": 16,
         "width": 3,
         "height": 1,
         "name": "Last refresh - luminosity",
@@ -4316,22 +4334,6 @@
         ]
     },
     {
-        "id": "cb63798e.fcba98",
-        "type": "ui_text",
-        "z": "87cb301d.9893c",
-        "group": "45199dde.854f64",
-        "order": 13,
-        "width": 2,
-        "height": 1,
-        "name": "Total light duration",
-        "label": "",
-        "format": "{{msg.payload}} hours.",
-        "layout": "row-center",
-        "x": 1250,
-        "y": 260,
-        "wires": []
-    },
-    {
         "id": "9cd5273c.8a7168",
         "type": "function",
         "z": "87cb301d.9893c",
@@ -4341,8 +4343,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 1260,
-        "y": 300,
+        "x": 1200,
+        "y": 260,
         "wires": [
             []
         ]
@@ -4353,8 +4355,8 @@
         "z": "87cb301d.9893c",
         "name": "seed.totalLight",
         "storageNode": "217cc961.603ce6",
-        "x": 1240,
-        "y": 340,
+        "x": 1180,
+        "y": 300,
         "wires": []
     },
     {
@@ -4379,8 +4381,8 @@
         "links": [
             "3dfc5ff2.440c6"
         ],
-        "x": 1095,
-        "y": 200,
+        "x": 1115,
+        "y": 220,
         "wires": []
     },
     {
@@ -4404,7 +4406,7 @@
         "type": "ui_text",
         "z": "1d22c714.e50369",
         "group": "45199dde.854f64",
-        "order": 10,
+        "order": 9,
         "width": 1,
         "height": 1,
         "name": "State on",
@@ -4441,9 +4443,9 @@
         "label": "<i class=\"fa fa-clock-o\"></i>",
         "tooltip": "Total light",
         "group": "45199dde.854f64",
-        "order": 15,
-        "width": 0,
-        "height": 0,
+        "order": 11,
+        "width": 3,
+        "height": 1,
         "wrap": false,
         "passthru": true,
         "topic": "",
@@ -4456,7 +4458,6 @@
         "wires": [
             [
                 "a3e3f133.15036",
-                "cb63798e.fcba98",
                 "9cd5273c.8a7168",
                 "7f12ae51.caa38"
             ]
