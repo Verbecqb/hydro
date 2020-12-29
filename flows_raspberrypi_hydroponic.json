@@ -4299,7 +4299,7 @@
         "removeOlder": 1,
         "removeOlderPoints": "",
         "removeOlderUnit": "3600",
-        "cutout": "90",
+        "cutout": "75",
         "useOneColor": false,
         "useUTC": false,
         "colors": [
