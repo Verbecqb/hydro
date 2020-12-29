@@ -4698,14 +4698,14 @@
         "rules": [
             {
                 "t": "set",
-                "p": "timers[1].starttime",
+                "p": "payload.timers[1].starttime",
                 "pt": "msg",
                 "to": "sunset.timestamp",
                 "tot": "global"
             },
             {
                 "t": "set",
-                "p": "timers[2].starttime",
+                "p": "payload.timers[2].starttime",
                 "pt": "msg",
                 "to": "(global.seed.ledLight)+(global.ledLight)",
                 "tot": "jsonata"
