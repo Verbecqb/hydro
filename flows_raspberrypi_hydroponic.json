@@ -4281,7 +4281,7 @@
         "group": "45199dde.854f64",
         "order": 1,
         "width": 4,
-        "height": 3,
+        "height": "4",
         "label": "",
         "chartType": "pie",
         "legend": "false",
