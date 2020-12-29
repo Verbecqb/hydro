@@ -1026,8 +1026,8 @@
         "qos": "0",
         "datatype": "auto",
         "broker": "a0e631b8.d383b",
-        "x": 170,
-        "y": 1940,
+        "x": 210,
+        "y": 1980,
         "wires": [
             [
                 "e801a157.b40ee"
@@ -4206,7 +4206,6 @@
         "y": 2080,
         "wires": [
             [
-                "72f8c71.9f61438",
                 "e765c1ba.7b85"
             ],
             [
@@ -4279,7 +4278,7 @@
         ],
         "outputs": 1,
         "x": 390,
-        "y": 2120,
+        "y": 2100,
         "wires": [
             []
         ]
@@ -4364,8 +4363,8 @@
         "label": "<font color=\"{{msg.color}}\"><i class=\"fa  fa-lightbulb-o fa-2x\"></i></front>",
         "format": "",
         "layout": "row-spread",
-        "x": 550,
-        "y": 1940,
+        "x": 590,
+        "y": 1980,
         "wires": []
     },
     {
@@ -4378,8 +4377,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 350,
-        "y": 1940,
+        "x": 390,
+        "y": 1980,
         "wires": [
             [
                 "8a33db55.7d1068"
@@ -4447,7 +4446,7 @@
         "resendOnRefresh": true,
         "templateScope": "local",
         "x": 360,
-        "y": 2040,
+        "y": 2060,
         "wires": [
             []
         ]
@@ -4630,20 +4629,82 @@
         "wires": []
     },
     {
-        "id": "72f8c71.9f61438",
+        "id": "e0036bf7.74b318",
+        "type": "file in",
+        "z": "87cb301d.9893c",
+        "name": "ReadFile",
+        "filename": "/home/pi/.node-red/projects/hydro/time-scheduler.txt",
+        "format": "utf8",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "none",
+        "x": 140,
+        "y": 360,
+        "wires": [
+            [
+                "d1a4df30.9ea56"
+            ]
+        ]
+    },
+    {
+        "id": "d1a4df30.9ea56",
+        "type": "json",
+        "z": "87cb301d.9893c",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 270,
+        "y": 360,
+        "wires": [
+            [
+                "70a78068.18bad"
+            ]
+        ]
+    },
+    {
+        "id": "1215f75c.2eba49",
+        "type": "inject",
+        "z": "87cb301d.9893c",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 130,
+        "y": 440,
+        "wires": [
+            [
+                "e0036bf7.74b318"
+            ]
+        ]
+    },
+    {
+        "id": "70a78068.18bad",
         "type": "debug",
-        "z": "1d22c714.e50369",
+        "z": "87cb301d.9893c",
         "name": "",
         "active": true,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
-        "complete": "payload[0]",
-        "targetType": "msg",
+        "complete": "false",
         "statusVal": "",
         "statusType": "auto",
-        "x": 380,
-        "y": 2080,
+        "x": 410,
+        "y": 360,
         "wires": []
     }
 ]
