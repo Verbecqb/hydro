@@ -4195,7 +4195,6 @@
         "y": 2080,
         "wires": [
             [
-                "30af936.cc2606c",
                 "72f8c71.9f61438",
                 "e765c1ba.7b85"
             ],
@@ -4431,12 +4430,12 @@
         "order": 3,
         "width": 4,
         "height": 2,
-        "format": "<md-list>\n    <md-subheader class = \"md-no-sticky\">Test</md-subheader>\n   <md-list-item \n   ng-repeat = \"(index, item) in msg.payload\">\n        <div class = \"md-list-item-text compact\">\n          <font color=\"{{item.hexColor}}\"> \n              <i class=\"{{item.icon}}\"> </i> \n               {{item.title}} : {{item.description}}\n          </font> \n        \n        </div>\n       \n </md-list-item>\n \n</md-list>\n\n<md-divider md-inset=\"\"></md-divider>",
+        "format": "<md-list>\n  <md-list-item \n   ng-repeat = \"(index, item) in msg.payload\">\n        <div class = \"md-list-item-text compact\">\n          <font color=\"{{item.hexColor}}\"> \n              <i class=\"{{item.icon}}\"> </i> \n               {{item.title}} : {{item.description}}\n          </font> \n        \n        </div>\n       \n </md-list-item>\n \n</md-list>\n\n<md-divider md-inset=\"\"></md-divider>",
         "storeOutMessages": true,
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
-        "x": 520,
+        "x": 360,
         "y": 2040,
         "wires": [
             []
@@ -4617,24 +4616,6 @@
         "statusType": "auto",
         "x": 1430,
         "y": 1120,
-        "wires": []
-    },
-    {
-        "id": "30af936.cc2606c",
-        "type": "ui_list",
-        "z": "1d22c714.e50369",
-        "group": "45199dde.854f64",
-        "name": "",
-        "order": 11,
-        "width": 7,
-        "height": 6,
-        "lineType": "two",
-        "actionType": "none",
-        "allowHTML": true,
-        "outputs": 0,
-        "topic": "",
-        "x": 350,
-        "y": 2000,
         "wires": []
     },
     {
