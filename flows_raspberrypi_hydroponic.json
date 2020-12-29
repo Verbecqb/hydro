@@ -827,7 +827,7 @@
                 "b1c0fbbf.8e9c58",
                 "ce4f2657.0c3588",
                 "b8023ba0.969078",
-                "7116d9ef.642a58"
+                "a150ea22.90b8b8"
             ]
         ]
     },
@@ -4153,30 +4153,6 @@
         "wires": []
     },
     {
-        "id": "7116d9ef.642a58",
-        "type": "ui_valuetrail",
-        "z": "1d22c714.e50369",
-        "group": "65d119b5.66cb78",
-        "order": 10,
-        "width": 4,
-        "height": 1,
-        "name": "Water level trail",
-        "label": "",
-        "unit": "",
-        "blur": true,
-        "minmax": true,
-        "showvalue": false,
-        "decimals": "2",
-        "colorLine": "#ff9900",
-        "colorFromTheme": true,
-        "stroke": 2,
-        "property": "payload",
-        "pointcount": 8,
-        "x": 780,
-        "y": 1180,
-        "wires": []
-    },
-    {
         "id": "6c1d8e8.c6bf77",
         "type": "function",
         "z": "1d22c714.e50369",
@@ -4513,9 +4489,9 @@
         "name": "",
         "field": "payload",
         "fieldType": "msg",
-        "format": "html",
+        "format": "handlebars",
         "syntax": "mustache",
-        "template": "<font face=\"Roboto\">\n\n<font color=\"red\" align=\"center\"> <i class=\"fa fa-exclamation-circle\"></i>.  Water level is too low.</font>\n\n<br/><br/>\n\npump runs for <font color=\"#0077be\"> {{global.durationWaterSpray}}</font> \nseconds every  <font color=\"#0077be\">two days</font>\n</font>",
+        "template": "<font face=\"Roboto\">\n    \n{{#if global.get(\"seedTray.water\") < 70}}\n <font color=\"red\" align=\"center\"> <i class=\"fa fa-exclamation-circle\"></i>.  Water level is too low.</font>\n{{/if}} \n\n  \n<br/><br/>\n\npump runs for <font color=\"#0077be\"> {{global.durationWaterSpray}}</font> \nseconds every  <font color=\"#0077be\">two days</font>\n</font>",
         "output": "str",
         "x": 360,
         "y": 2340,
@@ -4600,6 +4576,22 @@
             [
                 "f3b66e1d.ccca9"
             ]
+        ]
+    },
+    {
+        "id": "a150ea22.90b8b8",
+        "type": "function",
+        "z": "1d22c714.e50369",
+        "name": "Global var water level",
+        "func": "global.set(\"seedTray.water.level\", parseInt(msg.payload * 100 / 7));",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 800,
+        "y": 1180,
+        "wires": [
+            []
         ]
     }
 ]
