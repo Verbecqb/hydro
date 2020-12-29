@@ -4698,14 +4698,14 @@
         "rules": [
             {
                 "t": "set",
-                "p": "timers[1].startime",
+                "p": "timers[1].starttime",
                 "pt": "msg",
                 "to": "sunset.timestamp",
                 "tot": "global"
             },
             {
                 "t": "set",
-                "p": "timers[2].startime",
+                "p": "timers[2].starttime",
                 "pt": "msg",
                 "to": "(global.seed.ledLight)+(global.ledLight)",
                 "tot": "jsonata"
@@ -4716,7 +4716,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 640,
+        "x": 660,
         "y": 2080,
         "wires": [
             [
