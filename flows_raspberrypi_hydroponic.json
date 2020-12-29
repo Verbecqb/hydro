@@ -637,7 +637,7 @@
         "icon": "dashboard"
     },
     {
-        "id": "e797dd05.2c7cd",
+        "id": "edc5d2c5.c3984",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "1c37dc0b.ce28e4",
@@ -646,7 +646,7 @@
         "height": 1
     },
     {
-        "id": "552e55b8.01dd8c",
+        "id": "274ebbbc.b63e34",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "1c37dc0b.ce28e4",
@@ -655,7 +655,7 @@
         "height": 1
     },
     {
-        "id": "be656a19.fb1258",
+        "id": "95f73ebf.626dd",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -664,7 +664,7 @@
         "height": 1
     },
     {
-        "id": "c9835045.c6b17",
+        "id": "8b269073.b3718",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "72b67add.961f74",
@@ -673,7 +673,7 @@
         "height": 1
     },
     {
-        "id": "d5bd2d44.e09c8",
+        "id": "605a2cfd.b6c0c4",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -682,7 +682,7 @@
         "height": 1
     },
     {
-        "id": "6f85aae8.082de4",
+        "id": "153c7d5.5cca283",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -691,7 +691,7 @@
         "height": 1
     },
     {
-        "id": "452f33fe.eaa37c",
+        "id": "b7d68bae.06c978",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -700,7 +700,7 @@
         "height": 1
     },
     {
-        "id": "da604de1.bb232",
+        "id": "2ae69d39.9c2db2",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -709,39 +709,30 @@
         "height": 1
     },
     {
-        "id": "220ab37b.68fb2c",
+        "id": "a7c39076.3fcd5",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
-        "order": 8,
-        "width": 9,
-        "height": 1
-    },
-    {
-        "id": "e37b7e36.407da",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "45199dde.854f64",
-        "order": 11,
+        "order": 9,
         "width": 1,
         "height": 1
     },
     {
-        "id": "623ccf47.38884",
+        "id": "91db863a.6bc008",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
-        "order": 13,
-        "width": 4,
+        "order": 11,
+        "width": 2,
         "height": 1
     },
     {
-        "id": "e47604ca.7f73f8",
+        "id": "b4382104.8c20a",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
-        "order": 16,
-        "width": 7,
+        "order": 12,
+        "width": 4,
         "height": 1
     },
     {
@@ -2386,8 +2377,8 @@
         "z": "1d22c714.e50369",
         "d": true,
         "group": "45199dde.854f64",
-        "order": 12,
-        "width": 2,
+        "order": 8,
+        "width": 3,
         "height": 1,
         "label": "",
         "labelPlacement": "right",
@@ -4263,8 +4254,8 @@
         "type": "ui_text",
         "z": "1d22c714.e50369",
         "group": "45199dde.854f64",
-        "order": 3,
-        "width": 2,
+        "order": 6,
+        "width": 5,
         "height": 1,
         "name": "LED light",
         "label": "<i class=\"fa fa-lightbulb-o\"></i> LED light :",
@@ -4279,7 +4270,7 @@
         "type": "ui_text",
         "z": "1d22c714.e50369",
         "group": "45199dde.854f64",
-        "order": 9,
+        "order": 7,
         "width": 5,
         "height": 1,
         "name": "Dark mode",
@@ -4390,7 +4381,7 @@
         "label": "<i class=\"fa fa-clock-o\"></i>",
         "tooltip": "Total light",
         "group": "45199dde.854f64",
-        "order": 14,
+        "order": 13,
         "width": 3,
         "height": 1,
         "passthru": true,
@@ -4415,7 +4406,7 @@
         "type": "ui_text",
         "z": "87cb301d.9893c",
         "group": "45199dde.854f64",
-        "order": 15,
+        "order": 14,
         "width": 2,
         "height": 1,
         "name": "Total light duration",
@@ -4499,8 +4490,8 @@
         "type": "ui_text",
         "z": "1d22c714.e50369",
         "group": "45199dde.854f64",
-        "order": 6,
-        "width": 5,
+        "order": 3,
+        "width": 2,
         "height": 1,
         "name": "State on",
         "label": "<font color=\"{{msg.color}}\"><i class=\"fa  fa-lightbulb-o fa-2x\"></i></front>",
