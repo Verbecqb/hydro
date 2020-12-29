@@ -4513,7 +4513,7 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "<i class=\"fa fa-exclamation-circle\"></i>water level too low",
+        "template": "<i color=\"red\" class=\"fa fa-exclamation-circle\"></i>water level too low",
         "output": "str",
         "x": 360,
         "y": 2340,
