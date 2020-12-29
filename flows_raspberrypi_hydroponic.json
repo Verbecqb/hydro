@@ -590,7 +590,7 @@
         "collapse": false
     },
     {
-        "id": "3f9a73ca.58ea8c",
+        "id": "6dc886f0.2066f8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "1c37dc0b.ce28e4",
@@ -599,7 +599,7 @@
         "height": 1
     },
     {
-        "id": "d340349d.3a46d8",
+        "id": "534813c9.a7782c",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "1c37dc0b.ce28e4",
@@ -608,7 +608,7 @@
         "height": 1
     },
     {
-        "id": "dd3f5c3.05b59a",
+        "id": "b4e22315.1070a",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -617,7 +617,7 @@
         "height": 1
     },
     {
-        "id": "a6416325.6b4c7",
+        "id": "6372c70a.4d9588",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "65d119b5.66cb78",
@@ -626,7 +626,7 @@
         "height": 1
     },
     {
-        "id": "d1b86e35.1a047",
+        "id": "5945091e.51c898",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "65d119b5.66cb78",
@@ -635,7 +635,7 @@
         "height": 1
     },
     {
-        "id": "950455c6.65c1d8",
+        "id": "6d8cb6b0.093ea8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "65d119b5.66cb78",
@@ -644,7 +644,7 @@
         "height": 1
     },
     {
-        "id": "20c00cc9.d76a74",
+        "id": "5faa70aa.a4c5c",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "65d119b5.66cb78",
@@ -653,7 +653,7 @@
         "height": 1
     },
     {
-        "id": "43990ded.768304",
+        "id": "c4f74e84.0f5a1",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "65d119b5.66cb78",
@@ -662,7 +662,7 @@
         "height": 1
     },
     {
-        "id": "529d6c64.361c84",
+        "id": "3564e75d.3dc4e8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "65d119b5.66cb78",
@@ -671,7 +671,7 @@
         "height": 1
     },
     {
-        "id": "17dcd00e.99955",
+        "id": "4597b768.c33528",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "65d119b5.66cb78",
@@ -680,7 +680,7 @@
         "height": 1
     },
     {
-        "id": "b7fb53e5.bd9f",
+        "id": "f1febb02.29a7f8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "72b67add.961f74",
@@ -689,7 +689,7 @@
         "height": 1
     },
     {
-        "id": "b251b825.3a8628",
+        "id": "fb026c9e.db738",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -698,7 +698,7 @@
         "height": 1
     },
     {
-        "id": "7acab6ff.45f4c8",
+        "id": "f0f741f4.262f1",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -707,7 +707,7 @@
         "height": 1
     },
     {
-        "id": "dcd1aa28.b8af98",
+        "id": "25abc25d.982a1e",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -716,34 +716,25 @@
         "height": 1
     },
     {
-        "id": "d9a69eff.a1fb8",
+        "id": "6d8eeb72.367604",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
-        "order": 2,
-        "width": 4,
-        "height": 1
-    },
-    {
-        "id": "5d1a62b1.7d8f6c",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "45199dde.854f64",
-        "order": 8,
+        "order": 7,
         "width": 1,
         "height": 1
     },
     {
-        "id": "8742f608.754d08",
+        "id": "b5bcf1fb.7e3cc",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
-        "order": 10,
+        "order": 9,
         "width": 1,
         "height": 1
     },
     {
-        "id": "43e81534.1df0fc",
+        "id": "107cb991.8d2196",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "6c15eb0d.8f5814",
@@ -752,7 +743,7 @@
         "height": 1
     },
     {
-        "id": "4fa63b16.c9ce84",
+        "id": "745e9da3.c8afb4",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "6c15eb0d.8f5814",
@@ -761,7 +752,7 @@
         "height": 1
     },
     {
-        "id": "f222fdfc.e788d",
+        "id": "57254266.b7836c",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "6c15eb0d.8f5814",
@@ -2085,7 +2076,7 @@
         "type": "ui_artlessgauge",
         "z": "1d22c714.e50369",
         "group": "45199dde.854f64",
-        "order": 4,
+        "order": 3,
         "width": 3,
         "height": 3,
         "name": "Luminosity",
@@ -2412,7 +2403,7 @@
         "label": "LED light",
         "tooltip": "Led",
         "group": "45199dde.854f64",
-        "order": 5,
+        "order": 4,
         "width": 3,
         "height": 1,
         "passthru": true,
@@ -2645,7 +2636,7 @@
         "type": "ui_text",
         "z": "1d22c714.e50369",
         "group": "45199dde.854f64",
-        "order": 9,
+        "order": 8,
         "width": 3,
         "height": 1,
         "name": "Last refresh - luminosity",
@@ -4349,7 +4340,7 @@
         "type": "ui_text",
         "z": "1d22c714.e50369",
         "group": "45199dde.854f64",
-        "order": 6,
+        "order": 5,
         "width": 1,
         "height": 1,
         "name": "Lamp on/off state",
@@ -4386,7 +4377,7 @@
         "label": "<i class=\"fa fa-clock-o\"></i>",
         "tooltip": "Total light",
         "group": "45199dde.854f64",
-        "order": 7,
+        "order": 6,
         "width": 3,
         "height": 1,
         "wrap": false,
@@ -4430,10 +4421,10 @@
         "z": "1d22c714.e50369",
         "group": "45199dde.854f64",
         "name": "",
-        "order": 3,
+        "order": 2,
         "width": 4,
-        "height": 2,
-        "format": "<md-list>\n  <md-list-item style=\"padding:10px;max-height:10px;min-height:0px;\"\n   ng-repeat = \"(index, item) in msg.payload\">\n        <div class=\"md-list-item-text compact\">\n          <font color=\"{{item.hexColor}}\"> \n              <i class=\"{{item.icon}}\"> </i> \n               {{item.title}} : {{item.description}}\n          </font> \n        \n        </div>\n       \n </md-list-item>\n \n</md-list>\n\n<md-divider></md-divider>",
+        "height": 3,
+        "format": "<md-list style=\"padding-top:15px;>\n  <md-list-item style=\"padding:10px;max-height:10px;min-height:0px;\"\n   ng-repeat = \"(index, item) in msg.payload\">\n        <div class=\"md-list-item-text compact\">\n          <font color=\"{{item.hexColor}}\"> \n              <i class=\"{{item.icon}}\"> </i> \n               {{item.title}} : {{item.description}}\n          </font> \n        \n        </div>\n       \n </md-list-item>\n \n</md-list>\n\n<md-divider></md-divider>",
         "storeOutMessages": true,
         "fwdInMessages": true,
         "resendOnRefresh": true,
