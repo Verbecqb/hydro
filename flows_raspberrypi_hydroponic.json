@@ -4502,7 +4502,7 @@
         "type": "function",
         "z": "1d22c714.e50369",
         "name": "",
-        "func": "msg.color = (msg.payload == \"true\") ? \"orange\" : \"grey\";\nreturn msg;",
+        "func": "msg.color = (msg.payload == \"true\") ? \"#0fbaac\" : \"grey\";\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -4511,8 +4511,7 @@
         "y": 2280,
         "wires": [
             [
-                "b2382129.49d1f",
-                "3aaf7303.5a3bbc"
+                "b2382129.49d1f"
             ]
         ]
     },
@@ -4530,22 +4529,6 @@
         "layout": "row-spread",
         "x": 500,
         "y": 2280,
-        "wires": []
-    },
-    {
-        "id": "3aaf7303.5a3bbc",
-        "type": "debug",
-        "z": "1d22c714.e50369",
-        "name": "",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "false",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 560,
-        "y": 2240,
         "wires": []
     }
 ]
