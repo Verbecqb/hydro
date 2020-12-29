@@ -4703,13 +4703,6 @@
                 "pt": "msg",
                 "to": "sunset.timestamp",
                 "tot": "global"
-            },
-            {
-                "t": "set",
-                "p": "payload.timers[2].starttime",
-                "pt": "msg",
-                "to": "(global.seed.ledLight)+(global.ledLight)",
-                "tot": "jsonata"
             }
         ],
         "action": "",
@@ -4717,7 +4710,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 660,
+        "x": 720,
         "y": 2080,
         "wires": [
             [
