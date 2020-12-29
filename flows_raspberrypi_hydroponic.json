@@ -1992,7 +1992,7 @@
         "z": "1d22c714.e50369",
         "group": "45199dde.854f64",
         "order": 5,
-        "width": 4,
+        "width": "3",
         "height": 1,
         "name": "Luminosity",
         "icon": "fa-fire",
