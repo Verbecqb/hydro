@@ -4649,12 +4649,14 @@
         "width": 0,
         "height": 0,
         "lineType": "one",
-        "actionType": "none",
-        "allowHTML": true,
-        "outputs": 0,
+        "actionType": "switch",
+        "allowHTML": false,
+        "outputs": 1,
         "topic": "",
         "x": 360,
         "y": 2000,
-        "wires": []
+        "wires": [
+            []
+        ]
     }
 ]
