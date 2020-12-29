@@ -4622,7 +4622,8 @@
         "z": "1d22c714.e50369",
         "name": "Refresh template seed tray water",
         "links": [
-            "bbae5ec0.7849"
+            "bbae5ec0.7849",
+            "bec62e16.5d9dc"
         ],
         "x": 175,
         "y": 2400,
@@ -4740,7 +4741,9 @@
         "type": "link out",
         "z": "1d22c714.e50369",
         "name": "",
-        "links": [],
+        "links": [
+            "593527d0.c1f528"
+        ],
         "x": 1405,
         "y": 1180,
         "wires": []
