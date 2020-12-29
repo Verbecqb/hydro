@@ -603,7 +603,7 @@
         "collapse": false
     },
     {
-        "id": "5f015a20.0c5fa4",
+        "id": "7c64cf2c.fa181",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "1c37dc0b.ce28e4",
@@ -612,7 +612,7 @@
         "height": 1
     },
     {
-        "id": "8ae803bf.6f4af",
+        "id": "10756f6f.f29041",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "1c37dc0b.ce28e4",
@@ -621,7 +621,7 @@
         "height": 1
     },
     {
-        "id": "5faa0715.26beb8",
+        "id": "1fd914e8.712c3b",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -630,7 +630,7 @@
         "height": 1
     },
     {
-        "id": "b00844ca.e44d58",
+        "id": "7f8608e0.d56368",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "65d119b5.66cb78",
@@ -639,7 +639,7 @@
         "height": 1
     },
     {
-        "id": "89496ace.4d7468",
+        "id": "b5396d7.0e2229",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "65d119b5.66cb78",
@@ -648,7 +648,7 @@
         "height": 1
     },
     {
-        "id": "7a120a87.2c5df4",
+        "id": "d3a98f4f.24ac9",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "65d119b5.66cb78",
@@ -657,7 +657,7 @@
         "height": 1
     },
     {
-        "id": "dee2c05b.94d08",
+        "id": "1a342186.82747e",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "65d119b5.66cb78",
@@ -666,7 +666,7 @@
         "height": 1
     },
     {
-        "id": "7c6205b1.a8d83c",
+        "id": "13d3b1b5.8923ae",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "65d119b5.66cb78",
@@ -675,7 +675,7 @@
         "height": 1
     },
     {
-        "id": "439d3dc2.f7b5a4",
+        "id": "47f5bc9c.dc5af4",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "65d119b5.66cb78",
@@ -684,7 +684,7 @@
         "height": 1
     },
     {
-        "id": "8aa9536b.22409",
+        "id": "b4c189c2.1a9c48",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "65d119b5.66cb78",
@@ -693,7 +693,7 @@
         "height": 1
     },
     {
-        "id": "3062f9f3.7d84c6",
+        "id": "1d3481dc.e465de",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "72b67add.961f74",
@@ -702,7 +702,7 @@
         "height": 1
     },
     {
-        "id": "6b7093a4.0b580c",
+        "id": "2f23970e.7e7438",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -711,7 +711,7 @@
         "height": 1
     },
     {
-        "id": "1caaf290.54bf9d",
+        "id": "fbe20f93.ee1e7",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -720,7 +720,7 @@
         "height": 1
     },
     {
-        "id": "73c26408.bcbb2c",
+        "id": "92d6488c.9c9e48",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -729,7 +729,7 @@
         "height": 1
     },
     {
-        "id": "858aedd6.3f0f",
+        "id": "1f44e8ed.c1f1a7",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
@@ -738,16 +738,16 @@
         "height": 1
     },
     {
-        "id": "408fab6e.4e23b4",
+        "id": "190fb12a.219f4f",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
-        "order": 3,
+        "order": 4,
         "width": 1,
         "height": 1
     },
     {
-        "id": "9e788eb7.5cdca",
+        "id": "c41dd984.e8e8e8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
@@ -756,52 +756,43 @@
         "height": 1
     },
     {
-        "id": "b5fc9ac.45a6868",
+        "id": "8f0ceca4.aec87",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
-        "order": 7,
+        "order": 9,
         "width": 1,
         "height": 1
     },
     {
-        "id": "8e8cfe37.c95a7",
+        "id": "5651863b.2adbd8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
-        "order": 10,
-        "width": 1,
+        "order": 11,
+        "width": 2,
         "height": 1
     },
     {
-        "id": "459e8f81.56571",
+        "id": "1d2bc389.d05f8c",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
         "order": 12,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "666b875b.8cbb58",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "45199dde.854f64",
-        "order": 13,
         "width": 5,
         "height": 1
     },
     {
-        "id": "34db8e2f.285292",
+        "id": "fb3b8960.889748",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
-        "order": 15,
+        "order": 14,
         "width": 5,
         "height": 1
     },
     {
-        "id": "a0b65de4.6c452",
+        "id": "2a255399.40af2c",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "6c15eb0d.8f5814",
@@ -810,7 +801,7 @@
         "height": 1
     },
     {
-        "id": "5f33cd97.5d74b4",
+        "id": "e608846e.466398",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "6c15eb0d.8f5814",
@@ -2461,7 +2452,7 @@
         "label": "LED light",
         "tooltip": "Led",
         "group": "45199dde.854f64",
-        "order": 8,
+        "order": 7,
         "width": 3,
         "height": 1,
         "passthru": true,
@@ -2694,7 +2685,7 @@
         "type": "ui_text",
         "z": "1d22c714.e50369",
         "group": "45199dde.854f64",
-        "order": 14,
+        "order": 13,
         "width": 3,
         "height": 1,
         "name": "Last refresh - luminosity",
@@ -4397,7 +4388,7 @@
         "type": "ui_text",
         "z": "1d22c714.e50369",
         "group": "45199dde.854f64",
-        "order": 9,
+        "order": 8,
         "width": 1,
         "height": 1,
         "name": "Lamp on/off state",
@@ -4434,7 +4425,7 @@
         "label": "<i class=\"fa fa-clock-o\"></i>",
         "tooltip": "Total light",
         "group": "45199dde.854f64",
-        "order": 11,
+        "order": 10,
         "width": 3,
         "height": 1,
         "wrap": false,
@@ -4481,7 +4472,7 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "<font face=\"Roboto\">\n    \n    <font color=\"#FF7F18\"> \n      <i class=\"fa fa-sun-o\"></i> Sunlight :\n    </font>\n    <font color=\"#FF7F18\"> {{payload.sun.total}}</font>\n     \n    <br/>\n    <font color=\"#F5E056\">\n        <i class=\"fa fa-lightbulb-o\"></i>\n         LED light :\n    </font>\n    <font color=\"#F5E056\">{{payload.led.total}}</font>\n    \n    <br/>\n    \n    <i class=\"fa fa-moon-o\"></i> Dark: <font> {{payload.dark.total}}</font>\n</font>\n  \n<br/><br/>\n<hr style=\"width:20%;\">\n  \n \n     ",
+        "template": "<div style=\"padding-left:20%;\">\n<font face=\"Roboto\">\n    \n    <font color=\"#FF7F18\"> \n      <i class=\"fa fa-sun-o\"></i> Sunlight :\n    </font>\n    <font color=\"#FF7F18\"> {{payload.sun.total}}</font>\n     \n    <br/>\n    <font color=\"#F5E056\">\n        <i class=\"fa fa-lightbulb-o\"></i>\n         LED light :\n    </font>\n    <font color=\"#F5E056\">{{payload.led.total}}</font>\n    \n    <br/>\n    \n    <i class=\"fa fa-moon-o\"></i> Dark: <font> {{payload.dark.total}}</font>\n</font>\n  \n<br/><br/>\n<hr style=\"width:20%;\">\n \n \n</div>\n \n     ",
         "output": "str",
         "x": 360,
         "y": 2040,
@@ -4497,7 +4488,7 @@
         "z": "1d22c714.e50369",
         "group": "45199dde.854f64",
         "name": "",
-        "order": 4,
+        "order": 3,
         "width": 4,
         "height": 2,
         "format": "<div ng-bind-html=\"msg.payload\"></div>",
