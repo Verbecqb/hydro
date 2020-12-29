@@ -580,7 +580,7 @@
         "collapse": false
     },
     {
-        "id": "100ca618.0bb47a",
+        "id": "6d388539.a91c6c",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "1c37dc0b.ce28e4",
@@ -589,7 +589,7 @@
         "height": 1
     },
     {
-        "id": "d91b0ba6.93d2d8",
+        "id": "f16f471b.c26308",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "1c37dc0b.ce28e4",
@@ -598,7 +598,7 @@
         "height": 1
     },
     {
-        "id": "5c623d2b.8f8604",
+        "id": "f9a6aacb.e8a748",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
@@ -607,25 +607,25 @@
         "height": 1
     },
     {
-        "id": "cb6eb89c.642ab8",
+        "id": "d25911b5.4f976",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
-        "order": 8,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "1e73e113.dfea3f",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "45199dde.854f64",
-        "order": 9,
+        "order": 6,
         "width": 4,
         "height": 1
     },
     {
-        "id": "68896d7b.c03384",
+        "id": "baa33f22.fe7fe",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "45199dde.854f64",
+        "order": 9,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "ab0ba588.3872d8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
@@ -634,7 +634,7 @@
         "height": 1
     },
     {
-        "id": "45c52867.3979a8",
+        "id": "747f9ecc.39998",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
@@ -643,7 +643,7 @@
         "height": 1
     },
     {
-        "id": "b5d99d31.75c39",
+        "id": "c0bcae3f.d138f",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
@@ -652,7 +652,7 @@
         "height": 1
     },
     {
-        "id": "e859f230.a2249",
+        "id": "93116050.11047",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "6c15eb0d.8f5814",
@@ -661,7 +661,7 @@
         "height": 1
     },
     {
-        "id": "1e5a7088.96087f",
+        "id": "c96ddb35.b70b88",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "6c15eb0d.8f5814",
@@ -670,7 +670,7 @@
         "height": 1
     },
     {
-        "id": "102f15cd.49a9da",
+        "id": "3a7b46c0.d5261a",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "6c15eb0d.8f5814",
@@ -679,7 +679,7 @@
         "height": 1
     },
     {
-        "id": "9910b4ea.46f048",
+        "id": "ab9d7cb1.6b94",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -688,7 +688,7 @@
         "height": 1
     },
     {
-        "id": "787bac37.d24174",
+        "id": "2de0ff78.df3aa",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "65d119b5.66cb78",
@@ -697,7 +697,7 @@
         "height": 1
     },
     {
-        "id": "b18e1ea2.195f8",
+        "id": "172eb523.8fbcfb",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "65d119b5.66cb78",
@@ -706,7 +706,7 @@
         "height": 1
     },
     {
-        "id": "235d6dd6.2e19b2",
+        "id": "face7780.0572f8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "65d119b5.66cb78",
@@ -715,7 +715,7 @@
         "height": 1
     },
     {
-        "id": "5f9e1f9b.3aacf",
+        "id": "6bd366bf.ea1c28",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "65d119b5.66cb78",
@@ -724,7 +724,7 @@
         "height": 1
     },
     {
-        "id": "a5f25fb2.bc34b",
+        "id": "26eba782.152f58",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "65d119b5.66cb78",
@@ -733,7 +733,7 @@
         "height": 1
     },
     {
-        "id": "6b9a8d24.81c594",
+        "id": "b00843fa.b1406",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "65d119b5.66cb78",
@@ -742,7 +742,7 @@
         "height": 1
     },
     {
-        "id": "ea676848.355478",
+        "id": "13ac730.b19548d",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "65d119b5.66cb78",
@@ -751,7 +751,7 @@
         "height": 1
     },
     {
-        "id": "d4378eab.c01e7",
+        "id": "57ac5bcd.e562a4",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "72b67add.961f74",
@@ -760,7 +760,7 @@
         "height": 1
     },
     {
-        "id": "8d4a4166.a826f",
+        "id": "77c23c43.3155b4",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -769,7 +769,7 @@
         "height": 1
     },
     {
-        "id": "292d6ce1.77f1f4",
+        "id": "a2afd505.e09568",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -778,7 +778,7 @@
         "height": 1
     },
     {
-        "id": "cdf60ad3.54f4c8",
+        "id": "eeb9e677.ba1168",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -2429,7 +2429,7 @@
         "label": "LED light",
         "tooltip": "Led",
         "group": "45199dde.854f64",
-        "order": 6,
+        "order": 7,
         "width": 2,
         "height": 1,
         "passthru": true,
@@ -4366,7 +4366,7 @@
         "type": "ui_text",
         "z": "1d22c714.e50369",
         "group": "45199dde.854f64",
-        "order": 7,
+        "order": 8,
         "width": 1,
         "height": 1,
         "name": "Lamp on/off state",
@@ -4450,7 +4450,7 @@
         "order": 4,
         "width": 4,
         "height": 3,
-        "format": "<md-list style=\"margin-top:0px;\">\n  <md-list-item style=\"padding-bottom:15px;padding-left:10px;max-height:10px;min-height:0px;\"\n   ng-repeat = \"(index, item) in msg.payload\">\n        <div class=\"md-list-item-text compact\">\n          <font color=\"{{item.hexColor}}\"> \n              <i class=\"{{item.icon_name}}\"> </i> \n               {{item.title}} {{item.description}}\n          </font> \n        \n        </div>\n       \n </md-list-item>\n \n</md-list>\n\n<md-divider></md-divider>",
+        "format": "<md-list style=\"margin-top:0px;\">\n  <md-list-item style=\"padding-bottom:15px;padding-left:10px;\"\n   ng-repeat = \"(index, item) in msg.payload\">\n        <div class=\"md-list-item-text compact\">\n          <font color=\"{{item.hexColor}}\"> \n              <i class=\"{{item.icon_name}}\"> </i> \n               {{item.title}} {{item.description}}\n          </font> \n        \n        </div>\n       \n </md-list-item>\n \n</md-list>\n\n<md-divider></md-divider>",
         "storeOutMessages": true,
         "fwdInMessages": true,
         "resendOnRefresh": true,
