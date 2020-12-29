@@ -580,13 +580,6 @@
         "collapse": false
     },
     {
-        "id": "d7901f40.2659d",
-        "type": "ui_tab",
-        "name": "Charts",
-        "icon": "dashboard",
-        "order": 2
-    },
-    {
         "id": "8eef0cc0.5b1bf",
         "type": "ui_tab",
         "name": "Schedulers",
