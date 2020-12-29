@@ -574,7 +574,7 @@
         "type": "ui_group",
         "name": "Seed Tray - Water",
         "tab": "352c089f.6b44d8",
-        "order": 10,
+        "order": 3,
         "disp": true,
         "width": 8,
         "collapse": false
