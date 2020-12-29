@@ -2064,7 +2064,7 @@
         "width": 3,
         "height": 1,
         "name": "Luminosity",
-        "icon": "fa-fire",
+        "icon": "",
         "label": "",
         "unit": "Lux",
         "layout": "linear",
