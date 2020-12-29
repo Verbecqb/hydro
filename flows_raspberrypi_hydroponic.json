@@ -596,7 +596,7 @@
         "collapse": false
     },
     {
-        "id": "8ac1ce4f.c809f",
+        "id": "4bdfcd04.c7faa4",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "1c37dc0b.ce28e4",
@@ -605,7 +605,7 @@
         "height": 1
     },
     {
-        "id": "38db4aeb.0814f6",
+        "id": "da3ed7e8.c51f88",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "1c37dc0b.ce28e4",
@@ -614,7 +614,7 @@
         "height": 1
     },
     {
-        "id": "e64b40a8.bceed",
+        "id": "561adf51.ba686",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -623,7 +623,7 @@
         "height": 1
     },
     {
-        "id": "b1d4e4de.d72ee8",
+        "id": "ab07944e.9cae48",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "65d119b5.66cb78",
@@ -632,7 +632,7 @@
         "height": 1
     },
     {
-        "id": "1233ea8c.469645",
+        "id": "af26b2a4.c7e78",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "65d119b5.66cb78",
@@ -641,7 +641,7 @@
         "height": 1
     },
     {
-        "id": "fdf2aebc.2def8",
+        "id": "9c355b30.8cca68",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "65d119b5.66cb78",
@@ -650,7 +650,7 @@
         "height": 1
     },
     {
-        "id": "e28ac81a.b56d18",
+        "id": "b70f2d08.82ab3",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "65d119b5.66cb78",
@@ -659,7 +659,7 @@
         "height": 1
     },
     {
-        "id": "1dbb9d5d.9ced23",
+        "id": "4a4946c3.9c0148",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "65d119b5.66cb78",
@@ -668,7 +668,7 @@
         "height": 1
     },
     {
-        "id": "b57aa1dc.398a",
+        "id": "78635b0a.d23984",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "65d119b5.66cb78",
@@ -677,7 +677,7 @@
         "height": 1
     },
     {
-        "id": "9dea186a.b8f728",
+        "id": "81df475.67c36b8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "65d119b5.66cb78",
@@ -686,7 +686,7 @@
         "height": 1
     },
     {
-        "id": "e9426b83.bc4a48",
+        "id": "98d287d1.bf4e98",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "72b67add.961f74",
@@ -695,7 +695,7 @@
         "height": 1
     },
     {
-        "id": "815bd3ec.65d9",
+        "id": "9eb3b21d.5a604",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -704,7 +704,7 @@
         "height": 1
     },
     {
-        "id": "f62b3b3c.6f43b8",
+        "id": "ad18af57.461a6",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -713,7 +713,7 @@
         "height": 1
     },
     {
-        "id": "abca0db9.c9f3c",
+        "id": "3f682c1a.46e924",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -722,34 +722,25 @@
         "height": 1
     },
     {
-        "id": "8ddf67a0.ef2088",
+        "id": "e651e0e8.5c034",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
-        "order": 2,
-        "width": 4,
-        "height": 1
-    },
-    {
-        "id": "5630f8e0.f4d2a8",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "45199dde.854f64",
-        "order": 8,
+        "order": 7,
         "width": 1,
         "height": 1
     },
     {
-        "id": "5b55bb02.193d84",
+        "id": "73174b54.eabeb4",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
-        "order": 10,
+        "order": 9,
         "width": 1,
         "height": 1
     },
     {
-        "id": "8f022b05.3fda58",
+        "id": "1ca68914.a42997",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "6c15eb0d.8f5814",
@@ -758,7 +749,7 @@
         "height": 1
     },
     {
-        "id": "2378dbef.3acae4",
+        "id": "b33c01b9.68ac4",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "6c15eb0d.8f5814",
@@ -2082,7 +2073,7 @@
         "type": "ui_artlessgauge",
         "z": "1d22c714.e50369",
         "group": "45199dde.854f64",
-        "order": 4,
+        "order": 3,
         "width": 3,
         "height": 3,
         "name": "Luminosity",
@@ -2409,7 +2400,7 @@
         "label": "LED light",
         "tooltip": "Led",
         "group": "45199dde.854f64",
-        "order": 5,
+        "order": 4,
         "width": 3,
         "height": 1,
         "passthru": true,
@@ -2642,7 +2633,7 @@
         "type": "ui_text",
         "z": "1d22c714.e50369",
         "group": "45199dde.854f64",
-        "order": 9,
+        "order": 8,
         "width": 3,
         "height": 1,
         "name": "Last refresh - luminosity",
@@ -4346,7 +4337,7 @@
         "type": "ui_text",
         "z": "1d22c714.e50369",
         "group": "45199dde.854f64",
-        "order": 6,
+        "order": 5,
         "width": 1,
         "height": 1,
         "name": "Lamp on/off state",
@@ -4383,7 +4374,7 @@
         "label": "<i class=\"fa fa-clock-o\"></i>",
         "tooltip": "Total light",
         "group": "45199dde.854f64",
-        "order": 7,
+        "order": 6,
         "width": 3,
         "height": 1,
         "wrap": false,
@@ -4427,9 +4418,9 @@
         "z": "1d22c714.e50369",
         "group": "45199dde.854f64",
         "name": "",
-        "order": 3,
+        "order": 2,
         "width": 4,
-        "height": 2,
+        "height": 3,
         "format": "<md-list>\n  <md-list-item \n   ng-repeat = \"(index, item) in msg.payload\">\n        <div class=\"md-list-item-text compact\">\n          <font color=\"{{item.hexColor}}\"> \n              <i class=\"{{item.icon}}\"> </i> \n               {{item.title}} : {{item.description}}\n          </font> \n        \n        </div>\n       \n </md-list-item>\n \n</md-list>\n\n<md-divider md-inset=\"\"></md-divider>",
         "storeOutMessages": true,
         "fwdInMessages": true,
