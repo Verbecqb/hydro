@@ -5095,7 +5095,7 @@
         "once": false,
         "onceDelay": 0.1,
         "topic": "",
-        "payload": "125",
+        "payload": "500",
         "payloadType": "str",
         "x": 380,
         "y": 420,
