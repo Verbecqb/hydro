@@ -5035,7 +5035,7 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "<md-card>\n  <div md-card-image class=\"example-header-image\"></div>\n  <md-card-content>\n    <p>\n      Solution A pump runs for <font color=\"#purple\"> {{global.nutriments.solutionA.pump.duration}}</font>  \n      when PPM is below  <font color=\"#0077be\">{{global.minPPM}}</font>\n    </p>\n  </md-card-content>\n</md-card>",
+        "template": "<md-card>\n  <div md-card-image class=\"example-header-image\"></div>\n  <md-card-content>\n    <p>\n      Solution A pump runs for <font color=\"purple\"> {{global.nutriments.solutionA.pump.duration}} secs.</font>  \n      when PPM is below  <font color=\"purple\">{{global.minPPM}}</font>\n    </p>\n  </md-card-content>\n</md-card>",
         "output": "str",
         "x": 360,
         "y": 2640,
