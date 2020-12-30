@@ -5070,7 +5070,7 @@
         "differential": false,
         "minmax": false,
         "colorTrack": "#555555",
-        "style": "30,5",
+        "style": "20,5, round",
         "colorFromTheme": true,
         "property": "payload",
         "secondary": "secondary",
@@ -5083,25 +5083,25 @@
                 "dot": 0
             },
             {
-                "val": 200,
+                "val": 20,
                 "col": "#ff6666",
                 "t": "sec",
                 "dot": 0
             },
             {
-                "val": 400,
+                "val": 40,
                 "col": "#009999",
                 "t": "sec",
                 "dot": 0
             },
             {
-                "val": 800,
+                "val": 80,
                 "col": "#cccc00",
                 "t": "sec",
                 "dot": 0
             },
             {
-                "val": 1400,
+                "val": 100,
                 "col": "#cccc00",
                 "t": "max",
                 "dot": 0
