@@ -87,7 +87,7 @@
     {
         "id": "65d119b5.66cb78",
         "type": "ui_group",
-        "name": "Seed Tray - Sensors",
+        "name": "Seed Tray - PH",
         "tab": "352c089f.6b44d8",
         "order": 6,
         "disp": true,
@@ -3259,7 +3259,8 @@
             [
                 "db9050e4.c89ba",
                 "af84a357.025ea",
-                "f4e8ce43.86774"
+                "f4e8ce43.86774",
+                "45c5f9a0.355c58"
             ]
         ]
     },
@@ -5210,5 +5211,33 @@
         "x": 760,
         "y": 2860,
         "wires": []
+    },
+    {
+        "id": "45c5f9a0.355c58",
+        "type": "link out",
+        "z": "87cb301d.9893c",
+        "name": "Min PPM value updated",
+        "links": [
+            "80ecf0e1.ea61b"
+        ],
+        "x": 725,
+        "y": 1280,
+        "wires": []
+    },
+    {
+        "id": "80ecf0e1.ea61b",
+        "type": "link in",
+        "z": "1d22c714.e50369",
+        "name": "",
+        "links": [
+            "45c5f9a0.355c58"
+        ],
+        "x": 235,
+        "y": 2480,
+        "wires": [
+            [
+                "5e5c80d7.c23cb"
+            ]
+        ]
     }
 ]
