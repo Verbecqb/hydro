@@ -2844,7 +2844,7 @@
         "offvalueType": "bool",
         "officon": "",
         "offcolor": "",
-        "x": 310,
+        "x": 330,
         "y": 820,
         "wires": [
             [
@@ -3492,8 +3492,8 @@
         "min": "1",
         "max": "30",
         "step": 1,
-        "x": 520,
-        "y": 1000,
+        "x": 540,
+        "y": 1040,
         "wires": [
             [
                 "bd1a41bd.42258",
@@ -3514,8 +3514,8 @@
         "label": "",
         "format": "{{msg.payload}} sec.",
         "layout": "row-center",
-        "x": 750,
-        "y": 1000,
+        "x": 770,
+        "y": 1040,
         "wires": []
     },
     {
@@ -3528,8 +3528,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 760,
-        "y": 1040,
+        "x": 780,
+        "y": 1080,
         "wires": [
             []
         ]
@@ -3540,8 +3540,8 @@
         "z": "87cb301d.9893c",
         "name": "nutrimentsTimer",
         "storageNode": "217cc961.603ce6",
-        "x": 738,
-        "y": 1080,
+        "x": 758,
+        "y": 1120,
         "wires": []
     },
     {
@@ -3550,8 +3550,8 @@
         "z": "87cb301d.9893c",
         "name": "nutrimentsTimer",
         "storageNode": "217cc961.603ce6",
-        "x": 300,
-        "y": 1000,
+        "x": 320,
+        "y": 1040,
         "wires": [
             [
                 "291d0ce5.3b19f4"
@@ -3576,7 +3576,7 @@
         "max": "14",
         "step": "0.1",
         "x": 520,
-        "y": 1480,
+        "y": 1560,
         "wires": [
             [
                 "39d365e7.6050da",
@@ -3603,7 +3603,7 @@
         "max": "14",
         "step": "0.1",
         "x": 520,
-        "y": 1620,
+        "y": 1700,
         "wires": [
             [
                 "4d4ca970.a006e8",
@@ -3625,7 +3625,7 @@
         "format": "{{msg.payload}}",
         "layout": "row-center",
         "x": 750,
-        "y": 1480,
+        "y": 1560,
         "wires": []
     },
     {
@@ -3641,7 +3641,7 @@
         "format": "{{msg.payload}}",
         "layout": "row-center",
         "x": 760,
-        "y": 1620,
+        "y": 1700,
         "wires": []
     },
     {
@@ -3655,7 +3655,7 @@
         "initialize": "",
         "finalize": "",
         "x": 780,
-        "y": 1520,
+        "y": 1600,
         "wires": [
             []
         ]
@@ -3671,7 +3671,7 @@
         "initialize": "",
         "finalize": "",
         "x": 780,
-        "y": 1660,
+        "y": 1740,
         "wires": [
             []
         ]
@@ -3683,7 +3683,7 @@
         "name": "minPHValue",
         "storageNode": "217cc961.603ce6",
         "x": 748,
-        "y": 1560,
+        "y": 1640,
         "wires": []
     },
     {
@@ -3693,7 +3693,7 @@
         "name": "minPHValue",
         "storageNode": "217cc961.603ce6",
         "x": 310,
-        "y": 1480,
+        "y": 1560,
         "wires": [
             [
                 "9f70aaa.2186658"
@@ -3707,7 +3707,7 @@
         "name": "maxPHValue",
         "storageNode": "217cc961.603ce6",
         "x": 750,
-        "y": 1700,
+        "y": 1780,
         "wires": []
     },
     {
@@ -3717,7 +3717,7 @@
         "name": "maxPHValue",
         "storageNode": "217cc961.603ce6",
         "x": 310,
-        "y": 1620,
+        "y": 1700,
         "wires": [
             [
                 "c3691815.5595b8"
@@ -4068,7 +4068,7 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 960,
+        "x": 900,
         "y": 280,
         "wires": [
             [
@@ -4107,8 +4107,8 @@
             "de54877b.8ab618",
             "319aa41.d00645c"
         ],
-        "x": 1125,
-        "y": 360,
+        "x": 1095,
+        "y": 280,
         "wires": []
     },
     {
@@ -4696,7 +4696,7 @@
         "width": 1,
         "height": 1,
         "name": "Nutriments pump on/off state",
-        "label": "<font color=\"{{msg.color}}\"><i class=\"fa fa-battery-half  fa-2x\"></i></front>",
+        "label": "<font color=\"{{msg.color}}\"><i class=\"fa fa-battery-half \"></i></front>",
         "format": "",
         "layout": "row-spread",
         "x": 550,
