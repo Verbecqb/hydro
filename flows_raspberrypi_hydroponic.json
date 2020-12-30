@@ -5061,7 +5061,7 @@
         "differential": false,
         "minmax": false,
         "colorTrack": "#555555",
-        "style": "15,4, round",
+        "style": "10,4, round",
         "colorFromTheme": true,
         "property": "payload",
         "secondary": "secondary",
@@ -5098,7 +5098,7 @@
                 "dot": 0
             }
         ],
-        "lineWidth": "5",
+        "lineWidth": "3",
         "bgcolorFromTheme": true,
         "diffCenter": "",
         "x": 510,
