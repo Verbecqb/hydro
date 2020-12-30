@@ -580,7 +580,7 @@
         "collapse": false
     },
     {
-        "id": "8c2c42d2.93c5",
+        "id": "adf1605a.87ffe",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "1c37dc0b.ce28e4",
@@ -589,7 +589,7 @@
         "height": 1
     },
     {
-        "id": "37cc3199.10594e",
+        "id": "cf303cd1.39599",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "1c37dc0b.ce28e4",
@@ -598,7 +598,7 @@
         "height": 1
     },
     {
-        "id": "3c742f0f.eb8f4",
+        "id": "6f99601b.40822",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -607,7 +607,7 @@
         "height": 1
     },
     {
-        "id": "6abc5cc2.9dd2a4",
+        "id": "ec370899.4fd128",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -616,7 +616,7 @@
         "height": 1
     },
     {
-        "id": "a830b9fe.4991d8",
+        "id": "a0d21a47.579438",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -625,7 +625,7 @@
         "height": 1
     },
     {
-        "id": "6674614a.8b55d",
+        "id": "9d2e61a3.f97be",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
@@ -634,7 +634,7 @@
         "height": 1
     },
     {
-        "id": "cf6a5402.8e6cb8",
+        "id": "3cff0002.c9cb7",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
@@ -643,7 +643,7 @@
         "height": 1
     },
     {
-        "id": "b1ba1831.973968",
+        "id": "c87c30d3.9186f",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
@@ -652,7 +652,7 @@
         "height": 1
     },
     {
-        "id": "8bee3fea.f0aaf",
+        "id": "a1a900aa.b2eb1",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
@@ -661,7 +661,7 @@
         "height": 1
     },
     {
-        "id": "7ad33c81.933964",
+        "id": "8cbdc1cb.44cd2",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "6c15eb0d.8f5814",
@@ -670,7 +670,7 @@
         "height": 1
     },
     {
-        "id": "c414ac6a.8f9a5",
+        "id": "51aad2fa.2a5f8c",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "6c15eb0d.8f5814",
@@ -679,7 +679,7 @@
         "height": 1
     },
     {
-        "id": "7aada589.5a26bc",
+        "id": "8b454cad.191cb",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "6c15eb0d.8f5814",
@@ -688,7 +688,7 @@
         "height": 1
     },
     {
-        "id": "7ebe3780.900408",
+        "id": "967aae99.94408",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -697,7 +697,7 @@
         "height": 1
     },
     {
-        "id": "2c0e1a51.0f0676",
+        "id": "31b363d.469a29c",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -706,7 +706,7 @@
         "height": 1
     },
     {
-        "id": "67ac0c6a.d065c4",
+        "id": "c0a0f6ab.c1a878",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -715,25 +715,25 @@
         "height": 1
     },
     {
-        "id": "7983cc64.ca7b54",
+        "id": "54c51f2f.a8b78",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
         "order": 13,
-        "width": 3,
+        "width": 1,
         "height": 1
     },
     {
-        "id": "1bd9400c.d144d",
+        "id": "9131b20b.16f1a",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
-        "order": 16,
+        "order": 17,
         "width": 3,
         "height": 1
     },
     {
-        "id": "d74f4df.4f1e3b",
+        "id": "a9c428d8.b80a18",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "65d119b5.66cb78",
@@ -742,7 +742,7 @@
         "height": 1
     },
     {
-        "id": "d61a4781.99d5b8",
+        "id": "fe2ed58d.b87738",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "65d119b5.66cb78",
@@ -751,7 +751,7 @@
         "height": 1
     },
     {
-        "id": "bb45d0c0.9ad66",
+        "id": "b0b11fcf.06e18",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "65d119b5.66cb78",
@@ -760,7 +760,7 @@
         "height": 1
     },
     {
-        "id": "8821ddcb.74d63",
+        "id": "16439cb2.a29f83",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "72b67add.961f74",
@@ -2861,7 +2861,7 @@
         "datatype": "auto",
         "broker": "a0e631b8.d383b",
         "x": 170,
-        "y": 2480,
+        "y": 2580,
         "wires": [
             [
                 "222cf8a.db51b08"
@@ -4650,7 +4650,7 @@
         "format": "",
         "layout": "row-spread",
         "x": 550,
-        "y": 2480,
+        "y": 2580,
         "wires": []
     },
     {
@@ -4664,7 +4664,7 @@
         "initialize": "",
         "finalize": "",
         "x": 340,
-        "y": 2480,
+        "y": 2580,
         "wires": [
             [
                 "aadaca25.5f3598"
@@ -4679,7 +4679,7 @@
         "label": "<i class=\"fa fa-clock-o\"></i>",
         "tooltip": "Nutriments pump duration",
         "group": "8d4aab9b.4d6328",
-        "order": 14,
+        "order": 15,
         "width": 3,
         "height": 1,
         "passthru": true,
@@ -4703,7 +4703,7 @@
         "type": "ui_text",
         "z": "87cb301d.9893c",
         "group": "8d4aab9b.4d6328",
-        "order": 15,
+        "order": 16,
         "width": 1,
         "height": 1,
         "name": "Nutriments sol. B timer ",
@@ -4914,7 +4914,7 @@
         "datatype": "auto",
         "broker": "a0e631b8.d383b",
         "x": 170,
-        "y": 2560,
+        "y": 2660,
         "wires": [
             [
                 "41226553.28e86c"
@@ -4934,7 +4934,7 @@
         "format": "",
         "layout": "row-spread",
         "x": 550,
-        "y": 2560,
+        "y": 2660,
         "wires": []
     },
     {
@@ -4948,7 +4948,7 @@
         "initialize": "",
         "finalize": "",
         "x": 340,
-        "y": 2560,
+        "y": 2660,
         "wires": [
             [
                 "94ff4603.6d4ad8"
@@ -4980,7 +4980,7 @@
         "resendOnRefresh": true,
         "templateScope": "local",
         "x": 500,
-        "y": 2640,
+        "y": 2520,
         "wires": [
             []
         ]
@@ -4997,7 +4997,7 @@
         "template": "<md-card>\n  <div md-card-image class=\"example-header-image\"></div>\n  <md-card-content>\n    <p>\n      Solution A pump runs for <font color=\"purple\"> {{global.nutriments.solutionA.pump.duration}} secs.</font>  \n      when PPM is below  <font color=\"purple\">{{global.minPPM}}</font>\n    </p>\n  </md-card-content>\n</md-card>",
         "output": "str",
         "x": 360,
-        "y": 2640,
+        "y": 2520,
         "wires": [
             [
                 "610e2b65.b070d4"
@@ -5026,7 +5026,7 @@
         "payload": "",
         "payloadType": "date",
         "x": 190,
-        "y": 2640,
+        "y": 2520,
         "wires": [
             [
                 "5e5c80d7.c23cb"
@@ -5054,8 +5054,8 @@
         "topic": "",
         "payload": "12",
         "payloadType": "num",
-        "x": 380,
-        "y": 420,
+        "x": 590,
+        "y": 2740,
         "wires": [
             [
                 "4d67ced7.a6caa"
@@ -5070,7 +5070,7 @@
         "order": 7,
         "width": 2,
         "height": 1,
-        "name": "",
+        "name": "Solution A - remaining days gauge",
         "icon": "",
         "label": "",
         "unit": "days left",
@@ -5087,31 +5087,25 @@
         "sectors": [
             {
                 "val": 0,
-                "col": "#ff9900",
+                "col": "#ff6666",
                 "t": "min",
                 "dot": 0
             },
             {
-                "val": 20,
-                "col": "#ff6666",
+                "val": 5,
+                "col": "#ff9800",
                 "t": "sec",
                 "dot": 0
             },
             {
-                "val": 40,
-                "col": "#009999",
-                "t": "sec",
-                "dot": 0
-            },
-            {
-                "val": 80,
-                "col": "#cccc00",
+                "val": 10,
+                "col": "#09c606",
                 "t": "sec",
                 "dot": 0
             },
             {
                 "val": 100,
-                "col": "#cccc00",
+                "col": "#09c606",
                 "t": "max",
                 "dot": 0
             }
@@ -5119,8 +5113,102 @@
         "lineWidth": "3",
         "bgcolorFromTheme": true,
         "diffCenter": "",
-        "x": 510,
-        "y": 460,
+        "x": 780,
+        "y": 2780,
+        "wires": []
+    },
+    {
+        "id": "8944b818.cab738",
+        "type": "comment",
+        "z": "1d22c714.e50369",
+        "name": "##TODO compute remaining days",
+        "info": "",
+        "x": 810,
+        "y": 2720,
+        "wires": []
+    },
+    {
+        "id": "d8de2deb.a328c",
+        "type": "inject",
+        "z": "1d22c714.e50369",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "12",
+        "payloadType": "num",
+        "x": 570,
+        "y": 2820,
+        "wires": [
+            [
+                "a56914d1.b859b8"
+            ]
+        ]
+    },
+    {
+        "id": "a56914d1.b859b8",
+        "type": "ui_artlessgauge",
+        "z": "1d22c714.e50369",
+        "group": "8d4aab9b.4d6328",
+        "order": 14,
+        "width": 2,
+        "height": 1,
+        "name": "Solution B - remaining days gauge",
+        "icon": "",
+        "label": "",
+        "unit": "days left",
+        "layout": "linear",
+        "decimals": 0,
+        "differential": false,
+        "minmax": false,
+        "colorTrack": "#555555",
+        "style": "20,10,round",
+        "colorFromTheme": true,
+        "property": "payload",
+        "secondary": "secondary",
+        "inline": false,
+        "sectors": [
+            {
+                "val": 0,
+                "col": "#ff6666",
+                "t": "min",
+                "dot": 0
+            },
+            {
+                "val": 5,
+                "col": "#ff9800",
+                "t": "sec",
+                "dot": 0
+            },
+            {
+                "val": 10,
+                "col": "#09c606",
+                "t": "sec",
+                "dot": 0
+            },
+            {
+                "val": 100,
+                "col": "#09c606",
+                "t": "max",
+                "dot": 0
+            }
+        ],
+        "lineWidth": "3",
+        "bgcolorFromTheme": true,
+        "diffCenter": "",
+        "x": 760,
+        "y": 2860,
         "wires": []
     }
 ]
