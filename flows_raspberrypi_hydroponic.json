@@ -5346,5 +5346,45 @@
                 "6de36e52.d849c"
             ]
         ]
+    },
+    {
+        "id": "fe22698e.9e5138",
+        "type": "ui_svg_graphics",
+        "z": "1d22c714.e50369",
+        "group": "45199dde.854f64",
+        "order": 9,
+        "width": 0,
+        "height": 0,
+        "svgString": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0\" y=\"0\" height=\"100\" viewBox=\"0 0 100 100\" width=\"100\" preserveAspectRatio=\"xMidYMid meet\"><rect id=\"svgEditorBackground\" x=\"0\" y=\"0\" width=\"100\" height=\"100\" style=\"fill: none; stroke: none;\"/><path d=\"M41.788,58.836a64.658,64.658,0,0,1,84.407-50.312\" style=\"fill:none;stroke:navy;stroke-width:1px;\" id=\"e4_circleArc\"/></svg>",
+        "clickableShapes": [],
+        "javascriptHandlers": [
+            {
+                "selector": "",
+                "action": "click",
+                "sourceCode": ""
+            }
+        ],
+        "smilAnimations": [],
+        "bindings": [],
+        "showCoordinates": false,
+        "autoFormatAfterEdit": true,
+        "showBrowserErrors": false,
+        "showBrowserEvents": false,
+        "enableJsDebugging": true,
+        "sendMsgWhenLoaded": true,
+        "outputField": "payload",
+        "editorUrl": "//drawsvg.org/drawsvg.html",
+        "directory": "",
+        "panning": "disabled",
+        "zooming": "disabled",
+        "panOnlyWhenZoomed": false,
+        "doubleClickZoomEnabled": false,
+        "mouseWheelZoomEnabled": false,
+        "name": "",
+        "x": 410,
+        "y": 1960,
+        "wires": [
+            []
+        ]
     }
 ]
