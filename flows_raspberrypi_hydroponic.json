@@ -3745,7 +3745,7 @@
         "type": "function",
         "z": "1d22c714.e50369",
         "name": "Configure PPM sectors",
-        "func": "var minPPM = global.get('minPPM') || 0;\nvar maxPPM = global.get('maxPPM') || 0;\nvar centerPPM = parseInt((minPPM + maxPPM) / 2);\n\nvar newSectors = [\n    {t:\"min\",val:0,col:\"#ff5252\",dot:0},\n    {t:\"sec\",val:minPPM,col:\"#4CAF50\",dot:5},\n    {t:\"sec\",val:maxPPM,col:\"#ff5252\",dot:5},\n    {t:\"max\",val:1500,col:\"#ff5252\",dot:0}] \n\n\nmsg.control = \n  {sectors:newSectors, center: centerPPM}\n\nreturn msg;\n",
+        "func": "var minPPM = global.get('minPPM') || 0;\nvar maxPPM = global.get('maxPPM') || 0;\nvar centerPPM = parseInt((minPPM + maxPPM) / 2);\n\nvar newSectors = [\n    {t:\"min\",val:0,col:\"#ff5252\",dot:0},\n    {t:\"sec\",val:minPPM,col:\"#4CAF50\",dot:0},\n    {t:\"sec\",val:maxPPM,col:\"#ff5252\",dot:0},\n    {t:\"max\",val:1500,col:\"#ff5252\",dot:0}] \n\n\nmsg.control = \n  {sectors:newSectors, center: centerPPM}\n\nreturn msg;\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
