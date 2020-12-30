@@ -5383,7 +5383,7 @@
         "order": 15,
         "width": 0,
         "height": 0,
-        "format": "<div id=\"wrapper\">\n  <svg id=\"meter\">\n    <rect x=\"10\" y=\"10\" rx=\"2\" ry=\"2\" width=\"20\" height=\"20\" \n      style=\"fill:red;opacity:0.9\" />\n    <rect x=\"35\" y=\"10\" width=\"20\" height=\"20\" \n      style=\"fill:orange;opacity:0.9\" />\n    <rect x=\"60\" y=\"10\" width=\"20\" height=\"20\" \n      style=\"fill:#fed8b1;opacity:0.9\" />\n    <text x=\"15\" y=\"25\" fill=\"white\">1</text>\n    <text x=\"40\" y=\"25\" fill=\"white\">2</text>\n    <text x=\"65\" y=\"25\" fill=\"white\">3</text>\n    \n   \n      <polyline points=\"0,40 0,30 70,30 70,40\"\n      style=\"fill:none;stroke:green;stroke-width:4\" />\n\n  </svg>\n</div>",
+        "format": "<div id=\"wrapper\">\n  <svg id=\"meter\">\n    <rect x=\"10\" y=\"10\" rx=\"2\" ry=\"2\" width=\"20\" height=\"20\" \n      style=\"fill:red;opacity:0.9\" />\n    <rect x=\"35\" y=\"10\" width=\"20\" height=\"20\" \n      style=\"fill:orange;opacity:0.9\" />\n    <rect x=\"60\" y=\"10\" width=\"20\" height=\"20\" \n      style=\"fill:#fed8b1;opacity:0.9\" />\n    <text x=\"15\" y=\"25\" fill=\"white\">1</text>\n    <text x=\"40\" y=\"25\" fill=\"white\">2</text>\n    <text x=\"65\" y=\"25\" fill=\"white\">3</text>\n    \n   \n      <polyline points=\"0,5 0,0 70,0 70,5\"\n      style=\"fill:none;stroke:green;stroke-width:2\" />\n\n  </svg>\n</div>",
         "storeOutMessages": true,
         "fwdInMessages": true,
         "resendOnRefresh": true,
