@@ -5224,7 +5224,8 @@
         "y": 240,
         "wires": [
             [
-                "3c0af35a.42805c"
+                "3c0af35a.42805c",
+                "cd9e97ef.1e8c08"
             ]
         ]
     },
@@ -5250,7 +5251,7 @@
         "type": "function",
         "z": "87cb301d.9893c",
         "name": "Set label icon",
-        "func": "var color = (msg.payload == \"true\") ? \"grey\" : \"orange\";\n\nmsg.icon = '<font color=\" ' + color + '\"><i class=\"fa fa-lightbulb-o fa-2x\"></i></front>'\n\nreturn msg;",
+        "func": "var color = (msg.payload == \"true\") ? \"orange\" : \"grey\";\n\nmsg.icon = '<font color=\" ' + color + '\"><i class=\"fa fa-lightbulb-o fa-2x\"></i></front>'\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -5440,5 +5441,22 @@
                 "8c00a1bc.87b528"
             ]
         ]
+    },
+    {
+        "id": "cd9e97ef.1e8c08",
+        "type": "debug",
+        "z": "87cb301d.9893c",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 840,
+        "y": 140,
+        "wires": []
     }
 ]
