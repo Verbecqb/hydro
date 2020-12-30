@@ -5087,25 +5087,25 @@
         "sectors": [
             {
                 "val": 0,
-                "col": "#105e27",
+                "col": "#bb86fc",
                 "t": "min",
                 "dot": 0
             },
             {
                 "val": 5,
-                "col": "#105e27",
+                "col": "#bb86fc",
                 "t": "sec",
                 "dot": 0
             },
             {
                 "val": 10,
-                "col": "#105e27",
+                "col": "#bb86fc",
                 "t": "sec",
                 "dot": 0
             },
             {
                 "val": 25,
-                "col": "#105e27",
+                "col": "#bb86fc",
                 "t": "max",
                 "dot": 0
             }
