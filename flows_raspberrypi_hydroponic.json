@@ -5110,7 +5110,7 @@
                 "dot": 0
             }
         ],
-        "lineWidth": "7",
+        "lineWidth": "5",
         "bgcolorFromTheme": true,
         "diffCenter": "",
         "x": 780,
@@ -5204,7 +5204,7 @@
                 "dot": 0
             }
         ],
-        "lineWidth": "7",
+        "lineWidth": "5",
         "bgcolorFromTheme": true,
         "diffCenter": "",
         "x": 760,
