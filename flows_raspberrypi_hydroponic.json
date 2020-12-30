@@ -580,7 +580,7 @@
         "collapse": false
     },
     {
-        "id": "f7c5cad1.9e1ab8",
+        "id": "98c5c7d5.cbc3e8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "1c37dc0b.ce28e4",
@@ -589,7 +589,7 @@
         "height": 1
     },
     {
-        "id": "2f18e1fc.57c71e",
+        "id": "7b0ca011.081a3",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "1c37dc0b.ce28e4",
@@ -598,7 +598,7 @@
         "height": 1
     },
     {
-        "id": "ad4908eb.7b5638",
+        "id": "d11c1a65.d8fc98",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -607,7 +607,7 @@
         "height": 1
     },
     {
-        "id": "b170b266.90c43",
+        "id": "11366177.3be60f",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -616,7 +616,7 @@
         "height": 1
     },
     {
-        "id": "31aad85b.f52ee8",
+        "id": "305655e1.c8476a",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -625,7 +625,7 @@
         "height": 1
     },
     {
-        "id": "e1db50c2.2119e",
+        "id": "52f324e7.d30e6c",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
@@ -634,7 +634,7 @@
         "height": 1
     },
     {
-        "id": "98bffa92.037418",
+        "id": "239d7a83.4cd806",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
@@ -643,7 +643,7 @@
         "height": 1
     },
     {
-        "id": "7d878fe.7203f7",
+        "id": "e3538524.987468",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
@@ -652,7 +652,7 @@
         "height": 1
     },
     {
-        "id": "3837414f.68e1de",
+        "id": "c2f14804.bcbea8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
@@ -661,7 +661,7 @@
         "height": 1
     },
     {
-        "id": "138bfe59.b62422",
+        "id": "7a5e70b8.7efc7",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "6c15eb0d.8f5814",
@@ -670,7 +670,7 @@
         "height": 1
     },
     {
-        "id": "72d472b3.5edc7c",
+        "id": "df03aecf.7a90b",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "6c15eb0d.8f5814",
@@ -679,7 +679,7 @@
         "height": 1
     },
     {
-        "id": "7eeda43f.e5431c",
+        "id": "ac5b2612.60fab8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "6c15eb0d.8f5814",
@@ -688,7 +688,7 @@
         "height": 1
     },
     {
-        "id": "d865c7a8.dfc878",
+        "id": "9f0963d9.049ba",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -697,7 +697,7 @@
         "height": 1
     },
     {
-        "id": "b56a7e28.0f33",
+        "id": "9c21595f.49e8d8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -706,7 +706,7 @@
         "height": 1
     },
     {
-        "id": "5397507d.de276",
+        "id": "6a6ccad3.1f76f4",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -715,7 +715,7 @@
         "height": 1
     },
     {
-        "id": "a3d86a8a.a69708",
+        "id": "7dcbe917.8e3758",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -724,7 +724,25 @@
         "height": 1
     },
     {
-        "id": "2f95abae.239c14",
+        "id": "8e6f2734.01af48",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "8d4aab9b.4d6328",
+        "order": 11,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "8f4ba8fa.4ef2a8",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "8d4aab9b.4d6328",
+        "order": 14,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "4302b485.09753c",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "65d119b5.66cb78",
@@ -733,7 +751,7 @@
         "height": 1
     },
     {
-        "id": "c990d5e0.fd0cd8",
+        "id": "f488da71.8eb798",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "65d119b5.66cb78",
@@ -742,7 +760,7 @@
         "height": 1
     },
     {
-        "id": "b40cdea4.5f9ad",
+        "id": "cb64f6fa.1222e8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "65d119b5.66cb78",
@@ -751,7 +769,7 @@
         "height": 1
     },
     {
-        "id": "3fa11a85.3abd26",
+        "id": "83d61d78.f0864",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "65d119b5.66cb78",
@@ -760,7 +778,7 @@
         "height": 1
     },
     {
-        "id": "8a0be003.c2b81",
+        "id": "843c5f99.98e46",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "72b67add.961f74",
@@ -2750,8 +2768,8 @@
         "randomLast": "5",
         "randomUnits": "seconds",
         "drop": false,
-        "x": 960,
-        "y": 900,
+        "x": 980,
+        "y": 820,
         "wires": [
             [
                 "a7364d44.56698"
@@ -2762,13 +2780,13 @@
         "id": "5be7de2e.ba1d2",
         "type": "mqtt out",
         "z": "87cb301d.9893c",
-        "name": "Nutriments",
+        "name": "Nutriments A",
         "topic": "hydro/nutriments/switch",
         "qos": "0",
         "retain": "",
         "broker": "a0e631b8.d383b",
         "x": 530,
-        "y": 820,
+        "y": 740,
         "wires": []
     },
     {
@@ -2790,8 +2808,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1110,
-        "y": 900,
+        "x": 1130,
+        "y": 820,
         "wires": [
             [
                 "648ce0a1.8a9de"
@@ -2814,7 +2832,7 @@
         "repair": false,
         "outputs": 1,
         "x": 340,
-        "y": 900,
+        "y": 820,
         "wires": [
             [
                 "bb16ff0b.197e6"
@@ -2845,7 +2863,7 @@
         "officon": "fa-toggle-off fa-2x",
         "offcolor": "purple",
         "x": 330,
-        "y": 820,
+        "y": 740,
         "wires": [
             [
                 "93cd22de.a5d2c",
@@ -3256,7 +3274,7 @@
         "max": "1400",
         "step": "10",
         "x": 520,
-        "y": 1180,
+        "y": 1320,
         "wires": [
             [
                 "db9050e4.c89ba",
@@ -3283,7 +3301,7 @@
         "max": "1400",
         "step": "10",
         "x": 520,
-        "y": 1320,
+        "y": 1460,
         "wires": [
             [
                 "86b27ad6.f2ac78",
@@ -3305,7 +3323,7 @@
         "format": "{{msg.payload}}",
         "layout": "row-center",
         "x": 760,
-        "y": 1180,
+        "y": 1320,
         "wires": []
     },
     {
@@ -3321,7 +3339,7 @@
         "format": "{{msg.payload}}",
         "layout": "row-center",
         "x": 760,
-        "y": 1320,
+        "y": 1460,
         "wires": []
     },
     {
@@ -3335,7 +3353,7 @@
         "initialize": "",
         "finalize": "",
         "x": 780,
-        "y": 1220,
+        "y": 1360,
         "wires": [
             []
         ]
@@ -3351,7 +3369,7 @@
         "initialize": "",
         "finalize": "",
         "x": 780,
-        "y": 1360,
+        "y": 1500,
         "wires": [
             []
         ]
@@ -3392,7 +3410,7 @@
         "name": "minPPMValue",
         "storageNode": "217cc961.603ce6",
         "x": 758,
-        "y": 1260,
+        "y": 1400,
         "wires": []
     },
     {
@@ -3402,7 +3420,7 @@
         "name": "minPPMValue",
         "storageNode": "217cc961.603ce6",
         "x": 320,
-        "y": 1180,
+        "y": 1320,
         "wires": [
             [
                 "e7786898.4b6868"
@@ -3416,7 +3434,7 @@
         "name": "maxPPMValue",
         "storageNode": "217cc961.603ce6",
         "x": 760,
-        "y": 1400,
+        "y": 1540,
         "wires": []
     },
     {
@@ -3426,7 +3444,7 @@
         "name": "maxPPMValue",
         "storageNode": "217cc961.603ce6",
         "x": 320,
-        "y": 1320,
+        "y": 1460,
         "wires": [
             [
                 "49bf0c8e.06b714"
@@ -3440,17 +3458,17 @@
         "name": "### Nutriments controler ###",
         "info": "",
         "x": 260,
-        "y": 780,
+        "y": 700,
         "wires": []
     },
     {
         "id": "bb16ff0b.197e6",
         "type": "persist out",
         "z": "87cb301d.9893c",
-        "name": "nutrimentsTimer",
+        "name": "nutrimentsSolutionATimer",
         "storageNode": "217cc961.603ce6",
-        "x": 600,
-        "y": 900,
+        "x": 630,
+        "y": 820,
         "wires": [
             [
                 "cf53cc34.c3564"
@@ -3467,8 +3485,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 790,
-        "y": 900,
+        "x": 830,
+        "y": 820,
         "wires": [
             [
                 "5d2f5ff2.180c5"
@@ -3479,7 +3497,7 @@
         "id": "291d0ce5.3b19f4",
         "type": "ui_slider",
         "z": "87cb301d.9893c",
-        "name": "Nutriments duration",
+        "name": "Nutriments solution A pump duration slider",
         "label": "<i class=\"fa fa-clock-o\"></i>",
         "tooltip": "Nutriments pump duration",
         "group": "8d4aab9b.4d6328",
@@ -3492,7 +3510,7 @@
         "min": "1",
         "max": "30",
         "step": 1,
-        "x": 540,
+        "x": 670,
         "y": 1040,
         "wires": [
             [
@@ -3510,11 +3528,11 @@
         "order": 10,
         "width": 1,
         "height": 1,
-        "name": "Nutriments timer ",
+        "name": "Nutriments sol. A timer ",
         "label": "",
         "format": "{{msg.payload}} sec.",
         "layout": "row-center",
-        "x": 770,
+        "x": 980,
         "y": 1040,
         "wires": []
     },
@@ -3528,7 +3546,7 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 780,
+        "x": 980,
         "y": 1080,
         "wires": [
             []
@@ -3538,9 +3556,9 @@
         "id": "5d69fc.7056c604",
         "type": "persist in",
         "z": "87cb301d.9893c",
-        "name": "nutrimentsTimer",
+        "name": "nutrimentsSolutionATimer",
         "storageNode": "217cc961.603ce6",
-        "x": 758,
+        "x": 990,
         "y": 1120,
         "wires": []
     },
@@ -3548,9 +3566,9 @@
         "id": "ba7f0c0a.aeb54",
         "type": "persist out",
         "z": "87cb301d.9893c",
-        "name": "nutrimentsTimer",
+        "name": "nutrimentsSolutionATimer",
         "storageNode": "217cc961.603ce6",
-        "x": 320,
+        "x": 350,
         "y": 1040,
         "wires": [
             [
@@ -3576,7 +3594,7 @@
         "max": "14",
         "step": "0.1",
         "x": 520,
-        "y": 1560,
+        "y": 1600,
         "wires": [
             [
                 "39d365e7.6050da",
@@ -3603,7 +3621,7 @@
         "max": "14",
         "step": "0.1",
         "x": 520,
-        "y": 1700,
+        "y": 1740,
         "wires": [
             [
                 "4d4ca970.a006e8",
@@ -3625,7 +3643,7 @@
         "format": "{{msg.payload}}",
         "layout": "row-center",
         "x": 750,
-        "y": 1560,
+        "y": 1600,
         "wires": []
     },
     {
@@ -3641,7 +3659,7 @@
         "format": "{{msg.payload}}",
         "layout": "row-center",
         "x": 760,
-        "y": 1700,
+        "y": 1740,
         "wires": []
     },
     {
@@ -3655,7 +3673,7 @@
         "initialize": "",
         "finalize": "",
         "x": 780,
-        "y": 1600,
+        "y": 1640,
         "wires": [
             []
         ]
@@ -3671,7 +3689,7 @@
         "initialize": "",
         "finalize": "",
         "x": 780,
-        "y": 1740,
+        "y": 1780,
         "wires": [
             []
         ]
@@ -3683,7 +3701,7 @@
         "name": "minPHValue",
         "storageNode": "217cc961.603ce6",
         "x": 748,
-        "y": 1640,
+        "y": 1680,
         "wires": []
     },
     {
@@ -3693,7 +3711,7 @@
         "name": "minPHValue",
         "storageNode": "217cc961.603ce6",
         "x": 310,
-        "y": 1560,
+        "y": 1600,
         "wires": [
             [
                 "9f70aaa.2186658"
@@ -3707,7 +3725,7 @@
         "name": "maxPHValue",
         "storageNode": "217cc961.603ce6",
         "x": 750,
-        "y": 1780,
+        "y": 1820,
         "wires": []
     },
     {
@@ -3717,7 +3735,7 @@
         "name": "maxPHValue",
         "storageNode": "217cc961.603ce6",
         "x": 310,
-        "y": 1700,
+        "y": 1740,
         "wires": [
             [
                 "c3691815.5595b8"
@@ -3926,7 +3944,7 @@
         "payloadType": "info",
         "debug": false,
         "x": 490,
-        "y": 1880,
+        "y": 1920,
         "wires": [
             [
                 "652a6ac7.e928e4"
@@ -3947,7 +3965,7 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 770,
-        "y": 1880,
+        "y": 1920,
         "wires": []
     },
     {
@@ -3968,7 +3986,7 @@
         "payload": "false",
         "payloadType": "bool",
         "x": 270,
-        "y": 1920,
+        "y": 1960,
         "wires": [
             [
                 "da7d1a1e.239e58"
@@ -3993,7 +4011,7 @@
         "payload": "true",
         "payloadType": "bool",
         "x": 280,
-        "y": 1840,
+        "y": 1880,
         "wires": [
             [
                 "da7d1a1e.239e58"
@@ -4007,7 +4025,7 @@
         "name": "### Hydro solution ###",
         "info": "",
         "x": 300,
-        "y": 1800,
+        "y": 1840,
         "wires": []
     },
     {
@@ -4695,7 +4713,7 @@
         "order": 7,
         "width": 1,
         "height": 1,
-        "name": "Nutriments pump on/off state",
+        "name": "Nutriments A pump on/off state",
         "label": "<font color=\"{{msg.color}}\"><i class=\"fa fa-battery-half fa-1.5x\"></i></front>",
         "format": "",
         "layout": "row-spread",
@@ -4718,6 +4736,290 @@
         "wires": [
             [
                 "aadaca25.5f3598"
+            ]
+        ]
+    },
+    {
+        "id": "73fc20ca.0a907",
+        "type": "ui_slider",
+        "z": "87cb301d.9893c",
+        "name": "Nutriments solution B pump duration slider",
+        "label": "<i class=\"fa fa-clock-o\"></i>",
+        "tooltip": "Nutriments pump duration",
+        "group": "8d4aab9b.4d6328",
+        "order": 15,
+        "width": 3,
+        "height": 1,
+        "passthru": true,
+        "outs": "all",
+        "topic": "",
+        "min": "1",
+        "max": "30",
+        "step": 1,
+        "x": 670,
+        "y": 1180,
+        "wires": [
+            [
+                "bd340b50.cd8b48",
+                "b257e0f9.8d007",
+                "434eee99.16b66"
+            ]
+        ]
+    },
+    {
+        "id": "bd340b50.cd8b48",
+        "type": "ui_text",
+        "z": "87cb301d.9893c",
+        "group": "8d4aab9b.4d6328",
+        "order": 13,
+        "width": 1,
+        "height": 1,
+        "name": "Nutriments sol. B timer ",
+        "label": "",
+        "format": "{{msg.payload}} sec.",
+        "layout": "row-center",
+        "x": 970,
+        "y": 1180,
+        "wires": []
+    },
+    {
+        "id": "b257e0f9.8d007",
+        "type": "function",
+        "z": "87cb301d.9893c",
+        "name": "Save global variable",
+        "func": "\nglobal.set('durationNutriments',msg.payload);\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 960,
+        "y": 1220,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "434eee99.16b66",
+        "type": "persist in",
+        "z": "87cb301d.9893c",
+        "name": "nutrimentsSolutionATimer",
+        "storageNode": "217cc961.603ce6",
+        "x": 970,
+        "y": 1260,
+        "wires": []
+    },
+    {
+        "id": "843f3aea.c858e8",
+        "type": "persist out",
+        "z": "87cb301d.9893c",
+        "name": "nutrimentsSolutionBTimer",
+        "storageNode": "217cc961.603ce6",
+        "x": 350,
+        "y": 1180,
+        "wires": [
+            [
+                "73fc20ca.0a907"
+            ]
+        ]
+    },
+    {
+        "id": "40258950.e35d68",
+        "type": "delay",
+        "z": "87cb301d.9893c",
+        "name": "",
+        "pauseType": "delayv",
+        "timeout": "20",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "x": 980,
+        "y": 960,
+        "wires": [
+            [
+                "a5c49cb5.f3459"
+            ]
+        ]
+    },
+    {
+        "id": "bf2def54.05791",
+        "type": "mqtt out",
+        "z": "87cb301d.9893c",
+        "name": "Nutriments B",
+        "topic": "hydro/nutrimentsB/switch",
+        "qos": "0",
+        "retain": "",
+        "broker": "a0e631b8.d383b",
+        "x": 530,
+        "y": 880,
+        "wires": []
+    },
+    {
+        "id": "a5c49cb5.f3459",
+        "type": "change",
+        "z": "87cb301d.9893c",
+        "name": "Switch to off",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "false",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1130,
+        "y": 960,
+        "wires": [
+            [
+                "d977f79c.7973f8"
+            ]
+        ]
+    },
+    {
+        "id": "b29a1551.343db8",
+        "type": "switch",
+        "z": "87cb301d.9893c",
+        "name": "When nutriments spray on",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "true"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 340,
+        "y": 960,
+        "wires": [
+            [
+                "62da8d4e.c4ff24"
+            ]
+        ]
+    },
+    {
+        "id": "d977f79c.7973f8",
+        "type": "ui_switch",
+        "z": "87cb301d.9893c",
+        "name": "Solution B switch",
+        "label": "Sol. B",
+        "tooltip": "",
+        "group": "8d4aab9b.4d6328",
+        "order": 12,
+        "width": 3,
+        "height": 1,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "fa-toggle-on fa-2x",
+        "oncolor": "purple",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "fa-toggle-off fa-2x",
+        "offcolor": "purple",
+        "x": 330,
+        "y": 880,
+        "wires": [
+            [
+                "b29a1551.343db8",
+                "bf2def54.05791"
+            ]
+        ]
+    },
+    {
+        "id": "62da8d4e.c4ff24",
+        "type": "persist out",
+        "z": "87cb301d.9893c",
+        "name": "nutrimentsSolutionBTimer",
+        "storageNode": "217cc961.603ce6",
+        "x": 630,
+        "y": 960,
+        "wires": [
+            [
+                "33f73a9b.f300e6"
+            ]
+        ]
+    },
+    {
+        "id": "33f73a9b.f300e6",
+        "type": "function",
+        "z": "87cb301d.9893c",
+        "name": "msg.delay",
+        "func": "var newMsg = { delay: (msg.payload * 1000) };\nreturn newMsg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 830,
+        "y": 960,
+        "wires": [
+            [
+                "40258950.e35d68"
+            ]
+        ]
+    },
+    {
+        "id": "7ce85211.37278c",
+        "type": "mqtt in",
+        "z": "1d22c714.e50369",
+        "name": "",
+        "topic": "hydro/nutrimentsB/s",
+        "qos": "0",
+        "datatype": "auto",
+        "broker": "a0e631b8.d383b",
+        "x": 170,
+        "y": 2560,
+        "wires": [
+            [
+                "41226553.28e86c"
+            ]
+        ]
+    },
+    {
+        "id": "94ff4603.6d4ad8",
+        "type": "ui_text",
+        "z": "1d22c714.e50369",
+        "group": "8d4aab9b.4d6328",
+        "order": 16,
+        "width": 1,
+        "height": 1,
+        "name": "Nutriments B pump on/off state",
+        "label": "<font color=\"{{msg.color}}\"><i class=\"fa fa-battery-half fa-1.5x\"></i></front>",
+        "format": "",
+        "layout": "row-spread",
+        "x": 550,
+        "y": 2560,
+        "wires": []
+    },
+    {
+        "id": "41226553.28e86c",
+        "type": "function",
+        "z": "1d22c714.e50369",
+        "name": "Set color",
+        "func": "msg.color = (msg.payload == \"true\") ? \"purple\" : \"grey\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 340,
+        "y": 2560,
+        "wires": [
+            [
+                "94ff4603.6d4ad8"
             ]
         ]
     }
