@@ -809,7 +809,8 @@
                 "6a5ac7a1.e350c8",
                 "39bf6628.85f8ba",
                 "b2d124cc.ae5b18",
-                "b74e71c3.dd092"
+                "b74e71c3.dd092",
+                "9542e688.7ebf78"
             ],
             [
                 "b7f7abe3.8afe58",
@@ -5073,5 +5074,47 @@
                 "5e5c80d7.c23cb"
             ]
         ]
+    },
+    {
+        "id": "9542e688.7ebf78",
+        "type": "ui_level",
+        "z": "1d22c714.e50369",
+        "group": "65d119b5.66cb78",
+        "order": 9,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "",
+        "colorHi": "#e60000",
+        "colorWarn": "#ff9900",
+        "colorNormal": "#00b33c",
+        "colorOff": "#595959",
+        "min": 0,
+        "max": "1200",
+        "segWarn": "200",
+        "segHigh": "400",
+        "unit": "ppm",
+        "layout": "sh",
+        "channelA": "",
+        "channelB": "",
+        "decimals": 0,
+        "animations": "off",
+        "shape": "3",
+        "colorschema": "fixed",
+        "textoptions": "default",
+        "colorText": "#eeeeee",
+        "fontLabel": "",
+        "fontValue": "",
+        "fontSmall": "",
+        "colorFromTheme": true,
+        "textAnimations": false,
+        "hideValue": false,
+        "tickmode": "auto",
+        "peakmode": false,
+        "property": "payload",
+        "peaktime": 3000,
+        "x": 990,
+        "y": 380,
+        "wires": []
     }
 ]
