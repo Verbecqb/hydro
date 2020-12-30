@@ -4696,7 +4696,7 @@
         "width": 1,
         "height": 1,
         "name": "Nutriments pump on/off state",
-        "label": "<font color=\"{{msg.color}}\"><i class=\"fa fa-battery-half fa-2x\"></i></front>",
+        "label": "<font color=\"{{msg.color}}\"><i class=\"fa fa-battery-half fa-1.5x\"></i></front>",
         "format": "",
         "layout": "row-spread",
         "x": 550,
