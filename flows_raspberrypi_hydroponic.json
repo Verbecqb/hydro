@@ -5064,7 +5064,7 @@
         "name": "",
         "icon": "",
         "label": "",
-        "unit": "",
+        "unit": "PPM",
         "layout": "linear",
         "decimals": 0,
         "differential": false,
@@ -5080,13 +5080,31 @@
                 "val": 0,
                 "col": "#ff9900",
                 "t": "min",
-                "dot": 5
+                "dot": 0
             },
             {
-                "val": 1100,
-                "col": "#ff9900",
+                "val": 200,
+                "col": "#ff6666",
+                "t": "sec",
+                "dot": 0
+            },
+            {
+                "val": 400,
+                "col": "#009999",
+                "t": "sec",
+                "dot": 0
+            },
+            {
+                "val": 800,
+                "col": "#cccc00",
+                "t": "sec",
+                "dot": 0
+            },
+            {
+                "val": 1400,
+                "col": "#cccc00",
                 "t": "max",
-                "dot": 5
+                "dot": 0
             }
         ],
         "lineWidth": "5",
