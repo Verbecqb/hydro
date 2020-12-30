@@ -5095,7 +5095,7 @@
         "onceDelay": 0.1,
         "topic": "",
         "payload": "500",
-        "payloadType": "str",
+        "payloadType": "num",
         "x": 380,
         "y": 420,
         "wires": [
