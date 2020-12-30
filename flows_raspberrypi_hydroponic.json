@@ -5015,7 +5015,7 @@
         "order": 2,
         "width": 4,
         "height": 3,
-        "format": "<mat-card>\n  <mat-card-header>\n    <div mat-card-avatar class=\"fa fa-battery-half \"></div>\n    <mat-card-title>Nutriments</mat-card-title>\n    <mat-card-subtitle>Solution A</mat-card-subtitle>\n  </mat-card-header>\n  <mat-card-content>\n    <p>\n      Solution A pump runs for <font color=\"#purple\"> {{global.nutriments.solutionA.pump.duration}}</font>  \n      when PPM is below  <font color=\"#0077be\">{{global.minPPM}}</font>\n    </p>\n  </mat-card-content>\n</mat-card>",
+        "format": "<md-card>\n  <md-card-header>\n    <div md-card-avatar class=\"fa fa-battery-half \"></div>\n    <md-card-title>Nutriments</md-card-title>\n    <md-card-subtitle>Solution A</md-card-subtitle>\n  </md-card-header>\n  <md-card-content>\n    <p>\n      Solution A pump runs for <font color=\"#purple\"> {{global.nutriments.solutionA.pump.duration}}</font>  \n      when PPM is below  <font color=\"#0077be\">{{global.minPPM}}</font>\n    </p>\n  </md-card-content>\n</md-card>",
         "storeOutMessages": true,
         "fwdInMessages": true,
         "resendOnRefresh": true,
