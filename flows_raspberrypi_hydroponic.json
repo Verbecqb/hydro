@@ -809,7 +809,6 @@
                 "6a5ac7a1.e350c8",
                 "39bf6628.85f8ba",
                 "b2d124cc.ae5b18",
-                "b74e71c3.dd092",
                 "9542e688.7ebf78"
             ],
             [
@@ -825,8 +824,7 @@
             [
                 "e3814403.711458",
                 "7d66ede7.acf094",
-                "84888512.5d3ad8",
-                "58d46bc7.965d04"
+                "84888512.5d3ad8"
             ],
             [
                 "b1c0fbbf.8e9c58",
@@ -4000,54 +3998,6 @@
         "info": "",
         "x": 300,
         "y": 1840,
-        "wires": []
-    },
-    {
-        "id": "b74e71c3.dd092",
-        "type": "ui_valuetrail",
-        "z": "1d22c714.e50369",
-        "group": "8d4aab9b.4d6328",
-        "order": 3,
-        "width": 3,
-        "height": 1,
-        "name": "Water quality trail",
-        "label": "",
-        "unit": "",
-        "blur": true,
-        "minmax": true,
-        "showvalue": false,
-        "decimals": 0,
-        "colorLine": "#ff9900",
-        "colorFromTheme": true,
-        "stroke": 2,
-        "property": "payload",
-        "pointcount": 8,
-        "x": 810,
-        "y": 380,
-        "wires": []
-    },
-    {
-        "id": "58d46bc7.965d04",
-        "type": "ui_valuetrail",
-        "z": "1d22c714.e50369",
-        "group": "65d119b5.66cb78",
-        "order": 8,
-        "width": 4,
-        "height": 1,
-        "name": "Water PH trail",
-        "label": "",
-        "unit": "",
-        "blur": true,
-        "minmax": true,
-        "showvalue": false,
-        "decimals": "1",
-        "colorLine": "#ff9900",
-        "colorFromTheme": true,
-        "stroke": 2,
-        "property": "payload",
-        "pointcount": 8,
-        "x": 780,
-        "y": 960,
         "wires": []
     },
     {
