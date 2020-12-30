@@ -5043,7 +5043,7 @@
         "once": false,
         "onceDelay": 0.1,
         "topic": "",
-        "payload": "500",
+        "payload": "34",
         "payloadType": "num",
         "x": 380,
         "y": 420,
