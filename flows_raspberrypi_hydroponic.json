@@ -580,7 +580,7 @@
         "collapse": false
     },
     {
-        "id": "98c5c7d5.cbc3e8",
+        "id": "a406fc6d.c1831",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "1c37dc0b.ce28e4",
@@ -589,7 +589,7 @@
         "height": 1
     },
     {
-        "id": "7b0ca011.081a3",
+        "id": "aaf9a7fb.118b98",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "1c37dc0b.ce28e4",
@@ -598,7 +598,7 @@
         "height": 1
     },
     {
-        "id": "d11c1a65.d8fc98",
+        "id": "9ce61f24.95a1a",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -607,7 +607,7 @@
         "height": 1
     },
     {
-        "id": "11366177.3be60f",
+        "id": "50e35cce.a91b14",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -616,7 +616,7 @@
         "height": 1
     },
     {
-        "id": "305655e1.c8476a",
+        "id": "7df20d64.705f24",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -625,7 +625,7 @@
         "height": 1
     },
     {
-        "id": "52f324e7.d30e6c",
+        "id": "8d559f40.fc5b5",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
@@ -634,7 +634,7 @@
         "height": 1
     },
     {
-        "id": "239d7a83.4cd806",
+        "id": "275e7db0.cbd172",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
@@ -643,7 +643,7 @@
         "height": 1
     },
     {
-        "id": "e3538524.987468",
+        "id": "2d2b0f0f.1446c",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
@@ -652,7 +652,7 @@
         "height": 1
     },
     {
-        "id": "c2f14804.bcbea8",
+        "id": "b25bdd70.aaf9e",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
@@ -661,7 +661,7 @@
         "height": 1
     },
     {
-        "id": "7a5e70b8.7efc7",
+        "id": "e3074ef9.0c9ed",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "6c15eb0d.8f5814",
@@ -670,7 +670,7 @@
         "height": 1
     },
     {
-        "id": "df03aecf.7a90b",
+        "id": "d0a2cb9.a025138",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "6c15eb0d.8f5814",
@@ -679,7 +679,7 @@
         "height": 1
     },
     {
-        "id": "ac5b2612.60fab8",
+        "id": "6c428505.32ddfc",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "6c15eb0d.8f5814",
@@ -688,7 +688,7 @@
         "height": 1
     },
     {
-        "id": "9f0963d9.049ba",
+        "id": "2eb88ea0.b176a2",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -697,7 +697,7 @@
         "height": 1
     },
     {
-        "id": "9c21595f.49e8d8",
+        "id": "8ba08793.29ba68",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -706,7 +706,7 @@
         "height": 1
     },
     {
-        "id": "6a6ccad3.1f76f4",
+        "id": "e145957.09f1868",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -715,7 +715,7 @@
         "height": 1
     },
     {
-        "id": "7dcbe917.8e3758",
+        "id": "77d23fe5.5575b",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -724,7 +724,7 @@
         "height": 1
     },
     {
-        "id": "8e6f2734.01af48",
+        "id": "a6006fbf.e66b7",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -733,7 +733,7 @@
         "height": 1
     },
     {
-        "id": "8f4ba8fa.4ef2a8",
+        "id": "197ec592.407b4a",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -742,7 +742,7 @@
         "height": 1
     },
     {
-        "id": "4302b485.09753c",
+        "id": "af0c4021.365f2",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "65d119b5.66cb78",
@@ -751,7 +751,7 @@
         "height": 1
     },
     {
-        "id": "f488da71.8eb798",
+        "id": "cf207d8c.e958a",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "65d119b5.66cb78",
@@ -760,7 +760,7 @@
         "height": 1
     },
     {
-        "id": "cb64f6fa.1222e8",
+        "id": "fa4de58e.e9a4a8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "65d119b5.66cb78",
@@ -769,7 +769,7 @@
         "height": 1
     },
     {
-        "id": "83d61d78.f0864",
+        "id": "84829964.59b538",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "65d119b5.66cb78",
@@ -778,7 +778,7 @@
         "height": 1
     },
     {
-        "id": "843c5f99.98e46",
+        "id": "19e598cf.3bd127",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "72b67add.961f74",
@@ -3242,8 +3242,8 @@
         "order": 1,
         "width": 6,
         "height": 1,
-        "x": 300,
-        "y": 240,
+        "x": 340,
+        "y": 280,
         "wires": [
             [
                 "4c35d949.85d758"
@@ -3511,7 +3511,7 @@
         "max": "30",
         "step": 1,
         "x": 670,
-        "y": 1040,
+        "y": 880,
         "wires": [
             [
                 "bd1a41bd.42258",
@@ -3533,7 +3533,7 @@
         "format": "{{msg.payload}} sec.",
         "layout": "row-center",
         "x": 980,
-        "y": 1040,
+        "y": 880,
         "wires": []
     },
     {
@@ -3547,7 +3547,7 @@
         "initialize": "",
         "finalize": "",
         "x": 980,
-        "y": 1080,
+        "y": 920,
         "wires": [
             []
         ]
@@ -3559,7 +3559,7 @@
         "name": "nutrimentsSolutionATimer",
         "storageNode": "217cc961.603ce6",
         "x": 990,
-        "y": 1120,
+        "y": 960,
         "wires": []
     },
     {
@@ -3569,7 +3569,7 @@
         "name": "nutrimentsSolutionATimer",
         "storageNode": "217cc961.603ce6",
         "x": 350,
-        "y": 1040,
+        "y": 880,
         "wires": [
             [
                 "291d0ce5.3b19f4"
@@ -4771,7 +4771,7 @@
         "type": "ui_text",
         "z": "87cb301d.9893c",
         "group": "8d4aab9b.4d6328",
-        "order": 13,
+        "order": 16,
         "width": 1,
         "height": 1,
         "name": "Nutriments sol. B timer ",
@@ -4837,8 +4837,8 @@
         "randomLast": "5",
         "randomUnits": "seconds",
         "drop": false,
-        "x": 980,
-        "y": 960,
+        "x": 1000,
+        "y": 1120,
         "wires": [
             [
                 "a5c49cb5.f3459"
@@ -4854,8 +4854,8 @@
         "qos": "0",
         "retain": "",
         "broker": "a0e631b8.d383b",
-        "x": 530,
-        "y": 880,
+        "x": 550,
+        "y": 1040,
         "wires": []
     },
     {
@@ -4877,8 +4877,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1130,
-        "y": 960,
+        "x": 1150,
+        "y": 1120,
         "wires": [
             [
                 "d977f79c.7973f8"
@@ -4900,8 +4900,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 340,
-        "y": 960,
+        "x": 360,
+        "y": 1120,
         "wires": [
             [
                 "62da8d4e.c4ff24"
@@ -4931,8 +4931,8 @@
         "offvalueType": "bool",
         "officon": "fa-toggle-off fa-2x",
         "offcolor": "purple",
-        "x": 330,
-        "y": 880,
+        "x": 350,
+        "y": 1040,
         "wires": [
             [
                 "b29a1551.343db8",
@@ -4946,8 +4946,8 @@
         "z": "87cb301d.9893c",
         "name": "nutrimentsSolutionBTimer",
         "storageNode": "217cc961.603ce6",
-        "x": 630,
-        "y": 960,
+        "x": 650,
+        "y": 1120,
         "wires": [
             [
                 "33f73a9b.f300e6"
@@ -4964,8 +4964,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 830,
-        "y": 960,
+        "x": 850,
+        "y": 1120,
         "wires": [
             [
                 "40258950.e35d68"
@@ -4994,7 +4994,7 @@
         "type": "ui_text",
         "z": "1d22c714.e50369",
         "group": "8d4aab9b.4d6328",
-        "order": 16,
+        "order": 13,
         "width": 1,
         "height": 1,
         "name": "Nutriments B pump on/off state",
@@ -5022,5 +5022,15 @@
                 "94ff4603.6d4ad8"
             ]
         ]
+    },
+    {
+        "id": "e3132367.7e01e",
+        "type": "comment",
+        "z": "87cb301d.9893c",
+        "name": "### System variable configuration",
+        "info": "",
+        "x": 300,
+        "y": 1260,
+        "wires": []
     }
 ]
