@@ -21,13 +21,6 @@
         "info": ""
     },
     {
-        "id": "f8e438a0.a44a78",
-        "type": "tab",
-        "label": "Flow 1",
-        "disabled": false,
-        "info": ""
-    },
-    {
         "id": "a0e631b8.d383b",
         "type": "mqtt-broker",
         "name": "Mosquitto",
@@ -5265,183 +5258,6 @@
         ]
     },
     {
-        "id": "1c2d8063.ffd98",
-        "type": "ui_gauge",
-        "z": "f8e438a0.a44a78",
-        "name": "",
-        "group": "60dbb005.0de84",
-        "order": 0,
-        "width": 0,
-        "height": 0,
-        "gtype": "gage",
-        "title": "{{topic}}",
-        "label": "units",
-        "format": "{{value}}",
-        "min": 0,
-        "max": 10,
-        "colors": [
-            "#00b500",
-            "#e6e600",
-            "#ca3838"
-        ],
-        "seg1": "",
-        "seg2": "",
-        "x": 990,
-        "y": 300,
-        "wires": []
-    },
-    {
-        "id": "f2ad57c4.ab6818",
-        "type": "inject",
-        "z": "f8e438a0.a44a78",
-        "name": "",
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 577,
-        "y": 185,
-        "wires": [
-            [
-                "caa0fea4.2d07e"
-            ]
-        ]
-    },
-    {
-        "id": "caa0fea4.2d07e",
-        "type": "change",
-        "z": "f8e438a0.a44a78",
-        "name": "10 nm",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "10",
-                "tot": "num"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 760,
-        "y": 203,
-        "wires": [
-            [
-                "1c2d8063.ffd98"
-            ]
-        ]
-    },
-    {
-        "id": "3183b7fe.17aea",
-        "type": "change",
-        "z": "f8e438a0.a44a78",
-        "name": "label1",
-        "rules": [
-            {
-                "t": "set",
-                "p": "topic",
-                "pt": "msg",
-                "to": "label1",
-                "tot": "str"
-            },
-            {
-                "t": "delete",
-                "p": "payload",
-                "pt": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 752,
-        "y": 295,
-        "wires": [
-            [
-                "1c2d8063.ffd98"
-            ]
-        ]
-    },
-    {
-        "id": "8c00a1bc.87b528",
-        "type": "change",
-        "z": "f8e438a0.a44a78",
-        "name": "Label2",
-        "rules": [
-            {
-                "t": "set",
-                "p": "topic",
-                "pt": "msg",
-                "to": "Label2",
-                "tot": "str"
-            },
-            {
-                "t": "delete",
-                "p": "payload",
-                "pt": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 755,
-        "y": 391,
-        "wires": [
-            [
-                "1c2d8063.ffd98"
-            ]
-        ]
-    },
-    {
-        "id": "16d2b4a6.7d73b3",
-        "type": "inject",
-        "z": "f8e438a0.a44a78",
-        "name": "",
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 589,
-        "y": 295,
-        "wires": [
-            [
-                "3183b7fe.17aea"
-            ]
-        ]
-    },
-    {
-        "id": "1b719264.6c406e",
-        "type": "inject",
-        "z": "f8e438a0.a44a78",
-        "name": "",
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 607,
-        "y": 403,
-        "wires": [
-            [
-                "8c00a1bc.87b528"
-            ]
-        ]
-    },
-    {
         "id": "12f4feef.d35cf1",
         "type": "ui_artlessgauge",
         "z": "1d22c714.e50369",
@@ -5489,7 +5305,7 @@
         "type": "function",
         "z": "1d22c714.e50369",
         "name": "Configure hours sectors",
-        "func": "var sunrise = global.get('sunrise') || 0;\nvar sunset = global.get('sunset') || 0;\nvar endLed = global.get('seedTray.led.timer.off') || 0;\n\nvar newSectors = [\n    {t:\"min\",val:sunrise,col:\"#FF7F18\",dot:0},\n    {t:\"sec\",val:sunset,col:\"#F3DF5E\",dot:0},\n    {t:\"sec\",val:endLed,col:\"#F3DF5E\",dot:0},\n    {t:\"max\",val:sunrise+24*3600,col:\"grey\",dot:0}] \n\n\nmsg.control = \n  {sectors:newSectors}\n  \nmsg.payload = new Date();\n\nreturn msg;\n",
+        "func": "var sunrise = global.get('sunrise') || 0;\nvar sunset = global.get('sunset') || 0;\nvar endLed = global.get('seedTray.led.timer.off') || 0;\n\nvar newSectors = [\n    {t:\"min\",val:sunrise,col:\"#FF7F18\",dot:0},\n    {t:\"sec\",val:sunset,col:\"#F3DF5E\",dot:0},\n    {t:\"sec\",val:endLed,col:\"#F3DF5E\",dot:0},\n    {t:\"max\",val:sunrise+24*3600,col:\"grey\",dot:0}] \n\n\nmsg.control = \n  {sectors:newSectors}\n  \n//msg.payload = new Date();\n\nreturn msg;\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -5516,7 +5332,7 @@
                 "vt": "str"
             }
         ],
-        "repeat": "1",
+        "repeat": "50",
         "crontab": "",
         "once": true,
         "onceDelay": "1",
