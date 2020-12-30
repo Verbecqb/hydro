@@ -2288,7 +2288,7 @@
         "icon": "fa-lemon-o fa-0.5x",
         "label": "",
         "unit": "",
-        "layout": "radial",
+        "layout": "linear",
         "decimals": "1",
         "differential": false,
         "minmax": true,
