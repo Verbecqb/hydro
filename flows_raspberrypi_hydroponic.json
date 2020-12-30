@@ -5358,7 +5358,7 @@
         "height": 0,
         "gtype": "gage",
         "title": "gauge",
-        "label": "units",
+        "label": "",
         "format": "{{value}}",
         "min": 0,
         "max": 10,
@@ -5367,8 +5367,8 @@
             "#e6e600",
             "#ca3838"
         ],
-        "seg1": "",
-        "seg2": "",
+        "seg1": "5",
+        "seg2": "7",
         "x": 400,
         "y": 1920,
         "wires": []
