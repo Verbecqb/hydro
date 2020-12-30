@@ -580,7 +580,7 @@
         "collapse": false
     },
     {
-        "id": "497de3b1.2f48bc",
+        "id": "298dabfd.a54b04",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "1c37dc0b.ce28e4",
@@ -589,7 +589,7 @@
         "height": 1
     },
     {
-        "id": "4ab376ae.da8208",
+        "id": "7c638293.204f4c",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "1c37dc0b.ce28e4",
@@ -598,7 +598,7 @@
         "height": 1
     },
     {
-        "id": "a1347946.54a6d8",
+        "id": "ec016773.f2c878",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -607,7 +607,7 @@
         "height": 1
     },
     {
-        "id": "ce95824a.575b1",
+        "id": "bdc2465b.841518",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -616,7 +616,7 @@
         "height": 1
     },
     {
-        "id": "5d085265.f634bc",
+        "id": "a8cd77f2.742ea8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -625,7 +625,7 @@
         "height": 1
     },
     {
-        "id": "f05248c7.af5018",
+        "id": "a438c162.cbbc",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
@@ -634,7 +634,7 @@
         "height": 1
     },
     {
-        "id": "9b4dc66c.93c6e8",
+        "id": "36df1c75.1e7a44",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
@@ -643,7 +643,7 @@
         "height": 1
     },
     {
-        "id": "6c11d80e.b0b438",
+        "id": "1dcbb27.7481d4e",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
@@ -652,7 +652,7 @@
         "height": 1
     },
     {
-        "id": "d52f0245.11a02",
+        "id": "61095cac.b4b794",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
@@ -661,7 +661,7 @@
         "height": 1
     },
     {
-        "id": "bcfe1a0b.c43bb8",
+        "id": "d7e04d6e.9354d",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "6c15eb0d.8f5814",
@@ -670,7 +670,7 @@
         "height": 1
     },
     {
-        "id": "2880b683.7ab35a",
+        "id": "31759910.083176",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "6c15eb0d.8f5814",
@@ -679,7 +679,7 @@
         "height": 1
     },
     {
-        "id": "5cccd992.07b178",
+        "id": "935954ec.068e38",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "6c15eb0d.8f5814",
@@ -688,43 +688,43 @@
         "height": 1
     },
     {
-        "id": "b454e380.7d186",
+        "id": "60a92385.aad57c",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
-        "order": 5,
+        "order": 3,
         "width": 3,
         "height": 1
     },
     {
-        "id": "23b7c797.3b5bf8",
+        "id": "14b6c5cf.78dfba",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
-        "order": 8,
+        "order": 6,
         "width": 3,
         "height": 1
     },
     {
-        "id": "5df85394.d8809c",
+        "id": "297a20bb.a27fd",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
-        "order": 11,
+        "order": 9,
         "width": 3,
         "height": 1
     },
     {
-        "id": "48ac586e.7f3a58",
+        "id": "2b29ee2e.9f0172",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
-        "order": 14,
+        "order": 12,
         "width": 3,
         "height": 1
     },
     {
-        "id": "9a23d51f.5584d8",
+        "id": "1807f635.906b0a",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "65d119b5.66cb78",
@@ -733,7 +733,7 @@
         "height": 1
     },
     {
-        "id": "40067d25.d32be4",
+        "id": "82acb163.82b52",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "65d119b5.66cb78",
@@ -742,7 +742,7 @@
         "height": 1
     },
     {
-        "id": "33209b3.2c67064",
+        "id": "784e1dc6.51e1a4",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "65d119b5.66cb78",
@@ -751,16 +751,7 @@
         "height": 1
     },
     {
-        "id": "3b96c2f2.09992e",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "65d119b5.66cb78",
-        "order": 8,
-        "width": 12,
-        "height": 1
-    },
-    {
-        "id": "df0413cf.62859",
+        "id": "72f64710.b63768",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "72b67add.961f74",
@@ -2827,7 +2818,7 @@
         "label": "Sol. A",
         "tooltip": "",
         "group": "8d4aab9b.4d6328",
-        "order": 3,
+        "order": 4,
         "width": 3,
         "height": 1,
         "passthru": true,
@@ -3481,7 +3472,7 @@
         "label": "<i class=\"fa fa-clock-o\"></i>",
         "tooltip": "Nutriments pump duration",
         "group": "8d4aab9b.4d6328",
-        "order": 6,
+        "order": 7,
         "width": 3,
         "height": 1,
         "passthru": true,
@@ -3505,7 +3496,7 @@
         "type": "ui_text",
         "z": "87cb301d.9893c",
         "group": "8d4aab9b.4d6328",
-        "order": 7,
+        "order": 8,
         "width": 1,
         "height": 1,
         "name": "Nutriments sol. A timer ",
@@ -4642,7 +4633,7 @@
         "type": "ui_text",
         "z": "1d22c714.e50369",
         "group": "8d4aab9b.4d6328",
-        "order": 4,
+        "order": 5,
         "width": 1,
         "height": 1,
         "name": "Nutriments A pump on/off state",
@@ -4679,7 +4670,7 @@
         "label": "<i class=\"fa fa-clock-o\"></i>",
         "tooltip": "Nutriments pump duration",
         "group": "8d4aab9b.4d6328",
-        "order": 12,
+        "order": 13,
         "width": 3,
         "height": 1,
         "passthru": true,
@@ -4703,7 +4694,7 @@
         "type": "ui_text",
         "z": "87cb301d.9893c",
         "group": "8d4aab9b.4d6328",
-        "order": 13,
+        "order": 14,
         "width": 1,
         "height": 1,
         "name": "Nutriments sol. B timer ",
@@ -4848,7 +4839,7 @@
         "label": "Sol. B",
         "tooltip": "",
         "group": "8d4aab9b.4d6328",
-        "order": 9,
+        "order": 10,
         "width": 3,
         "height": 1,
         "passthru": true,
@@ -4926,7 +4917,7 @@
         "type": "ui_text",
         "z": "1d22c714.e50369",
         "group": "8d4aab9b.4d6328",
-        "order": 10,
+        "order": 11,
         "width": 1,
         "height": 1,
         "name": "Nutriments B pump on/off state",
@@ -5038,7 +5029,7 @@
         "type": "ui_level",
         "z": "1d22c714.e50369",
         "group": "8a9b009f.1b35d",
-        "order": 9,
+        "order": 11,
         "width": 0,
         "height": 0,
         "name": "level",
