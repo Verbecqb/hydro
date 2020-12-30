@@ -5346,5 +5346,31 @@
                 "6de36e52.d849c"
             ]
         ]
+    },
+    {
+        "id": "3909cb73.14fea4",
+        "type": "ui_gauge",
+        "z": "1d22c714.e50369",
+        "name": "",
+        "group": "45199dde.854f64",
+        "order": 12,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "gauge",
+        "label": "units",
+        "format": "{{value}}",
+        "min": 0,
+        "max": 10,
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "x": 400,
+        "y": 1920,
+        "wires": []
     }
 ]
