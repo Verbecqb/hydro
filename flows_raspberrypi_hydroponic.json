@@ -876,7 +876,8 @@
             [
                 "e3814403.711458",
                 "7d66ede7.acf094",
-                "84888512.5d3ad8"
+                "84888512.5d3ad8",
+                "71624601.36eb68"
             ],
             [
                 "b1c0fbbf.8e9c58",
@@ -5383,14 +5384,31 @@
         "order": 16,
         "width": 7,
         "height": 3,
-        "format": "<div id=\"wrapper\">\n  <svg id=\"meter\">\n    <rect x=\"10\" y=\"10\" rx=\"2\" ry=\"2\" width=\"20\" height=\"20\" \n      style=\"fill:#f0003c;opacity:0.9\" />\n    <rect x=\"35\" y=\"10\" width=\"20\" height=\"20\" \n      style=\"fill:#f65430;opacity:0.9\" />\n    <rect x=\"60\" y=\"10\" width=\"20\" height=\"20\" \n      style=\"fill:#fd9246;opacity:0.9\" />\n    <text x=\"15\" y=\"25\" fill=\"white\">1</text>\n    <text x=\"40\" y=\"25\" fill=\"white\">2</text>\n    <text x=\"65\" y=\"25\" fill=\"white\">3</text>\n    \n   \n      <polyline points=\"10,5 10,0 70,0 70,5\"\n      style=\"fill:none;stroke:green;stroke-width:3\" />\n     <polygon points=\"200,10 250,190 160,210\" style=\"fill:lime;stroke:purple;stroke-width:1\" />\n  </svg>\n</div>",
+        "format": "<div id=\"wrapper\">\n  <svg id=\"meter\">\n    <rect x=\"10\" y=\"10\" rx=\"2\" ry=\"2\" width=\"20\" height=\"20\" \n      style=\"fill:#f0003c;opacity:0.9\" />\n    <rect x=\"35\" y=\"10\" width=\"20\" height=\"20\" \n      style=\"fill:#f65430;opacity:0.9\" />\n    <rect x=\"60\" y=\"10\" width=\"20\" height=\"20\" \n      style=\"fill:#fd9246;opacity:0.9\" />\n    <text x=\"15\" y=\"25\" fill=\"white\">1</text>\n    <text x=\"40\" y=\"25\" fill=\"white\">2</text>\n    <text x=\"65\" y=\"25\" fill=\"white\">3</text>\n    \n   \n      <polyline points=\"10,5 10,0 70,0 70,5\"\n      style=\"fill:none;stroke:green;stroke-width:3\" />\n     <polygon points=\"200,10 250,190 160,210\" style=\"fill:lime;stroke:purple;stroke-width:1\" />\n  </svg>\n</div>\n\n<script>\n    \n    var phScale = \n        [{\n            \"title\": \"1\",\n            \"hexColor\": \"#FF7F18\",\n            \"category\": acidic\n        }, \n        {  \n             \"title\": \"2\",\n            \"hexColor\": \"#FF7F18\",\n            \"category\": acidic\n        },\n        {\n             \"title\": \"3\",\n            \"hexColor\": \"#FF7F18\",\n            \"category\": acidic\n        }];\n        \n(function(scope) {\n  scope.$watch('msg', function(msg) {\n    if (msg) {\n         document.getElementById(\"meter\").innerHTML = msg.payload;\n    }\n  });\n})(scope);\n</script>",
         "storeOutMessages": true,
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
-        "x": 350,
+        "x": 500,
+        "y": 1100,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f2aec89f.ae2528",
+        "type": "function",
+        "z": "1d22c714.e50369",
+        "name": "",
+        "func": "\n\nvar phScale = \n        [{\n            \"title\": \"1\",\n            \"hexColor\": \"#FF7F18\",\n            \"category\": acidic\n        }, \n        {  \n             \"title\": \"2\",\n            \"hexColor\": \"#FF7F18\",\n            \"category\": acidic\n        },\n        {\n             \"title\": \"3\",\n            \"hexColor\": \"#FF7F18\",\n            \"category\": acidic\n        }];\n\n\n",
+        "outputs": 2,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 200,
         "y": 1920,
         "wires": [
+            [],
             []
         ]
     }
