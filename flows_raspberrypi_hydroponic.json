@@ -5089,7 +5089,7 @@
                 "dot": 0
             }
         ],
-        "lineWidth": 3,
+        "lineWidth": "7",
         "bgcolorFromTheme": true,
         "diffCenter": "",
         "x": 510,
