@@ -5272,7 +5272,7 @@
         "layout": "radial",
         "decimals": 0,
         "differential": false,
-        "minmax": true,
+        "minmax": false,
         "colorTrack": "#555555",
         "style": "",
         "colorFromTheme": true,
