@@ -5055,7 +5055,7 @@
         "name": "",
         "icon": "",
         "label": "",
-        "unit": "PPM",
+        "unit": "",
         "layout": "linear",
         "decimals": 0,
         "differential": false,
