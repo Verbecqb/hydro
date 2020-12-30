@@ -597,7 +597,7 @@
         "order": 1
     },
     {
-        "id": "7dad08c4.6672d8",
+        "id": "b3e5db8a.9bb338",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "1c37dc0b.ce28e4",
@@ -606,7 +606,7 @@
         "height": 1
     },
     {
-        "id": "7fef91b0.9a42d",
+        "id": "1ee02f39.4b4361",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "1c37dc0b.ce28e4",
@@ -615,7 +615,7 @@
         "height": 1
     },
     {
-        "id": "f6702fe8.6eff1",
+        "id": "f503745.9bdaa88",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -624,7 +624,7 @@
         "height": 1
     },
     {
-        "id": "2be63b45.c79d94",
+        "id": "8bbe7b34.9118a8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -633,7 +633,7 @@
         "height": 1
     },
     {
-        "id": "d0da501a.c77a9",
+        "id": "fe9d76f4.e85428",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -642,7 +642,7 @@
         "height": 1
     },
     {
-        "id": "c6ea4a7b.e5cec8",
+        "id": "8f52844f.431a78",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
@@ -651,7 +651,7 @@
         "height": 1
     },
     {
-        "id": "790abcde.fc5064",
+        "id": "7ef75bd1.206b14",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
@@ -660,7 +660,7 @@
         "height": 1
     },
     {
-        "id": "22999d3b.cfcf42",
+        "id": "5ec0df5f.6c2f3",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
@@ -669,16 +669,43 @@
         "height": 1
     },
     {
-        "id": "dde06f0d.08e5e",
+        "id": "4affa6d6.4564f8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
-        "order": 11,
+        "order": 10,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "5cf4ec92.3a4934",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "45199dde.854f64",
+        "order": 12,
         "width": 3,
         "height": 1
     },
     {
-        "id": "c811b86f.0859e8",
+        "id": "73c2423.678ebbc",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "45199dde.854f64",
+        "order": 14,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "4bd90e20.d7fdd",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "45199dde.854f64",
+        "order": 15,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "d91dbb2c.1850d8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "6c15eb0d.8f5814",
@@ -687,7 +714,7 @@
         "height": 1
     },
     {
-        "id": "21edd669.1629aa",
+        "id": "ed24c0ff.d3548",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "6c15eb0d.8f5814",
@@ -696,7 +723,7 @@
         "height": 1
     },
     {
-        "id": "ed31a209.ae405",
+        "id": "4fc90ef8.9114f",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -705,7 +732,7 @@
         "height": 1
     },
     {
-        "id": "f6049875.bb0fe8",
+        "id": "8ab6b651.2b9bb8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -714,7 +741,7 @@
         "height": 1
     },
     {
-        "id": "4bcaa0a2.b3645",
+        "id": "e379844c.294358",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -723,7 +750,7 @@
         "height": 1
     },
     {
-        "id": "b2a676e.bcd8288",
+        "id": "95d931f8.96954",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -732,7 +759,7 @@
         "height": 1
     },
     {
-        "id": "23f212c7.01f8de",
+        "id": "8d7df1f8.2d807",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -741,7 +768,7 @@
         "height": 1
     },
     {
-        "id": "1d6da46c.4e1d9c",
+        "id": "ebc2a5e6.e11088",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "65d119b5.66cb78",
@@ -750,7 +777,7 @@
         "height": 1
     },
     {
-        "id": "5c8654c4.d773ec",
+        "id": "530af86c.183338",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "65d119b5.66cb78",
@@ -759,7 +786,7 @@
         "height": 1
     },
     {
-        "id": "db847135.03be8",
+        "id": "2fe7572f.2ec648",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "65d119b5.66cb78",
@@ -768,7 +795,7 @@
         "height": 1
     },
     {
-        "id": "7c5e65f7.3ba8fc",
+        "id": "74a3fc11.283654",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "65d119b5.66cb78",
@@ -777,7 +804,7 @@
         "height": 1
     },
     {
-        "id": "e94e553.8eafda8",
+        "id": "12712293.58d6fd",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "72b67add.961f74",
@@ -2563,7 +2590,7 @@
         "type": "ui_text",
         "z": "1d22c714.e50369",
         "group": "45199dde.854f64",
-        "order": 10,
+        "order": 11,
         "width": 4,
         "height": 1,
         "name": "Last refresh - luminosity",
@@ -5262,9 +5289,9 @@
         "type": "ui_artlessgauge",
         "z": "1d22c714.e50369",
         "group": "45199dde.854f64",
-        "order": 12,
-        "width": 7,
-        "height": 4,
+        "order": 13,
+        "width": 4,
+        "height": 2,
         "name": "",
         "icon": "",
         "label": "{{label}}",
@@ -5352,7 +5379,7 @@
         "type": "ui_svg_graphics",
         "z": "1d22c714.e50369",
         "group": "45199dde.854f64",
-        "order": 9,
+        "order": 16,
         "width": 0,
         "height": 0,
         "svgString": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0\" y=\"0\" height=\"100\" viewBox=\"0 0 100 100\" width=\"100\" preserveAspectRatio=\"xMidYMid meet\"><rect id=\"svgEditorBackground\" x=\"0\" y=\"0\" width=\"100\" height=\"100\" style=\"fill: none; stroke: none;\"/><path d=\"M41.788,58.836a64.658,64.658,0,0,1,84.407-50.312\" style=\"fill:none;stroke:navy;stroke-width:1px;\" id=\"e4_circleArc\"/></svg>",
