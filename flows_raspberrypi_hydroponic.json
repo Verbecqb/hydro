@@ -5025,48 +5025,6 @@
         ]
     },
     {
-        "id": "9542e688.7ebf78",
-        "type": "ui_level",
-        "z": "1d22c714.e50369",
-        "group": "8a9b009f.1b35d",
-        "order": 11,
-        "width": 0,
-        "height": 0,
-        "name": "level",
-        "label": "test",
-        "colorHi": "#00b33c",
-        "colorWarn": "#ff9900",
-        "colorNormal": "#e60000",
-        "colorOff": "#595959",
-        "min": 0,
-        "max": "1200",
-        "segWarn": "200",
-        "segHigh": "400",
-        "unit": "ppm",
-        "layout": "sh",
-        "channelA": "A",
-        "channelB": "B",
-        "decimals": 0,
-        "animations": "off",
-        "shape": "3",
-        "colorschema": "rainbow",
-        "textoptions": "default",
-        "colorText": "#eeeeee",
-        "fontLabel": "",
-        "fontValue": "",
-        "fontSmall": "",
-        "colorFromTheme": true,
-        "textAnimations": false,
-        "hideValue": false,
-        "tickmode": "auto",
-        "peakmode": false,
-        "property": "payload",
-        "peaktime": 3000,
-        "x": 590,
-        "y": 420,
-        "wires": []
-    },
-    {
         "id": "de2dff01.cd507",
         "type": "inject",
         "z": "1d22c714.e50369",
@@ -5091,8 +5049,51 @@
         "y": 420,
         "wires": [
             [
-                "9542e688.7ebf78"
+                "4d67ced7.a6caa"
             ]
         ]
+    },
+    {
+        "id": "4d67ced7.a6caa",
+        "type": "ui_artlessgauge",
+        "z": "1d22c714.e50369",
+        "group": "1c37dc0b.ce28e4",
+        "order": 9,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "icon": "",
+        "label": "Gauge",
+        "unit": "",
+        "layout": "linear",
+        "decimals": 0,
+        "differential": false,
+        "minmax": false,
+        "colorTrack": "#555555",
+        "style": "0, 8, round",
+        "colorFromTheme": true,
+        "property": "payload",
+        "secondary": "secondary",
+        "inline": false,
+        "sectors": [
+            {
+                "val": 0,
+                "col": "#ff9900",
+                "t": "min",
+                "dot": 0
+            },
+            {
+                "val": 10,
+                "col": "#ff9900",
+                "t": "max",
+                "dot": 0
+            }
+        ],
+        "lineWidth": 3,
+        "bgcolorFromTheme": true,
+        "diffCenter": "",
+        "x": 510,
+        "y": 460,
+        "wires": []
     }
 ]
