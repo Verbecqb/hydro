@@ -3541,7 +3541,7 @@
         "type": "function",
         "z": "87cb301d.9893c",
         "name": "Save global variable",
-        "func": "\nglobal.set('durationNutrimentsA',msg.payload);\n",
+        "func": "\nglobal.set('nutriments.solutionA.pump.duration',msg.payload);\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -4757,7 +4757,7 @@
         "max": "30",
         "step": 1,
         "x": 670,
-        "y": 1180,
+        "y": 1140,
         "wires": [
             [
                 "bd340b50.cd8b48",
@@ -4779,7 +4779,7 @@
         "format": "{{msg.payload}} sec.",
         "layout": "row-center",
         "x": 970,
-        "y": 1180,
+        "y": 1140,
         "wires": []
     },
     {
@@ -4787,13 +4787,13 @@
         "type": "function",
         "z": "87cb301d.9893c",
         "name": "Save global variable",
-        "func": "global.set('durationNutrimentsB',msg.payload);\n",
+        "func": "global.set('nutriments.solutionB.pump.duration',msg.payload);\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "x": 960,
-        "y": 1220,
+        "y": 1180,
         "wires": [
             []
         ]
@@ -4805,7 +4805,7 @@
         "name": "nutrimentsSolutionBTimer",
         "storageNode": "217cc961.603ce6",
         "x": 970,
-        "y": 1256,
+        "y": 1216,
         "wires": []
     },
     {
@@ -4815,7 +4815,7 @@
         "name": "nutrimentsSolutionBTimer",
         "storageNode": "217cc961.603ce6",
         "x": 350,
-        "y": 1180,
+        "y": 1140,
         "wires": [
             [
                 "73fc20ca.0a907"
@@ -4838,7 +4838,7 @@
         "randomUnits": "seconds",
         "drop": false,
         "x": 1000,
-        "y": 1120,
+        "y": 1080,
         "wires": [
             [
                 "a5c49cb5.f3459"
@@ -4855,7 +4855,7 @@
         "retain": "",
         "broker": "a0e631b8.d383b",
         "x": 530,
-        "y": 1040,
+        "y": 1000,
         "wires": []
     },
     {
@@ -4878,7 +4878,7 @@
         "to": "",
         "reg": false,
         "x": 1150,
-        "y": 1120,
+        "y": 1080,
         "wires": [
             [
                 "d977f79c.7973f8"
@@ -4901,7 +4901,7 @@
         "repair": false,
         "outputs": 1,
         "x": 360,
-        "y": 1120,
+        "y": 1080,
         "wires": [
             [
                 "62da8d4e.c4ff24"
@@ -4932,7 +4932,7 @@
         "officon": "fa-toggle-off fa-2x",
         "offcolor": "purple",
         "x": 330,
-        "y": 1040,
+        "y": 1000,
         "wires": [
             [
                 "b29a1551.343db8",
@@ -4947,7 +4947,7 @@
         "name": "nutrimentsSolutionBTimer",
         "storageNode": "217cc961.603ce6",
         "x": 630,
-        "y": 1120,
+        "y": 1080,
         "wires": [
             [
                 "33f73a9b.f300e6"
@@ -4965,7 +4965,7 @@
         "initialize": "",
         "finalize": "",
         "x": 850,
-        "y": 1120,
+        "y": 1080,
         "wires": [
             [
                 "40258950.e35d68"
@@ -5030,7 +5030,7 @@
         "name": "### System variable configuration",
         "info": "",
         "x": 300,
-        "y": 1260,
+        "y": 1240,
         "wires": []
     }
 ]
