@@ -597,7 +597,7 @@
         "order": 1
     },
     {
-        "id": "b3e5db8a.9bb338",
+        "id": "7a934e58.41a52",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "1c37dc0b.ce28e4",
@@ -606,7 +606,7 @@
         "height": 1
     },
     {
-        "id": "1ee02f39.4b4361",
+        "id": "9068339.e3675d",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "1c37dc0b.ce28e4",
@@ -615,7 +615,7 @@
         "height": 1
     },
     {
-        "id": "f503745.9bdaa88",
+        "id": "8a9ce7f2.8789b8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -624,7 +624,7 @@
         "height": 1
     },
     {
-        "id": "8bbe7b34.9118a8",
+        "id": "1605152c.285afb",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -633,7 +633,7 @@
         "height": 1
     },
     {
-        "id": "fe9d76f4.e85428",
+        "id": "25bc9973.248f26",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -642,7 +642,7 @@
         "height": 1
     },
     {
-        "id": "8f52844f.431a78",
+        "id": "eeaf07b.97e0ef8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
@@ -651,7 +651,7 @@
         "height": 1
     },
     {
-        "id": "7ef75bd1.206b14",
+        "id": "7be28aa1.ee0974",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
@@ -660,7 +660,7 @@
         "height": 1
     },
     {
-        "id": "5ec0df5f.6c2f3",
+        "id": "26dad2a8.7e4aee",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
@@ -669,7 +669,7 @@
         "height": 1
     },
     {
-        "id": "4affa6d6.4564f8",
+        "id": "251dacf1.269714",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
@@ -678,7 +678,7 @@
         "height": 1
     },
     {
-        "id": "5cf4ec92.3a4934",
+        "id": "f2506de3.3bd44",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
@@ -687,7 +687,7 @@
         "height": 1
     },
     {
-        "id": "73c2423.678ebbc",
+        "id": "77ed8d41.c86204",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
@@ -696,7 +696,7 @@
         "height": 1
     },
     {
-        "id": "4bd90e20.d7fdd",
+        "id": "82a2fe0e.bc15d",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
@@ -705,7 +705,7 @@
         "height": 1
     },
     {
-        "id": "d91dbb2c.1850d8",
+        "id": "285f1fba.f7cdc",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "6c15eb0d.8f5814",
@@ -714,7 +714,7 @@
         "height": 1
     },
     {
-        "id": "ed24c0ff.d3548",
+        "id": "25d46d1f.2ddf42",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "6c15eb0d.8f5814",
@@ -723,7 +723,7 @@
         "height": 1
     },
     {
-        "id": "4fc90ef8.9114f",
+        "id": "29df2c49.7ed114",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -732,7 +732,7 @@
         "height": 1
     },
     {
-        "id": "8ab6b651.2b9bb8",
+        "id": "beb0b565.b933b8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -741,7 +741,7 @@
         "height": 1
     },
     {
-        "id": "e379844c.294358",
+        "id": "26978364.ca0c1c",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -750,7 +750,7 @@
         "height": 1
     },
     {
-        "id": "95d931f8.96954",
+        "id": "c6bbaebd.72ed9",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -759,7 +759,7 @@
         "height": 1
     },
     {
-        "id": "8d7df1f8.2d807",
+        "id": "659e930b.ffff4c",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -768,7 +768,7 @@
         "height": 1
     },
     {
-        "id": "ebc2a5e6.e11088",
+        "id": "15216b6c.f2ed35",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "65d119b5.66cb78",
@@ -777,7 +777,7 @@
         "height": 1
     },
     {
-        "id": "530af86c.183338",
+        "id": "b1f3eb82.e66388",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "65d119b5.66cb78",
@@ -786,7 +786,7 @@
         "height": 1
     },
     {
-        "id": "2fe7572f.2ec648",
+        "id": "4eeb69d5.248b88",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "65d119b5.66cb78",
@@ -795,7 +795,7 @@
         "height": 1
     },
     {
-        "id": "74a3fc11.283654",
+        "id": "c37e3279.0a213",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "65d119b5.66cb78",
@@ -804,7 +804,7 @@
         "height": 1
     },
     {
-        "id": "12712293.58d6fd",
+        "id": "bb9dfa6c.563078",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "72b67add.961f74",
@@ -5380,9 +5380,9 @@
         "z": "1d22c714.e50369",
         "group": "45199dde.854f64",
         "name": "",
-        "order": 15,
-        "width": 0,
-        "height": 0,
+        "order": 16,
+        "width": 7,
+        "height": 3,
         "format": "<div id=\"wrapper\">\n  <svg id=\"meter\">\n    <rect x=\"10\" y=\"10\" rx=\"2\" ry=\"2\" width=\"20\" height=\"20\" \n      style=\"fill:red;opacity:0.9\" />\n    <rect x=\"35\" y=\"10\" width=\"20\" height=\"20\" \n      style=\"fill:orange;opacity:0.9\" />\n    <rect x=\"60\" y=\"10\" width=\"20\" height=\"20\" \n      style=\"fill:#fed8b1;opacity:0.9\" />\n    <text x=\"15\" y=\"25\" fill=\"white\">1</text>\n    <text x=\"40\" y=\"25\" fill=\"white\">2</text>\n    <text x=\"65\" y=\"25\" fill=\"white\">3</text>\n    \n   \n      <polyline points=\"10,5 10,0 70,0 70,5\"\n      style=\"fill:none;stroke:green;stroke-width:3\" />\n\n  </svg>\n</div>",
         "storeOutMessages": true,
         "fwdInMessages": true,
