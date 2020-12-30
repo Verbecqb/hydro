@@ -477,18 +477,6 @@
         "region": "de"
     },
     {
-        "id": "d1c9d5e1.84cd88",
-        "type": "remote-config",
-        "name": "Node-RED UI",
-        "host": "10.0.0.10",
-        "protocol": "http",
-        "port": "1880",
-        "baseurl": "/ui",
-        "instancehash": "tn0e1h0zfv6e8j8ihfdatlcfe245y08mbtl176ivq31mipbz8z2yvmmmwrfblami",
-        "server": "nodered02.remote-red.com",
-        "region": "de"
-    },
-    {
         "id": "8d4aab9b.4d6328",
         "type": "ui_group",
         "name": "Seed tray - Nutriments",
@@ -577,16 +565,6 @@
         "order": 4,
         "disp": true,
         "width": 7,
-        "collapse": false
-    },
-    {
-        "id": "60dbb005.0de84",
-        "type": "ui_group",
-        "name": "control",
-        "tab": "1d3f043a.f4b0d4",
-        "order": 1,
-        "disp": true,
-        "width": "6",
         "collapse": false
     },
     {
