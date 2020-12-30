@@ -580,7 +580,7 @@
         "collapse": false
     },
     {
-        "id": "a406fc6d.c1831",
+        "id": "7856c95f.2c8558",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "1c37dc0b.ce28e4",
@@ -589,7 +589,7 @@
         "height": 1
     },
     {
-        "id": "aaf9a7fb.118b98",
+        "id": "bd91b797.ba7a38",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "1c37dc0b.ce28e4",
@@ -598,7 +598,7 @@
         "height": 1
     },
     {
-        "id": "9ce61f24.95a1a",
+        "id": "ec27c053.d590e",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -607,7 +607,7 @@
         "height": 1
     },
     {
-        "id": "50e35cce.a91b14",
+        "id": "834437a6.618cc8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -616,7 +616,7 @@
         "height": 1
     },
     {
-        "id": "7df20d64.705f24",
+        "id": "affb6b81.815c58",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -625,7 +625,7 @@
         "height": 1
     },
     {
-        "id": "8d559f40.fc5b5",
+        "id": "1e8af065.4ce97",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
@@ -634,7 +634,7 @@
         "height": 1
     },
     {
-        "id": "275e7db0.cbd172",
+        "id": "b07d9a02.683518",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
@@ -643,7 +643,7 @@
         "height": 1
     },
     {
-        "id": "2d2b0f0f.1446c",
+        "id": "1e1ae162.bd9dbf",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
@@ -652,7 +652,7 @@
         "height": 1
     },
     {
-        "id": "b25bdd70.aaf9e",
+        "id": "edf46087.38a54",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
@@ -661,7 +661,7 @@
         "height": 1
     },
     {
-        "id": "e3074ef9.0c9ed",
+        "id": "f1096e05.de22e",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "6c15eb0d.8f5814",
@@ -670,7 +670,7 @@
         "height": 1
     },
     {
-        "id": "d0a2cb9.a025138",
+        "id": "e626c7f5.d16798",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "6c15eb0d.8f5814",
@@ -679,7 +679,7 @@
         "height": 1
     },
     {
-        "id": "6c428505.32ddfc",
+        "id": "e34fc33.2887d4",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "6c15eb0d.8f5814",
@@ -688,61 +688,34 @@
         "height": 1
     },
     {
-        "id": "2eb88ea0.b176a2",
+        "id": "c41cfa58.594e28",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
-        "order": 2,
-        "width": 4,
-        "height": 1
-    },
-    {
-        "id": "8ba08793.29ba68",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "8d4aab9b.4d6328",
-        "order": 3,
-        "width": 4,
-        "height": 1
-    },
-    {
-        "id": "e145957.09f1868",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "8d4aab9b.4d6328",
-        "order": 4,
-        "width": 4,
-        "height": 1
-    },
-    {
-        "id": "77d23fe5.5575b",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "8d4aab9b.4d6328",
-        "order": 8,
+        "order": 6,
         "width": 3,
         "height": 1
     },
     {
-        "id": "a6006fbf.e66b7",
+        "id": "d71ec43a.963018",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
-        "order": 11,
+        "order": 9,
         "width": 3,
         "height": 1
     },
     {
-        "id": "197ec592.407b4a",
+        "id": "1e5e481b.9aa148",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
-        "order": 14,
+        "order": 12,
         "width": 3,
         "height": 1
     },
     {
-        "id": "af0c4021.365f2",
+        "id": "b10e18f0.ecd2c8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "65d119b5.66cb78",
@@ -751,7 +724,7 @@
         "height": 1
     },
     {
-        "id": "cf207d8c.e958a",
+        "id": "86111052.fc1d6",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "65d119b5.66cb78",
@@ -760,7 +733,7 @@
         "height": 1
     },
     {
-        "id": "fa4de58e.e9a4a8",
+        "id": "93d9d549.f9b2a8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "65d119b5.66cb78",
@@ -769,7 +742,7 @@
         "height": 1
     },
     {
-        "id": "84829964.59b538",
+        "id": "63e412ec.f5d64c",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "65d119b5.66cb78",
@@ -778,7 +751,7 @@
         "height": 1
     },
     {
-        "id": "19e598cf.3bd127",
+        "id": "c8710e70.d0f29",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "72b67add.961f74",
@@ -2847,7 +2820,7 @@
         "label": "Sol. A",
         "tooltip": "",
         "group": "8d4aab9b.4d6328",
-        "order": 6,
+        "order": 4,
         "width": 3,
         "height": 1,
         "passthru": true,
@@ -3501,7 +3474,7 @@
         "label": "<i class=\"fa fa-clock-o\"></i>",
         "tooltip": "Nutriments pump duration",
         "group": "8d4aab9b.4d6328",
-        "order": 9,
+        "order": 7,
         "width": 3,
         "height": 1,
         "passthru": true,
@@ -3525,7 +3498,7 @@
         "type": "ui_text",
         "z": "87cb301d.9893c",
         "group": "8d4aab9b.4d6328",
-        "order": 10,
+        "order": 8,
         "width": 1,
         "height": 1,
         "name": "Nutriments sol. A timer ",
@@ -4033,7 +4006,7 @@
         "type": "ui_valuetrail",
         "z": "1d22c714.e50369",
         "group": "8d4aab9b.4d6328",
-        "order": 5,
+        "order": 3,
         "width": 3,
         "height": 1,
         "name": "Water quality trail",
@@ -4710,7 +4683,7 @@
         "type": "ui_text",
         "z": "1d22c714.e50369",
         "group": "8d4aab9b.4d6328",
-        "order": 7,
+        "order": 5,
         "width": 1,
         "height": 1,
         "name": "Nutriments A pump on/off state",
@@ -4747,7 +4720,7 @@
         "label": "<i class=\"fa fa-clock-o\"></i>",
         "tooltip": "Nutriments pump duration",
         "group": "8d4aab9b.4d6328",
-        "order": 15,
+        "order": 13,
         "width": 3,
         "height": 1,
         "passthru": true,
@@ -4771,7 +4744,7 @@
         "type": "ui_text",
         "z": "87cb301d.9893c",
         "group": "8d4aab9b.4d6328",
-        "order": 16,
+        "order": 14,
         "width": 1,
         "height": 1,
         "name": "Nutriments sol. B timer ",
@@ -4916,7 +4889,7 @@
         "label": "Sol. B",
         "tooltip": "",
         "group": "8d4aab9b.4d6328",
-        "order": 12,
+        "order": 10,
         "width": 3,
         "height": 1,
         "passthru": true,
@@ -4994,7 +4967,7 @@
         "type": "ui_text",
         "z": "1d22c714.e50369",
         "group": "8d4aab9b.4d6328",
-        "order": 13,
+        "order": 11,
         "width": 1,
         "height": 1,
         "name": "Nutriments B pump on/off state",
@@ -5032,5 +5005,25 @@
         "x": 300,
         "y": 1240,
         "wires": []
+    },
+    {
+        "id": "610e2b65.b070d4",
+        "type": "ui_template",
+        "z": "1d22c714.e50369",
+        "group": "8d4aab9b.4d6328",
+        "name": "",
+        "order": 2,
+        "width": 4,
+        "height": 3,
+        "format": "<mat-card class=\"example-card\">\n  <mat-card-header>\n    <div mat-card-avatar class=\"fa fa-battery-half \"></div>\n    <mat-card-title>Nutriments</mat-card-title>\n    <mat-card-subtitle>Solution A</mat-card-subtitle>\n  </mat-card-header>\n  <mat-card-content>\n    <p>\n      Solution A pump runs for <font color=\"#purple\"> {{global.nutriments.solutionA.pump.duration}}</font>  \n      when PPM is below  <font color=\"#0077be\">{{global.minPPM}}</font>\n    </p>\n  </mat-card-content>\n</mat-card>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "x": 500,
+        "y": 2640,
+        "wires": [
+            []
+        ]
     }
 ]
