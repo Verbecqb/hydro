@@ -5058,7 +5058,7 @@
         "channelB": "",
         "decimals": 0,
         "animations": "off",
-        "shape": "2",
+        "shape": "1",
         "colorschema": "valuedriven",
         "textoptions": "default",
         "colorText": "#eeeeee",
