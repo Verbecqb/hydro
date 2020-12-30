@@ -2728,26 +2728,8 @@
         "x": 210,
         "y": 320,
         "wires": [
-            [
-                "c278aca9.b3501"
-            ]
+            []
         ]
-    },
-    {
-        "id": "c278aca9.b3501",
-        "type": "ui_text",
-        "z": "1d22c714.e50369",
-        "group": "",
-        "order": 1,
-        "width": 4,
-        "height": 2,
-        "name": "arduino state",
-        "label": "Arduino ",
-        "format": "{{msg.payload}}",
-        "layout": "row-center",
-        "x": 410,
-        "y": 320,
-        "wires": []
     },
     {
         "id": "241d7684.cf23fa",
