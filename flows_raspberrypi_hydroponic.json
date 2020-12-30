@@ -5289,6 +5289,7 @@
         "id": "12f4feef.d35cf1",
         "type": "ui_artlessgauge",
         "z": "1d22c714.e50369",
+        "d": true,
         "group": "45199dde.854f64",
         "order": 13,
         "width": 4,
@@ -5392,23 +5393,6 @@
         "x": 500,
         "y": 1100,
         "wires": [
-            []
-        ]
-    },
-    {
-        "id": "f2aec89f.ae2528",
-        "type": "function",
-        "z": "1d22c714.e50369",
-        "name": "",
-        "func": "\n\nvar phScale = \n        [{\n            \"title\": \"1\",\n            \"hexColor\": \"#FF7F18\",\n            \"category\": acidic\n        }, \n        {  \n             \"title\": \"2\",\n            \"hexColor\": \"#FF7F18\",\n            \"category\": acidic\n        },\n        {\n             \"title\": \"3\",\n            \"hexColor\": \"#FF7F18\",\n            \"category\": acidic\n        }];\n\n\n",
-        "outputs": 2,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "x": 200,
-        "y": 1920,
-        "wires": [
-            [],
             []
         ]
     },
