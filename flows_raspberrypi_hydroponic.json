@@ -5068,7 +5068,7 @@
         "colorFromTheme": true,
         "textAnimations": false,
         "hideValue": false,
-        "tickmode": "segments",
+        "tickmode": "off",
         "peakmode": false,
         "property": "payload",
         "peaktime": 3000,
