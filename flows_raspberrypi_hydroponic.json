@@ -984,23 +984,6 @@
         ]
     },
     {
-        "id": "a2db89f8.423ad8",
-        "type": "mqtt in",
-        "z": "1d22c714.e50369",
-        "name": "",
-        "topic": "hydro/lamp/s",
-        "qos": "0",
-        "datatype": "auto",
-        "broker": "a0e631b8.d383b",
-        "x": 210,
-        "y": 1980,
-        "wires": [
-            [
-                "e801a157.b40ee"
-            ]
-        ]
-    },
-    {
         "id": "62bc488f.b3dd18",
         "type": "mqtt in",
         "z": "1d22c714.e50369",
@@ -4129,7 +4112,7 @@
         "initialize": "",
         "finalize": "",
         "x": 1200,
-        "y": 260,
+        "y": 300,
         "wires": [
             []
         ]
@@ -4141,7 +4124,7 @@
         "name": "seed.totalLight",
         "storageNode": "217cc961.603ce6",
         "x": 1180,
-        "y": 300,
+        "y": 340,
         "wires": []
     },
     {
@@ -4151,7 +4134,7 @@
         "name": "seed.totalLight",
         "storageNode": "217cc961.603ce6",
         "x": 620,
-        "y": 260,
+        "y": 300,
         "wires": [
             [
                 "38dad879.083c28"
@@ -4167,7 +4150,7 @@
             "3dfc5ff2.440c6"
         ],
         "x": 1115,
-        "y": 220,
+        "y": 260,
         "wires": []
     },
     {
@@ -4183,40 +4166,6 @@
         "wires": [
             [
                 "7b62dc10.8cd624"
-            ]
-        ]
-    },
-    {
-        "id": "8a33db55.7d1068",
-        "type": "ui_text",
-        "z": "1d22c714.e50369",
-        "group": "45199dde.854f64",
-        "order": 6,
-        "width": 1,
-        "height": 1,
-        "name": "Lamp on/off state",
-        "label": "<font color=\"{{msg.color}}\"><i class=\"fa  fa-lightbulb-o fa-2x\"></i></front>",
-        "format": "",
-        "layout": "row-spread",
-        "x": 590,
-        "y": 1980,
-        "wires": []
-    },
-    {
-        "id": "e801a157.b40ee",
-        "type": "function",
-        "z": "1d22c714.e50369",
-        "name": "Set color",
-        "func": "msg.color = (msg.payload == \"true\") ? \"orange\" : \"grey\";\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "x": 390,
-        "y": 1980,
-        "wires": [
-            [
-                "8a33db55.7d1068"
             ]
         ]
     },
@@ -4239,7 +4188,7 @@
         "max": "24",
         "step": 1,
         "x": 1000,
-        "y": 260,
+        "y": 300,
         "wires": [
             [
                 "a3e3f133.15036",
@@ -4259,7 +4208,7 @@
         "initialize": "",
         "finalize": "",
         "x": 830,
-        "y": 260,
+        "y": 300,
         "wires": [
             [
                 "f50badb3.8eccf"
@@ -5235,6 +5184,58 @@
         "wires": [
             [
                 "5e5c80d7.c23cb"
+            ]
+        ]
+    },
+    {
+        "id": "39f4667d.55b9da",
+        "type": "mqtt in",
+        "z": "87cb301d.9893c",
+        "name": "",
+        "topic": "hydro/lamp/s",
+        "qos": "0",
+        "datatype": "auto",
+        "broker": "a0e631b8.d383b",
+        "x": 590,
+        "y": 240,
+        "wires": [
+            [
+                "3c0af35a.42805c"
+            ]
+        ]
+    },
+    {
+        "id": "a94198ff.eef948",
+        "type": "ui_text",
+        "z": "87cb301d.9893c",
+        "group": "45199dde.854f64",
+        "order": 6,
+        "width": 1,
+        "height": 1,
+        "name": "Lamp on/off state",
+        "label": "<font color=\"{{msg.color}}\"><i class=\"fa  fa-lightbulb-o fa-2x\"></i></front>",
+        "format": "",
+        "layout": "row-spread",
+        "x": 970,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "3c0af35a.42805c",
+        "type": "function",
+        "z": "87cb301d.9893c",
+        "name": "Set color",
+        "func": "msg.color = (msg.payload == \"true\") ? \"orange\" : \"grey\";\n\nmsg.ui_control = {options: {\n   label: \"test\"\n }\n};\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 770,
+        "y": 240,
+        "wires": [
+            [
+                "a94198ff.eef948",
+                "df864faf.11005"
             ]
         ]
     }
