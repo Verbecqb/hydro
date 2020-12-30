@@ -3541,7 +3541,7 @@
         "type": "function",
         "z": "87cb301d.9893c",
         "name": "Save global variable",
-        "func": "\nglobal.set('durationNutriments',msg.payload);\n",
+        "func": "\nglobal.set('durationNutrimentsA',msg.payload);\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -4787,7 +4787,7 @@
         "type": "function",
         "z": "87cb301d.9893c",
         "name": "Save global variable",
-        "func": "\nglobal.set('durationNutriments',msg.payload);\n",
+        "func": "global.set('durationNutrimentsB',msg.payload);\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -4854,7 +4854,7 @@
         "qos": "0",
         "retain": "",
         "broker": "a0e631b8.d383b",
-        "x": 550,
+        "x": 530,
         "y": 1040,
         "wires": []
     },
@@ -4931,7 +4931,7 @@
         "offvalueType": "bool",
         "officon": "fa-toggle-off fa-2x",
         "offcolor": "purple",
-        "x": 350,
+        "x": 330,
         "y": 1040,
         "wires": [
             [
@@ -4946,7 +4946,7 @@
         "z": "87cb301d.9893c",
         "name": "nutrimentsSolutionBTimer",
         "storageNode": "217cc961.603ce6",
-        "x": 650,
+        "x": 630,
         "y": 1120,
         "wires": [
             [
