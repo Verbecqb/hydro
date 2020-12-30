@@ -5062,13 +5062,13 @@
         "width": 0,
         "height": 0,
         "name": "",
-        "icon": "fa-fire",
-        "label": "Gauge",
+        "icon": "",
+        "label": "",
         "unit": "",
         "layout": "linear",
         "decimals": 0,
         "differential": false,
-        "minmax": true,
+        "minmax": false,
         "colorTrack": "#555555",
         "style": "50,10,round",
         "colorFromTheme": true,
@@ -5080,13 +5080,13 @@
                 "val": 0,
                 "col": "#ff9900",
                 "t": "min",
-                "dot": 0
+                "dot": 5
             },
             {
                 "val": 1100,
                 "col": "#ff9900",
                 "t": "max",
-                "dot": 0
+                "dot": 5
             }
         ],
         "lineWidth": "5",
