@@ -5073,7 +5073,7 @@
         "name": "",
         "icon": "",
         "label": "",
-        "unit": "",
+        "unit": "days left",
         "layout": "linear",
         "decimals": 0,
         "differential": false,
