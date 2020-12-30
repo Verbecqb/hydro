@@ -5070,7 +5070,7 @@
         "differential": false,
         "minmax": false,
         "colorTrack": "#555555",
-        "style": "50,10,round",
+        "style": "5,50,round",
         "colorFromTheme": true,
         "property": "payload",
         "secondary": "secondary",
