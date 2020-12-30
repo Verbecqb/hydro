@@ -450,7 +450,7 @@
             "hideToolbar": "false",
             "allowSwipe": "false",
             "lockMenu": "false",
-            "allowTempTheme": "none",
+            "allowTempTheme": "true",
             "dateFormat": "DD/MM/YYYY",
             "sizes": {
                 "sx": 48,
