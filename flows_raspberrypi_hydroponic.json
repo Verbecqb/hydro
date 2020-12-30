@@ -2345,7 +2345,7 @@
         "type": "ui_switch",
         "z": "87cb301d.9893c",
         "name": "Grow lights",
-        "label": "LED light",
+        "label": "LED",
         "tooltip": "Led",
         "group": "45199dde.854f64",
         "order": 5,
