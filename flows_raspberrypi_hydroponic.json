@@ -5043,7 +5043,7 @@
         "segWarn": "200",
         "segHigh": "400",
         "unit": "ppm",
-        "layout": "ph",
+        "layout": "sh",
         "channelA": "A",
         "channelB": "B",
         "decimals": 0,
