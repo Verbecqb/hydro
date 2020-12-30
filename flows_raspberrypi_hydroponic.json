@@ -5383,7 +5383,7 @@
         "order": 15,
         "width": 0,
         "height": 0,
-        "format": "<div id=\"wrapper\">\n  <svg id=\"meter\">\n    <circle r=\"150\" cx=\"50%\" cy=\"50%\"></circle>\n  </svg>\n</div>",
+        "format": "<div id=\"wrapper\">\n  <svg id=\"meter\">\n    <circle r=\"150\" cx=\"10%\" cy=\"10%\"></circle>\n  </svg>\n</div>",
         "storeOutMessages": true,
         "fwdInMessages": true,
         "resendOnRefresh": true,
