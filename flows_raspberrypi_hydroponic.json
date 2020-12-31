@@ -91,7 +91,7 @@
         "tab": "352c089f.6b44d8",
         "order": 6,
         "disp": true,
-        "width": 7,
+        "width": 5,
         "collapse": false
     },
     {
@@ -567,7 +567,7 @@
         "collapse": false
     },
     {
-        "id": "419ea294.570c8c",
+        "id": "a30de1b5.dba52",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "1c37dc0b.ce28e4",
@@ -576,7 +576,7 @@
         "height": 1
     },
     {
-        "id": "1d0de568.84ee2b",
+        "id": "87368ed3.ea56c",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "1c37dc0b.ce28e4",
@@ -585,7 +585,7 @@
         "height": 1
     },
     {
-        "id": "45741034.897f",
+        "id": "bc3fa530.4d7128",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -594,7 +594,7 @@
         "height": 1
     },
     {
-        "id": "1e2f828d.8e885d",
+        "id": "8c9af9b9.30af48",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -603,7 +603,7 @@
         "height": 1
     },
     {
-        "id": "61f6a875.f83818",
+        "id": "98272a8a.426798",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -612,7 +612,7 @@
         "height": 1
     },
     {
-        "id": "94b5cfd7.44ffe",
+        "id": "b6a4c40.a3c094",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
@@ -621,7 +621,7 @@
         "height": 1
     },
     {
-        "id": "a26be0ae.af8f3",
+        "id": "94b5f010.5d084",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
@@ -630,7 +630,7 @@
         "height": 1
     },
     {
-        "id": "6bfea0ba.d52a6",
+        "id": "6d53933.0ec056c",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
@@ -639,7 +639,7 @@
         "height": 1
     },
     {
-        "id": "a9b0a8c0.a16758",
+        "id": "6fce71fb.ee157",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
@@ -648,7 +648,7 @@
         "height": 1
     },
     {
-        "id": "5f08793b.2d1818",
+        "id": "267d5e9f.a5c822",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
@@ -657,7 +657,7 @@
         "height": 1
     },
     {
-        "id": "3343d58c.c3ba9a",
+        "id": "50bd9e32.cc6d6",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
@@ -666,7 +666,7 @@
         "height": 1
     },
     {
-        "id": "cf97a947.e8d008",
+        "id": "caf38978.9bf1b8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
@@ -675,7 +675,7 @@
         "height": 1
     },
     {
-        "id": "e5815e32.c537e",
+        "id": "4cc4dbad.c83f04",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "6c15eb0d.8f5814",
@@ -684,7 +684,7 @@
         "height": 1
     },
     {
-        "id": "b6a73739.ad03b8",
+        "id": "c2498e89.3af51",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "6c15eb0d.8f5814",
@@ -693,7 +693,7 @@
         "height": 1
     },
     {
-        "id": "3eb0c2db.ee540e",
+        "id": "6271a9da.970568",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -702,7 +702,7 @@
         "height": 1
     },
     {
-        "id": "19f30724.af7a79",
+        "id": "4c99b3d9.f6ef5c",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -711,7 +711,7 @@
         "height": 1
     },
     {
-        "id": "c17915cc.b40e08",
+        "id": "d0801dfc.ffa11",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -720,7 +720,7 @@
         "height": 1
     },
     {
-        "id": "39e50fc3.a4fda",
+        "id": "eed430e5.accdc",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -729,7 +729,7 @@
         "height": 1
     },
     {
-        "id": "4df8f28e.575dbc",
+        "id": "1946764f.0b420a",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -738,43 +738,43 @@
         "height": 1
     },
     {
-        "id": "b361405f.d1feb",
+        "id": "e0053e2f.4e015",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "65d119b5.66cb78",
         "order": 3,
-        "width": 4,
+        "width": 2,
         "height": 1
     },
     {
-        "id": "31050da0.087b42",
+        "id": "f3402a14.12fda8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "65d119b5.66cb78",
         "order": 4,
-        "width": 4,
+        "width": 2,
         "height": 1
     },
     {
-        "id": "129b7d22.ec4833",
+        "id": "1dc6ac1d.e99cc4",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "65d119b5.66cb78",
         "order": 5,
-        "width": 4,
+        "width": 2,
         "height": 1
     },
     {
-        "id": "1818e277.f4ed1e",
+        "id": "82abd8d8.d7a748",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "65d119b5.66cb78",
         "order": 7,
-        "width": 4,
+        "width": 2,
         "height": 1
     },
     {
-        "id": "6cd930cd.487c8",
+        "id": "c0818cc0.18ee4",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "72b67add.961f74",
@@ -5335,7 +5335,7 @@
         "group": "65d119b5.66cb78",
         "name": "",
         "order": 1,
-        "width": 7,
+        "width": 5,
         "height": 2,
         "format": "<div id=\"wrapper\">\n  \n  <svg id=\"meter\">\n\n    <g ng-repeat=\"(key, value) in phScale\">\n      \n      <rect x=\"{{value.xpos}}\" \n           y=\"{{value.ypos}}\"\n           width=\"{{value.width}}\" height=\"{{value.height}}\" style=\"fill:{{value.hexColor}}\"  />\n       \n       <text x=\"{{value.xpos + value.width/2}}\" y=\"{{value.ypos + value.height/2}}\" \n            dominant-baseline=\"middle\" text-anchor=\"middle\"\n            fill=\"white\" font-family=\"Arial, Helvetica, sans-serif\">{{value.title}}</text>\n    </g>\n    \n    <polyline fill=\"none\" stroke=\"#389f76\" stroke-width=\"2\" \n            points=\"{{sectorXMinPH}},{{sectorPhY-2}} \n                    {{sectorXMinPH}},{{sectorPhY-6}} \n                    {{sectorXMaxPH}},{{sectorPhY-6}} \n                    {{sectorXMaxPH}},{{sectorPhY-2}}\" />\n                    \n    <polygon fill=\"{{currentPhColor}}\" stroke=\"{{currentPhColor}}\" stroke-width=\"1\" \n        points=\"{{XcurrentPH}},{{YcurrentPH}}\n                {{XcurrentPH-triangleSize}},{{YcurrentPH+triangleSize}}\n                {{XcurrentPH+triangleSize}},{{YcurrentPH+triangleSize}}\"/>\n\n     <text x=\"{{XcurrentPH-triangleSize-6}}\" y=\"{{YcurrentPH+triangleSize+17}}\" \n            fill=\"{{currentPhColor}}\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"1.2em\">{{currentPHValue}} {{currentPhStatus}}</text>\n  \n  </svg>\n</div>\n\n<script>\n    \n\n        \n\n\n(function(scope) {\n    \n     scope.phScale = \n        [{\n            \"title\": \"1\",\n            \"hexColor\": \"#ec5656\",\n            \"level\": \"Acidic\"\n        }, \n        {  \n            \"title\": \"2\",\n            \"hexColor\": \"#f49a50\",\n            \"level\": \"Acidic\"\n        },\n        {\n            \"title\": \"3\",\n            \"hexColor\": \"#f2c957\",\n            \"level\": \"Acidic\"\n        },\n        {  \n            \"title\": \"4\",\n            \"hexColor\": \"#9dc248\",\n            \"level\": \"Acidic\"\n        },\n        {  \n            \"title\": \"5\",\n            \"hexColor\": \"#1dae68\",\n            \"level\": \"Acidic\"\n        },\n        {  \n            \"title\": \"6\",\n            \"hexColor\": \"#4bb752\",\n            \"level\": \"Acidic\"\n        },\n        {  \n            \"title\": \"7\",\n            \"hexColor\": \"#41a37c\",\n            \"level\": \"Neutral\"\n        },\n        {  \n            \"title\": \"8\",\n            \"hexColor\": \"#00b9b6\",\n            \"level\": \"Base\"\n        },\n        {  \n            \"title\": \"9\",\n            \"hexColor\": \"#4491cb\",\n            \"level\": \"Base\"\n        },\n        {  \n            \"title\": \"10\",\n            \"hexColor\": \"#3753a1\",\n            \"level\": \"Base\"\n        }]; \n    \n    // $watch fires each time the node is triggered in the flow\n    scope.$watch('msg', function(msg) {\n        \n        var phWidth = 20, phHeight = 20;\n        var phInitialPadding = 10;\n        var phSpacing = 3;\n        var phYpos = 10;\n        \n        \n        \n        angular.forEach(scope.phScale, function (value, key) {\n            \n            value[\"xpos\"] = key * phWidth + key * phSpacing + phInitialPadding;\n            value[\"ypos\"] = phYpos;\n            value[\"width\"] = \"20\"; \n            value[\"height\"]=\"20\"; \n            \n        });\n        \n        var sectorMinPh = 5.5;\n        var sectorMaxPh = 6.8;\n        \n        if (sectorMaxPh >= 12) {\n            sectorMaxPh = 11.9;\n        }\n        \n        scope.sectorXMinPH = (Math.floor(sectorMinPh)-1) * phWidth + (Math.floor(sectorMinPh)-1) * phSpacing + phInitialPadding + ((sectorMinPh % 1) * phWidth);\n        scope.sectorXMaxPH = (Math.floor(sectorMaxPh)-1) * phWidth + (Math.floor(sectorMaxPh)-1) * phSpacing + phInitialPadding + ((sectorMaxPh % 1) * phWidth);\n        scope.sectorPhY = phYpos;\n        \n        scope.currentPHValue = 3.2;\n        scope.XcurrentPH = (Math.floor(scope.currentPHValue)-1) * phWidth + (Math.floor(scope.currentPHValue)-1) * phSpacing + phInitialPadding + ((scope.currentPHValue % 1) * phWidth);\n        scope.YcurrentPH = phYpos + phHeight + 5;\n        scope.triangleSize = 4;\n        \n\n        if (scope.currentPHValue >= sectorMinPh && scope.currentPHValue <= sectorMaxPh) { \n            console.log(\"enter\");\n            scope.currentPhStatus = \"Optimal\";\n            scope.currentPhColor = \"#42a37a\";\n        } else {\n            scope.currentPhStatus = scope.phScale[Math.floor(scope.currentPHValue) + 1][\"level\"];\n            scope.currentPhColor = \"#ec3d49\";\n        }\n        \n        \n    });\n\n})(scope);\n\n</script>",
         "storeOutMessages": true,
