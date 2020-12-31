@@ -5239,50 +5239,6 @@
         ]
     },
     {
-        "id": "12f4feef.d35cf1",
-        "type": "ui_artlessgauge",
-        "z": "1d22c714.e50369",
-        "d": true,
-        "group": "45199dde.854f64",
-        "order": 13,
-        "width": 4,
-        "height": 2,
-        "name": "",
-        "icon": "",
-        "label": "{{label}}",
-        "unit": "",
-        "layout": "radial",
-        "decimals": 0,
-        "differential": false,
-        "minmax": false,
-        "colorTrack": "#555555",
-        "style": "",
-        "colorFromTheme": true,
-        "property": "payload",
-        "secondary": "secondary",
-        "inline": false,
-        "sectors": [
-            {
-                "val": 0,
-                "col": "#ff9900",
-                "t": "min",
-                "dot": 0
-            },
-            {
-                "val": 10,
-                "col": "#ff9900",
-                "t": "max",
-                "dot": 0
-            }
-        ],
-        "lineWidth": "5",
-        "bgcolorFromTheme": true,
-        "diffCenter": "",
-        "x": 480,
-        "y": 2180,
-        "wires": []
-    },
-    {
         "id": "6de36e52.d849c",
         "type": "function",
         "z": "1d22c714.e50369",
@@ -5292,12 +5248,10 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 238.57142639160156,
-        "y": 2172.857177734375,
+        "x": 450,
+        "y": 2180,
         "wires": [
-            [
-                "12f4feef.d35cf1"
-            ]
+            []
         ]
     },
     {
@@ -5321,8 +5275,8 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 160,
-        "y": 2220,
+        "x": 250,
+        "y": 2180,
         "wires": [
             [
                 "6de36e52.d849c"
@@ -5348,5 +5302,15 @@
         "wires": [
             []
         ]
+    },
+    {
+        "id": "eb2d470b.714558",
+        "type": "comment",
+        "z": "1d22c714.e50369",
+        "name": "##TODO SVG to repreent sunrise, led and moon",
+        "info": "",
+        "x": 350,
+        "y": 2160,
+        "wires": []
     }
 ]
