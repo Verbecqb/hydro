@@ -568,7 +568,7 @@
         "collapse": false
     },
     {
-        "id": "d1f88737.59aff8",
+        "id": "12b2ff11.b6f701",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "1c37dc0b.ce28e4",
@@ -577,7 +577,7 @@
         "height": 1
     },
     {
-        "id": "ef6394c.9884b68",
+        "id": "a5efbbe7.9ae0f8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "1c37dc0b.ce28e4",
@@ -586,25 +586,34 @@
         "height": 1
     },
     {
-        "id": "23a901fa.2bf6fe",
+        "id": "13360949.c2f667",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
-        "order": 3,
+        "order": 2,
         "width": 1,
         "height": 1
     },
     {
-        "id": "344de632.f1425a",
+        "id": "4442766.3759188",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
-        "order": 5,
+        "order": 4,
         "width": 1,
         "height": 1
     },
     {
-        "id": "fc7845d7.3cdb78",
+        "id": "5b075c99.8feab4",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "8a9b009f.1b35d",
+        "order": 6,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "330b5ad9.5d11c6",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -613,16 +622,25 @@
         "height": 1
     },
     {
-        "id": "8b539e87.415ee",
+        "id": "7b613c27.5ebb94",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "8a9b009f.1b35d",
+        "order": 11,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "299210c4.c7121",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
-        "order": 6,
+        "order": 7,
         "width": 2,
         "height": 1
     },
     {
-        "id": "648cda27.e9e8a4",
+        "id": "7128fe48.46cea",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
@@ -631,7 +649,7 @@
         "height": 1
     },
     {
-        "id": "c2e5de5a.b2f43",
+        "id": "906a0592.112498",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
@@ -640,7 +658,7 @@
         "height": 1
     },
     {
-        "id": "3c1f6535.b0452a",
+        "id": "3a0d63b7.65c45c",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
@@ -649,7 +667,7 @@
         "height": 1
     },
     {
-        "id": "9c0370c6.57664",
+        "id": "80007655.4e8a18",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "6c15eb0d.8f5814",
@@ -658,7 +676,7 @@
         "height": 1
     },
     {
-        "id": "d9f5b5b.f89da48",
+        "id": "f601da98.2322d8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "6c15eb0d.8f5814",
@@ -667,7 +685,7 @@
         "height": 1
     },
     {
-        "id": "d482f68a.68a8b8",
+        "id": "9dc907d7.f35738",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -676,7 +694,7 @@
         "height": 1
     },
     {
-        "id": "f6f2ce5f.e72b9",
+        "id": "fc46292f.213d18",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -685,7 +703,7 @@
         "height": 1
     },
     {
-        "id": "50981ee6.7fd64",
+        "id": "33fd8aa5.b12bb6",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -694,7 +712,7 @@
         "height": 1
     },
     {
-        "id": "e8eb1e9d.1a4ee",
+        "id": "9789b6b0.cd5c18",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -703,7 +721,7 @@
         "height": 1
     },
     {
-        "id": "1d0d8b4b.e0a0d5",
+        "id": "8777fc46.7fac9",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -712,7 +730,7 @@
         "height": 1
     },
     {
-        "id": "b2089c90.2adeb",
+        "id": "c0d5b7a0.971458",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "72b67add.961f74",
@@ -2000,8 +2018,8 @@
         "type": "ui_artlessgauge",
         "z": "1d22c714.e50369",
         "group": "8a9b009f.1b35d",
-        "order": 10,
-        "width": 5,
+        "order": 12,
+        "width": 6,
         "height": 1,
         "name": "Water temperature",
         "icon": "fa-thermometer",
@@ -2104,8 +2122,8 @@
         "type": "ui_artlessgauge",
         "z": "1d22c714.e50369",
         "group": "8a9b009f.1b35d",
-        "order": 4,
-        "width": 5,
+        "order": 5,
+        "width": 6,
         "height": 1,
         "name": "Room temperature DHT11",
         "icon": "fa-thermometer-full",
@@ -2165,8 +2183,8 @@
         "type": "ui_artlessgauge",
         "z": "1d22c714.e50369",
         "group": "8a9b009f.1b35d",
-        "order": 6,
-        "width": 5,
+        "order": 7,
+        "width": 6,
         "height": 1,
         "name": "Room Humidity DHT11",
         "icon": "fa-tint",
@@ -2452,7 +2470,7 @@
         "type": "ui_text",
         "z": "1d22c714.e50369",
         "group": "8a9b009f.1b35d",
-        "order": 2,
+        "order": 3,
         "width": 3,
         "height": 1,
         "name": "Last refresh - temp",
@@ -2468,7 +2486,7 @@
         "type": "ui_text",
         "z": "1d22c714.e50369",
         "group": "8a9b009f.1b35d",
-        "order": 8,
+        "order": 10,
         "width": 3,
         "height": 1,
         "name": "Last refresh - water temp",
@@ -4495,7 +4513,7 @@
         "type": "ui_text",
         "z": "1d22c714.e50369",
         "group": "8a9b009f.1b35d",
-        "order": 7,
+        "order": 8,
         "width": 3,
         "height": 1,
         "name": "",
@@ -5147,7 +5165,7 @@
         "z": "87cb301d.9893c",
         "d": true,
         "group": "45199dde.854f64",
-        "order": 7,
+        "order": 6,
         "width": 1,
         "height": 1,
         "name": "Lamp on/off state",
