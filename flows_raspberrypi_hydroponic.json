@@ -2287,6 +2287,7 @@
         "id": "4d58abb1.177e64",
         "type": "ui_artlessgauge",
         "z": "1d22c714.e50369",
+        "d": true,
         "group": "65d119b5.66cb78",
         "order": 2,
         "width": 3,
@@ -5333,7 +5334,7 @@
         "type": "ui_template",
         "z": "1d22c714.e50369",
         "group": "65d119b5.66cb78",
-        "name": "",
+        "name": "Water PH scale",
         "order": 1,
         "width": 7,
         "height": 2,
@@ -5342,8 +5343,8 @@
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
-        "x": 500,
-        "y": 1100,
+        "x": 780,
+        "y": 960,
         "wires": [
             []
         ]
