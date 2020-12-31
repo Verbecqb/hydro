@@ -2577,6 +2577,7 @@
         "id": "1aca970a.1a6d09",
         "type": "ui_text",
         "z": "1d22c714.e50369",
+        "d": true,
         "group": "65d119b5.66cb78",
         "order": 6,
         "width": 3,
