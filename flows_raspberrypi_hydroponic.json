@@ -574,7 +574,7 @@
         "order": 1
     },
     {
-        "id": "eefade95.75526",
+        "id": "bce227cf.be6aa8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "1c37dc0b.ce28e4",
@@ -583,7 +583,7 @@
         "height": 1
     },
     {
-        "id": "92a611d3.63d28",
+        "id": "c65730d2.a53ad",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "1c37dc0b.ce28e4",
@@ -592,7 +592,7 @@
         "height": 1
     },
     {
-        "id": "1a4dfacd.07c905",
+        "id": "3bff3e83.582aa2",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -601,7 +601,7 @@
         "height": 1
     },
     {
-        "id": "c5967c9b.36116",
+        "id": "ec1b6823.7a15e8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -610,7 +610,7 @@
         "height": 1
     },
     {
-        "id": "a1485cfd.86228",
+        "id": "d204860b.ef7238",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -619,7 +619,7 @@
         "height": 1
     },
     {
-        "id": "ebb4b71e.e995b8",
+        "id": "49abc6f0.1ec428",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
@@ -628,7 +628,7 @@
         "height": 1
     },
     {
-        "id": "a338e1d3.e526",
+        "id": "29af133.695d2ec",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
@@ -637,7 +637,7 @@
         "height": 1
     },
     {
-        "id": "547f0c3a.927e24",
+        "id": "28cc96c8.d23c6a",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
@@ -646,7 +646,7 @@
         "height": 1
     },
     {
-        "id": "7a93711c.2f3b1",
+        "id": "f7cfadbb.3bef2",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
@@ -655,7 +655,7 @@
         "height": 1
     },
     {
-        "id": "af4f4f03.96fb4",
+        "id": "80604abf.45dca8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
@@ -664,7 +664,7 @@
         "height": 1
     },
     {
-        "id": "eee18876.8cd7c8",
+        "id": "6dc06835.71a918",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
@@ -673,7 +673,7 @@
         "height": 1
     },
     {
-        "id": "c5834908.95d9d8",
+        "id": "3a6423b0.4e8bac",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
@@ -682,7 +682,7 @@
         "height": 1
     },
     {
-        "id": "1cdb3070.56edf",
+        "id": "257db6e6.8e2f8a",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "6c15eb0d.8f5814",
@@ -691,7 +691,7 @@
         "height": 1
     },
     {
-        "id": "bb48cac4.667548",
+        "id": "45fc7eb6.85cc7",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "6c15eb0d.8f5814",
@@ -700,7 +700,7 @@
         "height": 1
     },
     {
-        "id": "ebd1d898.9911c8",
+        "id": "d8584571.db2298",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -709,7 +709,7 @@
         "height": 1
     },
     {
-        "id": "fb822556.3abcc8",
+        "id": "d5066c91.6f2cf",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -718,7 +718,7 @@
         "height": 1
     },
     {
-        "id": "c8e6e9b1.a151e8",
+        "id": "4d9b1882.3cd4d8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -727,7 +727,7 @@
         "height": 1
     },
     {
-        "id": "70085287.69076c",
+        "id": "b595e65a.5c2638",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -736,7 +736,7 @@
         "height": 1
     },
     {
-        "id": "6239e1b6.4bd3f",
+        "id": "248d2bb9.e2c564",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -745,7 +745,7 @@
         "height": 1
     },
     {
-        "id": "f0284bc4.43bb98",
+        "id": "f89f4ed3.16f81",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "65d119b5.66cb78",
@@ -754,7 +754,7 @@
         "height": 1
     },
     {
-        "id": "af178c7a.5dc6e",
+        "id": "44009730.e13838",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "65d119b5.66cb78",
@@ -763,7 +763,7 @@
         "height": 1
     },
     {
-        "id": "b87d85ce.cc5df8",
+        "id": "40786dfa.8f5c14",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "65d119b5.66cb78",
@@ -772,7 +772,7 @@
         "height": 1
     },
     {
-        "id": "d3777b88.677bc8",
+        "id": "ca47a12.ac6166",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "65d119b5.66cb78",
@@ -781,7 +781,7 @@
         "height": 1
     },
     {
-        "id": "f9588d24.ab351",
+        "id": "df8e3726.c47f08",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "72b67add.961f74",
@@ -5344,7 +5344,7 @@
         "order": 7,
         "width": 7,
         "height": 2,
-        "format": "<div id=\"wrapper\">\n  \n \n    \n  <svg id=\"meter\">\n\n    <g ng-repeat=\"(key, value) in phScale\">\n      \n      <rect x=\"{{value.xpos}}\" \n           y=\"{{value.ypos}}\"\n           width=\"{{value.width}}\" height=\"{{value.height}}\" style=\"fill:{{value.hexColor}}\"  />\n       \n       <text x=\"{{value.xpos + value.width/2-4}}\" y=\"{{value.ypos + value.height/2+5}}\" fill=\"white\" font-family=\"Arial, Helvetica, sans-serif\">{{value.title}}</text>\n    </g>\n    \n    <polyline fill=\"none\" stroke=\"#389f76\" stroke-width=\"2\" \n            points=\"{{sectorXMinPH}},{{sectorPhY-2}} \n                    {{sectorXMinPH}},{{sectorPhY-6}} \n                    {{sectorXMaxPH}},{{sectorPhY-6}} \n                    {{sectorXMaxPH}},{{sectorPhY-2}}\" />\n                    \n    <polygon fill=\"#3fa37a\" stroke=\"#389f76\" stroke-width=\"1\" \n        points=\"{{XcurrentPH}},{{YcurrentPH}}\n                {{XcurrentPH-triangleSize}},{{YcurrentPH+triangleSize}}\n                {{XcurrentPH+triangleSize}},{{YcurrentPH+triangleSize}}\"/>\n\n     <text x=\"{{XcurrentPH-triangleSize-8}}\" y=\"{{YcurrentPH+triangleSize+8}}\" fill=\"white\" font-family=\"Arial, Helvetica, sans-serif\">{{currentPHValue}}</text>\n  \n  </svg>\n</div>\n\n<script>\n    \n\n        \n\n\n(function(scope) {\n    \n     scope.phScale = \n        [{\n            \"title\": \"1\",\n            \"hexColor\": \"#ec5656\"\n        }, \n        {  \n            \"title\": \"2\",\n            \"hexColor\": \"#f49a50\"\n        },\n        {\n            \"title\": \"3\",\n            \"hexColor\": \"#f2c957\"\n        },\n        {  \n            \"title\": \"4\",\n            \"hexColor\": \"#9dc248\"\n        },\n        {  \n            \"title\": \"5\",\n            \"hexColor\": \"#1dae68\"\n        },\n        {  \n            \"title\": \"6\",\n            \"hexColor\": \"#4bb752\"\n        },\n        {  \n            \"title\": \"7\",\n            \"hexColor\": \"#41a37c\"\n        },\n        {  \n            \"title\": \"8\",\n            \"hexColor\": \"#00b9b6\"\n        },\n        {  \n            \"title\": \"9\",\n            \"hexColor\": \"#4491cb\"\n        },\n        {  \n            \"title\": \"10\",\n            \"hexColor\": \"#3753a1\"\n        }]; \n    \n    // $watch fires each time the node is triggered in the flow\n    scope.$watch('msg', function(msg) {\n        \n        var phWidth = 20, phHeight = 20;\n        var phInitialPadding = 10;\n        var phSpacing = 3;\n        var phYpos = 10;\n        \n        \n        \n        angular.forEach(scope.phScale, function (value, key) {\n            \n            value[\"xpos\"] = key * phWidth + key * phSpacing + phInitialPadding;\n            value[\"ypos\"] = phYpos;\n            value[\"width\"] = \"20\"; \n            value[\"height\"]=\"20\"; \n            \n        });\n        \n        var sectorMinPh = 5.5;\n        var sectorMaxPh = 6.8;\n        \n        if (sectorMaxPh >= 12) {\n            sectorMaxPh = 11.9;\n        }\n        \n        scope.sectorXMinPH = (Math.floor(sectorMinPh)-1) * phWidth + (Math.floor(sectorMinPh)-1) * phSpacing + phInitialPadding + ((sectorMinPh % 1) * phWidth);\n        scope.sectorXMaxPH = (Math.floor(sectorMaxPh)-1) * phWidth + (Math.floor(sectorMaxPh)-1) * phSpacing + phInitialPadding + ((sectorMaxPh % 1) * phWidth);\n        scope.sectorPhY = phYpos;\n        \n        scope.currentPHValue = 6.7;\n        scope.XcurrentPH = (Math.floor(scope.currentPHValue)-1) * phWidth + (Math.floor(scope.currentPHValue)-1) * phSpacing + phInitialPadding + ((scope.currentPHValue % 1) * phWidth);\n        scope.YcurrentPH = phYpos + phHeight + 5;\n        scope.triangleSize = 4;\n        \n        \n    });\n\n})(scope);\n\n</script>",
+        "format": "<div id=\"wrapper\">\n  \n \n    \n  <svg id=\"meter\">\n\n    <g ng-repeat=\"(key, value) in phScale\">\n      \n      <rect x=\"{{value.xpos}}\" \n           y=\"{{value.ypos}}\"\n           width=\"{{value.width}}\" height=\"{{value.height}}\" style=\"fill:{{value.hexColor}}\"  />\n       \n       <text x=\"{{value.xpos + value.width/2-4}}\" y=\"{{value.ypos + value.height/2+5}}\" fill=\"white\" font-family=\"Arial, Helvetica, sans-serif\">{{value.title}}</text>\n    </g>\n    \n    <polyline fill=\"none\" stroke=\"#389f76\" stroke-width=\"2\" \n            points=\"{{sectorXMinPH}},{{sectorPhY-2}} \n                    {{sectorXMinPH}},{{sectorPhY-6}} \n                    {{sectorXMaxPH}},{{sectorPhY-6}} \n                    {{sectorXMaxPH}},{{sectorPhY-2}}\" />\n                    \n    <polygon fill=\"#3fa37a\" stroke=\"#389f76\" stroke-width=\"1\" \n        points=\"{{XcurrentPH}},{{YcurrentPH}}\n                {{XcurrentPH-triangleSize}},{{YcurrentPH+triangleSize}}\n                {{XcurrentPH+triangleSize}},{{YcurrentPH+triangleSize}}\"/>\n\n     <text x=\"{{XcurrentPH-triangleSize-8}}\" y=\"{{YcurrentPH+triangleSize+8}}\" fill=\"#3fa37a\" font-family=\"Arial, Helvetica, sans-serif\">{{currentPHValue}}</text>\n  \n  </svg>\n</div>\n\n<script>\n    \n\n        \n\n\n(function(scope) {\n    \n     scope.phScale = \n        [{\n            \"title\": \"1\",\n            \"hexColor\": \"#ec5656\"\n        }, \n        {  \n            \"title\": \"2\",\n            \"hexColor\": \"#f49a50\"\n        },\n        {\n            \"title\": \"3\",\n            \"hexColor\": \"#f2c957\"\n        },\n        {  \n            \"title\": \"4\",\n            \"hexColor\": \"#9dc248\"\n        },\n        {  \n            \"title\": \"5\",\n            \"hexColor\": \"#1dae68\"\n        },\n        {  \n            \"title\": \"6\",\n            \"hexColor\": \"#4bb752\"\n        },\n        {  \n            \"title\": \"7\",\n            \"hexColor\": \"#41a37c\"\n        },\n        {  \n            \"title\": \"8\",\n            \"hexColor\": \"#00b9b6\"\n        },\n        {  \n            \"title\": \"9\",\n            \"hexColor\": \"#4491cb\"\n        },\n        {  \n            \"title\": \"10\",\n            \"hexColor\": \"#3753a1\"\n        }]; \n    \n    // $watch fires each time the node is triggered in the flow\n    scope.$watch('msg', function(msg) {\n        \n        var phWidth = 20, phHeight = 20;\n        var phInitialPadding = 10;\n        var phSpacing = 3;\n        var phYpos = 10;\n        \n        \n        \n        angular.forEach(scope.phScale, function (value, key) {\n            \n            value[\"xpos\"] = key * phWidth + key * phSpacing + phInitialPadding;\n            value[\"ypos\"] = phYpos;\n            value[\"width\"] = \"20\"; \n            value[\"height\"]=\"20\"; \n            \n        });\n        \n        var sectorMinPh = 5.5;\n        var sectorMaxPh = 6.8;\n        \n        if (sectorMaxPh >= 12) {\n            sectorMaxPh = 11.9;\n        }\n        \n        scope.sectorXMinPH = (Math.floor(sectorMinPh)-1) * phWidth + (Math.floor(sectorMinPh)-1) * phSpacing + phInitialPadding + ((sectorMinPh % 1) * phWidth);\n        scope.sectorXMaxPH = (Math.floor(sectorMaxPh)-1) * phWidth + (Math.floor(sectorMaxPh)-1) * phSpacing + phInitialPadding + ((sectorMaxPh % 1) * phWidth);\n        scope.sectorPhY = phYpos;\n        \n        scope.currentPHValue = 6.7;\n        scope.XcurrentPH = (Math.floor(scope.currentPHValue)-1) * phWidth + (Math.floor(scope.currentPHValue)-1) * phSpacing + phInitialPadding + ((scope.currentPHValue % 1) * phWidth);\n        scope.YcurrentPH = phYpos + phHeight + 5;\n        scope.triangleSize = 4;\n        \n        \n    });\n\n})(scope);\n\n</script>",
         "storeOutMessages": true,
         "fwdInMessages": true,
         "resendOnRefresh": true,
