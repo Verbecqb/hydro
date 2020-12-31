@@ -567,7 +567,7 @@
         "collapse": false
     },
     {
-        "id": "76a2b323.54a2bc",
+        "id": "4c10b150.252b",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "1c37dc0b.ce28e4",
@@ -576,7 +576,7 @@
         "height": 1
     },
     {
-        "id": "59e96f44.95945",
+        "id": "e20dd456.7fc188",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "1c37dc0b.ce28e4",
@@ -585,7 +585,7 @@
         "height": 1
     },
     {
-        "id": "49990ece.5bf12",
+        "id": "2ad5790a.65c0c6",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -594,7 +594,7 @@
         "height": 1
     },
     {
-        "id": "52571a84.fc8f24",
+        "id": "aa17c4c5.f40428",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -603,7 +603,7 @@
         "height": 1
     },
     {
-        "id": "3f596249.ef9e7e",
+        "id": "9cc46238.707b1",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -612,7 +612,7 @@
         "height": 1
     },
     {
-        "id": "b0fc7bbc.336f78",
+        "id": "82d28f68.7f932",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
@@ -621,7 +621,7 @@
         "height": 1
     },
     {
-        "id": "bff21c60.ee92b",
+        "id": "1e680001.df5cf",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
@@ -630,7 +630,7 @@
         "height": 1
     },
     {
-        "id": "494d088d.3d84e8",
+        "id": "15345d14.0803e3",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
@@ -639,7 +639,7 @@
         "height": 1
     },
     {
-        "id": "def3cc50.ba541",
+        "id": "bb0c0360.e5abb",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
@@ -648,7 +648,7 @@
         "height": 1
     },
     {
-        "id": "d3703089.ca0f4",
+        "id": "4dba5181.073f1",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
@@ -657,7 +657,7 @@
         "height": 1
     },
     {
-        "id": "b1baeb78.c067b8",
+        "id": "59966fe2.882a6",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
@@ -666,7 +666,7 @@
         "height": 1
     },
     {
-        "id": "e337b704.1783b8",
+        "id": "8c02bd30.d10fe",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
@@ -675,7 +675,7 @@
         "height": 1
     },
     {
-        "id": "681f4e75.bc579",
+        "id": "9b77489e.2c69f8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "6c15eb0d.8f5814",
@@ -684,7 +684,7 @@
         "height": 1
     },
     {
-        "id": "653fcddc.c9a274",
+        "id": "4b2aa2b9.738e6c",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "6c15eb0d.8f5814",
@@ -693,7 +693,7 @@
         "height": 1
     },
     {
-        "id": "6a267ece.a3d15",
+        "id": "cf203c3f.2c5c",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -702,7 +702,7 @@
         "height": 1
     },
     {
-        "id": "4a89d08b.d63e4",
+        "id": "54a155a2.0270cc",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -711,7 +711,7 @@
         "height": 1
     },
     {
-        "id": "d291dbe4.aa39e8",
+        "id": "3d422b4e.48dbd4",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -720,7 +720,7 @@
         "height": 1
     },
     {
-        "id": "8377e837.5be6d8",
+        "id": "9baacde4.f7651",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -729,7 +729,7 @@
         "height": 1
     },
     {
-        "id": "3edbecdf.3d13c4",
+        "id": "894b1a5f.be1428",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -738,7 +738,7 @@
         "height": 1
     },
     {
-        "id": "1038735c.181a5d",
+        "id": "c7b7efaa.e4aa9",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "65d119b5.66cb78",
@@ -747,7 +747,7 @@
         "height": 1
     },
     {
-        "id": "2aa96409.6b308c",
+        "id": "d7015f34.2419b",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "65d119b5.66cb78",
@@ -756,7 +756,7 @@
         "height": 1
     },
     {
-        "id": "8987e766.a452f8",
+        "id": "42e922a.2c271dc",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "65d119b5.66cb78",
@@ -765,7 +765,7 @@
         "height": 1
     },
     {
-        "id": "95f1955.da37f68",
+        "id": "9e57b29b.51d47",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "65d119b5.66cb78",
@@ -774,7 +774,7 @@
         "height": 1
     },
     {
-        "id": "df576cbf.404e5",
+        "id": "1fc30d0c.54fe33",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "72b67add.961f74",
@@ -5337,7 +5337,7 @@
         "order": 1,
         "width": 7,
         "height": 2,
-        "format": "<style>\n    .icon_div {\n        position: absolute;\n        width: 44px;\n        height: 44px;\n        margin: auto;\n        text-align: center;\n        overflow: hidden;\n        text-align: center;\n        top: 50%;\n        transform: translateY(-95%);\n    }\n   \n</style>\n\n\n  \n  <span class=\"icon_div\">\n      <i data-fa-symbol=\"phIcon\" color=\"#994fda\" class=\"fa fa-lemon-o\"></i>\n  </span>\n\n  <svg id=\"meter\">\n     \n     <text x=\"35\" y =\"20\" fill=\"#994fda\" font-family=Segoe UI font-size=\"0.8em\">\n         PH Level</text> \n\n    <g ng-repeat=\"(key, value) in phScale\">\n      \n      <rect x=\"{{value.xpos}}\" \n           y=\"{{value.ypos}}\"\n           width=\"{{value.width}}\" height=\"{{value.height}}\" style=\"fill:{{value.hexColor}}\"  />\n       \n       <text x=\"{{value.xpos+value.width/2}}\" y=\"{{value.ypos+value.height/2}}\" dominant-baseline=\"central\" text-anchor=\"middle\"\n            font-size=\"14\" stroke-width=\"0\" stroke=\"#000\"\n            fill=\"white\" font-family=\"Segoe UI\">{{value.title}}</text>\n    </g>\n    \n    <polyline fill=\"none\" stroke=\"#389f76\" stroke-width=\"2\" \n            points=\"{{sectorXMinPH}},{{sectorPhY-2}} \n                    {{sectorXMinPH}},{{sectorPhY-6}} \n                    {{sectorXMaxPH}},{{sectorPhY-6}} \n                    {{sectorXMaxPH}},{{sectorPhY-2}}\" />\n    <g>               \n        <polygon fill=\"{{currentPhColor}}\" stroke=\"{{currentPhColor}}\" stroke-width=\"1\" \n            points=\"{{XcurrentPH}},{{YcurrentPH}}\n                    {{XcurrentPH-triangleSize}},{{YcurrentPH+triangleSize}}\n                    {{XcurrentPH+triangleSize}},{{YcurrentPH+triangleSize}}\"/>\n\n         <text x=\"{{XcurrentPH}}\" y=\"{{YcurrentPH+triangleSize}}\" \n                baseline-shift=\"-23px\" \n                text-anchor=\"middle\"\n                fill=\"{{currentPhColor}}\" font-family=\"Segoe UI\" \n                font-size=\"1.5em\">{{currentPHValue}}\n                \n        </text>\n        \n        <text x=\"{{XcurrentPH}}\" y=\"{{YcurrentPH+triangleSize}}\" \n              dx=\"9%\" baseline-shift=\"-23px\"  text-anchor=\"start\" \n              alignment-baseline=\"bottom\" fill=\"{{currentPhColor}}\" \n              font-size=\"0.8em\" font-family=\"Segoe UI\">{{currentPhStatus}}</text>\n       \n    </g> \n  </svg>\n\n\n<script>\n    \n(function(scope) {\n    \n     scope.phScale = \n        [{\n            \"title\": \"1\",\n            \"hexColor\": \"#ec5656\",\n            \"level\": \"Acidic\"\n        }, \n        {  \n            \"title\": \"2\",\n            \"hexColor\": \"#f49a50\",\n            \"level\": \"Acidic\"\n        },\n        {\n            \"title\": \"3\",\n            \"hexColor\": \"#f2c957\",\n            \"level\": \"Acidic\"\n        },\n        {  \n            \"title\": \"4\",\n            \"hexColor\": \"#9dc248\",\n            \"level\": \"Acidic\"\n        },\n        {  \n            \"title\": \"5\",\n            \"hexColor\": \"#1dae68\",\n            \"level\": \"Acidic\"\n        },\n        {  \n            \"title\": \"6\",\n            \"hexColor\": \"#4bb752\",\n            \"level\": \"Acidic\"\n        },\n        {  \n            \"title\": \"7\",\n            \"hexColor\": \"#41a37c\",\n            \"level\": \"Neutral\"\n        },\n        {  \n            \"title\": \"8\",\n            \"hexColor\": \"#00b9b6\",\n            \"level\": \"Base\"\n        },\n        {  \n            \"title\": \"9\",\n            \"hexColor\": \"#4491cb\",\n            \"level\": \"Base\"\n        },\n        {  \n            \"title\": \"10+\",\n            \"hexColor\": \"#3753a1\",\n            \"level\": \"Base\"\n        }]; \n    \n    // $watch fires each time the node is triggered in the flow\n    scope.$watch('msg', function(msg) {\n        \n        var phWidth = 25, phHeight = 25;\n        var phInitialPadding = 25;\n        var phSpacing = 3;\n        var phYpos = 45;\n        \n        \n        \n        angular.forEach(scope.phScale, function (value, key) {\n            \n            value[\"xpos\"] = key * phWidth + key * phSpacing + phInitialPadding;\n            value[\"ypos\"] = phYpos;\n            value[\"width\"] = phWidth; \n            value[\"height\"]= phHeight; \n            \n        });\n        \n        var sectorMinPh = 5.5;\n        var sectorMaxPh = 6.8;\n        \n        if (sectorMaxPh >= 12) {\n            sectorMaxPh = 11.9;\n        }\n        \n        scope.sectorXMinPH = (Math.floor(sectorMinPh)-1) * phWidth + (Math.floor(sectorMinPh)-1) * phSpacing + phInitialPadding + ((sectorMinPh % 1) * phWidth);\n        scope.sectorXMaxPH = (Math.floor(sectorMaxPh)-1) * phWidth + (Math.floor(sectorMaxPh)-1) * phSpacing + phInitialPadding + ((sectorMaxPh % 1) * phWidth);\n        scope.sectorPhY = phYpos;\n        \n        scope.currentPHValue = Number.parseFloat(msg.payload).toFixed(2) || 0;\n        scope.XcurrentPH = (Math.floor(scope.currentPHValue)-1) * phWidth + (Math.floor(scope.currentPHValue)-1) * phSpacing + phInitialPadding + ((scope.currentPHValue % 1) * phWidth);\n        scope.YcurrentPH = phYpos + phHeight + 5;\n        scope.triangleSize = 4;\n        \n\n        if (scope.currentPHValue >= sectorMinPh && scope.currentPHValue <= sectorMaxPh) { \n            scope.currentPhStatus = \"Optimal\";\n            scope.currentPhColor = \"#42a37a\";\n        } else {\n            scope.currentPhStatus = scope.phScale[Math.floor(scope.currentPHValue) + 1][\"level\"];\n            scope.currentPhColor = \"#ec3d49\";\n        }\n        \n        \n    });\n\n})(scope);\n\n</script>",
+        "format": "<style>\n    .icon_div {\n        position: absolute;\n        width: 44px;\n        height: 44px;\n        margin: auto;\n        text-align: center;\n        overflow: hidden;\n        text-align: center;\n        top: 50%;\n        transform: translateY(-95%);\n    }\n   \n</style>\n\n\n  \n  <span class=\"icon_div\">\n      <i data-fa-symbol=\"phIcon\" color=\"#994fda\" class=\"fa fa-lemon-o\"></i>\n  </span>\n\n  <svg id=\"meter\">\n     \n     <text x=\"35\" y =\"20\" fill=\"#994fda\" font-family=Segoe UI font-size=\"0.8em\">\n         PH Level</text> \n\n    <g ng-repeat=\"(key, value) in phScale\">\n      \n      <rect x=\"{{value.xpos}}\" \n           y=\"{{value.ypos}}\"\n           width=\"{{value.width}}\" height=\"{{value.height}}\" style=\"fill:{{value.hexColor}}\"  />\n       \n       <text x=\"{{value.xpos+value.width/2}}\" y=\"{{value.ypos+value.height/2}}\" dominant-baseline=\"central\" text-anchor=\"middle\"\n            font-size=\"14\" stroke-width=\"0\" stroke=\"#000\"\n            fill=\"white\" font-family=\"Segoe UI\">{{value.title}}</text>\n    </g>\n    \n    <polyline fill=\"none\" stroke=\"#389f76\" stroke-width=\"2\" \n            points=\"{{sectorXMinPH}},{{sectorPhY-2}} \n                    {{sectorXMinPH}},{{sectorPhY-6}} \n                    {{sectorXMaxPH}},{{sectorPhY-6}} \n                    {{sectorXMaxPH}},{{sectorPhY-2}}\" />\n    <g>               \n        <polygon fill=\"{{currentPhColor}}\" stroke=\"{{currentPhColor}}\" stroke-width=\"1\" \n            points=\"{{XcurrentPH}},{{YcurrentPH}}\n                    {{XcurrentPH-triangleSize}},{{YcurrentPH+triangleSize}}\n                    {{XcurrentPH+triangleSize}},{{YcurrentPH+triangleSize}}\"/>\n\n         <text x=\"{{XcurrentPH}}\" y=\"{{YcurrentPH+triangleSize}}\" \n                baseline-shift=\"-23px\" \n                text-anchor=\"middle\"\n                fill=\"{{currentPhColor}}\" font-family=\"Segoe UI\" \n                font-size=\"1.5em\">{{currentPHValue}}\n                \n        </text>\n        \n        <text x=\"{{XcurrentPH}}\" y=\"{{YcurrentPH+triangleSize}}\" \n              dx=\"9%\" baseline-shift=\"-23px\"  text-anchor=\"start\" \n              alignment-baseline=\"bottom\" fill=\"{{currentPhColor}}\" \n              font-size=\"0.8em\" font-family=\"Segoe UI\">{{currentPhStatus}}</text>\n       \n    </g> \n  </svg>\n\n\n<script>\n    \n(function(scope) {\n    \n     scope.phScale = \n        [{\n            \"title\": \"1\",\n            \"hexColor\": \"#ec5656\",\n            \"level\": \"Acidic\"\n        }, \n        {  \n            \"title\": \"2\",\n            \"hexColor\": \"#f49a50\",\n            \"level\": \"Acidic\"\n        },\n        {\n            \"title\": \"3\",\n            \"hexColor\": \"#f2c957\",\n            \"level\": \"Acidic\"\n        },\n        {  \n            \"title\": \"4\",\n            \"hexColor\": \"#9dc248\",\n            \"level\": \"Acidic\"\n        },\n        {  \n            \"title\": \"5\",\n            \"hexColor\": \"#1dae68\",\n            \"level\": \"Acidic\"\n        },\n        {  \n            \"title\": \"6\",\n            \"hexColor\": \"#4bb752\",\n            \"level\": \"Acidic\"\n        },\n        {  \n            \"title\": \"7\",\n            \"hexColor\": \"#41a37c\",\n            \"level\": \"Neutral\"\n        },\n        {  \n            \"title\": \"8\",\n            \"hexColor\": \"#00b9b6\",\n            \"level\": \"Base\"\n        },\n        {  \n            \"title\": \"9\",\n            \"hexColor\": \"#4491cb\",\n            \"level\": \"Base\"\n        },\n        {  \n            \"title\": \"10+\",\n            \"hexColor\": \"#3753a1\",\n            \"level\": \"Base\"\n        }]; \n    \n    // $watch fires each time the node is triggered in the flow\n    scope.$watch('msg', function(msg) {\n        \n        var phWidth = 25, phHeight = 25;\n        var phInitialPadding = 25;\n        var phSpacing = 3;\n        var phYpos = 38;\n        \n        \n        \n        angular.forEach(scope.phScale, function (value, key) {\n            \n            value[\"xpos\"] = key * phWidth + key * phSpacing + phInitialPadding;\n            value[\"ypos\"] = phYpos;\n            value[\"width\"] = phWidth; \n            value[\"height\"]= phHeight; \n            \n        });\n        \n        var sectorMinPh = 5.5;\n        var sectorMaxPh = 6.8;\n        \n        if (sectorMaxPh >= 12) {\n            sectorMaxPh = 11.9;\n        }\n        \n        scope.sectorXMinPH = (Math.floor(sectorMinPh)-1) * phWidth + (Math.floor(sectorMinPh)-1) * phSpacing + phInitialPadding + ((sectorMinPh % 1) * phWidth);\n        scope.sectorXMaxPH = (Math.floor(sectorMaxPh)-1) * phWidth + (Math.floor(sectorMaxPh)-1) * phSpacing + phInitialPadding + ((sectorMaxPh % 1) * phWidth);\n        scope.sectorPhY = phYpos;\n        \n        scope.currentPHValue = Number.parseFloat(msg.payload).toFixed(2) || 0;\n        scope.XcurrentPH = (Math.floor(scope.currentPHValue)-1) * phWidth + (Math.floor(scope.currentPHValue)-1) * phSpacing + phInitialPadding + ((scope.currentPHValue % 1) * phWidth);\n        scope.YcurrentPH = phYpos + phHeight + 5;\n        scope.triangleSize = 4;\n        \n\n        if (scope.currentPHValue >= sectorMinPh && scope.currentPHValue <= sectorMaxPh) { \n            scope.currentPhStatus = \"Optimal\";\n            scope.currentPhColor = \"#42a37a\";\n        } else {\n            scope.currentPhStatus = scope.phScale[Math.floor(scope.currentPHValue) + 1][\"level\"];\n            scope.currentPhColor = \"#ec3d49\";\n        }\n        \n        \n    });\n\n})(scope);\n\n</script>",
         "storeOutMessages": true,
         "fwdInMessages": true,
         "resendOnRefresh": true,
