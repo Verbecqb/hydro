@@ -2611,7 +2611,7 @@
         "type": "ui_switch",
         "z": "87cb301d.9893c",
         "name": "Water spray switch",
-        "label": "Water spray",
+        "label": "Seed spray",
         "tooltip": "",
         "group": "6c15eb0d.8f5814",
         "order": 7,
