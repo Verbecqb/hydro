@@ -568,7 +568,7 @@
         "collapse": false
     },
     {
-        "id": "8c0a49.738625b8",
+        "id": "d1d3a0d.97b5a6",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "1c37dc0b.ce28e4",
@@ -577,7 +577,7 @@
         "height": 1
     },
     {
-        "id": "988bff4c.b3321",
+        "id": "618bd99f.c2aa38",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "1c37dc0b.ce28e4",
@@ -586,7 +586,7 @@
         "height": 1
     },
     {
-        "id": "cf4618ae.b3fcf8",
+        "id": "3a9aecac.ddd7e4",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -595,7 +595,7 @@
         "height": 1
     },
     {
-        "id": "79033c5e.24dd94",
+        "id": "5a958a03.ae8fd4",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -604,7 +604,7 @@
         "height": 1
     },
     {
-        "id": "9acd3a59.75bde8",
+        "id": "b19aa3a3.7a4f9",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -613,7 +613,7 @@
         "height": 1
     },
     {
-        "id": "fa2c9433.cb9b48",
+        "id": "7c112d2e.c0d114",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -622,7 +622,7 @@
         "height": 1
     },
     {
-        "id": "93a2a3e6.f2d8e",
+        "id": "d4079c33.44e12",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -631,7 +631,7 @@
         "height": 1
     },
     {
-        "id": "38944d5.0b067b2",
+        "id": "30f7db32.918444",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -640,7 +640,7 @@
         "height": 1
     },
     {
-        "id": "a94ab473.18ebe8",
+        "id": "81c99da.d13cb6",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -649,7 +649,7 @@
         "height": 1
     },
     {
-        "id": "e9381488.0e2ab8",
+        "id": "421e38f6.a8ae98",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -658,7 +658,7 @@
         "height": 1
     },
     {
-        "id": "ab9755d8.2012e8",
+        "id": "7d9069c.af2c398",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -667,7 +667,7 @@
         "height": 1
     },
     {
-        "id": "81e3a587.17a7a8",
+        "id": "88db3b9a.af72e8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -676,7 +676,7 @@
         "height": 1
     },
     {
-        "id": "f9bcd3a7.96b1",
+        "id": "ef5750c0.bafd7",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
@@ -685,7 +685,7 @@
         "height": 1
     },
     {
-        "id": "e1a2af34.1a275",
+        "id": "6f591612.3b4448",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
@@ -694,7 +694,7 @@
         "height": 1
     },
     {
-        "id": "2a2fde65.392da2",
+        "id": "5734f3af.1eb5cc",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
@@ -703,7 +703,7 @@
         "height": 1
     },
     {
-        "id": "f1120275.4d1bd",
+        "id": "bb9dfb08.246738",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
@@ -712,70 +712,70 @@
         "height": 1
     },
     {
-        "id": "49546525.8a54bc",
+        "id": "b0d9c2b9.309f1",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
-        "order": 8,
-        "width": 4,
-        "height": 1
-    },
-    {
-        "id": "7226ed95.4f86f4",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "45199dde.854f64",
-        "order": 10,
+        "order": 11,
         "width": 1,
         "height": 1
     },
     {
-        "id": "e34b8fb0.8ee9b",
+        "id": "656d36dc.eca898",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
         "order": 12,
-        "width": 1,
+        "width": 4,
         "height": 1
     },
     {
-        "id": "49763db0.ecb7f4",
+        "id": "5c67a714.4a0bb8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
         "order": 13,
-        "width": 4,
+        "width": 1,
         "height": 1
     },
     {
-        "id": "b5b96e3f.5358f",
+        "id": "ff3c5d8c.6e654",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
         "order": 14,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "51bc6f5b.94c8c",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "45199dde.854f64",
-        "order": 15,
         "width": 4,
         "height": 1
     },
     {
-        "id": "197029fb.d144e6",
+        "id": "f5be4aad.d604f8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
-        "order": 17,
+        "order": 15,
         "width": 1,
         "height": 1
     },
     {
-        "id": "b0004ff1.e85a1",
+        "id": "8e4b3d0a.04136",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "45199dde.854f64",
+        "order": 16,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "4232fc74.4d3914",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "45199dde.854f64",
+        "order": 18,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "c57d7412.442908",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "6c15eb0d.8f5814",
@@ -784,7 +784,7 @@
         "height": 1
     },
     {
-        "id": "28bf6b04.75f3c4",
+        "id": "7f29bdf1.4dc244",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "6c15eb0d.8f5814",
@@ -793,7 +793,7 @@
         "height": 1
     },
     {
-        "id": "de62188d.dc7e38",
+        "id": "478eb3fc.6cbf9c",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "6c15eb0d.8f5814",
@@ -802,7 +802,7 @@
         "height": 1
     },
     {
-        "id": "29e457bf.48da78",
+        "id": "9450c75a.5b5958",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "6c15eb0d.8f5814",
@@ -811,7 +811,7 @@
         "height": 1
     },
     {
-        "id": "5e4afe5.bf518",
+        "id": "44a2db0.2417524",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "6c15eb0d.8f5814",
@@ -820,7 +820,7 @@
         "height": 1
     },
     {
-        "id": "b333a93e.b35b18",
+        "id": "8ce7fc3a.6dd58",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "6c15eb0d.8f5814",
@@ -829,7 +829,7 @@
         "height": 1
     },
     {
-        "id": "6e3ad3b2.6ce17c",
+        "id": "65a289c2.39b5f8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -838,7 +838,7 @@
         "height": 1
     },
     {
-        "id": "5d8f0301.ae9f1c",
+        "id": "84cbaa7f.720868",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -847,7 +847,7 @@
         "height": 1
     },
     {
-        "id": "89d36f75.4378a",
+        "id": "ab01aa95.26f1c8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -856,7 +856,7 @@
         "height": 1
     },
     {
-        "id": "a50f04e3.00f628",
+        "id": "719638bd.46c8f8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -865,7 +865,7 @@
         "height": 1
     },
     {
-        "id": "e1f7cd9a.7568c",
+        "id": "36df1b4.f0af9e4",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -874,7 +874,7 @@
         "height": 1
     },
     {
-        "id": "f428ef61.abdfc",
+        "id": "b7ba738a.cb4d8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -883,7 +883,7 @@
         "height": 1
     },
     {
-        "id": "b97213bb.76f51",
+        "id": "c707c4e7.d93168",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -892,7 +892,7 @@
         "height": 1
     },
     {
-        "id": "bce887ba.dfc688",
+        "id": "4b602878.6feeb8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -901,7 +901,7 @@
         "height": 1
     },
     {
-        "id": "786fdafc.722854",
+        "id": "87f67817.9baec8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -910,7 +910,7 @@
         "height": 1
     },
     {
-        "id": "b27998ee.4ad648",
+        "id": "eec0ce44.bf2fc",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -919,7 +919,7 @@
         "height": 1
     },
     {
-        "id": "1bddf3a4.7bcb2c",
+        "id": "ef530d0c.dbcce",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -928,7 +928,7 @@
         "height": 1
     },
     {
-        "id": "bf17d42d.a8bf88",
+        "id": "9ebb7b3e.b2b588",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -937,7 +937,7 @@
         "height": 1
     },
     {
-        "id": "17028168.7ae6bf",
+        "id": "2d27eeba.7218c2",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -946,7 +946,7 @@
         "height": 1
     },
     {
-        "id": "204d1f11.8fef8",
+        "id": "4b0fb9f1.dbdba8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -955,7 +955,7 @@
         "height": 1
     },
     {
-        "id": "4f7f3af1.11ff14",
+        "id": "e2b79509.5d2ae8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "65d119b5.66cb78",
@@ -964,7 +964,7 @@
         "height": 1
     },
     {
-        "id": "b0b4ec9.67adf1",
+        "id": "1c2bc96c.0b3717",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "65d119b5.66cb78",
@@ -973,7 +973,7 @@
         "height": 1
     },
     {
-        "id": "72bedc6e.2255f4",
+        "id": "85bf50f6.c1286",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "65d119b5.66cb78",
@@ -982,7 +982,7 @@
         "height": 1
     },
     {
-        "id": "9acb3bc7.626008",
+        "id": "b42ae05b.c83f7",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "65d119b5.66cb78",
@@ -991,7 +991,7 @@
         "height": 1
     },
     {
-        "id": "89f006c3.813ad8",
+        "id": "35fca009.9c13e",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "65d119b5.66cb78",
@@ -1000,7 +1000,7 @@
         "height": 1
     },
     {
-        "id": "8b51a38.13a7f6",
+        "id": "d605c4af.d18268",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "65d119b5.66cb78",
@@ -1009,7 +1009,7 @@
         "height": 1
     },
     {
-        "id": "6677d1ce.fea36",
+        "id": "fdd7fa3c.6006a8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "72b67add.961f74",
@@ -2254,7 +2254,7 @@
         "type": "ui_artlessgauge",
         "z": "1d22c714.e50369",
         "group": "45199dde.854f64",
-        "order": 9,
+        "order": 10,
         "width": 3,
         "height": 3,
         "name": "Luminosity",
@@ -2579,11 +2579,11 @@
         "type": "ui_switch",
         "z": "87cb301d.9893c",
         "name": "Grow lights",
-        "label": "LED    {{icon}}",
+        "label": "LED  ",
         "tooltip": "Led",
         "group": "45199dde.854f64",
-        "order": 11,
-        "width": 4,
+        "order": 8,
+        "width": 3,
         "height": 1,
         "passthru": true,
         "decouple": "false",
@@ -2629,7 +2629,7 @@
         "offvalueType": "bool",
         "officon": "fa-toggle-off fa-2x",
         "offcolor": "#0077be",
-        "x": 611,
+        "x": 631,
         "y": 420,
         "wires": [
             [
@@ -2797,7 +2797,7 @@
         "type": "ui_text",
         "z": "1d22c714.e50369",
         "group": "45199dde.854f64",
-        "order": 16,
+        "order": 17,
         "width": 3,
         "height": 1,
         "name": "Last refresh - luminosity",
@@ -4247,13 +4247,13 @@
         "id": "7b62dc10.8cd624",
         "type": "function",
         "z": "1d22c714.e50369",
-        "name": "",
+        "name": "Compute day light, LED and dark duration",
         "func": "var timestampSunLight = global.get('sun.total'); // in seconds\nvar totalLight = global.get('seed.totalLight') * 60 * 60; // in seconds\n\nvar ledLight = totalLight - timestampSunLight; // total seconds needs \n// Save timer off time (sunset + duration)\nglobal.set('seedTray.led.timer.off', global.get('sunset.timestamp') + ledLight * 1000);\n\nvar darkMode = 24*60*60 - totalLight;\n\nfunction format(time) {   \n    // Hours, minutes and seconds\n    var hrs = ~~(time / 3600);\n    var mins = ~~((time % 3600) / 60);\n\n    // Output like \"1:01\" or \"4:03\" or \"123:03\"\n    var ret = \"\";\n    if (hrs > 0) {\n        ret += \"\" + hrs + \" hr \"; \n        if (mins > 0) {\n            ret += (mins < 10 ? \"0\" : \"\") + mins ;\n        }\n    } else {\n        if (mins > 0) {\n            ret = (mins < 10 ? \"0\" : \"\") + mins;\n        }\n    }\n    return ret;\n}\n\nvar labelsMsg = {\"payload\": \n    [\n        {\n            \"title\": \"Sun\",\n            \"description\": format(timestampSunLight),\n            \"icon_name\": \"wi wi-owm-01d\",\n            \"hexColor\": \"#FF7F18\",\n            \"start\": global.get('sunrise.timestamp'),\n            \"end\": \"\",\n        }, \n        {  \n            \"title\": \"Led\",\n            \"description\": format(ledLight),\n            \"icon_name\": \"fa fa-lightbulb-o\",\n            \"hexColor\": \"#F3DF5E\",\n            \"start\": \"\",\n            \"end\": \"\",\n        },\n        {\n            \"title\" : \"Dark\",\n            \"description\": format(darkMode),\n            \"icon_name\": \"fa fa-moon-o\",\n            \"start\": \"\"\n        }\n    ]\n};\n\n\nvar m = {};\nm.labels = [\"Sun light\", \"LED\", \"Darks\"];\nm.data = [[timestampSunLight, ledLight, darkMode]];\nm.series = [\"Total light\"];\nmsg.payload = [m];\nmsg.topic = \"\";\n\n\nreturn [labelsMsg,msg];",
         "outputs": 2,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 200,
+        "x": 310,
         "y": 2080,
         "wires": [
             [
@@ -4330,8 +4330,8 @@
             "#c5b0d5"
         ],
         "outputs": 1,
-        "x": 390,
-        "y": 2120,
+        "x": 610,
+        "y": 2113,
         "wires": [
             []
         ]
@@ -4464,8 +4464,8 @@
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
-        "x": 360,
-        "y": 2040,
+        "x": 580,
+        "y": 2033,
         "wires": [
             []
         ]
@@ -4684,8 +4684,8 @@
         "chunk": false,
         "sendError": false,
         "encoding": "none",
-        "x": 360,
-        "y": 2080,
+        "x": 580,
+        "y": 2073,
         "wires": [
             [
                 "ed8e6bb5.af6b78"
@@ -4700,8 +4700,8 @@
         "property": "payload",
         "action": "",
         "pretty": false,
-        "x": 490,
-        "y": 2080,
+        "x": 710,
+        "y": 2073,
         "wires": [
             [
                 "d82e4b39.5671a8"
@@ -4734,8 +4734,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 660,
-        "y": 2080,
+        "x": 880,
+        "y": 2073,
         "wires": [
             [
                 "bd0f3b34.8fff68"
@@ -4752,8 +4752,8 @@
         "createDir": true,
         "overwriteFile": "true",
         "encoding": "none",
-        "x": 820,
-        "y": 2080,
+        "x": 1040,
+        "y": 2073,
         "wires": [
             [
                 "84752e32.a3167"
@@ -4768,8 +4768,8 @@
         "links": [
             "3ca07431.002fec"
         ],
-        "x": 915,
-        "y": 2080,
+        "x": 1135,
+        "y": 2073,
         "wires": []
     },
     {
@@ -5232,12 +5232,12 @@
         ],
         "repeat": "",
         "crontab": "",
-        "once": false,
+        "once": true,
         "onceDelay": 0.1,
         "topic": "",
         "payload": "5",
         "payloadType": "num",
-        "x": 590,
+        "x": 150,
         "y": 2740,
         "wires": [
             [
@@ -5296,7 +5296,7 @@
         "lineWidth": "5",
         "bgcolorFromTheme": true,
         "diffCenter": "",
-        "x": 780,
+        "x": 340,
         "y": 2780,
         "wires": []
     },
@@ -5306,7 +5306,7 @@
         "z": "1d22c714.e50369",
         "name": "##TODO compute remaining days",
         "info": "",
-        "x": 810,
+        "x": 370,
         "y": 2720,
         "wires": []
     },
@@ -5326,12 +5326,12 @@
         ],
         "repeat": "",
         "crontab": "",
-        "once": false,
+        "once": true,
         "onceDelay": 0.1,
         "topic": "",
         "payload": "25",
         "payloadType": "num",
-        "x": 570,
+        "x": 130,
         "y": 2820,
         "wires": [
             [
@@ -5390,7 +5390,7 @@
         "lineWidth": "5",
         "bgcolorFromTheme": true,
         "diffCenter": "",
-        "x": 760,
+        "x": 320,
         "y": 2860,
         "wires": []
     },
@@ -5431,11 +5431,12 @@
         "qos": "0",
         "datatype": "auto",
         "broker": "a0e631b8.d383b",
-        "x": 590,
+        "x": 610,
         "y": 240,
         "wires": [
             [
-                "3c0af35a.42805c"
+                "df864faf.11005",
+                "a94198ff.eef948"
             ]
         ]
     },
@@ -5443,37 +5444,17 @@
         "id": "a94198ff.eef948",
         "type": "ui_text",
         "z": "87cb301d.9893c",
-        "d": true,
-        "group": "",
-        "order": 7,
+        "group": "45199dde.854f64",
+        "order": 9,
         "width": 1,
         "height": 1,
         "name": "Lamp on/off state",
         "label": "<font color=\"{{msg.color}}\"><i class=\"fa  fa-lightbulb-o fa-2x\"></i></front>",
         "format": "",
-        "layout": "row-spread",
-        "x": 1030,
-        "y": 200,
-        "wires": []
-    },
-    {
-        "id": "3c0af35a.42805c",
-        "type": "function",
-        "z": "87cb301d.9893c",
-        "name": "Set label icon",
-        "func": "var color = (msg.payload == \"true\") ? \"orange\" : \"grey\";\n\nmsg.icon = '<font color=\" ' + color + '\"><i class=\"fa fa-lightbulb-o fa-2x\"></i></front>'\n\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "x": 790,
+        "layout": "row-right",
+        "x": 830,
         "y": 240,
-        "wires": [
-            [
-                "a94198ff.eef948",
-                "df864faf.11005"
-            ]
-        ]
+        "wires": []
     },
     {
         "id": "6de36e52.d849c",
