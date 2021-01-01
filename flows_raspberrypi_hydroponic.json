@@ -3772,94 +3772,6 @@
         ]
     },
     {
-        "id": "9f70aaa.2186658",
-        "type": "ui_slider",
-        "z": "87cb301d.9893c",
-        "name": "PH min. value",
-        "label": "Min. PH",
-        "tooltip": "Minimum PH threshold to trigger event",
-        "group": "65d119b5.66cb78",
-        "order": 7,
-        "width": 6,
-        "height": 1,
-        "passthru": true,
-        "outs": "end",
-        "topic": "",
-        "min": 0,
-        "max": "14",
-        "step": "0.1",
-        "x": 520,
-        "y": 1600,
-        "wires": [
-            [
-                "39d365e7.6050da",
-                "c641ed65.f5f57",
-                "a7f8bb1.8dde548",
-                "4bc5ba0b.116334"
-            ]
-        ]
-    },
-    {
-        "id": "c3691815.5595b8",
-        "type": "ui_slider",
-        "z": "87cb301d.9893c",
-        "name": "PH max. value",
-        "label": "Max. PH",
-        "tooltip": "Max PH threshold to trigger event",
-        "group": "65d119b5.66cb78",
-        "order": 10,
-        "width": 6,
-        "height": 1,
-        "passthru": true,
-        "outs": "end",
-        "topic": "",
-        "min": 0,
-        "max": "14",
-        "step": "0.1",
-        "x": 520,
-        "y": 1740,
-        "wires": [
-            [
-                "4d4ca970.a006e8",
-                "1472213f.e9cedf",
-                "cd446bb0.6460e8",
-                "4bc5ba0b.116334"
-            ]
-        ]
-    },
-    {
-        "id": "39d365e7.6050da",
-        "type": "ui_text",
-        "z": "87cb301d.9893c",
-        "group": "65d119b5.66cb78",
-        "order": 8,
-        "width": 1,
-        "height": 1,
-        "name": "PH min value",
-        "label": "",
-        "format": "{{msg.payload}}",
-        "layout": "row-center",
-        "x": 750,
-        "y": 1600,
-        "wires": []
-    },
-    {
-        "id": "4d4ca970.a006e8",
-        "type": "ui_text",
-        "z": "87cb301d.9893c",
-        "group": "65d119b5.66cb78",
-        "order": 11,
-        "width": 1,
-        "height": 1,
-        "name": "PH max value",
-        "label": "",
-        "format": "{{msg.payload}}",
-        "layout": "row-center",
-        "x": 760,
-        "y": 1740,
-        "wires": []
-    },
-    {
         "id": "c641ed65.f5f57",
         "type": "function",
         "z": "87cb301d.9893c",
@@ -3869,8 +3781,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 780,
-        "y": 1640,
+        "x": 760,
+        "y": 1620,
         "wires": [
             []
         ]
@@ -3885,8 +3797,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 780,
-        "y": 1780,
+        "x": 760,
+        "y": 1700,
         "wires": [
             []
         ]
@@ -3897,8 +3809,8 @@
         "z": "87cb301d.9893c",
         "name": "minPHValue",
         "storageNode": "217cc961.603ce6",
-        "x": 748,
-        "y": 1680,
+        "x": 730,
+        "y": 1660,
         "wires": []
     },
     {
@@ -3908,10 +3820,10 @@
         "name": "minPHValue",
         "storageNode": "217cc961.603ce6",
         "x": 310,
-        "y": 1600,
+        "y": 1640,
         "wires": [
             [
-                "9f70aaa.2186658"
+                "1029f170.eee8cf"
             ]
         ]
     },
@@ -3921,8 +3833,8 @@
         "z": "87cb301d.9893c",
         "name": "maxPHValue",
         "storageNode": "217cc961.603ce6",
-        "x": 750,
-        "y": 1820,
+        "x": 730,
+        "y": 1740,
         "wires": []
     },
     {
@@ -3932,10 +3844,10 @@
         "name": "maxPHValue",
         "storageNode": "217cc961.603ce6",
         "x": 310,
-        "y": 1740,
+        "y": 1720,
         "wires": [
             [
-                "c3691815.5595b8"
+                "bf375008.d7639"
             ]
         ]
     },
@@ -5591,6 +5503,62 @@
         "wires": [
             [
                 "a94198ff.eef948"
+            ]
+        ]
+    },
+    {
+        "id": "bf375008.d7639",
+        "type": "ui_numeric",
+        "z": "87cb301d.9893c",
+        "name": "",
+        "label": "Max. PH",
+        "tooltip": "Maximum PH threshold to trigger event",
+        "group": "65d119b5.66cb78",
+        "order": 9,
+        "width": 0,
+        "height": 0,
+        "wrap": false,
+        "passthru": true,
+        "topic": "PH max value numeric input",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "14",
+        "step": "0.1",
+        "x": 500,
+        "y": 1720,
+        "wires": [
+            [
+                "4bc5ba0b.116334",
+                "1472213f.e9cedf",
+                "cd446bb0.6460e8"
+            ]
+        ]
+    },
+    {
+        "id": "1029f170.eee8cf",
+        "type": "ui_numeric",
+        "z": "87cb301d.9893c",
+        "name": "",
+        "label": "Min. PH",
+        "tooltip": "Minimum PH threshold to trigger event",
+        "group": "65d119b5.66cb78",
+        "order": 9,
+        "width": 0,
+        "height": 0,
+        "wrap": false,
+        "passthru": true,
+        "topic": "Min. PH value",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "14",
+        "step": "0.1",
+        "x": 500,
+        "y": 1640,
+        "wires": [
+            [
+                "c641ed65.f5f57",
+                "a7f8bb1.8dde548",
+                "4bc5ba0b.116334"
             ]
         ]
     }
