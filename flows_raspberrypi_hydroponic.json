@@ -5447,11 +5447,11 @@
         "order": 9,
         "width": 1,
         "height": 1,
-        "name": "Lamp on/off state",
+        "name": "LED on/off state",
         "label": "<font color=\"{{msg.color}}\"><i class=\"fa  fa-lightbulb-o fa-2x\"></i></front>",
         "format": "",
         "layout": "row-right",
-        "x": 970,
+        "x": 980,
         "y": 240,
         "wires": []
     },
@@ -5586,7 +5586,7 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 810,
+        "x": 790,
         "y": 240,
         "wires": [
             [
