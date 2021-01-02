@@ -4649,7 +4649,7 @@
         "width": 3,
         "height": 1,
         "name": "Seed tray label",
-        "label": "<h2>Seed tray</h2>",
+        "label": "<h3><i class=\"fa fa-leaf\"> Seed tray</h3>",
         "format": "",
         "layout": "row-left",
         "x": 1080,
