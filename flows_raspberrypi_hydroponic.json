@@ -109,7 +109,7 @@
         "type": "ui_group",
         "name": "Seed tray - Schedules",
         "tab": "352c089f.6b44d8",
-        "order": 6,
+        "order": 7,
         "disp": true,
         "width": 8,
         "collapse": false
@@ -480,7 +480,7 @@
         "type": "ui_group",
         "name": "Seed tray - Nutriments",
         "tab": "352c089f.6b44d8",
-        "order": 7,
+        "order": 6,
         "disp": true,
         "width": 8,
         "collapse": false
