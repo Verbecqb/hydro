@@ -68,7 +68,7 @@
         "type": "ui_group",
         "name": "Seed Tray - Visualize",
         "tab": "352c089f.6b44d8",
-        "order": 8,
+        "order": 9,
         "disp": true,
         "width": 8,
         "collapse": false,
@@ -550,7 +550,7 @@
         "type": "ui_group",
         "name": "Graph",
         "tab": "352c089f.6b44d8",
-        "order": 9,
+        "order": 8,
         "disp": true,
         "width": "14",
         "collapse": false
