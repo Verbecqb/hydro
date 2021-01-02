@@ -2795,7 +2795,7 @@
         "name": "Last refresh - water quality",
         "label": "",
         "format": "<i class=\"fa fa-refresh\" aria-hidden=\"true\">&nbsp; {{ msg.payload | date: 'HH:mm:ss'}}</i> ",
-        "layout": "row-left",
+        "layout": "row-center",
         "x": 1440,
         "y": 500,
         "wires": []
