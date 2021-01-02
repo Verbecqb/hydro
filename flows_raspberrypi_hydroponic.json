@@ -441,8 +441,7 @@
                 "primary": "indigo",
                 "accents": "blue",
                 "warn": "red",
-                "background": "grey",
-                "palette": "dark"
+                "background": "grey"
             }
         },
         "site": {
@@ -1148,7 +1147,7 @@
         "id": "3e247b14.95d3a4",
         "type": "switch",
         "z": "5127740.f28848c",
-        "name": "Mean PH greater than 6.5 or less than 5.5",
+        "name": "Mean PH greater than global MaxPH or less than global Min PH",
         "property": "payload[0].mean",
         "propertyType": "msg",
         "rules": [
@@ -1166,7 +1165,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 540,
+        "x": 610,
         "y": 200,
         "wires": [
             [
@@ -1187,8 +1186,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 820,
-        "y": 164,
+        "x": 900,
+        "y": 100,
         "wires": [
             [
                 "f3e2c3ad.8ebb2"
@@ -3250,8 +3249,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 830,
-        "y": 224,
+        "x": 910,
+        "y": 260,
         "wires": [
             [
                 "f3e2c3ad.8ebb2"
@@ -3950,7 +3949,7 @@
         "type": "function",
         "z": "1d22c714.e50369",
         "name": "Configure water level widget",
-        "func": "msg.payload = parseInt(msg.payload * 100 / 7);\nvar threshold = 40;\n\nmsg.ui_control = {options: {\n    textColor:\"#FFFFFF\", \n    waveTextColor:\"#FFFFFF\", \n    textSize: 0.7,\n    textVertPosition: .6,\n    displayPercent: true,\n    waveColor: (msg.payload > threshold) ? \"#0077be\" : \"#cc3300\",\n    //waveAnimate: true,\n    //waveAnimateTime: 200000,\n    //waveCount: 3,\n    waveOffset: 0.25,\n    circleThickness: 0.05,\n    circleColor: (msg.payload > threshold) ? \"#0077be\" : \"#cc3300\",\n    valueCountUp: false // disable count up upon loading \n\n }\n};\n\nreturn msg; ",
+        "func": "msg.payload = parseInt(msg.payload * 100 / 7);\nvar thresholdMin = global.get('seedTray.water.level.threshold.low');\nvar thresholdMax = global.get('seedTray.water.level.threshold.high');\n\n\nmsg.ui_control = {options: {\n    textColor:\"#FFFFFF\", \n    waveTextColor:\"#FFFFFF\", \n    textSize: 0.7,\n    textVertPosition: .6,\n    displayPercent: true,\n    waveColor: \n        (msg.payload > thresholdMin && msg.payload < thresholdMax) ? \"#0077be\" : \"#cc3300\",\n    //waveAnimate: true,\n    //waveAnimateTime: 200000,\n    //waveCount: 3,\n    waveOffset: 0.25,\n    circleThickness: 0.05,\n    circleColor:(msg.payload > thresholdMin && msg.payload < thresholdMax) ? \"#0077be\" : \"#cc3300\",\n    valueCountUp: false // disable count up upon loading \n\n }\n};\n\nreturn msg; ",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -4347,7 +4346,7 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "<font face=\"Roboto\">\n\n{{#global.seedTray.water.level.warning}}\n <font color=\"red\" align=\"center\"> <i class=\"fa fa-exclamation-circle\"></i>.  Water level is too low.</font>\n{{/global.seedTray.water.level.warning}} \n\n  \n<br/><br/>\n\npump runs for <font color=\"#0077be\"> {{global.durationWaterSpray}}</font> \nseconds every  <font color=\"#0077be\">two days</font>\n</font>\n<br/><br/><br/>\n<hr>",
+        "template": "<font face=\"Roboto\">\n\n{{#global.seedTray.water.level.high.warning}}\n <font color=\"red\" align=\"center\"> <i class=\"fa fa-exclamation-circle\"></i>.  Water level is too low.</font>\n{{/global.seedTray.water.level.high.warning}} \n\n{{#global.seedTray.water.level.warning}}\n <font color=\"red\" align=\"center\"> <i class=\"fa fa-exclamation-circle\"></i>.  Water level is too low.</font>\n{{/global.seedTray.water.level.low.warning}} \n\n  \n<br/><br/>\n\npump runs for <font color=\"#0077be\"> {{global.durationWaterSpray}}</font> \nseconds every  <font color=\"#0077be\">two days</font>\n</font>\n<br/><br/><br/>\n<hr>",
         "output": "str",
         "x": 360,
         "y": 2340,
@@ -4440,7 +4439,7 @@
         "type": "function",
         "z": "1d22c714.e50369",
         "name": "Global var water level",
-        "func": "global.set(\"seedTray.water.level\", parseInt(msg.payload * 100 / 7));\n\nif (global.get(\"seedTray.water.level\") > 50) {\n    global.set(\"seedTray.water.level.warning\", undefined);\n} else {\n    global.set(\"seedTray.water.level.warning\", true);\n}\n\n",
+        "func": "global.set(\"seedTray.water.level\", parseInt(msg.payload * 100 / 7));\n\nif (global.get(\"seedTray.water.level\") < global.get('seedTray.water.level.threshold.low')) {\n    global.set(\"seedTray.water.level.low.warning\", undefined);\n} else {\n    global.set(\"seedTray.water.level.low.warning\", true);\n}\n\nif (global.get(\"seedTray.water.level\") > global.get('seedTray.water.level.threshold.high')) {\n    global.set(\"seedTray.water.level.high.warning\", undefined);\n} else {\n    global.set(\"seedTray.water.level.high.warning\", true);\n}\n\n\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -5536,6 +5535,51 @@
             [
                 "b5da2f47.50eca",
                 "ceb34ebd.f74e8"
+            ]
+        ]
+    },
+    {
+        "id": "62af3da0.9e2494",
+        "type": "function",
+        "z": "5127740.f28848c",
+        "name": "Set system variables",
+        "func": "global.set('seedTray.water.level.threshold.low', 40);\nglobal.set('seedTray.water.level.threshold.high', 90);",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 300,
+        "y": 480,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c8aa275d.cd9128",
+        "type": "inject",
+        "z": "5127740.f28848c",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 120,
+        "y": 480,
+        "wires": [
+            [
+                "62af3da0.9e2494"
             ]
         ]
     }
