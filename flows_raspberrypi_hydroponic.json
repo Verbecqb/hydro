@@ -2965,16 +2965,6 @@
         ]
     },
     {
-        "id": "241d7684.cf23fa",
-        "type": "remote-access",
-        "z": "1d22c714.e50369",
-        "confignode": "9f76d55b.b58878",
-        "name": "",
-        "x": 180,
-        "y": 60,
-        "wires": []
-    },
-    {
         "id": "5d2f5ff2.180c5",
         "type": "delay",
         "z": "87cb301d.9893c",
