@@ -560,11 +560,11 @@
     {
         "id": "fc40ab90.fee1e8",
         "type": "ui_group",
-        "name": "Graph",
+        "name": "<i class=\"fa fa-area-chart ></i>Graph",
         "tab": "352c089f.6b44d8",
         "order": 9,
         "disp": true,
-        "width": 21,
+        "width": "21",
         "collapse": false
     },
     {
@@ -5662,8 +5662,8 @@
         "label": "<b><i class=\"fa fa-sliders\"></i> Settings </b>",
         "format": "",
         "layout": "row-left",
-        "x": 970,
-        "y": 1900,
+        "x": 1070,
+        "y": 1760,
         "wires": []
     }
 ]
