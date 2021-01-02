@@ -5643,7 +5643,7 @@
         "width": 7,
         "height": 1,
         "name": "Nutrients settings",
-        "label": "<b>< i class=\"fa fa-sliders\"></i> Nutrients settings </b>",
+        "label": "<b><i class=\"fa fa-sliders\"></i> Nutrients settings </b>",
         "format": "",
         "layout": "row-left",
         "x": 870,
