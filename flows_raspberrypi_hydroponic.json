@@ -5542,13 +5542,13 @@
         "id": "62af3da0.9e2494",
         "type": "function",
         "z": "5127740.f28848c",
-        "name": "Set system variables",
-        "func": "global.set('seedTray.water.level.threshold.low', 40);\nglobal.set('seedTray.water.level.threshold.high', 85);\n\n\nglobal.set('color.warning', \"#CC3300\");\nglobal.set('color.widget.water', \"#0077be\");\nglobal.set('color.widget.light.led', \"#ffc30b\");\nglobal.set('color.widget.nutrients', \"#bb86fc\");\nglobal.set('color.widget.ph', \"\");\n",
+        "name": "Set static system variables",
+        "func": "global.set('seedTray.water.level.threshold.low', 40);\nglobal.set('seedTray.water.level.threshold.high', 85);\n\nglobal.set('config.peristaltic.flow', 2); // flow in mL / sec\n\n\nglobal.set('color.warning', \"#CC3300\");\nglobal.set('color.widget.water', \"#0077be\");\nglobal.set('color.widget.light.led', \"#ffc30b\");\nglobal.set('color.widget.nutrients', \"#bb86fc\");\nglobal.set('color.widget.ph', \"\");\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 320,
+        "x": 340,
         "y": 480,
         "wires": [
             []
