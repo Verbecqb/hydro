@@ -5543,7 +5543,7 @@
         "type": "function",
         "z": "5127740.f28848c",
         "name": "Set system variables",
-        "func": "global.set('seedTray.water.levellow', 40);\nglobal.set('seedTray.water.levelhigh', 90);\n",
+        "func": "global.set('seedTray.water.level.warningLow', 40);\nglobal.set('seedTray.water.level.warningHigh', 90);\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
