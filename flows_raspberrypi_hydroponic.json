@@ -68,7 +68,7 @@
         "type": "ui_group",
         "name": "Seed Tray - Visualize",
         "tab": "352c089f.6b44d8",
-        "order": 2,
+        "order": 8,
         "disp": true,
         "width": 8,
         "collapse": false,
@@ -79,7 +79,7 @@
         "type": "ui_group",
         "name": "Sensors",
         "tab": "352c089f.6b44d8",
-        "order": 3,
+        "order": 2,
         "disp": true,
         "width": "8",
         "collapse": false
@@ -89,7 +89,7 @@
         "type": "ui_group",
         "name": "Seed Tray - PH",
         "tab": "352c089f.6b44d8",
-        "order": 4,
+        "order": 3,
         "disp": true,
         "width": 8,
         "collapse": false
@@ -109,7 +109,7 @@
         "type": "ui_group",
         "name": "Seed tray - Schedules",
         "tab": "352c089f.6b44d8",
-        "order": 8,
+        "order": 7,
         "disp": true,
         "width": 8,
         "collapse": false
@@ -469,7 +469,7 @@
         "type": "ui_group",
         "name": "Seed tray - Nutrients",
         "tab": "352c089f.6b44d8",
-        "order": 5,
+        "order": 4,
         "disp": true,
         "width": "8",
         "collapse": false
@@ -530,7 +530,7 @@
         "type": "ui_group",
         "name": "Seed tray - Light",
         "tab": "352c089f.6b44d8",
-        "order": 6,
+        "order": 5,
         "disp": true,
         "width": 8,
         "collapse": false
@@ -540,7 +540,7 @@
         "type": "ui_group",
         "name": "Water",
         "tab": "352c089f.6b44d8",
-        "order": 7,
+        "order": 6,
         "disp": true,
         "width": "8",
         "collapse": false
