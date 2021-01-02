@@ -479,11 +479,11 @@
     {
         "id": "8d4aab9b.4d6328",
         "type": "ui_group",
-        "name": "Seed tray - Nutriments",
+        "name": "Seed tray - Nutrients",
         "tab": "352c089f.6b44d8",
         "order": 4,
         "disp": true,
-        "width": 8,
+        "width": "8",
         "collapse": false
     },
     {
@@ -5973,7 +5973,7 @@
         "id": "ba791300.7ab1",
         "type": "ui_text",
         "z": "1d22c714.e50369",
-        "group": "6c15eb0d.8f5814",
+        "group": "8d4aab9b.4d6328",
         "order": 8,
         "width": 4,
         "height": 1,
@@ -5989,7 +5989,7 @@
         "id": "f1f66322.5af97",
         "type": "ui_text",
         "z": "1d22c714.e50369",
-        "group": "6c15eb0d.8f5814",
+        "group": "8d4aab9b.4d6328",
         "order": 8,
         "width": 4,
         "height": 1,
