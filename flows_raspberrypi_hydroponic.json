@@ -1026,6 +1026,16 @@
         "height": 1
     },
     {
+        "id": "fc40ab90.fee1e8",
+        "type": "ui_group",
+        "name": "Graph",
+        "tab": "352c089f.6b44d8",
+        "order": 10,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
         "id": "e30bc267.9a60e",
         "type": "mqtt in",
         "z": "1d22c714.e50369",
@@ -2837,10 +2847,10 @@
         "type": "ui_chart",
         "z": "1d22c714.e50369",
         "name": "Seed tray historical value graph",
-        "group": "f0e58282.f2736",
+        "group": "fc40ab90.fee1e8",
         "order": 2,
-        "width": 18,
-        "height": 8,
+        "width": "6",
+        "height": "5",
         "label": "",
         "chartType": "line",
         "legend": "true",
