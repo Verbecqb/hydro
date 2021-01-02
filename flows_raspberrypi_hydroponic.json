@@ -5611,7 +5611,7 @@
         "width": 4,
         "height": 1,
         "name": "Water control label",
-        "label": "Water control",
+        "label": "<b><i class=\"fa fa-cog\"></i> Control</b>",
         "format": "",
         "layout": "row-left",
         "x": 870,
