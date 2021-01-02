@@ -548,7 +548,7 @@
     {
         "id": "fc40ab90.fee1e8",
         "type": "ui_group",
-        "name": "<i class=\"fa fa-area-chart\" ></i>Graph",
+        "name": "Graph",
         "tab": "352c089f.6b44d8",
         "order": 9,
         "disp": true,
