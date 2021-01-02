@@ -465,18 +465,6 @@
         }
     },
     {
-        "id": "9f76d55b.b58878",
-        "type": "remote-config",
-        "name": "Node-RED UI",
-        "host": "10.0.0.10",
-        "protocol": "http",
-        "port": "1880",
-        "baseurl": "/ui",
-        "instancehash": "ktr0ugw85xjlfnbdbck3dtjhkq75ke5s6m3a8rvyw6rlfpvd75eaikzfcaloh1xj",
-        "server": "nodered02.remote-red.com",
-        "region": "de"
-    },
-    {
         "id": "8d4aab9b.4d6328",
         "type": "ui_group",
         "name": "Seed tray - Nutrients",
