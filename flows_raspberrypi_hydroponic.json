@@ -2763,7 +2763,7 @@
         "name": "Last refresh - temp",
         "label": "",
         "format": "<i class=\"fa fa-refresh\" aria-hidden=\"true\">&nbsp; {{ msg.payload | date: 'HH:mm:ss'}}</i> ",
-        "layout": "row-center",
+        "layout": "row-right",
         "x": 1410,
         "y": 1480,
         "wires": []
@@ -2779,7 +2779,7 @@
         "name": "Last refresh - water temp",
         "label": "",
         "format": "<i class=\"fa fa-refresh\" aria-hidden=\"true\">&nbsp; {{ msg.payload | date: 'HH:mm:ss'}}</i> ",
-        "layout": "row-center",
+        "layout": "row-right",
         "x": 1410,
         "y": 860,
         "wires": []
