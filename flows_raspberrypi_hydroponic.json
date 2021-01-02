@@ -3992,7 +3992,8 @@
         "y": 2000,
         "wires": [
             [
-                "652a6ac7.e928e4"
+                "652a6ac7.e928e4",
+                "2f179774.4055e8"
             ]
         ]
     },
@@ -5648,7 +5649,7 @@
         "type": "function",
         "z": "87cb301d.9893c",
         "name": "Set color",
-        "func": "msg.color = (msg.payload == \"true\") ? global.get(\"color.widget.water\") : \"grey\";\nreturn msg;",
+        "func": "msg.color = (msg.payload.relay_state == 1) ? global.get(\"color.widget.water\") : \"grey\";\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
