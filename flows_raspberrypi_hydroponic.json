@@ -5543,12 +5543,12 @@
         "type": "function",
         "z": "5127740.f28848c",
         "name": "Set system variables",
-        "func": "global.set('seedTray.water.level.threshold.low', 40);\nglobal.set('seedTray.water.level.threshold.high', 90);",
+        "func": "//global.set('seedTray.water.level.threshold.low', 40);\n//global.set('seedTray.water.level.threshold.high', 90);\nglobal.set('test', 'toto');",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 300,
+        "x": 320,
         "y": 480,
         "wires": [
             []
