@@ -3450,12 +3450,13 @@
         "startDay": "1",
         "refresh": 60,
         "devices": [
-            "Schedule grow lights",
-            "Schedule water pump"
+            "Grow lights",
+            "Water spray",
+            "Water pump"
         ],
         "customPayload": false,
         "eventMode": true,
-        "outputs": 3,
+        "outputs": 4,
         "order": 1,
         "width": 8,
         "height": 1,
@@ -3470,7 +3471,8 @@
             ],
             [
                 "c1e51a25.bcd2f8"
-            ]
+            ],
+            []
         ]
     },
     {
