@@ -5745,7 +5745,7 @@
         "storeOutMessages": true,
         "fwdInMessages": true,
         "resendOnRefresh": true,
-        "templateScope": "global",
+        "templateScope": "local",
         "x": 350,
         "y": 540,
         "wires": [
