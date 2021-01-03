@@ -60,6 +60,7 @@
         "type": "ui_tab",
         "name": "Hydroponic",
         "icon": "dashboard",
+        "order": 3,
         "disabled": false,
         "hidden": false
     },
@@ -67,8 +68,8 @@
         "id": "f0e58282.f2736",
         "type": "ui_group",
         "name": "Seed Tray - Visualize",
-        "tab": "8073017c.fb41a",
-        "order": 9,
+        "tab": "352c089f.6b44d8",
+        "order": 8,
         "disp": true,
         "width": "8",
         "collapse": false,
@@ -549,7 +550,7 @@
         "type": "ui_group",
         "name": "Graph",
         "tab": "352c089f.6b44d8",
-        "order": 8,
+        "order": 9,
         "disp": true,
         "width": "14",
         "collapse": false
@@ -1071,6 +1072,15 @@
         "id": "8073017c.fb41a",
         "type": "ui_tab",
         "name": "Setting",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "f0cf9f07.0cff7",
+        "type": "ui_tab",
+        "name": "Graph",
         "icon": "dashboard",
         "order": 2,
         "disabled": false,
@@ -5749,7 +5759,7 @@
         "order": 9,
         "width": 0,
         "height": 0,
-        "format": "\n\n<script id=\"TopHeader\" type=\"text/javascript\">\n\nvar setting = new Object();\nsetting.payload = 'Setting'; // This is the payload that goes out\n    \nvar theScope = scope;\n    \n$(function () {\n    \n    // add button\n    var divButton = $('<div />');\n    var button = document.createElement(\"button\");\n    button.innerHTML = '<i class=\"fa fa-sliders\" aria-hidden=\"true\"></i>';\n    button.addEventListener(\"click\", doIT.bind(null,setting));\n    divButton[0].style.margin = '2% auto';\n    //divButton[0].style.size = '40';\n    divButton.append(button);\n    \n    var toolbar = $('.md-toolbar-tools');\n    if(!toolbar.length) return;\n    \n    toolbar.append(divButton);\n \n    \n    function doIT(m){\n        theScope.send( m )\n    }\n\n    function doThis(m){\n        theScope.send( m )\n    }\n\n});\n    \n</script>",
+        "format": "\n\n<script id=\"TopHeader\" type=\"text/javascript\">\n\nvar setting = new Object();\nsetting.payload = 'Setting'; // This is the payload that goes out\n\nvar graph = new Object();\ngraph.payload = 'Grap'; // This is the payload that goes out\n    \nvar theScope = scope;\n    \n$(function () {\n    \n    // add button\n    var divButton = $('<div />');\n    var button = document.createElement(\"button\");\n    button.innerHTML = '<i class=\"fa fa-sliders\" aria-hidden=\"true\"></i>';\n    button.addEventListener(\"click\", doIT.bind(null,setting));\n    divButton[0].style.margin = '2% auto';\n    //divButton[0].style.size = '40';\n    divButton.append(button);\n    \n    // add button\n    var divGraphButton = $('<div />');\n    var graphButton = document.createElement(\"button\");\n    graphButton.innerHTML = '<i class=\"fa-area-chart\" aria-hidden=\"true\"></i>';\n    graphButton.addEventListener(\"click\", doIT.bind(null,chart));\n    divGraphButton[0].style.margin = '2% auto';\n    //divButton[0].style.size = '40';\n    divGraphButton.append(graphButton);\n    \n    var toolbar = $('.md-toolbar-tools');\n    if(!toolbar.length) return;\n\n    toolbar.append(divGraphButton);    \n    toolbar.append(divButton);\n\n \n    \n    function doIT(m){\n        theScope.send( m )\n    }\n\n    function doThis(m){\n        theScope.send( m )\n    }\n\n});\n    \n</script>",
         "storeOutMessages": true,
         "fwdInMessages": true,
         "resendOnRefresh": true,
@@ -5758,7 +5768,8 @@
         "y": 480,
         "wires": [
             [
-                "d8680444.bcae08"
+                "d8680444.bcae08",
+                "97d77023.0aea4"
             ]
         ]
     },
@@ -5770,6 +5781,18 @@
         "events": "change",
         "x": 500,
         "y": 480,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "97d77023.0aea4",
+        "type": "ui_ui_control",
+        "z": "87cb301d.9893c",
+        "name": "go to Graph",
+        "events": "change",
+        "x": 490,
+        "y": 520,
         "wires": [
             []
         ]
