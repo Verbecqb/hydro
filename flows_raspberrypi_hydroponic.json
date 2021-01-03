@@ -5920,7 +5920,7 @@
                 "vt": "str"
             }
         ],
-        "repeat": "1",
+        "repeat": "",
         "crontab": "",
         "once": true,
         "onceDelay": 0.1,
