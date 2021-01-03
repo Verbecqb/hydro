@@ -67,10 +67,10 @@
         "id": "f0e58282.f2736",
         "type": "ui_group",
         "name": "Seed Tray - Visualize",
-        "tab": "352c089f.6b44d8",
+        "tab": "8073017c.fb41a",
         "order": 9,
         "disp": true,
-        "width": 8,
+        "width": "8",
         "collapse": false,
         "info": "# Seed tray LEDs"
     },
