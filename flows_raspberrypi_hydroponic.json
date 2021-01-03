@@ -567,7 +567,7 @@
         "id": "8073017c.fb41a",
         "type": "ui_tab",
         "name": "Setting",
-        "icon": "dashboard",
+        "icon": "fa-sliders",
         "order": 3,
         "disabled": false,
         "hidden": false
@@ -576,7 +576,7 @@
         "id": "f0cf9f07.0cff7",
         "type": "ui_tab",
         "name": "Graph",
-        "icon": "dashboard",
+        "icon": "fa-area-chart",
         "order": 2,
         "disabled": false,
         "hidden": false
@@ -1102,6 +1102,15 @@
         "order": 21,
         "width": 3,
         "height": 1
+    },
+    {
+        "id": "ad78e894.23e758",
+        "type": "ui_tab",
+        "name": "Schedule",
+        "icon": "fa-calendar",
+        "order": 4,
+        "disabled": false,
+        "hidden": false
     },
     {
         "id": "e30bc267.9a60e",
@@ -5747,7 +5756,7 @@
         "order": 10,
         "width": 3,
         "height": 1,
-        "format": "\n<script id=\"TopHeader\" type=\"text/javascript\">\n\nvar home = new Object();\nhome.payload = 'Hydroponic'; // This is the payload that goes out\n    \n\nvar setting = new Object();\nsetting.payload = 'Setting'; // This is the payload that goes out\n\nvar graph = new Object();\ngraph.payload = 'Graph'; // This is the payload that goes out\n    \nvar theScope = scope;\nelementsAdded = false;\n    \n$(function (scope) {\n    \n    if (scope.elementsAdded) {\n        console.log(\"elements already added. exit.\");\n        return;\n    }\n    \n    scope.elementsAdded = true;\n    \n    // add button\n    var divButtons = $('<div />');\n    divButtons[0].style.position=\"absolute\";\n    divButtons[0].style.right = \"5%\";\n    \n    var homeButton = document.createElement(\"button\");\n    homeButton.className += \"md-icon-button md-button md-ink-ripple\";\n    homeButton.innerHTML = '<i class=\"fa fa-tachometer\" aria-hidden=\"true\"></i>';\n    homeButton.addEventListener(\"click\", doIT.bind(null,home));\n    homeButton.style.margin = '5px';\n    divButtons.append(homeButton);\n    \n     // add agenda button\n    var agendaButton = document.createElement(\"button\");\n    agendaButton.className += \"md-icon-button md-button md-ink-ripple\";\n    agendaButton.innerHTML = '<i class=\"fa fa-calendar\" aria-hidden=\"true\"></i>';\n    agendaButton.addEventListener(\"click\", doIT.bind(null,graph));\n    agendaButton.style.margin = '5px';\n    divButtons.append(agendaButton);\n   \n        \n    // add Graph button\n    var graphButton = document.createElement(\"button\");\n    graphButton.className += \"md-icon-button md-button md-ink-ripple\";\n    graphButton.innerHTML = '<i class=\"fa fa-area-chart\" aria-hidden=\"true\"></i>';\n    graphButton.addEventListener(\"click\", doIT.bind(null,graph));\n    graphButton.style.margin = '5px';\n    divButtons.append(graphButton);\n    \n    // add button\n    var settingsButton = document.createElement(\"button\");\n    settingsButton.className += \"md-icon-button md-button md-ink-ripple\";\n    settingsButton.innerHTML = '<i class=\"fa fa-sliders\" aria-hidden=\"true\"></i>';\n    settingsButton.addEventListener(\"click\", doIT.bind(null,setting));\n    settingsButton.style.margin = '5px';\n    divButtons.append(settingsButton);\n\n    \n    var toolbar = $('.md-toolbar-tools');\n    if(!toolbar.length) return;\n\n\n    toolbar.append(divButtons);  \n\n    \n    function doIT(m){\n        theScope.send( m )\n    }\n\n    function doThis(m){\n        theScope.send( m )\n    }\n\n});\n    \n</script>",
+        "format": "\n<script id=\"TopHeader\" type=\"text/javascript\">\n\nvar home = new Object();\nhome.payload = 'Hydroponic'; // This is the payload that goes out\n    \nvar schedule = new Object();\ngraph.payload = 'Schedule'; // This is the payload that goes out\n    \nvar setting = new Object();\nsetting.payload = 'Setting'; // This is the payload that goes out\n\nvar graph = new Object();\ngraph.payload = 'Graph'; // This is the payload that goes out\n    \nvar theScope = scope;\nelementsAdded = false;\n    \n$(function (scope) {\n    \n    if (scope.elementsAdded) {\n        console.log(\"elements already added. exit.\");\n        return;\n    }\n    \n    scope.elementsAdded = true;\n    \n    // add button\n    var divButtons = $('<div />');\n    divButtons[0].style.position=\"absolute\";\n    divButtons[0].style.right = \"5%\";\n    \n    var homeButton = document.createElement(\"button\");\n    homeButton.className += \"md-icon-button md-button md-ink-ripple\";\n    homeButton.innerHTML = '<i class=\"fa fa-tachometer\" aria-hidden=\"true\"></i>';\n    homeButton.addEventListener(\"click\", doIT.bind(null,home));\n    homeButton.style.margin = '5px';\n    divButtons.append(homeButton);\n    \n     // add agenda button\n    var agendaButton = document.createElement(\"button\");\n    agendaButton.className += \"md-icon-button md-button md-ink-ripple\";\n    agendaButton.innerHTML = '<i class=\"fa fa-calendar\" aria-hidden=\"true\"></i>';\n    agendaButton.addEventListener(\"click\", doIT.bind(null,schedule));\n    agendaButton.style.margin = '5px';\n    divButtons.append(agendaButton);\n   \n        \n    // add Graph button\n    var graphButton = document.createElement(\"button\");\n    graphButton.className += \"md-icon-button md-button md-ink-ripple\";\n    graphButton.innerHTML = '<i class=\"fa fa-area-chart\" aria-hidden=\"true\"></i>';\n    graphButton.addEventListener(\"click\", doIT.bind(null,graph));\n    graphButton.style.margin = '5px';\n    divButtons.append(graphButton);\n    \n    // add button\n    var settingsButton = document.createElement(\"button\");\n    settingsButton.className += \"md-icon-button md-button md-ink-ripple\";\n    settingsButton.innerHTML = '<i class=\"fa fa-sliders\" aria-hidden=\"true\"></i>';\n    settingsButton.addEventListener(\"click\", doIT.bind(null,setting));\n    settingsButton.style.margin = '5px';\n    divButtons.append(settingsButton);\n\n    \n    var toolbar = $('.md-toolbar-tools');\n    if(!toolbar.length) return;\n\n\n    toolbar.append(divButtons);  \n\n    \n    function doIT(m){\n        theScope.send( m )\n    }\n\n    function doThis(m){\n        theScope.send( m )\n    }\n\n});\n    \n</script>",
         "storeOutMessages": true,
         "fwdInMessages": true,
         "resendOnRefresh": true,
@@ -5758,7 +5767,8 @@
             [
                 "2b60c220.448f2e",
                 "3dfac3e8.b4adec",
-                "fa6cdfd9.f33de"
+                "fa6cdfd9.f33de",
+                "d3391c3f.5bae4"
             ]
         ]
     },
@@ -5794,6 +5804,18 @@
         "events": "change",
         "x": 410,
         "y": 40,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d3391c3f.5bae4",
+        "type": "ui_ui_control",
+        "z": "9441712c.a6198",
+        "name": "go to Schedule",
+        "events": "change",
+        "x": 400,
+        "y": 160,
         "wires": [
             []
         ]
