@@ -60,7 +60,7 @@
         "type": "ui_tab",
         "name": "Hydroponic",
         "icon": "dashboard",
-        "order": 3,
+        "order": 1,
         "disabled": false,
         "hidden": false
     },
@@ -1074,7 +1074,7 @@
         "type": "ui_tab",
         "name": "Setting",
         "icon": "dashboard",
-        "order": 1,
+        "order": 3,
         "disabled": false,
         "hidden": false
     },
