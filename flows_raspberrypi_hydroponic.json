@@ -5368,7 +5368,7 @@
         "type": "ui_numeric",
         "z": "9441712c.a6198",
         "name": "Min. PPM numeric input",
-        "label": "<i class=\"fa ffa-arrow-circle-up\"></i> Min. PPM",
+        "label": "<i class=\"fa fa-arrow-circle-up\"></i> Min. PPM",
         "tooltip": "Min PPM threshold to trigger event",
         "group": "1c4b8cb2.e1e2e3",
         "order": 6,
