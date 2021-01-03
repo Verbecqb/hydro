@@ -5042,22 +5042,6 @@
         "wires": []
     },
     {
-        "id": "287581b5.1de68e",
-        "type": "ui_text",
-        "z": "1d22c714.e50369",
-        "group": "45199dde.854f64",
-        "order": 1,
-        "width": 7,
-        "height": 1,
-        "name": "Lights settings",
-        "label": "<b><i class=\"fa fa-sliders\"></i> Settings </b>",
-        "format": "",
-        "layout": "row-left",
-        "x": 1080,
-        "y": 1926,
-        "wires": []
-    },
-    {
         "id": "b5b54050.b692c",
         "type": "ui_text",
         "z": "1d22c714.e50369",
@@ -5070,7 +5054,7 @@
         "format": "",
         "layout": "row-left",
         "x": 1090,
-        "y": 1966,
+        "y": 1900,
         "wires": []
     },
     {
