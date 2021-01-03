@@ -1751,8 +1751,8 @@
         "randomLast": "5",
         "randomUnits": "seconds",
         "drop": false,
-        "x": 1481,
-        "y": 480,
+        "x": 1480,
+        "y": 400,
         "wires": [
             [
                 "25335612.5b58da"
@@ -1768,8 +1768,8 @@
         "qos": "0",
         "retain": "",
         "broker": "a0e631b8.d383b",
-        "x": 831,
-        "y": 420,
+        "x": 830,
+        "y": 340,
         "wires": []
     },
     {
@@ -1818,8 +1818,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1631,
-        "y": 480,
+        "x": 1630,
+        "y": 400,
         "wires": [
             [
                 "c1e51a25.bcd2f8"
@@ -1841,8 +1841,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 861,
-        "y": 480,
+        "x": 860,
+        "y": 400,
         "wires": [
             [
                 "57e4ad43.c33774"
@@ -2722,8 +2722,8 @@
         "offvalueType": "bool",
         "officon": "fa-toggle-off fa-2x",
         "offcolor": "#0077be",
-        "x": 631,
-        "y": 420,
+        "x": 630,
+        "y": 340,
         "wires": [
             [
                 "dec1467a.516188",
@@ -3030,8 +3030,8 @@
         "randomLast": "5",
         "randomUnits": "seconds",
         "drop": false,
-        "x": 980,
-        "y": 820,
+        "x": 940,
+        "y": 620,
         "wires": [
             [
                 "a7364d44.56698"
@@ -3047,8 +3047,8 @@
         "qos": "0",
         "retain": "",
         "broker": "a0e631b8.d383b",
-        "x": 530,
-        "y": 740,
+        "x": 490,
+        "y": 540,
         "wires": []
     },
     {
@@ -3070,8 +3070,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1130,
-        "y": 820,
+        "x": 1090,
+        "y": 620,
         "wires": [
             [
                 "648ce0a1.8a9de"
@@ -3093,8 +3093,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 340,
-        "y": 820,
+        "x": 300,
+        "y": 620,
         "wires": [
             [
                 "bb16ff0b.197e6"
@@ -3124,8 +3124,8 @@
         "offvalueType": "bool",
         "officon": "fa-toggle-off fa-2x",
         "offcolor": "#bb86fc",
-        "x": 330,
-        "y": 740,
+        "x": 290,
+        "y": 540,
         "wires": [
             [
                 "93cd22de.a5d2c",
@@ -3555,8 +3555,8 @@
         "z": "87cb301d.9893c",
         "name": "### Nutriments controler ###",
         "info": "",
-        "x": 260,
-        "y": 700,
+        "x": 220,
+        "y": 500,
         "wires": []
     },
     {
@@ -3565,8 +3565,8 @@
         "z": "87cb301d.9893c",
         "name": "nutrimentsSolutionATimer",
         "storageNode": "217cc961.603ce6",
-        "x": 630,
-        "y": 820,
+        "x": 590,
+        "y": 620,
         "wires": [
             [
                 "cf53cc34.c3564"
@@ -3583,94 +3583,11 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 830,
-        "y": 820,
+        "x": 790,
+        "y": 620,
         "wires": [
             [
                 "5d2f5ff2.180c5"
-            ]
-        ]
-    },
-    {
-        "id": "291d0ce5.3b19f4",
-        "type": "ui_slider",
-        "z": "87cb301d.9893c",
-        "name": "Nutriments solution A pump duration slider",
-        "label": "<i class=\"fa fa-clock-o\"></i>",
-        "tooltip": "Nutriments pump duration",
-        "group": "8d4aab9b.4d6328",
-        "order": 16,
-        "width": 3,
-        "height": 1,
-        "passthru": true,
-        "outs": "all",
-        "topic": "",
-        "min": "1",
-        "max": "30",
-        "step": 1,
-        "x": 670,
-        "y": 880,
-        "wires": [
-            [
-                "bd1a41bd.42258",
-                "40ff0cbf.623994",
-                "5d69fc.7056c604"
-            ]
-        ]
-    },
-    {
-        "id": "bd1a41bd.42258",
-        "type": "ui_text",
-        "z": "87cb301d.9893c",
-        "group": "8d4aab9b.4d6328",
-        "order": 17,
-        "width": 1,
-        "height": 1,
-        "name": "Nutriments sol. A timer ",
-        "label": "",
-        "format": "{{msg.payload}} sec.",
-        "layout": "row-center",
-        "x": 980,
-        "y": 880,
-        "wires": []
-    },
-    {
-        "id": "40ff0cbf.623994",
-        "type": "function",
-        "z": "87cb301d.9893c",
-        "name": "Save global variable",
-        "func": "\nglobal.set('nutriments.solutionA.pump.duration',msg.payload);\n",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "x": 980,
-        "y": 920,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "5d69fc.7056c604",
-        "type": "persist in",
-        "z": "87cb301d.9893c",
-        "name": "nutrimentsSolutionATimer",
-        "storageNode": "217cc961.603ce6",
-        "x": 990,
-        "y": 960,
-        "wires": []
-    },
-    {
-        "id": "ba7f0c0a.aeb54",
-        "type": "persist out",
-        "z": "87cb301d.9893c",
-        "name": "nutrimentsSolutionATimer",
-        "storageNode": "217cc961.603ce6",
-        "x": 350,
-        "y": 880,
-        "wires": [
-            [
-                "291d0ce5.3b19f4"
             ]
         ]
     },
@@ -3716,8 +3633,8 @@
         "z": "87cb301d.9893c",
         "name": "waterSprayTimer",
         "storageNode": "217cc961.603ce6",
-        "x": 1111,
-        "y": 480,
+        "x": 1110,
+        "y": 400,
         "wires": [
             [
                 "77dd4f6a.f114"
@@ -3734,8 +3651,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 1311,
-        "y": 480,
+        "x": 1310,
+        "y": 400,
         "wires": [
             [
                 "b9dd843.3247178"
@@ -4305,89 +4222,6 @@
         ]
     },
     {
-        "id": "73fc20ca.0a907",
-        "type": "ui_slider",
-        "z": "87cb301d.9893c",
-        "name": "Nutriments solution B pump duration slider",
-        "label": "<i class=\"fa fa-clock-o\"></i>",
-        "tooltip": "Nutriments pump duration",
-        "group": "8d4aab9b.4d6328",
-        "order": 25,
-        "width": 3,
-        "height": 1,
-        "passthru": true,
-        "outs": "all",
-        "topic": "",
-        "min": "1",
-        "max": "30",
-        "step": 1,
-        "x": 670,
-        "y": 1140,
-        "wires": [
-            [
-                "bd340b50.cd8b48",
-                "b257e0f9.8d007",
-                "434eee99.16b66"
-            ]
-        ]
-    },
-    {
-        "id": "bd340b50.cd8b48",
-        "type": "ui_text",
-        "z": "87cb301d.9893c",
-        "group": "8d4aab9b.4d6328",
-        "order": 26,
-        "width": 1,
-        "height": 1,
-        "name": "Nutriments sol. B timer ",
-        "label": "",
-        "format": "{{msg.payload}} sec.",
-        "layout": "row-center",
-        "x": 970,
-        "y": 1140,
-        "wires": []
-    },
-    {
-        "id": "b257e0f9.8d007",
-        "type": "function",
-        "z": "87cb301d.9893c",
-        "name": "Save global variable",
-        "func": "global.set('nutriments.solutionB.pump.duration',msg.payload);\n",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "x": 960,
-        "y": 1180,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "434eee99.16b66",
-        "type": "persist in",
-        "z": "87cb301d.9893c",
-        "name": "nutrimentsSolutionBTimer",
-        "storageNode": "217cc961.603ce6",
-        "x": 970,
-        "y": 1216,
-        "wires": []
-    },
-    {
-        "id": "843f3aea.c858e8",
-        "type": "persist out",
-        "z": "87cb301d.9893c",
-        "name": "nutrimentsSolutionBTimer",
-        "storageNode": "217cc961.603ce6",
-        "x": 350,
-        "y": 1140,
-        "wires": [
-            [
-                "73fc20ca.0a907"
-            ]
-        ]
-    },
-    {
         "id": "40258950.e35d68",
         "type": "delay",
         "z": "87cb301d.9893c",
@@ -4402,8 +4236,8 @@
         "randomLast": "5",
         "randomUnits": "seconds",
         "drop": false,
-        "x": 1000,
-        "y": 1080,
+        "x": 960,
+        "y": 880,
         "wires": [
             [
                 "a5c49cb5.f3459"
@@ -4419,8 +4253,8 @@
         "qos": "0",
         "retain": "",
         "broker": "a0e631b8.d383b",
-        "x": 530,
-        "y": 1000,
+        "x": 490,
+        "y": 800,
         "wires": []
     },
     {
@@ -4442,8 +4276,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1150,
-        "y": 1080,
+        "x": 1110,
+        "y": 880,
         "wires": [
             [
                 "d977f79c.7973f8"
@@ -4465,8 +4299,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 360,
-        "y": 1080,
+        "x": 320,
+        "y": 880,
         "wires": [
             [
                 "62da8d4e.c4ff24"
@@ -4496,8 +4330,8 @@
         "offvalueType": "bool",
         "officon": "fa-toggle-off fa-2x",
         "offcolor": "#bb86fc",
-        "x": 330,
-        "y": 1000,
+        "x": 290,
+        "y": 800,
         "wires": [
             [
                 "b29a1551.343db8",
@@ -4511,8 +4345,8 @@
         "z": "87cb301d.9893c",
         "name": "nutrimentsSolutionBTimer",
         "storageNode": "217cc961.603ce6",
-        "x": 630,
-        "y": 1080,
+        "x": 590,
+        "y": 880,
         "wires": [
             [
                 "33f73a9b.f300e6"
@@ -4529,8 +4363,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 850,
-        "y": 1080,
+        "x": 810,
+        "y": 880,
         "wires": [
             [
                 "40258950.e35d68"
@@ -5848,5 +5682,187 @@
         "x": 140,
         "y": 780,
         "wires": []
+    },
+    {
+        "id": "48d7f256.20251c",
+        "type": "ui_slider",
+        "z": "9441712c.a6198",
+        "name": "Nutriments solution A pump duration slider",
+        "label": "<i class=\"fa fa-clock-o\"></i>",
+        "tooltip": "Nutriments pump duration",
+        "group": "1c4b8cb2.e1e2e3",
+        "order": 16,
+        "width": 3,
+        "height": 1,
+        "passthru": true,
+        "outs": "all",
+        "topic": "",
+        "min": "1",
+        "max": "30",
+        "step": 1,
+        "x": 450,
+        "y": 1020,
+        "wires": [
+            [
+                "af36d027.bab06",
+                "96fa6ce2.9f802",
+                "4bd2e2e4.f0b2dc"
+            ]
+        ]
+    },
+    {
+        "id": "af36d027.bab06",
+        "type": "ui_text",
+        "z": "9441712c.a6198",
+        "group": "1c4b8cb2.e1e2e3",
+        "order": 17,
+        "width": 1,
+        "height": 1,
+        "name": "Nutriments sol. A timer ",
+        "label": "",
+        "format": "{{msg.payload}} sec.",
+        "layout": "row-center",
+        "x": 760,
+        "y": 1020,
+        "wires": []
+    },
+    {
+        "id": "96fa6ce2.9f802",
+        "type": "function",
+        "z": "9441712c.a6198",
+        "name": "Save global variable",
+        "func": "\nglobal.set('nutriments.solutionA.pump.duration',msg.payload);\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 760,
+        "y": 1060,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "4bd2e2e4.f0b2dc",
+        "type": "persist in",
+        "z": "9441712c.a6198",
+        "name": "nutrimentsSolutionATimer",
+        "storageNode": "217cc961.603ce6",
+        "x": 770,
+        "y": 1100,
+        "wires": []
+    },
+    {
+        "id": "76032356.e1847c",
+        "type": "persist out",
+        "z": "9441712c.a6198",
+        "name": "nutrimentsSolutionATimer",
+        "storageNode": "217cc961.603ce6",
+        "x": 130,
+        "y": 1020,
+        "wires": [
+            [
+                "48d7f256.20251c"
+            ]
+        ]
+    },
+    {
+        "id": "7c8c85b6.c030fc",
+        "type": "ui_text",
+        "z": "9441712c.a6198",
+        "group": "1c4b8cb2.e1e2e3",
+        "order": 8,
+        "width": 0,
+        "height": 0,
+        "name": "Nutrients settings",
+        "label": "<b><i class=\"fa fa-sliders\"></i> Nutrients setting </b>",
+        "format": "",
+        "layout": "row-left",
+        "x": 110,
+        "y": 960,
+        "wires": []
+    },
+    {
+        "id": "964e551c.a86e58",
+        "type": "ui_slider",
+        "z": "9441712c.a6198",
+        "name": "Nutriments solution B pump duration slider",
+        "label": "<i class=\"fa fa-clock-o\"></i>",
+        "tooltip": "Nutriments pump duration",
+        "group": "1c4b8cb2.e1e2e3",
+        "order": 25,
+        "width": 3,
+        "height": 1,
+        "passthru": true,
+        "outs": "all",
+        "topic": "",
+        "min": "1",
+        "max": "30",
+        "step": 1,
+        "x": 450,
+        "y": 1180,
+        "wires": [
+            [
+                "214657c1.8f5c38",
+                "f7bbc881.6f67d8",
+                "4bb6cd3b.4abba4"
+            ]
+        ]
+    },
+    {
+        "id": "214657c1.8f5c38",
+        "type": "ui_text",
+        "z": "9441712c.a6198",
+        "group": "1c4b8cb2.e1e2e3",
+        "order": 26,
+        "width": 1,
+        "height": 1,
+        "name": "Nutriments sol. B timer ",
+        "label": "",
+        "format": "{{msg.payload}} sec.",
+        "layout": "row-center",
+        "x": 750,
+        "y": 1180,
+        "wires": []
+    },
+    {
+        "id": "f7bbc881.6f67d8",
+        "type": "function",
+        "z": "9441712c.a6198",
+        "name": "Save global variable",
+        "func": "global.set('nutriments.solutionB.pump.duration',msg.payload);\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 740,
+        "y": 1220,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "4bb6cd3b.4abba4",
+        "type": "persist in",
+        "z": "9441712c.a6198",
+        "name": "nutrimentsSolutionBTimer",
+        "storageNode": "217cc961.603ce6",
+        "x": 750,
+        "y": 1256,
+        "wires": []
+    },
+    {
+        "id": "3aba810e.34fabe",
+        "type": "persist out",
+        "z": "9441712c.a6198",
+        "name": "nutrimentsSolutionBTimer",
+        "storageNode": "217cc961.603ce6",
+        "x": 130,
+        "y": 1180,
+        "wires": [
+            [
+                "964e551c.a86e58"
+            ]
+        ]
     }
 ]
