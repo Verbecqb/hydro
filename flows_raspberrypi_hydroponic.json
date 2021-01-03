@@ -601,150 +601,6 @@
         "collapse": false
     },
     {
-        "id": "4c58b506.f7068c",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "1c4b8cb2.e1e2e3",
-        "order": 2,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "7d94deb5.dddfb",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "1c4b8cb2.e1e2e3",
-        "order": 4,
-        "width": 2,
-        "height": 1
-    },
-    {
-        "id": "c2846fe6.cdb4e",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "1c4b8cb2.e1e2e3",
-        "order": 5,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "25737f35.a1b03",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "1c4b8cb2.e1e2e3",
-        "order": 7,
-        "width": 2,
-        "height": 1
-    },
-    {
-        "id": "6a4d86c7.377f58",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "1c4b8cb2.e1e2e3",
-        "order": 9,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "fcd4807c.f4ec7",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "1c4b8cb2.e1e2e3",
-        "order": 11,
-        "width": 2,
-        "height": 1
-    },
-    {
-        "id": "498d29be.df3bb8",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "1c4b8cb2.e1e2e3",
-        "order": 12,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "1dad4d52.cbcf03",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "1c4b8cb2.e1e2e3",
-        "order": 14,
-        "width": 2,
-        "height": 1
-    },
-    {
-        "id": "c1eb832b.d5b02",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "1c4b8cb2.e1e2e3",
-        "order": 16,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "f8bf9a8.8b27968",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "1c4b8cb2.e1e2e3",
-        "order": 19,
-        "width": 2,
-        "height": 1
-    },
-    {
-        "id": "7922596f.0b6748",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "1c4b8cb2.e1e2e3",
-        "order": 21,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "dd346d57.5eb93",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "1c4b8cb2.e1e2e3",
-        "order": 24,
-        "width": 2,
-        "height": 1
-    },
-    {
-        "id": "c94858da.f33558",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "1c4b8cb2.e1e2e3",
-        "order": 25,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "6594dce4.6c31e4",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "1c4b8cb2.e1e2e3",
-        "order": 28,
-        "width": 2,
-        "height": 1
-    },
-    {
-        "id": "575707f7.c05468",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "1c4b8cb2.e1e2e3",
-        "order": 30,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "e2e8c7a.cc6da38",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "1c4b8cb2.e1e2e3",
-        "order": 32,
-        "width": 2,
-        "height": 1
-    },
-    {
         "id": "253223a9.86fe4c",
         "type": "ui_spacer",
         "name": "spacer",
@@ -1146,6 +1002,150 @@
         "name": "spacer",
         "group": "6c15eb0d.8f5814",
         "order": 17,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "f820824d.7b1d5",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "1c4b8cb2.e1e2e3",
+        "order": 2,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "92233bf2.f08e28",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "1c4b8cb2.e1e2e3",
+        "order": 4,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "e1648b16.ecaa88",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "1c4b8cb2.e1e2e3",
+        "order": 5,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "1aa3d8d4.adff77",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "1c4b8cb2.e1e2e3",
+        "order": 7,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "71fa0b15.085054",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "1c4b8cb2.e1e2e3",
+        "order": 9,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "4a468e42.f489d",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "1c4b8cb2.e1e2e3",
+        "order": 11,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "415c22f6.8018ac",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "1c4b8cb2.e1e2e3",
+        "order": 12,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "c3937591.5025f8",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "1c4b8cb2.e1e2e3",
+        "order": 14,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "dffa52ba.8a8ec",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "1c4b8cb2.e1e2e3",
+        "order": 16,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "b8bc3149.f1749",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "1c4b8cb2.e1e2e3",
+        "order": 19,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "e079150e.9e11c8",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "1c4b8cb2.e1e2e3",
+        "order": 21,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "27dbb0ff.15961",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "1c4b8cb2.e1e2e3",
+        "order": 24,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "f0f0792.4c74688",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "1c4b8cb2.e1e2e3",
+        "order": 25,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "a1527b13.6c5da8",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "1c4b8cb2.e1e2e3",
+        "order": 28,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "99f1dc6f.bffdf",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "1c4b8cb2.e1e2e3",
+        "order": 30,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "fa02ad85.482a6",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "1c4b8cb2.e1e2e3",
+        "order": 32,
         "width": 2,
         "height": 1
     },
@@ -5315,7 +5315,7 @@
         "label": "<i class=\"fa fa-angle-up\"></i> Max. PH",
         "tooltip": "Maximum PH threshold to trigger event",
         "group": "1c4b8cb2.e1e2e3",
-        "order": 13,
+        "order": 10,
         "width": 5,
         "height": 1,
         "wrap": false,
@@ -5343,7 +5343,7 @@
         "label": "<i class=\"fa fa-angle-up\"></i> Min. PH",
         "tooltip": "Minimum PH threshold to trigger event",
         "group": "1c4b8cb2.e1e2e3",
-        "order": 10,
+        "order": 13,
         "width": 5,
         "height": 1,
         "wrap": false,
@@ -5368,10 +5368,10 @@
         "type": "ui_numeric",
         "z": "9441712c.a6198",
         "name": "Min. PPM numeric input",
-        "label": "<i class=\"fa fa-angle-down\"></i> Min. PPM",
+        "label": "<i class=\"fa fa-angle-double-up\"></i> Min. PPM",
         "tooltip": "Min PPM threshold to trigger event",
         "group": "1c4b8cb2.e1e2e3",
-        "order": 3,
+        "order": 6,
         "width": 5,
         "height": 1,
         "wrap": false,
@@ -5396,10 +5396,10 @@
         "type": "ui_numeric",
         "z": "9441712c.a6198",
         "name": "Max. PPM numeric input",
-        "label": "<i class=\"fa fa-angle-up\"></i> Max. PPM",
+        "label": "<i class=\"fa fa-angle-double-down\"></i> Max. PPM",
         "tooltip": "Max PPM threshold to trigger event",
         "group": "1c4b8cb2.e1e2e3",
-        "order": 6,
+        "order": 3,
         "width": 5,
         "height": 1,
         "wrap": false,
