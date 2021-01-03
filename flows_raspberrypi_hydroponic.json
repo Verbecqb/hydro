@@ -5816,7 +5816,7 @@
         "id": "796e0ff3.d3f81",
         "type": "ui_template",
         "z": "87cb301d.9893c",
-        "group": "1c37dc0b.ce28e4",
+        "group": "fc40ab90.fee1e8",
         "name": "",
         "order": 9,
         "width": 0,
@@ -5825,7 +5825,7 @@
         "storeOutMessages": true,
         "fwdInMessages": true,
         "resendOnRefresh": true,
-        "templateScope": "global",
+        "templateScope": "local",
         "x": 300,
         "y": 400,
         "wires": [
