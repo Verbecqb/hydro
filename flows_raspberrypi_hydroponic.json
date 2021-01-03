@@ -5768,7 +5768,7 @@
         "width": 0,
         "height": 0,
         "name": "Nutrients settings",
-        "label": "<b><i class=\"fa fa-sliders\"></i> Nutrients </b>",
+        "label": "<b><i class=\"fa fa-sliders\"></i> Nutrients pumps</b>",
         "format": "",
         "layout": "row-left",
         "x": 110,
