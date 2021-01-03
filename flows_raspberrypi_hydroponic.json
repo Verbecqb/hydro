@@ -5788,45 +5788,5 @@
         "wires": [
             []
         ]
-    },
-    {
-        "id": "34a4d7e7.30ab78",
-        "type": "ui_template",
-        "z": "9441712c.a6198",
-        "group": "fc40ab90.fee1e8",
-        "name": "",
-        "order": 9,
-        "width": 0,
-        "height": 0,
-        "format": "<style>\n.btn {\n  background-color: #3f51b5; /* Blue background */\n  border: none; /* Remove borders */\n  color: white; /* White text */\n  padding: 12px 16px; /* Some padding */\n  font-size: 16px; /* Set a font size */\n  cursor: pointer; /* Mouse pointer on hover */\n}\n\n/* Darker background on mouse-over */\n.btn:hover {\n  background-color: #3f51b5;\n}\n</style>",
-        "storeOutMessages": true,
-        "fwdInMessages": true,
-        "resendOnRefresh": true,
-        "templateScope": "local",
-        "x": 350,
-        "y": 40,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "92412591.bac388",
-        "type": "ui_template",
-        "z": "9441712c.a6198",
-        "group": "1c37dc0b.ce28e4",
-        "name": "",
-        "order": 9,
-        "width": 0,
-        "height": 0,
-        "format": "<style>\n.btn {\n  background-color: #3f51b5; /* Blue background */\n  border: none; /* Remove borders */\n  color: white; /* White text */\n  padding: 12px 16px; /* Some padding */\n  font-size: 16px; /* Set a font size */\n  cursor: pointer; /* Mouse pointer on hover */\n}\n\n/* Darker background on mouse-over */\n.btn:hover {\n  background-color: #3f51b5;\n}\n</style>",
-        "storeOutMessages": true,
-        "fwdInMessages": true,
-        "resendOnRefresh": true,
-        "templateScope": "local",
-        "x": 500,
-        "y": 40,
-        "wires": [
-            []
-        ]
     }
 ]
