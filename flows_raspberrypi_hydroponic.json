@@ -23,7 +23,7 @@
     {
         "id": "9441712c.a6198",
         "type": "tab",
-        "label": "UI header",
+        "label": "Settings",
         "disabled": false,
         "info": ""
     },
@@ -1111,6 +1111,16 @@
         "order": 4,
         "disabled": false,
         "hidden": false
+    },
+    {
+        "id": "1c4b8cb2.e1e2e3",
+        "type": "ui_group",
+        "name": "Hydroponic",
+        "tab": "8073017c.fb41a",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false
     },
     {
         "id": "e30bc267.9a60e",
@@ -3493,38 +3503,6 @@
         ]
     },
     {
-        "id": "af84a357.025ea",
-        "type": "function",
-        "z": "87cb301d.9893c",
-        "name": "Save global variable",
-        "func": "\nglobal.set('minPPM',msg.payload);\n",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "x": 780,
-        "y": 1360,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "b5da2f47.50eca",
-        "type": "function",
-        "z": "87cb301d.9893c",
-        "name": "Save global variable",
-        "func": "\nglobal.set('maxPPM',msg.payload);\n",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "x": 780,
-        "y": 1440,
-        "wires": [
-            []
-        ]
-    },
-    {
         "id": "23810c02.07fa14",
         "type": "inject",
         "z": "5127740.f28848c",
@@ -3550,54 +3528,6 @@
         "wires": [
             [
                 "6b31749d.19ee4c"
-            ]
-        ]
-    },
-    {
-        "id": "f4e8ce43.86774",
-        "type": "persist in",
-        "z": "87cb301d.9893c",
-        "name": "minPPMValue",
-        "storageNode": "217cc961.603ce6",
-        "x": 760,
-        "y": 1400,
-        "wires": []
-    },
-    {
-        "id": "d1ca6b99.9ac888",
-        "type": "persist out",
-        "z": "87cb301d.9893c",
-        "name": "minPPMValue",
-        "storageNode": "217cc961.603ce6",
-        "x": 320,
-        "y": 1380,
-        "wires": [
-            [
-                "922b6e0c.0136b"
-            ]
-        ]
-    },
-    {
-        "id": "ceb34ebd.f74e8",
-        "type": "persist in",
-        "z": "87cb301d.9893c",
-        "name": "maxPPMValue",
-        "storageNode": "217cc961.603ce6",
-        "x": 760,
-        "y": 1480,
-        "wires": []
-    },
-    {
-        "id": "1e9754d8.8de89b",
-        "type": "persist out",
-        "z": "87cb301d.9893c",
-        "name": "maxPPMValue",
-        "storageNode": "217cc961.603ce6",
-        "x": 320,
-        "y": 1460,
-        "wires": [
-            [
-                "15032b3a.468c35"
             ]
         ]
     },
@@ -3723,86 +3653,6 @@
         "wires": [
             [
                 "291d0ce5.3b19f4"
-            ]
-        ]
-    },
-    {
-        "id": "c641ed65.f5f57",
-        "type": "function",
-        "z": "87cb301d.9893c",
-        "name": "Save global variable",
-        "func": "\nglobal.set('minPH',msg.payload);\n",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "x": 760,
-        "y": 1620,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "1472213f.e9cedf",
-        "type": "function",
-        "z": "87cb301d.9893c",
-        "name": "Save global variable",
-        "func": "\nglobal.set('maxPH',msg.payload);\n",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "x": 760,
-        "y": 1700,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "a7f8bb1.8dde548",
-        "type": "persist in",
-        "z": "87cb301d.9893c",
-        "name": "minPHValue",
-        "storageNode": "217cc961.603ce6",
-        "x": 730,
-        "y": 1660,
-        "wires": []
-    },
-    {
-        "id": "1f233803.3e17d8",
-        "type": "persist out",
-        "z": "87cb301d.9893c",
-        "name": "minPHValue",
-        "storageNode": "217cc961.603ce6",
-        "x": 310,
-        "y": 1640,
-        "wires": [
-            [
-                "1029f170.eee8cf"
-            ]
-        ]
-    },
-    {
-        "id": "cd446bb0.6460e8",
-        "type": "persist in",
-        "z": "87cb301d.9893c",
-        "name": "maxPHValue",
-        "storageNode": "217cc961.603ce6",
-        "x": 730,
-        "y": 1740,
-        "wires": []
-    },
-    {
-        "id": "f5a4944f.91b958",
-        "type": "persist out",
-        "z": "87cb301d.9893c",
-        "name": "maxPHValue",
-        "storageNode": "217cc961.603ce6",
-        "x": 310,
-        "y": 1720,
-        "wires": [
-            [
-                "bf375008.d7639"
             ]
         ]
     },
@@ -4913,16 +4763,6 @@
         ]
     },
     {
-        "id": "e3132367.7e01e",
-        "type": "comment",
-        "z": "87cb301d.9893c",
-        "name": "### System variable configuration",
-        "info": "",
-        "x": 300,
-        "y": 1300,
-        "wires": []
-    },
-    {
         "id": "610e2b65.b070d4",
         "type": "ui_template",
         "z": "1d22c714.e50369",
@@ -5169,24 +5009,13 @@
         "wires": []
     },
     {
-        "id": "45c5f9a0.355c58",
-        "type": "link out",
-        "z": "87cb301d.9893c",
-        "name": "Min PPM value updated",
-        "links": [
-            "80ecf0e1.ea61b"
-        ],
-        "x": 675,
-        "y": 1320,
-        "wires": []
-    },
-    {
         "id": "80ecf0e1.ea61b",
         "type": "link in",
         "z": "1d22c714.e50369",
         "name": "",
         "links": [
-            "45c5f9a0.355c58"
+            "45c5f9a0.355c58",
+            "1b0ae6f9.985959"
         ],
         "x": 235,
         "y": 2606,
@@ -5328,7 +5157,8 @@
         "z": "1d22c714.e50369",
         "name": "Push new min and max PH",
         "links": [
-            "4bc5ba0b.116334"
+            "4bc5ba0b.116334",
+            "f334d767.83e348"
         ],
         "x": 665,
         "y": 1046,
@@ -5337,18 +5167,6 @@
                 "ea0e311d.857dc"
             ]
         ]
-    },
-    {
-        "id": "4bc5ba0b.116334",
-        "type": "link out",
-        "z": "87cb301d.9893c",
-        "name": "",
-        "links": [
-            "d8805062.990f5"
-        ],
-        "x": 615,
-        "y": 1680,
-        "wires": []
     },
     {
         "id": "d7d0c829.e9cc28",
@@ -5369,117 +5187,6 @@
         ]
     },
     {
-        "id": "bf375008.d7639",
-        "type": "ui_numeric",
-        "z": "87cb301d.9893c",
-        "name": "",
-        "label": "Max. PH",
-        "tooltip": "Maximum PH threshold to trigger event",
-        "group": "65d119b5.66cb78",
-        "order": 11,
-        "width": 3,
-        "height": 1,
-        "wrap": false,
-        "passthru": true,
-        "topic": "PH max value numeric input",
-        "format": "{{value}}",
-        "min": 0,
-        "max": "14",
-        "step": "0.1",
-        "x": 500,
-        "y": 1720,
-        "wires": [
-            [
-                "4bc5ba0b.116334",
-                "1472213f.e9cedf",
-                "cd446bb0.6460e8"
-            ]
-        ]
-    },
-    {
-        "id": "1029f170.eee8cf",
-        "type": "ui_numeric",
-        "z": "87cb301d.9893c",
-        "name": "",
-        "label": "Min. PH",
-        "tooltip": "Minimum PH threshold to trigger event",
-        "group": "65d119b5.66cb78",
-        "order": 10,
-        "width": 3,
-        "height": 1,
-        "wrap": false,
-        "passthru": true,
-        "topic": "Min. PH value",
-        "format": "{{value}}",
-        "min": 0,
-        "max": "14",
-        "step": "0.1",
-        "x": 500,
-        "y": 1640,
-        "wires": [
-            [
-                "c641ed65.f5f57",
-                "a7f8bb1.8dde548",
-                "4bc5ba0b.116334"
-            ]
-        ]
-    },
-    {
-        "id": "922b6e0c.0136b",
-        "type": "ui_numeric",
-        "z": "87cb301d.9893c",
-        "name": "Min. PPM numeric input",
-        "label": "Min. PPM",
-        "tooltip": "Min PPM threshold to trigger event",
-        "group": "8d4aab9b.4d6328",
-        "order": 31,
-        "width": 3,
-        "height": 1,
-        "wrap": false,
-        "passthru": true,
-        "topic": "",
-        "format": "{{value}}",
-        "min": 0,
-        "max": "2000",
-        "step": "100",
-        "x": 530,
-        "y": 1380,
-        "wires": [
-            [
-                "af84a357.025ea",
-                "f4e8ce43.86774",
-                "45c5f9a0.355c58"
-            ]
-        ]
-    },
-    {
-        "id": "15032b3a.468c35",
-        "type": "ui_numeric",
-        "z": "87cb301d.9893c",
-        "name": "Max. PPM numeric input",
-        "label": "Max. PPM",
-        "tooltip": "Max PPM threshold to trigger event",
-        "group": "8d4aab9b.4d6328",
-        "order": 32,
-        "width": 3,
-        "height": 1,
-        "wrap": false,
-        "passthru": true,
-        "topic": "",
-        "format": "{{value}}",
-        "min": 0,
-        "max": "2000",
-        "step": "100",
-        "x": 530,
-        "y": 1460,
-        "wires": [
-            [
-                "b5da2f47.50eca",
-                "ceb34ebd.f74e8"
-            ]
-        ]
-    },
-    {
         "id": "62af3da0.9e2494",
         "type": "function",
         "z": "5127740.f28848c",
@@ -5490,7 +5197,7 @@
         "initialize": "",
         "finalize": "",
         "x": 340,
-        "y": 480,
+        "y": 540,
         "wires": [
             []
         ]
@@ -5517,7 +5224,7 @@
         "payload": "",
         "payloadType": "date",
         "x": 130,
-        "y": 480,
+        "y": 540,
         "wires": [
             [
                 "62af3da0.9e2494"
@@ -5784,5 +5491,310 @@
         "x": 470,
         "y": 20,
         "wires": []
+    },
+    {
+        "id": "1516235d.d1ebfd",
+        "type": "function",
+        "z": "9441712c.a6198",
+        "name": "Save global variable",
+        "func": "\nglobal.set('minPPM',msg.payload);\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 620,
+        "y": 100,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9b926b5.9115898",
+        "type": "function",
+        "z": "9441712c.a6198",
+        "name": "Save global variable",
+        "func": "\nglobal.set('maxPPM',msg.payload);\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 620,
+        "y": 180,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "3f752648.74e6ca",
+        "type": "persist in",
+        "z": "9441712c.a6198",
+        "name": "minPPMValue",
+        "storageNode": "217cc961.603ce6",
+        "x": 600,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "9146934f.83cb1",
+        "type": "persist out",
+        "z": "9441712c.a6198",
+        "name": "minPPMValue",
+        "storageNode": "217cc961.603ce6",
+        "x": 160,
+        "y": 120,
+        "wires": [
+            [
+                "a65a3b1b.47fc98"
+            ]
+        ]
+    },
+    {
+        "id": "b7985833.9fdba8",
+        "type": "persist in",
+        "z": "9441712c.a6198",
+        "name": "maxPPMValue",
+        "storageNode": "217cc961.603ce6",
+        "x": 600,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "a5cee59.fa0fd18",
+        "type": "persist out",
+        "z": "9441712c.a6198",
+        "name": "maxPPMValue",
+        "storageNode": "217cc961.603ce6",
+        "x": 160,
+        "y": 200,
+        "wires": [
+            [
+                "141d0c8a.d98be3"
+            ]
+        ]
+    },
+    {
+        "id": "7bcd1b8c.9818e4",
+        "type": "function",
+        "z": "9441712c.a6198",
+        "name": "Save global variable",
+        "func": "\nglobal.set('minPH',msg.payload);\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 600,
+        "y": 360,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "982fabd3.e49df8",
+        "type": "function",
+        "z": "9441712c.a6198",
+        "name": "Save global variable",
+        "func": "\nglobal.set('maxPH',msg.payload);\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 600,
+        "y": 440,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "71390326.464c4c",
+        "type": "persist in",
+        "z": "9441712c.a6198",
+        "name": "minPHValue",
+        "storageNode": "217cc961.603ce6",
+        "x": 570,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "e8398002.767f4",
+        "type": "persist out",
+        "z": "9441712c.a6198",
+        "name": "minPHValue",
+        "storageNode": "217cc961.603ce6",
+        "x": 150,
+        "y": 380,
+        "wires": [
+            [
+                "f6b1cbb0.3cd9e8"
+            ]
+        ]
+    },
+    {
+        "id": "80f40634.689f48",
+        "type": "persist in",
+        "z": "9441712c.a6198",
+        "name": "maxPHValue",
+        "storageNode": "217cc961.603ce6",
+        "x": 570,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "3cd6faa8.f9bab6",
+        "type": "persist out",
+        "z": "9441712c.a6198",
+        "name": "maxPHValue",
+        "storageNode": "217cc961.603ce6",
+        "x": 150,
+        "y": 460,
+        "wires": [
+            [
+                "dd9cce6b.677ad"
+            ]
+        ]
+    },
+    {
+        "id": "5b859dcf.f2f8f4",
+        "type": "comment",
+        "z": "9441712c.a6198",
+        "name": "### System variable configuration",
+        "info": "",
+        "x": 140,
+        "y": 40,
+        "wires": []
+    },
+    {
+        "id": "1b0ae6f9.985959",
+        "type": "link out",
+        "z": "9441712c.a6198",
+        "name": "Min PPM value updated",
+        "links": [
+            "80ecf0e1.ea61b"
+        ],
+        "x": 515,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "f334d767.83e348",
+        "type": "link out",
+        "z": "9441712c.a6198",
+        "name": "",
+        "links": [
+            "d8805062.990f5"
+        ],
+        "x": 455,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "dd9cce6b.677ad",
+        "type": "ui_numeric",
+        "z": "9441712c.a6198",
+        "name": "",
+        "label": "Max. PH",
+        "tooltip": "Maximum PH threshold to trigger event",
+        "group": "1c4b8cb2.e1e2e3",
+        "order": 11,
+        "width": 3,
+        "height": 1,
+        "wrap": false,
+        "passthru": true,
+        "topic": "PH max value numeric input",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "14",
+        "step": "0.1",
+        "x": 340,
+        "y": 460,
+        "wires": [
+            [
+                "f334d767.83e348",
+                "982fabd3.e49df8",
+                "80f40634.689f48"
+            ]
+        ]
+    },
+    {
+        "id": "f6b1cbb0.3cd9e8",
+        "type": "ui_numeric",
+        "z": "9441712c.a6198",
+        "name": "",
+        "label": "Min. PH",
+        "tooltip": "Minimum PH threshold to trigger event",
+        "group": "1c4b8cb2.e1e2e3",
+        "order": 10,
+        "width": 3,
+        "height": 1,
+        "wrap": false,
+        "passthru": true,
+        "topic": "Min. PH value",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "14",
+        "step": "0.1",
+        "x": 340,
+        "y": 380,
+        "wires": [
+            [
+                "7bcd1b8c.9818e4",
+                "71390326.464c4c",
+                "f334d767.83e348"
+            ]
+        ]
+    },
+    {
+        "id": "a65a3b1b.47fc98",
+        "type": "ui_numeric",
+        "z": "9441712c.a6198",
+        "name": "Min. PPM numeric input",
+        "label": "Min. PPM",
+        "tooltip": "Min PPM threshold to trigger event",
+        "group": "1c4b8cb2.e1e2e3",
+        "order": 31,
+        "width": 3,
+        "height": 1,
+        "wrap": false,
+        "passthru": true,
+        "topic": "",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "2000",
+        "step": "100",
+        "x": 370,
+        "y": 120,
+        "wires": [
+            [
+                "1516235d.d1ebfd",
+                "3f752648.74e6ca",
+                "1b0ae6f9.985959"
+            ]
+        ]
+    },
+    {
+        "id": "141d0c8a.d98be3",
+        "type": "ui_numeric",
+        "z": "9441712c.a6198",
+        "name": "Max. PPM numeric input",
+        "label": "Max. PPM",
+        "tooltip": "Max PPM threshold to trigger event",
+        "group": "1c4b8cb2.e1e2e3",
+        "order": 32,
+        "width": 3,
+        "height": 1,
+        "wrap": false,
+        "passthru": true,
+        "topic": "",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "2000",
+        "step": "100",
+        "x": 370,
+        "y": 200,
+        "wires": [
+            [
+                "9b926b5.9115898",
+                "b7985833.9fdba8"
+            ]
+        ]
     }
 ]
