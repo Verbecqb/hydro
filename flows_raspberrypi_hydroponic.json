@@ -6399,6 +6399,7 @@
         "id": "281bada.51a1b52",
         "type": "ui_template",
         "z": "5e9d2991.0ea428",
+        "d": true,
         "group": "97fc29b5.9cfb68",
         "name": "Seed tray - crops planning",
         "order": 1,
