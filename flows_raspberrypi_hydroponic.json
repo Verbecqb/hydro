@@ -761,7 +761,7 @@
         "interval": "60"
     },
     {
-        "id": "ed135d63.85c2e",
+        "id": "40ee3801.fbc3a8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "1c37dc0b.ce28e4",
@@ -770,7 +770,7 @@
         "height": 1
     },
     {
-        "id": "a17f342b.e70088",
+        "id": "45f0ecb1.43b3e4",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "1c37dc0b.ce28e4",
@@ -779,16 +779,16 @@
         "height": 1
     },
     {
-        "id": "154da8b3.2e8217",
+        "id": "63088acc.c9b134",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
         "order": 2,
-        "width": 2,
+        "width": 1,
         "height": 1
     },
     {
-        "id": "c1a84aeb.737088",
+        "id": "49e2acde.ebd0d4",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -797,16 +797,16 @@
         "height": 1
     },
     {
-        "id": "c9a46c3a.ba23d",
+        "id": "60457e95.fe564",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
-        "order": 6,
+        "order": 5,
         "width": 1,
         "height": 1
     },
     {
-        "id": "275ebe5f.7ddab2",
+        "id": "80bf1d52.b0f88",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -815,34 +815,34 @@
         "height": 1
     },
     {
-        "id": "da238e69.d8336",
+        "id": "2fed7d33.b48282",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
-        "order": 9,
+        "order": 8,
         "width": 1,
         "height": 1
     },
     {
-        "id": "425d677e.fdf618",
+        "id": "1d7cdc55.f7eb04",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
-        "order": 11,
+        "order": 10,
         "width": 1,
         "height": 1
     },
     {
-        "id": "294dc563.3d72ea",
+        "id": "15af224f.67859e",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
-        "order": 13,
+        "order": 12,
         "width": 1,
         "height": 1
     },
     {
-        "id": "f8788126.d7b4f",
+        "id": "22f8ea55.332756",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -851,16 +851,25 @@
         "height": 1
     },
     {
-        "id": "c5cf722a.2eee2",
+        "id": "43e16aea.299134",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
-        "order": 16,
+        "order": 15,
         "width": 1,
         "height": 1
     },
     {
-        "id": "615db2ba.7360fc",
+        "id": "45bd7c4a.03db54",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "8a9b009f.1b35d",
+        "order": 17,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "7966e8fe.fc93d8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "65d119b5.66cb78",
@@ -869,7 +878,7 @@
         "height": 1
     },
     {
-        "id": "28e954d.35807ac",
+        "id": "c1c8d7fa.64f198",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "65d119b5.66cb78",
@@ -878,7 +887,7 @@
         "height": 1
     },
     {
-        "id": "c9485b55.6d5238",
+        "id": "3b458108.9c7f3e",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "65d119b5.66cb78",
@@ -887,7 +896,7 @@
         "height": 1
     },
     {
-        "id": "f9c7d864.091f78",
+        "id": "2bb289a3.539196",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "65d119b5.66cb78",
@@ -896,7 +905,7 @@
         "height": 1
     },
     {
-        "id": "d411c05b.9f9a",
+        "id": "41bd24a3.528bbc",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -905,7 +914,7 @@
         "height": 1
     },
     {
-        "id": "5d5f551.04acaac",
+        "id": "f2467f30.a187c",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -914,7 +923,7 @@
         "height": 1
     },
     {
-        "id": "2ec70dfe.d7d912",
+        "id": "a35a5a21.9f5688",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -923,7 +932,7 @@
         "height": 1
     },
     {
-        "id": "5b56d6e1.2d20b8",
+        "id": "6269d467.8949cc",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -932,7 +941,7 @@
         "height": 1
     },
     {
-        "id": "38f60ed.3972ef2",
+        "id": "ed626458.b5b2c8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -941,7 +950,7 @@
         "height": 1
     },
     {
-        "id": "54ed4bc.294edb4",
+        "id": "b04d087e.ddb2e8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -950,25 +959,43 @@
         "height": 1
     },
     {
-        "id": "fed96ff0.32d81",
+        "id": "9795b195.de506",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
         "order": 13,
-        "width": 2,
+        "width": 1,
         "height": 1
     },
     {
-        "id": "bcfb528f.1c2d1",
+        "id": "1de0d875.5303c8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
-        "order": 17,
-        "width": 2,
+        "order": 15,
+        "width": 1,
         "height": 1
     },
     {
-        "id": "2a32aad0.f73a76",
+        "id": "514401b7.1116d",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "8d4aab9b.4d6328",
+        "order": 18,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "8c0b8181.d2f08",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "8d4aab9b.4d6328",
+        "order": 20,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "5268a11e.fc36b",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
@@ -977,7 +1004,7 @@
         "height": 1
     },
     {
-        "id": "e686c8e0.b870d8",
+        "id": "835104ba.e144f8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
@@ -986,7 +1013,7 @@
         "height": 1
     },
     {
-        "id": "a8d684c9.1c2aa8",
+        "id": "436c2f25.68584",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
@@ -995,7 +1022,7 @@
         "height": 1
     },
     {
-        "id": "797cca6e.dfc5b4",
+        "id": "72600365.4831dc",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
@@ -1004,7 +1031,7 @@
         "height": 1
     },
     {
-        "id": "1442858c.bd053a",
+        "id": "5c3528db.1602d8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
@@ -1013,16 +1040,16 @@
         "height": 1
     },
     {
-        "id": "2fd3f486.ab47fc",
+        "id": "f35eadba.23c3c",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
-        "order": 10,
+        "order": 12,
         "width": 1,
         "height": 1
     },
     {
-        "id": "b24f4f14.09f86",
+        "id": "b7c93031.8dfc8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
@@ -1031,7 +1058,7 @@
         "height": 1
     },
     {
-        "id": "55636f92.a9d25",
+        "id": "ee7e9155.e3dee",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
@@ -1040,7 +1067,7 @@
         "height": 1
     },
     {
-        "id": "252d4784.dcfbb8",
+        "id": "270bb2fe.51733e",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
@@ -1049,7 +1076,7 @@
         "height": 1
     },
     {
-        "id": "523bb845.991538",
+        "id": "f2a2e677.bc9fe8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
@@ -1058,7 +1085,7 @@
         "height": 1
     },
     {
-        "id": "415f186d.525948",
+        "id": "d55c6402.155858",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
@@ -1067,7 +1094,7 @@
         "height": 1
     },
     {
-        "id": "398c9c56.96df14",
+        "id": "b53c0925.cff528",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "6c15eb0d.8f5814",
@@ -1076,7 +1103,7 @@
         "height": 1
     },
     {
-        "id": "bb755587.926658",
+        "id": "3216d0a5.bb046",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "6c15eb0d.8f5814",
@@ -1085,7 +1112,7 @@
         "height": 1
     },
     {
-        "id": "8956da17.d54e48",
+        "id": "17385321.0e5a1d",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "6c15eb0d.8f5814",
@@ -1094,7 +1121,7 @@
         "height": 1
     },
     {
-        "id": "14161a4d.5703b6",
+        "id": "77a1a45.a19c85c",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "6c15eb0d.8f5814",
@@ -1103,7 +1130,7 @@
         "height": 1
     },
     {
-        "id": "b44b6c52.6379e",
+        "id": "ad54917a.804be",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "6c15eb0d.8f5814",
@@ -1112,7 +1139,7 @@
         "height": 1
     },
     {
-        "id": "f5e0e2ab.85a88",
+        "id": "5d5d17ef.8a36b8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "6c15eb0d.8f5814",
@@ -1121,7 +1148,7 @@
         "height": 1
     },
     {
-        "id": "56e1102f.3e9b6",
+        "id": "c8132470.6da2b8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "6c15eb0d.8f5814",
@@ -2379,7 +2406,7 @@
         "type": "ui_artlessgauge",
         "z": "1d22c714.e50369",
         "group": "8a9b009f.1b35d",
-        "order": 15,
+        "order": 16,
         "width": 6,
         "height": 1,
         "name": "Water temperature",
@@ -2483,7 +2510,7 @@
         "type": "ui_artlessgauge",
         "z": "1d22c714.e50369",
         "group": "8a9b009f.1b35d",
-        "order": 5,
+        "order": 6,
         "width": 6,
         "height": 1,
         "name": "Room temperature DHT11",
@@ -2544,7 +2571,7 @@
         "type": "ui_artlessgauge",
         "z": "1d22c714.e50369",
         "group": "8a9b009f.1b35d",
-        "order": 8,
+        "order": 9,
         "width": 6,
         "height": 1,
         "name": "Room Humidity DHT11",
@@ -2664,7 +2691,7 @@
         "label": "LED  ",
         "tooltip": "Led",
         "group": "45199dde.854f64",
-        "order": 11,
+        "order": 10,
         "width": 2,
         "height": 1,
         "passthru": true,
@@ -2847,7 +2874,7 @@
         "type": "ui_text",
         "z": "1d22c714.e50369",
         "group": "8a9b009f.1b35d",
-        "order": 12,
+        "order": 13,
         "width": 3,
         "height": 1,
         "name": "Last refresh - water temp",
@@ -4149,7 +4176,7 @@
         "type": "ui_text",
         "z": "1d22c714.e50369",
         "group": "8a9b009f.1b35d",
-        "order": 10,
+        "order": 11,
         "width": 3,
         "height": 1,
         "name": "Seed tray label",
@@ -4304,7 +4331,7 @@
         "label": "Sol. B",
         "tooltip": "",
         "group": "8d4aab9b.4d6328",
-        "order": 15,
+        "order": 16,
         "width": 3,
         "height": 1,
         "passthru": true,
@@ -4382,7 +4409,7 @@
         "type": "ui_text",
         "z": "1d22c714.e50369",
         "group": "8d4aab9b.4d6328",
-        "order": 16,
+        "order": 17,
         "width": 1,
         "height": 1,
         "name": "Nutriments B pump on/off state",
@@ -4607,7 +4634,7 @@
         "type": "ui_artlessgauge",
         "z": "1d22c714.e50369",
         "group": "8d4aab9b.4d6328",
-        "order": 18,
+        "order": 19,
         "width": 2,
         "height": 1,
         "name": "Solution B - remaining days gauge",
@@ -4696,7 +4723,7 @@
         "type": "ui_text",
         "z": "87cb301d.9893c",
         "group": "45199dde.854f64",
-        "order": 12,
+        "order": 11,
         "width": 1,
         "height": 1,
         "name": "LED on/off state",
@@ -5847,7 +5874,7 @@
         "order": 1,
         "width": 10,
         "height": 12,
-        "format": "\n  <svg width=\"100%\" height=\"100%\" \"id=\"meter\">\n\n    <g ng-repeat=\"(key, value) in seedTray\">\n      \n      <rect x=\"{{value.xpos}}\" \n           y=\"{{value.ypos}}\"\n           width=\"{{value.width}}\" height=\"{{value.height}}\" style=\"fill:{{value.hexColor}}\" rx=\"10\" />\n\n      <image href=\"{{value.icon}}\" x=\"{{value.xpos+value.width/4}}\" y=\"{{value.ypos+value.height/4}}\" \n      width=\"{{value.width/2}}\" height=\"{{value.height/2}}\" />\n\n       \n    </g>\n    \n    <g ng-repeat=\"(key, value) in rowsDisplay\">\n       \n       <text x=\"{{value.xpos}}\" y=\"{{value.ypos}}\" dominant-baseline=\"central\" text-anchor=\"middle\"\n            font-size=\"14\" stroke-width=\"0\" stroke=\"#000\"\n            fill=\"#f9fcfb\" font-family=\"Montserrat\" font-weight=\"bold\">{{value.title}}</text>\n    </g>\n    \n    <g ng-repeat=\"(key, value) in columnsDisplay\">\n       \n       <text x=\"{{value.xpos}}\" y=\"{{value.ypos}}\" dominant-baseline=\"central\" text-anchor=\"middle\"\n            font-size=\"14\" stroke-width=\"0\" stroke=\"#000\"\n            fill=\"#f9fcfb\" font-family=\"Montserrat\" font-weight=\"bold\">{{value.title}}</text>\n    </g>\n    \n\n  </svg>\n  \n    <md-list flex>\n        <md-subheader class=\"md-no-sticky\">Todays action</md-subheader>\n        <md-list-item ng-repeat=\"item in seedTray | filter: {'nextAction': '!!'}\" layout=\"row\">\n            <img src=\"{{item.iconAction}}\" class=\"md-avatar\">\n            <h4>{{item.nextAction}}</h4>\n            <p>Plant a {{item.type}} on column {{item.column}} , row {{item.row}}</p>\n            <md-icon ng-click=\"doSecondaryAction(item)\" ng-class=\"{'fa': true, 'fa-clock-o': true}\"></md-icon>\n            <md-menu class=\"md-secondary\">\n              <md-button class=\"md-icon-button\">\n                <md-icon md-svg-icon=\"communication:message\"></md-icon>\n              </md-button>\n              <md-menu-content width=\"4\">\n                <md-menu-item>\n                  <md-button>\n                    Delay to tomorrow\n                  </md-button>\n                </md-menu-item>\n                <md-menu-item>\n                  <md-button>\n                    Change to persley\n                  </md-button>\n                </md-menu-item>\n                <md-menu-divider></md-menu-divider>\n                <md-menu-item>\n                  <md-button>\n                    Notifications\n                  </md-button>\n                </md-menu-item>\n              </md-menu-content>\n            </md-menu>\n        </md-list-item>\n    </md-list>\n    <md-divider></md-divider>\n\n\n<script>\n    \n(function(scope) {\n    \n    scope.rowsDisplay = []; \n    scope.columnsDisplay = []; \n    \n    \n    // $watch fires each time the node is triggered in the flow\n    scope.$watch('msg', function(msg) {\n        \n        scope.seedTray = msg.seedTray;\n        \n        var boxWidth = 40, boxHeight = 40;\n        var leftPadding = 25;\n        var boxSpacing = 5;\n        var topPadding = 5;\n        \n        var numberofRows = 2;\n        var numberofColumns = 3; \n        \n        \n        angular.forEach(scope.seedTray, function (value, key) {\n            console.log(value[\"column\"] + \" - value \" + (value[\"column\"].toLowerCase().charCodeAt(0) - 96));\n            value[\"xpos\"] = (value[\"column\"].toLowerCase().charCodeAt(0) - 96) * boxHeight + (value[\"column\"].toLowerCase().charCodeAt(0) - 96) * boxSpacing + leftPadding;\n            value[\"ypos\"] = value[\"row\"] * boxWidth + value[\"row\"] * boxSpacing + topPadding;\n            value[\"width\"] = boxWidth; \n            value[\"height\"]= boxHeight; \n            \n            //TODO move the logic to fct node\n            if (value[\"category\"] === \"empty\") {\n                value[\"hexColor\"]= \"grey\";\n                value[\"icon\"] = \"\";\n            } else if (Date.parse(value[\"germinationDate\"] + \" 00:00:00 GMT\") <= new Date().getTime()) {\n                value[\"hexColor\"]= \"green\";\n                value[\"icon\"] = \"http://10.0.0.10:1880/germinating-state.png\";\n            } else {\n                 value[\"hexColor\"]= \"green\";\n                 value[\"icon\"] = \"http://10.0.0.10:1880/seed_state.png\";\n             } \n            \n        });\n        \n        console.log(scope.seedTray);\n        \n        scope.rowsDisplay = []; \n        for ( i = 0 ; i < numberofRows ; i++) {\n            var feed = {\n                \"title\": i+1,\n                \"xpos\": leftPadding/0.65,\n                \"ypos\": topPadding + (i+1) * boxHeight + (i+1) * boxSpacing + boxHeight/2\n            }\n            scope.rowsDisplay.push(feed);\n        }\n        \n        scope.columnsDisplay = []; \n        for ( i = 0 ; i < numberofColumns ; i++) {\n            var feed = {\n                \"title\": String.fromCharCode(97 + i).toUpperCase(),\n                \"xpos\": leftPadding + (i+1) * boxWidth + (i+1) * boxSpacing + boxWidth/2,\n                \"ypos\": topPadding/0.2\n            }\n            scope.columnsDisplay.push(feed);\n        }\n        \n        scope.doSecondaryAction = function(item) {\n            \n            if (item.nextAction === \"transplant\") {\n                var index =  scope.seedTray.indexOf(item);\n                scope.seedTray.splice(index,1);\n                var newItem = {\n                    column: item.column,\n                    row: item.row, \n                    category: \"empty\"\n                }\n                scope.seedTray.push(newItem);\n          \n                scope.send({seedTrayState: scope.seedTray});\n            } else if (item.nextAction === \"plantSeed\") {\n                var index =  scope.seedTray.indexOf(item);\n                //Copy the element\n                let copy =JSON.parse(JSON.stringify(scope.seedTray[index]));\n                // Update properties\n                copy.nextAction = undefined;\n                copy.category = \"salad\";\n                var today = new Date();\n                copy.plantDate = today.getFullYear() + \"-\" + today.getMonth()+1 + \"-\" + today.getDate();\n                // Remove \"old\" item\n                scope.seedTray.splice(index,1);\n                // Push the copy\n                scope.seedTray.push(copy);\n                scope.send({seedTrayState: scope.seedTray});\n            } \n        };\n        \n        //TODO not working. Check if an action is needed for today\n        scope.filterActionRequired = function (item) { \n            return item === 'transplant' || item === 'blue'; \n        };\n        \n        \n    });\n\n})(scope);\n\n</script>",
+        "format": "\n  <svg width=\"100%\" \"id=\"meter\">\n\n    <g ng-repeat=\"(key, value) in seedTray\">\n      \n      <rect x=\"{{value.xpos}}\" \n           y=\"{{value.ypos}}\"\n           width=\"{{value.width}}\" height=\"{{value.height}}\" style=\"fill:{{value.hexColor}}\" rx=\"10\" />\n\n      <image href=\"{{value.icon}}\" x=\"{{value.xpos+value.width/4}}\" y=\"{{value.ypos+value.height/4}}\" \n      width=\"{{value.width/2}}\" height=\"{{value.height/2}}\" />\n\n       \n    </g>\n    \n    <g ng-repeat=\"(key, value) in rowsDisplay\">\n       \n       <text x=\"{{value.xpos}}\" y=\"{{value.ypos}}\" dominant-baseline=\"central\" text-anchor=\"middle\"\n            font-size=\"14\" stroke-width=\"0\" stroke=\"#000\"\n            fill=\"#f9fcfb\" font-family=\"Montserrat\" font-weight=\"bold\">{{value.title}}</text>\n    </g>\n    \n    <g ng-repeat=\"(key, value) in columnsDisplay\">\n       \n       <text x=\"{{value.xpos}}\" y=\"{{value.ypos}}\" dominant-baseline=\"central\" text-anchor=\"middle\"\n            font-size=\"14\" stroke-width=\"0\" stroke=\"#000\"\n            fill=\"#f9fcfb\" font-family=\"Montserrat\" font-weight=\"bold\">{{value.title}}</text>\n    </g>\n    \n\n  </svg>\n  \n    <md-list flex>\n        <md-subheader class=\"md-no-sticky\">Todays action</md-subheader>\n        <md-list-item ng-repeat=\"item in seedTray | filter: {'nextAction': '!!'}\" layout=\"row\">\n            <img src=\"{{item.iconAction}}\" class=\"md-avatar\">\n            <h4>{{item.nextAction}}</h4>\n            <p>Plant a {{item.type}} on column {{item.column}} , row {{item.row}}</p>\n            <md-icon ng-click=\"doSecondaryAction(item)\" ng-class=\"{'fa': true, 'fa-clock-o': true}\"></md-icon>\n            <md-menu class=\"md-secondary\">\n              <md-button class=\"md-icon-button\">\n                <md-icon md-svg-icon=\"communication:message\"></md-icon>\n              </md-button>\n              <md-menu-content width=\"4\">\n                <md-menu-item>\n                  <md-button>\n                    Delay to tomorrow\n                  </md-button>\n                </md-menu-item>\n                <md-menu-item>\n                  <md-button>\n                    Change to persley\n                  </md-button>\n                </md-menu-item>\n                <md-menu-divider></md-menu-divider>\n                <md-menu-item>\n                  <md-button>\n                    Notifications\n                  </md-button>\n                </md-menu-item>\n              </md-menu-content>\n            </md-menu>\n        </md-list-item>\n    </md-list>\n    <md-divider></md-divider>\n\n\n<script>\n    \n(function(scope) {\n    \n    scope.rowsDisplay = []; \n    scope.columnsDisplay = []; \n    \n    \n    // $watch fires each time the node is triggered in the flow\n    scope.$watch('msg', function(msg) {\n        \n        scope.seedTray = msg.seedTray;\n        \n        var boxWidth = 40, boxHeight = 40;\n        var leftPadding = 25;\n        var boxSpacing = 5;\n        var topPadding = 5;\n        \n        var numberofRows = 2;\n        var numberofColumns = 3; \n        \n        \n        angular.forEach(scope.seedTray, function (value, key) {\n            console.log(value[\"column\"] + \" - value \" + (value[\"column\"].toLowerCase().charCodeAt(0) - 96));\n            value[\"xpos\"] = (value[\"column\"].toLowerCase().charCodeAt(0) - 96) * boxHeight + (value[\"column\"].toLowerCase().charCodeAt(0) - 96) * boxSpacing + leftPadding;\n            value[\"ypos\"] = value[\"row\"] * boxWidth + value[\"row\"] * boxSpacing + topPadding;\n            value[\"width\"] = boxWidth; \n            value[\"height\"]= boxHeight; \n            \n            //TODO move the logic to fct node\n            if (value[\"category\"] === \"empty\") {\n                value[\"hexColor\"]= \"grey\";\n                value[\"icon\"] = \"\";\n            } else if (Date.parse(value[\"germinationDate\"] + \" 00:00:00 GMT\") <= new Date().getTime()) {\n                value[\"hexColor\"]= \"green\";\n                value[\"icon\"] = \"http://10.0.0.10:1880/germinating-state.png\";\n            } else {\n                 value[\"hexColor\"]= \"green\";\n                 value[\"icon\"] = \"http://10.0.0.10:1880/seed_state.png\";\n             } \n            \n        });\n        \n        console.log(scope.seedTray);\n        \n        scope.rowsDisplay = []; \n        for ( i = 0 ; i < numberofRows ; i++) {\n            var feed = {\n                \"title\": i+1,\n                \"xpos\": leftPadding/0.65,\n                \"ypos\": topPadding + (i+1) * boxHeight + (i+1) * boxSpacing + boxHeight/2\n            }\n            scope.rowsDisplay.push(feed);\n        }\n        \n        scope.columnsDisplay = []; \n        for ( i = 0 ; i < numberofColumns ; i++) {\n            var feed = {\n                \"title\": String.fromCharCode(97 + i).toUpperCase(),\n                \"xpos\": leftPadding + (i+1) * boxWidth + (i+1) * boxSpacing + boxWidth/2,\n                \"ypos\": topPadding/0.2\n            }\n            scope.columnsDisplay.push(feed);\n        }\n        \n        scope.doSecondaryAction = function(item) {\n            \n            if (item.nextAction === \"transplant\") {\n                var index =  scope.seedTray.indexOf(item);\n                scope.seedTray.splice(index,1);\n                var newItem = {\n                    column: item.column,\n                    row: item.row, \n                    category: \"empty\"\n                }\n                scope.seedTray.push(newItem);\n          \n                scope.send({seedTrayState: scope.seedTray});\n            } else if (item.nextAction === \"plantSeed\") {\n                var index =  scope.seedTray.indexOf(item);\n                //Copy the element\n                let copy =JSON.parse(JSON.stringify(scope.seedTray[index]));\n                // Update properties\n                copy.nextAction = undefined;\n                copy.category = \"salad\";\n                var today = new Date();\n                copy.plantDate = today.getFullYear() + \"-\" + today.getMonth()+1 + \"-\" + today.getDate();\n                // Remove \"old\" item\n                scope.seedTray.splice(index,1);\n                // Push the copy\n                scope.seedTray.push(copy);\n                scope.send({seedTrayState: scope.seedTray});\n            } \n        };\n        \n        //TODO not working. Check if an action is needed for today\n        scope.filterActionRequired = function (item) { \n            return item === 'transplant' || item === 'blue'; \n        };\n        \n        \n    });\n\n})(scope);\n\n</script>",
         "storeOutMessages": false,
         "fwdInMessages": false,
         "resendOnRefresh": true,
