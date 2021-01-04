@@ -5894,7 +5894,7 @@
             [
                 "2cebecae.92d324",
                 "975cfcb1.b598a",
-                "3be1c11e.2736ee"
+                "8e351869.97fe88"
             ]
         ]
     },
@@ -5929,7 +5929,7 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 430,
+        "x": 450,
         "y": 1100,
         "wires": []
     },
@@ -5939,8 +5939,8 @@
         "z": "1d22c714.e50369",
         "name": "seedTrayState",
         "storageNode": "e1094939.96bd98",
-        "x": 460,
-        "y": 1200,
+        "x": 480,
+        "y": 1140,
         "wires": []
     },
     {
@@ -5949,8 +5949,8 @@
         "z": "1d22c714.e50369",
         "name": "seedTrayState",
         "storageNode": "e1094939.96bd98",
-        "x": 140,
-        "y": 1200,
+        "x": 280,
+        "y": 1280,
         "wires": [
             [
                 "7d7d9559.e1c4cc",
@@ -5971,60 +5971,9 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 240,
-        "y": 1240,
-        "wires": []
-    },
-    {
-        "id": "d89f8b4d.800e68",
-        "type": "link out",
-        "z": "1d22c714.e50369",
-        "name": "Update seed tray state",
-        "links": [
-            "440fdf5f.d536"
-        ],
-        "x": 555,
-        "y": 1140,
-        "wires": []
-    },
-    {
-        "id": "440fdf5f.d536",
-        "type": "link in",
-        "z": "1d22c714.e50369",
-        "name": "",
-        "links": [
-            "d89f8b4d.800e68"
-        ],
-        "x": 45,
+        "x": 490,
         "y": 1280,
-        "wires": [
-            [
-                "8e351869.97fe88"
-            ]
-        ]
-    },
-    {
-        "id": "3be1c11e.2736ee",
-        "type": "delay",
-        "z": "1d22c714.e50369",
-        "name": "",
-        "pauseType": "delay",
-        "timeout": "2",
-        "timeoutUnits": "seconds",
-        "rate": "1",
-        "nbRateUnits": "1",
-        "rateUnits": "second",
-        "randomFirst": "1",
-        "randomLast": "5",
-        "randomUnits": "seconds",
-        "drop": false,
-        "x": 460,
-        "y": 1140,
-        "wires": [
-            [
-                "d89f8b4d.800e68"
-            ]
-        ]
+        "wires": []
     },
     {
         "id": "3d8036b.62a1dca",
@@ -6034,7 +5983,7 @@
         "props": [
             {
                 "p": "seedTrayState",
-                "v": "[{\"column\":\"A\",\"row\":\"1\",\"category\":\"salad\",\"plantDate\":\"29/12/2020\",\"germinationDate\":\"02/01/2021\",\"harvestDate\":\"04/01/2021\",\"hexColor\":\"green\",\"icon\":\"http://10.0.0.10:1880/seed_germinating.png\"},{\"column\":\"B\",\"row\":\"1\",\"category\":\"empty\",\"nextAction\":\"plantSeed\",\"hexColor\":\"grey\"},{\"column\":\"C\",\"row\":\"1\",\"category\":\"empty\",\"nextAction\":\"plantSeed\",\"hexColor\":\"grey\",\"icon\":\"\"},{\"column\":\"A\",\"row\":\"2\",\"category\":\"salad\",\"plantDate\":\"29/12/2020\",\"germinationDate\":\"02/01/2021\",\"harvestDate\":\"04/01/2021\",\"hexColor\":\"green\",\"icon\":\"http://10.0.0.10:1880/seed_germinating.png\"},{\"column\":\"B\",\"row\":\"2\",\"category\":\"empty\",\"nextAction\":\"plantSeed\",\"xpos\":160,\"ypos\":105,\"width\":40,\"height\":40,\"hexColor\":\"grey\",\"icon\":\"\"},{\"column\":\"C\",\"row\":\"2\",\"category\":\"empty\",\"nextAction\":\"plantSeed\"}]",
+                "v": "[{\"column\":\"A\",\"row\":\"1\",\"category\":\"salad\",\"plantDate\":\"29/12/2020\",\"germinationDate\":\"03/01/2021\",\"harvestDate\":\"04/01/2021\",\"hexColor\":\"green\",\"icon\":\"http://10.0.0.10:1880/seed_germinating.png\"},{\"column\":\"B\",\"row\":\"1\",\"category\":\"empty\",\"nextAction\":\"plantSeed\",\"hexColor\":\"grey\"},{\"column\":\"C\",\"row\":\"1\",\"category\":\"empty\",\"nextAction\":\"plantSeed\",\"hexColor\":\"grey\",\"icon\":\"\"},{\"column\":\"A\",\"row\":\"2\",\"category\":\"salad\",\"plantDate\":\"29/12/2020\",\"germinationDate\":\"02/01/2021\",\"harvestDate\":\"04/01/2021\",\"hexColor\":\"green\",\"icon\":\"http://10.0.0.10:1880/seed_germinating.png\"},{\"column\":\"B\",\"row\":\"2\",\"category\":\"empty\",\"nextAction\":\"plantSeed\",\"xpos\":160,\"ypos\":105,\"width\":40,\"height\":40,\"hexColor\":\"grey\",\"icon\":\"\"},{\"column\":\"C\",\"row\":\"2\",\"category\":\"empty\",\"nextAction\":\"plantSeed\"}]",
                 "vt": "json"
             }
         ],
