@@ -5893,7 +5893,8 @@
         "wires": [
             [
                 "975cfcb1.b598a",
-                "8e351869.97fe88"
+                "8e351869.97fe88",
+                "a7d60fc.6e573f"
             ]
         ]
     },
@@ -5964,5 +5965,22 @@
                 "975cfcb1.b598a"
             ]
         ]
+    },
+    {
+        "id": "a7d60fc.6e573f",
+        "type": "debug",
+        "z": "1d22c714.e50369",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 460,
+        "y": 1100,
+        "wires": []
     }
 ]
