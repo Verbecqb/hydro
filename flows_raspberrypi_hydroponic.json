@@ -6061,8 +6061,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 720,
-        "y": 1400,
+        "x": 760,
+        "y": 1380,
         "wires": [
             []
         ]
@@ -6073,8 +6073,8 @@
         "z": "9441712c.a6198",
         "name": "crops.seedTray.size.rows",
         "storageNode": "217cc961.603ce6",
-        "x": 730,
-        "y": 1440,
+        "x": 770,
+        "y": 1420,
         "wires": []
     },
     {
@@ -6100,8 +6100,7 @@
         "wires": [
             [
                 "b2d057b9.54f7d8",
-                "85a0aee6.eaf03",
-                "debe28b0.956218"
+                "85a0aee6.eaf03"
             ]
         ]
     },
@@ -6169,7 +6168,7 @@
         "links": [
             "b7c596db.436a68"
         ],
-        "x": 735,
+        "x": 795,
         "y": 1480,
         "wires": []
     },
@@ -6196,8 +6195,7 @@
         "wires": [
             [
                 "ac1bbcb7.24b75",
-                "3bc602dc.1e7cce",
-                "debe28b0.956218"
+                "3bc602dc.1e7cce"
             ]
         ]
     },
@@ -6489,34 +6487,6 @@
         ]
     },
     {
-        "id": "debe28b0.956218",
-        "type": "join",
-        "z": "9441712c.a6198",
-        "name": "",
-        "mode": "custom",
-        "build": "merged",
-        "property": "",
-        "propertyType": "full",
-        "key": "topic",
-        "joiner": "\\n",
-        "joinerType": "str",
-        "accumulate": false,
-        "timeout": "",
-        "count": "1",
-        "reduceRight": false,
-        "reduceExp": "",
-        "reduceInit": "",
-        "reduceInitType": "num",
-        "reduceFixup": "",
-        "x": 640,
-        "y": 1480,
-        "wires": [
-            [
-                "1e405470.fb8adc"
-            ]
-        ]
-    },
-    {
         "id": "fd783597.41f558",
         "type": "comment",
         "z": "9441712c.a6198",
@@ -6525,5 +6495,31 @@
         "x": 370,
         "y": 1480,
         "wires": []
+    },
+    {
+        "id": "af3bfe47.1ea7f",
+        "type": "ui_button",
+        "z": "9441712c.a6198",
+        "name": "",
+        "group": "c3776e2a.f6068",
+        "order": 10,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Apply and refresh seed tray",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "refresh",
+        "payloadType": "str",
+        "topic": "",
+        "x": 620,
+        "y": 1480,
+        "wires": [
+            [
+                "1e405470.fb8adc"
+            ]
+        ]
     }
 ]
