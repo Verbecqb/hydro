@@ -5903,7 +5903,7 @@
         "type": "function",
         "z": "1d22c714.e50369",
         "name": "",
-        "func": "\nfor (var item in msg.seedTrayState) {\n        \n    if(msg.seedTray[item].category == \"empty\") {\n        msg.seedTray[item][\"nextAction\"] = \"plantSeed\";\n    }\n        \n    if(Date.parse(msg.seedTray[item].transplantDate) <= new Date().getTime()) {\n        msg.seedTray[item][\"nextAction\"] = \"transplant\";\n        msg.seedTray[item][\"iconAction\"] = \"http://10.0.0.10:1880/seeding.png\";\n    }\n        \n}\n    \n        \nreturn msg;",
+        "func": "\nfor (var item in msg.seedTrayState) {\n        \n    if(msg.seedTray[item].category == \"empty\") {\n        msg.seedTray[item][\"nextAction\"] = \"plantSeed\";\n    }\n        \n\n        \n}\n    \n        \nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -6036,10 +6036,6 @@
                 "p": "seedTrayState",
                 "v": "[{\"column\":\"A\",\"row\":\"1\",\"category\":\"salad\",\"plantDate\":\"29/12/2020\",\"germinationDate\":\"02/01/2021\",\"harvestDate\":\"04/01/2021\",\"hexColor\":\"green\",\"icon\":\"http://10.0.0.10:1880/seed_germinating.png\"},{\"column\":\"B\",\"row\":\"1\",\"category\":\"empty\",\"nextAction\":\"plantSeed\",\"hexColor\":\"grey\"},{\"column\":\"C\",\"row\":\"1\",\"category\":\"empty\",\"nextAction\":\"plantSeed\",\"hexColor\":\"grey\",\"icon\":\"\"},{\"column\":\"A\",\"row\":\"2\",\"category\":\"salad\",\"plantDate\":\"29/12/2020\",\"germinationDate\":\"02/01/2021\",\"harvestDate\":\"04/01/2021\",\"hexColor\":\"green\",\"icon\":\"http://10.0.0.10:1880/seed_germinating.png\"},{\"column\":\"B\",\"row\":\"2\",\"category\":\"empty\",\"nextAction\":\"plantSeed\",\"xpos\":160,\"ypos\":105,\"width\":40,\"height\":40,\"hexColor\":\"grey\",\"icon\":\"\"},{\"column\":\"C\",\"row\":\"2\",\"category\":\"empty\",\"nextAction\":\"plantSeed\"}]",
                 "vt": "json"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
             }
         ],
         "repeat": "",
@@ -6047,7 +6043,6 @@
         "once": false,
         "onceDelay": 0.1,
         "topic": "",
-        "payloadType": "str",
         "x": 130,
         "y": 1020,
         "wires": [
