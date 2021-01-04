@@ -6114,7 +6114,7 @@
         "type": "function",
         "z": "9441712c.a6198",
         "name": "Save global variable",
-        "func": "global.set('crops.seedTray.size.rows',msg.payload);",
+        "func": "global.set('crops.seedTray.size.columns',msg.payload);",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
