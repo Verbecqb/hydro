@@ -5903,7 +5903,7 @@
         "type": "function",
         "z": "1d22c714.e50369",
         "name": "",
-        "func": "msg.seedTray = msg.seedTrayState;\nfor (var item in msg.seedTray) {\n        \n    if(msg.seedTray[item].category == \"empty\") {\n        msg.seedTray[item][\"nextAction\"] = \"plantSeed\";\n    }\n    \n    if(Date.parse(msg.seedTray[item][\"transplantDate\"]) <= new Date().getTime()) {\n        msg.seedTray[item][\"nextAction\"] = \"transplant\";\n        msg.seedTray[item][\"iconAction\"] = \"http://10.0.0.10:1880/seeding.png\";\n    }\n        \n}\n    \n        \nreturn msg;",
+        "func": "msg.seedTray = msg.seedTrayState;\nfor (var item in msg.seedTray) {\n        \n    if(msg.seedTray[item].category == \"empty\") {\n        msg.seedTray[item][\"nextAction\"] = \"plantSeed\";\n    }\n    \n    if(Date.parse(msg.seedTray[item][\"transplantDate\"] + \" 00:00:00 GMT\") <= new Date().getTime()) {\n        msg.seedTray[item][\"nextAction\"] = \"transplant\";\n        msg.seedTray[item][\"iconAction\"] = \"http://10.0.0.10:1880/seeding.png\";\n    }\n        \n}\n    \n        \nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -5983,7 +5983,7 @@
         "props": [
             {
                 "p": "seedTrayState",
-                "v": "[{\"column\":\"A\",\"row\":\"1\",\"category\":\"salad\",\"plantDate\":\"29/12/2020\",\"germinationDate\":\"03/01/2021\",\"transplantDate\":\"03/01/2021\",\"harvestDate\":\"06/01/2021\",\"hexColor\":\"green\",\"icon\":\"http://10.0.0.10:1880/seed_germinating.png\"},{\"column\":\"B\",\"row\":\"1\",\"category\":\"empty\",\"nextAction\":\"plantSeed\",\"hexColor\":\"grey\"},{\"column\":\"C\",\"row\":\"1\",\"category\":\"empty\",\"nextAction\":\"plantSeed\",\"hexColor\":\"grey\",\"icon\":\"\"},{\"column\":\"A\",\"row\":\"2\",\"category\":\"salad\",\"plantDate\":\"29/12/2020\",\"germinationDate\":\"02/01/2021\",\"harvestDate\":\"04/01/2021\",\"hexColor\":\"green\",\"icon\":\"http://10.0.0.10:1880/seed_germinating.png\"},{\"column\":\"B\",\"row\":\"2\",\"category\":\"empty\",\"nextAction\":\"plantSeed\",\"xpos\":160,\"ypos\":105,\"width\":40,\"height\":40,\"hexColor\":\"grey\",\"icon\":\"\"},{\"column\":\"C\",\"row\":\"2\",\"category\":\"empty\",\"nextAction\":\"plantSeed\"}]",
+                "v": "[{\"column\":\"A\",\"row\":\"1\",\"category\":\"salad\",\"plantDate\":\"2020-12-29\",\"germinationDate\":\"2021-01-02\",\"transplantDate\":\"2021-01-04\",\"harvestDate\":\"2021-01-06\",\"hexColor\":\"green\",\"icon\":\"http://10.0.0.10:1880/seed_germinating.png\"},{\"column\":\"B\",\"row\":\"1\",\"category\":\"empty\",\"nextAction\":\"plantSeed\",\"hexColor\":\"grey\"},{\"column\":\"C\",\"row\":\"1\",\"category\":\"empty\",\"nextAction\":\"plantSeed\",\"hexColor\":\"grey\",\"icon\":\"\"},{\"column\":\"A\",\"row\":\"2\",\"category\":\"salad\",\"plantDate\":\"2020-12-29\",\"germinationDate\":\"2021-01-02\",\"harvestDate\":\"2021-01-04\",\"hexColor\":\"green\",\"icon\":\"http://10.0.0.10:1880/seed_germinating.png\"},{\"column\":\"B\",\"row\":\"2\",\"category\":\"empty\",\"nextAction\":\"plantSeed\",\"xpos\":160,\"ypos\":105,\"width\":40,\"height\":40,\"hexColor\":\"grey\",\"icon\":\"\"},{\"column\":\"C\",\"row\":\"2\",\"category\":\"empty\",\"nextAction\":\"plantSeed\"}]",
                 "vt": "json"
             }
         ],
