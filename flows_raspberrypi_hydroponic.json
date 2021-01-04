@@ -3954,8 +3954,6 @@
         "links": [
             "a3e3f133.15036",
             "304a2fa1.758d7",
-            "42722aea.c31e24",
-            "1e405470.fb8adc",
             "648d9af7.b6ea04",
             "db6792a8.788f5",
             "8a7ded76.20298"
@@ -5995,7 +5993,7 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 150,
+        "x": 160,
         "y": 1140,
         "wires": [
             [
@@ -6080,18 +6078,6 @@
         "wires": []
     },
     {
-        "id": "42722aea.c31e24",
-        "type": "link out",
-        "z": "9441712c.a6198",
-        "name": "Change total light slider",
-        "links": [
-            "3dfc5ff2.440c6"
-        ],
-        "x": 635,
-        "y": 1360,
-        "wires": []
-    },
-    {
         "id": "f4d9f92.2fa3208",
         "type": "ui_numeric",
         "z": "9441712c.a6198",
@@ -6103,8 +6089,8 @@
         "width": 7,
         "height": 1,
         "wrap": false,
-        "passthru": true,
-        "topic": "",
+        "passthru": false,
+        "topic": "seedTrayNumberOfRows",
         "format": "{{value}}",
         "min": 0,
         "max": "10",
@@ -6113,9 +6099,9 @@
         "y": 1400,
         "wires": [
             [
-                "42722aea.c31e24",
                 "b2d057b9.54f7d8",
-                "85a0aee6.eaf03"
+                "85a0aee6.eaf03",
+                "debe28b0.956218"
             ]
         ]
     },
@@ -6181,10 +6167,10 @@
         "z": "9441712c.a6198",
         "name": "Change total light slider",
         "links": [
-            "3dfc5ff2.440c6"
+            "b7c596db.436a68"
         ],
-        "x": 655,
-        "y": 1500,
+        "x": 735,
+        "y": 1480,
         "wires": []
     },
     {
@@ -6199,8 +6185,8 @@
         "width": 7,
         "height": 1,
         "wrap": false,
-        "passthru": true,
-        "topic": "",
+        "passthru": false,
+        "topic": "seedTrayNumberOfColumns",
         "format": "{{value}}",
         "min": 0,
         "max": "25",
@@ -6209,9 +6195,9 @@
         "y": 1540,
         "wires": [
             [
-                "1e405470.fb8adc",
                 "ac1bbcb7.24b75",
-                "3bc602dc.1e7cce"
+                "3bc602dc.1e7cce",
+                "debe28b0.956218"
             ]
         ]
     },
@@ -6482,6 +6468,51 @@
         "wires": [
             [
                 "d140b1b4.093d4"
+            ]
+        ]
+    },
+    {
+        "id": "b7c596db.436a68",
+        "type": "link in",
+        "z": "1d22c714.e50369",
+        "name": "Crop management - change seed tray size",
+        "links": [
+            "1e405470.fb8adc",
+            "42722aea.c31e24"
+        ],
+        "x": 15,
+        "y": 1140,
+        "wires": [
+            [
+                "7d7d9559.e1c4cc"
+            ]
+        ]
+    },
+    {
+        "id": "debe28b0.956218",
+        "type": "join",
+        "z": "9441712c.a6198",
+        "name": "",
+        "mode": "custom",
+        "build": "merged",
+        "property": "",
+        "propertyType": "full",
+        "key": "topic",
+        "joiner": "\\n",
+        "joinerType": "str",
+        "accumulate": true,
+        "timeout": "",
+        "count": "2",
+        "reduceRight": false,
+        "reduceExp": "",
+        "reduceInit": "",
+        "reduceInitType": "",
+        "reduceFixup": "",
+        "x": 640,
+        "y": 1480,
+        "wires": [
+            [
+                "1e405470.fb8adc"
             ]
         ]
     }
