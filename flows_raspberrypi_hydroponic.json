@@ -28,6 +28,13 @@
         "info": ""
     },
     {
+        "id": "5e9d2991.0ea428",
+        "type": "tab",
+        "label": "Crops management",
+        "disabled": false,
+        "info": ""
+    },
+    {
         "id": "a0e631b8.d383b",
         "type": "mqtt-broker",
         "name": "Mosquitto",
@@ -5942,99 +5949,6 @@
         ]
     },
     {
-        "id": "66abeaea.148fd4",
-        "type": "ui_template",
-        "z": "1d22c714.e50369",
-        "group": "40dc9b6d.55ee84",
-        "name": "Seed tray - crops planning",
-        "order": 1,
-        "width": 8,
-        "height": 12,
-        "format": "\n  <svg width=\"384px\" height=\"200px\">\n\n    <g ng-repeat=\"(key, value) in seedTray\">\n      \n      <rect x=\"{{value.xpos}}\" \n           y=\"{{value.ypos}}\"\n           width=\"{{value.width}}\" height=\"{{value.height}}\" style=\"fill:{{value.hexColor}}\" rx=\"10\" />\n\n      <image href=\"{{value.icon}}\" x=\"{{value.xpos+value.width/4}}\" y=\"{{value.ypos+value.height/4}}\" \n      width=\"{{value.width/2}}\" height=\"{{value.height/2}}\" />\n\n       \n    </g>\n    \n    <g ng-repeat=\"(key, value) in rowsDisplay\">\n       \n       <text x=\"{{value.xpos}}\" y=\"{{value.ypos}}\" dominant-baseline=\"central\" text-anchor=\"middle\"\n            font-size=\"14\" stroke-width=\"0\" stroke=\"#000\"\n            fill=\"#f9fcfb\" font-family=\"Montserrat\" font-weight=\"bold\">{{value.title}}</text>\n    </g>\n    \n    <g ng-repeat=\"(key, value) in columnsDisplay\">\n       \n       <text x=\"{{value.xpos}}\" y=\"{{value.ypos}}\" dominant-baseline=\"central\" text-anchor=\"middle\"\n            font-size=\"14\" stroke-width=\"0\" stroke=\"#000\"\n            fill=\"#f9fcfb\" font-family=\"Montserrat\" font-weight=\"bold\">{{value.title}}</text>\n    </g>\n    \n\n  </svg>\n  \n    <md-list flex style=\"overflow-y: scroll;height:100px;\">\n        <md-subheader class=\"md-no-sticky\">Todays action</md-subheader>\n        <md-list-item ng-repeat=\"item in seedTray | filter: {'nextAction': '!!'}\" class=\"md-2-line\">\n            <img src=\"{{item.iconAction}}\" class=\"md-avatar\" style=\"background-color: rgba(255,255,255,0.8);\" >\n             <div class=\"md-list-item-text\">\n                <h4>{{item.nextAction}}</h4>\n                <p>Plant a {{item.category}} on column {{item.column}} , row {{item.row}}</p>\n            </div>\n            <md-button class=\"icon-button\" ng-click=\"doSecondaryAction(item)\">\n                <md-avatar ng-class=\"{'fa': true, 'fa-check': true}\" ></md-avatar>\n            </md-button>\n            <md-menu>\n              <md-button class=\"icon-button\">\n                <md-avatar ng-class=\"{'fa': true, 'fa-ellipsis-h': true}\"></md-avatar>\n              </md-button>\n              <md-menu-content width=\"4\">\n                  <md-menu-item ng-click=\"doSecondaryAction(item)\">\n                  <md-button>\n                    <md-avatar ng-class=\"{'fa': true, 'fa-check': true}\" ></md-avatar>\n                     Complete task\n                  </md-button>\n                </md-menu-item>\n\n                <md-menu-item>\n                  <md-button ng-click=\"\">\n                    <md-avatar ng-class=\"{'fa': true, 'fa-calendar-plus-o': true}\" ></md-avatar>\n                     Re-schedule to tomorrow\n                  </md-button>\n                </md-menu-item>\n                <md-menu-divider></md-menu-divider>\n                <md-menu-item>\n                   <md-button ng-click=\"\">\n                    Change to tomatoe\n                  </md-button>\n                </md-menu-item>\n                <md-menu-item>\n                   <md-button ng-click=\"\">\n                    Change to mint\n                  </md-button>\n                </md-menu-item>\n                 <md-menu-item>\n                   <md-button ng-click=\"\">\n                    Change to persley\n                  </md-button>\n                </md-menu-item>\n              </md-menu-content>\n            </md-menu>\n            <md-divider></md-divider>\n        </md-list-item>\n    </md-list>\n\n\n<script>\n    \n(function(scope) {\n    \n    scope.rowsDisplay = []; \n    scope.columnsDisplay = []; \n    \n    // $watch fires each time the node is triggered in the flow\n    scope.$watch('msg', function(msg) {\n        \n        scope.seedTray = msg.seedTray;\n        \n        var boxWidth = 40, boxHeight = 40;\n        var leftPadding = 25;\n        var boxSpacing = 5;\n        var topPadding = 5;\n        \n        var numberofRows = 6;\n        var numberofColumns = 6; \n        \n        \n        angular.forEach(scope.seedTray, function (value, key) {\n            value[\"xpos\"] = (value[\"column\"].toLowerCase().charCodeAt(0) - 96) * boxHeight + (value[\"column\"].toLowerCase().charCodeAt(0) - 96) * boxSpacing + leftPadding;\n            value[\"ypos\"] = value[\"row\"] * boxWidth + value[\"row\"] * boxSpacing + topPadding;\n            value[\"width\"] = boxWidth; \n            value[\"height\"]= boxHeight; \n            \n        });\n        \n        console.log(scope.seedTray);\n        \n        scope.rowsDisplay = []; \n        for ( i = 0 ; i < numberofRows ; i++) {\n            var feed = {\n                \"title\": i+1,\n                \"xpos\": leftPadding/0.65,\n                \"ypos\": topPadding + (i+1) * boxHeight + (i+1) * boxSpacing + boxHeight/2\n            }\n            scope.rowsDisplay.push(feed);\n        }\n        \n        scope.columnsDisplay = []; \n        for ( i = 0 ; i < numberofColumns ; i++) {\n            var feed = {\n                \"title\": String.fromCharCode(97 + i).toUpperCase(),\n                \"xpos\": leftPadding + (i+1) * boxWidth + (i+1) * boxSpacing + boxWidth/2,\n                \"ypos\": topPadding/0.2\n            }\n            scope.columnsDisplay.push(feed);\n        }\n        \n        scope.doSecondaryAction = function(item) {\n            \n            if (item.nextAction === \"transplant\") {\n                var index =  scope.seedTray.indexOf(item);\n                scope.seedTray.splice(index,1);\n                var newItem = {\n                    column: item.column,\n                    row: item.row, \n                    category: \"empty\"\n                }\n                scope.seedTray.push(newItem);\n          \n                scope.send({seedTrayState: scope.seedTray});\n            } else if (item.nextAction === \"plantSeed\") {\n                var index =  scope.seedTray.indexOf(item);\n \n                //Copy the element\n                let copy =JSON.parse(JSON.stringify(scope.seedTray[index]));\n                \n                // Update properties\n                copy.nextAction = undefined;\n                copy.category = \"salad\";\n                \n                var today = new Date();\n                copy.seedPlantedDate = today.getFullYear() + \"-\" + today.getMonth()+1 + \"-\" + today.getDate();\n                \n                var germinationDate = new Date();\n                germinationDate.setDate(today.getDate() + msg.lettuceDaysForGermination);\n                copy.germinationDate = germinationDate.getFullYear() + \"-\" + (germinationDate.getMonth()+1) + \"-\" + germinationDate.getDate();\n                \n                var transplantDate = new Date();\n                transplantDate.setDate(today.getDate() + msg.lettuceDaysForTransplant);\n                copy.transplantDate = transplantDate.getFullYear() + \"-\" + (transplantDate.getMonth()+1) + \"-\" + transplantDate.getDate();\n                \n                var harvestDate = new Date();\n                harvestDate.setDate(today.getDate() + msg.lettuceDaysForHarvest);\n                copy.harvestDate = harvestDate.getFullYear() + \"-\" + (harvestDate.getMonth()+1) + \"-\" + harvestDate.getDate();\n                \n                // Remove \"old\" item\n                scope.seedTray.splice(index,1);\n                // Push the copy\n                scope.seedTray.push(copy);\n                scope.send({seedTrayState: scope.seedTray});\n            } \n        };\n        \n        //TODO not working. Check if an action is needed for today\n        scope.filterActionRequired = function (item) { \n            return item === 'transplant' || item === 'blue'; \n        };\n        \n        \n    });\n\n})(scope);\n\n</script>",
-        "storeOutMessages": false,
-        "fwdInMessages": false,
-        "resendOnRefresh": true,
-        "templateScope": "local",
-        "x": 360,
-        "y": 1140,
-        "wires": [
-            [
-                "975cfcb1.b598a",
-                "8e351869.97fe88"
-            ]
-        ]
-    },
-    {
-        "id": "7d7d9559.e1c4cc",
-        "type": "function",
-        "z": "1d22c714.e50369",
-        "name": "",
-        "func": "msg.seedTray = msg.seedTrayState;\n\n\nfor (var item in msg.seedTray) {\n\n    if (msg.seedTray[item][\"category\"] == \"empty\") {\n        \n        msg.seedTray[item][\"hexColor\"]= \"grey\";\n        msg.seedTray[item][\"icon\"] = \"\";\n         msg.seedTray[item][\"nextAction\"] = \"plantSeed\";\n        msg.seedTray[item][\"iconAction\"] = \"http://10.0.0.10:1880/seeding.png\";\n    } \n    else if (Date.parse(msg.seedTray[item][\"transplantDate\"] + \" 00:00:00 GMT\") <= new Date().getTime()\n            && new Date().getTime() > Date.parse(msg.seedTray[item][\"germinationDate\"] + \" 00:00:00 GMT\")) {\n                \n        msg.seedTray[item][\"hexColor\"]= \"green\";\n        msg.seedTray[item][\"icon\"] = \"http://10.0.0.10:1880/germinated-state.png\";\n        msg.seedTray[item][\"nextAction\"] = \"transplant\";\n        msg.seedTray[item][\"iconAction\"] = \"http://10.0.0.10:1880/action-transplant.png\";\n    } \n    \n    else if (Date.parse(msg.seedTray[item][\"germinationDate\"] + \" 00:00:00 GMT\") <= new Date().getTime()\n            && new Date().getTime() > Date.parse(msg.seedTray[item][\"seedPlantedDate\"] + \" 00:00:00 GMT\")) {\n        \n        msg.seedTray[item][\"hexColor\"]= \"green\";\n        msg.seedTray[item][\"icon\"] = \"http://10.0.0.10:1880/germinating-state.png\";\n    } \n    \n    else if (Date.parse(msg.seedTray[item][\"seedPlantedDate\"] + \" 00:00:00 GMT\") < new Date().getTime()) {\n        \n        msg.seedTray[item][\"hexColor\"]= \"green\";\n        msg.seedTray[item][\"icon\"] = \"http://10.0.0.10:1880/seed_state.png\";\n    } \n    \n        \n  \n}\n\n// Pass global varialbe\n\nmsg.lettuceDaysForGermination = global.get('crops.lettuce.schedule.germinated') || 0;\nmsg.lettuceDaysForTransplant = global.get('crops.lettuce.schedule.transplant') || 0;\nmsg.lettuceDaysForHarvest = global.get('crops.lettuce.schedule.harvest') || 0;\n    \n        \nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "x": 160,
-        "y": 1140,
-        "wires": [
-            [
-                "66abeaea.148fd4",
-                "d3a70355.eedd4"
-            ]
-        ]
-    },
-    {
-        "id": "975cfcb1.b598a",
-        "type": "persist in",
-        "z": "1d22c714.e50369",
-        "name": "seedTrayState",
-        "storageNode": "e1094939.96bd98",
-        "x": 600,
-        "y": 1140,
-        "wires": []
-    },
-    {
-        "id": "8e351869.97fe88",
-        "type": "persist out",
-        "z": "1d22c714.e50369",
-        "name": "seedTrayState",
-        "storageNode": "e1094939.96bd98",
-        "x": 220,
-        "y": 1220,
-        "wires": [
-            [
-                "7d7d9559.e1c4cc"
-            ]
-        ]
-    },
-    {
-        "id": "3d8036b.62a1dca",
-        "type": "inject",
-        "z": "1d22c714.e50369",
-        "name": "DEBUG - reset storage test",
-        "props": [
-            {
-                "p": "seedTrayState",
-                "v": "[{\"column\":\"A\",\"row\":\"1\",\"category\":\"salad\",\"seedPlantedDate\":\"2020-12-29\",\"germinationDate\":\"2021-01-02\",\"transplantDate\":\"2021-01-04\",\"harvestDate\":\"2021-01-06\"},{\"column\":\"B\",\"row\":\"1\",\"category\":\"empty\"},{\"column\":\"C\",\"row\":\"1\",\"category\":\"salad\",\"seedPlantedDate\":\"2020-12-20\",\"germinationDate\":\"2021-01-02\",\"transplantDate\":\"2021-01-08\",\"harvestDate\":\"2021-01-06\"},{\"column\":\"A\",\"row\":\"2\",\"category\":\"salad\",\"seedPlantedDate\":\"2020-12-29\",\"germinationDate\":\"2021-01-18\",\"harvestDate\":\"2021-01-21\"},{\"column\":\"B\",\"row\":\"2\",\"category\":\"empty\"},{\"column\":\"C\",\"row\":\"2\",\"category\":\"empty\"}]",
-                "vt": "json"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payloadType": "str",
-        "x": 160,
-        "y": 1000,
-        "wires": [
-            [
-                "7d7d9559.e1c4cc",
-                "975cfcb1.b598a"
-            ]
-        ]
-    },
-    {
         "id": "4a2e6ba3.5a7ef4",
         "type": "ui_text",
         "z": "9441712c.a6198",
@@ -6291,9 +6205,92 @@
         ]
     },
     {
-        "id": "d3a70355.eedd4",
+        "id": "bd43de44.263ff",
+        "type": "ui_template",
+        "z": "5e9d2991.0ea428",
+        "group": "40dc9b6d.55ee84",
+        "name": "Seed tray - crops planning",
+        "order": 1,
+        "width": 8,
+        "height": 12,
+        "format": "\n  <svg width=\"384px\" height=\"200px\">\n\n    <g ng-repeat=\"(key, value) in seedTray\">\n      \n      <rect x=\"{{value.xpos}}\" \n           y=\"{{value.ypos}}\"\n           width=\"{{value.width}}\" height=\"{{value.height}}\" style=\"fill:{{value.hexColor}}\" rx=\"10\" />\n\n      <image href=\"{{value.icon}}\" x=\"{{value.xpos+value.width/4}}\" y=\"{{value.ypos+value.height/4}}\" \n      width=\"{{value.width/2}}\" height=\"{{value.height/2}}\" />\n\n       \n    </g>\n    \n    <g ng-repeat=\"(key, value) in rowsDisplay\">\n       \n       <text x=\"{{value.xpos}}\" y=\"{{value.ypos}}\" dominant-baseline=\"central\" text-anchor=\"middle\"\n            font-size=\"14\" stroke-width=\"0\" stroke=\"#000\"\n            fill=\"#f9fcfb\" font-family=\"Montserrat\" font-weight=\"bold\">{{value.title}}</text>\n    </g>\n    \n    <g ng-repeat=\"(key, value) in columnsDisplay\">\n       \n       <text x=\"{{value.xpos}}\" y=\"{{value.ypos}}\" dominant-baseline=\"central\" text-anchor=\"middle\"\n            font-size=\"14\" stroke-width=\"0\" stroke=\"#000\"\n            fill=\"#f9fcfb\" font-family=\"Montserrat\" font-weight=\"bold\">{{value.title}}</text>\n    </g>\n    \n\n  </svg>\n  \n    <md-list flex style=\"overflow-y: scroll;height:100px;\">\n        <md-subheader class=\"md-no-sticky\">Todays action</md-subheader>\n        <md-list-item ng-repeat=\"item in seedTray | filter: {'nextAction': '!!'}\" class=\"md-2-line\">\n            <img src=\"{{item.iconAction}}\" class=\"md-avatar\" style=\"background-color: rgba(255,255,255,0.8);\" >\n             <div class=\"md-list-item-text\">\n                <h4>{{item.nextAction}}</h4>\n                <p>Plant a {{item.category}} on column {{item.column}} , row {{item.row}}</p>\n            </div>\n            <md-button class=\"icon-button\" ng-click=\"doSecondaryAction(item)\">\n                <md-avatar ng-class=\"{'fa': true, 'fa-check': true}\" ></md-avatar>\n            </md-button>\n            <md-menu>\n              <md-button class=\"icon-button\">\n                <md-avatar ng-class=\"{'fa': true, 'fa-ellipsis-h': true}\"></md-avatar>\n              </md-button>\n              <md-menu-content width=\"4\">\n                  <md-menu-item ng-click=\"doSecondaryAction(item)\">\n                  <md-button>\n                    <md-avatar ng-class=\"{'fa': true, 'fa-check': true}\" ></md-avatar>\n                     Complete task\n                  </md-button>\n                </md-menu-item>\n\n                <md-menu-item>\n                  <md-button ng-click=\"\">\n                    <md-avatar ng-class=\"{'fa': true, 'fa-calendar-plus-o': true}\" ></md-avatar>\n                     Re-schedule to tomorrow\n                  </md-button>\n                </md-menu-item>\n                <md-menu-divider></md-menu-divider>\n                <md-menu-item>\n                   <md-button ng-click=\"\">\n                    Change to tomatoe\n                  </md-button>\n                </md-menu-item>\n                <md-menu-item>\n                   <md-button ng-click=\"\">\n                    Change to mint\n                  </md-button>\n                </md-menu-item>\n                 <md-menu-item>\n                   <md-button ng-click=\"\">\n                    Change to persley\n                  </md-button>\n                </md-menu-item>\n              </md-menu-content>\n            </md-menu>\n            <md-divider></md-divider>\n        </md-list-item>\n    </md-list>\n\n\n<script>\n    \n(function(scope) {\n    \n    scope.rowsDisplay = []; \n    scope.columnsDisplay = []; \n    \n    // $watch fires each time the node is triggered in the flow\n    scope.$watch('msg', function(msg) {\n        \n        scope.seedTray = msg.seedTray;\n        \n        var boxWidth = 40, boxHeight = 40;\n        var leftPadding = 25;\n        var boxSpacing = 5;\n        var topPadding = 5;\n        \n        var numberofRows = 6;\n        var numberofColumns = 6; \n        \n        \n        angular.forEach(scope.seedTray, function (value, key) {\n            value[\"xpos\"] = (value[\"column\"].toLowerCase().charCodeAt(0) - 96) * boxHeight + (value[\"column\"].toLowerCase().charCodeAt(0) - 96) * boxSpacing + leftPadding;\n            value[\"ypos\"] = value[\"row\"] * boxWidth + value[\"row\"] * boxSpacing + topPadding;\n            value[\"width\"] = boxWidth; \n            value[\"height\"]= boxHeight; \n            \n        });\n        \n        console.log(scope.seedTray);\n        \n        scope.rowsDisplay = []; \n        for ( i = 0 ; i < numberofRows ; i++) {\n            var feed = {\n                \"title\": i+1,\n                \"xpos\": leftPadding/0.65,\n                \"ypos\": topPadding + (i+1) * boxHeight + (i+1) * boxSpacing + boxHeight/2\n            }\n            scope.rowsDisplay.push(feed);\n        }\n        \n        scope.columnsDisplay = []; \n        for ( i = 0 ; i < numberofColumns ; i++) {\n            var feed = {\n                \"title\": String.fromCharCode(97 + i).toUpperCase(),\n                \"xpos\": leftPadding + (i+1) * boxWidth + (i+1) * boxSpacing + boxWidth/2,\n                \"ypos\": topPadding/0.2\n            }\n            scope.columnsDisplay.push(feed);\n        }\n        \n        scope.doSecondaryAction = function(item) {\n            \n            if (item.nextAction === \"transplant\") {\n                var index =  scope.seedTray.indexOf(item);\n                scope.seedTray.splice(index,1);\n                var newItem = {\n                    column: item.column,\n                    row: item.row, \n                    category: \"empty\"\n                }\n                scope.seedTray.push(newItem);\n          \n                scope.send({seedTrayState: scope.seedTray});\n            } else if (item.nextAction === \"plantSeed\") {\n                var index =  scope.seedTray.indexOf(item);\n \n                //Copy the element\n                let copy =JSON.parse(JSON.stringify(scope.seedTray[index]));\n                \n                // Update properties\n                copy.nextAction = undefined;\n                copy.category = \"salad\";\n                \n                var today = new Date();\n                copy.seedPlantedDate = today.getFullYear() + \"-\" + today.getMonth()+1 + \"-\" + today.getDate();\n                \n                var germinationDate = new Date();\n                germinationDate.setDate(today.getDate() + msg.lettuceDaysForGermination);\n                copy.germinationDate = germinationDate.getFullYear() + \"-\" + (germinationDate.getMonth()+1) + \"-\" + germinationDate.getDate();\n                \n                var transplantDate = new Date();\n                transplantDate.setDate(today.getDate() + msg.lettuceDaysForTransplant);\n                copy.transplantDate = transplantDate.getFullYear() + \"-\" + (transplantDate.getMonth()+1) + \"-\" + transplantDate.getDate();\n                \n                var harvestDate = new Date();\n                harvestDate.setDate(today.getDate() + msg.lettuceDaysForHarvest);\n                copy.harvestDate = harvestDate.getFullYear() + \"-\" + (harvestDate.getMonth()+1) + \"-\" + harvestDate.getDate();\n                \n                // Remove \"old\" item\n                scope.seedTray.splice(index,1);\n                // Push the copy\n                scope.seedTray.push(copy);\n                scope.send({seedTrayState: scope.seedTray});\n            } \n        };\n        \n        //TODO not working. Check if an action is needed for today\n        scope.filterActionRequired = function (item) { \n            return item === 'transplant' || item === 'blue'; \n        };\n        \n        \n    });\n\n})(scope);\n\n</script>",
+        "storeOutMessages": false,
+        "fwdInMessages": false,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "x": 340,
+        "y": 180,
+        "wires": [
+            [
+                "35eb65db.60721a",
+                "7159d445.126dcc"
+            ]
+        ]
+    },
+    {
+        "id": "513fc490.e682dc",
+        "type": "function",
+        "z": "5e9d2991.0ea428",
+        "name": "",
+        "func": "msg.seedTray = msg.seedTrayState;\n\n\nfor (var item in msg.seedTray) {\n\n    if (msg.seedTray[item][\"category\"] == \"empty\") {\n        \n        msg.seedTray[item][\"hexColor\"]= \"grey\";\n        msg.seedTray[item][\"icon\"] = \"\";\n         msg.seedTray[item][\"nextAction\"] = \"plantSeed\";\n        msg.seedTray[item][\"iconAction\"] = \"http://10.0.0.10:1880/seeding.png\";\n    } \n    else if (Date.parse(msg.seedTray[item][\"transplantDate\"] + \" 00:00:00 GMT\") <= new Date().getTime()\n            && new Date().getTime() > Date.parse(msg.seedTray[item][\"germinationDate\"] + \" 00:00:00 GMT\")) {\n                \n        msg.seedTray[item][\"hexColor\"]= \"green\";\n        msg.seedTray[item][\"icon\"] = \"http://10.0.0.10:1880/germinated-state.png\";\n        msg.seedTray[item][\"nextAction\"] = \"transplant\";\n        msg.seedTray[item][\"iconAction\"] = \"http://10.0.0.10:1880/action-transplant.png\";\n    } \n    \n    else if (Date.parse(msg.seedTray[item][\"germinationDate\"] + \" 00:00:00 GMT\") <= new Date().getTime()\n            && new Date().getTime() > Date.parse(msg.seedTray[item][\"seedPlantedDate\"] + \" 00:00:00 GMT\")) {\n        \n        msg.seedTray[item][\"hexColor\"]= \"green\";\n        msg.seedTray[item][\"icon\"] = \"http://10.0.0.10:1880/germinating-state.png\";\n    } \n    \n    else if (Date.parse(msg.seedTray[item][\"seedPlantedDate\"] + \" 00:00:00 GMT\") < new Date().getTime()) {\n        \n        msg.seedTray[item][\"hexColor\"]= \"green\";\n        msg.seedTray[item][\"icon\"] = \"http://10.0.0.10:1880/seed_state.png\";\n    } \n    \n        \n  \n}\n\n// Pass global varialbe\n\nmsg.lettuceDaysForGermination = global.get('crops.lettuce.schedule.germinated') || 0;\nmsg.lettuceDaysForTransplant = global.get('crops.lettuce.schedule.transplant') || 0;\nmsg.lettuceDaysForHarvest = global.get('crops.lettuce.schedule.harvest') || 0;\n    \n        \nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 140,
+        "y": 180,
+        "wires": [
+            [
+                "bd43de44.263ff",
+                "15f62883.0a2b37"
+            ]
+        ]
+    },
+    {
+        "id": "7159d445.126dcc",
+        "type": "persist out",
+        "z": "5e9d2991.0ea428",
+        "name": "seedTrayState",
+        "storageNode": "e1094939.96bd98",
+        "x": 200,
+        "y": 260,
+        "wires": [
+            [
+                "513fc490.e682dc"
+            ]
+        ]
+    },
+    {
+        "id": "25bfc60c.8dce1a",
+        "type": "inject",
+        "z": "5e9d2991.0ea428",
+        "name": "DEBUG - reset storage test",
+        "props": [
+            {
+                "p": "seedTrayState",
+                "v": "[{\"column\":\"A\",\"row\":\"1\",\"category\":\"salad\",\"seedPlantedDate\":\"2020-12-29\",\"germinationDate\":\"2021-01-02\",\"transplantDate\":\"2021-01-04\",\"harvestDate\":\"2021-01-06\"},{\"column\":\"B\",\"row\":\"1\",\"category\":\"empty\"},{\"column\":\"C\",\"row\":\"1\",\"category\":\"salad\",\"seedPlantedDate\":\"2020-12-20\",\"germinationDate\":\"2021-01-02\",\"transplantDate\":\"2021-01-08\",\"harvestDate\":\"2021-01-06\"},{\"column\":\"A\",\"row\":\"2\",\"category\":\"salad\",\"seedPlantedDate\":\"2020-12-29\",\"germinationDate\":\"2021-01-18\",\"harvestDate\":\"2021-01-21\"},{\"column\":\"B\",\"row\":\"2\",\"category\":\"empty\"},{\"column\":\"C\",\"row\":\"2\",\"category\":\"empty\"}]",
+                "vt": "json"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payloadType": "str",
+        "x": 140,
+        "y": 40,
+        "wires": [
+            [
+                "513fc490.e682dc",
+                "35eb65db.60721a"
+            ]
+        ]
+    },
+    {
+        "id": "15f62883.0a2b37",
         "type": "debug",
-        "z": "1d22c714.e50369",
+        "z": "5e9d2991.0ea428",
         "name": "",
         "active": true,
         "tosidebar": true,
@@ -6303,14 +6300,14 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 410,
-        "y": 1080,
+        "x": 390,
+        "y": 120,
         "wires": []
     },
     {
-        "id": "4816f5ac.109c6c",
+        "id": "cd560ffa.729c9",
         "type": "inject",
-        "z": "1d22c714.e50369",
+        "z": "5e9d2991.0ea428",
         "name": "DEBUG - reset storage empty",
         "props": [
             {
@@ -6324,13 +6321,132 @@
         "once": false,
         "onceDelay": 0.1,
         "topic": "",
-        "x": 160,
-        "y": 1040,
+        "x": 140,
+        "y": 80,
         "wires": [
             [
-                "975cfcb1.b598a",
-                "7d7d9559.e1c4cc"
+                "35eb65db.60721a",
+                "513fc490.e682dc"
             ]
         ]
+    },
+    {
+        "id": "35eb65db.60721a",
+        "type": "persist in",
+        "z": "5e9d2991.0ea428",
+        "name": "seedTrayState",
+        "storageNode": "e1094939.96bd98",
+        "x": 580,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "6030bed7.a7ade",
+        "type": "inject",
+        "z": "5e9d2991.0ea428",
+        "name": "DEBUG - reset storage test",
+        "props": [
+            {
+                "p": "seedTrayState",
+                "v": "[{\"column\":\"A\",\"row\":\"1\",\"category\":\"salad\",\"seedPlantedDate\":\"2020-12-29\",\"germinationDate\":\"2021-01-02\",\"transplantDate\":\"2021-01-04\",\"harvestDate\":\"2021-01-06\"},{\"column\":\"B\",\"row\":\"1\",\"category\":\"empty\"},{\"column\":\"C\",\"row\":\"1\",\"category\":\"salad\",\"seedPlantedDate\":\"2020-12-20\",\"germinationDate\":\"2021-01-02\",\"transplantDate\":\"2021-01-08\",\"harvestDate\":\"2021-01-06\"},{\"column\":\"D\",\"row\":\"1\",\"category\":\"empty\"},{\"column\":\"E\",\"row\":\"1\",\"category\":\"empty\"},{\"column\":\"F\",\"row\":\"1\",\"category\":\"empty\"},{\"column\":\"G\",\"row\":\"1\",\"category\":\"empty\"},{\"column\":\"H\",\"row\":\"1\",\"category\":\"empty\"},{\"column\":\"I\",\"row\":\"1\",\"category\":\"empty\"},{\"column\":\"A\",\"row\":\"1\",\"category\":\"salad\",\"seedPlantedDate\":\"2020-12-29\",\"germinationDate\":\"2021-01-02\",\"transplantDate\":\"2021-01-04\",\"harvestDate\":\"2021-01-06\"},{\"column\":\"B\",\"row\":\"1\",\"category\":\"empty\"},{\"column\":\"C\",\"row\":\"1\",\"category\":\"salad\",\"seedPlantedDate\":\"2020-12-20\",\"germinationDate\":\"2021-01-02\",\"transplantDate\":\"2021-01-08\",\"harvestDate\":\"2021-01-06\"},{\"column\":\"D\",\"row\":\"1\",\"category\":\"empty\"},{\"column\":\"E\",\"row\":\"1\",\"category\":\"empty\"},{\"column\":\"F\",\"row\":\"1\",\"category\":\"empty\"},{\"column\":\"G\",\"row\":\"1\",\"category\":\"empty\"},{\"column\":\"H\",\"row\":\"1\",\"category\":\"empty\"},{\"column\":\"I\",\"row\":\"1\",\"category\":\"empty\"}]",
+                "vt": "json"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 180,
+        "y": 380,
+        "wires": [
+            [
+                "e1b22a1.d8ea7d8",
+                "87e33717.6b6f08"
+            ]
+        ]
+    },
+    {
+        "id": "e1b22a1.d8ea7d8",
+        "type": "function",
+        "z": "5e9d2991.0ea428",
+        "name": "",
+        "func": "\n/*\nfor (var item in msg.seedTray) {\n\n    if (msg.seedTray[item][\"category\"] == \"empty\") {\n        \n        msg.seedTray[item][\"hexColor\"]= \"grey\";\n        msg.seedTray[item][\"icon\"] = \"\";\n         msg.seedTray[item][\"nextAction\"] = \"plantSeed\";\n        msg.seedTray[item][\"iconAction\"] = \"http://10.0.0.10:1880/seeding.png\";\n    } \n    else if (Date.parse(msg.seedTray[item][\"transplantDate\"] + \" 00:00:00 GMT\") <= new Date().getTime()\n            && new Date().getTime() > Date.parse(msg.seedTray[item][\"germinationDate\"] + \" 00:00:00 GMT\")) {\n                \n        msg.seedTray[item][\"hexColor\"]= \"green\";\n        msg.seedTray[item][\"icon\"] = \"http://10.0.0.10:1880/germinated-state.png\";\n        msg.seedTray[item][\"nextAction\"] = \"transplant\";\n        msg.seedTray[item][\"iconAction\"] = \"http://10.0.0.10:1880/action-transplant.png\";\n    } \n    \n    else if (Date.parse(msg.seedTray[item][\"germinationDate\"] + \" 00:00:00 GMT\") <= new Date().getTime()\n            && new Date().getTime() > Date.parse(msg.seedTray[item][\"seedPlantedDate\"] + \" 00:00:00 GMT\")) {\n        \n        msg.seedTray[item][\"hexColor\"]= \"green\";\n        msg.seedTray[item][\"icon\"] = \"http://10.0.0.10:1880/germinating-state.png\";\n    } \n    \n    else if (Date.parse(msg.seedTray[item][\"seedPlantedDate\"] + \" 00:00:00 GMT\") < new Date().getTime()) {\n        \n        msg.seedTray[item][\"hexColor\"]= \"green\";\n        msg.seedTray[item][\"icon\"] = \"http://10.0.0.10:1880/seed_state.png\";\n    } \n    \n        \n  \n}*/\n\n// Pass global varialbe\n\nmsg.lettuceDaysForGermination = global.get('crops.lettuce.schedule.germinated') || 0;\nmsg.lettuceDaysForTransplant = global.get('crops.lettuce.schedule.transplant') || 0;\nmsg.lettuceDaysForHarvest = global.get('crops.lettuce.schedule.harvest') || 0;\n    \n        \nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 160,
+        "y": 480,
+        "wires": [
+            [
+                "281bada.51a1b52",
+                "c40a8f5.1c8387"
+            ]
+        ]
+    },
+    {
+        "id": "281bada.51a1b52",
+        "type": "ui_template",
+        "z": "5e9d2991.0ea428",
+        "group": "40dc9b6d.55ee84",
+        "name": "Seed tray - crops planning",
+        "order": 1,
+        "width": 8,
+        "height": 12,
+        "format": "\n  <svg width=\"384px\" height=\"200px\">\n\n    <g ng-repeat=\"(key, value) in NFTState\">\n      \n      <rect x=\"{{value.xpos}}\" \n           y=\"{{value.ypos}}\"\n           width=\"{{value.width}}\" height=\"{{value.height}}\" style=\"fill:{{value.hexColor}}\" rx=\"10\" />\n\n      <image href=\"{{value.icon}}\" x=\"{{value.xpos+value.width/4}}\" y=\"{{value.ypos+value.height/4}}\" \n      width=\"{{value.width/2}}\" height=\"{{value.height/2}}\" />\n\n       \n    </g>\n    \n    <g ng-repeat=\"(key, value) in rowsDisplay\">\n       \n       <text x=\"{{value.xpos}}\" y=\"{{value.ypos}}\" dominant-baseline=\"central\" text-anchor=\"middle\"\n            font-size=\"14\" stroke-width=\"0\" stroke=\"#000\"\n            fill=\"#f9fcfb\" font-family=\"Montserrat\" font-weight=\"bold\">{{value.title}}</text>\n    </g>\n    \n    <g ng-repeat=\"(key, value) in columnsDisplay\">\n       \n       <text x=\"{{value.xpos}}\" y=\"{{value.ypos}}\" dominant-baseline=\"central\" text-anchor=\"middle\"\n            font-size=\"14\" stroke-width=\"0\" stroke=\"#000\"\n            fill=\"#f9fcfb\" font-family=\"Montserrat\" font-weight=\"bold\">{{value.title}}</text>\n    </g>\n    \n\n  </svg>\n  \n\n\n<script>\n    \n(function(scope) {\n    \n    scope.rowsDisplay = []; \n    scope.columnsDisplay = []; \n    \n    // $watch fires each time the node is triggered in the flow\n    scope.$watch('msg', function(msg) {\n        \n        scope.NFTState = msg.State;\n        \n        var boxWidth = 40, boxHeight = 40;\n        var leftPadding = 25;\n        var boxSpacing = 5;\n        var topPadding = 5;\n        \n        var numberofRows = 2;\n        var numberofColumns = 9; \n        \n        \n        angular.forEach(scope.seedTray, function (value, key) {\n            value[\"xpos\"] = (value[\"column\"].toLowerCase().charCodeAt(0) - 96) * boxHeight + (value[\"column\"].toLowerCase().charCodeAt(0) - 96) * boxSpacing + leftPadding;\n            value[\"ypos\"] = value[\"row\"] * boxWidth + value[\"row\"] * boxSpacing + topPadding;\n            value[\"width\"] = boxWidth; \n            value[\"height\"]= boxHeight; \n            \n        });\n        \n        console.log(scope.seedTray);\n        \n        scope.rowsDisplay = []; \n        for ( i = 0 ; i < numberofRows ; i++) {\n            var feed = {\n                \"title\": i+1,\n                \"xpos\": leftPadding/0.65,\n                \"ypos\": topPadding + (i+1) * boxHeight + (i+1) * boxSpacing + boxHeight/2\n            }\n            scope.rowsDisplay.push(feed);\n        }\n        \n        scope.columnsDisplay = []; \n        for ( i = 0 ; i < numberofColumns ; i++) {\n            var feed = {\n                \"title\": String.fromCharCode(97 + i).toUpperCase(),\n                \"xpos\": leftPadding + (i+1) * boxWidth + (i+1) * boxSpacing + boxWidth/2,\n                \"ypos\": topPadding/0.2\n            }\n            scope.columnsDisplay.push(feed);\n        }\n        /*\n        scope.doSecondaryAction = function(item) {\n            \n            if (item.nextAction === \"transplant\") {\n                var index =  scope.seedTray.indexOf(item);\n                scope.seedTray.splice(index,1);\n                var newItem = {\n                    column: item.column,\n                    row: item.row, \n                    category: \"empty\"\n                }\n                scope.seedTray.push(newItem);\n          \n                scope.send({seedTrayState: scope.seedTray});\n            } else if (item.nextAction === \"plantSeed\") {\n                var index =  scope.seedTray.indexOf(item);\n \n                //Copy the element\n                let copy =JSON.parse(JSON.stringify(scope.seedTray[index]));\n                \n                // Update properties\n                copy.nextAction = undefined;\n                copy.category = \"salad\";\n                \n                var today = new Date();\n                copy.seedPlantedDate = today.getFullYear() + \"-\" + today.getMonth()+1 + \"-\" + today.getDate();\n                \n                var germinationDate = new Date();\n                germinationDate.setDate(today.getDate() + msg.lettuceDaysForGermination);\n                copy.germinationDate = germinationDate.getFullYear() + \"-\" + (germinationDate.getMonth()+1) + \"-\" + germinationDate.getDate();\n                \n                var transplantDate = new Date();\n                transplantDate.setDate(today.getDate() + msg.lettuceDaysForTransplant);\n                copy.transplantDate = transplantDate.getFullYear() + \"-\" + (transplantDate.getMonth()+1) + \"-\" + transplantDate.getDate();\n                \n                var harvestDate = new Date();\n                harvestDate.setDate(today.getDate() + msg.lettuceDaysForHarvest);\n                copy.harvestDate = harvestDate.getFullYear() + \"-\" + (harvestDate.getMonth()+1) + \"-\" + harvestDate.getDate();\n                \n                // Remove \"old\" item\n                scope.seedTray.splice(index,1);\n                // Push the copy\n                scope.seedTray.push(copy);\n                scope.send({seedTrayState: scope.seedTray});\n            } \n        }; */\n        \n        //TODO not working. Check if an action is needed for today\n        scope.filterActionRequired = function (item) { \n            return item === 'transplant' || item === 'blue'; \n        };\n        \n        \n    });\n\n})(scope);\n\n</script>",
+        "storeOutMessages": false,
+        "fwdInMessages": false,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "x": 360,
+        "y": 480,
+        "wires": [
+            [
+                "87e33717.6b6f08",
+                "f1b7c6e9.b85b98"
+            ]
+        ]
+    },
+    {
+        "id": "87e33717.6b6f08",
+        "type": "persist in",
+        "z": "5e9d2991.0ea428",
+        "name": "NFTState",
+        "storageNode": "e1094939.96bd98",
+        "x": 580,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "f1b7c6e9.b85b98",
+        "type": "persist out",
+        "z": "5e9d2991.0ea428",
+        "name": "NFTState",
+        "storageNode": "e1094939.96bd98",
+        "x": 200,
+        "y": 560,
+        "wires": [
+            [
+                "e1b22a1.d8ea7d8"
+            ]
+        ]
+    },
+    {
+        "id": "c40a8f5.1c8387",
+        "type": "debug",
+        "z": "5e9d2991.0ea428",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 470,
+        "y": 380,
+        "wires": []
     }
 ]
