@@ -5911,35 +5911,6 @@
         ]
     },
     {
-        "id": "90231a6a.f56b28",
-        "type": "inject",
-        "z": "1d22c714.e50369",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": true,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 120,
-        "y": 1080,
-        "wires": [
-            [
-                "7d7d9559.e1c4cc"
-            ]
-        ]
-    },
-    {
         "id": "2cebecae.92d324",
         "type": "debug",
         "z": "1d22c714.e50369",
