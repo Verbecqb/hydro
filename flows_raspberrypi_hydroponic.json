@@ -601,150 +601,6 @@
         "collapse": false
     },
     {
-        "id": "f820824d.7b1d5",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "1c4b8cb2.e1e2e3",
-        "order": 2,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "92233bf2.f08e28",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "1c4b8cb2.e1e2e3",
-        "order": 4,
-        "width": 2,
-        "height": 1
-    },
-    {
-        "id": "e1648b16.ecaa88",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "1c4b8cb2.e1e2e3",
-        "order": 5,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "1aa3d8d4.adff77",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "1c4b8cb2.e1e2e3",
-        "order": 7,
-        "width": 2,
-        "height": 1
-    },
-    {
-        "id": "71fa0b15.085054",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "1c4b8cb2.e1e2e3",
-        "order": 9,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "4a468e42.f489d",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "1c4b8cb2.e1e2e3",
-        "order": 11,
-        "width": 2,
-        "height": 1
-    },
-    {
-        "id": "415c22f6.8018ac",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "1c4b8cb2.e1e2e3",
-        "order": 12,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "c3937591.5025f8",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "1c4b8cb2.e1e2e3",
-        "order": 14,
-        "width": 2,
-        "height": 1
-    },
-    {
-        "id": "dffa52ba.8a8ec",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "1c4b8cb2.e1e2e3",
-        "order": 16,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "b8bc3149.f1749",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "1c4b8cb2.e1e2e3",
-        "order": 19,
-        "width": 2,
-        "height": 1
-    },
-    {
-        "id": "e079150e.9e11c8",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "1c4b8cb2.e1e2e3",
-        "order": 21,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "27dbb0ff.15961",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "1c4b8cb2.e1e2e3",
-        "order": 24,
-        "width": 2,
-        "height": 1
-    },
-    {
-        "id": "f0f0792.4c74688",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "1c4b8cb2.e1e2e3",
-        "order": 25,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "a1527b13.6c5da8",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "1c4b8cb2.e1e2e3",
-        "order": 28,
-        "width": 2,
-        "height": 1
-    },
-    {
-        "id": "99f1dc6f.bffdf",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "1c4b8cb2.e1e2e3",
-        "order": 30,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "fa02ad85.482a6",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "1c4b8cb2.e1e2e3",
-        "order": 32,
-        "width": 2,
-        "height": 1
-    },
-    {
         "id": "40dc9b6d.55ee84",
         "type": "ui_group",
         "name": "Harvesting",
@@ -1154,6 +1010,188 @@
         "group": "6c15eb0d.8f5814",
         "order": 15,
         "width": 3,
+        "height": 1
+    },
+    {
+        "id": "c3776e2a.f6068",
+        "type": "ui_group",
+        "name": "Crops management",
+        "tab": "8073017c.fb41a",
+        "order": 3,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "ae81cad0.1d5098",
+        "type": "ui_group",
+        "name": "Grow mediums ",
+        "tab": "8073017c.fb41a",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "84dbd8ef.d312a8",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "1c4b8cb2.e1e2e3",
+        "order": 2,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "b6966bb9.287838",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "1c4b8cb2.e1e2e3",
+        "order": 4,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "306e0005.16e6b",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "1c4b8cb2.e1e2e3",
+        "order": 5,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "f496f6e4.e92558",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "1c4b8cb2.e1e2e3",
+        "order": 7,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "fc95d670.ddefc8",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "1c4b8cb2.e1e2e3",
+        "order": 9,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "10e76832.b7b1c8",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "1c4b8cb2.e1e2e3",
+        "order": 11,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "fd9d3423.e25b78",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "1c4b8cb2.e1e2e3",
+        "order": 12,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "89ad98ca.25b718",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "1c4b8cb2.e1e2e3",
+        "order": 14,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "99bd5fdb.81d4b",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "1c4b8cb2.e1e2e3",
+        "order": 16,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "4d3810bb.0486f",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "1c4b8cb2.e1e2e3",
+        "order": 19,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "136e3d90.c2c332",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "1c4b8cb2.e1e2e3",
+        "order": 21,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "5cf2c405.ec996c",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "1c4b8cb2.e1e2e3",
+        "order": 24,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "f80cc81.28a4d38",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "1c4b8cb2.e1e2e3",
+        "order": 25,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "92e1e383.94a39",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "1c4b8cb2.e1e2e3",
+        "order": 28,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "bb93a84e.2a0008",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "1c4b8cb2.e1e2e3",
+        "order": 30,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "9328b775.22a798",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "1c4b8cb2.e1e2e3",
+        "order": 32,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "7a16c5f.2d2cc3c",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "ae81cad0.1d5098",
+        "order": 2,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "8b4fa840.0122f8",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "ae81cad0.1d5098",
+        "order": 4,
+        "width": 1,
         "height": 1
     },
     {
@@ -3861,7 +3899,12 @@
         "name": "",
         "links": [
             "a3e3f133.15036",
-            "304a2fa1.758d7"
+            "304a2fa1.758d7",
+            "42722aea.c31e24",
+            "1e405470.fb8adc",
+            "648d9af7.b6ea04",
+            "db6792a8.788f5",
+            "8a7ded76.20298"
         ],
         "x": 95,
         "y": 2266,
@@ -5953,6 +5996,438 @@
             [
                 "7d7d9559.e1c4cc",
                 "975cfcb1.b598a"
+            ]
+        ]
+    },
+    {
+        "id": "b2d057b9.54f7d8",
+        "type": "function",
+        "z": "9441712c.a6198",
+        "name": "Save global variable",
+        "func": "global.set('crops.seedTray.size.rows',msg.payload);",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 720,
+        "y": 1400,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "85a0aee6.eaf03",
+        "type": "persist in",
+        "z": "9441712c.a6198",
+        "name": "crops.seedTray.size.rows",
+        "storageNode": "217cc961.603ce6",
+        "x": 730,
+        "y": 1440,
+        "wires": []
+    },
+    {
+        "id": "42722aea.c31e24",
+        "type": "link out",
+        "z": "9441712c.a6198",
+        "name": "Change total light slider",
+        "links": [
+            "3dfc5ff2.440c6"
+        ],
+        "x": 635,
+        "y": 1360,
+        "wires": []
+    },
+    {
+        "id": "f4d9f92.2fa3208",
+        "type": "ui_numeric",
+        "z": "9441712c.a6198",
+        "name": "Seed Tray - configure number of rows",
+        "label": "<i class=\"fa fa-clock-o\"> Number of rows</i>",
+        "tooltip": "Changes will erase current seed tray content.",
+        "group": "ae81cad0.1d5098",
+        "order": 1,
+        "width": 5,
+        "height": 1,
+        "wrap": false,
+        "passthru": true,
+        "topic": "",
+        "format": "{{value}} rows",
+        "min": 0,
+        "max": "10",
+        "step": 1,
+        "x": 450,
+        "y": 1400,
+        "wires": [
+            [
+                "42722aea.c31e24",
+                "b2d057b9.54f7d8",
+                "85a0aee6.eaf03"
+            ]
+        ]
+    },
+    {
+        "id": "b141908.6dc2c7",
+        "type": "persist out",
+        "z": "9441712c.a6198",
+        "name": "crops.seedTray.size.rows",
+        "storageNode": "217cc961.603ce6",
+        "x": 150,
+        "y": 1400,
+        "wires": [
+            [
+                "f4d9f92.2fa3208"
+            ]
+        ]
+    },
+    {
+        "id": "f4f6def0.19595",
+        "type": "ui_text",
+        "z": "9441712c.a6198",
+        "group": "ae81cad0.1d5098",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "Seed tray - size configuration",
+        "label": "<b><i class=\"fa fa-sliders\"></i> Seed Tray </b>",
+        "format": "",
+        "layout": "row-left",
+        "x": 160,
+        "y": 1340,
+        "wires": []
+    },
+    {
+        "id": "ac1bbcb7.24b75",
+        "type": "function",
+        "z": "9441712c.a6198",
+        "name": "Save global variable",
+        "func": "global.set('crops.seedTray.size.rows',msg.payload);",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 740,
+        "y": 1540,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "3bc602dc.1e7cce",
+        "type": "persist in",
+        "z": "9441712c.a6198",
+        "name": "crops.seedTray.size.rows",
+        "storageNode": "217cc961.603ce6",
+        "x": 750,
+        "y": 1580,
+        "wires": []
+    },
+    {
+        "id": "1e405470.fb8adc",
+        "type": "link out",
+        "z": "9441712c.a6198",
+        "name": "Change total light slider",
+        "links": [
+            "3dfc5ff2.440c6"
+        ],
+        "x": 655,
+        "y": 1500,
+        "wires": []
+    },
+    {
+        "id": "ac2364e7.ef2968",
+        "type": "ui_numeric",
+        "z": "9441712c.a6198",
+        "name": "Seed Tray - configure number of columns",
+        "label": "<i class=\"fa fa-clock-o\"> Number of columns</i>",
+        "tooltip": "Changes will erase current seed tray content.",
+        "group": "ae81cad0.1d5098",
+        "order": 3,
+        "width": 5,
+        "height": 1,
+        "wrap": false,
+        "passthru": true,
+        "topic": "",
+        "format": "{{value}} columns",
+        "min": 0,
+        "max": "25",
+        "step": 1,
+        "x": 460,
+        "y": 1540,
+        "wires": [
+            [
+                "1e405470.fb8adc",
+                "ac1bbcb7.24b75",
+                "3bc602dc.1e7cce"
+            ]
+        ]
+    },
+    {
+        "id": "645fe5ad.14b85c",
+        "type": "persist out",
+        "z": "9441712c.a6198",
+        "name": "crops.seedTray.size.rows",
+        "storageNode": "217cc961.603ce6",
+        "x": 150,
+        "y": 1540,
+        "wires": [
+            [
+                "ac2364e7.ef2968"
+            ]
+        ]
+    },
+    {
+        "id": "4a2e6ba3.5a7ef4",
+        "type": "ui_text",
+        "z": "9441712c.a6198",
+        "group": "c3776e2a.f6068",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "Lettuces",
+        "label": "<b><i class=\"fa fa-sliders\"></i> Lettuces</b>",
+        "format": "",
+        "layout": "row-left",
+        "x": 100,
+        "y": 1700,
+        "wires": []
+    },
+    {
+        "id": "962b5d8f.5b1c",
+        "type": "function",
+        "z": "9441712c.a6198",
+        "name": "Save global variable",
+        "func": "global.set('crops.lettuce.schedule.germinated',msg.payload);",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 760,
+        "y": 1760,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "892b7308.9252e",
+        "type": "persist in",
+        "z": "9441712c.a6198",
+        "name": "crops.lettuce.schedule.germinated",
+        "storageNode": "217cc961.603ce6",
+        "x": 800,
+        "y": 1800,
+        "wires": []
+    },
+    {
+        "id": "648d9af7.b6ea04",
+        "type": "link out",
+        "z": "9441712c.a6198",
+        "name": "Change total light slider",
+        "links": [
+            "3dfc5ff2.440c6"
+        ],
+        "x": 675,
+        "y": 1720,
+        "wires": []
+    },
+    {
+        "id": "806e5cc.38ef0a",
+        "type": "ui_numeric",
+        "z": "9441712c.a6198",
+        "name": "Lettuce - Days to germinate",
+        "label": "<i class=\"fa fa-clock-o\"> Time to germinate</i>",
+        "tooltip": "",
+        "group": "c3776e2a.f6068",
+        "order": 3,
+        "width": 5,
+        "height": 1,
+        "wrap": false,
+        "passthru": true,
+        "topic": "",
+        "format": "{{value}} days",
+        "min": 0,
+        "max": "30",
+        "step": 1,
+        "x": 480,
+        "y": 1760,
+        "wires": [
+            [
+                "648d9af7.b6ea04",
+                "962b5d8f.5b1c",
+                "892b7308.9252e"
+            ]
+        ]
+    },
+    {
+        "id": "64d34a11.4b3384",
+        "type": "persist out",
+        "z": "9441712c.a6198",
+        "name": "crops.lettuce.schedule.germinated",
+        "storageNode": "217cc961.603ce6",
+        "x": 200,
+        "y": 1760,
+        "wires": [
+            [
+                "806e5cc.38ef0a"
+            ]
+        ]
+    },
+    {
+        "id": "f702119a.8a2c2",
+        "type": "function",
+        "z": "9441712c.a6198",
+        "name": "Save global variable",
+        "func": "global.set('crops.lettuce.schedule.transplant',msg.payload);",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 760,
+        "y": 1880,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "784c3ffe.5b6bd",
+        "type": "persist in",
+        "z": "9441712c.a6198",
+        "name": "crops.lettuce.schedule.transplant",
+        "storageNode": "217cc961.603ce6",
+        "x": 800,
+        "y": 1920,
+        "wires": []
+    },
+    {
+        "id": "db6792a8.788f5",
+        "type": "link out",
+        "z": "9441712c.a6198",
+        "name": "Change total light slider",
+        "links": [
+            "3dfc5ff2.440c6"
+        ],
+        "x": 675,
+        "y": 1840,
+        "wires": []
+    },
+    {
+        "id": "99bc9475.951468",
+        "type": "ui_numeric",
+        "z": "9441712c.a6198",
+        "name": "Lettuce - Days to transplant",
+        "label": "<i class=\"fa fa-clock-o\"> Time to transplant</i>",
+        "tooltip": "",
+        "group": "c3776e2a.f6068",
+        "order": 3,
+        "width": 5,
+        "height": 1,
+        "wrap": false,
+        "passthru": true,
+        "topic": "",
+        "format": "{{value}} days",
+        "min": 0,
+        "max": "30",
+        "step": 1,
+        "x": 480,
+        "y": 1880,
+        "wires": [
+            [
+                "db6792a8.788f5",
+                "f702119a.8a2c2",
+                "784c3ffe.5b6bd"
+            ]
+        ]
+    },
+    {
+        "id": "e427c34e.15a1f",
+        "type": "persist out",
+        "z": "9441712c.a6198",
+        "name": "crops.lettuce.schedule.transplant",
+        "storageNode": "217cc961.603ce6",
+        "x": 200,
+        "y": 1880,
+        "wires": [
+            [
+                "99bc9475.951468"
+            ]
+        ]
+    },
+    {
+        "id": "66ed85bf.4efe0c",
+        "type": "function",
+        "z": "9441712c.a6198",
+        "name": "Save global variable",
+        "func": "global.set('crops.lettuce.schedule.harvest',msg.payload);",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 740,
+        "y": 2020,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d12156.9e8a1ea8",
+        "type": "persist in",
+        "z": "9441712c.a6198",
+        "name": "crops.lettuce.schedule.harvest",
+        "storageNode": "217cc961.603ce6",
+        "x": 770,
+        "y": 2060,
+        "wires": []
+    },
+    {
+        "id": "8a7ded76.20298",
+        "type": "link out",
+        "z": "9441712c.a6198",
+        "name": "Change total light slider",
+        "links": [
+            "3dfc5ff2.440c6"
+        ],
+        "x": 655,
+        "y": 1980,
+        "wires": []
+    },
+    {
+        "id": "d140b1b4.093d4",
+        "type": "ui_numeric",
+        "z": "9441712c.a6198",
+        "name": "Lettuce - Days to harvest",
+        "label": "<i class=\"fa fa-clock-o\"> Time to harvest</i>",
+        "tooltip": "",
+        "group": "c3776e2a.f6068",
+        "order": 3,
+        "width": 5,
+        "height": 1,
+        "wrap": false,
+        "passthru": true,
+        "topic": "",
+        "format": "{{value}} days",
+        "min": 0,
+        "max": "45",
+        "step": 1,
+        "x": 450,
+        "y": 2020,
+        "wires": [
+            [
+                "8a7ded76.20298",
+                "66ed85bf.4efe0c",
+                "d12156.9e8a1ea8"
+            ]
+        ]
+    },
+    {
+        "id": "c7dbd13a.0564d",
+        "type": "persist out",
+        "z": "9441712c.a6198",
+        "name": "crops.lettuce.schedule.harvest",
+        "storageNode": "217cc961.603ce6",
+        "x": 170,
+        "y": 2020,
+        "wires": [
+            [
+                "d140b1b4.093d4"
             ]
         ]
     }
