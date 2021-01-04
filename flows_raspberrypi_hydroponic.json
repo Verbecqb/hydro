@@ -6512,8 +6512,26 @@
         "y": 1480,
         "wires": [
             [
-                "1e405470.fb8adc"
+                "1e405470.fb8adc",
+                "b6916d30.2c1c5"
             ]
         ]
+    },
+    {
+        "id": "b6916d30.2c1c5",
+        "type": "debug",
+        "z": "9441712c.a6198",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 800,
+        "y": 1520,
+        "wires": []
     }
 ]
