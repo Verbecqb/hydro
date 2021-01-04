@@ -6510,8 +6510,8 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 390,
-        "y": 1060,
+        "x": 410,
+        "y": 1080,
         "wires": []
     }
 ]
