@@ -1033,7 +1033,7 @@
         "collapse": false
     },
     {
-        "id": "36e89ee6.7834f2",
+        "id": "2ff5e717.33e258",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "1c4b8cb2.e1e2e3",
@@ -1042,7 +1042,7 @@
         "height": 1
     },
     {
-        "id": "5ff6632a.4bd41c",
+        "id": "7c90197.c3481e8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "1c4b8cb2.e1e2e3",
@@ -1051,7 +1051,7 @@
         "height": 1
     },
     {
-        "id": "a4af7b9b.beb618",
+        "id": "c0d891d2.07ee",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "1c4b8cb2.e1e2e3",
@@ -1060,7 +1060,7 @@
         "height": 1
     },
     {
-        "id": "f6fc101b.53ee4",
+        "id": "3217b5ea.da746a",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "1c4b8cb2.e1e2e3",
@@ -1069,7 +1069,7 @@
         "height": 1
     },
     {
-        "id": "6ef6e279.dc4aec",
+        "id": "b46c1a8d.922398",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "1c4b8cb2.e1e2e3",
@@ -1078,7 +1078,7 @@
         "height": 1
     },
     {
-        "id": "fd39e8ca.697378",
+        "id": "5af7308.a38f6d",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "1c4b8cb2.e1e2e3",
@@ -1087,7 +1087,7 @@
         "height": 1
     },
     {
-        "id": "ff30d2d9.fff29",
+        "id": "21ff1d21.565972",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "1c4b8cb2.e1e2e3",
@@ -1096,7 +1096,7 @@
         "height": 1
     },
     {
-        "id": "20ab6c46.240364",
+        "id": "9abead7e.42e44",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "1c4b8cb2.e1e2e3",
@@ -1105,7 +1105,7 @@
         "height": 1
     },
     {
-        "id": "f794ec50.26e52",
+        "id": "66e133bb.dadb8c",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "1c4b8cb2.e1e2e3",
@@ -1114,7 +1114,7 @@
         "height": 1
     },
     {
-        "id": "12a8318c.1d0c3e",
+        "id": "287cb5a9.1e2dfa",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "1c4b8cb2.e1e2e3",
@@ -1123,7 +1123,7 @@
         "height": 1
     },
     {
-        "id": "fe651e36.b4fdc",
+        "id": "daf86928.f09888",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "1c4b8cb2.e1e2e3",
@@ -1132,7 +1132,7 @@
         "height": 1
     },
     {
-        "id": "cd53e843.700f58",
+        "id": "85cb48ef.1a0ee8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "1c4b8cb2.e1e2e3",
@@ -1141,7 +1141,7 @@
         "height": 1
     },
     {
-        "id": "8404a56e.e090b8",
+        "id": "88405daf.5e674",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "1c4b8cb2.e1e2e3",
@@ -1150,7 +1150,7 @@
         "height": 1
     },
     {
-        "id": "bbe86fe5.c2241",
+        "id": "9dde8f21.0d5a7",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "1c4b8cb2.e1e2e3",
@@ -1159,7 +1159,7 @@
         "height": 1
     },
     {
-        "id": "619680bd.93155",
+        "id": "b5f8df41.16156",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "1c4b8cb2.e1e2e3",
@@ -1168,7 +1168,7 @@
         "height": 1
     },
     {
-        "id": "edd79e6f.64608",
+        "id": "e4ba1399.53f57",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "1c4b8cb2.e1e2e3",
@@ -1177,7 +1177,7 @@
         "height": 1
     },
     {
-        "id": "fe2890e4.d567c",
+        "id": "dc926ba.09bcc98",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "ae81cad0.1d5098",
@@ -1186,7 +1186,7 @@
         "height": 1
     },
     {
-        "id": "d7db5388.70ce3",
+        "id": "8ff716cd.78b788",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "ae81cad0.1d5098",
@@ -1195,7 +1195,7 @@
         "height": 1
     },
     {
-        "id": "a645c91f.c5f7a8",
+        "id": "866fd409.1cdaa8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "c3776e2a.f6068",
@@ -1204,7 +1204,7 @@
         "height": 1
     },
     {
-        "id": "da148d57.3a49b",
+        "id": "5c9dc4aa.ad673c",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "c3776e2a.f6068",
@@ -1213,11 +1213,38 @@
         "height": 1
     },
     {
-        "id": "86800ff6.1c6b3",
+        "id": "10191b8.e6d75e5",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "c3776e2a.f6068",
-        "order": 6,
+        "order": 5,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "a1a713f8.d5294",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "c3776e2a.f6068",
+        "order": 7,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "3f0b7940.1c4a96",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "c3776e2a.f6068",
+        "order": 8,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "8d83ae26.d193c",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "c3776e2a.f6068",
+        "order": 10,
         "width": 1,
         "height": 1
     },
@@ -6265,7 +6292,7 @@
         "tooltip": "",
         "group": "c3776e2a.f6068",
         "order": 3,
-        "width": 7,
+        "width": 6,
         "height": 1,
         "wrap": false,
         "passthru": true,
@@ -6344,8 +6371,8 @@
         "label": "<i class=\"fa fa-clock-o\"></i> Time to transplant",
         "tooltip": "",
         "group": "c3776e2a.f6068",
-        "order": 5,
-        "width": 7,
+        "order": 6,
+        "width": 6,
         "height": 1,
         "wrap": false,
         "passthru": true,
@@ -6424,8 +6451,8 @@
         "label": "<i class=\"fa fa-clock-o\"></i> Time to harvest",
         "tooltip": "",
         "group": "c3776e2a.f6068",
-        "order": 7,
-        "width": 7,
+        "order": 9,
+        "width": 6,
         "height": 1,
         "wrap": false,
         "passthru": true,
