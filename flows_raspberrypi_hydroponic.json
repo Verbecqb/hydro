@@ -6000,5 +6000,34 @@
                 "975cfcb1.b598a"
             ]
         ]
+    },
+    {
+        "id": "f27fc26f.c34f2",
+        "type": "inject",
+        "z": "1d22c714.e50369",
+        "name": "At startup",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 80,
+        "y": 1280,
+        "wires": [
+            [
+                "8e351869.97fe88"
+            ]
+        ]
     }
 ]
