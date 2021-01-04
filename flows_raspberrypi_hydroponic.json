@@ -1237,6 +1237,16 @@
         "height": 1
     },
     {
+        "id": "97fc29b5.9cfb68",
+        "type": "ui_group",
+        "name": "NFT ",
+        "tab": "352c089f.6b44d8",
+        "order": 9,
+        "disp": true,
+        "width": "16",
+        "collapse": false
+    },
+    {
         "id": "e30bc267.9a60e",
         "type": "mqtt in",
         "z": "1d22c714.e50369",
@@ -6389,7 +6399,7 @@
         "id": "281bada.51a1b52",
         "type": "ui_template",
         "z": "5e9d2991.0ea428",
-        "group": "40dc9b6d.55ee84",
+        "group": "97fc29b5.9cfb68",
         "name": "Seed tray - crops planning",
         "order": 1,
         "width": 8,
