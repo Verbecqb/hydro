@@ -6400,7 +6400,7 @@
         "type": "ui_template",
         "z": "5e9d2991.0ea428",
         "group": "97fc29b5.9cfb68",
-        "name": "Seed tray - crops planning",
+        "name": "NFT - State",
         "order": 1,
         "width": 8,
         "height": 12,
@@ -6409,7 +6409,7 @@
         "fwdInMessages": false,
         "resendOnRefresh": true,
         "templateScope": "local",
-        "x": 360,
+        "x": 330,
         "y": 480,
         "wires": [
             [
