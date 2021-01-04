@@ -6204,7 +6204,7 @@
         "type": "function",
         "z": "1d22c714.e50369",
         "name": "",
-        "func": "// Receive a reset message\nif (msg.payload[0] == \"seedTrayNumberOfColumns\" || msg.payload[1] == \"seedTrayNumberOfColumns\") {\n    \n}\n\nmsg.seedTray = msg.seedTrayState;\nfor (var item in msg.seedTray) {\n        \n    if(msg.seedTray[item].category == \"empty\") {\n        msg.seedTray[item][\"nextAction\"] = \"plantSeed\";\n        msg.seedTray[item][\"iconAction\"] = \"http://10.0.0.10:1880/seeding.png\";\n    }\n    \n    if(Date.parse(msg.seedTray[item][\"transplantDate\"] + \" 00:00:00 GMT\") <= new Date().getTime()) {\n        msg.seedTray[item][\"nextAction\"] = \"transplant\";\n        msg.seedTray[item][\"iconAction\"] = \"http://10.0.0.10:1880/action-transplant.png\";\n    }\n        \n}\n    \n        \nreturn msg;",
+        "func": "\n\n// Receive a reset message\nif (msg.payload == \"refresh\") {\n    var rows = global.get(\"crops.seedTray.size.rows\");\n    var columns = global.get(\"crops.seedTray.size.columns\");\n    \n    msg.seedTray = [];\n    for (var i = 0 ; i < columns ; i++) {\n        for (var j=0 ; i < rows ; j++) {\n            var tmp = {\n                \"column\":  String.fromCharCode(i + 64),\n                \"row\": j,\n                \"category\": \"empty\"\n            }\n            msg.seedTray.push(tmp);\n        }\n    }\n    \n    \n} else { \n    msg.seedTray = msg.seedTrayState;\n}\n\nfor (var item in msg.seedTray) {\n        \n    if(msg.seedTray[item].category == \"empty\") {\n        msg.seedTray[item][\"nextAction\"] = \"plantSeed\";\n        msg.seedTray[item][\"iconAction\"] = \"http://10.0.0.10:1880/seeding.png\";\n    }\n    \n    if(Date.parse(msg.seedTray[item][\"transplantDate\"] + \" 00:00:00 GMT\") <= new Date().getTime()) {\n        msg.seedTray[item][\"nextAction\"] = \"transplant\";\n        msg.seedTray[item][\"iconAction\"] = \"http://10.0.0.10:1880/action-transplant.png\";\n    }\n        \n}\n    \n        \nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -6258,6 +6258,7 @@
         "once": false,
         "onceDelay": 0.1,
         "topic": "",
+        "payloadType": "str",
         "x": 180,
         "y": 1060,
         "wires": [
