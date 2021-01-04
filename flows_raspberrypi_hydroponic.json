@@ -5993,11 +5993,11 @@
         "id": "3d8036b.62a1dca",
         "type": "inject",
         "z": "1d22c714.e50369",
-        "name": "DEBUG - reset storage ",
+        "name": "DEBUG - reset storage test",
         "props": [
             {
                 "p": "seedTrayState",
-                "v": "[{\"column\":\"A\",\"row\":\"1\",\"category\":\"salad\",\"seedPlantedDate\":\"2020-12-29\",\"germinationDate\":\"2021-01-02\",\"transplantDate\":\"2021-01-04\",\"harvestDate\":\"2021-01-06\"},{\"column\":\"B\",\"row\":\"1\",\"category\":\"empty\"},{\"column\":\"C\",\"row\":\"1\",\"category\":\"empty\"},{\"column\":\"A\",\"row\":\"2\",\"category\":\"salad\",\"seedPlantedDate\":\"2020-12-29\",\"germinationDate\":\"2021-01-18\",\"harvestDate\":\"2021-01-21\"},{\"column\":\"B\",\"row\":\"2\",\"category\":\"empty\"},{\"column\":\"C\",\"row\":\"2\",\"category\":\"empty\"}]",
+                "v": "[{\"column\":\"A\",\"row\":\"1\",\"category\":\"salad\",\"seedPlantedDate\":\"2020-12-29\",\"germinationDate\":\"2021-01-02\",\"transplantDate\":\"2021-01-04\",\"harvestDate\":\"2021-01-06\"},{\"column\":\"B\",\"row\":\"1\",\"category\":\"empty\"},{\"column\":\"C\",\"row\":\"1\",\"category\":\"salad\",\"seedPlantedDate\":\"2020-12-20\",\"germinationDate\":\"2021-01-02\",\"transplantDate\":\"2021-01-08\",\"harvestDate\":\"2021-01-06\"},{\"column\":\"A\",\"row\":\"2\",\"category\":\"salad\",\"seedPlantedDate\":\"2020-12-29\",\"germinationDate\":\"2021-01-18\",\"harvestDate\":\"2021-01-21\"},{\"column\":\"B\",\"row\":\"2\",\"category\":\"empty\"},{\"column\":\"C\",\"row\":\"2\",\"category\":\"empty\"}]",
                 "vt": "json"
             }
         ],
@@ -6006,8 +6006,7 @@
         "once": false,
         "onceDelay": 0.1,
         "topic": "",
-        "payloadType": "str",
-        "x": 140,
+        "x": 160,
         "y": 1000,
         "wires": [
             [
