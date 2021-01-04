@@ -5981,8 +5981,8 @@
         "z": "1d22c714.e50369",
         "name": "seedTrayState",
         "storageNode": "e1094939.96bd98",
-        "x": 460,
-        "y": 1100,
+        "x": 500,
+        "y": 1140,
         "wires": []
     },
     {
@@ -6017,164 +6017,12 @@
         "onceDelay": 0.1,
         "topic": "",
         "payloadType": "str",
-        "x": 180,
-        "y": 1060,
+        "x": 140,
+        "y": 1000,
         "wires": [
             [
                 "7d7d9559.e1c4cc",
                 "975cfcb1.b598a"
-            ]
-        ]
-    },
-    {
-        "id": "b2d057b9.54f7d8",
-        "type": "function",
-        "z": "9441712c.a6198",
-        "name": "Save global variable",
-        "func": "global.set('crops.seedTray.size.rows',msg.payload);",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "x": 760,
-        "y": 1380,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "85a0aee6.eaf03",
-        "type": "persist in",
-        "z": "9441712c.a6198",
-        "name": "crops.seedTray.size.rows",
-        "storageNode": "217cc961.603ce6",
-        "x": 770,
-        "y": 1420,
-        "wires": []
-    },
-    {
-        "id": "f4d9f92.2fa3208",
-        "type": "ui_numeric",
-        "z": "9441712c.a6198",
-        "name": "Seed Tray - configure number of rows",
-        "label": "<i class=\"fa fa-arrows-v\"></i> Number of rows",
-        "tooltip": "Changes will erase current seed tray content.",
-        "group": "ae81cad0.1d5098",
-        "order": 3,
-        "width": 7,
-        "height": 1,
-        "wrap": false,
-        "passthru": true,
-        "topic": "",
-        "format": "{{value}}",
-        "min": 0,
-        "max": "10",
-        "step": 1,
-        "x": 450,
-        "y": 1400,
-        "wires": [
-            [
-                "b2d057b9.54f7d8",
-                "85a0aee6.eaf03"
-            ]
-        ]
-    },
-    {
-        "id": "b141908.6dc2c7",
-        "type": "persist out",
-        "z": "9441712c.a6198",
-        "name": "crops.seedTray.size.rows",
-        "storageNode": "217cc961.603ce6",
-        "x": 150,
-        "y": 1400,
-        "wires": [
-            [
-                "f4d9f92.2fa3208"
-            ]
-        ]
-    },
-    {
-        "id": "f4f6def0.19595",
-        "type": "ui_text",
-        "z": "9441712c.a6198",
-        "group": "ae81cad0.1d5098",
-        "order": 1,
-        "width": 0,
-        "height": 0,
-        "name": "Seed tray - size configuration",
-        "label": "<b><i class=\"fa fa-sliders\"></i> Seed Tray </b>",
-        "format": "",
-        "layout": "row-left",
-        "x": 160,
-        "y": 1340,
-        "wires": []
-    },
-    {
-        "id": "ac1bbcb7.24b75",
-        "type": "function",
-        "z": "9441712c.a6198",
-        "name": "Save global variable",
-        "func": "global.set('crops.seedTray.size.columns',msg.payload);",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "x": 740,
-        "y": 1540,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "1e405470.fb8adc",
-        "type": "link out",
-        "z": "9441712c.a6198",
-        "name": "Change total light slider",
-        "links": [
-            "b7c596db.436a68"
-        ],
-        "x": 795,
-        "y": 1480,
-        "wires": []
-    },
-    {
-        "id": "ac2364e7.ef2968",
-        "type": "ui_numeric",
-        "z": "9441712c.a6198",
-        "name": "Seed Tray - configure number of columns",
-        "label": "<i class=\"fa fa-arrows-h\"></i> Number of columns",
-        "tooltip": "Changes will erase current seed tray content.",
-        "group": "ae81cad0.1d5098",
-        "order": 5,
-        "width": 7,
-        "height": 1,
-        "wrap": false,
-        "passthru": true,
-        "topic": "",
-        "format": "{{value}}",
-        "min": 0,
-        "max": "25",
-        "step": 1,
-        "x": 460,
-        "y": 1540,
-        "wires": [
-            [
-                "ac1bbcb7.24b75",
-                "3bc602dc.1e7cce"
-            ]
-        ]
-    },
-    {
-        "id": "645fe5ad.14b85c",
-        "type": "persist out",
-        "z": "9441712c.a6198",
-        "name": "crops.seedTray.size.columns",
-        "storageNode": "217cc961.603ce6",
-        "x": 160,
-        "y": 1540,
-        "wires": [
-            [
-                "ac2364e7.ef2968"
             ]
         ]
     },
@@ -6191,7 +6039,7 @@
         "format": "",
         "layout": "row-left",
         "x": 100,
-        "y": 1700,
+        "y": 1380,
         "wires": []
     },
     {
@@ -6206,7 +6054,7 @@
         "initialize": "",
         "finalize": "",
         "x": 760,
-        "y": 1760,
+        "y": 1440,
         "wires": [
             []
         ]
@@ -6219,7 +6067,7 @@
         "name": "crops.lettuce.schedule.germinated",
         "storageNode": "217cc961.603ce6",
         "x": 800,
-        "y": 1800,
+        "y": 1480,
         "wires": []
     },
     {
@@ -6231,7 +6079,7 @@
             "3dfc5ff2.440c6"
         ],
         "x": 675,
-        "y": 1720,
+        "y": 1400,
         "wires": []
     },
     {
@@ -6254,7 +6102,7 @@
         "max": "30",
         "step": 1,
         "x": 480,
-        "y": 1760,
+        "y": 1440,
         "wires": [
             [
                 "648d9af7.b6ea04",
@@ -6271,7 +6119,7 @@
         "name": "crops.lettuce.schedule.germinated",
         "storageNode": "217cc961.603ce6",
         "x": 200,
-        "y": 1760,
+        "y": 1440,
         "wires": [
             [
                 "806e5cc.38ef0a"
@@ -6290,7 +6138,7 @@
         "initialize": "",
         "finalize": "",
         "x": 760,
-        "y": 1880,
+        "y": 1560,
         "wires": [
             []
         ]
@@ -6303,7 +6151,7 @@
         "name": "crops.lettuce.schedule.transplant",
         "storageNode": "217cc961.603ce6",
         "x": 800,
-        "y": 1920,
+        "y": 1600,
         "wires": []
     },
     {
@@ -6315,7 +6163,7 @@
             "3dfc5ff2.440c6"
         ],
         "x": 675,
-        "y": 1840,
+        "y": 1520,
         "wires": []
     },
     {
@@ -6338,7 +6186,7 @@
         "max": "30",
         "step": 1,
         "x": 480,
-        "y": 1880,
+        "y": 1560,
         "wires": [
             [
                 "db6792a8.788f5",
@@ -6355,7 +6203,7 @@
         "name": "crops.lettuce.schedule.transplant",
         "storageNode": "217cc961.603ce6",
         "x": 200,
-        "y": 1880,
+        "y": 1560,
         "wires": [
             [
                 "99bc9475.951468"
@@ -6374,7 +6222,7 @@
         "initialize": "",
         "finalize": "",
         "x": 740,
-        "y": 2020,
+        "y": 1700,
         "wires": [
             []
         ]
@@ -6387,7 +6235,7 @@
         "name": "crops.lettuce.schedule.harvest",
         "storageNode": "217cc961.603ce6",
         "x": 770,
-        "y": 2060,
+        "y": 1740,
         "wires": []
     },
     {
@@ -6399,7 +6247,7 @@
             "3dfc5ff2.440c6"
         ],
         "x": 655,
-        "y": 1980,
+        "y": 1660,
         "wires": []
     },
     {
@@ -6422,7 +6270,7 @@
         "max": "45",
         "step": 1,
         "x": 450,
-        "y": 2020,
+        "y": 1700,
         "wires": [
             [
                 "8a7ded76.20298",
@@ -6439,63 +6287,10 @@
         "name": "crops.lettuce.schedule.harvest",
         "storageNode": "217cc961.603ce6",
         "x": 170,
-        "y": 2020,
+        "y": 1700,
         "wires": [
             [
                 "d140b1b4.093d4"
-            ]
-        ]
-    },
-    {
-        "id": "b7c596db.436a68",
-        "type": "link in",
-        "z": "1d22c714.e50369",
-        "name": "Crop management - change seed tray size",
-        "links": [
-            "1e405470.fb8adc",
-            "42722aea.c31e24"
-        ],
-        "x": 15,
-        "y": 1140,
-        "wires": [
-            [
-                "7d7d9559.e1c4cc"
-            ]
-        ]
-    },
-    {
-        "id": "fd783597.41f558",
-        "type": "comment",
-        "z": "9441712c.a6198",
-        "name": "#TODO Add a button to validate change of tray size",
-        "info": "",
-        "x": 370,
-        "y": 1480,
-        "wires": []
-    },
-    {
-        "id": "af3bfe47.1ea7f",
-        "type": "ui_button",
-        "z": "9441712c.a6198",
-        "name": "",
-        "group": "ae81cad0.1d5098",
-        "order": 7,
-        "width": 4,
-        "height": 1,
-        "passthru": false,
-        "label": "Apply and refresh seed tray",
-        "tooltip": "",
-        "color": "",
-        "bgcolor": "",
-        "icon": "",
-        "payload": "refresh",
-        "payloadType": "str",
-        "topic": "",
-        "x": 620,
-        "y": 1480,
-        "wires": [
-            [
-                "1e405470.fb8adc"
             ]
         ]
     },
@@ -6517,13 +6312,29 @@
         "wires": []
     },
     {
-        "id": "3bc602dc.1e7cce",
-        "type": "persist in",
-        "z": "9441712c.a6198",
-        "name": "crops.seedTray.size.columns",
-        "storageNode": "217cc961.603ce6",
-        "x": 760,
-        "y": 1580,
-        "wires": []
+        "id": "4816f5ac.109c6c",
+        "type": "inject",
+        "z": "1d22c714.e50369",
+        "name": "DEBUG - reset storage empty",
+        "props": [
+            {
+                "p": "seedTrayState",
+                "v": "[{\"column\":\"A\",\"row\":\"1\",\"category\":\"empty\"},{\"column\":\"B\",\"row\":\"1\",\"category\":\"empty\"},{\"column\":\"C\",\"row\":\"1\",\"category\":\"empty\"},{\"column\":\"A\",\"row\":\"2\",\"category\":\"empty\"},{\"column\":\"B\",\"row\":\"2\",\"category\":\"empty\"},{\"column\":\"C\",\"row\":\"2\",\"category\":\"empty\"},{\"column\":\"A\",\"row\":\"3\",\"category\":\"empty\"},{\"column\":\"B\",\"row\":\"3\",\"category\":\"empty\"},{\"column\":\"C\",\"row\":\"3\",\"category\":\"empty\"}]",
+                "vt": "json"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 160,
+        "y": 1040,
+        "wires": [
+            [
+                "975cfcb1.b598a",
+                "7d7d9559.e1c4cc"
+            ]
+        ]
     }
 ]
