@@ -5988,7 +5988,7 @@
         "type": "function",
         "z": "1d22c714.e50369",
         "name": "",
-        "func": "msg.seedTray = msg.seedTrayState;\nfor (var item in msg.seedTray) {\n        \n    if(msg.seedTray[item].category == \"empty\") {\n        msg.seedTray[item][\"nextAction\"] = \"plantSeed\";\n        msg.seedTray[item][\"iconAction\"] = \"http://10.0.0.10:1880/seeding.png\";\n    }\n    \n    if(Date.parse(msg.seedTray[item][\"transplantDate\"] + \" 00:00:00 GMT\") <= new Date().getTime()) {\n        msg.seedTray[item][\"nextAction\"] = \"transplant\";\n        msg.seedTray[item][\"iconAction\"] = \"http://10.0.0.10:1880/action-transplant.png\";\n    }\n        \n}\n    \n        \nreturn msg;",
+        "func": "// Receive a reset message\nif (msg.payload[0] == \"seedTrayNumberOfColumns\" || msg.payload[1] == \"seedTrayNumberOfColumns\") {\n    \n}\n\nmsg.seedTray = msg.seedTrayState;\nfor (var item in msg.seedTray) {\n        \n    if(msg.seedTray[item].category == \"empty\") {\n        msg.seedTray[item][\"nextAction\"] = \"plantSeed\";\n        msg.seedTray[item][\"iconAction\"] = \"http://10.0.0.10:1880/seeding.png\";\n    }\n    \n    if(Date.parse(msg.seedTray[item][\"transplantDate\"] + \" 00:00:00 GMT\") <= new Date().getTime()) {\n        msg.seedTray[item][\"nextAction\"] = \"transplant\";\n        msg.seedTray[item][\"iconAction\"] = \"http://10.0.0.10:1880/action-transplant.png\";\n    }\n        \n}\n    \n        \nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -6494,7 +6494,7 @@
         "z": "9441712c.a6198",
         "name": "",
         "mode": "custom",
-        "build": "array",
+        "build": "merged",
         "property": "",
         "propertyType": "full",
         "key": "topic",
@@ -6512,26 +6512,18 @@
         "y": 1480,
         "wires": [
             [
-                "1e405470.fb8adc",
-                "b6916d30.2c1c5"
+                "1e405470.fb8adc"
             ]
         ]
     },
     {
-        "id": "b6916d30.2c1c5",
-        "type": "debug",
+        "id": "fd783597.41f558",
+        "type": "comment",
         "z": "9441712c.a6198",
-        "name": "",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 800,
-        "y": 1520,
+        "name": "#TODO Add a button to validate change of tray size",
+        "info": "",
+        "x": 370,
+        "y": 1480,
         "wires": []
     }
 ]
