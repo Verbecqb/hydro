@@ -5892,7 +5892,6 @@
         "y": 1140,
         "wires": [
             [
-                "2cebecae.92d324",
                 "975cfcb1.b598a",
                 "8e351869.97fe88"
             ]
@@ -5917,23 +5916,6 @@
         ]
     },
     {
-        "id": "2cebecae.92d324",
-        "type": "debug",
-        "z": "1d22c714.e50369",
-        "name": "",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 450,
-        "y": 1100,
-        "wires": []
-    },
-    {
         "id": "975cfcb1.b598a",
         "type": "persist in",
         "z": "1d22c714.e50369",
@@ -5949,37 +5931,19 @@
         "z": "1d22c714.e50369",
         "name": "seedTrayState",
         "storageNode": "e1094939.96bd98",
-        "x": 280,
-        "y": 1280,
+        "x": 240,
+        "y": 1240,
         "wires": [
             [
-                "7d7d9559.e1c4cc",
-                "60f424d4.e350fc"
+                "7d7d9559.e1c4cc"
             ]
         ]
-    },
-    {
-        "id": "60f424d4.e350fc",
-        "type": "debug",
-        "z": "1d22c714.e50369",
-        "name": "",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 490,
-        "y": 1280,
-        "wires": []
     },
     {
         "id": "3d8036b.62a1dca",
         "type": "inject",
         "z": "1d22c714.e50369",
-        "name": "",
+        "name": "DEBUG - reset storage ",
         "props": [
             {
                 "p": "seedTrayState",
@@ -5992,41 +5956,12 @@
         "once": false,
         "onceDelay": 0.1,
         "topic": "",
-        "x": 130,
-        "y": 1020,
+        "x": 180,
+        "y": 1060,
         "wires": [
             [
                 "7d7d9559.e1c4cc",
                 "975cfcb1.b598a"
-            ]
-        ]
-    },
-    {
-        "id": "f27fc26f.c34f2",
-        "type": "inject",
-        "z": "1d22c714.e50369",
-        "name": "At startup",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": true,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 80,
-        "y": 1280,
-        "wires": [
-            [
-                "8e351869.97fe88"
             ]
         ]
     }
