@@ -1023,16 +1023,6 @@
         "collapse": false
     },
     {
-        "id": "ae81cad0.1d5098",
-        "type": "ui_group",
-        "name": "Grow mediums ",
-        "tab": "8073017c.fb41a",
-        "order": 2,
-        "disp": true,
-        "width": 8,
-        "collapse": false
-    },
-    {
         "id": "129f7824.989da8",
         "type": "ui_spacer",
         "name": "spacer",
