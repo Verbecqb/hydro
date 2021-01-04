@@ -760,25 +760,16 @@
         "interval": "60"
     },
     {
-        "id": "8c3a90fb.471f",
+        "id": "8840cbd.3b39a38",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "1c37dc0b.ce28e4",
         "order": 5,
-        "width": 9,
+        "width": 5,
         "height": 1
     },
     {
-        "id": "b2d11055.a1dac",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "1c37dc0b.ce28e4",
-        "order": 6,
-        "width": 20,
-        "height": 1
-    },
-    {
-        "id": "8c0ef966.3ebe28",
+        "id": "588e47db.d901c8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "1c37dc0b.ce28e4",
@@ -787,88 +778,88 @@
         "height": 1
     },
     {
-        "id": "a425c536.5040c8",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "1c37dc0b.ce28e4",
-        "order": 12,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "340a1e39.0e6282",
+        "id": "71b72044.08cf4",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
         "order": 2,
-        "width": 5,
+        "width": 2,
         "height": 1
     },
     {
-        "id": "990c5012.ae79b",
+        "id": "2f921a0e.274006",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
         "order": 4,
-        "width": 5,
+        "width": 1,
         "height": 1
     },
     {
-        "id": "aa3d840e.ccfb78",
+        "id": "ac77e9e4.f98178",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
         "order": 6,
-        "width": 2,
+        "width": 1,
         "height": 1
     },
     {
-        "id": "add8893e.24b098",
+        "id": "d05a16a7.aeef08",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
         "order": 7,
-        "width": 8,
+        "width": 1,
         "height": 1
     },
     {
-        "id": "a2d5bd4a.be918",
+        "id": "910b43da.bbfa3",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
         "order": 9,
-        "width": 2,
+        "width": 1,
         "height": 1
     },
     {
-        "id": "9d560525.1917e8",
+        "id": "ab4887d4.889bb8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
-        "order": 12,
-        "width": 2,
+        "order": 11,
+        "width": 1,
         "height": 1
     },
     {
-        "id": "d47c066.7b880f8",
+        "id": "6dad7d8d.800f94",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
         "order": 13,
-        "width": 8,
+        "width": 1,
         "height": 1
     },
     {
-        "id": "ee5b76fc.a79be8",
+        "id": "26654984.7d93d6",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
-        "order": 15,
-        "width": 2,
+        "order": 14,
+        "width": 1,
         "height": 1
     },
     {
-        "id": "aa5d3e92.d9963",
+        "id": "75a7227d.68c00c",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "8a9b009f.1b35d",
+        "order": 16,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "976d2989.c769e8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "65d119b5.66cb78",
@@ -877,7 +868,7 @@
         "height": 1
     },
     {
-        "id": "7c529e71.2d95c",
+        "id": "860deaca.091308",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "65d119b5.66cb78",
@@ -886,7 +877,7 @@
         "height": 1
     },
     {
-        "id": "53bbeb0c.1485f4",
+        "id": "88ce3933.d51788",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "65d119b5.66cb78",
@@ -895,7 +886,7 @@
         "height": 1
     },
     {
-        "id": "c2046ddc.181a1",
+        "id": "af50df43.76c71",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "65d119b5.66cb78",
@@ -904,7 +895,7 @@
         "height": 1
     },
     {
-        "id": "7198a3c0.dd434c",
+        "id": "f443252.a64b4d8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -913,7 +904,7 @@
         "height": 1
     },
     {
-        "id": "38a9361.287ebca",
+        "id": "74a431a9.ec753",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -922,7 +913,7 @@
         "height": 1
     },
     {
-        "id": "b4118f3.9ae197",
+        "id": "6c5bb630.0ab4b8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -931,7 +922,7 @@
         "height": 1
     },
     {
-        "id": "37c6047e.e3510c",
+        "id": "97bc811e.ee597",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -940,7 +931,7 @@
         "height": 1
     },
     {
-        "id": "b564df86.80f11",
+        "id": "dd321ed.5b02ee",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -949,7 +940,7 @@
         "height": 1
     },
     {
-        "id": "40d27686.28e338",
+        "id": "51ca5997.f99e48",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -958,966 +949,210 @@
         "height": 1
     },
     {
-        "id": "69d71f39.59c2c",
+        "id": "26a9daf6.3a6f46",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
-        "order": 11,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "f184c1b1.11f46",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "8d4aab9b.4d6328",
-        "order": 15,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "72359dd5.59e8f4",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "8d4aab9b.4d6328",
-        "order": 16,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "59e2f5b5.4ded2c",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "8d4aab9b.4d6328",
-        "order": 20,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "a51ba31d.f4a16",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "45199dde.854f64",
-        "order": 2,
-        "width": 4,
-        "height": 1
-    },
-    {
-        "id": "64661531.da157c",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "45199dde.854f64",
-        "order": 4,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "1b9715b6.b9ef5a",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "45199dde.854f64",
-        "order": 5,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "b27d3d9b.65888",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "45199dde.854f64",
-        "order": 6,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "9ffe741.2137788",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "45199dde.854f64",
-        "order": 8,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "e90864a5.2cbf08",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "45199dde.854f64",
-        "order": 12,
-        "width": 2,
-        "height": 1
-    },
-    {
-        "id": "ed6dee1b.46cd8",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "45199dde.854f64",
-        "order": 13,
-        "width": 5,
-        "height": 1
-    },
-    {
-        "id": "4887e69a.7c5468",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "45199dde.854f64",
-        "order": 14,
-        "width": 5,
-        "height": 1
-    },
-    {
-        "id": "89e80c58.7ac46",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "6c15eb0d.8f5814",
-        "order": 3,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "a8fa26d3.825ed8",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "6c15eb0d.8f5814",
-        "order": 4,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "4fdce4c.daeaf1c",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "6c15eb0d.8f5814",
-        "order": 5,
-        "width": 5,
-        "height": 1
-    },
-    {
-        "id": "35623933.95ad16",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "6c15eb0d.8f5814",
-        "order": 7,
-        "width": 5,
-        "height": 1
-    },
-    {
-        "id": "ed9e35b8.1615c8",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "6c15eb0d.8f5814",
-        "order": 9,
-        "width": 4,
-        "height": 1
-    },
-    {
-        "id": "c2ea0834.69e7e8",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "6c15eb0d.8f5814",
-        "order": 10,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "36fd859.3474d7a",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "6c15eb0d.8f5814",
         "order": 13,
         "width": 2,
         "height": 1
     },
     {
-        "id": "829a7a86.bcf9d8",
+        "id": "9d488dd4.b9218",
         "type": "ui_spacer",
         "name": "spacer",
-        "group": "6c15eb0d.8f5814",
-        "order": 14,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "9b0c5436.586008",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "6c15eb0d.8f5814",
+        "group": "8d4aab9b.4d6328",
         "order": 17,
         "width": 2,
         "height": 1
     },
     {
-        "id": "badbc346.e0e67",
+        "id": "d999f6d.e391908",
         "type": "ui_spacer",
         "name": "spacer",
-        "group": "1c37dc0b.ce28e4",
-        "order": 5,
-        "width": 9,
-        "height": 1
-    },
-    {
-        "id": "99948570.ec70f8",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "1c37dc0b.ce28e4",
-        "order": 6,
-        "width": 20,
-        "height": 1
-    },
-    {
-        "id": "bac64933.5776b8",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "1c37dc0b.ce28e4",
-        "order": 10,
-        "width": 9,
-        "height": 1
-    },
-    {
-        "id": "fa0239b2.a7c6a8",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "1c37dc0b.ce28e4",
-        "order": 12,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "6f149a60.328064",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "8a9b009f.1b35d",
+        "group": "45199dde.854f64",
         "order": 2,
-        "width": 5,
-        "height": 1
-    },
-    {
-        "id": "42248baf.22a114",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "8a9b009f.1b35d",
-        "order": 4,
-        "width": 5,
-        "height": 1
-    },
-    {
-        "id": "2a3fa00e.f50f4",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "8a9b009f.1b35d",
-        "order": 6,
-        "width": 2,
-        "height": 1
-    },
-    {
-        "id": "8673c7dd.4b3d28",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "8a9b009f.1b35d",
-        "order": 7,
-        "width": 8,
-        "height": 1
-    },
-    {
-        "id": "14058371.7f5fbd",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "8a9b009f.1b35d",
-        "order": 9,
-        "width": 2,
-        "height": 1
-    },
-    {
-        "id": "4bcbf3b4.30304c",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "8a9b009f.1b35d",
-        "order": 12,
-        "width": 2,
-        "height": 1
-    },
-    {
-        "id": "7b2f604a.474f9",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "8a9b009f.1b35d",
-        "order": 13,
-        "width": 8,
-        "height": 1
-    },
-    {
-        "id": "96f5c34c.8b9bf",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "8a9b009f.1b35d",
-        "order": 15,
-        "width": 2,
-        "height": 1
-    },
-    {
-        "id": "4b9d294d.445bd8",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "65d119b5.66cb78",
-        "order": 1,
         "width": 4,
         "height": 1
     },
     {
-        "id": "f67cbc56.31f52",
+        "id": "282c3d72.d2a302",
         "type": "ui_spacer",
         "name": "spacer",
-        "group": "65d119b5.66cb78",
-        "order": 3,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "50082ddc.83c3e4",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "65d119b5.66cb78",
-        "order": 5,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "270e3103.ced90e",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "65d119b5.66cb78",
-        "order": 6,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "66a26023.e1ec8",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "8d4aab9b.4d6328",
-        "order": 3,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "19c772b1.bc3f3d",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "8d4aab9b.4d6328",
+        "group": "45199dde.854f64",
         "order": 4,
         "width": 1,
         "height": 1
     },
     {
-        "id": "3fce8e82.1778b2",
+        "id": "3314362e.0ff98a",
         "type": "ui_spacer",
         "name": "spacer",
-        "group": "8d4aab9b.4d6328",
+        "group": "45199dde.854f64",
         "order": 5,
         "width": 1,
         "height": 1
     },
     {
-        "id": "7f9b10b3.a664",
+        "id": "31205254.ff88de",
         "type": "ui_spacer",
         "name": "spacer",
-        "group": "8d4aab9b.4d6328",
+        "group": "45199dde.854f64",
         "order": 6,
-        "width": 4,
+        "width": 1,
         "height": 1
     },
     {
-        "id": "b66a81ec.c8155",
+        "id": "4db9669f.cc4e78",
         "type": "ui_spacer",
         "name": "spacer",
-        "group": "8d4aab9b.4d6328",
+        "group": "45199dde.854f64",
         "order": 8,
-        "width": 1,
+        "width": 5,
         "height": 1
     },
     {
-        "id": "641d875c.74c818",
+        "id": "7311d41f.9eab3c",
         "type": "ui_spacer",
         "name": "spacer",
-        "group": "8d4aab9b.4d6328",
-        "order": 10,
-        "width": 4,
-        "height": 1
-    },
-    {
-        "id": "52ecf701.e44428",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "8d4aab9b.4d6328",
+        "group": "45199dde.854f64",
         "order": 11,
         "width": 1,
         "height": 1
     },
     {
-        "id": "235dd22c.36145e",
+        "id": "35d1f817.bcd9b8",
         "type": "ui_spacer",
         "name": "spacer",
-        "group": "8d4aab9b.4d6328",
+        "group": "45199dde.854f64",
+        "order": 14,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "4d21e218.76b8fc",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "45199dde.854f64",
         "order": 15,
         "width": 1,
         "height": 1
     },
     {
-        "id": "2c2ab8bc.0b1fc8",
+        "id": "7762f81f.ae59e8",
         "type": "ui_spacer",
         "name": "spacer",
-        "group": "8d4aab9b.4d6328",
+        "group": "45199dde.854f64",
         "order": 16,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "20b1ae60.6cd542",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "8d4aab9b.4d6328",
-        "order": 20,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "851deb13.88d978",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "45199dde.854f64",
-        "order": 2,
         "width": 4,
         "height": 1
     },
     {
-        "id": "d6463ce7.fe107",
+        "id": "3549e61e.e0786a",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
-        "order": 4,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "4a9bf234.357cbc",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "45199dde.854f64",
-        "order": 5,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "6c37f3e2.68ae9c",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "45199dde.854f64",
-        "order": 6,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "36787422.7254fc",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "45199dde.854f64",
-        "order": 8,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "d0298b14.fc1a68",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "45199dde.854f64",
-        "order": 12,
-        "width": 2,
-        "height": 1
-    },
-    {
-        "id": "d6d7f061.3620a",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "45199dde.854f64",
-        "order": 13,
-        "width": 5,
-        "height": 1
-    },
-    {
-        "id": "2d4e9458.348a3c",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "45199dde.854f64",
-        "order": 14,
-        "width": 5,
-        "height": 1
-    },
-    {
-        "id": "603fe737.edbd98",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "6c15eb0d.8f5814",
-        "order": 3,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "980d0bab.60afc8",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "6c15eb0d.8f5814",
-        "order": 4,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "1a6f79c5.a16346",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "6c15eb0d.8f5814",
-        "order": 5,
-        "width": 5,
-        "height": 1
-    },
-    {
-        "id": "cf0bd1e.182bc3",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "6c15eb0d.8f5814",
-        "order": 7,
-        "width": 5,
-        "height": 1
-    },
-    {
-        "id": "341a9a45.d69106",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "6c15eb0d.8f5814",
-        "order": 9,
-        "width": 4,
-        "height": 1
-    },
-    {
-        "id": "c0653bf1.5d9c68",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "6c15eb0d.8f5814",
-        "order": 10,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "6a2b873d.3e8d78",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "6c15eb0d.8f5814",
-        "order": 13,
-        "width": 2,
-        "height": 1
-    },
-    {
-        "id": "6b8bcc77.c38824",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "6c15eb0d.8f5814",
-        "order": 14,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "33fedb2.5f80c24",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "6c15eb0d.8f5814",
         "order": 17,
-        "width": 2,
-        "height": 1
-    },
-    {
-        "id": "3e08e6ae.3bdd7a",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "1c37dc0b.ce28e4",
-        "order": 5,
-        "width": 9,
-        "height": 1
-    },
-    {
-        "id": "261c3837.303f38",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "1c37dc0b.ce28e4",
-        "order": 6,
-        "width": 20,
-        "height": 1
-    },
-    {
-        "id": "88f4ed22.378a8",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "1c37dc0b.ce28e4",
-        "order": 10,
-        "width": 9,
-        "height": 1
-    },
-    {
-        "id": "62e45d98.b6db54",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "1c37dc0b.ce28e4",
-        "order": 12,
         "width": 1,
         "height": 1
     },
     {
-        "id": "f729043a.7c5a18",
+        "id": "3f767afb.7b1546",
         "type": "ui_spacer",
         "name": "spacer",
-        "group": "8a9b009f.1b35d",
-        "order": 2,
-        "width": 5,
+        "group": "6c15eb0d.8f5814",
+        "order": 3,
+        "width": 1,
         "height": 1
     },
     {
-        "id": "6a87f3ff.2b390c",
+        "id": "acf94f4d.e0b42",
         "type": "ui_spacer",
         "name": "spacer",
-        "group": "8a9b009f.1b35d",
+        "group": "6c15eb0d.8f5814",
         "order": 4,
-        "width": 5,
+        "width": 1,
         "height": 1
     },
     {
-        "id": "8fcbe425.3aee68",
+        "id": "915d5006.12fb6",
         "type": "ui_spacer",
         "name": "spacer",
-        "group": "8a9b009f.1b35d",
-        "order": 6,
+        "group": "6c15eb0d.8f5814",
+        "order": 5,
         "width": 2,
         "height": 1
     },
     {
-        "id": "2e1c3397.72915c",
+        "id": "5e9efec7.175ff",
         "type": "ui_spacer",
         "name": "spacer",
-        "group": "8a9b009f.1b35d",
+        "group": "6c15eb0d.8f5814",
         "order": 7,
-        "width": 8,
+        "width": 5,
         "height": 1
     },
     {
-        "id": "860b9e50.32269",
+        "id": "9831c8b0.4bd168",
         "type": "ui_spacer",
         "name": "spacer",
-        "group": "8a9b009f.1b35d",
-        "order": 9,
-        "width": 2,
-        "height": 1
-    },
-    {
-        "id": "33dbb938.64a5c6",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "8a9b009f.1b35d",
-        "order": 12,
-        "width": 2,
-        "height": 1
-    },
-    {
-        "id": "997bb459.be17c8",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "8a9b009f.1b35d",
-        "order": 13,
-        "width": 8,
-        "height": 1
-    },
-    {
-        "id": "747521be.367e2",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "8a9b009f.1b35d",
-        "order": 15,
-        "width": 2,
-        "height": 1
-    },
-    {
-        "id": "abfa688e.3d1d78",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "65d119b5.66cb78",
-        "order": 1,
-        "width": 4,
-        "height": 1
-    },
-    {
-        "id": "b7336ed1.c15ca",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "65d119b5.66cb78",
-        "order": 3,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "bf8fe346.ce46c",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "65d119b5.66cb78",
-        "order": 5,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "aa35ef45.68975",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "65d119b5.66cb78",
-        "order": 6,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "e1cacbe8.ffcf68",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "8d4aab9b.4d6328",
-        "order": 3,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "df83a929.19ccd8",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "8d4aab9b.4d6328",
-        "order": 4,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "82b8d97a.609078",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "8d4aab9b.4d6328",
-        "order": 5,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "4bed322e.60ec4c",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "8d4aab9b.4d6328",
-        "order": 6,
-        "width": 4,
-        "height": 1
-    },
-    {
-        "id": "a65a9ade.77cfc8",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "8d4aab9b.4d6328",
-        "order": 8,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "803474db.872138",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "8d4aab9b.4d6328",
+        "group": "6c15eb0d.8f5814",
         "order": 10,
-        "width": 4,
+        "width": 1,
         "height": 1
     },
     {
-        "id": "5be608fb.b605c8",
+        "id": "b79454e2.be6f98",
         "type": "ui_spacer",
         "name": "spacer",
-        "group": "8d4aab9b.4d6328",
+        "group": "6c15eb0d.8f5814",
         "order": 11,
-        "width": 1,
+        "width": 8,
         "height": 1
     },
     {
-        "id": "deb1380a.e7a268",
+        "id": "de99ede2.9a32b",
         "type": "ui_spacer",
         "name": "spacer",
-        "group": "8d4aab9b.4d6328",
-        "order": 15,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "956f1220.db518",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "8d4aab9b.4d6328",
-        "order": 16,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "48b15c07.95f664",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "8d4aab9b.4d6328",
-        "order": 20,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "d7f24e14.80eb4",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "45199dde.854f64",
-        "order": 2,
-        "width": 4,
-        "height": 1
-    },
-    {
-        "id": "f316c8d8.b813e8",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "45199dde.854f64",
-        "order": 4,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "6f0a5698.6e79c8",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "45199dde.854f64",
-        "order": 5,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "26629b75.d633b4",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "45199dde.854f64",
-        "order": 6,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "152264b9.7ff95b",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "45199dde.854f64",
-        "order": 8,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "218f663.ae0719a",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "45199dde.854f64",
+        "group": "6c15eb0d.8f5814",
         "order": 12,
-        "width": 2,
+        "width": 8,
         "height": 1
     },
     {
-        "id": "d9cfcb9e.10d5e8",
+        "id": "97153bfc.9a5758",
         "type": "ui_spacer",
         "name": "spacer",
-        "group": "45199dde.854f64",
+        "group": "6c15eb0d.8f5814",
         "order": 13,
-        "width": 5,
+        "width": 8,
         "height": 1
     },
     {
-        "id": "4b962321.374fdc",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "45199dde.854f64",
-        "order": 14,
-        "width": 5,
-        "height": 1
-    },
-    {
-        "id": "e65d24e8.22ada8",
+        "id": "38cdbae3.49c276",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "6c15eb0d.8f5814",
-        "order": 3,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "cb3fc6ce.1defe8",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "6c15eb0d.8f5814",
-        "order": 4,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "8122f758.fee4f8",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "6c15eb0d.8f5814",
-        "order": 5,
-        "width": 5,
-        "height": 1
-    },
-    {
-        "id": "4fdb09e.bc4a8f8",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "6c15eb0d.8f5814",
-        "order": 7,
-        "width": 5,
-        "height": 1
-    },
-    {
-        "id": "8a341e20.4c024",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "6c15eb0d.8f5814",
-        "order": 9,
+        "order": 15,
         "width": 4,
         "height": 1
     },
     {
-        "id": "89f0a40e.e8aae8",
+        "id": "cbeca0c8.9cffc",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "6c15eb0d.8f5814",
-        "order": 10,
-        "width": 1,
+        "order": 16,
+        "width": 4,
         "height": 1
     },
     {
-        "id": "e457cdcf.42946",
+        "id": "3a1fab93.437084",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "6c15eb0d.8f5814",
-        "order": 13,
-        "width": 2,
-        "height": 1
-    },
-    {
-        "id": "b33fd7bd.7dd148",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "6c15eb0d.8f5814",
-        "order": 14,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "c5fa8f25.5f83",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "6c15eb0d.8f5814",
-        "order": 17,
-        "width": 2,
+        "order": 19,
+        "width": 4,
         "height": 1
     },
     {
@@ -3127,7 +2362,7 @@
         "type": "ui_artlessgauge",
         "z": "1d22c714.e50369",
         "group": "45199dde.854f64",
-        "order": 9,
+        "order": 10,
         "width": 3,
         "height": 3,
         "name": "Luminosity",
@@ -3170,7 +2405,7 @@
         "type": "ui_artlessgauge",
         "z": "1d22c714.e50369",
         "group": "8a9b009f.1b35d",
-        "order": 14,
+        "order": 15,
         "width": 6,
         "height": 1,
         "name": "Water temperature",
@@ -3455,7 +2690,7 @@
         "label": "LED  ",
         "tooltip": "Led",
         "group": "45199dde.854f64",
-        "order": 10,
+        "order": 12,
         "width": 2,
         "height": 1,
         "passthru": true,
@@ -3487,7 +2722,7 @@
         "label": "Seed spray",
         "tooltip": "",
         "group": "6c15eb0d.8f5814",
-        "order": 11,
+        "order": 17,
         "width": 4,
         "height": 1,
         "passthru": true,
@@ -3542,7 +2777,7 @@
         "type": "ui_text",
         "z": "1d22c714.e50369",
         "group": "1c37dc0b.ce28e4",
-        "order": 7,
+        "order": 9,
         "width": 4,
         "height": 1,
         "name": "Description",
@@ -3590,7 +2825,7 @@
         "type": "ui_text",
         "z": "1d22c714.e50369",
         "group": "1c37dc0b.ce28e4",
-        "order": 9,
+        "order": 7,
         "width": 4,
         "height": 1,
         "name": "SunsetTime",
@@ -3638,7 +2873,7 @@
         "type": "ui_text",
         "z": "1d22c714.e50369",
         "group": "8a9b009f.1b35d",
-        "order": 11,
+        "order": 12,
         "width": 3,
         "height": 1,
         "name": "Last refresh - water temp",
@@ -3670,7 +2905,7 @@
         "type": "ui_text",
         "z": "1d22c714.e50369",
         "group": "45199dde.854f64",
-        "order": 15,
+        "order": 7,
         "width": 3,
         "height": 1,
         "name": "Last refresh - luminosity",
@@ -3889,7 +3124,7 @@
         "label": "Sol. A",
         "tooltip": "",
         "group": "8d4aab9b.4d6328",
-        "order": 12,
+        "order": 11,
         "width": 3,
         "height": 1,
         "passthru": true,
@@ -4678,7 +3913,7 @@
         "type": "ui_text",
         "z": "1d22c714.e50369",
         "group": "6c15eb0d.8f5814",
-        "order": 12,
+        "order": 9,
         "width": 1,
         "height": 1,
         "name": "Water spray on/off state",
@@ -4972,7 +4207,7 @@
         "type": "ui_text",
         "z": "1d22c714.e50369",
         "group": "8d4aab9b.4d6328",
-        "order": 13,
+        "order": 12,
         "width": 1,
         "height": 1,
         "name": "Nutriments A pump on/off state",
@@ -5095,7 +4330,7 @@
         "label": "Sol. B",
         "tooltip": "",
         "group": "8d4aab9b.4d6328",
-        "order": 17,
+        "order": 15,
         "width": 3,
         "height": 1,
         "passthru": true,
@@ -5173,7 +4408,7 @@
         "type": "ui_text",
         "z": "1d22c714.e50369",
         "group": "8d4aab9b.4d6328",
-        "order": 18,
+        "order": 16,
         "width": 1,
         "height": 1,
         "name": "Nutriments B pump on/off state",
@@ -5398,7 +4633,7 @@
         "type": "ui_artlessgauge",
         "z": "1d22c714.e50369",
         "group": "8d4aab9b.4d6328",
-        "order": 19,
+        "order": 18,
         "width": 2,
         "height": 1,
         "name": "Solution B - remaining days gauge",
@@ -5487,7 +4722,7 @@
         "type": "ui_text",
         "z": "87cb301d.9893c",
         "group": "45199dde.854f64",
-        "order": 11,
+        "order": 13,
         "width": 1,
         "height": 1,
         "name": "LED on/off state",
@@ -5676,7 +4911,7 @@
         "type": "ui_text",
         "z": "1d22c714.e50369",
         "group": "6c15eb0d.8f5814",
-        "order": 8,
+        "order": 14,
         "width": 4,
         "height": 1,
         "name": "Water control label",
@@ -5711,7 +4946,7 @@
         "label": "Water pump",
         "tooltip": "",
         "group": "6c15eb0d.8f5814",
-        "order": 15,
+        "order": 18,
         "width": 4,
         "height": 1,
         "passthru": true,
@@ -5774,7 +5009,7 @@
         "type": "ui_text",
         "z": "87cb301d.9893c",
         "group": "6c15eb0d.8f5814",
-        "order": 16,
+        "order": 8,
         "width": 1,
         "height": 1,
         "name": "Water pump on/off state",
@@ -5790,7 +5025,7 @@
         "type": "ui_text",
         "z": "1d22c714.e50369",
         "group": "45199dde.854f64",
-        "order": 7,
+        "order": 9,
         "width": 4,
         "height": 1,
         "name": "Lights control label",
@@ -5807,8 +5042,8 @@
         "z": "1d22c714.e50369",
         "group": "1c37dc0b.ce28e4",
         "name": "Header - menu buttons",
-        "order": 11,
-        "width": 3,
+        "order": 6,
+        "width": 4,
         "height": 1,
         "format": "\n<script id=\"TopHeader\" type=\"text/javascript\">\n\nvar home = new Object();\nhome.payload = 'Hydroponic'; // This is the payload that goes out\n    \nvar schedule = new Object();\nschedule.payload = 'Schedule'; // This is the payload that goes out\n    \nvar setting = new Object();\nsetting.payload = 'Setting'; // This is the payload that goes out\n\nvar graph = new Object();\ngraph.payload = 'Graph'; // This is the payload that goes out\n    \nvar theScope = scope;\nelementsAdded = false;\n    \n$(function (scope) {\n    \n    if (scope.elementsAdded) {\n        console.log(\"elements already added. exit.\");\n        return;\n    }\n    \n    scope.elementsAdded = true;\n    \n    // add button\n    var divButtons = $('<div />');\n    divButtons[0].style.position=\"absolute\";\n    divButtons[0].style.right = \"5%\";\n    \n    var homeButton = document.createElement(\"button\");\n    homeButton.className += \"md-icon-button md-button md-ink-ripple\";\n    homeButton.innerHTML = '<i class=\"fa fa-tachometer\" aria-hidden=\"true\"></i>';\n    homeButton.addEventListener(\"click\", doIT.bind(null,home));\n    homeButton.style.margin = '5px';\n    divButtons.append(homeButton);\n    \n     // add agenda button\n    var agendaButton = document.createElement(\"button\");\n    agendaButton.className += \"md-icon-button md-button md-ink-ripple\";\n    agendaButton.innerHTML = '<i class=\"fa fa-calendar\" aria-hidden=\"true\"></i>';\n    agendaButton.addEventListener(\"click\", doIT.bind(null,schedule));\n    agendaButton.style.margin = '5px';\n    divButtons.append(agendaButton);\n   \n        \n    // add Graph button\n    var graphButton = document.createElement(\"button\");\n    graphButton.className += \"md-icon-button md-button md-ink-ripple\";\n    graphButton.innerHTML = '<i class=\"fa fa-area-chart\" aria-hidden=\"true\"></i>';\n    graphButton.addEventListener(\"click\", doIT.bind(null,graph));\n    graphButton.style.margin = '5px';\n    divButtons.append(graphButton);\n    \n    // add button\n    var settingsButton = document.createElement(\"button\");\n    settingsButton.className += \"md-icon-button md-button md-ink-ripple\";\n    settingsButton.innerHTML = '<i class=\"fa fa-sliders\" aria-hidden=\"true\"></i>';\n    settingsButton.addEventListener(\"click\", doIT.bind(null,setting));\n    settingsButton.style.margin = '5px';\n    divButtons.append(settingsButton);\n\n    \n    var toolbar = $('.md-toolbar-tools');\n    if(!toolbar.length) return;\n\n\n    toolbar.append(divButtons);  \n\n    \n    function doIT(m){\n        theScope.send( m )\n    }\n\n    function doThis(m){\n        theScope.send( m )\n    }\n\n});\n    \n</script>",
         "storeOutMessages": true,
