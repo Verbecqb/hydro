@@ -1160,6 +1160,12 @@
         "height": 1
     },
     {
+        "id": "e1094939.96bd98",
+        "type": "persist-store",
+        "filename": "/home/pi/.node-red/projects/hydro/persistence-CropsState.json",
+        "interval": "60"
+    },
+    {
         "id": "e30bc267.9a60e",
         "type": "mqtt in",
         "z": "1d22c714.e50369",
@@ -5932,7 +5938,7 @@
         "type": "persist in",
         "z": "1d22c714.e50369",
         "name": "seedTrayState",
-        "storageNode": "217cc961.603ce6",
+        "storageNode": "e1094939.96bd98",
         "x": 460,
         "y": 1200,
         "wires": []
