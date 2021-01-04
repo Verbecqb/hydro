@@ -6042,11 +6042,12 @@
         "onceDelay": 0.1,
         "topic": "",
         "payloadType": "str",
-        "x": 90,
-        "y": 1060,
+        "x": 130,
+        "y": 1020,
         "wires": [
             [
-                "7d7d9559.e1c4cc"
+                "7d7d9559.e1c4cc",
+                "975cfcb1.b598a"
             ]
         ]
     }
