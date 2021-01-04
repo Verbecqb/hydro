@@ -5903,7 +5903,7 @@
         "type": "function",
         "z": "1d22c714.e50369",
         "name": "",
-        "func": "msg.seedTray = msg.seedTrayState;\nfor (var item in msg.seedTray) {\n        \n    if(msg.seedTray[item].category == \"empty\") {\n        msg.seedTray[item][\"nextAction\"] = \"plantSeed\";\n    }\n    \n    if(Date.parse(msg.seedTray[item].transplantDate) <= new Date().getTime()) {\n        msg.seedTray[item][\"nextAction\"] = \"transplant\";\n        msg.seedTray[item][\"iconAction\"] = \"http://10.0.0.10:1880/seeding.png\";\n    }\n        \n\n        \n}\n    \n        \nreturn msg;",
+        "func": "msg.seedTray = msg.seedTrayState;\nfor (var item in msg.seedTray) {\n        \n    if(msg.seedTray[item].category == \"empty\") {\n        msg.seedTray[item][\"nextAction\"] = \"plantSeed\";\n    }\n    \n    if(Date.parse(msg.seedTray[item].transplantDate) <= new Date().getTime()) {\n        msg.seedTray[item][\"nextAction\"] = \"transplant\";\n        msg.seedTray[item][\"iconAction\"] = \"http://10.0.0.10:1880/seeding.png\";\n    }\n        \n}\n    \n        \nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
