@@ -6234,7 +6234,7 @@
             [
                 "35eb65db.60721a",
                 "7159d445.126dcc",
-                "cd107d6f.92402"
+                "590d5d39.e99054"
             ]
         ]
     },
@@ -6460,50 +6460,19 @@
         ]
     },
     {
-        "id": "6bfe5b4c.b67624",
-        "type": "debug",
-        "z": "5e9d2991.0ea428",
-        "name": "",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 670,
-        "y": 360,
-        "wires": []
-    },
-    {
         "id": "590d5d39.e99054",
         "type": "function",
         "z": "5e9d2991.0ea428",
         "name": "",
-        "func": "\n\n// Pass global varialbe\n\nmsg.lettuceDaysForGermination = global.get('crops.lettuce.schedule.germinated') || 0;\nmsg.lettuceDaysForTransplant = global.get('crops.lettuce.schedule.transplant') || 0;\nmsg.lettuceDaysForHarvest = global.get('crops.lettuce.schedule.harvest') || 0;\n    \n        \nreturn msg;",
+        "func": "\nif (msg.pushToNFT) {\n    global.set(\"NFT.update\", item)\n}\n    \n        ",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "x": 680,
-        "y": 420,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "cd107d6f.92402",
-        "type": "persist out",
-        "z": "5e9d2991.0ea428",
-        "name": "NFTState",
-        "storageNode": "e1094939.96bd98",
-        "x": 640,
         "y": 300,
         "wires": [
-            [
-                "6bfe5b4c.b67624"
-            ]
+            []
         ]
     }
 ]
