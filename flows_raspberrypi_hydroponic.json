@@ -6233,8 +6233,7 @@
         "wires": [
             [
                 "590d5d39.e99054",
-                "7877fb7a.8f12d4",
-                "66a7daed.dc4dc4"
+                "7877fb7a.8f12d4"
             ]
         ]
     },
@@ -6263,8 +6262,8 @@
         "z": "5e9d2991.0ea428",
         "name": "seedTrayState",
         "storageNode": "e1094939.96bd98",
-        "x": 460,
-        "y": 380,
+        "x": 900,
+        "y": 160,
         "wires": [
             [
                 "513fc490.e682dc"
@@ -6310,8 +6309,8 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 450,
-        "y": 140,
+        "x": 410,
+        "y": 260,
         "wires": []
     },
     {
@@ -6346,8 +6345,8 @@
         "z": "5e9d2991.0ea428",
         "name": "seedTrayState",
         "storageNode": "e1094939.96bd98",
-        "x": 720,
-        "y": 160,
+        "x": 880,
+        "y": 220,
         "wires": []
     },
     {
@@ -6355,7 +6354,7 @@
         "type": "function",
         "z": "5e9d2991.0ea428",
         "name": "",
-        "func": "\n\n// Pass global varialbe\n\nmsg.lettuceDaysForGermination = global.get('crops.lettuce.schedule.germinated') || 0;\nmsg.lettuceDaysForTransplant = global.get('crops.lettuce.schedule.transplant') || 0;\nmsg.lettuceDaysForHarvest = global.get('crops.lettuce.schedule.harvest') || 0;\n    \n        \nreturn msg;",
+        "func": "global.set(\"NFT.state\", NFTState);\n\nvar item = global.get(\"NFT.update\");\nif (item) {\n    msg.NFTState.push(item);\n}\n\n// Pass global varialbe\n\nmsg.lettuceDaysForGermination = global.get('crops.lettuce.schedule.germinated') || 0;\nmsg.lettuceDaysForTransplant = global.get('crops.lettuce.schedule.transplant') || 0;\nmsg.lettuceDaysForHarvest = global.get('crops.lettuce.schedule.harvest') || 0;\n    \n        \nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -6464,7 +6463,7 @@
         "type": "function",
         "z": "5e9d2991.0ea428",
         "name": "",
-        "func": "\nif (msg.pushToNFT) {\n    global.set(\"NFT.update\", msg.pushToNFT);\n}\n    \n        ",
+        "func": "\nif (msg.pushToNFT) {\n    global.set(\"NFT.update\", msg.pushToNFT);\n    return {};\n}\n    \n        ",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -6473,7 +6472,7 @@
         "y": 300,
         "wires": [
             [
-                "66a7daed.dc4dc4"
+                "487076fa.b74ec8"
             ]
         ]
     },
@@ -6495,22 +6494,5 @@
                 "7159d445.126dcc"
             ]
         ]
-    },
-    {
-        "id": "66a7daed.dc4dc4",
-        "type": "debug",
-        "z": "5e9d2991.0ea428",
-        "name": "",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 810,
-        "y": 300,
-        "wires": []
     }
 ]
