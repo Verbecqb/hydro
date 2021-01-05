@@ -6228,12 +6228,14 @@
         "fwdInMessages": false,
         "resendOnRefresh": true,
         "templateScope": "local",
-        "x": 340,
-        "y": 180,
+        "x": 460,
+        "y": 220,
         "wires": [
             [
                 "35eb65db.60721a",
-                "7159d445.126dcc"
+                "7159d445.126dcc",
+                "87e33717.6b6f08",
+                "fb206f8.8416f9"
             ]
         ]
     },
@@ -6247,12 +6249,13 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 140,
-        "y": 180,
+        "x": 260,
+        "y": 220,
         "wires": [
             [
                 "bd43de44.263ff",
-                "15f62883.0a2b37"
+                "15f62883.0a2b37",
+                "281bada.51a1b52"
             ]
         ]
     },
@@ -6262,8 +6265,8 @@
         "z": "5e9d2991.0ea428",
         "name": "seedTrayState",
         "storageNode": "e1094939.96bd98",
-        "x": 200,
-        "y": 260,
+        "x": 460,
+        "y": 380,
         "wires": [
             [
                 "513fc490.e682dc"
@@ -6274,7 +6277,7 @@
         "id": "25bfc60c.8dce1a",
         "type": "inject",
         "z": "5e9d2991.0ea428",
-        "name": "DEBUG - reset storage test",
+        "name": "DEBUG - reset seed nursary storage test",
         "props": [
             {
                 "p": "seedTrayState",
@@ -6287,8 +6290,7 @@
         "once": false,
         "onceDelay": 0.1,
         "topic": "",
-        "payloadType": "str",
-        "x": 140,
+        "x": 180,
         "y": 40,
         "wires": [
             [
@@ -6310,15 +6312,15 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 390,
-        "y": 120,
+        "x": 430,
+        "y": 160,
         "wires": []
     },
     {
         "id": "cd560ffa.729c9",
         "type": "inject",
         "z": "5e9d2991.0ea428",
-        "name": "DEBUG - reset storage empty",
+        "name": "DEBUG - reset seed nurasary storage empty",
         "props": [
             {
                 "p": "seedTrayState",
@@ -6331,7 +6333,7 @@
         "once": false,
         "onceDelay": 0.1,
         "topic": "",
-        "x": 140,
+        "x": 190,
         "y": 80,
         "wires": [
             [
@@ -6346,15 +6348,15 @@
         "z": "5e9d2991.0ea428",
         "name": "seedTrayState",
         "storageNode": "e1094939.96bd98",
-        "x": 580,
-        "y": 180,
+        "x": 720,
+        "y": 160,
         "wires": []
     },
     {
         "id": "6030bed7.a7ade",
         "type": "inject",
         "z": "5e9d2991.0ea428",
-        "name": "DEBUG - reset storage test",
+        "name": "DEBUG - reset NFT storage test",
         "props": [
             {
                 "p": "NFTState",
@@ -6367,31 +6369,12 @@
         "once": false,
         "onceDelay": 0.1,
         "topic": "",
-        "x": 180,
-        "y": 380,
+        "x": 150,
+        "y": 120,
         "wires": [
             [
-                "e1b22a1.d8ea7d8",
+                "513fc490.e682dc",
                 "87e33717.6b6f08"
-            ]
-        ]
-    },
-    {
-        "id": "e1b22a1.d8ea7d8",
-        "type": "function",
-        "z": "5e9d2991.0ea428",
-        "name": "",
-        "func": "\n/*\nfor (var item in msg.seedTray) {\n\n    if (msg.seedTray[item][\"category\"] == \"empty\") {\n        \n        msg.seedTray[item][\"hexColor\"]= \"grey\";\n        msg.seedTray[item][\"icon\"] = \"\";\n         msg.seedTray[item][\"nextAction\"] = \"plantSeed\";\n        msg.seedTray[item][\"iconAction\"] = \"http://10.0.0.10:1880/seeding.png\";\n    } \n    else if (Date.parse(msg.seedTray[item][\"transplantDate\"] + \" 00:00:00 GMT\") <= new Date().getTime()\n            && new Date().getTime() > Date.parse(msg.seedTray[item][\"germinationDate\"] + \" 00:00:00 GMT\")) {\n                \n        msg.seedTray[item][\"hexColor\"]= \"green\";\n        msg.seedTray[item][\"icon\"] = \"http://10.0.0.10:1880/germinated-state.png\";\n        msg.seedTray[item][\"nextAction\"] = \"transplant\";\n        msg.seedTray[item][\"iconAction\"] = \"http://10.0.0.10:1880/action-transplant.png\";\n    } \n    \n    else if (Date.parse(msg.seedTray[item][\"germinationDate\"] + \" 00:00:00 GMT\") <= new Date().getTime()\n            && new Date().getTime() > Date.parse(msg.seedTray[item][\"seedPlantedDate\"] + \" 00:00:00 GMT\")) {\n        \n        msg.seedTray[item][\"hexColor\"]= \"green\";\n        msg.seedTray[item][\"icon\"] = \"http://10.0.0.10:1880/germinating-state.png\";\n    } \n    \n    else if (Date.parse(msg.seedTray[item][\"seedPlantedDate\"] + \" 00:00:00 GMT\") < new Date().getTime()) {\n        \n        msg.seedTray[item][\"hexColor\"]= \"green\";\n        msg.seedTray[item][\"icon\"] = \"http://10.0.0.10:1880/seed_state.png\";\n    } \n    \n        \n  \n}*/\n\n// Pass global varialbe\n\nmsg.lettuceDaysForGermination = global.get('crops.lettuce.schedule.germinated') || 0;\nmsg.lettuceDaysForTransplant = global.get('crops.lettuce.schedule.transplant') || 0;\nmsg.lettuceDaysForHarvest = global.get('crops.lettuce.schedule.harvest') || 0;\n    \n        \nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "x": 160,
-        "y": 480,
-        "wires": [
-            [
-                "281bada.51a1b52",
-                "c40a8f5.1c8387"
             ]
         ]
     },
@@ -6409,12 +6392,11 @@
         "fwdInMessages": false,
         "resendOnRefresh": true,
         "templateScope": "local",
-        "x": 330,
-        "y": 480,
+        "x": 450,
+        "y": 260,
         "wires": [
             [
-                "87e33717.6b6f08",
-                "f1b7c6e9.b85b98"
+                "87e33717.6b6f08"
             ]
         ]
     },
@@ -6424,39 +6406,22 @@
         "z": "5e9d2991.0ea428",
         "name": "NFTState",
         "storageNode": "e1094939.96bd98",
-        "x": 580,
-        "y": 480,
+        "x": 720,
+        "y": 220,
         "wires": []
     },
     {
-        "id": "f1b7c6e9.b85b98",
+        "id": "fb206f8.8416f9",
         "type": "persist out",
         "z": "5e9d2991.0ea428",
         "name": "NFTState",
         "storageNode": "e1094939.96bd98",
-        "x": 200,
-        "y": 560,
+        "x": 460,
+        "y": 440,
         "wires": [
             [
-                "e1b22a1.d8ea7d8"
+                "513fc490.e682dc"
             ]
         ]
-    },
-    {
-        "id": "c40a8f5.1c8387",
-        "type": "debug",
-        "z": "5e9d2991.0ea428",
-        "name": "",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 470,
-        "y": 380,
-        "wires": []
     }
 ]
