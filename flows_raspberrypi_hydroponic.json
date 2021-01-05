@@ -1619,7 +1619,7 @@
         "name": "My TO-DO list",
         "tab": "ad78e894.23e758",
         "order": 1,
-        "disp": false,
+        "disp": true,
         "width": "10",
         "collapse": false
     },
