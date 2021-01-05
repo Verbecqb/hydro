@@ -6464,7 +6464,7 @@
         "type": "function",
         "z": "5e9d2991.0ea428",
         "name": "",
-        "func": "\nif (msg.pushToNFT) {\n    global.set(\"NFT.update\", item)\n}\n    \n        ",
+        "func": "\nif (msg.pushToNFT) {\n    global.set(\"NFT.update\", item);\n}\n    \n        ",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
