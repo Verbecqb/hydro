@@ -6501,9 +6501,9 @@
         "id": "daef6fba.7387d",
         "type": "delay",
         "z": "5e9d2991.0ea428",
-        "name": "",
+        "name": "Delay - time for NFTState to be updated",
         "pauseType": "delay",
-        "timeout": "0.5",
+        "timeout": "0.4",
         "timeoutUnits": "seconds",
         "rate": "1",
         "nbRateUnits": "1",
@@ -6512,7 +6512,7 @@
         "randomLast": "5",
         "randomUnits": "seconds",
         "drop": false,
-        "x": 970,
+        "x": 1060,
         "y": 340,
         "wires": [
             [
