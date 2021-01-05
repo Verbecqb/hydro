@@ -6354,7 +6354,7 @@
         "type": "function",
         "z": "5e9d2991.0ea428",
         "name": "",
-        "func": "global.set(\"NFT.state\", msg.NFTState);\n\nvar item = global.get(\"NFT.update\");\nif (item) {\n    msg.NFTState.push(item);\n    global.set(\"NFT.update\", undefined);\n}\n\n// Pass global varialbe\n\nmsg.lettuceDaysForGermination = global.get('crops.lettuce.schedule.germinated') || 0;\nmsg.lettuceDaysForTransplant = global.get('crops.lettuce.schedule.transplant') || 0;\nmsg.lettuceDaysForHarvest = global.get('crops.lettuce.schedule.harvest') || 0;\n    \n        \nreturn msg;",
+        "func": "global.set(\"NFT.state\", msg.NFTState);\n\nvar item = global.get(\"NFT.update\");\nif (item) {\n    var indexOldElem =  msg.NFTState.indexOf(\n         msg.NFTState.find(cell => cell.column === item.column && cell.row === item.row)\n    );\n    msg.NFTState.splice(indexOldElem,1);\n    msg.NFTState.push(item);\n    global.set(\"NFT.update\", undefined);\n}\n\n// Pass global varialbe\n\nmsg.lettuceDaysForGermination = global.get('crops.lettuce.schedule.germinated') || 0;\nmsg.lettuceDaysForTransplant = global.get('crops.lettuce.schedule.transplant') || 0;\nmsg.lettuceDaysForHarvest = global.get('crops.lettuce.schedule.harvest') || 0;\n    \n        \nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
