@@ -608,16 +608,6 @@
         "collapse": false
     },
     {
-        "id": "40dc9b6d.55ee84",
-        "type": "ui_group",
-        "name": "Seed Tray",
-        "tab": "352c089f.6b44d8",
-        "order": 4,
-        "disp": true,
-        "width": "8",
-        "collapse": false
-    },
-    {
         "id": "e1094939.96bd98",
         "type": "persist-store",
         "filename": "/home/pi/.node-red/projects/hydro/persistence-CropsState.json",
