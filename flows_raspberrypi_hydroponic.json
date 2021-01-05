@@ -6270,7 +6270,7 @@
         "type": "function",
         "z": "5e9d2991.0ea428",
         "name": "",
-        "func": "msg.seedTray = msg.seedTrayState;\n\n// Get all empty cells from NFT system, to assign a cell for transplantation from seed tray\nvar emptyNFTCells = global.get('NFT.state').filter(cell => cell.category === \"empty\");\nvar countEmptyCells = 0;\n\nvar seedTraySide = 6;\nvar NFTSystemSize = 9 * 2;\n\nvar maxNumberOfSaladSeedsPerWeek = \n    Math.floor(NFTSystemSize / (global.get(\"crops.lettuce.schedule.harvest\") / 7));\n\nglobal.set(\"crops.lettuce.schedule.maxSeedPerWeek\", maxNumberOfSaladSeedsPerWeek);\nvar countSaladSeeds = 1;\n\nfor (var item in msg.seedTray) {\n\n    // bug fix - save date as 2021-01-05T00:00:00+09:00\n \n    if (msg.seedTray[item][\"category\"] == \"empty\" ) {\n            \n        msg.seedTray[item][\"hexColor\"]= \"grey\";\n        msg.seedTray[item][\"icon\"] = \"\";\n        \n        if (countSaladSeeds < maxNumberOfSaladSeedsPerWeek) {\n            msg.seedTray[item][\"nextAction\"] = \"plantSeed\";\n            msg.seedTray[item][\"iconAction\"] = \"http://10.0.0.10:1880/seeding.png\";\n        \n            countSaladSeeds++;\n        }\n        \n    } \n    \n    // Ready for transplantation\n    else if (Date.parse(msg.seedTray[item][\"transplantDate\"] + \" 00:00:00 GMT\") <= new Date().getTime()\n            && new Date().getTime() > Date.parse(msg.seedTray[item][\"germinationDate\"] + \" 00:00:00 GMT\")) {\n                \n        msg.seedTray[item][\"hexColor\"]= \"green\";\n        msg.seedTray[item][\"icon\"] = \"http://10.0.0.10:1880/germinated-state.png\";\n        msg.seedTray[item][\"nextAction\"] = \"transplant\";\n        msg.seedTray[item][\"iconAction\"] = \"http://10.0.0.10:1880/action-transplant.png\";\n        \n        // Ready for transplant. Compute toBe column and row\n        if (emptyNFTCells[countEmptyCells]) {\n            msg.seedTray[item][\"toNFTColumn\"] = emptyNFTCells[countEmptyCells].column;\n            msg.seedTray[item][\"toNFTRow\"] = emptyNFTCells[countEmptyCells].row;\n            countEmptyCells++;\n        }\n        \n    } \n    \n    // Germinated \n    else if (Date.parse(msg.seedTray[item][\"germinationDate\"] + \" 00:00:00 GMT\") <= new Date().getTime()\n            && new Date().getTime() > Date.parse(msg.seedTray[item][\"seedPlantedDate\"] + \" 00:00:00 GMT\")) {\n        \n        msg.seedTray[item][\"hexColor\"]= \"green\";\n        msg.seedTray[item][\"icon\"] = \"http://10.0.0.10:1880/germinating-state.png\";\n    } \n    \n    // Seed state\n    else if (Date.parse(msg.seedTray[item][\"seedPlantedDate\"] + \" 00:00:00 GMT\") <= new Date().getTime()) {\n        \n        msg.seedTray[item][\"hexColor\"]= \"green\";\n        msg.seedTray[item][\"icon\"] = \"http://10.0.0.10:1880/seed_state.png\";\n    } \n    \n}\n\n// Pass global varialbe\n\nmsg.lettuceDaysForGermination = global.get('crops.lettuce.schedule.germinated') || 0;\nmsg.lettuceDaysForTransplant = global.get('crops.lettuce.schedule.transplant') || 0;\nmsg.lettuceDaysForHarvest = global.get('crops.lettuce.schedule.harvest') || 0;\n\n// Get NFT state\nmsg.NFTState = global.get('NFT.state');\n        \nreturn msg;",
+        "func": "msg.seedTray = msg.seedTrayState;\n\n// Get all empty cells from NFT system, to assign a cell for transplantation from seed tray\nvar emptyNFTCells = global.get('NFT.state').filter(cell => cell.category === \"empty\");\nvar countEmptyCells = 0;\n\n\n\nvar maxNumberOfSaladSeedsPerWeek = global.get(\"crops.currentWeek.schedule.maxSeedPerWeek\");\n\n\nfor (var item in msg.seedTray) {\n\n    // bug fix - save date as 2021-01-05T00:00:00+09:00\n \n    if (msg.seedTray[item][\"category\"] == \"empty\" ) {\n            \n        msg.seedTray[item][\"hexColor\"]= \"grey\";\n        msg.seedTray[item][\"icon\"] = \"\";\n        \n        if (countSaladSeeds < maxNumberOfSaladSeedsPerWeek) {\n            msg.seedTray[item][\"nextAction\"] = \"plantSeed\";\n            msg.seedTray[item][\"iconAction\"] = \"http://10.0.0.10:1880/seeding.png\";\n            \n           var numberOfSeedToPlan = global.get(\"crops.currentWeek.schedule.countSeedPlanted\");\n            global.set(\"crops.currentWeek.schedule.countSeedPlanted\", numberOfSeedToPlan++);\n\n        }\n        \n    } \n    \n    // Ready for transplantation\n    else if (Date.parse(msg.seedTray[item][\"transplantDate\"] + \" 00:00:00 GMT\") <= new Date().getTime()\n            && new Date().getTime() > Date.parse(msg.seedTray[item][\"germinationDate\"] + \" 00:00:00 GMT\")) {\n                \n        msg.seedTray[item][\"hexColor\"]= \"green\";\n        msg.seedTray[item][\"icon\"] = \"http://10.0.0.10:1880/germinated-state.png\";\n        msg.seedTray[item][\"nextAction\"] = \"transplant\";\n        msg.seedTray[item][\"iconAction\"] = \"http://10.0.0.10:1880/action-transplant.png\";\n        \n        // Ready for transplant. Compute toBe column and row\n        if (emptyNFTCells[countEmptyCells]) {\n            msg.seedTray[item][\"toNFTColumn\"] = emptyNFTCells[countEmptyCells].column;\n            msg.seedTray[item][\"toNFTRow\"] = emptyNFTCells[countEmptyCells].row;\n            countEmptyCells++;\n        }\n        \n    } \n    \n    // Germinated \n    else if (Date.parse(msg.seedTray[item][\"germinationDate\"] + \" 00:00:00 GMT\") <= new Date().getTime()\n            && new Date().getTime() > Date.parse(msg.seedTray[item][\"seedPlantedDate\"] + \" 00:00:00 GMT\")) {\n        \n        msg.seedTray[item][\"hexColor\"]= \"green\";\n        msg.seedTray[item][\"icon\"] = \"http://10.0.0.10:1880/germinating-state.png\";\n    } \n    \n    // Seed state\n    else if (Date.parse(msg.seedTray[item][\"seedPlantedDate\"] + \" 00:00:00 GMT\") <= new Date().getTime()) {\n        \n        msg.seedTray[item][\"hexColor\"]= \"green\";\n        msg.seedTray[item][\"icon\"] = \"http://10.0.0.10:1880/seed_state.png\";\n    } \n    \n}\n\n// Pass global varialbe\n\nmsg.lettuceDaysForGermination = global.get('crops.lettuce.schedule.germinated') || 0;\nmsg.lettuceDaysForTransplant = global.get('crops.lettuce.schedule.transplant') || 0;\nmsg.lettuceDaysForHarvest = global.get('crops.lettuce.schedule.harvest') || 0;\n\n// Get NFT state\nmsg.NFTState = global.get('NFT.state');\n        \nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -6566,6 +6566,51 @@
         "templateScope": "local",
         "x": 480,
         "y": 180,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a99650ab.1090c",
+        "type": "inject",
+        "z": "5e9d2991.0ea428",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "120",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 120,
+        "y": 340,
+        "wires": [
+            [
+                "4157acf6.4a66e4"
+            ]
+        ]
+    },
+    {
+        "id": "4157acf6.4a66e4",
+        "type": "function",
+        "z": "5e9d2991.0ea428",
+        "name": "",
+        "func": "// Returns the ISO week of the date.\n        Date.prototype.getWeek = function() {\n          var date = new Date(this.getTime());\n          date.setHours(0, 0, 0, 0);\n          // Thursday in current week decides the year.\n          date.setDate(date.getDate() + 3 - (date.getDay() + 6) % 7);\n          // January 4 is always in week 1.\n          var week1 = new Date(date.getFullYear(), 0, 4);\n          // Adjust to Thursday in week 1 and count number of weeks from date to week1.\n          return 1 + Math.round(((date.getTime() - week1.getTime()) / 86400000 - 3 + (week1.getDay() + 6) % 7) / 7);\n}\n\n\nglobal.set(\"crops.currentWeek.weekNumber\", new Date(Date.now()).getWeek());\n\nvar NFTSystemSize = 9 * 2;\nvar maxNumberOfSaladSeedsPerWeek = \n    Math.floor(NFTSystemSize / (global.get(\"crops.lettuce.schedule.harvest\") / 7));\n\nglobal.set(\"crops.currentWeek.schedule.maxSeedPerWeek\", maxNumberOfSaladSeedsPerWeek);\nglobal.set(\"crops.currentWeek.schedule.countSeedPlanted\", 0);\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 280,
+        "y": 340,
         "wires": [
             []
         ]
