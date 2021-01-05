@@ -1619,8 +1619,8 @@
         "name": "My TO-DO list",
         "tab": "ad78e894.23e758",
         "order": 1,
-        "disp": true,
-        "width": 10,
+        "disp": false,
+        "width": "10",
         "collapse": false
     },
     {
