@@ -6232,9 +6232,8 @@
         "y": 220,
         "wires": [
             [
-                "35eb65db.60721a",
-                "7159d445.126dcc",
-                "590d5d39.e99054"
+                "590d5d39.e99054",
+                "7877fb7a.8f12d4"
             ]
         ]
     },
@@ -6473,6 +6472,25 @@
         "y": 300,
         "wires": [
             []
+        ]
+    },
+    {
+        "id": "7877fb7a.8f12d4",
+        "type": "function",
+        "z": "5e9d2991.0ea428",
+        "name": "",
+        "func": "\nif (msg.seedTrayState) {\n    return msg;\n}\n    \n        ",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 680,
+        "y": 220,
+        "wires": [
+            [
+                "35eb65db.60721a",
+                "7159d445.126dcc"
+            ]
         ]
     }
 ]
