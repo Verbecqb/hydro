@@ -6262,8 +6262,8 @@
         "z": "5e9d2991.0ea428",
         "name": "seedTrayState",
         "storageNode": "e1094939.96bd98",
-        "x": 900,
-        "y": 160,
+        "x": 920,
+        "y": 280,
         "wires": [
             [
                 "513fc490.e682dc"
@@ -6345,8 +6345,8 @@
         "z": "5e9d2991.0ea428",
         "name": "seedTrayState",
         "storageNode": "e1094939.96bd98",
-        "x": 880,
-        "y": 220,
+        "x": 900,
+        "y": 180,
         "wires": []
     },
     {
@@ -6463,13 +6463,13 @@
         "type": "function",
         "z": "5e9d2991.0ea428",
         "name": "",
-        "func": "\nif (msg.pushToNFT) {\n    global.set(\"NFT.update\", msg.pushToNFT);\n    return {};\n}\n    \n        ",
+        "func": "\nif (msg.pushToNFT) {\n    //Save the update in global\n    global.set(\"NFT.update\", msg.pushToNFT);\n    //Empty to ensure nothing is saved\n    return {};\n}\n    \n        ",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "x": 680,
-        "y": 300,
+        "y": 320,
         "wires": [
             [
                 "487076fa.b74ec8"
@@ -6480,13 +6480,13 @@
         "id": "7877fb7a.8f12d4",
         "type": "function",
         "z": "5e9d2991.0ea428",
-        "name": "",
+        "name": "Only seedStray update",
         "func": "\nif (msg.seedTrayState) {\n    return msg;\n}\n    \n        ",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 680,
+        "x": 700,
         "y": 220,
         "wires": [
             [
