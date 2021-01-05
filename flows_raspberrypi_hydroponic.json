@@ -6463,7 +6463,7 @@
         "type": "function",
         "z": "5e9d2991.0ea428",
         "name": "",
-        "func": "\nif (msg.pushToNFT) {\n    global.set(\"NFT.update\", item);\n}\n    \n        ",
+        "func": "\nif (msg.pushToNFT) {\n    global.set(\"NFT.update\", msg.pushToNFT);\n}\n    \n        ",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -6471,7 +6471,9 @@
         "x": 680,
         "y": 300,
         "wires": [
-            []
+            [
+                "66a7daed.dc4dc4"
+            ]
         ]
     },
     {
@@ -6492,5 +6494,22 @@
                 "7159d445.126dcc"
             ]
         ]
+    },
+    {
+        "id": "66a7daed.dc4dc4",
+        "type": "debug",
+        "z": "5e9d2991.0ea428",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 810,
+        "y": 300,
+        "wires": []
     }
 ]
