@@ -862,10 +862,10 @@
         "id": "97fc29b5.9cfb68",
         "type": "ui_group",
         "name": "NFT ",
-        "tab": "352c089f.6b44d8",
+        "tab": "ad78e894.23e758",
         "order": 9,
         "disp": true,
-        "width": 8,
+        "width": "8",
         "collapse": false
     },
     {
