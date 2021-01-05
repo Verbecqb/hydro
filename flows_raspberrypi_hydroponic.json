@@ -6287,8 +6287,8 @@
         "once": false,
         "onceDelay": 0.1,
         "topic": "",
-        "x": 180,
-        "y": 40,
+        "x": 200,
+        "y": 60,
         "wires": [
             [
                 "513fc490.e682dc",
@@ -6330,8 +6330,8 @@
         "once": false,
         "onceDelay": 0.1,
         "topic": "",
-        "x": 190,
-        "y": 80,
+        "x": 210,
+        "y": 100,
         "wires": [
             [
                 "35eb65db.60721a",
@@ -6354,7 +6354,7 @@
         "type": "function",
         "z": "5e9d2991.0ea428",
         "name": "",
-        "func": "global.set(\"NFT.state\", msg.NFTState);\n\nvar item = global.get(\"NFT.update\");\nif (item) {\n    msg.NFTState.push(item);\n}\n\n// Pass global varialbe\n\nmsg.lettuceDaysForGermination = global.get('crops.lettuce.schedule.germinated') || 0;\nmsg.lettuceDaysForTransplant = global.get('crops.lettuce.schedule.transplant') || 0;\nmsg.lettuceDaysForHarvest = global.get('crops.lettuce.schedule.harvest') || 0;\n    \n        \nreturn msg;",
+        "func": "global.set(\"NFT.state\", msg.NFTState);\n\nvar item = global.get(\"NFT.update\");\nif (item) {\n    msg.NFTState.push(item);\n    global.set(\"NFT.update\", undefined);\n}\n\n// Pass global varialbe\n\nmsg.lettuceDaysForGermination = global.get('crops.lettuce.schedule.germinated') || 0;\nmsg.lettuceDaysForTransplant = global.get('crops.lettuce.schedule.transplant') || 0;\nmsg.lettuceDaysForHarvest = global.get('crops.lettuce.schedule.harvest') || 0;\n    \n        \nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -6449,8 +6449,8 @@
         "once": false,
         "onceDelay": 0.1,
         "topic": "",
-        "x": 130,
-        "y": 440,
+        "x": 210,
+        "y": 420,
         "wires": [
             [
                 "fb721728.0918d8",
