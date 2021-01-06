@@ -6584,7 +6584,7 @@
                 "vt": "str"
             }
         ],
-        "repeat": "1200",
+        "repeat": "",
         "crontab": "",
         "once": false,
         "onceDelay": 0.1,
