@@ -6657,8 +6657,7 @@
         "wires": [
             [
                 "590d5d39.e99054",
-                "7877fb7a.8f12d4",
-                "7a63b2c1.4b694c"
+                "7877fb7a.8f12d4"
             ]
         ]
     },
@@ -6828,8 +6827,8 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 710,
-        "y": 160,
+        "x": 1350,
+        "y": 240,
         "wires": []
     },
     {
@@ -6936,10 +6935,11 @@
         "randomUnits": "seconds",
         "drop": false,
         "x": 1180,
-        "y": 360,
+        "y": 340,
         "wires": [
             [
-                "513fc490.e682dc"
+                "513fc490.e682dc",
+                "7a63b2c1.4b694c"
             ]
         ]
     },
@@ -6997,7 +6997,7 @@
         "type": "function",
         "z": "5e9d2991.0ea428",
         "name": "",
-        "func": "// Returns the ISO week of the date.\n        Date.prototype.getWeek = function() {\n          var date = new Date(this.getTime());\n          date.setHours(0, 0, 0, 0);\n          // Thursday in current week decides the year.\n          date.setDate(date.getDate() + 3 - (date.getDay() + 6) % 7);\n          // January 4 is always in week 1.\n          var week1 = new Date(date.getFullYear(), 0, 4);\n          // Adjust to Thursday in week 1 and count number of weeks from date to week1.\n          return 1 + Math.round(((date.getTime() - week1.getTime()) / 86400000 - 3 + (week1.getDay() + 6) % 7) / 7);\n}\n\n\nglobal.set(\"crops.currentWeek.weekNumber\", new Date(Date.now()).getWeek());\n\nvar NFTSystemSize = 9 * 2;\nvar maxNumberOfSaladSeedsPerWeek = \n    Math.floor(NFTSystemSize / (global.get(\"crops.lettuce.schedule.harvest\") / 7));\n\nglobal.set(\"crops.currentWeek.schedule.maxSeedPerWeek\", maxNumberOfSaladSeedsPerWeek);\nglobal.set(\"crops.currentWeek.schedule.countSeedPlanted\", 0);\n\nreturn msg;",
+        "func": "// Returns the ISO week of the date.\n        Date.prototype.getWeek = function() {\n          var date = new Date(this.getTime());\n          date.setHours(0, 0, 0, 0);\n          // Thursday in current week decides the year.\n          date.setDate(date.getDate() + 3 - (date.getDay() + 6) % 7);\n          // January 4 is always in week 1.\n          var week1 = new Date(date.getFullYear(), 0, 4);\n          // Adjust to Thursday in week 1 and count number of weeks from date to week1.\n          return 1 + Math.round(((date.getTime() - week1.getTime()) / 86400000 - 3 + (week1.getDay() + 6) % 7) / 7);\n}\n\nglobal.set(\"crops.currentWeek.weekNumber\", new Date(Date.now()).getWeek());\n\nvar NFTSystemSize = 9 * 2;\nvar maxNumberOfSaladSeedsPerWeek = \n    Math.floor(NFTSystemSize / (global.get(\"crops.lettuce.schedule.harvest\") / 7));\n\nglobal.set(\"crops.currentWeek.schedule.maxSeedPerWeek\", maxNumberOfSaladSeedsPerWeek);\nglobal.set(\"crops.currentWeek.schedule.countSeedPlanted\", 0);\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
