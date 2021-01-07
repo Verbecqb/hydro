@@ -6907,7 +6907,7 @@
         "type": "function",
         "z": "5e9d2991.0ea428",
         "name": "Only seedStray update",
-        "func": "\nif (msg.seedTrayState) {\n    return msg;\n}\n    \n        ",
+        "func": "\nif (msg.seedTrayState) {\n    var newMsg;\n    newMsgseedTrayState = msg.seedTrayState;\n    return newMsg;\n}\n    \n        ",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
