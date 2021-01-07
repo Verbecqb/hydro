@@ -6786,8 +6786,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 780,
-        "y": 600,
+        "x": 720,
+        "y": 540,
         "wires": [
             [
                 "c5f92316.ac28a"
@@ -6809,7 +6809,7 @@
         "resendOnRefresh": true,
         "templateScope": "local",
         "x": 430,
-        "y": 260,
+        "y": 276,
         "wires": [
             []
         ]
@@ -6837,8 +6837,8 @@
         "z": "5e9d2991.0ea428",
         "name": "crops.NFTState",
         "storageNode": "e1094939.96bd98",
-        "x": 920,
-        "y": 520,
+        "x": 660,
+        "y": 440,
         "wires": [
             [
                 "513fc490.e682dc"
@@ -6851,8 +6851,8 @@
         "z": "5e9d2991.0ea428",
         "name": "crops.NFTState",
         "storageNode": "e1094939.96bd98",
-        "x": 920,
-        "y": 440,
+        "x": 900,
+        "y": 360,
         "wires": []
     },
     {
@@ -6873,8 +6873,8 @@
         "onceDelay": 0.1,
         "topic": "",
         "payloadType": "str",
-        "x": 570,
-        "y": 600,
+        "x": 510,
+        "y": 520,
         "wires": [
             [
                 "fb721728.0918d8"
@@ -6892,7 +6892,7 @@
         "initialize": "",
         "finalize": "",
         "x": 670,
-        "y": 460,
+        "y": 360,
         "wires": [
             [
                 "487076fa.b74ec8",
@@ -6905,7 +6905,7 @@
         "type": "function",
         "z": "5e9d2991.0ea428",
         "name": "Only seedStray update",
-        "func": "\nif (msg.seedTrayState) {\n    return msg;\n}\n    \n        ",
+        "func": "\nif (msg.seedTrayState) {\n    return msg.seedTrayState;\n}\n    \n        ",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -6957,7 +6957,7 @@
         "resendOnRefresh": true,
         "templateScope": "local",
         "x": 480,
-        "y": 220,
+        "y": 240,
         "wires": [
             []
         ]
