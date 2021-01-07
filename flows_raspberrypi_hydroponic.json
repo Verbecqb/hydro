@@ -6666,7 +6666,7 @@
         "type": "function",
         "z": "5e9d2991.0ea428",
         "name": "",
-        "func": "msg.seedTray = msg.seedTrayState;\n\n// Get all empty cells from NFT system, to assign a cell for transplantation from seed tray\nvar emptyNFTCells = global.get('NFT.state').filter(cell => cell.category === \"empty\");\nvar countEmptyCells = 0;\n\nvar maxNumberOfSaladSeedsPerWeek = global.get(\"crops.currentWeek.schedule.maxSeedPerWeek\");\nvar currentWeekNumber = global.get(\"crops.currentWeek.weekNumber\");\n\nfor (var item in msg.seedTray) {\n\n    // bug fix - save date as 2021-01-05T00:00:00+09:00\n \n    if (msg.seedTray[item][\"category\"] == \"empty\") {\n            \n        msg.seedTray[item][\"hexColor\"]= \"grey\";\n        msg.seedTray[item][\"icon\"] = \"\";\n        \n        // In case no next action defined, and seeds can be planted this week\n        if (!msg.seedTray[item][\"nextAction\"] &&\n            global.get(\"crops.currentWeek.schedule.countSeedPlanted\") < maxNumberOfSaladSeedsPerWeek) {\n            \n            msg.seedTray[item][\"nextAction\"] = \"plantSeed\";\n            msg.seedTray[item][\"iconAction\"] = \"http://10.0.0.10:1880/seeding.png\";\n            \n            var numberOfSeedToPlan = global.get(\"crops.currentWeek.schedule.countSeedPlanted\");\n            global.set(\"crops.currentWeek.schedule.countSeedPlanted\", numberOfSeedToPlan+1);\n\n        }\n        \n    } \n    \n    // Seed is germinated\n    else if (Date.parse(msg.seedTray[item][\"transplantDate\"] + \" 00:00:00 GMT\") <= new Date().getTime()\n            && new Date().getTime() > Date.parse(msg.seedTray[item][\"germinationDate\"] + \" 00:00:00 GMT\")) {\n                \n        msg.seedTray[item][\"hexColor\"]= \"green\";\n        msg.seedTray[item][\"icon\"] = \"http://10.0.0.10:1880/germinated-state.png\";\n        \n        // if curent week = transplantWeekNumber, time to harvest\n        if (currentWeekNumber == msg.seedTray[item][\"transplantDateWeekNumber\"]) {\n            msg.seedTray[item][\"nextAction\"] = \"transplant\";\n            msg.seedTray[item][\"iconAction\"] = \"http://10.0.0.10:1880/action-transplant.png\";\n            \n            // Ready for transplant. Compute toBe column and row\n            if (emptyNFTCells[countEmptyCells]) {\n                msg.seedTray[item][\"toNFTColumn\"] = emptyNFTCells[countEmptyCells].column;\n                msg.seedTray[item][\"toNFTRow\"] = emptyNFTCells[countEmptyCells].row;\n                countEmptyCells++;\n            }\n        }\n        \n    } \n    \n    // Germinated \n    else if (Date.parse(msg.seedTray[item][\"germinationDate\"] + \" 00:00:00 GMT\") <= new Date().getTime()\n            && new Date().getTime() > Date.parse(msg.seedTray[item][\"seedPlantedDate\"] + \" 00:00:00 GMT\")) {\n        \n        msg.seedTray[item][\"hexColor\"]= \"green\";\n        msg.seedTray[item][\"icon\"] = \"http://10.0.0.10:1880/germinating-state.png\";\n    } \n    \n    // Seed state\n    else if (Date.parse(msg.seedTray[item][\"seedPlantedDate\"] + \" 00:00:00 GMT\") <= new Date().getTime()) {\n        \n        msg.seedTray[item][\"hexColor\"]= \"green\";\n        msg.seedTray[item][\"icon\"] = \"http://10.0.0.10:1880/seed_state.png\";\n    } \n    \n}\n\n// Pass global varialbe\n\nmsg.lettuceDaysForGermination = global.get('crops.lettuce.schedule.germinated') || 0;\nmsg.lettuceDaysForTransplant = global.get('crops.lettuce.schedule.transplant') || 0;\nmsg.lettuceDaysForHarvest = global.get('crops.lettuce.schedule.harvest') || 0;\n\n// Get NFT state\nmsg.NFTState = global.get('NFT.state');\n\nfor (item in msg.NFTState) {\n  \n    if (msg.NFTState[item][\"category\"] == \"empty\") {\n            \n        msg.NFTState[item][\"hexColor\"]= \"black\";\n        msg.NFTState[item][\"icon\"] = \"\";\n        \n    } else if (currentWeekNumber === msg.NFTState[item][\"harvestWeekNumber\"]) {\n        msg.NFTState[item][\"hexColor\"]= \"blue\";\n        msg.NFTState[item][\"icon\"] = \"http://10.0.0.10:1880/germinated-state.png\";\n        \n        msg.NFTState[item][\"nextAction\"] = \"harvest\";\n        msg.NFTState[item][\"iconAction\"] = \"http://10.0.0.10:1880/action-harvest.png\";\n        \n    } else {\n\n        msg.NFTState[item][\"hexColor\"]= \"green\";\n        msg.NFTState[item][\"icon\"] = \"http://10.0.0.10:1880/germinated-state.png\";\n        \n    }\n}\nglobal.set('NFT.state', msg.NFTState);\n\nreturn msg;",
+        "func": "// If update received.\nif (msg.seedTrayState) {\n    global.set(\"crops.seedTrayState\", msg.seedTrayState);\n} \nmsg.seedTray = global.get(\"crops.seedTrayState\");\n\n// Get all empty cells from NFT system, to assign a cell for transplantation from seed tray\nvar emptyNFTCells = global.get('crops.NFT.state').filter(cell => cell.category === \"empty\");\nvar countEmptyCells = 0;\n\nvar maxNumberOfSaladSeedsPerWeek = global.get(\"crops.currentWeek.schedule.maxSeedPerWeek\");\nvar currentWeekNumber = global.get(\"crops.currentWeek.weekNumber\");\n\nfor (var item in msg.seedTray) {\n\n    // bug fix - save date as 2021-01-05T00:00:00+09:00\n \n    if (msg.seedTray[item][\"category\"] == \"empty\") {\n            \n        msg.seedTray[item][\"hexColor\"]= \"grey\";\n        msg.seedTray[item][\"icon\"] = \"\";\n        \n        // In case no next action defined, and seeds can be planted this week\n        if (!msg.seedTray[item][\"nextAction\"] &&\n            global.get(\"crops.currentWeek.schedule.countSeedPlanted\") < maxNumberOfSaladSeedsPerWeek) {\n            \n            msg.seedTray[item][\"nextAction\"] = \"plantSeed\";\n            msg.seedTray[item][\"iconAction\"] = \"http://10.0.0.10:1880/seeding.png\";\n            \n            var numberOfSeedToPlan = global.get(\"crops.currentWeek.schedule.countSeedPlanted\");\n            global.set(\"crops.currentWeek.schedule.countSeedPlanted\", numberOfSeedToPlan+1);\n\n        }\n        \n    } \n    \n    // Seed is germinated\n    else if (Date.parse(msg.seedTray[item][\"transplantDate\"] + \" 00:00:00 GMT\") <= new Date().getTime()\n            && new Date().getTime() > Date.parse(msg.seedTray[item][\"germinationDate\"] + \" 00:00:00 GMT\")) {\n                \n        msg.seedTray[item][\"hexColor\"]= \"green\";\n        msg.seedTray[item][\"icon\"] = \"http://10.0.0.10:1880/germinated-state.png\";\n        \n        // if curent week = transplantWeekNumber, time to harvest\n        if (currentWeekNumber == msg.seedTray[item][\"transplantDateWeekNumber\"]) {\n            msg.seedTray[item][\"nextAction\"] = \"transplant\";\n            msg.seedTray[item][\"iconAction\"] = \"http://10.0.0.10:1880/action-transplant.png\";\n            \n            // Ready for transplant. Compute toBe column and row\n            if (emptyNFTCells[countEmptyCells]) {\n                msg.seedTray[item][\"toNFTColumn\"] = emptyNFTCells[countEmptyCells].column;\n                msg.seedTray[item][\"toNFTRow\"] = emptyNFTCells[countEmptyCells].row;\n                countEmptyCells++;\n            }\n        }\n        \n    } \n    \n    // Germinated \n    else if (Date.parse(msg.seedTray[item][\"germinationDate\"] + \" 00:00:00 GMT\") <= new Date().getTime()\n            && new Date().getTime() > Date.parse(msg.seedTray[item][\"seedPlantedDate\"] + \" 00:00:00 GMT\")) {\n        \n        msg.seedTray[item][\"hexColor\"]= \"green\";\n        msg.seedTray[item][\"icon\"] = \"http://10.0.0.10:1880/germinating-state.png\";\n    } \n    \n    // Seed state\n    else if (Date.parse(msg.seedTray[item][\"seedPlantedDate\"] + \" 00:00:00 GMT\") <= new Date().getTime()) {\n        \n        msg.seedTray[item][\"hexColor\"]= \"green\";\n        msg.seedTray[item][\"icon\"] = \"http://10.0.0.10:1880/seed_state.png\";\n    } \n    \n}\n\n// Pass global varialbe\n\nmsg.lettuceDaysForGermination = global.get('crops.lettuce.schedule.germinated') || 0;\nmsg.lettuceDaysForTransplant = global.get('crops.lettuce.schedule.transplant') || 0;\nmsg.lettuceDaysForHarvest = global.get('crops.lettuce.schedule.harvest') || 0;\n\n// Get NFT state\nif (msg.NFTState) {\n    global.set(\"crops.NFTState\", msg.NFTState);\n}\nmsg.NFTState = global.get('crops.NFT.state');\n\nfor (item in msg.NFTState) {\n  \n    if (msg.NFTState[item][\"category\"] == \"empty\") {\n            \n        msg.NFTState[item][\"hexColor\"]= \"black\";\n        msg.NFTState[item][\"icon\"] = \"\";\n        \n    } else if (currentWeekNumber === msg.NFTState[item][\"harvestWeekNumber\"]) {\n        msg.NFTState[item][\"hexColor\"]= \"blue\";\n        msg.NFTState[item][\"icon\"] = \"http://10.0.0.10:1880/germinated-state.png\";\n        \n        msg.NFTState[item][\"nextAction\"] = \"harvest\";\n        msg.NFTState[item][\"iconAction\"] = \"http://10.0.0.10:1880/action-harvest.png\";\n        \n    } else {\n\n        msg.NFTState[item][\"hexColor\"]= \"green\";\n        msg.NFTState[item][\"icon\"] = \"http://10.0.0.10:1880/germinated-state.png\";\n        \n    }\n}\nglobal.set('crops.NFT.state', msg.NFTState);\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -6676,9 +6676,9 @@
         "wires": [
             [
                 "bd43de44.263ff",
-                "15f62883.0a2b37",
                 "91840b38.961cc8",
-                "54ed5895.d86ef8"
+                "54ed5895.d86ef8",
+                "15f62883.0a2b37"
             ]
         ]
     },
@@ -6686,9 +6686,9 @@
         "id": "7159d445.126dcc",
         "type": "persist out",
         "z": "5e9d2991.0ea428",
-        "name": "seedTrayState",
+        "name": "crops.seedTrayState",
         "storageNode": "e1094939.96bd98",
-        "x": 900,
+        "x": 920,
         "y": 370,
         "wires": [
             [
@@ -6736,8 +6736,8 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 210,
-        "y": 360,
+        "x": 270,
+        "y": 440,
         "wires": []
     },
     {
@@ -6770,9 +6770,9 @@
         "id": "35eb65db.60721a",
         "type": "persist in",
         "z": "5e9d2991.0ea428",
-        "name": "seedTrayState",
+        "name": "crops.seedTrayState",
         "storageNode": "e1094939.96bd98",
-        "x": 900,
+        "x": 920,
         "y": 270,
         "wires": []
     },
@@ -6833,9 +6833,9 @@
         "id": "487076fa.b74ec8",
         "type": "persist out",
         "z": "5e9d2991.0ea428",
-        "name": "NFTState",
+        "name": "crops.NFTState",
         "storageNode": "e1094939.96bd98",
-        "x": 700,
+        "x": 720,
         "y": 500,
         "wires": [
             [
@@ -6847,9 +6847,9 @@
         "id": "c5f92316.ac28a",
         "type": "persist in",
         "z": "5e9d2991.0ea428",
-        "name": "NFTState",
+        "name": "crops.NFTState",
         "storageNode": "e1094939.96bd98",
-        "x": 900,
+        "x": 920,
         "y": 580,
         "wires": []
     },
@@ -6883,7 +6883,7 @@
         "type": "function",
         "z": "5e9d2991.0ea428",
         "name": "Only NFT update",
-        "func": "if (msg.NFTState) {\n    //global.set(\"NFT.state\", msg.NFTState);\n    return msg;\n}\n\n    \n        ",
+        "func": "if (msg.NFTState) {\n    return msg.NFTState;\n}\n\n    \n        ",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -6931,8 +6931,8 @@
         "randomLast": "5",
         "randomUnits": "seconds",
         "drop": false,
-        "x": 1140,
-        "y": 370,
+        "x": 1180,
+        "y": 360,
         "wires": [
             [
                 "513fc490.e682dc"
