@@ -6886,7 +6886,7 @@
         "type": "function",
         "z": "5e9d2991.0ea428",
         "name": "Only NFT update",
-        "func": "if (msg.NFTState) {\n    return msg.NFTState;\n}\n\n    \n        ",
+        "func": "\nif (msg.NFTState) {\n    var newMsg = {};\n    newMsg.NFTState = msg.NFTState;\n    return newMsg;\n}\n    \n    \n        ",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
