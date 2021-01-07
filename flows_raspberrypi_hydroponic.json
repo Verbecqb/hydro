@@ -6888,7 +6888,7 @@
         "type": "function",
         "z": "5e9d2991.0ea428",
         "name": "Only NFT update",
-        "func": "global.set(\"NFT.state\", msg.NFTState);\nreturn msg;\n    \n        ",
+        "func": "if (msg.NFTState) {\n    global.set(\"NFT.state\", msg.NFTState);\n    return msg;\n}\n\n    \n        ",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
