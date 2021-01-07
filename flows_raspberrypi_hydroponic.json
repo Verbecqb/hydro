@@ -456,8 +456,7 @@
                 "primary": "indigo",
                 "accents": "blue",
                 "warn": "red",
-                "background": "grey",
-                "palette": "dark"
+                "background": "grey"
             }
         },
         "site": {
@@ -6827,8 +6826,8 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1350,
-        "y": 240,
+        "x": 930,
+        "y": 420,
         "wires": []
     },
     {
@@ -6841,7 +6840,8 @@
         "y": 440,
         "wires": [
             [
-                "513fc490.e682dc"
+                "513fc490.e682dc",
+                "7a63b2c1.4b694c"
             ]
         ]
     },
@@ -6938,8 +6938,7 @@
         "y": 340,
         "wires": [
             [
-                "513fc490.e682dc",
-                "7a63b2c1.4b694c"
+                "513fc490.e682dc"
             ]
         ]
     },
