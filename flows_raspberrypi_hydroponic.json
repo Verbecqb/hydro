@@ -6671,7 +6671,7 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 260,
+        "x": 261,
         "y": 310,
         "wires": [
             [
@@ -6689,7 +6689,7 @@
         "name": "crops.seedTrayState",
         "storageNode": "e1094939.96bd98",
         "x": 920,
-        "y": 370,
+        "y": 300,
         "wires": [
             [
                 "daef6fba.7387d"
@@ -6772,8 +6772,8 @@
         "z": "5e9d2991.0ea428",
         "name": "crops.seedTrayState",
         "storageNode": "e1094939.96bd98",
-        "x": 920,
-        "y": 270,
+        "x": 880,
+        "y": 220,
         "wires": []
     },
     {
@@ -6787,7 +6787,7 @@
         "initialize": "",
         "finalize": "",
         "x": 780,
-        "y": 640,
+        "y": 600,
         "wires": [
             [
                 "c5f92316.ac28a"
@@ -6808,8 +6808,8 @@
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
-        "x": 450,
-        "y": 380,
+        "x": 430,
+        "y": 260,
         "wires": [
             []
         ]
@@ -6837,8 +6837,8 @@
         "z": "5e9d2991.0ea428",
         "name": "crops.NFTState",
         "storageNode": "e1094939.96bd98",
-        "x": 720,
-        "y": 500,
+        "x": 920,
+        "y": 520,
         "wires": [
             [
                 "513fc490.e682dc"
@@ -6852,7 +6852,7 @@
         "name": "crops.NFTState",
         "storageNode": "e1094939.96bd98",
         "x": 920,
-        "y": 580,
+        "y": 440,
         "wires": []
     },
     {
@@ -6873,8 +6873,8 @@
         "onceDelay": 0.1,
         "topic": "",
         "payloadType": "str",
-        "x": 290,
-        "y": 640,
+        "x": 570,
+        "y": 600,
         "wires": [
             [
                 "fb721728.0918d8"
@@ -6891,8 +6891,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 690,
-        "y": 410,
+        "x": 670,
+        "y": 460,
         "wires": [
             [
                 "487076fa.b74ec8",
@@ -6910,8 +6910,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 700,
-        "y": 310,
+        "x": 680,
+        "y": 280,
         "wires": [
             [
                 "35eb65db.60721a",
@@ -6957,7 +6957,7 @@
         "resendOnRefresh": true,
         "templateScope": "local",
         "x": 480,
-        "y": 270,
+        "y": 220,
         "wires": [
             []
         ]
