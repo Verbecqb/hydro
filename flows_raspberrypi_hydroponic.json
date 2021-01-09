@@ -456,7 +456,8 @@
                 "primary": "indigo",
                 "accents": "blue",
                 "warn": "red",
-                "background": "grey"
+                "background": "grey",
+                "palette": "dark"
             }
         },
         "site": {
@@ -854,7 +855,7 @@
         "tab": "ad78e894.23e758",
         "order": 3,
         "disp": true,
-        "width": "8",
+        "width": 10,
         "collapse": false
     },
     {
@@ -884,7 +885,7 @@
         "interval": "60"
     },
     {
-        "id": "ffa4cc3d.ef794",
+        "id": "a98972cb.e189d",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "1c37dc0b.ce28e4",
@@ -893,25 +894,16 @@
         "height": 1
     },
     {
-        "id": "d7f3ab93.403808",
+        "id": "eaee3a93.be44a8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "1c37dc0b.ce28e4",
-        "order": 7,
-        "width": 5,
+        "order": 10,
+        "width": 9,
         "height": 1
     },
     {
-        "id": "3474b039.13126",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "1c37dc0b.ce28e4",
-        "order": 11,
-        "width": 4,
-        "height": 1
-    },
-    {
-        "id": "4772334a.a3401c",
+        "id": "4f150a19.95b284",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -920,7 +912,7 @@
         "height": 1
     },
     {
-        "id": "1e31ee6.c964e12",
+        "id": "ccaaa0d2.d6dac",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -929,7 +921,7 @@
         "height": 1
     },
     {
-        "id": "d4162925.3a3958",
+        "id": "ba2653b6.e2fe7",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -938,7 +930,7 @@
         "height": 1
     },
     {
-        "id": "ce481837.ac4258",
+        "id": "cc7e0f00.96fd5",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -947,7 +939,7 @@
         "height": 1
     },
     {
-        "id": "3daf1e50.a49562",
+        "id": "818ca3f0.27fbe",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -956,7 +948,7 @@
         "height": 1
     },
     {
-        "id": "e0215a27.ac29e8",
+        "id": "4f2a6a06.6295f4",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -965,7 +957,7 @@
         "height": 1
     },
     {
-        "id": "2b4023ee.70d2cc",
+        "id": "519ced3f.22ea34",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -974,7 +966,7 @@
         "height": 1
     },
     {
-        "id": "a8c528c7.9fa438",
+        "id": "b83c2b4d.5d0a48",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -983,7 +975,7 @@
         "height": 1
     },
     {
-        "id": "c02f6287.94212",
+        "id": "eb9ab404.887258",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -992,7 +984,7 @@
         "height": 1
     },
     {
-        "id": "9e1e0fee.4ac5c",
+        "id": "80412da8.4ef4d",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -1001,7 +993,7 @@
         "height": 1
     },
     {
-        "id": "ef8b8f63.860ed",
+        "id": "8e190fcb.f72e3",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "65d119b5.66cb78",
@@ -1010,7 +1002,7 @@
         "height": 1
     },
     {
-        "id": "23106aa5.e89546",
+        "id": "69aaa4d0.7b58ac",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "65d119b5.66cb78",
@@ -1019,7 +1011,7 @@
         "height": 1
     },
     {
-        "id": "3e29b1e6.263b0e",
+        "id": "308edfaf.497ff",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "65d119b5.66cb78",
@@ -1028,7 +1020,7 @@
         "height": 1
     },
     {
-        "id": "d55b7790.efe908",
+        "id": "cc33752a.621228",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "65d119b5.66cb78",
@@ -1037,7 +1029,7 @@
         "height": 1
     },
     {
-        "id": "49833346.997e3c",
+        "id": "3288e59d.37d9fa",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -1046,7 +1038,7 @@
         "height": 1
     },
     {
-        "id": "ea9fe4ec.a53c98",
+        "id": "66f8d931.1f74c8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -1055,7 +1047,7 @@
         "height": 1
     },
     {
-        "id": "2fd5931a.62546c",
+        "id": "fbdca95f.5da2f8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -1064,7 +1056,7 @@
         "height": 1
     },
     {
-        "id": "848eca84.0530e8",
+        "id": "8d6ad221.106ef",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -1073,7 +1065,7 @@
         "height": 1
     },
     {
-        "id": "b1c1da35.83ea68",
+        "id": "3877c89e.4a9968",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -1082,7 +1074,7 @@
         "height": 1
     },
     {
-        "id": "dc67b7d2.751418",
+        "id": "aabb923f.a2e87",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -1091,7 +1083,7 @@
         "height": 1
     },
     {
-        "id": "1d7586e2.8a4639",
+        "id": "c75100ab.72d58",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -1100,7 +1092,7 @@
         "height": 1
     },
     {
-        "id": "c751ee0c.c02d7",
+        "id": "f2c2113e.5ea8c",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -1109,7 +1101,7 @@
         "height": 1
     },
     {
-        "id": "2aa5e9e1.d93266",
+        "id": "886fb77c.710878",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -1118,7 +1110,7 @@
         "height": 1
     },
     {
-        "id": "a85dbd14.21f77",
+        "id": "e228f5.9e855708",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -1127,7 +1119,7 @@
         "height": 1
     },
     {
-        "id": "6c8d183f.09fae8",
+        "id": "3a50a366.80a0ac",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
@@ -1136,7 +1128,7 @@
         "height": 1
     },
     {
-        "id": "7bf51d7e.cfbf24",
+        "id": "43bb87e.0e21b78",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
@@ -1145,7 +1137,7 @@
         "height": 1
     },
     {
-        "id": "fa594bda.483128",
+        "id": "20d22e3e.5181f2",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
@@ -1154,7 +1146,7 @@
         "height": 1
     },
     {
-        "id": "4d2730b.f7f80d",
+        "id": "1ef90a75.022386",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
@@ -1163,7 +1155,7 @@
         "height": 1
     },
     {
-        "id": "be644c82.1fb1d",
+        "id": "76356890.c67228",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
@@ -1172,7 +1164,7 @@
         "height": 1
     },
     {
-        "id": "d5f73ade.acb908",
+        "id": "989a41e1.1394b",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
@@ -1181,7 +1173,7 @@
         "height": 1
     },
     {
-        "id": "fdd39f2c.83e57",
+        "id": "8927d2cf.87f1c",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
@@ -1190,7 +1182,7 @@
         "height": 1
     },
     {
-        "id": "879fb15f.ee615",
+        "id": "6b7a8ef6.22afb",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
@@ -1199,7 +1191,7 @@
         "height": 1
     },
     {
-        "id": "51266457.83c7dc",
+        "id": "a4d3268d.7743d8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
@@ -1208,7 +1200,7 @@
         "height": 1
     },
     {
-        "id": "448e1525.2ac8ac",
+        "id": "9f4054a2.33f5e8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
@@ -1217,7 +1209,7 @@
         "height": 1
     },
     {
-        "id": "4b4b88be.7c9a88",
+        "id": "966c055c.686928",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
@@ -1226,7 +1218,7 @@
         "height": 1
     },
     {
-        "id": "b1b2297d.3db3f8",
+        "id": "15377639.210f6a",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
@@ -1235,7 +1227,7 @@
         "height": 1
     },
     {
-        "id": "1f377dcc.7e0b32",
+        "id": "12ad2724.d97ea9",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "6c15eb0d.8f5814",
@@ -1244,7 +1236,7 @@
         "height": 1
     },
     {
-        "id": "eb54028b.b6aef",
+        "id": "1b2c343a.51a19c",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "6c15eb0d.8f5814",
@@ -1253,7 +1245,7 @@
         "height": 1
     },
     {
-        "id": "5a477e4.8940d8",
+        "id": "bd951568.6a7048",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "6c15eb0d.8f5814",
@@ -1262,7 +1254,7 @@
         "height": 1
     },
     {
-        "id": "5849fb6e.1ba8f4",
+        "id": "9d8a7c76.c8922",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "6c15eb0d.8f5814",
@@ -1271,7 +1263,7 @@
         "height": 1
     },
     {
-        "id": "f186cd58.e5579",
+        "id": "de39f7fc.6ee398",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "6c15eb0d.8f5814",
@@ -1280,7 +1272,7 @@
         "height": 1
     },
     {
-        "id": "e0aa1692.ea3ed8",
+        "id": "cf574d19.fa77a",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "6c15eb0d.8f5814",
@@ -1289,7 +1281,7 @@
         "height": 1
     },
     {
-        "id": "e4e413eb.ac9d",
+        "id": "ac26a38.4eee36",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "6c15eb0d.8f5814",
@@ -1298,7 +1290,7 @@
         "height": 1
     },
     {
-        "id": "1cc4e831.f919b8",
+        "id": "d0170e2b.34808",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "6c15eb0d.8f5814",
@@ -1307,7 +1299,7 @@
         "height": 1
     },
     {
-        "id": "cfc7866f.fe3bb8",
+        "id": "f686bac.6b5d648",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "6c15eb0d.8f5814",
@@ -2985,7 +2977,7 @@
         "type": "ui_text",
         "z": "1d22c714.e50369",
         "group": "1c37dc0b.ce28e4",
-        "order": 10,
+        "order": 9,
         "width": 4,
         "height": 1,
         "name": "SunsetTime",
@@ -3001,7 +2993,7 @@
         "type": "ui_text",
         "z": "1d22c714.e50369",
         "group": "1c37dc0b.ce28e4",
-        "order": 9,
+        "order": 7,
         "width": 3,
         "height": 1,
         "name": "Temperature",
@@ -6297,8 +6289,8 @@
         "fwdInMessages": false,
         "resendOnRefresh": true,
         "templateScope": "local",
-        "x": 450,
-        "y": 310,
+        "x": 550,
+        "y": 320,
         "wires": [
             [
                 "590d5d39.e99054",
@@ -6311,18 +6303,19 @@
         "type": "function",
         "z": "5e9d2991.0ea428",
         "name": "",
-        "func": "// If update received.\nif (msg.seedTrayState) {\n    global.set(\"crops.seedTrayState\", msg.seedTrayState);\n} \nmsg.seedTray = global.get(\"crops.seedTrayState\");\n\n// Get NFT state\nif (msg.NFTState) {\n    global.set(\"crops.NFT.state\", msg.NFTState);\n}\nmsg.NFTState = global.get('crops.NFT.state');\n\n// Get all empty cells from NFT system, to assign a cell for transplantation from seed tray\nvar emptyNFTCells = global.get('crops.NFT.state').filter(cell => cell.category === \"empty\");\nvar countEmptyCells = 0;\n\nvar maxNumberOfSaladSeedsPerWeek = global.get(\"crops.currentWeek.schedule.maxSeedPerWeek\");\nvar currentWeekNumber = global.get(\"crops.currentWeek.weekNumber\");\n\nfor (var item in msg.seedTray) {\n\n    // bug fix - save date as 2021-01-05T00:00:00+09:00\n \n    if (msg.seedTray[item][\"category\"] == \"empty\") {\n            \n        msg.seedTray[item][\"hexColor\"]= \"grey\";\n        msg.seedTray[item][\"icon\"] = \"\";\n        \n        // In case no next action defined, and seeds can be planted this week\n        if (!msg.seedTray[item][\"nextAction\"] &&\n            global.get(\"crops.currentWeek.schedule.countSeedPlanted\") < maxNumberOfSaladSeedsPerWeek) {\n            \n            msg.seedTray[item][\"nextAction\"] = \"plantSeed\";\n            msg.seedTray[item][\"iconAction\"] = \"http://10.0.0.10:1880/seeding.png\";\n            \n            var numberOfSeedToPlan = global.get(\"crops.currentWeek.schedule.countSeedPlanted\");\n            global.set(\"crops.currentWeek.schedule.countSeedPlanted\", numberOfSeedToPlan+1);\n\n        }\n        \n    } \n    \n    // Seed is germinated\n    else if (Date.parse(msg.seedTray[item][\"transplantDate\"]) <= new Date().getTime()\n            && new Date().getTime() > Date.parse(msg.seedTray[item][\"germinationDate\"])) {\n                \n        msg.seedTray[item][\"hexColor\"]= \"green\";\n        msg.seedTray[item][\"icon\"] = \"http://10.0.0.10:1880/germinated-state.png\";\n        \n        // if curent week = transplantWeekNumber, time to harvest\n        if (currentWeekNumber == msg.seedTray[item][\"transplantDateWeekNumber\"]) {\n            msg.seedTray[item][\"nextAction\"] = \"transplant\";\n            msg.seedTray[item][\"iconAction\"] = \"http://10.0.0.10:1880/action-transplant.png\";\n            \n            // Ready for transplant. Compute toBe column and row\n            if (emptyNFTCells[countEmptyCells]) {\n                msg.seedTray[item][\"toNFTColumn\"] = emptyNFTCells[countEmptyCells].column;\n                msg.seedTray[item][\"toNFTRow\"] = emptyNFTCells[countEmptyCells].row;\n                countEmptyCells++;\n            }\n        }\n        \n    } \n    \n    // Germinated \n    else if (Date.parse(msg.seedTray[item][\"germinationDate\"]) <= new Date().getTime()\n            && new Date().getTime() > Date.parse(msg.seedTray[item][\"seedPlantedDate\"])) {\n        \n        msg.seedTray[item][\"hexColor\"]= \"green\";\n        msg.seedTray[item][\"icon\"] = \"http://10.0.0.10:1880/germinating-state.png\";\n    } \n    \n    // Seed state\n    else if (Date.parse(msg.seedTray[item][\"seedPlantedDate\"]) <= new Date().getTime()) {\n        \n        msg.seedTray[item][\"hexColor\"]= \"green\";\n        msg.seedTray[item][\"icon\"] = \"http://10.0.0.10:1880/seed_state.png\";\n    } \n    \n}\n\n// Pass global varialbe\n\nmsg.lettuceDaysForGermination = global.get('crops.lettuce.schedule.germinated') || 0;\nmsg.lettuceDaysForTransplant = global.get('crops.lettuce.schedule.transplant') || 0;\nmsg.lettuceDaysForHarvest = global.get('crops.lettuce.schedule.harvest') || 0;\n\n\nfor (item in msg.NFTState) {\n  \n    if (msg.NFTState[item][\"category\"] == \"empty\") {\n            \n        msg.NFTState[item][\"hexColor\"]= \"black\";\n        msg.NFTState[item][\"icon\"] = \"\";\n        \n    } else if (currentWeekNumber === msg.NFTState[item][\"harvestWeekNumber\"]) {\n        msg.NFTState[item][\"hexColor\"]= \"green\";\n        msg.NFTState[item][\"icon\"] = \"http://10.0.0.10:1880/harvest-state.png\";\n        \n        msg.NFTState[item][\"nextAction\"] = \"harvest\";\n        msg.NFTState[item][\"iconAction\"] = \"http://10.0.0.10:1880/harvest-action.png\";\n        \n    } else {\n\n        msg.NFTState[item][\"hexColor\"]= \"green\";\n        msg.NFTState[item][\"icon\"] = \"http://10.0.0.10:1880/germinated-state.png\";\n        \n    }\n}\n\nglobal.set('crops.NFT.state', msg.NFTState);\n\nreturn msg;",
+        "func": "// If update received.\nif (msg.seedTrayState) {\n    global.set(\"crops.seedTrayState\", msg.seedTrayState);\n} \nmsg.seedTray = global.get(\"crops.seedTrayState\");\n\n// Get NFT state\nif (msg.NFTState) {\n    global.set(\"crops.NFT.state\", msg.NFTState);\n}\nmsg.NFTState = global.get('crops.NFT.state');\n\n// Get all empty cells from NFT system, to assign a cell for transplantation from seed tray\nvar emptyNFTCells = global.get('crops.NFT.state').filter(cell => cell.category === \"empty\");\nvar countEmptyCells = 0;\n\nvar maxNumberOfSaladSeedsPerWeek = global.get(\"crops.currentWeek.schedule.maxSeedPerWeek\");\nvar currentWeekNumber = global.get(\"crops.currentWeek.weekNumber\");\n\n\n// Pass global varialbe\n\nmsg.lettuceDaysForGermination = global.get('crops.lettuce.schedule.germinated') || 0;\nmsg.lettuceDaysForTransplant = global.get('crops.lettuce.schedule.transplant') || 0;\nmsg.lettuceDaysForHarvest = global.get('crops.lettuce.schedule.harvest') || 0;\n\nfor (var item in msg.seedTray) {\n\n    // bug fix - save date as 2021-01-05T00:00:00+09:00\n \n    if (msg.seedTray[item][\"category\"] == \"empty\") {\n            \n        msg.seedTray[item][\"hexColor\"]= \"grey\";\n        msg.seedTray[item][\"icon\"] = \"\";\n        \n        // In case no next action defined, and seeds can be planted this week\n        if (!msg.seedTray[item][\"nextAction\"] &&\n            global.get(\"crops.currentWeek.schedule.countSeedPlanted\") < maxNumberOfSaladSeedsPerWeek) {\n            \n            msg.seedTray[item][\"nextAction\"] = \"plantSeed\";\n            msg.seedTray[item][\"iconAction\"] = \"http://10.0.0.10:1880/seeding.png\";\n            \n            var numberOfSeedToPlan = global.get(\"crops.currentWeek.schedule.countSeedPlanted\");\n            global.set(\"crops.currentWeek.schedule.countSeedPlanted\", numberOfSeedToPlan+1);\n\n        }\n        \n    }\n    \n    // if curent week = transplantWeekNumber, time to transplant\n    if (currentWeekNumber == msg.seedTray[item][\"transplantDateWeekNumber\"]) {\n        msg.seedTray[item][\"nextAction\"] = \"transplant\";\n        msg.seedTray[item][\"iconAction\"] = \"http://10.0.0.10:1880/action-transplant.png\";\n            \n        // Ready for transplant. Compute toBe column and row\n        if (emptyNFTCells[countEmptyCells]) {\n            msg.seedTray[item][\"toNFTColumn\"] = emptyNFTCells[countEmptyCells].column;\n            msg.seedTray[item][\"toNFTRow\"] = emptyNFTCells[countEmptyCells].row;\n            countEmptyCells++;\n        }\n    }\n    \n    // Seed is germinated, not ready for transplant\n    else if (Date.parse(msg.seedTray[item][\"transplantDate\"]) >= new Date().getTime()\n            && new Date().getTime() > Date.parse(msg.seedTray[item][\"germinationDate\"])) {\n                \n        msg.seedTray[item][\"hexColor\"]= \"green\";\n        msg.seedTray[item][\"icon\"] = \"http://10.0.0.10:1880/germinated-state.png\";\n        \n        var daysElapsedSinceSeedDate = Math.abs((new Date().getTime() - Date.parse(msg.seedTray[item][\"seedPlantedDate\"])) / (1000 * 60 * 60 * 24));\n        msg.seedTray[item][\"progress\"]= Math.round(daysElapsedSinceSeedDate / msg.lettuceDaysForTransplant * 100);\n        \n    } \n    \n    // Germinated \n    else if (Date.parse(msg.seedTray[item][\"germinationDate\"]) <= new Date().getTime()\n            && new Date().getTime() > Date.parse(msg.seedTray[item][\"seedPlantedDate\"])) {\n        \n        msg.seedTray[item][\"hexColor\"]= \"green\";\n        msg.seedTray[item][\"icon\"] = \"http://10.0.0.10:1880/germinating-state.png\";\n        \n        var daysElapsedSinceSeedDate = Math.abs((new Date().getTime() - Date.parse(msg.seedTray[item][\"seedPlantedDate\"])) / (1000 * 60 * 60 * 24));\n        msg.seedTray[item][\"progress\"]= Math.round(daysElapsedSinceSeedDate / msg.lettuceDaysForGermination * 100);\n        \n        \n    } \n    \n    // Seed state\n    else if (Date.parse(msg.seedTray[item][\"seedPlantedDate\"]) <= new Date().getTime()) {\n        \n        msg.seedTray[item][\"hexColor\"]= \"green\";\n        msg.seedTray[item][\"icon\"] = \"http://10.0.0.10:1880/seed_state.png\";\n        \n        var daysElapsedSinceSeedDate = Math.abs((new Date().getTime() - Date.parse(msg.seedTray[item][\"seedPlantedDate\"])) / (1000 * 60 * 60 * 24));\n        msg.seedTray[item][\"progress\"]= Math.round(daysElapsedSinceSeedDate / msg.lettuceDaysForGermination * 100);\n        \n    } \n    \n}\n\n\nfor (item in msg.NFTState) {\n  \n    if (msg.NFTState[item][\"category\"] == \"empty\") {\n            \n        msg.NFTState[item][\"hexColor\"]= \"black\";\n        msg.NFTState[item][\"icon\"] = \"\";\n        \n    } else if (currentWeekNumber === msg.NFTState[item][\"harvestWeekNumber\"]) {\n        \n        msg.NFTState[item][\"hexColor\"]= \"green\";\n        msg.NFTState[item][\"icon\"] = \"http://10.0.0.10:1880/harvest-state.png\";\n        \n        msg.NFTState[item][\"nextAction\"] = \"harvest\";\n        msg.NFTState[item][\"iconAction\"] = \"http://10.0.0.10:1880/harvest-action.png\";\n        \n    } else {\n\n        msg.NFTState[item][\"hexColor\"]= \"green\";\n        msg.NFTState[item][\"icon\"] = \"http://10.0.0.10:1880/germinated-state.png\";\n        \n        var daysElapsedSinceTransplant = Math.abs((new Date().getTime() - Date.parse(msg.NFTState[item][\"transplantDate\"])) / (1000 * 60 * 60 * 24));\n        msg.NFTState[item][\"progress\"]= Math.round(daysElapsedSinceTransplant / msg.lettuceDaysForHarvest * 100);\n        \n        \n    }\n}\n\nglobal.set('crops.NFT.state', msg.NFTState);\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 261,
-        "y": 310,
+        "x": 300,
+        "y": 300,
         "wires": [
             [
                 "bd43de44.263ff",
                 "91840b38.961cc8",
-                "54ed5895.d86ef8"
+                "54ed5895.d86ef8",
+                "cda10f2b.fad49"
             ]
         ]
     },
@@ -6332,10 +6325,12 @@
         "z": "5e9d2991.0ea428",
         "name": "seedTrayState",
         "storageNode": "a26c033.387dc",
-        "x": 80,
+        "x": 120,
         "y": 280,
         "wires": [
-            []
+            [
+                "513fc490.e682dc"
+            ]
         ]
     },
     {
@@ -6346,7 +6341,7 @@
         "props": [
             {
                 "p": "seedTrayState",
-                "v": "[{\"column\":\"A\",\"row\":\"1\",\"category\":\"salad\",\"seedPlantedDate\":\"2020-12-29\",\"germinationDate\":\"2021-01-02\",\"transplantDate\":\"2021-01-04\",\"transplantDateWeekNumber\":1,\"harvestDate\":\"2021-01-06\",\"harvestWeekNumber\":7},{\"column\":\"B\",\"row\":\"1\",\"category\":\"salad\",\"seedPlantedDate\":\"2020-12-29\",\"germinationDate\":\"2021-01-02\",\"transplantDate\":\"2021-01-04\",\"transplantDateWeekNumber\":1,\"harvestDate\":\"2021-01-06\",\"harvestWeekNumber\":7},{\"column\":\"C\",\"row\":\"1\",\"category\":\"salad\",\"seedPlantedDate\":\"2020-12-20\",\"germinationDate\":\"2021-01-02\",\"transplantDate\":\"2021-01-08\",\"harvestDate\":\"2021-01-06\"},{\"column\":\"A\",\"row\":\"2\",\"category\":\"salad\",\"seedPlantedDate\":\"2020-12-29\",\"germinationDate\":\"2021-01-18\",\"harvestDate\":\"2021-01-21\"},{\"column\":\"B\",\"row\":\"2\",\"category\":\"empty\"},{\"column\":\"C\",\"row\":\"2\",\"category\":\"empty\"}]",
+                "v": "[{\"column\":\"A\",\"row\":\"1\",\"category\":\"salad\",\"seedPlantedDate\":\"2021-01-07\",\"germinationDate\":\"2021-01-07\",\"transplantDate\":\"2021-01-20\",\"transplantDateWeekNumber\":3,\"harvestDate\":\"2021-01-06\",\"harvestWeekNumber\":7},{\"column\":\"B\",\"row\":\"1\",\"category\":\"salad\",\"seedPlantedDate\":\"2020-12-29\",\"germinationDate\":\"2021-01-03\",\"transplantDate\":\"2021-01-10\",\"transplantDateWeekNumber\":2,\"harvestWeekNumber\":7},{\"column\":\"C\",\"row\":\"1\",\"category\":\"salad\",\"seedPlantedDate\":\"2021-01-07\",\"germinationDate\":\"2021-01-09\",\"transplantDateWeekNumber\":4,\"harvestWeekNumber\":9},{\"column\":\"A\",\"row\":\"2\",\"category\":\"salad\",\"seedPlantedDate\":\"2021-01-07\",\"germinationDate\":\"2021-01-08\",\"transplantDateWeekNumber\":3,\"harvestWeekNumber\":3},{\"column\":\"B\",\"row\":\"2\",\"category\":\"empty\"},{\"column\":\"C\",\"row\":\"2\",\"category\":\"empty\"}]",
                 "vt": "json"
             }
         ],
@@ -6355,12 +6350,10 @@
         "once": false,
         "onceDelay": 0.1,
         "topic": "",
-        "payloadType": "str",
         "x": 200,
         "y": 150,
         "wires": [
             [
-                "513fc490.e682dc",
                 "35eb65db.60721a"
             ]
         ]
@@ -6386,8 +6379,7 @@
         "y": 190,
         "wires": [
             [
-                "35eb65db.60721a",
-                "513fc490.e682dc"
+                "35eb65db.60721a"
             ]
         ]
     },
@@ -6397,8 +6389,8 @@
         "z": "5e9d2991.0ea428",
         "name": "seedTrayState",
         "storageNode": "a26c033.387dc",
-        "x": 840,
-        "y": 180,
+        "x": 1020,
+        "y": 220,
         "wires": []
     },
     {
@@ -6411,8 +6403,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 720,
-        "y": 540,
+        "x": 740,
+        "y": 460,
         "wires": [
             [
                 "c5f92316.ac28a"
@@ -6428,33 +6420,16 @@
         "order": 1,
         "width": 0,
         "height": 0,
-        "format": "\n  <svg width=\"384px\" height=\"200px\">\n\n    <g ng-repeat=\"(key, value) in NFT\">\n      \n    <polyline points=\"{{value.x1}} {{value.y1}} {{value.x2}} {{value.y2}} \n        {{value.x3}} {{value.y3}} {{value.x4}} {{value.y4}} {{value.x5}} {{value.y5}}\" stroke=\"black\" \n      stroke-width=\"2\" stroke-linecap=\"round\" fill=\"none\" stroke-linejoin=\"round\"/>\n      \n    </g>\n    \n        <g ng-repeat=\"(key, value) in NFTState\">\n      \n      <rect x=\"{{value.xpos}}\" \n           y=\"{{value.ypos}}\"\n           width=\"{{value.width}}\" height=\"{{value.height}}\" style=\"fill:{{value.hexColor}}\" rx=\"150\" />\n\n      <image href=\"{{value.icon}}\" x=\"{{value.xpos+value.width/4}}\" y=\"{{value.ypos+value.height/4}}\" \n      width=\"{{value.width/2}}\" height=\"{{value.height/2}}\" />\n      \n    </g>\n    \n    <g ng-repeat=\"(key, value) in rowsDisplay\">\n       \n       <text x=\"{{value.xpos}}\" y=\"{{value.ypos}}\" dominant-baseline=\"central\" text-anchor=\"middle\"\n            font-size=\"14\" stroke-width=\"0\" stroke=\"#000\"\n            fill=\"#f9fcfb\" font-family=\"Montserrat\" font-weight=\"bold\">{{value.title}}</text>\n    </g>\n    \n    <g ng-repeat=\"(key, value) in columnsDisplay\">\n       \n       <text x=\"{{value.xpos}}\" y=\"{{value.ypos}}\" dominant-baseline=\"central\" text-anchor=\"middle\"\n            font-size=\"14\" stroke-width=\"0\" stroke=\"#000\"\n            fill=\"#f9fcfb\" font-family=\"Montserrat\" font-weight=\"bold\">{{value.title}}</text>\n    </g>\n    \n\n  </svg>\n  \n\n\n<script>\n    \n(function(scope) {\n    \n    scope.rowsDisplay = []; \n    scope.columnsDisplay = []; \n    \n    // $watch fires each time the node is triggered in the flow\n    scope.$watch('msg', function(msg) {\n        \n        scope.NFTState = msg.NFTState;\n        console.log(\"NFT state\");\n        console.log(scope.NFTState);\n        \n        var boxWidth = 30, boxHeight = 30;\n        var topPadding = 5;\n        var leftPadding = 40;\n        var boxSpacing = 5;\n        var rowSpacing = 15;\n        \n        var numberofRows = 2;\n        var numberofColumns = 9; \n        \n        scope.NFT = [];\n        var NFTpadding = 3;\n        \n        for (i = 1 ; i <= numberofRows ; i++) {\n            var item = {\n                x1: leftPadding - NFTpadding,\n                y1: topPadding + boxHeight*i + rowSpacing*i - NFTpadding,\n                x2: leftPadding+(numberofColumns) * boxWidth + boxSpacing*(numberofColumns) + NFTpadding,\n                y2: topPadding + boxHeight*i + rowSpacing*i - NFTpadding,\n                x3: leftPadding+(numberofColumns) * boxWidth + boxSpacing*(numberofColumns) + NFTpadding,\n                y3: topPadding + boxHeight*(i+1) + rowSpacing*i + NFTpadding,\n                x4: leftPadding - NFTpadding,\n                y4: topPadding + boxHeight*(i+1) + rowSpacing*i + NFTpadding,\n                x5: leftPadding - NFTpadding,\n                y5: topPadding + boxHeight*i + rowSpacing*i - NFTpadding\n            }\n            scope.NFT.push(item);\n        }\n        \n        angular.forEach(scope.NFTState, function (value, key) {\n            value[\"xpos\"] = (value[\"column\"].toLowerCase().charCodeAt(0) - 97) * boxHeight + (value[\"column\"].toLowerCase().charCodeAt(0) - 97) * boxSpacing + leftPadding;\n            value[\"ypos\"] = value[\"row\"] * boxWidth + value[\"row\"] * rowSpacing + topPadding;\n            value[\"width\"] = boxWidth; \n            value[\"height\"]= boxHeight; \n            \n        });\n\n        \n        scope.rowsDisplay = []; \n        for ( i = 0 ; i < numberofRows ; i++) {\n            var feed = {\n                \"title\": i+1,\n                \"xpos\": leftPadding/2,\n                \"ypos\": topPadding + (i+1) * boxHeight + (i+1) * rowSpacing + boxHeight/2\n            }\n            scope.rowsDisplay.push(feed);\n        }\n        \n        scope.columnsDisplay = []; \n        for ( i = 0 ; i < numberofColumns ; i++) {\n            var feed = {\n                \"title\": String.fromCharCode(97 + i).toUpperCase(),\n                \"xpos\": leftPadding + (i) * boxWidth + (i) * boxSpacing + boxWidth/2,\n                \"ypos\": topPadding/0.2\n            }\n            scope.columnsDisplay.push(feed);\n        }\n\n        \n    });\n\n})(scope);\n\n</script>",
+        "format": "\n  <svg height=\"200px\">\n\n    <g ng-repeat=\"(key, value) in NFT\">\n      \n    <polyline points=\"{{value.x1}} {{value.y1}} {{value.x2}} {{value.y2}} \n        {{value.x3}} {{value.y3}} {{value.x4}} {{value.y4}} {{value.x5}} {{value.y5}}\" stroke=\"black\" \n      stroke-width=\"2\" stroke-linecap=\"round\" fill=\"none\" stroke-linejoin=\"round\"/>\n      \n    </g>\n    \n    <g ng-repeat=\"(key, value) in NFTState\">\n      \n        <rect x=\"{{value.xpos}}\" \n               y=\"{{value.ypos}}\"\n               width=\"{{value.width}}\" height=\"{{value.height}}\" style=\"fill:{{value.hexColor}}\" rx=\"150\" />\n    \n        <image href=\"{{value.icon}}\" x=\"{{value.xpos+value.width/4}}\" y=\"{{value.ypos+value.height/4}}\" \n          width=\"{{value.width/2}}\" height=\"{{value.height/2}}\" />\n          \n          \n        <line    \n            x1=\"{{value.progressX1}}\"\n            y1=\"{{value.progressY1}}\"\n            x2=\"{{value.progressXMax}}\"\n            y2=\"{{value.progressY1}}\"\n            stroke=\"black\" \n            stroke-dasharray=\"100%\" \n            stroke-dashoffset=\"50%\" \n            stroke-width=\"2\" />\n            \n        <line\n            x1=\"{{value.progressX1}}\"\n            y1=\"{{value.progressY1}}\"\n            x2=\"{{value.progressX2}}\"\n            y2=\"{{value.progressY1}}\"\n            stroke=\"#C2E362\" \n            stroke-dasharray=\"100%\" \n            stroke-dashoffset=\"50%\" \n            stroke-width=\"2\" />\n      \n    </g>\n    \n    <g ng-repeat=\"(key, value) in rowsDisplay\">\n       \n       <text x=\"{{value.xpos}}\" y=\"{{value.ypos}}\" dominant-baseline=\"central\" text-anchor=\"middle\"\n            font-size=\"14\" stroke-width=\"0\" stroke=\"#000\"\n            fill=\"#f9fcfb\" font-family=\"Montserrat\" font-weight=\"bold\">{{value.title}}</text>\n    </g>\n    \n    <g ng-repeat=\"(key, value) in columnsDisplay\">\n       \n       <text x=\"{{value.xpos}}\" y=\"{{value.ypos}}\" dominant-baseline=\"central\" text-anchor=\"middle\"\n            font-size=\"14\" stroke-width=\"0\" stroke=\"#000\"\n            fill=\"#f9fcfb\" font-family=\"Montserrat\" font-weight=\"bold\">{{value.title}}</text>\n    </g>\n    \n\n  </svg>\n  \n\n\n<script>\n    \n(function(scope) {\n    \n    scope.rowsDisplay = []; \n    scope.columnsDisplay = []; \n    \n    // $watch fires each time the node is triggered in the flow\n    scope.$watch('msg', function(msg) {\n        \n        scope.NFTState = msg.NFTState;\n        console.log(\"NFT state\");\n        console.log(scope.NFTState);\n        \n        var boxWidth = 40, boxHeight = 40;\n        var topPadding = 5;\n        var leftPadding = 40;\n        var boxSpacing = 5;\n        var rowSpacing = 15;\n        \n        var numberofRows = 2;\n        var numberofColumns = 9; \n        \n        scope.NFT = [];\n        var NFTpadding = 3;\n        \n        for (i = 1 ; i <= numberofRows ; i++) {\n            var item = {\n                x1: leftPadding - NFTpadding,\n                y1: topPadding + boxHeight*i + rowSpacing*i - NFTpadding,\n                x2: leftPadding+(numberofColumns) * boxWidth + boxSpacing*(numberofColumns) + NFTpadding,\n                y2: topPadding + boxHeight*i + rowSpacing*i - NFTpadding,\n                x3: leftPadding+(numberofColumns) * boxWidth + boxSpacing*(numberofColumns) + NFTpadding,\n                y3: topPadding + boxHeight*(i+1) + rowSpacing*i + NFTpadding,\n                x4: leftPadding - NFTpadding,\n                y4: topPadding + boxHeight*(i+1) + rowSpacing*i + NFTpadding,\n                x5: leftPadding - NFTpadding,\n                y5: topPadding + boxHeight*i + rowSpacing*i - NFTpadding\n            }\n            scope.NFT.push(item);\n        }\n        \n        angular.forEach(scope.NFTState, function (value, key) {\n            value[\"xpos\"] = (value[\"column\"].toLowerCase().charCodeAt(0) - 97) * boxHeight + (value[\"column\"].toLowerCase().charCodeAt(0) - 97) * boxSpacing + leftPadding;\n            value[\"ypos\"] = value[\"row\"] * boxWidth + value[\"row\"] * rowSpacing + topPadding;\n            value[\"width\"] = boxWidth; \n            value[\"height\"]= boxHeight; \n            \n            if (value[\"progress\"]) { \n                \n                value[\"progressX1\"] = Math.floor((value[\"column\"].toLowerCase().charCodeAt(0) - 97) * boxHeight + (value[\"column\"].toLowerCase().charCodeAt(0) - 97) * boxSpacing + leftPadding + boxWidth/3);\n                value[\"progressY1\"] = Math.floor(value[\"row\"] * boxWidth + value[\"row\"] * rowSpacing + topPadding + boxHeight / 1.2);\n                // Max - + 20px\n                value[\"progressXMax\"] = Math.floor((value[\"column\"].toLowerCase().charCodeAt(0) - 97) * boxHeight + (value[\"column\"].toLowerCase().charCodeAt(0) - 97) * boxSpacing + leftPadding + boxWidth/3 + (boxWidth / 3)); \n                // Prograss bar - 0.2 * % progress (100% = 20px)\n                value[\"progressX2\"] = Math.floor((value[\"column\"].toLowerCase().charCodeAt(0) - 97) * boxHeight + (value[\"column\"].toLowerCase().charCodeAt(0) - 97) * boxSpacing + leftPadding +  boxWidth/3 + (boxWidth / 3 / 100) * value[\"progress\"]);\n            }\n            \n        });\n\n        \n        scope.rowsDisplay = []; \n        for ( i = 0 ; i < numberofRows ; i++) {\n            var feed = {\n                \"title\": i+1,\n                \"xpos\": leftPadding/2,\n                \"ypos\": topPadding + (i+1) * boxHeight + (i+1) * rowSpacing + boxHeight/2\n            }\n            scope.rowsDisplay.push(feed);\n        }\n        \n        scope.columnsDisplay = []; \n        for ( i = 0 ; i < numberofColumns ; i++) {\n            var feed = {\n                \"title\": String.fromCharCode(97 + i).toUpperCase(),\n                \"xpos\": leftPadding + (i) * boxWidth + (i) * boxSpacing + boxWidth/2,\n                \"ypos\": topPadding/0.2\n            }\n            scope.columnsDisplay.push(feed);\n        }\n\n        \n    });\n\n})(scope);\n\n</script>",
         "storeOutMessages": false,
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
-        "x": 430,
-        "y": 276,
+        "x": 530,
+        "y": 286,
         "wires": [
             []
         ]
-    },
-    {
-        "id": "7a63b2c1.4b694c",
-        "type": "debug",
-        "z": "5e9d2991.0ea428",
-        "name": "",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 930,
-        "y": 420,
-        "wires": []
     },
     {
         "id": "487076fa.b74ec8",
@@ -6462,10 +6437,12 @@
         "z": "5e9d2991.0ea428",
         "name": "NFTState",
         "storageNode": "e1094939.96bd98",
-        "x": 80,
+        "x": 100,
         "y": 340,
         "wires": [
-            []
+            [
+                "513fc490.e682dc"
+            ]
         ]
     },
     {
@@ -6474,8 +6451,8 @@
         "z": "5e9d2991.0ea428",
         "name": "NFTState",
         "storageNode": "e1094939.96bd98",
-        "x": 940,
-        "y": 360,
+        "x": 1000,
+        "y": 370,
         "wires": []
     },
     {
@@ -6486,7 +6463,7 @@
         "props": [
             {
                 "p": "NFTState",
-                "v": "[{\"column\":\"A\",\"row\":\"1\",\"category\":\"salad\",\"seedPlantedDate\":\"2020-12-29\",\"germinationDate\":\"2021-01-02\",\"transplantDate\":\"2021-01-04\",\"harvestDate\":\"2021-01-06\",\"harvestWeekNumber\":1},{\"column\":\"B\",\"row\":\"1\",\"category\":\"empty\"},{\"column\":\"C\",\"row\":\"1\",\"category\":\"salad\",\"seedPlantedDate\":\"2020-12-20\",\"germinationDate\":\"2021-01-02\",\"transplantDate\":\"2021-01-08\",\"harvestDate\":\"2021-01-06\"},{\"column\":\"D\",\"row\":\"1\",\"category\":\"empty\"},{\"column\":\"E\",\"row\":\"1\",\"category\":\"empty\"},{\"column\":\"F\",\"row\":\"1\",\"category\":\"empty\"},{\"column\":\"G\",\"row\":\"1\",\"category\":\"empty\"},{\"column\":\"H\",\"row\":\"1\",\"category\":\"empty\"},{\"column\":\"I\",\"row\":\"1\",\"category\":\"empty\"},{\"column\":\"A\",\"row\":\"2\",\"category\":\"salad\",\"seedPlantedDate\":\"2020-12-29\",\"germinationDate\":\"2021-01-02\",\"transplantDate\":\"2021-01-04\",\"harvestDate\":\"2021-01-06\"},{\"column\":\"B\",\"row\":\"2\",\"category\":\"empty\"},{\"column\":\"C\",\"row\":\"2\",\"category\":\"salad\",\"seedPlantedDate\":\"2020-12-20\",\"germinationDate\":\"2021-01-02\",\"transplantDate\":\"2021-01-08\",\"harvestDate\":\"2021-01-06\"},{\"column\":\"D\",\"row\":\"2\",\"category\":\"empty\"},{\"column\":\"E\",\"row\":\"2\",\"category\":\"empty\"},{\"column\":\"F\",\"row\":\"2\",\"category\":\"empty\"},{\"column\":\"G\",\"row\":\"2\",\"category\":\"empty\"},{\"column\":\"H\",\"row\":\"2\",\"category\":\"empty\"},{\"column\":\"I\",\"row\":\"2\",\"category\":\"empty\"}]",
+                "v": "[{\"column\":\"A\",\"row\":\"1\",\"category\":\"salad\",\"seedPlantedDate\":\"2021-01-07\",\"germinationDate\":\"2021-01-02\",\"transplantDate\":\"2021-01-20\",\"harvestDate\":\"2021-01-06\",\"harvestWeekNumber\":1},{\"column\":\"B\",\"row\":\"1\",\"category\":\"empty\"},{\"column\":\"C\",\"row\":\"1\",\"category\":\"salad\",\"seedPlantedDate\":\"2020-12-20\",\"germinationDate\":\"2021-01-02\",\"transplantDate\":\"2021-01-06\",\"harvestWeekNumber\":2},{\"column\":\"D\",\"row\":\"1\",\"category\":\"empty\"},{\"column\":\"E\",\"row\":\"1\",\"category\":\"empty\"},{\"column\":\"F\",\"row\":\"1\",\"category\":\"empty\"},{\"column\":\"G\",\"row\":\"1\",\"category\":\"empty\"},{\"column\":\"H\",\"row\":\"1\",\"category\":\"empty\"},{\"column\":\"I\",\"row\":\"1\",\"category\":\"empty\"},{\"column\":\"A\",\"row\":\"2\",\"category\":\"salad\",\"seedPlantedDate\":\"2020-12-05\",\"germinationDate\":\"2020-12-07\",\"transplantDate\":\"2020-12-15\",\"harvestWeekNumber\":2},{\"column\":\"B\",\"row\":\"2\",\"category\":\"empty\"},{\"column\":\"C\",\"row\":\"2\",\"category\":\"salad\",\"seedPlantedDate\":\"2020-12-20\",\"germinationDate\":\"2021-01-02\",\"transplantDate\":\"2021-01-08\",\"harvestWeekNumber\":2},{\"column\":\"D\",\"row\":\"2\",\"category\":\"empty\"},{\"column\":\"E\",\"row\":\"2\",\"category\":\"empty\"},{\"column\":\"F\",\"row\":\"2\",\"category\":\"empty\"},{\"column\":\"G\",\"row\":\"2\",\"category\":\"empty\"},{\"column\":\"H\",\"row\":\"2\",\"category\":\"empty\"},{\"column\":\"I\",\"row\":\"2\",\"category\":\"empty\"}]",
                 "vt": "json"
             }
         ],
@@ -6495,9 +6472,8 @@
         "once": false,
         "onceDelay": 0.1,
         "topic": "",
-        "payloadType": "str",
-        "x": 510,
-        "y": 520,
+        "x": 530,
+        "y": 460,
         "wires": [
             [
                 "fb721728.0918d8"
@@ -6514,12 +6490,12 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 670,
-        "y": 360,
+        "x": 770,
+        "y": 350,
         "wires": [
             [
                 "c5f92316.ac28a",
-                "affd3061.6c4e4"
+                "63860c8.8077ff4"
             ]
         ]
     },
@@ -6533,35 +6509,12 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 680,
-        "y": 280,
+        "x": 780,
+        "y": 290,
         "wires": [
             [
                 "35eb65db.60721a",
-                "daef6fba.7387d"
-            ]
-        ]
-    },
-    {
-        "id": "daef6fba.7387d",
-        "type": "delay",
-        "z": "5e9d2991.0ea428",
-        "name": "Delay for NFTState to be updated",
-        "pauseType": "delay",
-        "timeout": "0.2",
-        "timeoutUnits": "seconds",
-        "rate": "1",
-        "nbRateUnits": "1",
-        "rateUnits": "second",
-        "randomFirst": "1",
-        "randomLast": "5",
-        "randomUnits": "seconds",
-        "drop": false,
-        "x": 1000,
-        "y": 300,
-        "wires": [
-            [
-                "513fc490.e682dc"
+                "affd3061.6c4e4"
             ]
         ]
     },
@@ -6574,13 +6527,13 @@
         "order": 1,
         "width": 0,
         "height": 0,
-        "format": "\n  <svg width=\"384px\" height=\"200px\">\n\n    <g ng-repeat=\"(key, value) in seedTray\">\n      \n      <rect x=\"{{value.xpos}}\" \n           y=\"{{value.ypos}}\"\n           width=\"{{value.width}}\" height=\"{{value.height}}\" style=\"fill:{{value.hexColor}}\" rx=\"10\" />\n\n      <image href=\"{{value.icon}}\" x=\"{{value.xpos+value.width/4}}\" y=\"{{value.ypos+value.height/4}}\" \n      width=\"{{value.width/2}}\" height=\"{{value.height/2}}\" />\n\n       \n    </g>\n    \n    <g ng-repeat=\"(key, value) in rowsDisplay\">\n       \n       <text x=\"{{value.xpos}}\" y=\"{{value.ypos}}\" dominant-baseline=\"central\" text-anchor=\"middle\"\n            font-size=\"14\" stroke-width=\"0\" stroke=\"#000\"\n            fill=\"#f9fcfb\" font-family=\"Montserrat\" font-weight=\"bold\">{{value.title}}</text>\n    </g>\n    \n    <g ng-repeat=\"(key, value) in columnsDisplay\">\n       \n       <text x=\"{{value.xpos}}\" y=\"{{value.ypos}}\" dominant-baseline=\"central\" text-anchor=\"middle\"\n            font-size=\"14\" stroke-width=\"0\" stroke=\"#000\"\n            fill=\"#f9fcfb\" font-family=\"Montserrat\" font-weight=\"bold\">{{value.title}}</text>\n    </g>\n    \n\n  </svg>\n  \n   <svg>\n       \n       <image href=\"http://10.0.0.10:1880/seed_state.png\" x=\"50\" y=\"10\" width=\"25\" height=\"25\" />\n       <text x=\"80\" y=\"28\" font-family=\"Roboto\" fill=\"#f9fcfb\">Seed</text>\n       \n       <image href=\"http://10.0.0.10:1880/germinating-state.png\" x=\"125\" y=\"8\" width=\"25\" height=\"25\" />\n       <text x=\"150\" y=\"28\" font-family=\"Roboto\" fill=\"#f9fcfb\">Germinated</text>\n       \n       <image href=\"http://10.0.0.10:1880/germinated-state.png\" x=\"235\" y=\"10\" width=\"25\" height=\"25\" />\n       <text x=\"265\" y=\"28\" font-family=\"Roboto\" fill=\"#f9fcfb\">Growing</text>\n      \n   </svg>\n  \n\n<script>\n    \n(function(scope) {\n    \n    scope.rowsDisplay = []; \n    scope.columnsDisplay = []; \n    \n    // $watch fires each time the node is triggered in the flow\n    scope.$watch('msg', function(msg) {\n        \n        scope.seedTray = msg.seedTray;\n        \n        var boxWidth = 40, boxHeight = 40;\n        var leftPadding = 25;\n        var boxSpacing = 5;\n        var topPadding = 5;\n        \n        var numberofRows = 6;\n        var numberofColumns = 6; \n        \n        \n        angular.forEach(scope.seedTray, function (value, key) {\n            value[\"xpos\"] = (value[\"column\"].toLowerCase().charCodeAt(0) - 96) * boxHeight + (value[\"column\"].toLowerCase().charCodeAt(0) - 96) * boxSpacing + leftPadding;\n            value[\"ypos\"] = value[\"row\"] * boxWidth + value[\"row\"] * boxSpacing + topPadding;\n            value[\"width\"] = boxWidth; \n            value[\"height\"]= boxHeight; \n            \n        });\n        \n        console.log(scope.seedTray);\n        \n        scope.rowsDisplay = []; \n        for ( i = 0 ; i < numberofRows ; i++) {\n            var feed = {\n                \"title\": i+1,\n                \"xpos\": leftPadding/0.65,\n                \"ypos\": topPadding + (i+1) * boxHeight + (i+1) * boxSpacing + boxHeight/2\n            }\n            scope.rowsDisplay.push(feed);\n        }\n        \n        scope.columnsDisplay = []; \n        for ( i = 0 ; i < numberofColumns ; i++) {\n            var feed = {\n                \"title\": String.fromCharCode(97 + i).toUpperCase(),\n                \"xpos\": leftPadding + (i+1) * boxWidth + (i+1) * boxSpacing + boxWidth/2,\n                \"ypos\": topPadding/0.2\n            }\n            scope.columnsDisplay.push(feed);\n        }\n      \n    });\n\n})(scope);\n\n</script>",
+        "format": "\n  <svg width=\"384px\" height=\"200px\">\n\n    <g ng-repeat=\"(key, value) in seedTray\">\n      \n      <rect x=\"{{value.xpos}}\" \n           y=\"{{value.ypos}}\"\n           width=\"{{value.width}}\" height=\"{{value.height}}\" style=\"fill:{{value.hexColor}}\" rx=\"10\" />\n\n      <image href=\"{{value.icon}}\" x=\"{{value.xpos+value.width/4}}\" y=\"{{value.ypos+value.height/4}}\" \n      width=\"{{value.width/2}}\" height=\"{{value.height/2}}\" />\n      \n       <line    \n            x1=\"{{value.progressX1}}\"\n            y1=\"{{value.progressY1}}\"\n            x2=\"{{value.progressXMax}}\"\n            y2=\"{{value.progressY1}}\"\n            stroke=\"black\" \n            stroke-dasharray=\"100%\" \n            stroke-dashoffset=\"50%\" \n            stroke-width=\"2\" />\n            \n        <line\n            x1=\"{{value.progressX1}}\"\n            y1=\"{{value.progressY1}}\"\n            x2=\"{{value.progressX2}}\"\n            y2=\"{{value.progressY1}}\"\n            stroke=\"#C2E362\" \n            stroke-dasharray=\"100%\" \n            stroke-dashoffset=\"50%\" \n            stroke-width=\"2\" />\n            \n    </g>\n    \n    <g ng-repeat=\"(key, value) in rowsDisplay\">\n       \n       <text x=\"{{value.xpos}}\" y=\"{{value.ypos}}\" dominant-baseline=\"central\" text-anchor=\"middle\"\n            font-size=\"14\" stroke-width=\"0\" stroke=\"#000\"\n            fill=\"#f9fcfb\" font-family=\"Montserrat\" font-weight=\"bold\">{{value.title}}</text>\n    </g>\n    \n    <g ng-repeat=\"(key, value) in columnsDisplay\">\n       \n       <text x=\"{{value.xpos}}\" y=\"{{value.ypos}}\" dominant-baseline=\"central\" text-anchor=\"middle\"\n            font-size=\"14\" stroke-width=\"0\" stroke=\"#000\"\n            fill=\"#f9fcfb\" font-family=\"Montserrat\" font-weight=\"bold\">{{value.title}}</text>\n    </g>\n    \n\n  </svg>\n  \n   <svg>\n       \n       <image href=\"http://10.0.0.10:1880/seed_state.png\" x=\"50\" y=\"10\" width=\"25\" height=\"25\" />\n       <text x=\"80\" y=\"28\" font-family=\"Roboto\" fill=\"#f9fcfb\">Seed</text>\n       \n       <image href=\"http://10.0.0.10:1880/germinating-state.png\" x=\"125\" y=\"8\" width=\"25\" height=\"25\" />\n       <text x=\"150\" y=\"28\" font-family=\"Roboto\" fill=\"#f9fcfb\">Germinated</text>\n       \n       <image href=\"http://10.0.0.10:1880/germinated-state.png\" x=\"235\" y=\"10\" width=\"25\" height=\"25\" />\n       <text x=\"265\" y=\"28\" font-family=\"Roboto\" fill=\"#f9fcfb\">Growing</text>\n      \n   </svg>\n  \n\n<script>\n    \n(function(scope) {\n    \n    scope.rowsDisplay = []; \n    scope.columnsDisplay = []; \n    \n    // $watch fires each time the node is triggered in the flow\n    scope.$watch('msg', function(msg) {\n        \n        scope.seedTray = msg.seedTray;\n        \n        var boxWidth = 40, boxHeight = 40;\n        var leftPadding = 25;\n        var boxSpacing = 5;\n        var topPadding = 5;\n        \n        var numberofRows = 6;\n        var numberofColumns = 6; \n        \n        \n        angular.forEach(scope.seedTray, function (value, key) {\n            value[\"xpos\"] = (value[\"column\"].toLowerCase().charCodeAt(0) - 96) * boxHeight + (value[\"column\"].toLowerCase().charCodeAt(0) - 96) * boxSpacing + leftPadding;\n            value[\"ypos\"] = value[\"row\"] * boxWidth + value[\"row\"] * boxSpacing + topPadding;\n            value[\"width\"] = boxWidth; \n            value[\"height\"]= boxHeight; \n            \n            if (value[\"progress\"]) { \n                \n                value[\"progressX1\"] = Math.floor((value[\"column\"].toLowerCase().charCodeAt(0) - 96) * boxHeight + (value[\"column\"].toLowerCase().charCodeAt(0) - 96) * boxSpacing + leftPadding + boxWidth/4);\n                value[\"progressY1\"] = Math.floor(value[\"row\"] * boxWidth + value[\"row\"] * boxSpacing + topPadding + boxHeight / 1.15);\n                // Max - + 20px\n                value[\"progressXMax\"] = Math.floor((value[\"column\"].toLowerCase().charCodeAt(0) - 96) * boxHeight + (value[\"column\"].toLowerCase().charCodeAt(0) - 96) * boxSpacing + leftPadding + boxWidth/4 + (boxWidth / 2)); \n                // Prograss bar - 0.2 * % progress (100% = 20px)\n                value[\"progressX2\"] = Math.floor((value[\"column\"].toLowerCase().charCodeAt(0) - 96) * boxHeight + (value[\"column\"].toLowerCase().charCodeAt(0) - 96) * boxSpacing + leftPadding +  boxWidth/4 + (boxWidth / 2 / 100) * value[\"progress\"]);\n            }\n            \n            \n        });\n        \n        console.log(scope.seedTray);\n        \n        scope.rowsDisplay = []; \n        for ( i = 0 ; i < numberofRows ; i++) {\n            var feed = {\n                \"title\": i+1,\n                \"xpos\": leftPadding/0.65,\n                \"ypos\": topPadding + (i+1) * boxHeight + (i+1) * boxSpacing + boxHeight/2\n            }\n            scope.rowsDisplay.push(feed);\n        }\n        \n        scope.columnsDisplay = []; \n        for ( i = 0 ; i < numberofColumns ; i++) {\n            var feed = {\n                \"title\": String.fromCharCode(97 + i).toUpperCase(),\n                \"xpos\": leftPadding + (i+1) * boxWidth + (i+1) * boxSpacing + boxWidth/2,\n                \"ypos\": topPadding/0.2\n            }\n            scope.columnsDisplay.push(feed);\n        }\n      \n    });\n\n})(scope);\n\n</script>",
         "storeOutMessages": false,
         "fwdInMessages": false,
         "resendOnRefresh": true,
         "templateScope": "local",
-        "x": 480,
-        "y": 240,
+        "x": 580,
+        "y": 250,
         "wires": [
             []
         ]
@@ -6634,7 +6587,7 @@
         "id": "affd3061.6c4e4",
         "type": "delay",
         "z": "5e9d2991.0ea428",
-        "name": "",
+        "name": "Small delay - time to persist",
         "pauseType": "delay",
         "timeout": "1",
         "timeoutUnits": "seconds",
@@ -6645,12 +6598,97 @@
         "randomLast": "5",
         "randomUnits": "seconds",
         "drop": false,
-        "x": 340,
-        "y": 460,
+        "x": 1060,
+        "y": 280,
         "wires": [
             [
-                "513fc490.e682dc"
+                "3d104e16.58fc12",
+                "7159d445.126dcc"
             ]
         ]
+    },
+    {
+        "id": "3d104e16.58fc12",
+        "type": "debug",
+        "z": "5e9d2991.0ea428",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1270,
+        "y": 230,
+        "wires": []
+    },
+    {
+        "id": "63860c8.8077ff4",
+        "type": "delay",
+        "z": "5e9d2991.0ea428",
+        "name": "Small delay - time to persist",
+        "pauseType": "delay",
+        "timeout": "1",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "x": 1060,
+        "y": 330,
+        "wires": [
+            [
+                "3d104e16.58fc12",
+                "487076fa.b74ec8"
+            ]
+        ]
+    },
+    {
+        "id": "6e0304d5.2bddbc",
+        "type": "inject",
+        "z": "5e9d2991.0ea428",
+        "name": "Init call",
+        "props": [
+            {
+                "p": "timestampt",
+                "v": "",
+                "vt": "date"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "0.5",
+        "topic": "",
+        "x": 100,
+        "y": 420,
+        "wires": [
+            [
+                "7159d445.126dcc",
+                "487076fa.b74ec8"
+            ]
+        ]
+    },
+    {
+        "id": "cda10f2b.fad49",
+        "type": "debug",
+        "z": "5e9d2991.0ea428",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 410,
+        "y": 380,
+        "wires": []
     }
 ]
