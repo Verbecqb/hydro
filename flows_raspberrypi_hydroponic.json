@@ -116,7 +116,7 @@
         "tab": "352c089f.6b44d8",
         "order": 1,
         "disp": true,
-        "width": "24",
+        "width": 24,
         "collapse": false
     },
     {
@@ -584,7 +584,7 @@
         "type": "ui_tab",
         "name": "Graph",
         "icon": "fa-area-chart",
-        "order": 2,
+        "order": 4,
         "disabled": false,
         "hidden": false
     },
@@ -593,7 +593,7 @@
         "type": "ui_tab",
         "name": "Schedule",
         "icon": "fa-calendar",
-        "order": 4,
+        "order": 2,
         "disabled": false,
         "hidden": false
     },
@@ -606,12 +606,6 @@
         "disp": true,
         "width": "8",
         "collapse": false
-    },
-    {
-        "id": "e1094939.96bd98",
-        "type": "persist-store",
-        "filename": "/home/pi/.node-red/projects/hydro/persistence-CropsNFTState.json",
-        "interval": "60"
     },
     {
         "id": "c3776e2a.f6068",
@@ -853,7 +847,7 @@
         "type": "ui_group",
         "name": "Nutrient film technique (NFT) - State",
         "tab": "ad78e894.23e758",
-        "order": 3,
+        "order": 4,
         "disp": true,
         "width": 10,
         "collapse": false
@@ -879,13 +873,33 @@
         "collapse": false
     },
     {
-        "id": "a26c033.387dc",
+        "id": "2a85ce84.fe1902",
+        "type": "ui_group",
+        "name": "Seed Tray - List seedlings",
+        "tab": "ad78e894.23e758",
+        "order": 3,
+        "disp": true,
+        "width": 10,
+        "collapse": false
+    },
+    {
+        "id": "661a710f.63355",
         "type": "persist-store",
-        "filename": "/home/pi/.node-red/projects/hydro/persistence-CropsSeedTrayState.json",
+        "filename": "/home/pi/.node-red/projects/hydro/cropsState.jsonpersistence.json",
         "interval": "60"
     },
     {
-        "id": "a98972cb.e189d",
+        "id": "4a4c281c.1c1c58",
+        "type": "ui_group",
+        "name": "NFT - List of crops",
+        "tab": "ad78e894.23e758",
+        "order": 5,
+        "disp": true,
+        "width": 9,
+        "collapse": false
+    },
+    {
+        "id": "5ae8e15b.759da",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "1c37dc0b.ce28e4",
@@ -894,7 +908,7 @@
         "height": 1
     },
     {
-        "id": "eaee3a93.be44a8",
+        "id": "9cd6dbcb.f1edd8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "1c37dc0b.ce28e4",
@@ -903,7 +917,7 @@
         "height": 1
     },
     {
-        "id": "4f150a19.95b284",
+        "id": "a0a4999.5e16168",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -912,7 +926,7 @@
         "height": 1
     },
     {
-        "id": "ccaaa0d2.d6dac",
+        "id": "44676da6.3301c4",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -921,7 +935,7 @@
         "height": 1
     },
     {
-        "id": "ba2653b6.e2fe7",
+        "id": "1c324ca5.a26d23",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -930,7 +944,7 @@
         "height": 1
     },
     {
-        "id": "cc7e0f00.96fd5",
+        "id": "1e62748d.5090cb",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -939,7 +953,7 @@
         "height": 1
     },
     {
-        "id": "818ca3f0.27fbe",
+        "id": "2cb8c05e.a539f",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -948,7 +962,7 @@
         "height": 1
     },
     {
-        "id": "4f2a6a06.6295f4",
+        "id": "694d58b7.c69ca8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -957,7 +971,7 @@
         "height": 1
     },
     {
-        "id": "519ced3f.22ea34",
+        "id": "a880dfdb.424ac",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -966,7 +980,7 @@
         "height": 1
     },
     {
-        "id": "b83c2b4d.5d0a48",
+        "id": "a60984cf.e2bd48",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -975,7 +989,7 @@
         "height": 1
     },
     {
-        "id": "eb9ab404.887258",
+        "id": "289eb44d.0731ac",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -984,7 +998,7 @@
         "height": 1
     },
     {
-        "id": "80412da8.4ef4d",
+        "id": "c15c9a9f.d67e18",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -993,7 +1007,7 @@
         "height": 1
     },
     {
-        "id": "8e190fcb.f72e3",
+        "id": "adf90c88.c8b4",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "65d119b5.66cb78",
@@ -1002,7 +1016,7 @@
         "height": 1
     },
     {
-        "id": "69aaa4d0.7b58ac",
+        "id": "b16921bb.e79a8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "65d119b5.66cb78",
@@ -1011,7 +1025,7 @@
         "height": 1
     },
     {
-        "id": "308edfaf.497ff",
+        "id": "f7c345d6.af09b8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "65d119b5.66cb78",
@@ -1020,7 +1034,7 @@
         "height": 1
     },
     {
-        "id": "cc33752a.621228",
+        "id": "8ecf8991.3ccd98",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "65d119b5.66cb78",
@@ -1029,7 +1043,7 @@
         "height": 1
     },
     {
-        "id": "3288e59d.37d9fa",
+        "id": "ef19912c.3baa",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -1038,7 +1052,7 @@
         "height": 1
     },
     {
-        "id": "66f8d931.1f74c8",
+        "id": "6e392e20.6fd3b",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -1047,7 +1061,7 @@
         "height": 1
     },
     {
-        "id": "fbdca95f.5da2f8",
+        "id": "624413c7.6794dc",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -1056,7 +1070,7 @@
         "height": 1
     },
     {
-        "id": "8d6ad221.106ef",
+        "id": "2a692c4c.fdc634",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -1065,7 +1079,7 @@
         "height": 1
     },
     {
-        "id": "3877c89e.4a9968",
+        "id": "7fa5a06f.91d25",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -1074,7 +1088,7 @@
         "height": 1
     },
     {
-        "id": "aabb923f.a2e87",
+        "id": "4b7d883e.16e038",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -1083,7 +1097,7 @@
         "height": 1
     },
     {
-        "id": "c75100ab.72d58",
+        "id": "b8fc5d18.8fe2",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -1092,7 +1106,7 @@
         "height": 1
     },
     {
-        "id": "f2c2113e.5ea8c",
+        "id": "d614944b.545c68",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -1101,7 +1115,7 @@
         "height": 1
     },
     {
-        "id": "886fb77c.710878",
+        "id": "aa0c7f8a.1ef6b",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -1110,7 +1124,7 @@
         "height": 1
     },
     {
-        "id": "e228f5.9e855708",
+        "id": "7a0eda0c.b210f4",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -1119,7 +1133,7 @@
         "height": 1
     },
     {
-        "id": "3a50a366.80a0ac",
+        "id": "c4777e29.26efe",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
@@ -1128,7 +1142,7 @@
         "height": 1
     },
     {
-        "id": "43bb87e.0e21b78",
+        "id": "c1e462ff.794f4",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
@@ -1137,7 +1151,7 @@
         "height": 1
     },
     {
-        "id": "20d22e3e.5181f2",
+        "id": "cbc3739c.d517f",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
@@ -1146,7 +1160,7 @@
         "height": 1
     },
     {
-        "id": "1ef90a75.022386",
+        "id": "7cf25eee.2da2f",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
@@ -1155,25 +1169,25 @@
         "height": 1
     },
     {
-        "id": "76356890.c67228",
+        "id": "7dffe796.1f22d8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
-        "order": 7,
-        "width": 8,
-        "height": 1
-    },
-    {
-        "id": "989a41e1.1394b",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "45199dde.854f64",
-        "order": 10,
+        "order": 9,
         "width": 1,
         "height": 1
     },
     {
-        "id": "8927d2cf.87f1c",
+        "id": "5c2466ba.f79a48",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "45199dde.854f64",
+        "order": 12,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "1d7f267a.2bf02a",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
@@ -1182,52 +1196,43 @@
         "height": 1
     },
     {
-        "id": "6b7a8ef6.22afb",
+        "id": "5750762c.bedc08",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
         "order": 14,
-        "width": 1,
+        "width": 4,
         "height": 1
     },
     {
-        "id": "a4d3268d.7743d8",
+        "id": "8cf2c669.ac1f28",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
         "order": 15,
-        "width": 4,
+        "width": 1,
         "height": 1
     },
     {
-        "id": "9f4054a2.33f5e8",
+        "id": "bd185e07.1aa39",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
         "order": 16,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "966c055c.686928",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "45199dde.854f64",
-        "order": 17,
         "width": 4,
         "height": 1
     },
     {
-        "id": "15377639.210f6a",
+        "id": "b5be7308.f429",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
-        "order": 19,
+        "order": 18,
         "width": 1,
         "height": 1
     },
     {
-        "id": "12ad2724.d97ea9",
+        "id": "a3955556.c362e8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "6c15eb0d.8f5814",
@@ -1236,7 +1241,7 @@
         "height": 1
     },
     {
-        "id": "1b2c343a.51a19c",
+        "id": "489d10be.23dea",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "6c15eb0d.8f5814",
@@ -1245,7 +1250,7 @@
         "height": 1
     },
     {
-        "id": "bd951568.6a7048",
+        "id": "84a28cdf.d0d6b",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "6c15eb0d.8f5814",
@@ -1254,7 +1259,7 @@
         "height": 1
     },
     {
-        "id": "9d8a7c76.c8922",
+        "id": "c753d81.891a728",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "6c15eb0d.8f5814",
@@ -1263,7 +1268,7 @@
         "height": 1
     },
     {
-        "id": "de39f7fc.6ee398",
+        "id": "90a5a431.53fc58",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "6c15eb0d.8f5814",
@@ -1272,7 +1277,7 @@
         "height": 1
     },
     {
-        "id": "cf574d19.fa77a",
+        "id": "ca6d4aad.b0cd58",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "6c15eb0d.8f5814",
@@ -1281,7 +1286,7 @@
         "height": 1
     },
     {
-        "id": "ac26a38.4eee36",
+        "id": "524d9411.b8621c",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "6c15eb0d.8f5814",
@@ -1290,7 +1295,7 @@
         "height": 1
     },
     {
-        "id": "d0170e2b.34808",
+        "id": "d583c49b.712878",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "6c15eb0d.8f5814",
@@ -1299,7 +1304,7 @@
         "height": 1
     },
     {
-        "id": "f686bac.6b5d648",
+        "id": "9a027c3b.fedc4",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "6c15eb0d.8f5814",
@@ -1353,11 +1358,7 @@
         "x": 420,
         "y": 946,
         "wires": [
-            [
-                "6a5ac7a1.e350c8",
-                "39bf6628.85f8ba",
-                "b2d124cc.ae5b18"
-            ],
+            [],
             [
                 "b7f7abe3.8afe58",
                 "cffdb1e7.15d13",
@@ -2186,7 +2187,7 @@
         "filemode": "1",
         "filename": "photo1.JPEG",
         "filedefpath": "0",
-        "filepath": "~/.node-red/projects/hydro/ui-media/",
+        "filepath": "/home/pi/.node-red/projects/hydro/ui-media/",
         "fileformat": "jpeg",
         "resolution": "4",
         "rotation": "0",
@@ -2514,7 +2515,7 @@
         "type": "ui_artlessgauge",
         "z": "1d22c714.e50369",
         "group": "45199dde.854f64",
-        "order": 9,
+        "order": 8,
         "width": 3,
         "height": 3,
         "name": "Luminosity",
@@ -2842,7 +2843,7 @@
         "label": "LED  ",
         "tooltip": "Led",
         "group": "45199dde.854f64",
-        "order": 11,
+        "order": 10,
         "width": 2,
         "height": 1,
         "passthru": true,
@@ -3057,7 +3058,7 @@
         "type": "ui_text",
         "z": "1d22c714.e50369",
         "group": "45199dde.854f64",
-        "order": 18,
+        "order": 17,
         "width": 3,
         "height": 1,
         "name": "Last refresh - luminosity",
@@ -4350,7 +4351,7 @@
         "width": 3,
         "height": 1,
         "name": "Room sensors label",
-        "label": "<h3>Room<h3>",
+        "label": "<h3><i class=\"fa fa-home\"> Room<h3>",
         "format": "",
         "layout": "row-left",
         "x": 880,
@@ -4877,7 +4878,7 @@
         "type": "ui_text",
         "z": "87cb301d.9893c",
         "group": "45199dde.854f64",
-        "order": 12,
+        "order": 11,
         "width": 1,
         "height": 1,
         "name": "LED on/off state",
@@ -5180,7 +5181,7 @@
         "type": "ui_text",
         "z": "1d22c714.e50369",
         "group": "45199dde.854f64",
-        "order": 8,
+        "order": 7,
         "width": 4,
         "height": 1,
         "name": "Lights control label",
@@ -6284,17 +6285,17 @@
         "order": 1,
         "width": 0,
         "height": 0,
-        "format": "<div layout=\"column\" style=\"height:350px\" ng-cloak>\n    \n      <md-toolbar md-scroll-shrink ng-if=\"true\">\n        <div class=\"md-toolbar-tools\">\n          <h3>\n            <span>Week #{{currentWeekNumber}} activities </span>\n          </h3>\n        </div>\n      </md-toolbar>\n\n        <md-list flex>\n            \n            <!-- No action list -->\n            <md-list-item ng-show=\"(seedTray | filter: {'nextAction': '!!'}).length == 0 \n                && (NFTState | filter: {'nextAction': '!!'}).length == 0\">\n                \n                <div class=\"md-list-item-text\">\n                    <h4>No action.</h4>\n                </div>\n            </md-list-item>\n            \n            <!-- Harvest actions -->\n            <md-list-item ng-repeat=\"item in NFTState | filter: {'nextAction': '!!'}\">\n                <img src=\"{{item.iconAction}}\" class=\"md-avatar\" style=\"background-color: rgba(255,255,255,0.8);\" >\n                <div class=\"md-list-item-text\" ng-if=\"item.nextAction=='harvest'\">\n                    <h4>Harvest the {{item.category}} on column {{item.column}}, row {{item.row}}</h4>\n                </div>\n                \n                <md-menu class=\"md-secondary\" ng-show=\"item.nextAction=='harvest'\">\n                  <md-button class=\"icon-button\">\n                    <md-avatar ng-class=\"{'fa': true, 'fa-ellipsis-h': true}\"></md-avatar>\n                  </md-button>\n                  <md-menu-content width=\"4\">\n                    <md-menu-item ng-click=\"doSecondaryAction(item)\">\n                      <md-button>\n                        <md-avatar ng-class=\"{'fa': true, 'fa-check': true}\" ></md-avatar>\n                         Complete task\n                      </md-button>\n                    </md-menu-item>\n    \n                    <md-menu-item ng-click=\"\">\n                      <md-button>\n                        <md-avatar ng-class=\"{'fa': true, 'fa-calendar-plus-o': true}\" ></md-avatar>\n                         Re-schedule to next week\n                      </md-button>\n                     </md-menu-item>\n                  </md-menu-content>\n                </md-menu>\n                <md-divider md-inset></md-divider>\n            </md-list-item>\n        \n            \n            <!--Plant seed and transplant action -->\n            <md-list-item ng-repeat=\"item in seedTray | filter: {'nextAction': '!!'}\">\n                <img src=\"{{item.iconAction}}\" class=\"md-avatar\" style=\"background-color: rgba(255,255,255,0.8);\" >\n                <div class=\"md-list-item-text\" ng-if=\"item.nextAction=='plantSeed'\">\n                    <h4>Plant a {{item.category}} seed</h4>\n                    <p>Seed tray - column {{item.column}}, row {{item.row}}</p>\n                </div>\n                <div class=\"md-list-item-text\" ng-if=\"item.nextAction=='transplant'\">\n                    <h4>Transplant {{item.category}}</h4>\n                    <p>From seed tray - column {{item.column}}, row {{item.row}}</p>\n                    <p ng-if=\"item.toNFTColumn\">To NFT - column {{item.toNFTColumn}}, row {{item.toNFTRow}}</p>\n                    <p ng-if=\"!item.toNFTColumn\"><i class=\"fa fa-warning\"> NFC system is full, harvest first.</i></p>\n             \n                </div>\n              \n                <md-menu class=\"md-secondary\" ng-show=\"item.nextAction=='plantSeed' || (item.nextAction=='transplant' && item.toNFTColumn)\">\n                  <md-button class=\"icon-button\">\n                    <md-avatar ng-class=\"{'fa': true, 'fa-ellipsis-h': true}\"></md-avatar>\n                  </md-button>\n                  <md-menu-content width=\"4\">\n                    <md-menu-item ng-click=\"doSecondaryAction(item)\">\n                      <md-button>\n                        <md-avatar ng-class=\"{'fa': true, 'fa-check': true}\" ></md-avatar>\n                         Complete task\n                      </md-button>\n                    </md-menu-item>\n    \n                    <md-menu-item ng-click=\"\">\n                      <md-button>\n                        <md-avatar ng-class=\"{'fa': true, 'fa-calendar-plus-o': true}\" ></md-avatar>\n                         Re-schedule to tomorrow\n                      </md-button>\n                    </md-menu-item>\n                    <md-menu-divider></md-menu-divider>\n                    <md-menu-item ng-click=\"\">\n                       <md-button >\n                        Change to tomatoe\n                      </md-button>\n                    </md-menu-item>\n                    <md-menu-item ng-click=\"\">\n                       <md-button>\n                        Change to mint\n                      </md-button>\n                    </md-menu-item>\n                     <md-menu-item ng-click=\"\">\n                       <md-button>\n                        Change to persley\n                      </md-button>\n                    </md-menu-item>\n                  </md-menu-content>\n                </md-menu>\n                <md-divider md-inset></md-divider>\n            </md-list-item>\n            \n    </md-list>\n</div>\n<script>\n    \n(function(scope) {\n    \n \n    \n    // $watch fires each time the node is triggered in the flow\n    scope.$watch('msg', function(msg) {\n        \n\n        // Returns the ISO week of the date.\n        Date.prototype.getWeek = function() {\n          var date = new Date(this.getTime());\n          date.setHours(0, 0, 0, 0);\n          // Thursday in current week decides the year.\n          date.setDate(date.getDate() + 3 - (date.getDay() + 6) % 7);\n          // January 4 is always in week 1.\n          var week1 = new Date(date.getFullYear(), 0, 4);\n          // Adjust to Thursday in week 1 and count number of weeks from date to week1.\n          return 1 + Math.round(((date.getTime() - week1.getTime()) / 86400000 - 3 + (week1.getDay() + 6) % 7) / 7);\n        }\n        \n        scope.seedTray = msg.seedTray;\n        scope.NFTState = msg.NFTState;\n        \n        scope.currentWeekNumber = new Date(Date.now()).getWeek();\n        \n        scope.doSecondaryAction = function(item) {\n            \n            if (item.nextAction === \"transplant\") {\n                var index =  scope.seedTray.indexOf(item);\n                scope.seedTray.splice(index,1);\n                var newItem = {\n                    column: item.column,\n                    row: item.row, \n                    category: \"empty\"\n                }\n                \n                scope.seedTray.push(newItem);\n                //Update Seed Tray object \n                scope.send({seedTrayState: scope.seedTray});\n                \n                // Push item to NFT\n                \n                var indexNewItem = scope.NFTState.indexOf(\n                        scope.NFTState.find(cell => cell.column === item.toNFTColumn && cell.row === item.toNFTRow)\n                );\n                \n              \n                \n                // remove old item\n                scope.NFTState.splice(indexNewItem,1);\n                \n                //Copy the element stored in seed tray\n                let copy =JSON.parse(JSON.stringify(scope.seedTray[index]));\n                copy.column = item.toNFTColumn;\n                copy.row = item.toNFTRow;\n                copy.iconAction = \"\";\n                copy.nextAction = undefined;\n                copy.toNFTColumn = undefined;\n                copy.toNFTRow = undefined;\n                \n                scope.NFTState.push(copy);\n                console.log(\"Update NFT\");\n                console.log(scope.NFTState);\n                \n                scope.send({NFTStateUpdate: scope.NFTState});\n           \n                \n                \n            } else if (item.nextAction === \"plantSeed\") {\n                \n                var index =  scope.seedTray.indexOf(item);\n \n                //Copy the element\n                let copy =JSON.parse(JSON.stringify(scope.seedTray[index]));\n                \n                // Update properties\n                copy.nextAction = undefined;\n                copy.category = \"salad\";\n                \n                var today = new Date();\n                copy.seedPlantedDate = today.getFullYear() + \"-\" + today.getMonth()+1 + \"-\" + today.getDate();\n                \n                var germinationDate = new Date();\n                germinationDate.setDate(today.getDate() + msg.lettuceDaysForGermination);\n                copy.germinationDate = germinationDate.getFullYear() + \"-\" + (germinationDate.getMonth()+1) + \"-\" + germinationDate.getDate() ;\n                \n                var transplantDate = new Date();\n                transplantDate.setDate(today.getDate() + msg.lettuceDaysForTransplant);\n                copy.transplantDate = transplantDate.getFullYear() + \"-\" + (transplantDate.getMonth()+1) + \"-\" + transplantDate.getDate();\n                copy.transplantDateWeekNumber = new Date(Date.parse(transplantDate.getFullYear() + \"-\" + (transplantDate.getMonth()+1) + \"-\" + transplantDate.getDate())).getWeek();\n                \n                var harvestDate = new Date();\n                harvestDate.setDate(today.getDate() + msg.lettuceDaysForHarvest);\n                copy.harvestDate = harvestDate.getFullYear() + \"-\" + (harvestDate.getMonth()+1) + \"-\" + harvestDate.getDate();\n                copy.harvestWeekNumber = new Date(Date.parse(harvestDate.getFullYear() + \"-\" + (harvestDate.getMonth()+1) + \"-\" + harvestDate.getDate())).getWeek();\n                \n                // Remove \"old\" item\n                scope.seedTray.splice(index,1);\n                // Push the copy\n                scope.seedTray.push(copy);\n                console.log(scope.seedTray);\n                scope.send({seedTrayState: scope.seedTray});\n                \n                \n            }\n            \n            if (item.nextAction === \"harvest\") {\n                \n                var index =  scope.NFTState.indexOf(item);\n                scope.NFTState.splice(index,1);\n                var newItem = {\n                    column: item.column,\n                    row: item.row, \n                    category: \"empty\"\n                }\n                \n                scope.NFTState.push(newItem);\n                console.log(\"harvest\");\n                console.log(scope.NFTState);\n                //Update Seed Tray object \n                scope.send({NFTStateUpdate: scope.NFTState});\n                \n                \n            }\n        };\n    \n    });\n\n})(scope);\n\n</script>",
+        "format": "<div layout=\"column\" style=\"height:350px\" ng-cloak>\n    \n      <md-toolbar md-scroll-shrink ng-if=\"true\">\n        <div class=\"md-toolbar-tools\">\n          <h3>\n            <span>Week activities </span>\n          </h3>\n        </div>\n      </md-toolbar>\n\n        <md-list flex>\n            \n            <!-- No action list -->\n            <md-list-item ng-show=\"(seedTray | filter: {'nextAction': '!!'}).length == 0 \n                && (NFTState | filter: {'nextAction': '!!'}).length == 0\">\n                \n                <div class=\"md-list-item-text\">\n                    <h4>No action.</h4>\n                </div>\n            </md-list-item>\n            \n            <!-- Harvest actions -->\n            <md-list-item ng-repeat=\"item in NFTState | filter: {'nextAction': '!!'}\">\n                <img src=\"{{item.iconAction}}\" class=\"md-avatar\" style=\"background-color: rgba(255,255,255,0.8);\" >\n                <div class=\"md-list-item-text\" ng-if=\"item.nextAction=='harvest'\">\n                    <h4>Harvest the {{item.category}} on column {{item.column}}, row {{item.row}}</h4>\n                </div>\n                \n                <md-menu class=\"md-secondary\" ng-show=\"item.nextAction=='harvest'\">\n                  <md-button class=\"icon-button\">\n                    <md-avatar ng-class=\"{'fa': true, 'fa-ellipsis-h': true}\"></md-avatar>\n                  </md-button>\n                  <md-menu-content width=\"4\">\n                    <md-menu-item ng-click=\"doSecondaryAction(item)\">\n                      <md-button>\n                        <md-avatar ng-class=\"{'fa': true, 'fa-check': true}\" ></md-avatar>\n                         Complete task\n                      </md-button>\n                    </md-menu-item>\n    \n                    <md-menu-item ng-click=\"\">\n                      <md-button>\n                        <md-avatar ng-class=\"{'fa': true, 'fa-calendar-plus-o': true}\" ></md-avatar>\n                         Re-schedule to next week\n                      </md-button>\n                     </md-menu-item>\n                  </md-menu-content>\n                </md-menu>\n                <md-divider md-inset></md-divider>\n            </md-list-item>\n        \n            \n            <!--Plant seed and transplant action -->\n            <md-list-item ng-repeat=\"item in seedTray | filter: {'nextAction': '!!'}\">\n                <img src=\"{{item.iconAction}}\" class=\"md-avatar\" style=\"background-color: rgba(255,255,255,0.8);\" >\n                <div class=\"md-list-item-text\" ng-if=\"item.nextAction=='plantSeed'\">\n                    <h4>Plant a {{item.category}} seed</h4>\n                    <p>Seed tray - column {{item.column}}, row {{item.row}}</p>\n                </div>\n                <div class=\"md-list-item-text\" ng-if=\"item.nextAction=='transplant'\">\n                    <h4>Transplant {{item.category}}</h4>\n                    <p>From seed tray - column {{item.column}}, row {{item.row}}</p>\n                    <p ng-if=\"item.toNFTColumn\">To NFT - column {{item.toNFTColumn}}, row {{item.toNFTRow}}</p>\n                    <p ng-if=\"!item.toNFTColumn\"><i class=\"fa fa-warning\"> NFC system is full, harvest first.</i></p>\n             \n                </div>\n            \n                <md-menu class=\"md-secondary\" ng-show=\"item.nextAction=='plantSeed' || (item.nextAction=='transplant' && item.toNFTColumn)\">\n                  <md-button class=\"icon-button\">\n                    <md-avatar ng-class=\"{'fa': true, 'fa-ellipsis-h': true}\"></md-avatar>\n                  </md-button>\n                  <md-menu-content width=\"4\">\n                    <md-menu-item ng-click=\"doSecondaryAction(item)\">\n                      <md-button>\n                        <md-avatar ng-class=\"{'fa': true, 'fa-check': true}\" ></md-avatar>\n                         Complete task\n                      </md-button>\n                    </md-menu-item>\n    \n                    <md-menu-item ng-click=\"\">\n                      <md-button>\n                        <md-avatar ng-class=\"{'fa': true, 'fa-calendar-plus-o': true}\" ></md-avatar>\n                         Re-schedule to tomorrow\n                      </md-button>\n                    </md-menu-item>\n                    <md-menu-divider></md-menu-divider>\n                    <md-menu-item ng-click=\"\">\n                       <md-button >\n                        Change to tomatoe\n                      </md-button>\n                    </md-menu-item>\n                    <md-menu-item ng-click=\"\">\n                       <md-button>\n                        Change to mint\n                      </md-button>\n                    </md-menu-item>\n                     <md-menu-item ng-click=\"\">\n                       <md-button>\n                        Change to persley\n                      </md-button>\n                    </md-menu-item>\n                  </md-menu-content>\n                </md-menu>\n                <md-divider md-inset></md-divider>\n            </md-list-item>\n            \n    </md-list>\n</div>\n<script>\n    \n(function(scope) {\n    \n\n    // $watch fires each time the node is triggered in the flow\n    scope.$watch('msg', function(msg) {\n        \n        \n        scope.seedTray = msg.seedTray;\n        scope.NFTState = msg.NFTState;\n        \n        \n        scope.doSecondaryAction = function(item) {\n            \n            console.log(\"Enter secondary action\");\n            \n            if (item.nextAction === \"transplant\") {\n                \n                var index =  scope.seedTray.indexOf(item);\n                \n                //Keep a copy the element stored in seed tray, for NFT generation\n                let copy =JSON.parse(JSON.stringify(scope.seedTray[index]));\n                \n                scope.seedTray.splice(index,1);\n                var newItem = {\n                    column: item.column,\n                    row: item.row, \n                    category: \"empty\"\n                }\n                \n                scope.seedTray.push(newItem);\n                scope.send({seedTrayState: scope.seedTray});\n                \n                \n                var indexNewItem = scope.NFTState.indexOf(\n                        scope.NFTState.find(cell => cell.column === item.toNFTColumn && cell.row === item.toNFTRow)\n                );\n                \n                \n                // remove old item\n                scope.NFTState.splice(indexNewItem,1);\n                \n               \n                copy.column = item.toNFTColumn;\n                copy.row = item.toNFTRow;\n                copy.iconAction = \"\";\n                copy.nextAction = undefined;\n                copy.toNFTColumn = undefined;\n                copy.toNFTRow = undefined;\n                \n                scope.NFTState.push(copy);\n                \n                //Update Seed Tray and NFTStateobject \n                scope.send({NFTStateUpdate: scope.NFTState});\n           \n                \n                \n            } else if (item.nextAction === \"plantSeed\") {\n                \n                var index =  scope.seedTray.indexOf(item);\n \n                //Copy the element\n                let copy =JSON.parse(JSON.stringify(scope.seedTray[index]));\n                \n                // Update properties\n                copy.iconAction = undefined;\n                copy.nextAction = undefined;\n                copy.category = \"salad\";\n                \n                var today = new Date();\n                copy.seedPlantedDate = today.getFullYear() + \"-\" + today.getMonth()+1 + \"-\" + today.getDate();\n                \n                var germinationDate = new Date();\n                germinationDate.setDate(today.getDate() + msg.lettuceDaysForGermination);\n                copy.germinationDate = germinationDate.getFullYear() + \"-\" + (germinationDate.getMonth()+1) + \"-\" + germinationDate.getDate() ;\n                \n                var transplantDate = new Date();\n                transplantDate.setDate(today.getDate() + msg.lettuceDaysForTransplant);\n                copy.transplantDate = transplantDate.getFullYear() + \"-\" + (transplantDate.getMonth()+1) + \"-\" + transplantDate.getDate();\n               \n                var harvestDate = new Date();\n                harvestDate.setDate(today.getDate() + msg.lettuceDaysForHarvest);\n                copy.harvestDate = harvestDate.getFullYear() + \"-\" + (harvestDate.getMonth()+1) + \"-\" + harvestDate.getDate();\n               \n                // Remove \"old\" item\n                scope.seedTray.splice(index,1);\n                // Push the copy\n                scope.seedTray.push(copy);\n                \n                console.log(\"Plant seed\");\n                console.log(scope.seedTray);\n                scope.send({seedTrayState: scope.seedTray});\n                \n                \n            }\n            \n            if (item.nextAction === \"harvest\") {\n                \n                var index =  scope.NFTState.indexOf(item);\n                scope.NFTState.splice(index,1);\n                var newItem = {\n                    column: item.column,\n                    row: item.row, \n                    category: \"empty\"\n                }\n                \n                scope.NFTState.push(newItem);\n                console.log(\"harvest\");\n                console.log(scope.NFTState);\n                //Update Seed Tray object \n                scope.send({NFTStateUpdate: scope.NFTState});\n                \n                \n            }\n        };\n    \n    });\n\n})(scope);\n\n</script>",
         "storeOutMessages": false,
         "fwdInMessages": false,
         "resendOnRefresh": true,
         "templateScope": "local",
-        "x": 550,
+        "x": 730,
         "y": 320,
         "wires": [
             [
-                "590d5d39.e99054",
-                "7877fb7a.8f12d4"
+                "7877fb7a.8f12d4",
+                "893e1c16.da34c"
             ]
         ]
     },
@@ -6302,20 +6303,26 @@
         "id": "513fc490.e682dc",
         "type": "function",
         "z": "5e9d2991.0ea428",
-        "name": "",
-        "func": "// If update received.\nif (msg.seedTrayState) {\n    global.set(\"crops.seedTrayState\", msg.seedTrayState);\n} \nmsg.seedTray = global.get(\"crops.seedTrayState\");\n\n// Get NFT state\nif (msg.NFTState) {\n    global.set(\"crops.NFT.state\", msg.NFTState);\n}\nmsg.NFTState = global.get('crops.NFT.state');\n\n// Get all empty cells from NFT system, to assign a cell for transplantation from seed tray\nvar emptyNFTCells = global.get('crops.NFT.state').filter(cell => cell.category === \"empty\");\nvar countEmptyCells = 0;\n\nvar maxNumberOfSaladSeedsPerWeek = global.get(\"crops.currentWeek.schedule.maxSeedPerWeek\");\nvar currentWeekNumber = global.get(\"crops.currentWeek.weekNumber\");\n\n\n// Pass global varialbe\n\nmsg.lettuceDaysForGermination = global.get('crops.lettuce.schedule.germinated') || 0;\nmsg.lettuceDaysForTransplant = global.get('crops.lettuce.schedule.transplant') || 0;\nmsg.lettuceDaysForHarvest = global.get('crops.lettuce.schedule.harvest') || 0;\n\nfor (var item in msg.seedTray) {\n\n    // bug fix - save date as 2021-01-05T00:00:00+09:00\n \n    if (msg.seedTray[item][\"category\"] == \"empty\") {\n            \n        msg.seedTray[item][\"hexColor\"]= \"grey\";\n        msg.seedTray[item][\"icon\"] = \"\";\n        \n        // In case no next action defined, and seeds can be planted this week\n        if (!msg.seedTray[item][\"nextAction\"] &&\n            global.get(\"crops.currentWeek.schedule.countSeedPlanted\") < maxNumberOfSaladSeedsPerWeek) {\n            \n            msg.seedTray[item][\"nextAction\"] = \"plantSeed\";\n            msg.seedTray[item][\"iconAction\"] = \"http://10.0.0.10:1880/seeding.png\";\n            \n            var numberOfSeedToPlan = global.get(\"crops.currentWeek.schedule.countSeedPlanted\");\n            global.set(\"crops.currentWeek.schedule.countSeedPlanted\", numberOfSeedToPlan+1);\n\n        }\n        \n    }\n    \n    // if curent week = transplantWeekNumber, time to transplant\n    if (currentWeekNumber == msg.seedTray[item][\"transplantDateWeekNumber\"]) {\n        msg.seedTray[item][\"nextAction\"] = \"transplant\";\n        msg.seedTray[item][\"iconAction\"] = \"http://10.0.0.10:1880/action-transplant.png\";\n            \n        // Ready for transplant. Compute toBe column and row\n        if (emptyNFTCells[countEmptyCells]) {\n            msg.seedTray[item][\"toNFTColumn\"] = emptyNFTCells[countEmptyCells].column;\n            msg.seedTray[item][\"toNFTRow\"] = emptyNFTCells[countEmptyCells].row;\n            countEmptyCells++;\n        }\n    }\n    \n    // Seed is germinated, not ready for transplant\n    else if (Date.parse(msg.seedTray[item][\"transplantDate\"]) >= new Date().getTime()\n            && new Date().getTime() > Date.parse(msg.seedTray[item][\"germinationDate\"])) {\n                \n        msg.seedTray[item][\"hexColor\"]= \"green\";\n        msg.seedTray[item][\"icon\"] = \"http://10.0.0.10:1880/germinated-state.png\";\n        \n        var daysElapsedSinceSeedDate = Math.abs((new Date().getTime() - Date.parse(msg.seedTray[item][\"seedPlantedDate\"])) / (1000 * 60 * 60 * 24));\n        msg.seedTray[item][\"progress\"]= Math.round(daysElapsedSinceSeedDate / msg.lettuceDaysForTransplant * 100);\n        \n    } \n    \n    // Germinated \n    else if (Date.parse(msg.seedTray[item][\"germinationDate\"]) <= new Date().getTime()\n            && new Date().getTime() > Date.parse(msg.seedTray[item][\"seedPlantedDate\"])) {\n        \n        msg.seedTray[item][\"hexColor\"]= \"green\";\n        msg.seedTray[item][\"icon\"] = \"http://10.0.0.10:1880/germinating-state.png\";\n        \n        var daysElapsedSinceSeedDate = Math.abs((new Date().getTime() - Date.parse(msg.seedTray[item][\"seedPlantedDate\"])) / (1000 * 60 * 60 * 24));\n        msg.seedTray[item][\"progress\"]= Math.round(daysElapsedSinceSeedDate / msg.lettuceDaysForGermination * 100);\n        \n        \n    } \n    \n    // Seed state\n    else if (Date.parse(msg.seedTray[item][\"seedPlantedDate\"]) <= new Date().getTime()) {\n        \n        msg.seedTray[item][\"hexColor\"]= \"green\";\n        msg.seedTray[item][\"icon\"] = \"http://10.0.0.10:1880/seed_state.png\";\n        \n        var daysElapsedSinceSeedDate = Math.abs((new Date().getTime() - Date.parse(msg.seedTray[item][\"seedPlantedDate\"])) / (1000 * 60 * 60 * 24));\n        msg.seedTray[item][\"progress\"]= Math.round(daysElapsedSinceSeedDate / msg.lettuceDaysForGermination * 100);\n        \n    } \n    \n}\n\n\nfor (item in msg.NFTState) {\n  \n    if (msg.NFTState[item][\"category\"] == \"empty\") {\n            \n        msg.NFTState[item][\"hexColor\"]= \"black\";\n        msg.NFTState[item][\"icon\"] = \"\";\n        \n    } else if (currentWeekNumber === msg.NFTState[item][\"harvestWeekNumber\"]) {\n        \n        msg.NFTState[item][\"hexColor\"]= \"green\";\n        msg.NFTState[item][\"icon\"] = \"http://10.0.0.10:1880/harvest-state.png\";\n        \n        msg.NFTState[item][\"nextAction\"] = \"harvest\";\n        msg.NFTState[item][\"iconAction\"] = \"http://10.0.0.10:1880/harvest-action.png\";\n        \n    } else {\n\n        msg.NFTState[item][\"hexColor\"]= \"green\";\n        msg.NFTState[item][\"icon\"] = \"http://10.0.0.10:1880/germinated-state.png\";\n        \n        var daysElapsedSinceTransplant = Math.abs((new Date().getTime() - Date.parse(msg.NFTState[item][\"transplantDate\"])) / (1000 * 60 * 60 * 24));\n        msg.NFTState[item][\"progress\"]= Math.round(daysElapsedSinceTransplant / msg.lettuceDaysForHarvest * 100);\n        \n        \n    }\n}\n\nglobal.set('crops.NFT.state', msg.NFTState);\n\nreturn msg;",
-        "outputs": 1,
+        "name": "Update seed and NFT arrays",
+        "func": "// If update received.\nif (msg.seedTrayState) {\n    global.set(\"crops.seedTrayState\", msg.seedTrayState);\n} \nmsg.seedTray = global.get(\"crops.seedTrayState\");\n\n// Get NFT state\nif (msg.NFTState) {\n    global.set(\"crops.NFT.state\", msg.NFTState);\n}\nmsg.NFTState = global.get('crops.NFT.state');\n\n// Get all empty cells from NFT system, to assign a cell for transplantation from seed tray\nvar emptyNFTCells = msg.NFTState.filter(cell => cell.category === \"empty\");\nvar countEmptyCells = 0;\n\nvar maxNumberOfSaladSeedsPerWeek = global.get(\"crops.currentWeek.schedule.maxSeedPerWeek\");\nvar currentWeekNumber = global.get(\"crops.currentWeek.weekNumber\");\n\n// Returns the ISO week of the date.\n Date.prototype.getWeek = function() {\n    var date = new Date(this.getTime());\n    date.setHours(0, 0, 0, 0);\n    // Thursday in current week decides the year.\n    date.setDate(date.getDate() + 3 - (date.getDay() + 6) % 7);\n    // January 4 is always in week 1.\n    var week1 = new Date(date.getFullYear(), 0, 4);\n    // Adjust to Thursday in week 1 and count number of weeks from date to week1.\n        return 1 + Math.round(((date.getTime() - week1.getTime()) / 86400000 - 3 + (week1.getDay() + 6) % 7) / 7);\n}\n\n\n// Pass global varialbe\n\nmsg.lettuceDaysForGermination = global.get('crops.lettuce.schedule.germinated') || 0;\nmsg.lettuceDaysForTransplant = global.get('crops.lettuce.schedule.transplant') || 0;\nmsg.lettuceDaysForHarvest = global.get('crops.lettuce.schedule.harvest') || 0;\n\nfor (var item in msg.seedTray) {\n\n    // bug fix - save date as 2021-01-05T00:00:00+09:00\n \n    if (msg.seedTray[item][\"category\"] == \"empty\") {\n            \n        msg.seedTray[item][\"hexColor\"]= \"grey\";\n        msg.seedTray[item][\"icon\"] = \"\";\n        \n        // In case no next action defined, and seeds can be planted this week\n        if (!msg.seedTray[item][\"nextAction\"] &&\n            global.get(\"crops.currentWeek.schedule.countSeedPlanted\") < maxNumberOfSaladSeedsPerWeek) {\n            \n            msg.seedTray[item][\"nextAction\"] = \"plantSeed\";\n            msg.seedTray[item][\"iconAction\"] = \"http://10.0.0.10:1880/seeding.png\";\n            \n            var numberOfSeedToPlan = global.get(\"crops.currentWeek.schedule.countSeedPlanted\");\n            global.set(\"crops.currentWeek.schedule.countSeedPlanted\", numberOfSeedToPlan+1);\n\n        }\n        \n    }\n    \n    // if curent week = transplantWeekNumber, time to transplant\n    if (currentWeekNumber == (new Date(Date.parse(msg.seedTray[item][\"transplantDate\"]))).getWeek()) {\n        \n        msg.seedTray[item][\"hexColor\"]= \"green\";\n        msg.seedTray[item][\"icon\"] = \"http://10.0.0.10:1880/germinated-state.png\";\n        \n        msg.seedTray[item][\"nextAction\"] = \"transplant\";\n        msg.seedTray[item][\"iconAction\"] = \"http://10.0.0.10:1880/action-transplant.png\";\n        \n        // Ready to harvest, so progress is 100%\n        msg.seedTray[item][\"progress\"] = 100\n            \n        // Ready for transplant. Compute toBe column and row\n        if (emptyNFTCells[countEmptyCells]) {\n            msg.seedTray[item][\"toNFTColumn\"] = emptyNFTCells[countEmptyCells].column;\n            msg.seedTray[item][\"toNFTRow\"] = emptyNFTCells[countEmptyCells].row;\n            countEmptyCells++;\n        }\n    }\n    \n    // Seed is germinated, not ready for transplant\n    else if (Date.parse(msg.seedTray[item][\"transplantDate\"]) >= new Date().getTime()\n            && new Date().getTime() > Date.parse(msg.seedTray[item][\"germinationDate\"])) {\n                \n        msg.seedTray[item][\"hexColor\"]= \"green\";\n        msg.seedTray[item][\"icon\"] = \"http://10.0.0.10:1880/germinated-state.png\";\n        \n        var daysElapsedSinceSeedDate = Math.abs((new Date().getTime() - Date.parse(msg.seedTray[item][\"seedPlantedDate\"])) / (1000 * 60 * 60 * 24));\n        msg.seedTray[item][\"progress\"]= Math.round(daysElapsedSinceSeedDate / msg.lettuceDaysForTransplant * 100);\n        if (msg.seedTray[item][\"progress\"] > 100) {\n            msg.seedTray[item][\"progress\"] = 100;\n        }\n    } \n    \n    // Germinated \n    else if (Date.parse(msg.seedTray[item][\"germinationDate\"]) <= new Date().getTime()\n            && new Date().getTime() > Date.parse(msg.seedTray[item][\"seedPlantedDate\"])) {\n        \n        msg.seedTray[item][\"hexColor\"]= \"green\";\n        msg.seedTray[item][\"icon\"] = \"http://10.0.0.10:1880/germinating-state.png\";\n        \n        var daysElapsedSinceSeedDate = Math.abs((new Date().getTime() - Date.parse(msg.seedTray[item][\"seedPlantedDate\"])) / (1000 * 60 * 60 * 24));\n        msg.seedTray[item][\"progress\"]= Math.round(daysElapsedSinceSeedDate / msg.lettuceDaysForGermination * 100);\n        \n        if (msg.seedTray[item][\"progress\"] > 100) {\n            msg.seedTray[item][\"progress\"] = 100;\n        }\n        \n    } \n    \n    // Seed state\n    else if (Date.parse(msg.seedTray[item][\"seedPlantedDate\"]) <= new Date().getTime()) {\n        \n        msg.seedTray[item][\"hexColor\"]= \"green\";\n        msg.seedTray[item][\"icon\"] = \"http://10.0.0.10:1880/seed_state.png\";\n        \n        var daysElapsedSinceSeedDate = Math.abs((new Date().getTime() - Date.parse(msg.seedTray[item][\"seedPlantedDate\"])) / (1000 * 60 * 60 * 24));\n        msg.seedTray[item][\"progress\"]= Math.round(daysElapsedSinceSeedDate / msg.lettuceDaysForGermination * 100);\n        \n        if (msg.seedTray[item][\"progress\"] > 100) {\n            msg.seedTray[item][\"progress\"] = 100;\n        }\n    } \n}\n\nglobal.set(\"crops.seedTrayState\", msg.seedTray);\n\n\nfor (item in msg.NFTState) {\n  \n    if (msg.NFTState[item][\"category\"] == \"empty\") {\n            \n        msg.NFTState[item][\"hexColor\"]= \"black\";\n        msg.NFTState[item][\"icon\"] = \"\";\n        \n    } else if (currentWeekNumber === (new Date(Date.parse(msg.NFTState[item][\"harvestDate\"]))).getWeek()) {\n        \n        msg.NFTState[item][\"hexColor\"]= \"green\";\n        msg.NFTState[item][\"icon\"] = \"http://10.0.0.10:1880/harvest-state.png\";\n        \n        msg.NFTState[item][\"nextAction\"] = \"harvest\";\n        msg.NFTState[item][\"iconAction\"] = \"http://10.0.0.10:1880/harvest-action.png\";\n        \n        // Ready to harvest, so progress is 100%\n        msg.NFTState[item][\"progress\"] = 100\n        \n    } else {\n\n        msg.NFTState[item][\"hexColor\"]= \"green\";\n        msg.NFTState[item][\"icon\"] = \"http://10.0.0.10:1880/germinated-state.png\";\n        \n        var daysElapsedSinceTransplant = Math.abs((new Date().getTime() - Date.parse(msg.NFTState[item][\"transplantDate\"])) / (1000 * 60 * 60 * 24));\n        msg.NFTState[item][\"progress\"]= Math.round(daysElapsedSinceTransplant / msg.lettuceDaysForHarvest * 100);\n        \n        \n    }\n}\n\nglobal.set('crops.NFT.state', msg.NFTState);\n\nreturn [msg,  { payload: msg.seedTray }, { payload: msg.NFTState } ];",
+        "outputs": 3,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 300,
+        "x": 420,
         "y": 300,
         "wires": [
             [
                 "bd43de44.263ff",
                 "91840b38.961cc8",
                 "54ed5895.d86ef8",
-                "cda10f2b.fad49"
+                "893e1c16.da34c"
+            ],
+            [
+                "da2f76ad.ea7f48"
+            ],
+            [
+                "33e86b0.ec93c96"
             ]
         ]
     },
@@ -6323,10 +6330,10 @@
         "id": "7159d445.126dcc",
         "type": "persist out",
         "z": "5e9d2991.0ea428",
-        "name": "seedTrayState",
-        "storageNode": "a26c033.387dc",
-        "x": 120,
-        "y": 280,
+        "name": "cropsState",
+        "storageNode": "661a710f.63355",
+        "x": 250,
+        "y": 400,
         "wires": [
             [
                 "513fc490.e682dc"
@@ -6341,7 +6348,12 @@
         "props": [
             {
                 "p": "seedTrayState",
-                "v": "[{\"column\":\"A\",\"row\":\"1\",\"category\":\"salad\",\"seedPlantedDate\":\"2021-01-07\",\"germinationDate\":\"2021-01-07\",\"transplantDate\":\"2021-01-20\",\"transplantDateWeekNumber\":3,\"harvestDate\":\"2021-01-06\",\"harvestWeekNumber\":7},{\"column\":\"B\",\"row\":\"1\",\"category\":\"salad\",\"seedPlantedDate\":\"2020-12-29\",\"germinationDate\":\"2021-01-03\",\"transplantDate\":\"2021-01-10\",\"transplantDateWeekNumber\":2,\"harvestWeekNumber\":7},{\"column\":\"C\",\"row\":\"1\",\"category\":\"salad\",\"seedPlantedDate\":\"2021-01-07\",\"germinationDate\":\"2021-01-09\",\"transplantDateWeekNumber\":4,\"harvestWeekNumber\":9},{\"column\":\"A\",\"row\":\"2\",\"category\":\"salad\",\"seedPlantedDate\":\"2021-01-07\",\"germinationDate\":\"2021-01-08\",\"transplantDateWeekNumber\":3,\"harvestWeekNumber\":3},{\"column\":\"B\",\"row\":\"2\",\"category\":\"empty\"},{\"column\":\"C\",\"row\":\"2\",\"category\":\"empty\"}]",
+                "v": "[{\"column\":\"A\",\"row\":\"1\",\"category\":\"salad\",\"seedPlantedDate\":\"2021-01-07\",\"germinationDate\":\"2021-01-07\",\"transplantDate\":\"2021-01-09\",\"harvestDate\":\"2021-02-16\"},{\"column\":\"B\",\"row\":\"1\",\"category\":\"salad\",\"seedPlantedDate\":\"2020-12-29\",\"germinationDate\":\"2021-01-03\",\"transplantDate\":\"2021-01-10\",\"harvestDate\":\"2021-02-02\"},{\"column\":\"C\",\"row\":\"1\",\"category\":\"salad\",\"seedPlantedDate\":\"2021-01-07\",\"germinationDate\":\"2021-01-09\",\"transplantDate\":\"2021-01-28\",\"harvestDate\":\"2021-02-12\"},{\"column\":\"A\",\"row\":\"2\",\"category\":\"salad\",\"seedPlantedDate\":\"2020-12-25\",\"germinationDate\":\"2021-01-08\",\"transplantDate\":\"2021-01-10\",\"harvestDate\":\"2021-02-25\"},{\"column\":\"B\",\"row\":\"2\",\"category\":\"empty\"},{\"column\":\"C\",\"row\":\"2\",\"category\":\"empty\"}]",
+                "vt": "json"
+            },
+            {
+                "p": "NFTState",
+                "v": "[{\"column\":\"A\",\"row\":\"1\",\"category\":\"salad\",\"seedPlantedDate\":\"2020-12-12\",\"germinationDate\":\"2021-12-15\",\"transplantDate\":\"2021-01-01\",\"harvestDate\":\"2021-01-09\"},{\"column\":\"B\",\"row\":\"1\",\"category\":\"empty\"},{\"column\":\"C\",\"row\":\"1\",\"category\":\"salad\",\"seedPlantedDate\":\"2020-12-20\",\"germinationDate\":\"2021-01-02\",\"transplantDate\":\"2021-01-20\",\"harvestDate\":\"2021-02-15\"},{\"column\":\"D\",\"row\":\"1\",\"category\":\"empty\"},{\"column\":\"E\",\"row\":\"1\",\"category\":\"empty\"},{\"column\":\"F\",\"row\":\"1\",\"category\":\"empty\"},{\"column\":\"G\",\"row\":\"1\",\"category\":\"empty\"},{\"column\":\"H\",\"row\":\"1\",\"category\":\"empty\"},{\"column\":\"I\",\"row\":\"1\",\"category\":\"empty\"},{\"column\":\"A\",\"row\":\"2\",\"category\":\"salad\",\"seedPlantedDate\":\"2020-12-05\",\"germinationDate\":\"2020-12-07\",\"transplantDate\":\"2020-12-15\",\"harvestDate\":\"2021-01-14\"},{\"column\":\"B\",\"row\":\"2\",\"category\":\"empty\"},{\"column\":\"C\",\"row\":\"2\",\"category\":\"salad\",\"seedPlantedDate\":\"2020-12-20\",\"germinationDate\":\"2021-01-02\",\"transplantDate\":\"2021-01-08\",\"harvestDate\":\"2021-02-02\"},{\"column\":\"D\",\"row\":\"2\",\"category\":\"empty\"},{\"column\":\"E\",\"row\":\"2\",\"category\":\"empty\"},{\"column\":\"F\",\"row\":\"2\",\"category\":\"empty\"},{\"column\":\"G\",\"row\":\"2\",\"category\":\"empty\"},{\"column\":\"H\",\"row\":\"2\",\"category\":\"empty\"},{\"column\":\"I\",\"row\":\"2\",\"category\":\"empty\"}]",
                 "vt": "json"
             }
         ],
@@ -6350,8 +6362,8 @@
         "once": false,
         "onceDelay": 0.1,
         "topic": "",
-        "x": 200,
-        "y": 150,
+        "x": 1080,
+        "y": 120,
         "wires": [
             [
                 "35eb65db.60721a"
@@ -6375,39 +6387,11 @@
         "once": false,
         "onceDelay": 0.1,
         "topic": "",
-        "x": 210,
-        "y": 190,
+        "x": 1090,
+        "y": 160,
         "wires": [
             [
                 "35eb65db.60721a"
-            ]
-        ]
-    },
-    {
-        "id": "35eb65db.60721a",
-        "type": "persist in",
-        "z": "5e9d2991.0ea428",
-        "name": "seedTrayState",
-        "storageNode": "a26c033.387dc",
-        "x": 1020,
-        "y": 220,
-        "wires": []
-    },
-    {
-        "id": "fb721728.0918d8",
-        "type": "function",
-        "z": "5e9d2991.0ea428",
-        "name": "",
-        "func": "global.set(\"crops.NFT.state\", msg.NFTState);\n\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "x": 740,
-        "y": 460,
-        "wires": [
-            [
-                "c5f92316.ac28a"
             ]
         ]
     },
@@ -6420,83 +6404,15 @@
         "order": 1,
         "width": 0,
         "height": 0,
-        "format": "\n  <svg height=\"200px\">\n\n    <g ng-repeat=\"(key, value) in NFT\">\n      \n    <polyline points=\"{{value.x1}} {{value.y1}} {{value.x2}} {{value.y2}} \n        {{value.x3}} {{value.y3}} {{value.x4}} {{value.y4}} {{value.x5}} {{value.y5}}\" stroke=\"black\" \n      stroke-width=\"2\" stroke-linecap=\"round\" fill=\"none\" stroke-linejoin=\"round\"/>\n      \n    </g>\n    \n    <g ng-repeat=\"(key, value) in NFTState\">\n      \n        <rect x=\"{{value.xpos}}\" \n               y=\"{{value.ypos}}\"\n               width=\"{{value.width}}\" height=\"{{value.height}}\" style=\"fill:{{value.hexColor}}\" rx=\"150\" />\n    \n        <image href=\"{{value.icon}}\" x=\"{{value.xpos+value.width/4}}\" y=\"{{value.ypos+value.height/4}}\" \n          width=\"{{value.width/2}}\" height=\"{{value.height/2}}\" />\n          \n          \n        <line    \n            x1=\"{{value.progressX1}}\"\n            y1=\"{{value.progressY1}}\"\n            x2=\"{{value.progressXMax}}\"\n            y2=\"{{value.progressY1}}\"\n            stroke=\"black\" \n            stroke-dasharray=\"100%\" \n            stroke-dashoffset=\"50%\" \n            stroke-width=\"2\" />\n            \n        <line\n            x1=\"{{value.progressX1}}\"\n            y1=\"{{value.progressY1}}\"\n            x2=\"{{value.progressX2}}\"\n            y2=\"{{value.progressY1}}\"\n            stroke=\"#C2E362\" \n            stroke-dasharray=\"100%\" \n            stroke-dashoffset=\"50%\" \n            stroke-width=\"2\" />\n      \n    </g>\n    \n    <g ng-repeat=\"(key, value) in rowsDisplay\">\n       \n       <text x=\"{{value.xpos}}\" y=\"{{value.ypos}}\" dominant-baseline=\"central\" text-anchor=\"middle\"\n            font-size=\"14\" stroke-width=\"0\" stroke=\"#000\"\n            fill=\"#f9fcfb\" font-family=\"Montserrat\" font-weight=\"bold\">{{value.title}}</text>\n    </g>\n    \n    <g ng-repeat=\"(key, value) in columnsDisplay\">\n       \n       <text x=\"{{value.xpos}}\" y=\"{{value.ypos}}\" dominant-baseline=\"central\" text-anchor=\"middle\"\n            font-size=\"14\" stroke-width=\"0\" stroke=\"#000\"\n            fill=\"#f9fcfb\" font-family=\"Montserrat\" font-weight=\"bold\">{{value.title}}</text>\n    </g>\n    \n\n  </svg>\n  \n\n\n<script>\n    \n(function(scope) {\n    \n    scope.rowsDisplay = []; \n    scope.columnsDisplay = []; \n    \n    // $watch fires each time the node is triggered in the flow\n    scope.$watch('msg', function(msg) {\n        \n        scope.NFTState = msg.NFTState;\n        console.log(\"NFT state\");\n        console.log(scope.NFTState);\n        \n        var boxWidth = 40, boxHeight = 40;\n        var topPadding = 5;\n        var leftPadding = 40;\n        var boxSpacing = 5;\n        var rowSpacing = 15;\n        \n        var numberofRows = 2;\n        var numberofColumns = 9; \n        \n        scope.NFT = [];\n        var NFTpadding = 3;\n        \n        for (i = 1 ; i <= numberofRows ; i++) {\n            var item = {\n                x1: leftPadding - NFTpadding,\n                y1: topPadding + boxHeight*i + rowSpacing*i - NFTpadding,\n                x2: leftPadding+(numberofColumns) * boxWidth + boxSpacing*(numberofColumns) + NFTpadding,\n                y2: topPadding + boxHeight*i + rowSpacing*i - NFTpadding,\n                x3: leftPadding+(numberofColumns) * boxWidth + boxSpacing*(numberofColumns) + NFTpadding,\n                y3: topPadding + boxHeight*(i+1) + rowSpacing*i + NFTpadding,\n                x4: leftPadding - NFTpadding,\n                y4: topPadding + boxHeight*(i+1) + rowSpacing*i + NFTpadding,\n                x5: leftPadding - NFTpadding,\n                y5: topPadding + boxHeight*i + rowSpacing*i - NFTpadding\n            }\n            scope.NFT.push(item);\n        }\n        \n        angular.forEach(scope.NFTState, function (value, key) {\n            value[\"xpos\"] = (value[\"column\"].toLowerCase().charCodeAt(0) - 97) * boxHeight + (value[\"column\"].toLowerCase().charCodeAt(0) - 97) * boxSpacing + leftPadding;\n            value[\"ypos\"] = value[\"row\"] * boxWidth + value[\"row\"] * rowSpacing + topPadding;\n            value[\"width\"] = boxWidth; \n            value[\"height\"]= boxHeight; \n            \n            if (value[\"progress\"]) { \n                \n                value[\"progressX1\"] = Math.floor((value[\"column\"].toLowerCase().charCodeAt(0) - 97) * boxHeight + (value[\"column\"].toLowerCase().charCodeAt(0) - 97) * boxSpacing + leftPadding + boxWidth/3);\n                value[\"progressY1\"] = Math.floor(value[\"row\"] * boxWidth + value[\"row\"] * rowSpacing + topPadding + boxHeight / 1.2);\n                // Max - + 20px\n                value[\"progressXMax\"] = Math.floor((value[\"column\"].toLowerCase().charCodeAt(0) - 97) * boxHeight + (value[\"column\"].toLowerCase().charCodeAt(0) - 97) * boxSpacing + leftPadding + boxWidth/3 + (boxWidth / 3)); \n                // Prograss bar - 0.2 * % progress (100% = 20px)\n                value[\"progressX2\"] = Math.floor((value[\"column\"].toLowerCase().charCodeAt(0) - 97) * boxHeight + (value[\"column\"].toLowerCase().charCodeAt(0) - 97) * boxSpacing + leftPadding +  boxWidth/3 + (boxWidth / 3 / 100) * value[\"progress\"]);\n            }\n            \n        });\n\n        \n        scope.rowsDisplay = []; \n        for ( i = 0 ; i < numberofRows ; i++) {\n            var feed = {\n                \"title\": i+1,\n                \"xpos\": leftPadding/2,\n                \"ypos\": topPadding + (i+1) * boxHeight + (i+1) * rowSpacing + boxHeight/2\n            }\n            scope.rowsDisplay.push(feed);\n        }\n        \n        scope.columnsDisplay = []; \n        for ( i = 0 ; i < numberofColumns ; i++) {\n            var feed = {\n                \"title\": String.fromCharCode(97 + i).toUpperCase(),\n                \"xpos\": leftPadding + (i) * boxWidth + (i) * boxSpacing + boxWidth/2,\n                \"ypos\": topPadding/0.2\n            }\n            scope.columnsDisplay.push(feed);\n        }\n\n        \n    });\n\n})(scope);\n\n</script>",
+        "format": "\n  <svg height=\"200px\">\n\n    <g ng-repeat=\"(key, value) in NFT\">\n      \n    <polyline points=\"{{value.x1}} {{value.y1}} {{value.x2}} {{value.y2}} \n        {{value.x3}} {{value.y3}} {{value.x4}} {{value.y4}} {{value.x5}} {{value.y5}}\" stroke=\"black\" \n      stroke-width=\"2\" stroke-linecap=\"round\" fill=\"none\" stroke-linejoin=\"round\"/>\n      \n    </g>\n    \n    <g ng-repeat=\"(key, value) in NFTState\">\n      \n        <rect x=\"{{value.xpos}}\" \n               y=\"{{value.ypos}}\"\n               width=\"{{value.width}}\" height=\"{{value.height}}\" style=\"fill:{{value.hexColor}}\" rx=\"150\" />\n    \n        <image href=\"{{value.icon}}\" x=\"{{value.xpos+value.width/4}}\" y=\"{{value.ypos+value.height/4}}\" \n          width=\"{{value.width/2}}\" height=\"{{value.height/2}}\" />\n          \n          \n        <line    \n            x1=\"{{value.progressX1}}\"\n            y1=\"{{value.progressY1}}\"\n            x2=\"{{value.progressXMax}}\"\n            y2=\"{{value.progressY1}}\"\n            stroke=\"black\" \n            stroke-dasharray=\"100%\" \n            stroke-dashoffset=\"50%\" \n            stroke-width=\"2\" />\n            \n        <line\n            x1=\"{{value.progressX1}}\"\n            y1=\"{{value.progressY1}}\"\n            x2=\"{{value.progressX2}}\"\n            y2=\"{{value.progressY1}}\"\n            stroke=\"#C2E362\" \n            stroke-dasharray=\"100%\" \n            stroke-dashoffset=\"50%\" \n            stroke-width=\"2\" />\n      \n    </g>\n    \n    <g ng-repeat=\"(key, value) in rowsDisplay\">\n       \n       <text x=\"{{value.xpos}}\" y=\"{{value.ypos}}\" dominant-baseline=\"central\" text-anchor=\"middle\"\n            font-size=\"14\" stroke-width=\"0\" stroke=\"#000\"\n            fill=\"#f9fcfb\" font-family=\"Montserrat\" font-weight=\"bold\">{{value.title}}</text>\n    </g>\n    \n    <g ng-repeat=\"(key, value) in columnsDisplay\">\n       \n       <text x=\"{{value.xpos}}\" y=\"{{value.ypos}}\" dominant-baseline=\"central\" text-anchor=\"middle\"\n            font-size=\"14\" stroke-width=\"0\" stroke=\"#000\"\n            fill=\"#f9fcfb\" font-family=\"Montserrat\" font-weight=\"bold\">{{value.title}}</text>\n    </g>\n    \n\n  </svg>\n  \n\n\n<script>\n    \n(function(scope) {\n    \n    scope.rowsDisplay = []; \n    scope.columnsDisplay = []; \n    \n    // $watch fires each time the node is triggered in the flow\n    scope.$watch('msg', function(msg) {\n        \n        scope.NFTState = msg.NFTState;\n\n        var boxWidth = 40, boxHeight = 40;\n        var topPadding = 5;\n        var leftPadding = 40;\n        var boxSpacing = 5;\n        var rowSpacing = 15;\n        \n        var numberofRows = 2;\n        var numberofColumns = 9; \n        \n        scope.NFT = [];\n        var NFTpadding = 3;\n        \n        for (i = 1 ; i <= numberofRows ; i++) {\n            var item = {\n                x1: leftPadding - NFTpadding,\n                y1: topPadding + boxHeight*i + rowSpacing*i - NFTpadding,\n                x2: leftPadding+(numberofColumns) * boxWidth + boxSpacing*(numberofColumns) + NFTpadding,\n                y2: topPadding + boxHeight*i + rowSpacing*i - NFTpadding,\n                x3: leftPadding+(numberofColumns) * boxWidth + boxSpacing*(numberofColumns) + NFTpadding,\n                y3: topPadding + boxHeight*(i+1) + rowSpacing*i + NFTpadding,\n                x4: leftPadding - NFTpadding,\n                y4: topPadding + boxHeight*(i+1) + rowSpacing*i + NFTpadding,\n                x5: leftPadding - NFTpadding,\n                y5: topPadding + boxHeight*i + rowSpacing*i - NFTpadding\n            }\n            scope.NFT.push(item);\n        }\n        \n        angular.forEach(scope.NFTState, function (value, key) {\n            value[\"xpos\"] = (value[\"column\"].toLowerCase().charCodeAt(0) - 97) * boxHeight + (value[\"column\"].toLowerCase().charCodeAt(0) - 97) * boxSpacing + leftPadding;\n            value[\"ypos\"] = value[\"row\"] * boxWidth + value[\"row\"] * rowSpacing + topPadding;\n            value[\"width\"] = boxWidth; \n            value[\"height\"]= boxHeight; \n            \n            if (value[\"progress\"]) { \n                \n                value[\"progressX1\"] = Math.floor((value[\"column\"].toLowerCase().charCodeAt(0) - 97) * boxHeight + (value[\"column\"].toLowerCase().charCodeAt(0) - 97) * boxSpacing + leftPadding + boxWidth/3);\n                value[\"progressY1\"] = Math.floor(value[\"row\"] * boxWidth + value[\"row\"] * rowSpacing + topPadding + boxHeight / 1.2);\n                // Max - + 20px\n                value[\"progressXMax\"] = Math.floor((value[\"column\"].toLowerCase().charCodeAt(0) - 97) * boxHeight + (value[\"column\"].toLowerCase().charCodeAt(0) - 97) * boxSpacing + leftPadding + boxWidth/3 + (boxWidth / 3)); \n                // Prograss bar - 0.2 * % progress (100% = 20px)\n                value[\"progressX2\"] = Math.floor((value[\"column\"].toLowerCase().charCodeAt(0) - 97) * boxHeight + (value[\"column\"].toLowerCase().charCodeAt(0) - 97) * boxSpacing + leftPadding +  boxWidth/3 + (boxWidth / 3 / 100) * value[\"progress\"]);\n            }\n            \n        });\n\n        \n        scope.rowsDisplay = []; \n        for ( i = 0 ; i < numberofRows ; i++) {\n            var feed = {\n                \"title\": i+1,\n                \"xpos\": leftPadding/2,\n                \"ypos\": topPadding + (i+1) * boxHeight + (i+1) * rowSpacing + boxHeight/2\n            }\n            scope.rowsDisplay.push(feed);\n        }\n        \n        scope.columnsDisplay = []; \n        for ( i = 0 ; i < numberofColumns ; i++) {\n            var feed = {\n                \"title\": String.fromCharCode(97 + i).toUpperCase(),\n                \"xpos\": leftPadding + (i) * boxWidth + (i) * boxSpacing + boxWidth/2,\n                \"ypos\": topPadding/0.2\n            }\n            scope.columnsDisplay.push(feed);\n        }\n\n        \n    });\n\n})(scope);\n\n</script>",
         "storeOutMessages": false,
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
-        "x": 530,
-        "y": 286,
+        "x": 710,
+        "y": 280,
         "wires": [
             []
-        ]
-    },
-    {
-        "id": "487076fa.b74ec8",
-        "type": "persist out",
-        "z": "5e9d2991.0ea428",
-        "name": "NFTState",
-        "storageNode": "e1094939.96bd98",
-        "x": 100,
-        "y": 340,
-        "wires": [
-            [
-                "513fc490.e682dc"
-            ]
-        ]
-    },
-    {
-        "id": "c5f92316.ac28a",
-        "type": "persist in",
-        "z": "5e9d2991.0ea428",
-        "name": "NFTState",
-        "storageNode": "e1094939.96bd98",
-        "x": 1000,
-        "y": 370,
-        "wires": []
-    },
-    {
-        "id": "87985290.e5773",
-        "type": "inject",
-        "z": "5e9d2991.0ea428",
-        "name": "DEBUG - reset NFT storage test",
-        "props": [
-            {
-                "p": "NFTState",
-                "v": "[{\"column\":\"A\",\"row\":\"1\",\"category\":\"salad\",\"seedPlantedDate\":\"2021-01-07\",\"germinationDate\":\"2021-01-02\",\"transplantDate\":\"2021-01-20\",\"harvestDate\":\"2021-01-06\",\"harvestWeekNumber\":1},{\"column\":\"B\",\"row\":\"1\",\"category\":\"empty\"},{\"column\":\"C\",\"row\":\"1\",\"category\":\"salad\",\"seedPlantedDate\":\"2020-12-20\",\"germinationDate\":\"2021-01-02\",\"transplantDate\":\"2021-01-06\",\"harvestWeekNumber\":2},{\"column\":\"D\",\"row\":\"1\",\"category\":\"empty\"},{\"column\":\"E\",\"row\":\"1\",\"category\":\"empty\"},{\"column\":\"F\",\"row\":\"1\",\"category\":\"empty\"},{\"column\":\"G\",\"row\":\"1\",\"category\":\"empty\"},{\"column\":\"H\",\"row\":\"1\",\"category\":\"empty\"},{\"column\":\"I\",\"row\":\"1\",\"category\":\"empty\"},{\"column\":\"A\",\"row\":\"2\",\"category\":\"salad\",\"seedPlantedDate\":\"2020-12-05\",\"germinationDate\":\"2020-12-07\",\"transplantDate\":\"2020-12-15\",\"harvestWeekNumber\":2},{\"column\":\"B\",\"row\":\"2\",\"category\":\"empty\"},{\"column\":\"C\",\"row\":\"2\",\"category\":\"salad\",\"seedPlantedDate\":\"2020-12-20\",\"germinationDate\":\"2021-01-02\",\"transplantDate\":\"2021-01-08\",\"harvestWeekNumber\":2},{\"column\":\"D\",\"row\":\"2\",\"category\":\"empty\"},{\"column\":\"E\",\"row\":\"2\",\"category\":\"empty\"},{\"column\":\"F\",\"row\":\"2\",\"category\":\"empty\"},{\"column\":\"G\",\"row\":\"2\",\"category\":\"empty\"},{\"column\":\"H\",\"row\":\"2\",\"category\":\"empty\"},{\"column\":\"I\",\"row\":\"2\",\"category\":\"empty\"}]",
-                "vt": "json"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "x": 530,
-        "y": 460,
-        "wires": [
-            [
-                "fb721728.0918d8"
-            ]
-        ]
-    },
-    {
-        "id": "590d5d39.e99054",
-        "type": "function",
-        "z": "5e9d2991.0ea428",
-        "name": "Only NFT update",
-        "func": "\nif (msg.NFTStateUpdate) {\n    var newMsg = {};\n    newMsg.NFTState = msg.NFTStateUpdate;\n    global.set(\"crops.NFT.state\", msg.NFTStateUpdate);\n    return newMsg;\n} else {\n    return {};\n}\n    \n    \n        ",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "x": 770,
-        "y": 350,
-        "wires": [
-            [
-                "c5f92316.ac28a",
-                "63860c8.8077ff4"
-            ]
         ]
     },
     {
@@ -6504,17 +6420,18 @@
         "type": "function",
         "z": "5e9d2991.0ea428",
         "name": "Only seedStray update",
-        "func": "\nif (msg.seedTrayState) {\n    var newMsg = {};\n    newMsg.seedTrayState = msg.seedTrayState;\n    global.set(\"crops.seedTrayState\", msg.seedTrayState);\n    return newMsg;\n}\n    \n        ",
+        "func": "\nvar newMsg = {};\n\nif (msg.seedTrayState) {\n    \n    newMsg.seedTrayState = msg.seedTrayState;\n    global.set(\"crops.seedTrayState\", msg.seedTrayState);\n}\n    \n\nif (msg.NFTStateUpdate) {\n    newMsg.NFTState = msg.NFTStateUpdate;\n    global.set(\"crops.NFT.state\", msg.NFTStateUpdate);\n}\n\nreturn newMsg;\n        ",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 780,
-        "y": 290,
+        "x": 980,
+        "y": 320,
         "wires": [
             [
+                "affd3061.6c4e4",
                 "35eb65db.60721a",
-                "affd3061.6c4e4"
+                "893e1c16.da34c"
             ]
         ]
     },
@@ -6527,13 +6444,13 @@
         "order": 1,
         "width": 0,
         "height": 0,
-        "format": "\n  <svg width=\"384px\" height=\"200px\">\n\n    <g ng-repeat=\"(key, value) in seedTray\">\n      \n      <rect x=\"{{value.xpos}}\" \n           y=\"{{value.ypos}}\"\n           width=\"{{value.width}}\" height=\"{{value.height}}\" style=\"fill:{{value.hexColor}}\" rx=\"10\" />\n\n      <image href=\"{{value.icon}}\" x=\"{{value.xpos+value.width/4}}\" y=\"{{value.ypos+value.height/4}}\" \n      width=\"{{value.width/2}}\" height=\"{{value.height/2}}\" />\n      \n       <line    \n            x1=\"{{value.progressX1}}\"\n            y1=\"{{value.progressY1}}\"\n            x2=\"{{value.progressXMax}}\"\n            y2=\"{{value.progressY1}}\"\n            stroke=\"black\" \n            stroke-dasharray=\"100%\" \n            stroke-dashoffset=\"50%\" \n            stroke-width=\"2\" />\n            \n        <line\n            x1=\"{{value.progressX1}}\"\n            y1=\"{{value.progressY1}}\"\n            x2=\"{{value.progressX2}}\"\n            y2=\"{{value.progressY1}}\"\n            stroke=\"#C2E362\" \n            stroke-dasharray=\"100%\" \n            stroke-dashoffset=\"50%\" \n            stroke-width=\"2\" />\n            \n    </g>\n    \n    <g ng-repeat=\"(key, value) in rowsDisplay\">\n       \n       <text x=\"{{value.xpos}}\" y=\"{{value.ypos}}\" dominant-baseline=\"central\" text-anchor=\"middle\"\n            font-size=\"14\" stroke-width=\"0\" stroke=\"#000\"\n            fill=\"#f9fcfb\" font-family=\"Montserrat\" font-weight=\"bold\">{{value.title}}</text>\n    </g>\n    \n    <g ng-repeat=\"(key, value) in columnsDisplay\">\n       \n       <text x=\"{{value.xpos}}\" y=\"{{value.ypos}}\" dominant-baseline=\"central\" text-anchor=\"middle\"\n            font-size=\"14\" stroke-width=\"0\" stroke=\"#000\"\n            fill=\"#f9fcfb\" font-family=\"Montserrat\" font-weight=\"bold\">{{value.title}}</text>\n    </g>\n    \n\n  </svg>\n  \n   <svg>\n       \n       <image href=\"http://10.0.0.10:1880/seed_state.png\" x=\"50\" y=\"10\" width=\"25\" height=\"25\" />\n       <text x=\"80\" y=\"28\" font-family=\"Roboto\" fill=\"#f9fcfb\">Seed</text>\n       \n       <image href=\"http://10.0.0.10:1880/germinating-state.png\" x=\"125\" y=\"8\" width=\"25\" height=\"25\" />\n       <text x=\"150\" y=\"28\" font-family=\"Roboto\" fill=\"#f9fcfb\">Germinated</text>\n       \n       <image href=\"http://10.0.0.10:1880/germinated-state.png\" x=\"235\" y=\"10\" width=\"25\" height=\"25\" />\n       <text x=\"265\" y=\"28\" font-family=\"Roboto\" fill=\"#f9fcfb\">Growing</text>\n      \n   </svg>\n  \n\n<script>\n    \n(function(scope) {\n    \n    scope.rowsDisplay = []; \n    scope.columnsDisplay = []; \n    \n    // $watch fires each time the node is triggered in the flow\n    scope.$watch('msg', function(msg) {\n        \n        scope.seedTray = msg.seedTray;\n        \n        var boxWidth = 40, boxHeight = 40;\n        var leftPadding = 25;\n        var boxSpacing = 5;\n        var topPadding = 5;\n        \n        var numberofRows = 6;\n        var numberofColumns = 6; \n        \n        \n        angular.forEach(scope.seedTray, function (value, key) {\n            value[\"xpos\"] = (value[\"column\"].toLowerCase().charCodeAt(0) - 96) * boxHeight + (value[\"column\"].toLowerCase().charCodeAt(0) - 96) * boxSpacing + leftPadding;\n            value[\"ypos\"] = value[\"row\"] * boxWidth + value[\"row\"] * boxSpacing + topPadding;\n            value[\"width\"] = boxWidth; \n            value[\"height\"]= boxHeight; \n            \n            if (value[\"progress\"]) { \n                \n                value[\"progressX1\"] = Math.floor((value[\"column\"].toLowerCase().charCodeAt(0) - 96) * boxHeight + (value[\"column\"].toLowerCase().charCodeAt(0) - 96) * boxSpacing + leftPadding + boxWidth/4);\n                value[\"progressY1\"] = Math.floor(value[\"row\"] * boxWidth + value[\"row\"] * boxSpacing + topPadding + boxHeight / 1.15);\n                // Max - + 20px\n                value[\"progressXMax\"] = Math.floor((value[\"column\"].toLowerCase().charCodeAt(0) - 96) * boxHeight + (value[\"column\"].toLowerCase().charCodeAt(0) - 96) * boxSpacing + leftPadding + boxWidth/4 + (boxWidth / 2)); \n                // Prograss bar - 0.2 * % progress (100% = 20px)\n                value[\"progressX2\"] = Math.floor((value[\"column\"].toLowerCase().charCodeAt(0) - 96) * boxHeight + (value[\"column\"].toLowerCase().charCodeAt(0) - 96) * boxSpacing + leftPadding +  boxWidth/4 + (boxWidth / 2 / 100) * value[\"progress\"]);\n            }\n            \n            \n        });\n        \n        console.log(scope.seedTray);\n        \n        scope.rowsDisplay = []; \n        for ( i = 0 ; i < numberofRows ; i++) {\n            var feed = {\n                \"title\": i+1,\n                \"xpos\": leftPadding/0.65,\n                \"ypos\": topPadding + (i+1) * boxHeight + (i+1) * boxSpacing + boxHeight/2\n            }\n            scope.rowsDisplay.push(feed);\n        }\n        \n        scope.columnsDisplay = []; \n        for ( i = 0 ; i < numberofColumns ; i++) {\n            var feed = {\n                \"title\": String.fromCharCode(97 + i).toUpperCase(),\n                \"xpos\": leftPadding + (i+1) * boxWidth + (i+1) * boxSpacing + boxWidth/2,\n                \"ypos\": topPadding/0.2\n            }\n            scope.columnsDisplay.push(feed);\n        }\n      \n    });\n\n})(scope);\n\n</script>",
+        "format": "\n  <svg width=\"384px\" height=\"200px\">\n\n    <g ng-repeat=\"(key, value) in seedTray\">\n      \n      <rect x=\"{{value.xpos}}\" \n           y=\"{{value.ypos}}\"\n           width=\"{{value.width}}\" height=\"{{value.height}}\" style=\"fill:{{value.hexColor}}\" rx=\"10\" />\n\n      <image href=\"{{value.icon}}\" x=\"{{value.xpos+value.width/4}}\" y=\"{{value.ypos+value.height/4}}\" \n      width=\"{{value.width/2}}\" height=\"{{value.height/2}}\" />\n      \n       <line    \n            x1=\"{{value.progressX1}}\"\n            y1=\"{{value.progressY1}}\"\n            x2=\"{{value.progressXMax}}\"\n            y2=\"{{value.progressY1}}\"\n            stroke=\"black\" \n            stroke-dasharray=\"100%\" \n            stroke-dashoffset=\"50%\" \n            stroke-width=\"2\" />\n            \n        <line\n            x1=\"{{value.progressX1}}\"\n            y1=\"{{value.progressY1}}\"\n            x2=\"{{value.progressX2}}\"\n            y2=\"{{value.progressY1}}\"\n            stroke=\"#C2E362\" \n            stroke-dasharray=\"100%\" \n            stroke-dashoffset=\"50%\" \n            stroke-width=\"2\" />\n            \n    </g>\n    \n    <g ng-repeat=\"(key, value) in rowsDisplay\">\n       \n       <text x=\"{{value.xpos}}\" y=\"{{value.ypos}}\" dominant-baseline=\"central\" text-anchor=\"middle\"\n            font-size=\"14\" stroke-width=\"0\" stroke=\"#000\"\n            fill=\"#f9fcfb\" font-family=\"Montserrat\" font-weight=\"bold\">{{value.title}}</text>\n    </g>\n    \n    <g ng-repeat=\"(key, value) in columnsDisplay\">\n       \n       <text x=\"{{value.xpos}}\" y=\"{{value.ypos}}\" dominant-baseline=\"central\" text-anchor=\"middle\"\n            font-size=\"14\" stroke-width=\"0\" stroke=\"#000\"\n            fill=\"#f9fcfb\" font-family=\"Montserrat\" font-weight=\"bold\">{{value.title}}</text>\n    </g>\n    \n\n  </svg>\n  \n   <svg height=\"45px\">\n       \n       <circle cx=\"62\" cy=\"22\" r=\"12\" stroke=\"green\" stroke-width=\"3\" fill=\"green\"></circle>\n       <image href=\"http://10.0.0.10:1880/seed_state.png\" x=\"50\" y=\"10\" width=\"20\" height=\"20\" />\n       <text x=\"80\" y=\"28\" font-family=\"Roboto\" fill=\"#f9fcfb\">Seed</text>\n       \n        <circle cx=\"135\" cy=\"22\" r=\"12\" stroke=\"green\" stroke-width=\"3\" fill=\"green\"></circle>\n       <image href=\"http://10.0.0.10:1880/germinating-state.png\" x=\"125\" y=\"10\" width=\"20\" height=\"20\" />\n       <text x=\"155\" y=\"28\" font-family=\"Roboto\" fill=\"#f9fcfb\">Germinated</text>\n        \n      <circle cx=\"254\" cy=\"22\" r=\"12\" stroke=\"green\" stroke-width=\"3\" fill=\"green\"></circle>\n      <image href=\"http://10.0.0.10:1880/germinated-state.png\" x=\"242\" y=\"10\" width=\"20\" height=\"20\"></image>\n      <text x=\"275\" y=\"28\" font-family=\"Roboto\" fill=\"#f9fcfb\">Growing</text>\n      \n   </svg>\n  \n\n<script>\n    \n(function(scope) {\n    \n    scope.rowsDisplay = []; \n    scope.columnsDisplay = []; \n    \n    // $watch fires each time the node is triggered in the flow\n    scope.$watch('msg', function(msg) {\n        \n        scope.seedTray = msg.seedTray;\n        \n        var boxWidth = 40, boxHeight = 40;\n        var leftPadding = 25;\n        var boxSpacing = 5;\n        var topPadding = 5;\n        \n        var numberofRows = 6;\n        var numberofColumns = 6; \n        \n        \n        angular.forEach(scope.seedTray, function (value, key) {\n            value[\"xpos\"] = (value[\"column\"].toLowerCase().charCodeAt(0) - 96) * boxHeight + (value[\"column\"].toLowerCase().charCodeAt(0) - 96) * boxSpacing + leftPadding;\n            value[\"ypos\"] = value[\"row\"] * boxWidth + value[\"row\"] * boxSpacing + topPadding;\n            value[\"width\"] = boxWidth; \n            value[\"height\"]= boxHeight; \n            \n            if (typeof value[\"progress\"] != 'undefined' || value[\"progress\"] != null) { \n                \n                value[\"progressX1\"] = Math.floor((value[\"column\"].toLowerCase().charCodeAt(0) - 96) * boxHeight + (value[\"column\"].toLowerCase().charCodeAt(0) - 96) * boxSpacing + leftPadding + boxWidth/4);\n                value[\"progressY1\"] = Math.floor(value[\"row\"] * boxWidth + value[\"row\"] * boxSpacing + topPadding + boxHeight / 1.15);\n                // Max - + 20px\n                value[\"progressXMax\"] = Math.floor((value[\"column\"].toLowerCase().charCodeAt(0) - 96) * boxHeight + (value[\"column\"].toLowerCase().charCodeAt(0) - 96) * boxSpacing + leftPadding + boxWidth/4 + (boxWidth / 2)); \n                // Prograss bar - 0.2 * % progress (100% = 20px)\n                value[\"progressX2\"] = Math.floor((value[\"column\"].toLowerCase().charCodeAt(0) - 96) * boxHeight + (value[\"column\"].toLowerCase().charCodeAt(0) - 96) * boxSpacing + leftPadding +  boxWidth/4 + (boxWidth / 2 / 100) * value[\"progress\"]);\n            }\n            \n            \n        });\n        \n        \n        scope.rowsDisplay = []; \n        for ( i = 0 ; i < numberofRows ; i++) {\n            var feed = {\n                \"title\": i+1,\n                \"xpos\": leftPadding/0.65,\n                \"ypos\": topPadding + (i+1) * boxHeight + (i+1) * boxSpacing + boxHeight/2\n            }\n            scope.rowsDisplay.push(feed);\n        }\n        \n        scope.columnsDisplay = []; \n        for ( i = 0 ; i < numberofColumns ; i++) {\n            var feed = {\n                \"title\": String.fromCharCode(97 + i).toUpperCase(),\n                \"xpos\": leftPadding + (i+1) * boxWidth + (i+1) * boxSpacing + boxWidth/2,\n                \"ypos\": topPadding/0.2\n            }\n            scope.columnsDisplay.push(feed);\n        }\n      \n    });\n\n})(scope);\n\n</script>",
         "storeOutMessages": false,
         "fwdInMessages": false,
         "resendOnRefresh": true,
         "templateScope": "local",
-        "x": 580,
-        "y": 250,
+        "x": 760,
+        "y": 240,
         "wires": [
             []
         ]
@@ -6598,53 +6515,11 @@
         "randomLast": "5",
         "randomUnits": "seconds",
         "drop": false,
-        "x": 1060,
-        "y": 280,
+        "x": 1220,
+        "y": 340,
         "wires": [
             [
-                "3d104e16.58fc12",
                 "7159d445.126dcc"
-            ]
-        ]
-    },
-    {
-        "id": "3d104e16.58fc12",
-        "type": "debug",
-        "z": "5e9d2991.0ea428",
-        "name": "",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1270,
-        "y": 230,
-        "wires": []
-    },
-    {
-        "id": "63860c8.8077ff4",
-        "type": "delay",
-        "z": "5e9d2991.0ea428",
-        "name": "Small delay - time to persist",
-        "pauseType": "delay",
-        "timeout": "1",
-        "timeoutUnits": "seconds",
-        "rate": "1",
-        "nbRateUnits": "1",
-        "rateUnits": "second",
-        "randomFirst": "1",
-        "randomLast": "5",
-        "randomUnits": "seconds",
-        "drop": false,
-        "x": 1060,
-        "y": 330,
-        "wires": [
-            [
-                "3d104e16.58fc12",
-                "487076fa.b74ec8"
             ]
         ]
     },
@@ -6652,6 +6527,7 @@
         "id": "6e0304d5.2bddbc",
         "type": "inject",
         "z": "5e9d2991.0ea428",
+        "d": true,
         "name": "Init call",
         "props": [
             {
@@ -6665,17 +6541,194 @@
         "once": true,
         "onceDelay": "0.5",
         "topic": "",
-        "x": 100,
-        "y": 420,
+        "x": 120,
+        "y": 240,
         "wires": [
             [
-                "7159d445.126dcc",
-                "487076fa.b74ec8"
+                "7159d445.126dcc"
             ]
         ]
     },
     {
-        "id": "cda10f2b.fad49",
+        "id": "da2f76ad.ea7f48",
+        "type": "ui_table",
+        "z": "5e9d2991.0ea428",
+        "group": "2a85ce84.fe1902",
+        "name": "Seed details table",
+        "order": 1,
+        "width": 10,
+        "height": "6",
+        "columns": [
+            {
+                "field": "column",
+                "title": "Column",
+                "width": "5px",
+                "align": "center",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "row",
+                "title": "Row",
+                "width": "5px",
+                "align": "center",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "category",
+                "title": "Type",
+                "width": "11px",
+                "align": "center",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "seedPlantedDate",
+                "title": "Seed date",
+                "width": "22px",
+                "align": "center",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "transplantDate",
+                "title": "Transplant",
+                "width": "22px",
+                "align": "center",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "icon",
+                "title": "Icon",
+                "width": "10px",
+                "align": "center",
+                "formatter": "image",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "progress",
+                "title": "Progress",
+                "width": "17px",
+                "align": "left",
+                "formatter": "progress",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            }
+        ],
+        "outputs": 0,
+        "cts": false,
+        "x": 730,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "33e86b0.ec93c96",
+        "type": "ui_table",
+        "z": "5e9d2991.0ea428",
+        "group": "4a4c281c.1c1c58",
+        "name": "NFT List",
+        "order": 1,
+        "width": "8",
+        "height": 10,
+        "columns": [
+            {
+                "field": "column",
+                "title": "Column",
+                "width": "5px",
+                "align": "center",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "row",
+                "title": "Row",
+                "width": "5px",
+                "align": "center",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "category",
+                "title": "Type",
+                "width": "14px",
+                "align": "center",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "harvestDate",
+                "title": "Harvest",
+                "width": "25px",
+                "align": "center",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "icon",
+                "title": "Icon",
+                "width": "10px",
+                "align": "center",
+                "formatter": "image",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "progress",
+                "title": "Progress",
+                "width": "25px",
+                "align": "left",
+                "formatter": "progress",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            }
+        ],
+        "outputs": 0,
+        "cts": false,
+        "x": 700,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "397d1372.7496bc",
+        "type": "ui_ui_control",
+        "z": "5e9d2991.0ea428",
+        "name": "on tab change",
+        "events": "all",
+        "x": 100,
+        "y": 300,
+        "wires": [
+            [
+                "7159d445.126dcc"
+            ]
+        ]
+    },
+    {
+        "id": "893e1c16.da34c",
         "type": "debug",
         "z": "5e9d2991.0ea428",
         "name": "",
@@ -6687,8 +6740,88 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 410,
-        "y": 380,
+        "x": 1030,
+        "y": 420,
         "wires": []
+    },
+    {
+        "id": "35eb65db.60721a",
+        "type": "persist in",
+        "z": "5e9d2991.0ea428",
+        "name": "cropsState",
+        "storageNode": "661a710f.63355",
+        "x": 1190,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "cdfa23b6.9fee",
+        "type": "debug",
+        "z": "1d22c714.e50369",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 590,
+        "y": 660,
+        "wires": []
+    },
+    {
+        "id": "5878db43.a17194",
+        "type": "mqtt in",
+        "z": "1d22c714.e50369",
+        "name": "",
+        "topic": "hydro/t/ec",
+        "qos": "0",
+        "datatype": "auto",
+        "broker": "a0e631b8.d383b",
+        "x": 180,
+        "y": 540,
+        "wires": [
+            [
+                "55c10844.d3abc8"
+            ]
+        ]
+    },
+    {
+        "id": "55c10844.d3abc8",
+        "type": "json",
+        "z": "1d22c714.e50369",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 350,
+        "y": 540,
+        "wires": [
+            [
+                "2fe8c445.723a4c"
+            ]
+        ]
+    },
+    {
+        "id": "2fe8c445.723a4c",
+        "type": "function",
+        "z": "1d22c714.e50369",
+        "name": "Parse telemetry JSON",
+        "func": "\nvar waterQualityMsg = { \n    payload: msg.payload.s.water.ppm\n};\n\n\nreturn  waterQualityMsg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 520,
+        "y": 560,
+        "wires": [
+            [
+                "b2d124cc.ae5b18",
+                "6a5ac7a1.e350c8",
+                "39bf6628.85f8ba",
+                "cdfa23b6.9fee"
+            ]
+        ]
     }
 ]
