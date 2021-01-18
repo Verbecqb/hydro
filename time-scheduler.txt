@@ -1,1 +1,1 @@
-{"timers":[{"days":[1,0,1,0,1,0,1],"output":"1","event":true,"starttime":1610610554000},{"days":[1,1,1,1,1,1,1],"output":"0","event":true,"starttime":1610783471000},{"starttime":1610801382000,"days":[1,1,1,1,1,1,1],"output":"0","event":false}]}
+{"timers":[{"days":[1,0,1,0,1,0,1],"output":"1","event":true,"starttime":1610610554000},{"days":[1,1,1,1,1,1,1],"output":"0","event":true,"starttime":1610956391000},{"starttime":1610974143000,"days":[1,1,1,1,1,1,1],"output":"0","event":false}]}

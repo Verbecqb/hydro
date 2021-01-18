@@ -81,9 +81,9 @@
     {
         "id": "f0e58282.f2736",
         "type": "ui_group",
-        "name": "Seed Tray - Visualize",
+        "name": "Camera",
         "tab": "352c089f.6b44d8",
-        "order": 7,
+        "order": 5,
         "disp": true,
         "width": "8",
         "collapse": false,
@@ -456,7 +456,8 @@
                 "primary": "indigo",
                 "accents": "blue",
                 "warn": "red",
-                "background": "grey"
+                "background": "grey",
+                "palette": "dark"
             }
         },
         "site": {
@@ -483,7 +484,7 @@
         "type": "ui_group",
         "name": "Nutrients",
         "tab": "352c089f.6b44d8",
-        "order": 5,
+        "order": 6,
         "disp": true,
         "width": "8",
         "collapse": false
@@ -544,7 +545,7 @@
         "type": "ui_group",
         "name": "Light",
         "tab": "352c089f.6b44d8",
-        "order": 6,
+        "order": 7,
         "disp": true,
         "width": "8",
         "collapse": false
@@ -844,11 +845,11 @@
     {
         "id": "97fc29b5.9cfb68",
         "type": "ui_group",
-        "name": "Nutrient film technique (NFT) - State",
+        "name": "Nutrient Film Technique (NFT) ",
         "tab": "ad78e894.23e758",
         "order": 2,
         "disp": true,
-        "width": 10,
+        "width": "10",
         "collapse": false
     },
     {
@@ -864,11 +865,11 @@
     {
         "id": "b014bc36.c80c9",
         "type": "ui_group",
-        "name": "Seed tray - seeds state",
+        "name": "Seed tray",
         "tab": "ad78e894.23e758",
         "order": 1,
         "disp": true,
-        "width": 8,
+        "width": "8",
         "collapse": false
     },
     {
@@ -1366,7 +1367,8 @@
             [
                 "f9ece608.ba06e8",
                 "60f91bf2.98dd04",
-                "ddf60a00.0b8158"
+                "ddf60a00.0b8158",
+                "cece987b.0169b8"
             ],
             [
                 "e3814403.711458",
@@ -1622,7 +1624,7 @@
         "repeat": "3000",
         "crontab": "",
         "once": true,
-        "onceDelay": 0.1,
+        "onceDelay": "2",
         "topic": "",
         "payload": "true",
         "payloadType": "bool",
@@ -3707,7 +3709,7 @@
         "type": "function",
         "z": "1d22c714.e50369",
         "name": "Configure PPM sectors",
-        "func": "var minPPM = global.get('minPPM') || 0;\nvar maxPPM = global.get('maxPPM') || 0;\nvar centerPPM = parseInt((minPPM + maxPPM) / 2);\n\nvar newSectors = [\n    {t:\"min\",val:0,col:\"#ff5252\",dot:0},\n    {t:\"sec\",val:minPPM,col:\"#4CAF50\",dot:0},\n    {t:\"sec\",val:maxPPM,col:\"#ff5252\",dot:0},\n    {t:\"max\",val:1500,col:\"#ff5252\",dot:0}] \n\n\nmsg.control = \n  {sectors:newSectors, center: centerPPM}\n\nreturn msg;\n",
+        "func": "var minPPM = global.get('minPPM') || 0;\nvar maxPPM = global.get('maxPPM') || 0;\nvar centerPPM = parseInt((minPPM + maxPPM) / 2);\n\nvar newSectors = [\n    {t:\"min\",val:0,col:\"#ff5252\",dot:0},\n    {t:\"sec\",val:minPPM,col:\"#4CAF50\",dot:0},\n    {t:\"sec\",val:maxPPM,col:\"#ff5252\",dot:0},\n    {t:\"max\",val:2000,col:\"#ff5252\",dot:0}] \n\n\nmsg.control = \n  {sectors:newSectors, center: centerPPM}\n\nreturn msg;\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -4931,7 +4933,7 @@
         "type": "function",
         "z": "5127740.f28848c",
         "name": "Set static system variables",
-        "func": "global.set('seedTray.water.level.threshold.low', 40);\nglobal.set('seedTray.water.level.threshold.high', 85);\n\nglobal.set('config.peristaltic.flow', 2); // flow in mL / sec\n\n\nglobal.set('color.warning', \"#CC3300\");\nglobal.set('color.widget.water', \"#0077be\");\nglobal.set('color.widget.light.led', \"#ffc30b\");\nglobal.set('color.widget.nutrients', \"#bb86fc\");\nglobal.set('color.widget.ph', \"\");\n\n\nglobal.set('config.NFT.columns', 9); \nglobal.set('config.NFT.rows', 2); \nglobal.set('config.SeedTray.columns', 3); \nglobal.set('config.SeedTray.rows', 3); \n\n\n\n",
+        "func": "global.set('seedTray.water.level.threshold.low', 40);\nglobal.set('seedTray.water.level.threshold.high', 85);\n\nglobal.set('config.peristaltic.flow', 2); // flow in mL / sec\n\n\nglobal.set('color.warning', \"#CC3300\");\nglobal.set('color.widget.water', \"#0077be\");\nglobal.set('color.widget.light.led', \"#ffc30b\");\nglobal.set('color.widget.nutrients', \"#bb86fc\");\nglobal.set('color.widget.ph', \"\");\n\n\nglobal.set('config.NFT.columns', 9); \nglobal.set('config.NFT.rows', 4); \nglobal.set('config.SeedTray.columns', 3); \nglobal.set('config.SeedTray.rows', 3); \n\n\n\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -6212,7 +6214,7 @@
         "type": "function",
         "z": "5e9d2991.0ea428",
         "name": "Update seed and NFT arrays",
-        "func": "// If update received.\nif (msg.seedTrayState) {\n    global.set(\"crops.seedTrayState\", msg.seedTrayState);\n} \nmsg.seedTrayState = global.get(\"crops.seedTrayState\");\n\n// Get NFT state\nif (msg.NFTState) {\n    global.set(\"crops.NFT.state\", msg.NFTState);\n}\nmsg.NFTState = global.get('crops.NFT.state');\n\nif (msg.currentWeek) {\n    global.set(\"crops.currentWeek.weekNumber\", msg.currentweek[\"weekNumber\"]);\n    global.set(\"crops.currentWeek.schedule.maxSeedPerWeek\", msg.currentweek[\"schedule\"][\"maxSeedPerWeek\"]);\n    global.set(\"crops.currentWeek.schedule.countSeedPlanted\", msg.currentweek[\"schedule\"][\"countSeedPlanted\"]);\n}\n\n\n// Get all empty cells from NFT system, to assign a cell for transplantation from seed tray\nvar emptyNFTCells = msg.NFTState.filter(cell => cell.category === \"empty\");\nvar countEmptyCells = 0;\n\nvar maxNumberOfSaladSeedsPerWeek = global.get(\"crops.currentWeek.schedule.maxSeedPerWeek\");\nvar currentWeekNumber = global.get(\"crops.currentWeek.weekNumber\");\n\n\n// ---------- DATE utils -----------------\n\n// Returns the ISO week of the date.\n Date.prototype.getWeek = function() {\n    var date = new Date(this.getTime());\n    date.setHours(0, 0, 0, 0);\n    // Thursday in current week decides the year.\n    date.setDate(date.getDate() + 3 - (date.getDay() + 6) % 7);\n    // January 4 is always in week 1.\n    var week1 = new Date(date.getFullYear(), 0, 4);\n    // Adjust to Thursday in week 1 and count number of weeks from date to week1.\n        return 1 + Math.round(((date.getTime() - week1.getTime()) / 86400000 - 3 + (week1.getDay() + 6) % 7) / 7);\n};\n\nDate.prototype.isToday = function () {\n    var today = new Date();\n\n    return this.getDate() === today.getDate() &&\n        this.getMonth() === today.getMonth() &&\n        this.getFullYear() === today.getFullYear();\n};\n\n\n// Pass global varialbe\n\nmsg.lettuceDaysForGermination = global.get('crops.lettuce.schedule.germinated') || 0;\nmsg.lettuceDaysForTransplant = global.get('crops.lettuce.schedule.transplant') || 0;\nmsg.lettuceDaysForHarvest = global.get('crops.lettuce.schedule.harvest') || 0;\n\nfor (var item in msg.seedTrayState) {\n\n    // bug fix - save date as 2021-01-05T00:00:00+09:00\n \n    if (msg.seedTrayState[item][\"category\"] == \"empty\") {\n            \n        msg.seedTrayState[item][\"hexColor\"]= \"grey\";\n        msg.seedTrayState[item][\"icon\"] = \"\";\n        \n        // In case no next action defined, and seeds can be planted this week\n        if (!msg.seedTrayState[item][\"nextAction\"] &&\n            global.get(\"crops.currentWeek.schedule.countSeedPlanted\") < maxNumberOfSaladSeedsPerWeek) {\n            \n            msg.seedTrayState[item][\"nextAction\"] = \"plantSeed\";\n            msg.seedTrayState[item][\"iconAction\"] = \"http://10.0.0.10:1880/seeding.png\";\n            \n            var numberOfSeedToPlan = global.get(\"crops.currentWeek.schedule.countSeedPlanted\");\n            global.set(\"crops.currentWeek.schedule.countSeedPlanted\", numberOfSeedToPlan+1);\n\n        }\n        \n    }\n    \n    // if curent week = transplantWeekNumber, time to transplant\n    if (currentWeekNumber >= (new Date(Date.parse(msg.seedTrayState[item][\"transplantDate\"]))).getWeek()) {\n        \n        msg.seedTrayState[item][\"hexColor\"]= \"green\";\n        msg.seedTrayState[item][\"icon\"] = \"http://10.0.0.10:1880/germinated-state.png\";\n        \n        msg.seedTrayState[item][\"nextAction\"] = \"transplant\";\n        msg.seedTrayState[item][\"iconAction\"] = \"http://10.0.0.10:1880/action-transplant.png\";\n        \n        // Ready to harvest, so progress is 100%\n        msg.seedTrayState[item][\"progress\"] = 100\n            \n        // Ready for transplant. Compute toBe column and row\n        if (emptyNFTCells[countEmptyCells]) {\n            msg.seedTrayState[item][\"toNFTColumn\"] = emptyNFTCells[countEmptyCells].column;\n            msg.seedTrayState[item][\"toNFTRow\"] = emptyNFTCells[countEmptyCells].row;\n            countEmptyCells++;\n        }\n    }\n    \n    // Seed is germinated, not ready for transplant\n    else if (Date.parse(msg.seedTrayState[item][\"transplantDate\"]) >= new Date().getTime()\n            && new Date().getTime() > Date.parse(msg.seedTrayState[item][\"germinationDate\"])) {\n                \n        msg.seedTrayState[item][\"hexColor\"]= \"green\";\n        msg.seedTrayState[item][\"icon\"] = \"http://10.0.0.10:1880/germinated-state.png\";\n        \n        var daysElapsedSinceSeedDate = Math.abs((new Date().getTime() - Date.parse(msg.seedTrayState[item][\"seedPlantedDate\"])) / (1000 * 60 * 60 * 24));\n        msg.seedTrayState[item][\"progress\"]= Math.round(daysElapsedSinceSeedDate / msg.lettuceDaysForTransplant * 100);\n        if (msg.seedTrayState[item][\"progress\"] > 100) {\n            msg.seedTrayState[item][\"progress\"] = 100;\n        }\n    } \n    \n    // Germinated \n    else if (Date.parse(msg.seedTrayState[item][\"germinationDate\"]) <= new Date().getTime()\n            && new Date().getTime() > Date.parse(msg.seedTrayState[item][\"seedPlantedDate\"])) {\n        \n        msg.seedTrayState[item][\"hexColor\"]= \"green\";\n        msg.seedTrayState[item][\"icon\"] = \"http://10.0.0.10:1880/germinating-state.png\";\n        \n        var daysElapsedSinceSeedDate = Math.abs((new Date().getTime() - Date.parse(msg.seedTrayState[item][\"seedPlantedDate\"])) / (1000 * 60 * 60 * 24));\n        msg.seedTrayState[item][\"progress\"]= Math.round(daysElapsedSinceSeedDate / msg.lettuceDaysForGermination * 100);\n        \n        if (msg.seedTrayState[item][\"progress\"] > 100) {\n            msg.seedTrayState[item][\"progress\"] = 100;\n        }\n        \n    } \n    \n    // Seed state\n    else if (msg.seedTrayState[item][\"seedPlantedDate\"] && \n            (new Date(Date.parse(msg.seedTrayState[item][\"seedPlantedDate\"]))).isToday()) {\n        \n        msg.seedTrayState[item][\"hexColor\"]= \"green\";\n        msg.seedTrayState[item][\"icon\"] = \"http://10.0.0.10:1880/seed_state.png\";\n        \n        var daysElapsedSinceSeedDate = Math.abs((new Date().getTime() - Date.parse(msg.seedTrayState[item][\"seedPlantedDate\"])) / (1000 * 60 * 60 * 24));\n        msg.seedTrayState[item][\"progress\"]= Math.round(daysElapsedSinceSeedDate / msg.lettuceDaysForGermination * 100);\n        \n        if (msg.seedTrayState[item][\"progress\"] > 100) {\n            msg.seedTrayState[item][\"progress\"] = 100;\n        }\n    } \n}\n\nglobal.set(\"crops.seedTrayState\", msg.seedTrayState);\n\n\nfor (item in msg.NFTState) {\n  \n    if (msg.NFTState[item][\"category\"] == \"empty\") {\n            \n        msg.NFTState[item][\"hexColor\"]= \"black\";\n        msg.NFTState[item][\"icon\"] = \"\";\n        \n    } else if (currentWeekNumber >= (new Date(Date.parse(msg.NFTState[item][\"harvestDate\"]))).getWeek()) {\n        \n        msg.NFTState[item][\"hexColor\"]= \"green\";\n        msg.NFTState[item][\"icon\"] = \"http://10.0.0.10:1880/harvest-state.png\";\n        \n        msg.NFTState[item][\"nextAction\"] = \"harvest\";\n        msg.NFTState[item][\"iconAction\"] = \"http://10.0.0.10:1880/harvest-action.png\";\n        \n        // Ready to harvest, so progress is 100%\n        msg.NFTState[item][\"progress\"] = 100\n        \n    } else {\n\n        msg.NFTState[item][\"hexColor\"]= \"green\";\n        msg.NFTState[item][\"icon\"] = \"http://10.0.0.10:1880/germinated-state.png\";\n        \n        var daysElapsedSinceTransplant = Math.abs((new Date().getTime() - Date.parse(msg.NFTState[item][\"transplantDate\"])) / (1000 * 60 * 60 * 24));\n        msg.NFTState[item][\"progress\"]= Math.round(daysElapsedSinceTransplant / msg.lettuceDaysForHarvest * 100);\n        \n        \n    }\n}\n\nglobal.set('crops.NFT.state', msg.NFTState);\n\n\nmsg.NFTColumns = global.get('config.NFT.columns'); \nmsg.NFTRows =global.get('config.NFT.rows'); \nmsg.SeedTrayColumns = global.get('config.SeedTray.columns'); \nmsg.SeedTrayRows = global.get('config.SeedTray.rows'); \n\nmsg.crops = { \n    \n    currentweek: {\n            weekNumber: global.get(\"crops.currentWeek.weekNumber\"),\n            schedule: {\n                maxSeedPerWeek: global.get(\"crops.currentWeek.schedule.maxSeedPerWeek\"),\n                countSeedPlanted: global.get(\"crops.currentWeek.schedule.countSeedPlanted\")\n            }\n    }\n};\n\nreturn [\n    msg,  \n    { payload: msg.seedTrayState }, \n    { payload: msg.NFTState },\n    msg.crops\n];",
+        "func": "// If update received.\nif (msg.seedTrayState) {\n    global.set(\"crops.seedTrayState\", msg.seedTrayState);\n} \nmsg.seedTrayState = global.get(\"crops.seedTrayState\");\n\n// Get NFT state\nif (msg.NFTState) {\n    global.set(\"crops.NFT.state\", msg.NFTState);\n}\nmsg.NFTState = global.get('crops.NFT.state');\n\nif (msg.currentWeek) {\n    global.set(\"crops.currentWeek.weekNumber\", msg.currentweek[\"weekNumber\"]);\n    global.set(\"crops.currentWeek.schedule.maxSeedPerWeek\", msg.currentweek[\"schedule\"][\"maxSeedPerWeek\"]);\n    global.set(\"crops.currentWeek.schedule.countSeedPlanted\", msg.currentweek[\"schedule\"][\"countSeedPlanted\"]);\n}\n\n\n// Get all empty cells from NFT system, to assign a cell for transplantation from seed tray\nvar emptyNFTCells = msg.NFTState.filter(cell => cell.category === \"empty\");\nvar countEmptyCells = 0;\n\nvar maxNumberOfSaladSeedsPerWeek = global.get(\"crops.currentWeek.schedule.maxSeedPerWeek\");\nvar currentWeekNumber = global.get(\"crops.currentWeek.weekNumber\");\n\n\n// ---------- DATE utils -----------------\n\n// Returns the ISO week of the date.\n Date.prototype.getWeek = function() {\n    var date = new Date(this.getTime());\n    date.setHours(0, 0, 0, 0);\n    // Thursday in current week decides the year.\n    date.setDate(date.getDate() + 3 - (date.getDay() + 6) % 7);\n    // January 4 is always in week 1.\n    var week1 = new Date(date.getFullYear(), 0, 4);\n    // Adjust to Thursday in week 1 and count number of weeks from date to week1.\n        return 1 + Math.round(((date.getTime() - week1.getTime()) / 86400000 - 3 + (week1.getDay() + 6) % 7) / 7);\n};\n\nDate.prototype.isToday = function () {\n    var today = new Date();\n\n    return this.getDate() === today.getDate() &&\n        this.getMonth() === today.getMonth() &&\n        this.getFullYear() === today.getFullYear();\n};\n\n\n// Pass global varialbe\n\nmsg.lettuceDaysForGermination = global.get('crops.lettuce.schedule.germinated') || 0;\nmsg.lettuceDaysForTransplant = global.get('crops.lettuce.schedule.transplant') || 0;\nmsg.lettuceDaysForHarvest = global.get('crops.lettuce.schedule.harvest') || 0;\n\nfor (var item in msg.seedTrayState) {\n\n    // bug fix - save date as 2021-01-05T00:00:00+09:00\n \n    if (msg.seedTrayState[item][\"category\"] == \"empty\") {\n            \n        msg.seedTrayState[item][\"hexColor\"]= \"grey\";\n        msg.seedTrayState[item][\"icon\"] = \"\";\n        \n        // In case no next action defined, and seeds can be planted this week\n        if (!msg.seedTrayState[item][\"nextAction\"] &&\n            global.get(\"crops.currentWeek.schedule.countSeedPlanted\") < maxNumberOfSaladSeedsPerWeek) {\n            \n            msg.seedTrayState[item][\"nextAction\"] = \"plantSeed\";\n            msg.seedTrayState[item][\"iconAction\"] = \"http://raspberrypi.local:1880/seeding.png\";\n            \n            var numberOfSeedToPlan = global.get(\"crops.currentWeek.schedule.countSeedPlanted\");\n            global.set(\"crops.currentWeek.schedule.countSeedPlanted\", numberOfSeedToPlan+1);\n\n        }\n        \n    }\n    \n    // if curent week = transplantWeekNumber, time to transplant\n    if (currentWeekNumber >= (new Date(Date.parse(msg.seedTrayState[item][\"transplantDate\"]))).getWeek()) {\n        \n        msg.seedTrayState[item][\"hexColor\"]= \"green\";\n        msg.seedTrayState[item][\"icon\"] = \"http://raspberrypi.local:1880/germinated-state.png\";\n        \n        msg.seedTrayState[item][\"nextAction\"] = \"transplant\";\n        msg.seedTrayState[item][\"iconAction\"] = \"http://raspberrypi.local:1880/action-transplant.png\";\n        \n        // Ready to harvest, so progress is 100%\n        msg.seedTrayState[item][\"progress\"] = 100\n            \n        // Ready for transplant. Compute toBe column and row\n        if (emptyNFTCells[countEmptyCells]) {\n            msg.seedTrayState[item][\"toNFTColumn\"] = emptyNFTCells[countEmptyCells].column;\n            msg.seedTrayState[item][\"toNFTRow\"] = emptyNFTCells[countEmptyCells].row;\n            countEmptyCells++;\n        }\n    }\n    \n    // Seed is germinated, not ready for transplant\n    else if (Date.parse(msg.seedTrayState[item][\"transplantDate\"]) >= new Date().getTime()\n            && new Date().getTime() > Date.parse(msg.seedTrayState[item][\"germinationDate\"])) {\n                \n        msg.seedTrayState[item][\"hexColor\"]= \"green\";\n        msg.seedTrayState[item][\"icon\"] = \"http://raspberrypi.local:1880/germinated-state.png\";\n        \n        var daysElapsedSinceSeedDate = Math.abs((new Date().getTime() - Date.parse(msg.seedTrayState[item][\"seedPlantedDate\"])) / (1000 * 60 * 60 * 24));\n        msg.seedTrayState[item][\"progress\"]= Math.round(daysElapsedSinceSeedDate / msg.lettuceDaysForTransplant * 100);\n        if (msg.seedTrayState[item][\"progress\"] > 100) {\n            msg.seedTrayState[item][\"progress\"] = 100;\n        }\n    } \n    \n    // Germinated \n    else if (Date.parse(msg.seedTrayState[item][\"germinationDate\"]) <= new Date().getTime()\n            && new Date().getTime() > Date.parse(msg.seedTrayState[item][\"seedPlantedDate\"])) {\n        \n        msg.seedTrayState[item][\"hexColor\"]= \"green\";\n        msg.seedTrayState[item][\"icon\"] = \"http://raspberrypi.local:1880/germinating-state.png\";\n        \n        var daysElapsedSinceSeedDate = Math.abs((new Date().getTime() - Date.parse(msg.seedTrayState[item][\"seedPlantedDate\"])) / (1000 * 60 * 60 * 24));\n        msg.seedTrayState[item][\"progress\"]= Math.round(daysElapsedSinceSeedDate / msg.lettuceDaysForGermination * 100);\n        \n        if (msg.seedTrayState[item][\"progress\"] > 100) {\n            msg.seedTrayState[item][\"progress\"] = 100;\n        }\n        \n    } \n    \n    // Seed state\n    else if (msg.seedTrayState[item][\"seedPlantedDate\"] && \n            (new Date(Date.parse(msg.seedTrayState[item][\"seedPlantedDate\"]))).isToday()) {\n        \n        msg.seedTrayState[item][\"hexColor\"]= \"green\";\n        msg.seedTrayState[item][\"icon\"] = \"http://raspberrypi.local:1880/seed_state.png\";\n        \n        var daysElapsedSinceSeedDate = Math.abs((new Date().getTime() - Date.parse(msg.seedTrayState[item][\"seedPlantedDate\"])) / (1000 * 60 * 60 * 24));\n        msg.seedTrayState[item][\"progress\"]= Math.round(daysElapsedSinceSeedDate / msg.lettuceDaysForGermination * 100);\n        \n        if (msg.seedTrayState[item][\"progress\"] > 100) {\n            msg.seedTrayState[item][\"progress\"] = 100;\n        }\n    } \n}\n\nglobal.set(\"crops.seedTrayState\", msg.seedTrayState);\n\n\nfor (item in msg.NFTState) {\n  \n    if (msg.NFTState[item][\"category\"] == \"empty\") {\n            \n        msg.NFTState[item][\"hexColor\"]= \"black\";\n        msg.NFTState[item][\"icon\"] = \"\";\n        \n    } else if (currentWeekNumber >= (new Date(Date.parse(msg.NFTState[item][\"harvestDate\"]))).getWeek()) {\n        \n        msg.NFTState[item][\"hexColor\"]= \"green\";\n        msg.NFTState[item][\"icon\"] = \"http://raspberrypi.local:1880/harvest-state.png\";\n        \n        msg.NFTState[item][\"nextAction\"] = \"harvest\";\n        msg.NFTState[item][\"iconAction\"] = \"http://raspberrypi.local:1880/harvest-action.png\";\n        \n        // Ready to harvest, so progress is 100%\n        msg.NFTState[item][\"progress\"] = 100\n        \n    } else {\n\n        msg.NFTState[item][\"hexColor\"]= \"green\";\n        msg.NFTState[item][\"icon\"] = \"http://raspberrypi.local:1880/germinated-state.png\";\n        \n        var daysElapsedSinceTransplant = Math.abs((new Date().getTime() - Date.parse(msg.NFTState[item][\"transplantDate\"])) / (1000 * 60 * 60 * 24));\n        msg.NFTState[item][\"progress\"]= Math.round(daysElapsedSinceTransplant / msg.lettuceDaysForHarvest * 100);\n        \n        \n    }\n}\n\nglobal.set('crops.NFT.state', msg.NFTState);\n\n\nmsg.NFTColumns = global.get('config.NFT.columns'); \nmsg.NFTRows =global.get('config.NFT.rows'); \nmsg.SeedTrayColumns = global.get('config.SeedTray.columns'); \nmsg.SeedTrayRows = global.get('config.SeedTray.rows'); \n\nmsg.crops = { \n    \n    currentweek: {\n            weekNumber: global.get(\"crops.currentWeek.weekNumber\"),\n            schedule: {\n                maxSeedPerWeek: global.get(\"crops.currentWeek.schedule.maxSeedPerWeek\"),\n                countSeedPlanted: global.get(\"crops.currentWeek.schedule.countSeedPlanted\")\n            }\n    }\n};\n\nreturn [\n    msg,  \n    { payload: msg.seedTrayState }, \n    { payload: msg.NFTState },\n    msg.crops\n];",
         "outputs": 4,
         "noerr": 0,
         "initialize": "",
@@ -6348,7 +6350,7 @@
         "order": 1,
         "width": 0,
         "height": 0,
-        "format": "\n  <svg width=\"384px\" height=\"200px\">\n\n    <g ng-repeat=\"(key, value) in seedTrayState\">\n      \n      <rect x=\"{{value.xpos}}\" \n           y=\"{{value.ypos}}\"\n           width=\"{{value.width}}\" height=\"{{value.height}}\" style=\"fill:{{value.hexColor}}\" rx=\"10\" />\n\n      <image href=\"{{value.icon}}\" x=\"{{value.xpos+value.width/4}}\" y=\"{{value.ypos+value.height/4}}\" \n      width=\"{{value.width/2}}\" height=\"{{value.height/2}}\" />\n      \n       <line    \n            x1=\"{{value.progressX1}}\"\n            y1=\"{{value.progressY1}}\"\n            x2=\"{{value.progressXMax}}\"\n            y2=\"{{value.progressY1}}\"\n            stroke=\"black\" \n            stroke-dasharray=\"100%\" \n            stroke-dashoffset=\"50%\" \n            stroke-width=\"2\" />\n            \n        <line\n            x1=\"{{value.progressX1}}\"\n            y1=\"{{value.progressY1}}\"\n            x2=\"{{value.progressX2}}\"\n            y2=\"{{value.progressY1}}\"\n            stroke=\"#C2E362\" \n            stroke-dasharray=\"100%\" \n            stroke-dashoffset=\"50%\" \n            stroke-width=\"2\" />\n            \n    </g>\n    \n    <g ng-repeat=\"(key, value) in rowsDisplay\">\n       \n       <text x=\"{{value.xpos}}\" y=\"{{value.ypos}}\" dominant-baseline=\"central\" text-anchor=\"middle\"\n            font-size=\"14\" stroke-width=\"0\" stroke=\"#000\"\n            fill=\"#f9fcfb\" font-family=\"Montserrat\" font-weight=\"bold\">{{value.title}}</text>\n    </g>\n    \n    <g ng-repeat=\"(key, value) in columnsDisplay\">\n       \n       <text x=\"{{value.xpos}}\" y=\"{{value.ypos}}\" dominant-baseline=\"central\" text-anchor=\"middle\"\n            font-size=\"14\" stroke-width=\"0\" stroke=\"#000\"\n            fill=\"#f9fcfb\" font-family=\"Montserrat\" font-weight=\"bold\">{{value.title}}</text>\n    </g>\n    \n\n  </svg>\n  \n   <svg height=\"45px\">\n       \n       <circle cx=\"62\" cy=\"22\" r=\"12\" stroke=\"green\" stroke-width=\"3\" fill=\"green\"></circle>\n       <image href=\"http://10.0.0.10:1880/seed_state.png\" x=\"50\" y=\"10\" width=\"20\" height=\"20\" />\n       <text x=\"80\" y=\"28\" font-family=\"Roboto\" fill=\"#f9fcfb\">Seed</text>\n       \n        <circle cx=\"135\" cy=\"22\" r=\"12\" stroke=\"green\" stroke-width=\"3\" fill=\"green\"></circle>\n       <image href=\"http://10.0.0.10:1880/germinating-state.png\" x=\"125\" y=\"10\" width=\"20\" height=\"20\" />\n       <text x=\"155\" y=\"28\" font-family=\"Roboto\" fill=\"#f9fcfb\">Germinated</text>\n        \n      <circle cx=\"254\" cy=\"22\" r=\"12\" stroke=\"green\" stroke-width=\"3\" fill=\"green\"></circle>\n      <image href=\"http://10.0.0.10:1880/germinated-state.png\" x=\"242\" y=\"10\" width=\"20\" height=\"20\"></image>\n      <text x=\"275\" y=\"28\" font-family=\"Roboto\" fill=\"#f9fcfb\">Growing</text>\n      \n   </svg>\n  \n\n<script>\n    \n(function(scope) {\n    \n    scope.rowsDisplay = []; \n    scope.columnsDisplay = []; \n    \n    // $watch fires each time the node is triggered in the flow\n    scope.$watch('msg', function(msg) {\n        \n        scope.seedTrayState = msg.seedTrayState;\n        \n        var boxWidth = 40, boxHeight = 40;\n        var leftPadding = 25;\n        var boxSpacing = 5;\n        var topPadding = 5;\n        \n        var numberofRows = msg.SeedTrayRows;\n        var numberofColumns = msg.SeedTrayColumns; \n        \n        \n        angular.forEach(scope.seedTrayState, function (value, key) {\n            value[\"xpos\"] = (value[\"column\"].toLowerCase().charCodeAt(0) - 96) * boxHeight + (value[\"column\"].toLowerCase().charCodeAt(0) - 96) * boxSpacing + leftPadding;\n            value[\"ypos\"] = value[\"row\"] * boxWidth + value[\"row\"] * boxSpacing + topPadding;\n            value[\"width\"] = boxWidth; \n            value[\"height\"]= boxHeight; \n            \n            if (typeof value[\"progress\"] != 'undefined' || value[\"progress\"] != null) { \n                \n                value[\"progressX1\"] = Math.floor((value[\"column\"].toLowerCase().charCodeAt(0) - 96) * boxHeight + (value[\"column\"].toLowerCase().charCodeAt(0) - 96) * boxSpacing + leftPadding + boxWidth/4);\n                value[\"progressY1\"] = Math.floor(value[\"row\"] * boxWidth + value[\"row\"] * boxSpacing + topPadding + boxHeight / 1.15);\n                // Max - + 20px\n                value[\"progressXMax\"] = Math.floor((value[\"column\"].toLowerCase().charCodeAt(0) - 96) * boxHeight + (value[\"column\"].toLowerCase().charCodeAt(0) - 96) * boxSpacing + leftPadding + boxWidth/4 + (boxWidth / 2)); \n                // Prograss bar - 0.2 * % progress (100% = 20px)\n                value[\"progressX2\"] = Math.floor((value[\"column\"].toLowerCase().charCodeAt(0) - 96) * boxHeight + (value[\"column\"].toLowerCase().charCodeAt(0) - 96) * boxSpacing + leftPadding +  boxWidth/4 + (boxWidth / 2 / 100) * value[\"progress\"]);\n            }\n            \n            \n        });\n        \n        \n        scope.rowsDisplay = []; \n        for ( i = 0 ; i < numberofRows ; i++) {\n            var feed = {\n                \"title\": i+1,\n                \"xpos\": leftPadding/0.65,\n                \"ypos\": topPadding + (i+1) * boxHeight + (i+1) * boxSpacing + boxHeight/2\n            }\n            scope.rowsDisplay.push(feed);\n        }\n        \n        scope.columnsDisplay = []; \n        for ( i = 0 ; i < numberofColumns ; i++) {\n            var feed = {\n                \"title\": String.fromCharCode(97 + i).toUpperCase(),\n                \"xpos\": leftPadding + (i+1) * boxWidth + (i+1) * boxSpacing + boxWidth/2,\n                \"ypos\": topPadding/0.2\n            }\n            scope.columnsDisplay.push(feed);\n        }\n      \n    });\n\n})(scope);\n\n</script>",
+        "format": "\n  <svg width=\"384px\" height=\"200px\">\n\n    <g ng-repeat=\"(key, value) in seedTrayState\">\n      \n      <rect x=\"{{value.xpos}}\" \n           y=\"{{value.ypos}}\"\n           width=\"{{value.width}}\" height=\"{{value.height}}\" style=\"fill:{{value.hexColor}}\" rx=\"10\" />\n\n      <image href=\"{{value.icon}}\" x=\"{{value.xpos+value.width/4}}\" y=\"{{value.ypos+value.height/4}}\" \n      width=\"{{value.width/2}}\" height=\"{{value.height/2}}\" />\n      \n       <line    \n            x1=\"{{value.progressX1}}\"\n            y1=\"{{value.progressY1}}\"\n            x2=\"{{value.progressXMax}}\"\n            y2=\"{{value.progressY1}}\"\n            stroke=\"black\" \n            stroke-dasharray=\"100%\" \n            stroke-dashoffset=\"50%\" \n            stroke-width=\"2\" />\n            \n        <line\n            x1=\"{{value.progressX1}}\"\n            y1=\"{{value.progressY1}}\"\n            x2=\"{{value.progressX2}}\"\n            y2=\"{{value.progressY1}}\"\n            stroke=\"#C2E362\" \n            stroke-dasharray=\"100%\" \n            stroke-dashoffset=\"50%\" \n            stroke-width=\"2\" />\n            \n    </g>\n    \n    <g ng-repeat=\"(key, value) in rowsDisplay\">\n       \n       <text x=\"{{value.xpos}}\" y=\"{{value.ypos}}\" dominant-baseline=\"central\" text-anchor=\"middle\"\n            font-size=\"14\" stroke-width=\"0\" stroke=\"#000\"\n            fill=\"#f9fcfb\" font-family=\"Montserrat\" font-weight=\"bold\">{{value.title}}</text>\n    </g>\n    \n    <g ng-repeat=\"(key, value) in columnsDisplay\">\n       \n       <text x=\"{{value.xpos}}\" y=\"{{value.ypos}}\" dominant-baseline=\"central\" text-anchor=\"middle\"\n            font-size=\"14\" stroke-width=\"0\" stroke=\"#000\"\n            fill=\"#f9fcfb\" font-family=\"Montserrat\" font-weight=\"bold\">{{value.title}}</text>\n    </g>\n    \n\n  </svg>\n  \n   <svg height=\"45px\">\n       \n       <circle cx=\"62\" cy=\"22\" r=\"12\" stroke=\"green\" stroke-width=\"3\" fill=\"green\"></circle>\n       <image href=\"http://raspberrypi.local:1880/seed_state.png\" x=\"50\" y=\"10\" width=\"20\" height=\"20\" />\n       <text x=\"80\" y=\"28\" font-family=\"Roboto\" fill=\"#f9fcfb\">Seed</text>\n       \n        <circle cx=\"135\" cy=\"22\" r=\"12\" stroke=\"green\" stroke-width=\"3\" fill=\"green\"></circle>\n       <image href=\"http://raspberrypi.local:1880/germinating-state.png\" x=\"125\" y=\"10\" width=\"20\" height=\"20\" />\n       <text x=\"155\" y=\"28\" font-family=\"Roboto\" fill=\"#f9fcfb\">Germinated</text>\n        \n      <circle cx=\"254\" cy=\"22\" r=\"12\" stroke=\"green\" stroke-width=\"3\" fill=\"green\"></circle>\n      <image href=\"http://raspberrypi.local:1880/germinated-state.png\" x=\"242\" y=\"10\" width=\"20\" height=\"20\"></image>\n      <text x=\"275\" y=\"28\" font-family=\"Roboto\" fill=\"#f9fcfb\">Growing</text>\n      \n   </svg>\n  \n\n<script>\n    \n(function(scope) {\n    \n    scope.rowsDisplay = []; \n    scope.columnsDisplay = []; \n    \n    // $watch fires each time the node is triggered in the flow\n    scope.$watch('msg', function(msg) {\n        \n        scope.seedTrayState = msg.seedTrayState;\n        \n        var boxWidth = 40, boxHeight = 40;\n        var leftPadding = 25;\n        var boxSpacing = 5;\n        var topPadding = 5;\n        \n        var numberofRows = msg.SeedTrayRows;\n        var numberofColumns = msg.SeedTrayColumns; \n        \n        \n        angular.forEach(scope.seedTrayState, function (value, key) {\n            value[\"xpos\"] = (value[\"column\"].toLowerCase().charCodeAt(0) - 96) * boxHeight + (value[\"column\"].toLowerCase().charCodeAt(0) - 96) * boxSpacing + leftPadding;\n            value[\"ypos\"] = value[\"row\"] * boxWidth + value[\"row\"] * boxSpacing + topPadding;\n            value[\"width\"] = boxWidth; \n            value[\"height\"]= boxHeight; \n            \n            if (typeof value[\"progress\"] != 'undefined' || value[\"progress\"] != null) { \n                \n                value[\"progressX1\"] = Math.floor((value[\"column\"].toLowerCase().charCodeAt(0) - 96) * boxHeight + (value[\"column\"].toLowerCase().charCodeAt(0) - 96) * boxSpacing + leftPadding + boxWidth/4);\n                value[\"progressY1\"] = Math.floor(value[\"row\"] * boxWidth + value[\"row\"] * boxSpacing + topPadding + boxHeight / 1.15);\n                // Max - + 20px\n                value[\"progressXMax\"] = Math.floor((value[\"column\"].toLowerCase().charCodeAt(0) - 96) * boxHeight + (value[\"column\"].toLowerCase().charCodeAt(0) - 96) * boxSpacing + leftPadding + boxWidth/4 + (boxWidth / 2)); \n                // Prograss bar - 0.2 * % progress (100% = 20px)\n                value[\"progressX2\"] = Math.floor((value[\"column\"].toLowerCase().charCodeAt(0) - 96) * boxHeight + (value[\"column\"].toLowerCase().charCodeAt(0) - 96) * boxSpacing + leftPadding +  boxWidth/4 + (boxWidth / 2 / 100) * value[\"progress\"]);\n            }\n            \n            \n        });\n        \n        \n        scope.rowsDisplay = []; \n        for ( i = 0 ; i < numberofRows ; i++) {\n            var feed = {\n                \"title\": i+1,\n                \"xpos\": leftPadding/0.65,\n                \"ypos\": topPadding + (i+1) * boxHeight + (i+1) * boxSpacing + boxHeight/2\n            }\n            scope.rowsDisplay.push(feed);\n        }\n        \n        scope.columnsDisplay = []; \n        for ( i = 0 ; i < numberofColumns ; i++) {\n            var feed = {\n                \"title\": String.fromCharCode(97 + i).toUpperCase(),\n                \"xpos\": leftPadding + (i+1) * boxWidth + (i+1) * boxSpacing + boxWidth/2,\n                \"ypos\": topPadding/0.2\n            }\n            scope.columnsDisplay.push(feed);\n        }\n      \n    });\n\n})(scope);\n\n</script>",
         "storeOutMessages": false,
         "fwdInMessages": false,
         "resendOnRefresh": true,
@@ -6644,125 +6646,6 @@
         "wires": []
     },
     {
-        "id": "5878db43.a17194",
-        "type": "mqtt in",
-        "z": "1d22c714.e50369",
-        "name": "",
-        "topic": "hydro/t/ec",
-        "qos": "0",
-        "datatype": "auto",
-        "broker": "a0e631b8.d383b",
-        "x": 180,
-        "y": 540,
-        "wires": [
-            [
-                "55c10844.d3abc8"
-            ]
-        ]
-    },
-    {
-        "id": "55c10844.d3abc8",
-        "type": "json",
-        "z": "1d22c714.e50369",
-        "name": "",
-        "property": "payload",
-        "action": "",
-        "pretty": false,
-        "x": 350,
-        "y": 540,
-        "wires": [
-            [
-                "2fe8c445.723a4c"
-            ]
-        ]
-    },
-    {
-        "id": "2fe8c445.723a4c",
-        "type": "function",
-        "z": "1d22c714.e50369",
-        "name": "Parse telemetry JSON",
-        "func": "\nvar waterQualityMsg = { \n    payload: msg.payload.s.water.ppm\n};\n\n\nreturn  waterQualityMsg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "x": 520,
-        "y": 560,
-        "wires": [
-            [
-                "b2d124cc.ae5b18",
-                "6a5ac7a1.e350c8",
-                "39bf6628.85f8ba"
-            ]
-        ]
-    },
-    {
-        "id": "ae918dcb.ffe8",
-        "type": "ads1x15-raspi",
-        "z": "1d22c714.e50369",
-        "property": "payload",
-        "name": "",
-        "chip": "IC_ADS1115",
-        "i2c_address": "ADDRESS_0x48",
-        "channel": "CHANNEL_0",
-        "samplesPerSecond0": "SPS_920",
-        "samplesPerSecond1": "SPS_250",
-        "progGainAmp": "PGA_4_096V",
-        "x": 300,
-        "y": 1060,
-        "wires": [
-            [
-                "65aa8d70.b87704"
-            ]
-        ]
-    },
-    {
-        "id": "3f18ac94.8fee44",
-        "type": "inject",
-        "z": "1d22c714.e50369",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 110,
-        "y": 1060,
-        "wires": [
-            [
-                "ae918dcb.ffe8"
-            ]
-        ]
-    },
-    {
-        "id": "14e5cf1e.4175c1",
-        "type": "debug",
-        "z": "1d22c714.e50369",
-        "name": "",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 470,
-        "y": 1100,
-        "wires": []
-    },
-    {
         "id": "41de6525.73d44c",
         "type": "function",
         "z": "5e9d2991.0ea428",
@@ -6777,24 +6660,6 @@
         "wires": [
             [
                 "7877fb7a.8f12d4"
-            ]
-        ]
-    },
-    {
-        "id": "65aa8d70.b87704",
-        "type": "function",
-        "z": "1d22c714.e50369",
-        "name": "Convert Voltage to ppm",
-        "func": "var voltage = msg.payload[\"ADS1115 • I2C_ADDRESS_0x48 • Channel A0-GND • Voltage\"];\nvar compensationCoefficient = 1.0+0.02*(20.0-25.0);    //temperature compensation formula: fFinalResult(25^C) = fFinalResult(current)/(1.0+0.02*(fTP-25.0));\nvar compensationVolatge=voltage/compensationCoefficient;  //temperature compensation\\\nmsg.tdsValue=(133.42*voltage*voltage*voltage - 255.86*voltage*voltage + 857.39*voltage)*0.5; //convert voltage value to tds value\n\nreturn msg;\n",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "x": 380,
-        "y": 1160,
-        "wires": [
-            [
-                "14e5cf1e.4175c1"
             ]
         ]
     },
@@ -6824,5 +6689,108 @@
         "x": 270,
         "y": 2120,
         "wires": []
+    },
+    {
+        "id": "dbbbfdb2.44fe2",
+        "type": "ads1x15-raspi",
+        "z": "1d22c714.e50369",
+        "property": "payload",
+        "name": "",
+        "chip": "IC_ADS1115",
+        "i2c_address": "ADDRESS_0x48",
+        "channel": "CHANNEL_0",
+        "samplesPerSecond0": "SPS_920",
+        "samplesPerSecond1": "SPS_128",
+        "progGainAmp": "PGA_4_096V",
+        "x": 360,
+        "y": 580,
+        "wires": [
+            [
+                "1de17954.4d8a97"
+            ]
+        ]
+    },
+    {
+        "id": "34a30d8d.5cf552",
+        "type": "inject",
+        "z": "1d22c714.e50369",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "20",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "1",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 190,
+        "y": 580,
+        "wires": [
+            [
+                "dbbbfdb2.44fe2"
+            ]
+        ]
+    },
+    {
+        "id": "80f798e0.5d4728",
+        "type": "debug",
+        "z": "1d22c714.e50369",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 770,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "1de17954.4d8a97",
+        "type": "function",
+        "z": "1d22c714.e50369",
+        "name": "Convert Voltage to ppm",
+        "func": "var waterTemperature = global.get(\"seedTray.water.temperature\") || 20;\n\nvar voltage = msg.payload[\"ADS1115 • I2C_ADDRESS_0x48 • Channel A0-GND • Voltage\"];\nvar compensationCoefficient = 1.0+0.02*(waterTemperature-25.0);    //temperature compensation formula: fFinalResult(25^C) = fFinalResult(current)/(1.0+0.02*(fTP-25.0));\nvar compensationVolatge=voltage/compensationCoefficient;  //temperature compensation\\\nmsg.tdsValue=(133.42*voltage*voltage*voltage - 255.86*voltage*voltage + 857.39*voltage)*0.5; //convert voltage value to tds value\n\n\nvar waterQualityMsg = { \n    payload: msg.tdsValue\n};\n\n\nreturn  waterQualityMsg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 570,
+        "y": 580,
+        "wires": [
+            [
+                "80f798e0.5d4728",
+                "b2d124cc.ae5b18",
+                "6a5ac7a1.e350c8",
+                "39bf6628.85f8ba"
+            ]
+        ]
+    },
+    {
+        "id": "cece987b.0169b8",
+        "type": "function",
+        "z": "1d22c714.e50369",
+        "name": "Save to global ",
+        "func": "global.set('seedTray.water.temperature', msg.payload);",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 780,
+        "y": 1020,
+        "wires": [
+            []
+        ]
     }
 ]
