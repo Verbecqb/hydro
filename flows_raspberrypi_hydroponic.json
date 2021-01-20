@@ -645,204 +645,6 @@
         "height": 1
     },
     {
-        "id": "c872ddd7.44fe6",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "1c4b8cb2.e1e2e3",
-        "order": 2,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "503a5f07.78dc4",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "1c4b8cb2.e1e2e3",
-        "order": 4,
-        "width": 2,
-        "height": 1
-    },
-    {
-        "id": "d7b40ea0.21cce",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "1c4b8cb2.e1e2e3",
-        "order": 5,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "b57b0266.34a51",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "1c4b8cb2.e1e2e3",
-        "order": 7,
-        "width": 2,
-        "height": 1
-    },
-    {
-        "id": "beba21b9.2b7df",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "1c4b8cb2.e1e2e3",
-        "order": 9,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "5de1eaac.e3b784",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "1c4b8cb2.e1e2e3",
-        "order": 11,
-        "width": 2,
-        "height": 1
-    },
-    {
-        "id": "846bbcce.dba1",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "1c4b8cb2.e1e2e3",
-        "order": 12,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "fdb16648.790828",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "1c4b8cb2.e1e2e3",
-        "order": 14,
-        "width": 2,
-        "height": 1
-    },
-    {
-        "id": "53745fda.b068b",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "1c4b8cb2.e1e2e3",
-        "order": 16,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "d23250a.3db58b",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "1c4b8cb2.e1e2e3",
-        "order": 19,
-        "width": 2,
-        "height": 1
-    },
-    {
-        "id": "ed174d66.9319e",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "1c4b8cb2.e1e2e3",
-        "order": 20,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "a1e7d684.05b5b8",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "1c4b8cb2.e1e2e3",
-        "order": 23,
-        "width": 2,
-        "height": 1
-    },
-    {
-        "id": "765d3c75.e4a644",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "1c4b8cb2.e1e2e3",
-        "order": 25,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "c82c643f.659da8",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "1c4b8cb2.e1e2e3",
-        "order": 28,
-        "width": 2,
-        "height": 1
-    },
-    {
-        "id": "269c7f32.b4546",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "1c4b8cb2.e1e2e3",
-        "order": 30,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "62cea919.9abbd8",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "1c4b8cb2.e1e2e3",
-        "order": 32,
-        "width": 2,
-        "height": 1
-    },
-    {
-        "id": "5f2e5a37.9a2df4",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "c3776e2a.f6068",
-        "order": 2,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "f9a13f88.8a034",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "c3776e2a.f6068",
-        "order": 4,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "fb6f9cbb.c5e55",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "c3776e2a.f6068",
-        "order": 5,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "bbabb373.0e768",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "c3776e2a.f6068",
-        "order": 7,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "bbf5e3f6.a7e3",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "c3776e2a.f6068",
-        "order": 8,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "67ddf0cf.9f62a",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "c3776e2a.f6068",
-        "order": 10,
-        "width": 1,
-        "height": 1
-    },
-    {
         "id": "97fc29b5.9cfb68",
         "type": "ui_group",
         "name": "Nutrient Film Technique (NFT) ",
@@ -1313,6 +1115,222 @@
         "height": 1
     },
     {
+        "id": "1f4c7449.f8fcdc",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "1c4b8cb2.e1e2e3",
+        "order": 2,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "7cfe8ffe.fc5dd",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "1c4b8cb2.e1e2e3",
+        "order": 4,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "cec3cd5b.134a8",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "1c4b8cb2.e1e2e3",
+        "order": 5,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "18162955.3e4f87",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "1c4b8cb2.e1e2e3",
+        "order": 7,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "47752723.f9db58",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "1c4b8cb2.e1e2e3",
+        "order": 9,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "63cb2a79.ec4c24",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "1c4b8cb2.e1e2e3",
+        "order": 11,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "47c39ec7.b3401",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "1c4b8cb2.e1e2e3",
+        "order": 12,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "e6f97585.fcacd8",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "1c4b8cb2.e1e2e3",
+        "order": 14,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "8f867e5d.ea04f",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "1c4b8cb2.e1e2e3",
+        "order": 16,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "f8ec7723.2da448",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "1c4b8cb2.e1e2e3",
+        "order": 19,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "3ee94c93.c81374",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "1c4b8cb2.e1e2e3",
+        "order": 20,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "f7bea863.802308",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "1c4b8cb2.e1e2e3",
+        "order": 23,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "eb820245.bf824",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "1c4b8cb2.e1e2e3",
+        "order": 25,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "a47962d.ec1cba",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "1c4b8cb2.e1e2e3",
+        "order": 28,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "e6fb040e.96c5f8",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "1c4b8cb2.e1e2e3",
+        "order": 30,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "72fdc73d.0f4928",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "1c4b8cb2.e1e2e3",
+        "order": 33,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "2e83b975.dbdcf6",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "1c4b8cb2.e1e2e3",
+        "order": 35,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "c555eb32.9220a8",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "1c4b8cb2.e1e2e3",
+        "order": 37,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "bea636ab.217c28",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "c3776e2a.f6068",
+        "order": 2,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "d7a35f58.c9dac",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "c3776e2a.f6068",
+        "order": 4,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "8e33c9ce.def548",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "c3776e2a.f6068",
+        "order": 5,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "96d9379e.fc4288",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "c3776e2a.f6068",
+        "order": 7,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "d346cd97.85385",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "c3776e2a.f6068",
+        "order": 8,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "81370f89.d077e",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "c3776e2a.f6068",
+        "order": 10,
+        "width": 1,
+        "height": 1
+    },
+    {
         "id": "e30bc267.9a60e",
         "type": "mqtt in",
         "z": "1d22c714.e50369",
@@ -1350,7 +1368,7 @@
         "type": "function",
         "z": "1d22c714.e50369",
         "name": "Parse telemetry JSON",
-        "func": "\n\nvar waterQualityMsg = { \n    payload: msg.payload.s.water.ppm\n};\n\nvar waterTempMsg = { \n    payload: msg.payload.s.water.temp\n};\n\nvar waterPhMsg = { \n    payload: msg.payload.s.water.ph\n};\n\nvar waterLevelMsg = { \n    payload: msg.payload.s.water.level\n};\n\nvar luminosityMsg = { \n    payload: msg.payload.s.lux\n};\n\n\nreturn [\n    waterQualityMsg, \n    luminosityMsg, \n    waterTempMsg,\n    waterPhMsg,\n    waterLevelMsg\n];",
+        "func": "var isWaterPumpActivated = global.get(\"settings.water_pump.activated\");\n\nvar waterQualityMsg = { \n    payload: msg.payload.s.water.ppm\n};\n\nvar waterTempMsg = { \n    payload: msg.payload.s.water.temp\n};\n\nvar waterPhMsg = { \n    payload: msg.payload.s.water.ph\n};\n\nvar waterLevelMsg = { \n    payload: msg.payload.s.water.level\n};\n\nvar luminosityMsg = { \n    payload: msg.payload.s.lux\n};\n\n// when pump is activated, PH and PPM reading are wrong \nif (isWaterPumpActivated && isWaterPumpActivated == 1) {\n    return [\n         null, \n         luminosityMsg, \n         waterTempMsg,\n         null,\n         waterLevelMsg\n    ];\n} else { \n\n    return [\n        waterQualityMsg, \n        luminosityMsg, \n        waterTempMsg,\n        waterPhMsg,\n        waterLevelMsg\n    ];\n}",
         "outputs": 5,
         "noerr": 0,
         "initialize": "",
@@ -1393,7 +1411,7 @@
         "retain": "",
         "broker": "a0e631b8.d383b",
         "x": 770,
-        "y": 180,
+        "y": 153,
         "wires": []
     },
     {
@@ -1485,8 +1503,8 @@
         "randomLast": "5",
         "randomUnits": "seconds",
         "drop": false,
-        "x": 780,
-        "y": 626,
+        "x": 840,
+        "y": 620,
         "wires": [
             [
                 "7fe995e5.477afc",
@@ -1805,8 +1823,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1180,
-        "y": 666,
+        "x": 1240,
+        "y": 660,
         "wires": [
             [
                 "abe678a7.9a28b8"
@@ -1896,8 +1914,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 1200,
-        "y": 626,
+        "x": 1260,
+        "y": 620,
         "wires": [
             [
                 "383c0ad2.b2e656"
@@ -1920,7 +1938,7 @@
         "randomUnits": "seconds",
         "drop": false,
         "x": 1480,
-        "y": 400,
+        "y": 373,
         "wires": [
             [
                 "25335612.5b58da"
@@ -1937,7 +1955,7 @@
         "retain": "",
         "broker": "a0e631b8.d383b",
         "x": 830,
-        "y": 340,
+        "y": 313,
         "wires": []
     },
     {
@@ -1987,7 +2005,7 @@
         "to": "",
         "reg": false,
         "x": 1630,
-        "y": 400,
+        "y": 373,
         "wires": [
             [
                 "c1e51a25.bcd2f8"
@@ -2010,7 +2028,7 @@
         "repair": false,
         "outputs": 1,
         "x": 860,
-        "y": 400,
+        "y": 373,
         "wires": [
             [
                 "57e4ad43.c33774"
@@ -2226,8 +2244,8 @@
         "retentionPolicyV18Flux": "",
         "org": "organisation",
         "bucket": "bucket",
-        "x": 880,
-        "y": 586,
+        "x": 940,
+        "y": 580,
         "wires": []
     },
     {
@@ -2369,8 +2387,8 @@
         "precision": "",
         "retentionPolicy": "",
         "org": "organisation",
-        "x": 940,
-        "y": 626,
+        "x": 1000,
+        "y": 620,
         "wires": [
             [
                 "eb66256c.111fa8"
@@ -2407,8 +2425,8 @@
         "precision": "",
         "retentionPolicy": "",
         "org": "organisation",
-        "x": 960,
-        "y": 666,
+        "x": 1020,
+        "y": 660,
         "wires": [
             [
                 "fff065af.0a0958"
@@ -2550,7 +2568,7 @@
         "bgcolorFromTheme": true,
         "diffCenter": "",
         "x": 790,
-        "y": 726,
+        "y": 720,
         "wires": []
     },
     {
@@ -2653,8 +2671,8 @@
         "lineWidth": "3",
         "bgcolorFromTheme": true,
         "diffCenter": "",
-        "x": 1040,
-        "y": 546,
+        "x": 1100,
+        "y": 540,
         "wires": []
     },
     {
@@ -2687,13 +2705,13 @@
                 "dot": 0
             },
             {
-                "val": 12,
+                "val": 8,
                 "col": "#ff9900",
                 "t": "sec",
                 "dot": 0
             },
             {
-                "val": 18,
+                "val": 14,
                 "col": "#337f24",
                 "t": "sec",
                 "dot": 0
@@ -2748,7 +2766,7 @@
                 "dot": 0
             },
             {
-                "val": 15,
+                "val": 8,
                 "col": "#ff9900",
                 "t": "sec",
                 "dot": 0
@@ -2760,7 +2778,7 @@
                 "dot": 0
             },
             {
-                "val": 55,
+                "val": 70,
                 "col": "#ff2300",
                 "t": "sec",
                 "dot": 0
@@ -2803,7 +2821,7 @@
         "officon": "fa-toggle-off  fa-2x",
         "offcolor": "#ffc30b",
         "x": 611,
-        "y": 180,
+        "y": 153,
         "wires": [
             [
                 "acca3832.810b88"
@@ -2835,7 +2853,7 @@
         "officon": "fa-toggle-off fa-2x",
         "offcolor": "#0077be",
         "x": 630,
-        "y": 340,
+        "y": 313,
         "wires": [
             [
                 "dec1467a.516188",
@@ -2993,8 +3011,8 @@
         "label": "",
         "format": "<i class=\"fa fa-refresh\" aria-hidden=\"true\">&nbsp; {{ msg.payload | date: 'HH:mm:ss'}}</i> ",
         "layout": "row-center",
-        "x": 1440,
-        "y": 626,
+        "x": 1500,
+        "y": 620,
         "wires": []
     },
     {
@@ -3142,8 +3160,8 @@
         "randomLast": "5",
         "randomUnits": "seconds",
         "drop": false,
-        "x": 940,
-        "y": 620,
+        "x": 1000,
+        "y": 820,
         "wires": [
             [
                 "a7364d44.56698"
@@ -3159,8 +3177,8 @@
         "qos": "0",
         "retain": "",
         "broker": "a0e631b8.d383b",
-        "x": 490,
-        "y": 540,
+        "x": 550,
+        "y": 740,
         "wires": []
     },
     {
@@ -3182,8 +3200,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1090,
-        "y": 620,
+        "x": 1150,
+        "y": 820,
         "wires": [
             [
                 "648ce0a1.8a9de"
@@ -3205,8 +3223,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 300,
-        "y": 620,
+        "x": 360,
+        "y": 820,
         "wires": [
             [
                 "bb16ff0b.197e6"
@@ -3236,8 +3254,8 @@
         "offvalueType": "bool",
         "officon": "fa-toggle-off fa-2x",
         "offcolor": "#bb86fc",
-        "x": 290,
-        "y": 540,
+        "x": 350,
+        "y": 740,
         "wires": [
             [
                 "93cd22de.a5d2c",
@@ -3255,7 +3273,7 @@
         "datatype": "auto",
         "broker": "a0e631b8.d383b",
         "x": 170,
-        "y": 2706,
+        "y": 2700,
         "wires": [
             [
                 "222cf8a.db51b08"
@@ -3451,14 +3469,15 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 530,
+        "x": 510,
         "y": 380,
         "wires": [
             [
                 "78ee2d93.0854e4"
             ],
             [
-                "7485b5.c5f5ca4c"
+                "7485b5.c5f5ca4c",
+                "4a15ab80.153564"
             ]
         ]
     },
@@ -3466,13 +3485,13 @@
         "id": "78ee2d93.0854e4",
         "type": "function",
         "z": "5127740.f28848c",
-        "name": "Simulate an input",
+        "name": "Set warning - PPM too high",
         "func": "msg.payload = \"PPM too high\"\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 830,
+        "x": 860,
         "y": 344,
         "wires": [
             [
@@ -3513,21 +3532,21 @@
         "raw": false,
         "topic": "Water PPM",
         "name": "Alert ",
-        "x": 1010,
-        "y": 364,
+        "x": 1070,
+        "y": 380,
         "wires": []
     },
     {
         "id": "7485b5.c5f5ca4c",
         "type": "function",
         "z": "5127740.f28848c",
-        "name": "Simulate an input",
+        "name": "Set warning - PPM too low",
         "func": "msg.payload = \"PPM too low\"\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 830,
+        "x": 860,
         "y": 404,
         "wires": [
             [
@@ -3545,8 +3564,8 @@
         "createDir": true,
         "overwriteFile": "true",
         "encoding": "none",
-        "x": 601,
-        "y": 120,
+        "x": 600,
+        "y": 113,
         "wires": [
             []
         ]
@@ -3630,7 +3649,9 @@
             [
                 "c1e51a25.bcd2f8"
             ],
-            []
+            [
+                "933e05f4.0abbb8"
+            ]
         ]
     },
     {
@@ -3647,7 +3668,7 @@
                 "vt": "str"
             }
         ],
-        "repeat": "2700",
+        "repeat": "21600",
         "crontab": "",
         "once": true,
         "onceDelay": "1",
@@ -3668,8 +3689,8 @@
         "z": "87cb301d.9893c",
         "name": "### Nutriments controler ###",
         "info": "",
-        "x": 220,
-        "y": 500,
+        "x": 260,
+        "y": 700,
         "wires": []
     },
     {
@@ -3678,8 +3699,8 @@
         "z": "87cb301d.9893c",
         "name": "nutrimentsSolutionATimer",
         "storageNode": "217cc961.603ce6",
-        "x": 590,
-        "y": 620,
+        "x": 650,
+        "y": 820,
         "wires": [
             [
                 "cf53cc34.c3564"
@@ -3696,8 +3717,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 790,
-        "y": 620,
+        "x": 850,
+        "y": 820,
         "wires": [
             [
                 "5d2f5ff2.180c5"
@@ -3714,8 +3735,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 830,
-        "y": 546,
+        "x": 890,
+        "y": 540,
         "wires": [
             [
                 "63de4a5e.7c19a4"
@@ -3729,7 +3750,7 @@
         "name": "waterSprayTimer",
         "storageNode": "217cc961.603ce6",
         "x": 1110,
-        "y": 400,
+        "y": 373,
         "wires": [
             [
                 "77dd4f6a.f114"
@@ -3747,7 +3768,7 @@
         "initialize": "",
         "finalize": "",
         "x": 1310,
-        "y": 400,
+        "y": 373,
         "wires": [
             [
                 "b9dd843.3247178"
@@ -3797,17 +3818,16 @@
         "type": "kasa",
         "z": "87cb301d.9893c",
         "name": "Hydroponic - Water pump  - HS105(JP)",
-        "device": "10.0.0.12",
+        "device": "192.168.1.8",
         "interval": 60000,
         "eventInterval": 15000,
         "payload": "getInfo",
         "payloadType": "info",
         "debug": false,
-        "x": 490,
-        "y": 2000,
+        "x": 870,
+        "y": 460,
         "wires": [
             [
-                "652a6ac7.e928e4",
                 "2f179774.4055e8"
             ]
         ]
@@ -3816,10 +3836,10 @@
         "id": "d9cef345.e508b",
         "type": "comment",
         "z": "87cb301d.9893c",
-        "name": "### Hydro solution ###",
+        "name": "### Hydro water pump ###",
         "info": "",
-        "x": 300,
-        "y": 1880,
+        "x": 380,
+        "y": 380,
         "wires": []
     },
     {
@@ -4083,7 +4103,7 @@
         "links": [
             "bbae5ec0.7849",
             "bec62e16.5d9dc",
-            "3339466d.6d58aa"
+            "88e72de5.1224f"
         ],
         "x": 175,
         "y": 2526,
@@ -4282,7 +4302,7 @@
         "format": "",
         "layout": "row-spread",
         "x": 550,
-        "y": 2706,
+        "y": 2700,
         "wires": []
     },
     {
@@ -4296,7 +4316,7 @@
         "initialize": "",
         "finalize": "",
         "x": 340,
-        "y": 2706,
+        "y": 2700,
         "wires": [
             [
                 "aadaca25.5f3598"
@@ -4318,8 +4338,8 @@
         "randomLast": "5",
         "randomUnits": "seconds",
         "drop": false,
-        "x": 960,
-        "y": 880,
+        "x": 1020,
+        "y": 1080,
         "wires": [
             [
                 "a5c49cb5.f3459"
@@ -4335,8 +4355,8 @@
         "qos": "0",
         "retain": "",
         "broker": "a0e631b8.d383b",
-        "x": 490,
-        "y": 800,
+        "x": 550,
+        "y": 1000,
         "wires": []
     },
     {
@@ -4358,8 +4378,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1110,
-        "y": 880,
+        "x": 1170,
+        "y": 1080,
         "wires": [
             [
                 "d977f79c.7973f8"
@@ -4381,8 +4401,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 320,
-        "y": 880,
+        "x": 380,
+        "y": 1080,
         "wires": [
             [
                 "62da8d4e.c4ff24"
@@ -4412,8 +4432,8 @@
         "offvalueType": "bool",
         "officon": "fa-toggle-off fa-2x",
         "offcolor": "#bb86fc",
-        "x": 290,
-        "y": 800,
+        "x": 350,
+        "y": 1000,
         "wires": [
             [
                 "b29a1551.343db8",
@@ -4427,8 +4447,8 @@
         "z": "87cb301d.9893c",
         "name": "nutrimentsSolutionBTimer",
         "storageNode": "217cc961.603ce6",
-        "x": 590,
-        "y": 880,
+        "x": 650,
+        "y": 1080,
         "wires": [
             [
                 "33f73a9b.f300e6"
@@ -4445,8 +4465,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 810,
-        "y": 880,
+        "x": 870,
+        "y": 1080,
         "wires": [
             [
                 "40258950.e35d68"
@@ -4463,7 +4483,7 @@
         "datatype": "auto",
         "broker": "a0e631b8.d383b",
         "x": 170,
-        "y": 2786,
+        "y": 2780,
         "wires": [
             [
                 "41226553.28e86c"
@@ -4482,8 +4502,8 @@
         "label": "<font color=\"{{msg.color}}\"><i class=\"fa fa-battery-half fa-1.5x\"></i></front>",
         "format": "",
         "layout": "row-spread",
-        "x": 550,
-        "y": 2786,
+        "x": 570,
+        "y": 2780,
         "wires": []
     },
     {
@@ -4497,7 +4517,7 @@
         "initialize": "",
         "finalize": "",
         "x": 340,
-        "y": 2786,
+        "y": 2780,
         "wires": [
             [
                 "94ff4603.6d4ad8"
@@ -4519,7 +4539,7 @@
         "resendOnRefresh": true,
         "templateScope": "local",
         "x": 600,
-        "y": 2646,
+        "y": 2640,
         "wires": [
             []
         ]
@@ -4536,7 +4556,7 @@
         "template": "<md-card>\n  <div md-card-image class=\"example-header-image\"></div>\n  <md-card-content>\n    <p>\n      Solution A pump runs for <font color=\"#bb86fc\"> {{global.nutriments.solutionA.pump.duration}} secs.</font>  \n      when PPM is below  <font color=\"#bb86fc\">{{global.minPPM}}</font>\n    </p>\n  </md-card-content>\n</md-card>",
         "output": "str",
         "x": 410,
-        "y": 2646,
+        "y": 2640,
         "wires": [
             [
                 "610e2b65.b070d4"
@@ -4565,7 +4585,7 @@
         "payload": "",
         "payloadType": "date",
         "x": 190,
-        "y": 2646,
+        "y": 2640,
         "wires": [
             [
                 "5e5c80d7.c23cb"
@@ -4652,8 +4672,8 @@
         "lineWidth": "5",
         "bgcolorFromTheme": true,
         "diffCenter": "",
-        "x": 340,
-        "y": 2946,
+        "x": 360,
+        "y": 2906,
         "wires": []
     },
     {
@@ -4662,8 +4682,8 @@
         "z": "1d22c714.e50369",
         "name": "##TODO compute remaining days",
         "info": "",
-        "x": 370,
-        "y": 2886,
+        "x": 220,
+        "y": 2860,
         "wires": []
     },
     {
@@ -4688,7 +4708,7 @@
         "payload": "25",
         "payloadType": "num",
         "x": 130,
-        "y": 2986,
+        "y": 2960,
         "wires": [
             [
                 "a56914d1.b859b8"
@@ -4746,8 +4766,8 @@
         "lineWidth": "5",
         "bgcolorFromTheme": true,
         "diffCenter": "",
-        "x": 320,
-        "y": 3026,
+        "x": 358,
+        "y": 2961,
         "wires": []
     },
     {
@@ -4760,7 +4780,7 @@
             "1b0ae6f9.985959"
         ],
         "x": 235,
-        "y": 2606,
+        "y": 2600,
         "wires": [
             [
                 "5e5c80d7.c23cb"
@@ -4777,7 +4797,7 @@
         "datatype": "auto",
         "broker": "a0e631b8.d383b",
         "x": 610,
-        "y": 240,
+        "y": 213,
         "wires": [
             [
                 "d7d0c829.e9cc28"
@@ -4797,7 +4817,7 @@
         "format": "",
         "layout": "row-right",
         "x": 980,
-        "y": 240,
+        "y": 213,
         "wires": []
     },
     {
@@ -4921,55 +4941,10 @@
         "initialize": "",
         "finalize": "",
         "x": 790,
-        "y": 240,
+        "y": 213,
         "wires": [
             [
                 "a94198ff.eef948"
-            ]
-        ]
-    },
-    {
-        "id": "62af3da0.9e2494",
-        "type": "function",
-        "z": "5127740.f28848c",
-        "name": "Set static system variables",
-        "func": "global.set('seedTray.water.level.threshold.low', 40);\nglobal.set('seedTray.water.level.threshold.high', 85);\n\nglobal.set('config.peristaltic.flow', 2); // flow in mL / sec\n\n\nglobal.set('color.warning', \"#CC3300\");\nglobal.set('color.widget.water', \"#0077be\");\nglobal.set('color.widget.light.led', \"#ffc30b\");\nglobal.set('color.widget.nutrients', \"#bb86fc\");\nglobal.set('color.widget.ph', \"\");\n\n\nglobal.set('config.NFT.columns', 9); \nglobal.set('config.NFT.rows', 4); \nglobal.set('config.SeedTray.columns', 3); \nglobal.set('config.SeedTray.rows', 3); \n\n\n\n",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "x": 340,
-        "y": 540,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "c8aa275d.cd9128",
-        "type": "inject",
-        "z": "5127740.f28848c",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": true,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 130,
-        "y": 540,
-        "wires": [
-            [
-                "62af3da0.9e2494"
             ]
         ]
     },
@@ -5028,43 +5003,27 @@
         "offvalueType": "bool",
         "officon": "fa-toggle-off fa-2x",
         "offcolor": "#0077be",
-        "x": 270,
-        "y": 1920,
+        "x": 611,
+        "y": 460,
         "wires": [
             [
-                "da7d1a1e.239e58"
+                "da7d1a1e.239e58",
+                "d579d391.622e6"
             ]
         ]
-    },
-    {
-        "id": "652a6ac7.e928e4",
-        "type": "debug",
-        "z": "87cb301d.9893c",
-        "name": "",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 770,
-        "y": 2000,
-        "wires": []
     },
     {
         "id": "2f179774.4055e8",
         "type": "function",
         "z": "87cb301d.9893c",
-        "name": "Set color",
-        "func": "msg.color = (msg.payload.relay_state == 1) ? global.get(\"color.widget.water\") : \"grey\";\nreturn msg;",
+        "name": "Save state and set color",
+        "func": "global.set(\"settings.water_pump.activated\", msg.payload.relay_state);\n\nmsg.color = (msg.payload.relay_state == 1) ? global.get(\"color.widget.water\") : \"grey\";\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 720,
-        "y": 1940,
+        "x": 1154,
+        "y": 461,
         "wires": [
             [
                 "ea84252f.eb1ee8"
@@ -5083,8 +5042,8 @@
         "label": "<font color=\"{{msg.color}}\"><i class=\"fa fa-tint fa-2x\"></i></front>",
         "format": "",
         "layout": "row-spread",
-        "x": 910,
-        "y": 1940,
+        "x": 1390,
+        "y": 460,
         "wires": []
     },
     {
@@ -5196,8 +5155,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 620,
-        "y": 100,
+        "x": 760,
+        "y": 320,
         "wires": [
             []
         ]
@@ -5212,8 +5171,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 620,
-        "y": 180,
+        "x": 760,
+        "y": 400,
         "wires": [
             []
         ]
@@ -5224,8 +5183,8 @@
         "z": "9441712c.a6198",
         "name": "minPPMValue",
         "storageNode": "217cc961.603ce6",
-        "x": 600,
-        "y": 140,
+        "x": 740,
+        "y": 360,
         "wires": []
     },
     {
@@ -5234,8 +5193,8 @@
         "z": "9441712c.a6198",
         "name": "minPPMValue",
         "storageNode": "217cc961.603ce6",
-        "x": 160,
-        "y": 120,
+        "x": 300,
+        "y": 340,
         "wires": [
             [
                 "a65a3b1b.47fc98"
@@ -5248,8 +5207,8 @@
         "z": "9441712c.a6198",
         "name": "maxPPMValue",
         "storageNode": "217cc961.603ce6",
-        "x": 600,
-        "y": 220,
+        "x": 740,
+        "y": 440,
         "wires": []
     },
     {
@@ -5258,8 +5217,8 @@
         "z": "9441712c.a6198",
         "name": "maxPPMValue",
         "storageNode": "217cc961.603ce6",
-        "x": 160,
-        "y": 200,
+        "x": 300,
+        "y": 420,
         "wires": [
             [
                 "141d0c8a.d98be3"
@@ -5276,8 +5235,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 600,
-        "y": 360,
+        "x": 740,
+        "y": 580,
         "wires": [
             []
         ]
@@ -5292,8 +5251,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 600,
-        "y": 440,
+        "x": 740,
+        "y": 660,
         "wires": [
             []
         ]
@@ -5304,8 +5263,8 @@
         "z": "9441712c.a6198",
         "name": "minPHValue",
         "storageNode": "217cc961.603ce6",
-        "x": 570,
-        "y": 400,
+        "x": 710,
+        "y": 620,
         "wires": []
     },
     {
@@ -5314,8 +5273,8 @@
         "z": "9441712c.a6198",
         "name": "minPHValue",
         "storageNode": "217cc961.603ce6",
-        "x": 150,
-        "y": 380,
+        "x": 290,
+        "y": 600,
         "wires": [
             [
                 "f6b1cbb0.3cd9e8"
@@ -5328,8 +5287,8 @@
         "z": "9441712c.a6198",
         "name": "maxPHValue",
         "storageNode": "217cc961.603ce6",
-        "x": 570,
-        "y": 480,
+        "x": 710,
+        "y": 700,
         "wires": []
     },
     {
@@ -5338,8 +5297,8 @@
         "z": "9441712c.a6198",
         "name": "maxPHValue",
         "storageNode": "217cc961.603ce6",
-        "x": 150,
-        "y": 460,
+        "x": 290,
+        "y": 680,
         "wires": [
             [
                 "dd9cce6b.677ad"
@@ -5352,8 +5311,8 @@
         "z": "9441712c.a6198",
         "name": "### System variable configuration",
         "info": "",
-        "x": 140,
-        "y": 40,
+        "x": 280,
+        "y": 260,
         "wires": []
     },
     {
@@ -5364,8 +5323,8 @@
         "links": [
             "80ecf0e1.ea61b"
         ],
-        "x": 515,
-        "y": 60,
+        "x": 655,
+        "y": 280,
         "wires": []
     },
     {
@@ -5376,8 +5335,8 @@
         "links": [
             "d8805062.990f5"
         ],
-        "x": 455,
-        "y": 420,
+        "x": 595,
+        "y": 640,
         "wires": []
     },
     {
@@ -5398,8 +5357,8 @@
         "min": 0,
         "max": "14",
         "step": "0.1",
-        "x": 340,
-        "y": 460,
+        "x": 480,
+        "y": 680,
         "wires": [
             [
                 "f334d767.83e348",
@@ -5426,8 +5385,8 @@
         "min": 0,
         "max": "14",
         "step": "0.1",
-        "x": 340,
-        "y": 380,
+        "x": 480,
+        "y": 600,
         "wires": [
             [
                 "7bcd1b8c.9818e4",
@@ -5454,8 +5413,8 @@
         "min": 0,
         "max": "2000",
         "step": "100",
-        "x": 370,
-        "y": 120,
+        "x": 510,
+        "y": 340,
         "wires": [
             [
                 "1516235d.d1ebfd",
@@ -5482,8 +5441,8 @@
         "min": 0,
         "max": "2000",
         "step": "100",
-        "x": 370,
-        "y": 200,
+        "x": 510,
+        "y": 420,
         "wires": [
             [
                 "9b926b5.9115898",
@@ -5503,8 +5462,8 @@
         "label": "<b><i class=\"fa fa-sliders\"></i> Nutrients </b>",
         "format": "",
         "layout": "row-left",
-        "x": 110,
-        "y": 80,
+        "x": 250,
+        "y": 300,
         "wires": []
     },
     {
@@ -5519,8 +5478,8 @@
         "label": "<b><i class=\"fa fa-sliders\"></i> PH </b>",
         "format": "",
         "layout": "row-left",
-        "x": 90,
-        "y": 340,
+        "x": 230,
+        "y": 560,
         "wires": []
     },
     {
@@ -5531,7 +5490,7 @@
         "label": "<i class=\"fa fa-clock-o\"></i>",
         "tooltip": "Water spray duration",
         "group": "1c4b8cb2.e1e2e3",
-        "order": 26,
+        "order": 31,
         "width": 4,
         "height": 1,
         "passthru": true,
@@ -5540,8 +5499,8 @@
         "min": "0",
         "max": "60",
         "step": "5",
-        "x": 340,
-        "y": 620,
+        "x": 480,
+        "y": 840,
         "wires": [
             [
                 "507ee2f6.516eec",
@@ -5556,15 +5515,15 @@
         "type": "ui_text",
         "z": "9441712c.a6198",
         "group": "1c4b8cb2.e1e2e3",
-        "order": 27,
+        "order": 32,
         "width": 1,
         "height": 1,
-        "name": "Water spray duration min value",
+        "name": "Water spray duration ",
         "label": "",
         "format": "{{msg.payload}} sec.",
         "layout": "row-center",
-        "x": 610,
-        "y": 601,
+        "x": 720,
+        "y": 821,
         "wires": []
     },
     {
@@ -5577,8 +5536,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 580,
-        "y": 641,
+        "x": 720,
+        "y": 861,
         "wires": [
             []
         ]
@@ -5589,8 +5548,8 @@
         "z": "9441712c.a6198",
         "name": "waterSprayTimer",
         "storageNode": "217cc961.603ce6",
-        "x": 570,
-        "y": 681,
+        "x": 710,
+        "y": 901,
         "wires": []
     },
     {
@@ -5599,8 +5558,8 @@
         "z": "9441712c.a6198",
         "name": "waterSprayTimer",
         "storageNode": "217cc961.603ce6",
-        "x": 130,
-        "y": 620,
+        "x": 270,
+        "y": 840,
         "wires": [
             [
                 "527c695b.4fdf98"
@@ -5608,31 +5567,19 @@
         ]
     },
     {
-        "id": "3339466d.6d58aa",
-        "type": "link out",
-        "z": "9441712c.a6198",
-        "name": "Water spray duration update",
-        "links": [
-            "593527d0.c1f528"
-        ],
-        "x": 495,
-        "y": 561,
-        "wires": []
-    },
-    {
         "id": "fc1cbcae.827d",
         "type": "ui_text",
         "z": "9441712c.a6198",
         "group": "1c4b8cb2.e1e2e3",
-        "order": 24,
+        "order": 29,
         "width": 0,
         "height": 0,
         "name": "Water spray setting",
         "label": "<b><i class=\"fa fa-sliders\"></i> Seed tray - Water spray </b>",
         "format": "",
         "layout": "row-left",
-        "x": 110,
-        "y": 560,
+        "x": 250,
+        "y": 780,
         "wires": []
     },
     {
@@ -5645,8 +5592,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 700,
-        "y": 840,
+        "x": 840,
+        "y": 1200,
         "wires": [
             []
         ]
@@ -5657,8 +5604,8 @@
         "z": "9441712c.a6198",
         "name": "seed.totalLight",
         "storageNode": "217cc961.603ce6",
-        "x": 680,
-        "y": 880,
+        "x": 820,
+        "y": 1240,
         "wires": []
     },
     {
@@ -5669,8 +5616,8 @@
         "links": [
             "3dfc5ff2.440c6"
         ],
-        "x": 615,
-        "y": 800,
+        "x": 755,
+        "y": 1160,
         "wires": []
     },
     {
@@ -5681,7 +5628,7 @@
         "label": "<i class=\"fa fa-clock-o\"> Daily light</i>",
         "tooltip": "",
         "group": "1c4b8cb2.e1e2e3",
-        "order": 31,
+        "order": 36,
         "width": 5,
         "height": 1,
         "wrap": false,
@@ -5691,8 +5638,8 @@
         "min": 0,
         "max": "24",
         "step": 1,
-        "x": 500,
-        "y": 840,
+        "x": 640,
+        "y": 1200,
         "wires": [
             [
                 "304a2fa1.758d7",
@@ -5711,8 +5658,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 330,
-        "y": 840,
+        "x": 470,
+        "y": 1200,
         "wires": [
             [
                 "57d5c94c.049dc8"
@@ -5725,8 +5672,8 @@
         "z": "9441712c.a6198",
         "name": "seed.totalLight",
         "storageNode": "217cc961.603ce6",
-        "x": 120,
-        "y": 840,
+        "x": 260,
+        "y": 1200,
         "wires": [
             [
                 "5ae3f27b.9d6a9c"
@@ -5738,15 +5685,15 @@
         "type": "ui_text",
         "z": "9441712c.a6198",
         "group": "1c4b8cb2.e1e2e3",
-        "order": 29,
+        "order": 34,
         "width": 0,
         "height": 0,
         "name": "Seed tray - total light setting",
         "label": "<b><i class=\"fa fa-sliders\"></i> Seed Tray - Total light </b>",
         "format": "",
         "layout": "row-left",
-        "x": 140,
-        "y": 780,
+        "x": 280,
+        "y": 1140,
         "wires": []
     },
     {
@@ -5766,8 +5713,8 @@
         "min": "1",
         "max": "30",
         "step": 1,
-        "x": 450,
-        "y": 1020,
+        "x": 610,
+        "y": 1360,
         "wires": [
             [
                 "af36d027.bab06",
@@ -5788,8 +5735,8 @@
         "label": "",
         "format": "{{msg.payload}} sec.",
         "layout": "row-center",
-        "x": 760,
-        "y": 1020,
+        "x": 900,
+        "y": 1320,
         "wires": []
     },
     {
@@ -5802,8 +5749,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 760,
-        "y": 1060,
+        "x": 900,
+        "y": 1360,
         "wires": [
             []
         ]
@@ -5814,8 +5761,8 @@
         "z": "9441712c.a6198",
         "name": "nutrimentsSolutionATimer",
         "storageNode": "217cc961.603ce6",
-        "x": 770,
-        "y": 1100,
+        "x": 910,
+        "y": 1400,
         "wires": []
     },
     {
@@ -5824,8 +5771,8 @@
         "z": "9441712c.a6198",
         "name": "nutrimentsSolutionATimer",
         "storageNode": "217cc961.603ce6",
-        "x": 130,
-        "y": 1020,
+        "x": 290,
+        "y": 1360,
         "wires": [
             [
                 "48d7f256.20251c"
@@ -5844,8 +5791,8 @@
         "label": "<b><i class=\"fa fa-sliders\"></i> Nutrients pumps</b>",
         "format": "",
         "layout": "row-left",
-        "x": 110,
-        "y": 960,
+        "x": 250,
+        "y": 1300,
         "wires": []
     },
     {
@@ -5865,8 +5812,8 @@
         "min": "1",
         "max": "30",
         "step": 1,
-        "x": 450,
-        "y": 1180,
+        "x": 610,
+        "y": 1500,
         "wires": [
             [
                 "214657c1.8f5c38",
@@ -5887,8 +5834,8 @@
         "label": "",
         "format": "{{msg.payload}} sec.",
         "layout": "row-center",
-        "x": 750,
-        "y": 1180,
+        "x": 910,
+        "y": 1500,
         "wires": []
     },
     {
@@ -5901,8 +5848,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 740,
-        "y": 1220,
+        "x": 900,
+        "y": 1540,
         "wires": [
             []
         ]
@@ -5913,8 +5860,8 @@
         "z": "9441712c.a6198",
         "name": "nutrimentsSolutionBTimer",
         "storageNode": "217cc961.603ce6",
-        "x": 750,
-        "y": 1256,
+        "x": 910,
+        "y": 1576,
         "wires": []
     },
     {
@@ -5923,8 +5870,8 @@
         "z": "9441712c.a6198",
         "name": "nutrimentsSolutionBTimer",
         "storageNode": "217cc961.603ce6",
-        "x": 130,
-        "y": 1180,
+        "x": 290,
+        "y": 1500,
         "wires": [
             [
                 "964e551c.a86e58"
@@ -5943,8 +5890,8 @@
         "label": "<b><i class=\"fa fa-sliders\"></i> Lettuces</b>",
         "format": "",
         "layout": "row-left",
-        "x": 100,
-        "y": 1380,
+        "x": 240,
+        "y": 1600,
         "wires": []
     },
     {
@@ -5957,8 +5904,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 760,
-        "y": 1440,
+        "x": 900,
+        "y": 1660,
         "wires": [
             []
         ]
@@ -5969,8 +5916,8 @@
         "z": "9441712c.a6198",
         "name": "crops.lettuce.schedule.germinated",
         "storageNode": "217cc961.603ce6",
-        "x": 800,
-        "y": 1480,
+        "x": 940,
+        "y": 1700,
         "wires": []
     },
     {
@@ -5981,8 +5928,8 @@
         "links": [
             "3dfc5ff2.440c6"
         ],
-        "x": 675,
-        "y": 1400,
+        "x": 815,
+        "y": 1620,
         "wires": []
     },
     {
@@ -6003,8 +5950,8 @@
         "min": 0,
         "max": "30",
         "step": 1,
-        "x": 480,
-        "y": 1440,
+        "x": 620,
+        "y": 1660,
         "wires": [
             [
                 "648d9af7.b6ea04",
@@ -6019,8 +5966,8 @@
         "z": "9441712c.a6198",
         "name": "crops.lettuce.schedule.germinated",
         "storageNode": "217cc961.603ce6",
-        "x": 200,
-        "y": 1440,
+        "x": 340,
+        "y": 1660,
         "wires": [
             [
                 "806e5cc.38ef0a"
@@ -6037,8 +5984,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 760,
-        "y": 1560,
+        "x": 900,
+        "y": 1780,
         "wires": [
             []
         ]
@@ -6049,8 +5996,8 @@
         "z": "9441712c.a6198",
         "name": "crops.lettuce.schedule.transplant",
         "storageNode": "217cc961.603ce6",
-        "x": 800,
-        "y": 1600,
+        "x": 940,
+        "y": 1820,
         "wires": []
     },
     {
@@ -6061,8 +6008,8 @@
         "links": [
             "3dfc5ff2.440c6"
         ],
-        "x": 675,
-        "y": 1520,
+        "x": 815,
+        "y": 1740,
         "wires": []
     },
     {
@@ -6083,8 +6030,8 @@
         "min": 0,
         "max": "30",
         "step": 1,
-        "x": 480,
-        "y": 1560,
+        "x": 620,
+        "y": 1780,
         "wires": [
             [
                 "db6792a8.788f5",
@@ -6099,8 +6046,8 @@
         "z": "9441712c.a6198",
         "name": "crops.lettuce.schedule.transplant",
         "storageNode": "217cc961.603ce6",
-        "x": 200,
-        "y": 1560,
+        "x": 340,
+        "y": 1780,
         "wires": [
             [
                 "99bc9475.951468"
@@ -6117,8 +6064,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 740,
-        "y": 1700,
+        "x": 880,
+        "y": 1920,
         "wires": [
             []
         ]
@@ -6129,8 +6076,8 @@
         "z": "9441712c.a6198",
         "name": "crops.lettuce.schedule.harvest",
         "storageNode": "217cc961.603ce6",
-        "x": 770,
-        "y": 1740,
+        "x": 910,
+        "y": 1960,
         "wires": []
     },
     {
@@ -6141,8 +6088,8 @@
         "links": [
             "3dfc5ff2.440c6"
         ],
-        "x": 655,
-        "y": 1660,
+        "x": 795,
+        "y": 1880,
         "wires": []
     },
     {
@@ -6163,8 +6110,8 @@
         "min": 0,
         "max": "45",
         "step": 1,
-        "x": 450,
-        "y": 1700,
+        "x": 590,
+        "y": 1920,
         "wires": [
             [
                 "8a7ded76.20298",
@@ -6179,8 +6126,8 @@
         "z": "9441712c.a6198",
         "name": "crops.lettuce.schedule.harvest",
         "storageNode": "217cc961.603ce6",
-        "x": 170,
-        "y": 1700,
+        "x": 310,
+        "y": 1920,
         "wires": [
             [
                 "d140b1b4.093d4"
@@ -6700,13 +6647,14 @@
         "i2c_address": "ADDRESS_0x48",
         "channel": "CHANNEL_0",
         "samplesPerSecond0": "SPS_920",
-        "samplesPerSecond1": "SPS_128",
+        "samplesPerSecond1": "SPS_8",
         "progGainAmp": "PGA_4_096V",
-        "x": 360,
+        "x": 400,
         "y": 580,
         "wires": [
             [
-                "1de17954.4d8a97"
+                "1de17954.4d8a97",
+                "f22d3547.8edd78"
             ]
         ]
     },
@@ -6731,46 +6679,29 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 190,
-        "y": 580,
+        "x": 90,
+        "y": 574,
         "wires": [
             [
-                "dbbbfdb2.44fe2"
+                "c21651f8.1777",
+                "839e7131.1b0c9"
             ]
         ]
-    },
-    {
-        "id": "80f798e0.5d4728",
-        "type": "debug",
-        "z": "1d22c714.e50369",
-        "name": "",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 770,
-        "y": 500,
-        "wires": []
     },
     {
         "id": "1de17954.4d8a97",
         "type": "function",
         "z": "1d22c714.e50369",
         "name": "Convert Voltage to ppm",
-        "func": "var waterTemperature = global.get(\"seedTray.water.temperature\") || 20;\n\nvar voltage = msg.payload[\"ADS1115 • I2C_ADDRESS_0x48 • Channel A0-GND • Voltage\"];\nvar compensationCoefficient = 1.0+0.02*(waterTemperature-25.0);    //temperature compensation formula: fFinalResult(25^C) = fFinalResult(current)/(1.0+0.02*(fTP-25.0));\nvar compensationVolatge=voltage/compensationCoefficient;  //temperature compensation\\\nmsg.tdsValue=(133.42*voltage*voltage*voltage - 255.86*voltage*voltage + 857.39*voltage)*0.5; //convert voltage value to tds value\n\n\nvar waterQualityMsg = { \n    payload: msg.tdsValue\n};\n\n\nreturn  waterQualityMsg;\n",
+        "func": "var waterTemperature = global.get(\"seedTray.water.temperature\") || 20;\n\nvar voltage = msg.payload[\"ADS1115 • I2C_ADDRESS_0x48 • Channel A0-GND • Voltage\"];\nvar compensationCoefficient = 1.0+0.02*(waterTemperature-25.0);    //temperature compensation formula: fFinalResult(25^C) = fFinalResult(current)/(1.0+0.02*(fTP-25.0));\n//var compensationVoltage=voltage/compensationCoefficient;  //temperature compensation\\\nvar compensationVoltage = voltage;\nmsg.tdsValue=(133.42*compensationVoltage*compensationVoltage*compensationVoltage - 255.86*compensationVoltage*compensationVoltage + 857.39*compensationVoltage)*0.5; //convert voltage value to tds value\n\nvar waterQualityMsg = { \n    payload: msg.tdsValue,\n    waterTemp: waterTemperature,\n    voltage: voltage\n};\n\n\nreturn  waterQualityMsg;\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 570,
+        "x": 610,
         "y": 580,
         "wires": [
             [
-                "80f798e0.5d4728",
                 "b2d124cc.ae5b18",
                 "6a5ac7a1.e350c8",
                 "39bf6628.85f8ba"
@@ -6792,5 +6723,573 @@
         "wires": [
             []
         ]
+    },
+    {
+        "id": "c21651f8.1777",
+        "type": "rpi-gpio out",
+        "z": "1d22c714.e50369",
+        "d": true,
+        "name": "Power on TDS meter",
+        "pin": "7",
+        "set": true,
+        "level": "1",
+        "freq": "",
+        "out": "out",
+        "x": 360,
+        "y": 514,
+        "wires": []
+    },
+    {
+        "id": "839e7131.1b0c9",
+        "type": "delay",
+        "z": "1d22c714.e50369",
+        "name": "2s",
+        "pauseType": "delay",
+        "timeout": "2",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "x": 250,
+        "y": 580,
+        "wires": [
+            [
+                "dbbbfdb2.44fe2"
+            ]
+        ]
+    },
+    {
+        "id": "f22d3547.8edd78",
+        "type": "rpi-gpio out",
+        "z": "1d22c714.e50369",
+        "d": true,
+        "name": "Power off TDS meter",
+        "pin": "7",
+        "set": false,
+        "level": "0",
+        "freq": "",
+        "out": "out",
+        "x": 580,
+        "y": 660,
+        "wires": []
+    },
+    {
+        "id": "3db55298.70f37e",
+        "type": "inject",
+        "z": "5127740.f28848c",
+        "name": "Regularly check water level, seed tray",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "5",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "2",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 230,
+        "y": 620,
+        "wires": [
+            [
+                "d5c862b.d3e0ba"
+            ]
+        ]
+    },
+    {
+        "id": "4a15ab80.153564",
+        "type": "link out",
+        "z": "5127740.f28848c",
+        "name": "Switch on nutriment pump",
+        "links": [
+            "4c8ae515.b1a41c",
+            "46eef45e.b4cddc"
+        ],
+        "x": 755,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "4c8ae515.b1a41c",
+        "type": "link in",
+        "z": "87cb301d.9893c",
+        "name": "Switch on nutriment A",
+        "links": [
+            "4a15ab80.153564"
+        ],
+        "x": 75,
+        "y": 820,
+        "wires": [
+            [
+                "5815b5d8.9c8fec",
+                "40307feb.c7c24"
+            ]
+        ]
+    },
+    {
+        "id": "5815b5d8.9c8fec",
+        "type": "change",
+        "z": "87cb301d.9893c",
+        "name": "Switch to on",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "true",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 210,
+        "y": 660,
+        "wires": [
+            [
+                "648ce0a1.8a9de"
+            ]
+        ]
+    },
+    {
+        "id": "40307feb.c7c24",
+        "type": "change",
+        "z": "87cb301d.9893c",
+        "name": "Switch to on",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "true",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 210,
+        "y": 940,
+        "wires": [
+            [
+                "d977f79c.7973f8"
+            ]
+        ]
+    },
+    {
+        "id": "a22d378.b8793c8",
+        "type": "comment",
+        "z": "5127740.f28848c",
+        "name": "### Emergency stop water pump is seed tray is full",
+        "info": "",
+        "x": 250,
+        "y": 560,
+        "wires": []
+    },
+    {
+        "id": "69d27d4f.253984",
+        "type": "change",
+        "z": "87cb301d.9893c",
+        "name": "Switch to on",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "true",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 410,
+        "y": 428,
+        "wires": [
+            [
+                "933e05f4.0abbb8"
+            ]
+        ]
+    },
+    {
+        "id": "cd5e7336.53f74",
+        "type": "link in",
+        "z": "87cb301d.9893c",
+        "name": "Switch on water pump",
+        "links": [
+            "983a3abc.dd1b18"
+        ],
+        "x": 295,
+        "y": 428,
+        "wires": [
+            [
+                "69d27d4f.253984"
+            ]
+        ]
+    },
+    {
+        "id": "6fd97e66.02fde",
+        "type": "change",
+        "z": "87cb301d.9893c",
+        "name": "Switch to off",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "false",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 410,
+        "y": 488,
+        "wires": [
+            [
+                "933e05f4.0abbb8"
+            ]
+        ]
+    },
+    {
+        "id": "83c9cbe9.ff0f68",
+        "type": "link in",
+        "z": "87cb301d.9893c",
+        "name": "Switch off water pump",
+        "links": [
+            "541ca6e4.306648",
+            "2d32f6d2.b52eaa",
+            "6bd46816.3f5cd8"
+        ],
+        "x": 295,
+        "y": 488,
+        "wires": [
+            [
+                "6fd97e66.02fde"
+            ]
+        ]
+    },
+    {
+        "id": "4cd08412.d9249c",
+        "type": "function",
+        "z": "9441712c.a6198",
+        "name": "Set static system variables",
+        "func": "global.set('seedTray.water.level.threshold.low', 40);\nglobal.set('seedTray.water.level.threshold.high', 85);\n\nglobal.set('config.peristaltic.flow', 2); // flow in mL / sec\n\n\nglobal.set('color.warning', \"#CC3300\");\nglobal.set('color.widget.water', \"#0077be\");\nglobal.set('color.widget.light.led', \"#ffc30b\");\nglobal.set('color.widget.nutrients', \"#bb86fc\");\nglobal.set('color.widget.ph', \"\");\n\n\nglobal.set('config.NFT.columns', 9); \nglobal.set('config.NFT.rows', 4); \nglobal.set('config.SeedTray.columns', 3); \nglobal.set('config.SeedTray.rows', 3); \n\n\n\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 460,
+        "y": 180,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a044bc3b.eaaab",
+        "type": "inject",
+        "z": "9441712c.a6198",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 250,
+        "y": 180,
+        "wires": [
+            [
+                "4cd08412.d9249c"
+            ]
+        ]
+    },
+    {
+        "id": "53182f75.3ca53",
+        "type": "comment",
+        "z": "1d22c714.e50369",
+        "name": "## Seed tray - water spray",
+        "info": "",
+        "x": 170,
+        "y": 2360,
+        "wires": []
+    },
+    {
+        "id": "d579d391.622e6",
+        "type": "switch",
+        "z": "87cb301d.9893c",
+        "name": "When water pump is on",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "true"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 814,
+        "y": 554,
+        "wires": [
+            [
+                "1426c687.455629"
+            ]
+        ]
+    },
+    {
+        "id": "1426c687.455629",
+        "type": "persist out",
+        "z": "87cb301d.9893c",
+        "name": "waterPumpTimer",
+        "storageNode": "217cc961.603ce6",
+        "x": 1054,
+        "y": 554,
+        "wires": [
+            [
+                "fcfbe87b.4c3f98"
+            ]
+        ]
+    },
+    {
+        "id": "fcfbe87b.4c3f98",
+        "type": "function",
+        "z": "87cb301d.9893c",
+        "name": "msg.delay",
+        "func": "var newMsg = { delay: (msg.payload * 1000) };\nreturn newMsg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 1254,
+        "y": 554,
+        "wires": [
+            [
+                "766d6f3d.e9fdb"
+            ]
+        ]
+    },
+    {
+        "id": "766d6f3d.e9fdb",
+        "type": "delay",
+        "z": "87cb301d.9893c",
+        "name": "",
+        "pauseType": "delayv",
+        "timeout": "20",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "x": 1424,
+        "y": 554,
+        "wires": [
+            [
+                "2d32f6d2.b52eaa"
+            ]
+        ]
+    },
+    {
+        "id": "2d32f6d2.b52eaa",
+        "type": "link out",
+        "z": "87cb301d.9893c",
+        "name": "",
+        "links": [
+            "83c9cbe9.ff0f68"
+        ],
+        "x": 1519,
+        "y": 554,
+        "wires": []
+    },
+    {
+        "id": "fd56b7bd.4166d8",
+        "type": "ui_slider",
+        "z": "9441712c.a6198",
+        "name": "Water pump duration",
+        "label": "<i class=\"fa fa-clock-o\"></i>",
+        "tooltip": "Water pump duration",
+        "group": "1c4b8cb2.e1e2e3",
+        "order": 26,
+        "width": 4,
+        "height": 1,
+        "passthru": true,
+        "outs": "all",
+        "topic": "",
+        "min": "0",
+        "max": "180",
+        "step": "30",
+        "x": 480,
+        "y": 1020,
+        "wires": [
+            [
+                "16d52aef.57d3a5",
+                "bee922ab.16ab5",
+                "34cdfb3a.ae8094",
+                "88e72de5.1224f"
+            ]
+        ]
+    },
+    {
+        "id": "16d52aef.57d3a5",
+        "type": "ui_text",
+        "z": "9441712c.a6198",
+        "group": "1c4b8cb2.e1e2e3",
+        "order": 27,
+        "width": 1,
+        "height": 1,
+        "name": "Water pump duration ",
+        "label": "",
+        "format": "{{msg.payload}} sec.",
+        "layout": "row-center",
+        "x": 720,
+        "y": 1001,
+        "wires": []
+    },
+    {
+        "id": "bee922ab.16ab5",
+        "type": "function",
+        "z": "9441712c.a6198",
+        "name": "Save global variable",
+        "func": "\nglobal.set('settings.water_pump.duration',msg.payload);\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 720,
+        "y": 1041,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "34cdfb3a.ae8094",
+        "type": "persist in",
+        "z": "9441712c.a6198",
+        "name": "waterPumpTimer",
+        "storageNode": "217cc961.603ce6",
+        "x": 710,
+        "y": 1081,
+        "wires": []
+    },
+    {
+        "id": "4e676d89.397a94",
+        "type": "persist out",
+        "z": "9441712c.a6198",
+        "name": "waterPumpTimer",
+        "storageNode": "217cc961.603ce6",
+        "x": 270,
+        "y": 1020,
+        "wires": [
+            [
+                "fd56b7bd.4166d8"
+            ]
+        ]
+    },
+    {
+        "id": "88e72de5.1224f",
+        "type": "link out",
+        "z": "9441712c.a6198",
+        "name": "Water spray duration update",
+        "links": [
+            "593527d0.c1f528"
+        ],
+        "x": 635,
+        "y": 961,
+        "wires": []
+    },
+    {
+        "id": "d2b87228.9de9d",
+        "type": "ui_text",
+        "z": "9441712c.a6198",
+        "group": "1c4b8cb2.e1e2e3",
+        "order": 24,
+        "width": 0,
+        "height": 0,
+        "name": "Water pump setting",
+        "label": "<b><i class=\"fa fa-sliders\"></i> Water pump </b>",
+        "format": "",
+        "layout": "row-left",
+        "x": 250,
+        "y": 960,
+        "wires": []
+    },
+    {
+        "id": "3339466d.6d58aa",
+        "type": "link out",
+        "z": "9441712c.a6198",
+        "name": "Water spray duration update",
+        "links": [],
+        "x": 635,
+        "y": 781,
+        "wires": []
+    },
+    {
+        "id": "d5c862b.d3e0ba",
+        "type": "switch",
+        "z": "5127740.f28848c",
+        "name": "If seed tray water level > 50",
+        "property": "seedTray.water.level.current",
+        "propertyType": "global",
+        "rules": [
+            {
+                "t": "gte",
+                "v": "50",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 540,
+        "y": 620,
+        "wires": [
+            [
+                "6bd46816.3f5cd8"
+            ]
+        ]
+    },
+    {
+        "id": "6bd46816.3f5cd8",
+        "type": "link out",
+        "z": "5127740.f28848c",
+        "name": "Switch on nutriment pump",
+        "links": [
+            "83c9cbe9.ff0f68"
+        ],
+        "x": 715,
+        "y": 620,
+        "wires": []
     }
 ]
