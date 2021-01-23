@@ -35,6 +35,372 @@
         "info": ""
     },
     {
+        "id": "b2dec5c2.4f2758",
+        "type": "tab",
+        "label": "Home",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "90cba974.1b70f8",
+        "type": "group",
+        "z": "b2dec5c2.4f2758",
+        "name": "Execute scene",
+        "style": {
+            "stroke": "#0070c0",
+            "fill": "#bfdbef",
+            "label": true,
+            "label-position": "n"
+        },
+        "nodes": [
+            "64af5848.7dd3f8",
+            "e70c7826.ead9f8",
+            "a4ea3e4e.edd54",
+            "487a2017.f0152"
+        ],
+        "x": 1304,
+        "y": 1599,
+        "w": 872,
+        "h": 82
+    },
+    {
+        "id": "ad64f484.3bd408",
+        "type": "group",
+        "z": "b2dec5c2.4f2758",
+        "name": "Control Bot",
+        "style": {
+            "stroke": "#777777",
+            "fill": "#ffffff",
+            "label": true,
+            "label-position": "n"
+        },
+        "nodes": [
+            "3cb22fb4.1c60d",
+            "9bd57614.6bf608",
+            "bb4b8438.9dd088",
+            "1f156a7f.f7faf6",
+            "d2a78cee.1fb97",
+            "8518d691.cf94f8"
+        ],
+        "x": 1304,
+        "y": 799,
+        "w": 792,
+        "h": 162
+    },
+    {
+        "id": "82beadaa.80f9a",
+        "type": "group",
+        "z": "b2dec5c2.4f2758",
+        "name": "Control Curtain",
+        "style": {
+            "stroke": "#777777",
+            "fill": "#ffffff",
+            "label": true,
+            "label-position": "n"
+        },
+        "nodes": [
+            "c2fe958a.eedbe8",
+            "b5c777eb.591838",
+            "a96301bd.0c4dd",
+            "30bba459.0efd3c",
+            "c98498a0.ef5ea8",
+            "18996bc4.33bdb4",
+            "e274d666.f02638"
+        ],
+        "x": 1304,
+        "y": 1019,
+        "w": 792,
+        "h": 222
+    },
+    {
+        "id": "98e346c4.842908",
+        "type": "group",
+        "z": "b2dec5c2.4f2758",
+        "name": "Get Devices",
+        "style": {
+            "stroke": "#92d04f",
+            "fill": "#e3f3d3",
+            "label": true,
+            "label-position": "n",
+            "color": "#000000"
+        },
+        "nodes": [
+            "c46b3d7e.34b62",
+            "b92e57cb.92d5a8",
+            "cee02e4.49bfad",
+            "af637338.5ccc6",
+            "8d660f51.a75cf",
+            "5d50c8ff.4dfa98"
+        ],
+        "x": 244,
+        "y": 859,
+        "w": 852,
+        "h": 122
+    },
+    {
+        "id": "e4c51a6a.02a678",
+        "type": "group",
+        "z": "b2dec5c2.4f2758",
+        "name": "Get Scenes",
+        "style": {
+            "stroke": "#0070c0",
+            "fill": "#bfdbef",
+            "label": true,
+            "label-position": "n",
+            "color": "#000000"
+        },
+        "nodes": [
+            "841fa47b.903488",
+            "34a7b2a9.c5d22e",
+            "f3a44e86.445bb",
+            "e34e8e48.b6d52",
+            "3882a851.983ef8"
+        ],
+        "x": 244,
+        "y": 1019,
+        "w": 852,
+        "h": 122
+    },
+    {
+        "id": "2b4d53e1.d6e2cc",
+        "type": "group",
+        "z": "b2dec5c2.4f2758",
+        "name": "Get Status",
+        "style": {
+            "stroke": "#777777",
+            "fill": "#ffffff",
+            "label": true,
+            "label-position": "n"
+        },
+        "nodes": [
+            "fdf6b7dc.749448",
+            "352d13c7.f80c1c",
+            "3bfce5e7.124e4a",
+            "9d34c528.2d33f8"
+        ],
+        "x": 254,
+        "y": 1179,
+        "w": 772,
+        "h": 82
+    },
+    {
+        "id": "955cda67.93f6e8",
+        "type": "group",
+        "z": "b2dec5c2.4f2758",
+        "name": "Control IR",
+        "style": {
+            "stroke": "#ffC000",
+            "fill": "#ffefbf",
+            "label": true,
+            "label-position": "n"
+        },
+        "nodes": [
+            "f34949f6.4f5bf8",
+            "e6eadb02.180c68",
+            "d3b26d8c.5038b",
+            "c8a9c695.2f5788",
+            "be5bfc4f.6cdd8",
+            "d7959315.ce8da",
+            "caa373a3.3259a"
+        ],
+        "x": 314,
+        "y": 1279,
+        "w": 772,
+        "h": 242
+    },
+    {
+        "id": "8e57852f.2718a8",
+        "type": "group",
+        "z": "5127740.f28848c",
+        "name": "Water pump - stop when water level > 50",
+        "style": {
+            "stroke": "#ffC000",
+            "fill": "#ffefbf",
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "3db55298.70f37e",
+            "d5c862b.d3e0ba",
+            "6bd46816.3f5cd8"
+        ],
+        "x": 94,
+        "y": 599,
+        "w": 722,
+        "h": 82
+    },
+    {
+        "id": "3cd27958.a703b6",
+        "type": "group",
+        "z": "5127740.f28848c",
+        "name": "Nutrients - Adjust and warning when reaching threshold",
+        "style": {
+            "stroke": "#ffC000",
+            "fill": "#ffefbf",
+            "label": true,
+            "fill-opacity": "0.75",
+            "label-position": "n",
+            "color": "#000000"
+        },
+        "nodes": [
+            "5d9dc44f.a6cccc",
+            "78ee2d93.0854e4",
+            "6b31749d.19ee4c",
+            "7ebdaedb.473e9",
+            "7485b5.c5f5ca4c",
+            "23810c02.07fa14",
+            "4a15ab80.153564"
+        ],
+        "x": 76,
+        "y": 365,
+        "w": 1130,
+        "h": 196
+    },
+    {
+        "id": "9735f20b.9f01e",
+        "type": "group",
+        "z": "5127740.f28848c",
+        "name": "PH - Adjust PH and warning when reaching threshold",
+        "style": {
+            "stroke": "#ffC000",
+            "fill": "#ffefbf",
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "3e247b14.95d3a4",
+            "8fd06c84.9d955",
+            "1b07e4d1.7c4d9b",
+            "f3e2c3ad.8ebb2",
+            "4c00e295.9a2f5c",
+            "f76a168.49897e8"
+        ],
+        "x": 74,
+        "y": 59,
+        "w": 1072,
+        "h": 222
+    },
+    {
+        "id": "9c4443bb.0420a",
+        "type": "group",
+        "z": "1d22c714.e50369",
+        "name": "UI Header - links",
+        "style": {
+            "stroke": "#6f2fa0",
+            "fill": "#dbcbe7",
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "6921fbdb.48e634",
+            "27f25225.1ccc9e",
+            "4966b810.210668",
+            "c142bf5f.eb819",
+            "ccfb9c89.f2c45",
+            "85c3e511.6fbc68"
+        ],
+        "x": 114,
+        "y": 99,
+        "w": 532,
+        "h": 202
+    },
+    {
+        "id": "cdba4a8d.9d7c08",
+        "type": "group",
+        "z": "1d22c714.e50369",
+        "name": "Weather forecast and sunrise/sunset",
+        "style": {
+            "stroke": "#0070c0",
+            "fill": "#bfdbef",
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "85c1ae45.14716",
+            "c8db48f7.af9608",
+            "f376d3a0.9a725",
+            "fe79ff8b.aa786",
+            "a887c10.0424b4",
+            "45293d1e.aedc04",
+            "b8c07479.ab99c8",
+            "509eb66d.0f6d88",
+            "75f934f.744b2cc",
+            "c9cadf3c.4dd91",
+            "a77336d4.24c878",
+            "ffd2dd.8b18ad2",
+            "ebeb7e6d.61e6c",
+            "6c1d8e8.c6bf77",
+            "15bc06eb.0cde59",
+            "f9da79c2.9a6128"
+        ],
+        "x": 714,
+        "y": 99,
+        "w": 1142,
+        "h": 322
+    },
+    {
+        "id": "c2cc2f7f.c6192",
+        "type": "group",
+        "z": "1d22c714.e50369",
+        "name": "Water quality - PPM",
+        "style": {
+            "stroke": "#92d04f",
+            "fill": "#e3f3d3",
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "39bf6628.85f8ba",
+            "fff065af.0a0958",
+            "eb66256c.111fa8",
+            "6a5ac7a1.e350c8",
+            "7fe995e5.477afc",
+            "f8fee95.2171618",
+            "63de4a5e.7c19a4",
+            "383c0ad2.b2e656",
+            "b2d124cc.ae5b18",
+            "dbbbfdb2.44fe2",
+            "34a30d8d.5cf552",
+            "1de17954.4d8a97",
+            "c21651f8.1777",
+            "839e7131.1b0c9",
+            "f22d3547.8edd78"
+        ],
+        "x": 94,
+        "y": 453,
+        "w": 1672,
+        "h": 228
+    },
+    {
+        "id": "ca2296d8.64fa18",
+        "type": "group",
+        "z": "1d22c714.e50369",
+        "name": "Telemetry - get DHT11 temperature and humidity",
+        "style": {
+            "stroke": "#ff0000",
+            "fill": "#ffbfbf",
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "e88e5d3f.13895",
+            "62bc488f.b3dd18",
+            "7023be29.a8b",
+            "1e6d501a.c6f28",
+            "5914ecc9.808654",
+            "b5c12285.51ca3",
+            "f3b265b2.271218",
+            "c2314fab.6c8af",
+            "9b1656b1.099d08",
+            "a2c963c.a4756a",
+            "1c83a03b.a169c"
+        ],
+        "x": 134,
+        "y": 1479,
+        "w": 1432,
+        "h": 262
+    },
+    {
         "id": "a0e631b8.d383b",
         "type": "mqtt-broker",
         "name": "Mosquitto",
@@ -701,420 +1067,6 @@
         "collapse": false
     },
     {
-        "id": "60042c92.7fa584",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "1c37dc0b.ce28e4",
-        "order": 5,
-        "width": 5,
-        "height": 1
-    },
-    {
-        "id": "a18247a0.361ea8",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "1c37dc0b.ce28e4",
-        "order": 10,
-        "width": 9,
-        "height": 1
-    },
-    {
-        "id": "b5503ee9.f719d",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "8a9b009f.1b35d",
-        "order": 2,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "99c8dd1a.9b937",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "8a9b009f.1b35d",
-        "order": 4,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "91bbd37a.b491f",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "8a9b009f.1b35d",
-        "order": 5,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "d7fa27bf.3a6158",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "8a9b009f.1b35d",
-        "order": 7,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "4d102c17.56e754",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "8a9b009f.1b35d",
-        "order": 8,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "c48726bd.1639b8",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "8a9b009f.1b35d",
-        "order": 10,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "f28a50e.70ae0b",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "8a9b009f.1b35d",
-        "order": 12,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "8d71a08e.2f1c3",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "8a9b009f.1b35d",
-        "order": 14,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "f062fee4.8711d",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "8a9b009f.1b35d",
-        "order": 15,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "30b5f49c.1c728c",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "8a9b009f.1b35d",
-        "order": 17,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "87453c8f.9d67e",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "65d119b5.66cb78",
-        "order": 1,
-        "width": 4,
-        "height": 1
-    },
-    {
-        "id": "4f8b85f1.a6a0ec",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "65d119b5.66cb78",
-        "order": 3,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "2cf2afc9.4bf2d",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "65d119b5.66cb78",
-        "order": 5,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "c0854948.382048",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "65d119b5.66cb78",
-        "order": 6,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "b2e638bd.706a38",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "8d4aab9b.4d6328",
-        "order": 3,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "a55ccf1.62b253",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "8d4aab9b.4d6328",
-        "order": 4,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "aa267825.8179e8",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "8d4aab9b.4d6328",
-        "order": 5,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "94d28e69.ae02c",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "8d4aab9b.4d6328",
-        "order": 6,
-        "width": 4,
-        "height": 1
-    },
-    {
-        "id": "7af20688.92ed28",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "8d4aab9b.4d6328",
-        "order": 8,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "1ac401ea.af37fe",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "8d4aab9b.4d6328",
-        "order": 10,
-        "width": 4,
-        "height": 1
-    },
-    {
-        "id": "83fef9c8.0d9e78",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "8d4aab9b.4d6328",
-        "order": 11,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "6dd2ffea.62c3f",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "8d4aab9b.4d6328",
-        "order": 15,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "7a63dd.abab8c24",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "8d4aab9b.4d6328",
-        "order": 16,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "c4d48753.3386d8",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "8d4aab9b.4d6328",
-        "order": 20,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "67e25347.31c8fc",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "45199dde.854f64",
-        "order": 2,
-        "width": 4,
-        "height": 1
-    },
-    {
-        "id": "89fd5256.0db23",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "45199dde.854f64",
-        "order": 4,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "3b9111ab.e13e0e",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "45199dde.854f64",
-        "order": 5,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "2ce9793d.ddde76",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "45199dde.854f64",
-        "order": 6,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "c1c030.72844fd",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "45199dde.854f64",
-        "order": 9,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "149dd672.56550a",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "45199dde.854f64",
-        "order": 12,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "d340a18e.663b5",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "45199dde.854f64",
-        "order": 13,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "2ab28ddb.b48162",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "45199dde.854f64",
-        "order": 14,
-        "width": 4,
-        "height": 1
-    },
-    {
-        "id": "99d64cc0.ae627",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "45199dde.854f64",
-        "order": 15,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "2192b726.cacc98",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "45199dde.854f64",
-        "order": 16,
-        "width": 4,
-        "height": 1
-    },
-    {
-        "id": "d37cef0e.ed188",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "45199dde.854f64",
-        "order": 18,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "e077b718.11fcd8",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "6c15eb0d.8f5814",
-        "order": 3,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "796d2e95.53713",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "6c15eb0d.8f5814",
-        "order": 4,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "47aa61be.19bef",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "6c15eb0d.8f5814",
-        "order": 5,
-        "width": 4,
-        "height": 1
-    },
-    {
-        "id": "bb90110a.f2f29",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "6c15eb0d.8f5814",
-        "order": 6,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "d504d852.a8a8c8",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "6c15eb0d.8f5814",
-        "order": 7,
-        "width": 4,
-        "height": 1
-    },
-    {
-        "id": "c66cbb52.2a1e28",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "6c15eb0d.8f5814",
-        "order": 9,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "f129cfc4.9220b",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "6c15eb0d.8f5814",
-        "order": 11,
-        "width": 4,
-        "height": 1
-    },
-    {
-        "id": "25527425.08e3dc",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "6c15eb0d.8f5814",
-        "order": 14,
-        "width": 3,
-        "height": 1
-    },
-    {
-        "id": "c890d43a.0d7af8",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "6c15eb0d.8f5814",
-        "order": 17,
-        "width": 3,
-        "height": 1
-    },
-    {
         "id": "1f4c7449.f8fcdc",
         "type": "ui_spacer",
         "name": "spacer",
@@ -1331,6 +1283,414 @@
         "height": 1
     },
     {
+        "id": "feb8425d.ff4b4",
+        "type": "apple-find-me-account",
+        "name": "Baptiste apple account",
+        "showfmly": true
+    },
+    {
+        "id": "b134136b.490ed",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "1c37dc0b.ce28e4",
+        "order": 5,
+        "width": 5,
+        "height": 1
+    },
+    {
+        "id": "a0810ae.0335ff8",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "1c37dc0b.ce28e4",
+        "order": 10,
+        "width": 9,
+        "height": 1
+    },
+    {
+        "id": "caaf34e3.5c2638",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "8a9b009f.1b35d",
+        "order": 2,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "a75a5cd0.52d76",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "8a9b009f.1b35d",
+        "order": 4,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "62b98d8.b760b74",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "8a9b009f.1b35d",
+        "order": 5,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "3808d133.ba824e",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "8a9b009f.1b35d",
+        "order": 7,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "d14031de.f58e1",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "8a9b009f.1b35d",
+        "order": 8,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "1497affc.a9df5",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "8a9b009f.1b35d",
+        "order": 10,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "7a032780.2fb438",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "8a9b009f.1b35d",
+        "order": 12,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "f1db0f3e.ad86c",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "8a9b009f.1b35d",
+        "order": 14,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "337fc372.1bddfc",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "8a9b009f.1b35d",
+        "order": 15,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "51034f27.fec11",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "8a9b009f.1b35d",
+        "order": 17,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "c6ce0749.9ea658",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "65d119b5.66cb78",
+        "order": 1,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "1d7c3516.44f11b",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "65d119b5.66cb78",
+        "order": 3,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "49a5b524.e62f8c",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "65d119b5.66cb78",
+        "order": 5,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "da4c931d.50261",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "65d119b5.66cb78",
+        "order": 6,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "c1c550a4.96b96",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "8d4aab9b.4d6328",
+        "order": 3,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "8d60f12e.451dd",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "8d4aab9b.4d6328",
+        "order": 4,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "bfefe7e6.d4d048",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "8d4aab9b.4d6328",
+        "order": 5,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "457044f0.b9264c",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "8d4aab9b.4d6328",
+        "order": 6,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "cd81a86e.6f6ac8",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "8d4aab9b.4d6328",
+        "order": 8,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "9f77122f.6dfeb",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "8d4aab9b.4d6328",
+        "order": 10,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "e2fc5a91.4e5828",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "8d4aab9b.4d6328",
+        "order": 11,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "25c96c90.6df544",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "8d4aab9b.4d6328",
+        "order": 15,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "ea26ee5a.3d50b",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "8d4aab9b.4d6328",
+        "order": 16,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "f8ea1a6e.1314c8",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "8d4aab9b.4d6328",
+        "order": 20,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "dfc3a19a.3ef64",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "45199dde.854f64",
+        "order": 2,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "33792a29.6d8bc6",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "45199dde.854f64",
+        "order": 4,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "98acfee8.93591",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "45199dde.854f64",
+        "order": 5,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "f5e29cbc.7858c",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "45199dde.854f64",
+        "order": 6,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "5e02aa67.3bfaa4",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "45199dde.854f64",
+        "order": 9,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "b7b41a38.f13de8",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "45199dde.854f64",
+        "order": 12,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "df1b6a6d.7c4218",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "45199dde.854f64",
+        "order": 13,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "865933de.6696a",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "45199dde.854f64",
+        "order": 14,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "69328661.78b418",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "45199dde.854f64",
+        "order": 15,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "886112ce.8d40a",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "45199dde.854f64",
+        "order": 16,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "bad86cb7.5c38b",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "45199dde.854f64",
+        "order": 18,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "3bf07013.563dc",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "6c15eb0d.8f5814",
+        "order": 3,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "b0834263.a5b97",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "6c15eb0d.8f5814",
+        "order": 4,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "7645affa.f76a8",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "6c15eb0d.8f5814",
+        "order": 5,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "963dc4a2.6056b8",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "6c15eb0d.8f5814",
+        "order": 7,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "6441e109.0fb2b",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "6c15eb0d.8f5814",
+        "order": 9,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "74f5b30d.9ee94c",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "6c15eb0d.8f5814",
+        "order": 12,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "abb0e976.5db578",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "6c15eb0d.8f5814",
+        "order": 15,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "b0151dde.26366",
+        "type": "smartthings-config",
+        "name": "Home token",
+        "token": "ef2ad5f2-6f34-4f4a-adef-97bbf5fc2662"
+    },
+    {
         "id": "e30bc267.9a60e",
         "type": "mqtt in",
         "z": "1d22c714.e50369",
@@ -1418,6 +1778,7 @@
         "id": "3e247b14.95d3a4",
         "type": "switch",
         "z": "5127740.f28848c",
+        "g": "9735f20b.9f01e",
         "name": "Mean PH greater than global MaxPH or less than global Min PH",
         "property": "payload[0].mean",
         "propertyType": "msg",
@@ -1436,8 +1797,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 610,
-        "y": 200,
+        "x": 670,
+        "y": 180,
         "wires": [
             [
                 "8fd06c84.9d955"
@@ -1451,13 +1812,14 @@
         "id": "8fd06c84.9d955",
         "type": "function",
         "z": "5127740.f28848c",
+        "g": "9735f20b.9f01e",
         "name": "Pass message",
         "func": "msg.payload = \"PH too high\"\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 900,
+        "x": 960,
         "y": 100,
         "wires": [
             [
@@ -1469,6 +1831,7 @@
         "id": "e88e5d3f.13895",
         "type": "delay",
         "z": "1d22c714.e50369",
+        "g": "ca2296d8.64fa18",
         "name": "",
         "pauseType": "delay",
         "timeout": "2",
@@ -1480,8 +1843,8 @@
         "randomLast": "5",
         "randomUnits": "seconds",
         "drop": false,
-        "x": 840,
-        "y": 1606,
+        "x": 880,
+        "y": 1600,
         "wires": [
             [
                 "c2314fab.6c8af"
@@ -1492,6 +1855,7 @@
         "id": "39bf6628.85f8ba",
         "type": "delay",
         "z": "1d22c714.e50369",
+        "g": "c2cc2f7f.c6192",
         "name": "",
         "pauseType": "delay",
         "timeout": "2",
@@ -1503,8 +1867,8 @@
         "randomLast": "5",
         "randomUnits": "seconds",
         "drop": false,
-        "x": 840,
-        "y": 620,
+        "x": 960,
+        "y": 600,
         "wires": [
             [
                 "7fe995e5.477afc",
@@ -1516,13 +1880,14 @@
         "id": "62bc488f.b3dd18",
         "type": "mqtt in",
         "z": "1d22c714.e50369",
+        "g": "ca2296d8.64fa18",
         "name": "",
         "topic": "hydro/t/room",
         "qos": "0",
         "datatype": "auto",
         "broker": "a0e631b8.d383b",
-        "x": 190,
-        "y": 1606,
+        "x": 230,
+        "y": 1600,
         "wires": [
             [
                 "7023be29.a8b"
@@ -1533,12 +1898,13 @@
         "id": "7023be29.a8b",
         "type": "json",
         "z": "1d22c714.e50369",
+        "g": "ca2296d8.64fa18",
         "name": "",
         "property": "payload",
         "action": "",
         "pretty": false,
-        "x": 390,
-        "y": 1606,
+        "x": 430,
+        "y": 1600,
         "wires": [
             [
                 "1e6d501a.c6f28"
@@ -1549,14 +1915,15 @@
         "id": "1e6d501a.c6f28",
         "type": "function",
         "z": "1d22c714.e50369",
+        "g": "ca2296d8.64fa18",
         "name": "Parse telemetry JSON",
         "func": "\nvar roomTemperatureMsg =  { \n        payload: msg.payload.r.t \n};\n    \nvar roomHumidityMsg = { \n    payload: msg.payload.r.h\n}; \n\nreturn [\n    roomTemperatureMsg, \n    roomHumidityMsg\n];",
         "outputs": 2,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 600,
-        "y": 1606,
+        "x": 640,
+        "y": 1600,
         "wires": [
             [
                 "b5c12285.51ca3",
@@ -1597,16 +1964,18 @@
         "id": "85c1ae45.14716",
         "type": "comment",
         "z": "1d22c714.e50369",
+        "g": "cdba4a8d.9d7c08",
         "name": "OpenWeatherMap One Call API for Weather and Forecast",
         "info": "",
-        "x": 550,
-        "y": 206,
+        "x": 970,
+        "y": 160,
         "wires": []
     },
     {
         "id": "c8db48f7.af9608",
         "type": "http request",
         "z": "1d22c714.e50369",
+        "g": "cdba4a8d.9d7c08",
         "name": "Get OWM data",
         "method": "GET",
         "ret": "obj",
@@ -1616,8 +1985,8 @@
         "persist": false,
         "proxy": "",
         "authType": "",
-        "x": 760,
-        "y": 326,
+        "x": 1180,
+        "y": 280,
         "wires": [
             [
                 "fe79ff8b.aa786",
@@ -1629,6 +1998,7 @@
         "id": "f376d3a0.9a725",
         "type": "inject",
         "z": "1d22c714.e50369",
+        "g": "cdba4a8d.9d7c08",
         "name": "Trigger",
         "props": [
             {
@@ -1639,15 +2009,15 @@
                 "vt": "str"
             }
         ],
-        "repeat": "3000",
+        "repeat": "7200",
         "crontab": "",
         "once": true,
         "onceDelay": "2",
         "topic": "",
         "payload": "true",
         "payloadType": "bool",
-        "x": 400,
-        "y": 266,
+        "x": 820,
+        "y": 220,
         "wires": [
             [
                 "a887c10.0424b4"
@@ -1658,14 +2028,15 @@
         "id": "fe79ff8b.aa786",
         "type": "function",
         "z": "1d22c714.e50369",
+        "g": "cdba4a8d.9d7c08",
         "name": "Format current data",
         "func": "var icon = {};\n\nvar units=flow.get('units');\nif (units===undefined)\n{\n  units=\"imperial\";\n}\n\nfunction timeConvert(UNIX_timestamp){\n  var a = new Date(UNIX_timestamp * 1000);\n  var hour = a.getHours();\n  var suffix = \" am\";\n  if (hour >= 12) {\n    hour = hour - 12;\n    suffix = \" pm\";\n  }\n  if (hour === 0) {\n    hour = 12;\n  }\n  var min = a.getMinutes();\n  if (min < 10) {min = \"0\" + min;}\n  return hour + ':' + min + suffix;\n}\n\nvar degreesToCardinal = function(deg){\nif (deg>11.25 && deg<=33.75){\nreturn \"NNE\";\n  }else if (deg>33.75 && deg<56.25){\nreturn \"NE\";\n  }else if (deg>56.25 && deg<78.75){\nreturn \"ENE\";\n  }else if (deg>78.75 && deg<101.25){\nreturn \"E\";\n  }else if (deg>101.25 && deg<123.75){\nreturn \"ESE\";\n  }else if (deg>123.75 && deg<146.25){\nreturn \"SE\";\n  }else if (deg>146.25 && deg<168.75){\nreturn \"SSE\";\n  }else if (deg>168.75 && deg<191.25){\nreturn \"S\";\n  }else if (deg>191.25 && deg<213.75){\nreturn \"SSW\";\n  }else if (deg>213.75 && deg<236.25){\nreturn \"SW\";\n  }else if (deg>236.25 && deg<258.75){\nreturn \"WSW\";\n  }else if (deg>258.75 && deg<281.25){\nreturn \"W\";\n  }else if (deg>281.25 && deg<303.75){\nreturn \"WNW\";\n  }else if (deg>303.75 && deg<326.25){\nreturn \"NW\";\n  }else if (deg>326.25 && deg<348.75){\nreturn \"NNW\";\n  }else{\nreturn \"N\"; \n  }\n}\n\nif (units == \"imperial\")\n{\n  msg.payload.current.temp = msg.payload.current.temp.toFixed() + ' °F';\n  msg.payload.current.wind_speed = msg.payload.current.wind_speed.toFixed() + ' mph';\n}\nelse // metric units\n{\n  msg.payload.current.temp = msg.payload.current.temp.toFixed(1) + ' °C';\n  msg.payload.current.wind_speed = msg.payload.current.wind_speed.toFixed(1) + ' m/s';\n}\n\nmsg.payload.current.wind_cardinal = degreesToCardinal(msg.payload.current.wind_deg);\nmsg.payload.current.sunrise = timeConvert(msg.payload.current.sunrise);\nmsg.payload.current.sunset = timeConvert(msg.payload.current.sunset);\n\nvar iconString = 'wi-owm-' + msg.payload.current.weather[0].icon + ' wi-4x';\nicon = {\n    ui_control: {\n        icon: iconString\n    }\n}; \n\nreturn [msg, icon];",
         "outputs": 2,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 1000,
-        "y": 326,
+        "x": 1420,
+        "y": 280,
         "wires": [
             [
                 "ebeb7e6d.61e6c",
@@ -1684,6 +2055,7 @@
         "id": "a887c10.0424b4",
         "type": "change",
         "z": "1d22c714.e50369",
+        "g": "cdba4a8d.9d7c08",
         "name": "Set location, appid, units",
         "rules": [
             {
@@ -1732,8 +2104,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 630,
-        "y": 266,
+        "x": 1050,
+        "y": 220,
         "wires": [
             [
                 "c8db48f7.af9608"
@@ -1744,24 +2116,26 @@
         "id": "45293d1e.aedc04",
         "type": "link out",
         "z": "1d22c714.e50369",
+        "g": "cdba4a8d.9d7c08",
         "name": "Refresh",
         "links": [
             "b8c07479.ab99c8"
         ],
-        "x": 1395,
-        "y": 426,
+        "x": 1815,
+        "y": 380,
         "wires": []
     },
     {
         "id": "b8c07479.ab99c8",
         "type": "link in",
         "z": "1d22c714.e50369",
+        "g": "cdba4a8d.9d7c08",
         "name": "",
         "links": [
             "45293d1e.aedc04"
         ],
-        "x": 435,
-        "y": 306,
+        "x": 855,
+        "y": 260,
         "wires": [
             [
                 "a887c10.0424b4"
@@ -1772,14 +2146,15 @@
         "id": "5914ecc9.808654",
         "type": "function",
         "z": "1d22c714.e50369",
+        "g": "ca2296d8.64fa18",
         "name": "Parse telemetry JSON",
         "func": "\nvar newMsg =  { \n        payload: new Date(msg.payload[0].time)\n};\nreturn newMsg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 1200,
-        "y": 1606,
+        "x": 1240,
+        "y": 1600,
         "wires": [
             [
                 "1c83a03b.a169c"
@@ -1808,6 +2183,7 @@
         "id": "fff065af.0a0958",
         "type": "change",
         "z": "1d22c714.e50369",
+        "g": "c2cc2f7f.c6192",
         "name": "",
         "rules": [
             {
@@ -1823,8 +2199,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1240,
-        "y": 660,
+        "x": 1360,
+        "y": 640,
         "wires": [
             [
                 "abe678a7.9a28b8"
@@ -1908,14 +2284,15 @@
         "id": "eb66256c.111fa8",
         "type": "function",
         "z": "1d22c714.e50369",
+        "g": "c2cc2f7f.c6192",
         "name": "Parse telemetry JSON",
         "func": "\nvar newMsg =  { \n        payload: new Date(msg.payload[0].time)\n};\nreturn newMsg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 1260,
-        "y": 620,
+        "x": 1380,
+        "y": 600,
         "wires": [
             [
                 "383c0ad2.b2e656"
@@ -1967,8 +2344,8 @@
         "qos": "0",
         "datatype": "auto",
         "broker": "a0e631b8.d383b",
-        "x": 170,
-        "y": 2406,
+        "x": 250,
+        "y": 2320,
         "wires": [
             [
                 "bde231de.d54eb"
@@ -2053,7 +2430,7 @@
         "payload": "1",
         "payloadType": "num",
         "x": 190,
-        "y": 1906,
+        "y": 1800,
         "wires": [
             [
                 "134f40ec.1ec4bf"
@@ -2223,7 +2600,7 @@
         "awb": "auto",
         "name": "Take Photo",
         "x": 360,
-        "y": 1906,
+        "y": 1800,
         "wires": [
             [
                 "ec42ca0e.6c9dd8"
@@ -2234,6 +2611,7 @@
         "id": "6a5ac7a1.e350c8",
         "type": "influxdb out",
         "z": "1d22c714.e50369",
+        "g": "c2cc2f7f.c6192",
         "influxdb": "8193652c.e6bda8",
         "name": "",
         "measurement": "water_quality",
@@ -2244,14 +2622,15 @@
         "retentionPolicyV18Flux": "",
         "org": "organisation",
         "bucket": "bucket",
-        "x": 940,
-        "y": 580,
+        "x": 1060,
+        "y": 560,
         "wires": []
     },
     {
         "id": "b5c12285.51ca3",
         "type": "influxdb out",
         "z": "1d22c714.e50369",
+        "g": "ca2296d8.64fa18",
         "influxdb": "8193652c.e6bda8",
         "name": "",
         "measurement": "room_temperature",
@@ -2262,14 +2641,15 @@
         "retentionPolicyV18Flux": "",
         "org": "organisation",
         "bucket": "bucket",
-        "x": 960,
-        "y": 1566,
+        "x": 1000,
+        "y": 1560,
         "wires": []
     },
     {
         "id": "f3b265b2.271218",
         "type": "influxdb out",
         "z": "1d22c714.e50369",
+        "g": "ca2296d8.64fa18",
         "influxdb": "8193652c.e6bda8",
         "name": "",
         "measurement": "room_humidity",
@@ -2280,8 +2660,8 @@
         "retentionPolicyV18Flux": "",
         "org": "organisation",
         "bucket": "bucket",
-        "x": 950,
-        "y": 1706,
+        "x": 990,
+        "y": 1700,
         "wires": []
     },
     {
@@ -2342,6 +2722,7 @@
         "id": "1b07e4d1.7c4d9b",
         "type": "influxdb in",
         "z": "5127740.f28848c",
+        "g": "9735f20b.9f01e",
         "influxdb": "8193652c.e6bda8",
         "name": "Mean water PH over last 20min",
         "query": "SELECT mean(value) FROM water_ph WHERE time >= now() - 20m",
@@ -2349,8 +2730,8 @@
         "precision": "",
         "retentionPolicy": "",
         "org": "organisation",
-        "x": 210,
-        "y": 200,
+        "x": 270,
+        "y": 180,
         "wires": [
             [
                 "3e247b14.95d3a4"
@@ -2361,6 +2742,7 @@
         "id": "c2314fab.6c8af",
         "type": "influxdb in",
         "z": "1d22c714.e50369",
+        "g": "ca2296d8.64fa18",
         "influxdb": "8193652c.e6bda8",
         "name": "Select last entry",
         "query": "SELECT * FROM room_temperature GROUP BY * ORDER BY DESC LIMIT 1",
@@ -2368,8 +2750,8 @@
         "precision": "",
         "retentionPolicy": "",
         "org": "organisation",
-        "x": 1000,
-        "y": 1606,
+        "x": 1040,
+        "y": 1600,
         "wires": [
             [
                 "5914ecc9.808654"
@@ -2380,6 +2762,7 @@
         "id": "7fe995e5.477afc",
         "type": "influxdb in",
         "z": "1d22c714.e50369",
+        "g": "c2cc2f7f.c6192",
         "influxdb": "8193652c.e6bda8",
         "name": "Select last entry",
         "query": "SELECT * FROM water_quality GROUP BY * ORDER BY DESC LIMIT 1",
@@ -2387,8 +2770,8 @@
         "precision": "",
         "retentionPolicy": "",
         "org": "organisation",
-        "x": 1000,
-        "y": 620,
+        "x": 1120,
+        "y": 600,
         "wires": [
             [
                 "eb66256c.111fa8"
@@ -2418,6 +2801,7 @@
         "id": "f8fee95.2171618",
         "type": "influxdb in",
         "z": "1d22c714.e50369",
+        "g": "c2cc2f7f.c6192",
         "influxdb": "8193652c.e6bda8",
         "name": "Select past 24 hours",
         "query": "SELECT * FROM water_quality  WHERE time >= now() - 24h ORDER BY time DESC",
@@ -2425,8 +2809,8 @@
         "precision": "",
         "retentionPolicy": "",
         "org": "organisation",
-        "x": 1020,
-        "y": 660,
+        "x": 1140,
+        "y": 640,
         "wires": [
             [
                 "fff065af.0a0958"
@@ -2636,6 +3020,7 @@
         "id": "63de4a5e.7c19a4",
         "type": "ui_artlessgauge",
         "z": "1d22c714.e50369",
+        "g": "c2cc2f7f.c6192",
         "group": "8d4aab9b.4d6328",
         "order": 2,
         "width": 3,
@@ -2671,14 +3056,15 @@
         "lineWidth": "3",
         "bgcolorFromTheme": true,
         "diffCenter": "",
-        "x": 1100,
-        "y": 540,
+        "x": 1220,
+        "y": 520,
         "wires": []
     },
     {
         "id": "9b1656b1.099d08",
         "type": "ui_artlessgauge",
         "z": "1d22c714.e50369",
+        "g": "ca2296d8.64fa18",
         "group": "8a9b009f.1b35d",
         "order": 6,
         "width": 6,
@@ -2732,14 +3118,15 @@
         "lineWidth": "5",
         "bgcolorFromTheme": true,
         "diffCenter": "",
-        "x": 900,
-        "y": 1526,
+        "x": 940,
+        "y": 1520,
         "wires": []
     },
     {
         "id": "a2c963c.a4756a",
         "type": "ui_artlessgauge",
         "z": "1d22c714.e50369",
+        "g": "ca2296d8.64fa18",
         "group": "8a9b009f.1b35d",
         "order": 9,
         "width": 6,
@@ -2793,8 +3180,8 @@
         "lineWidth": "5",
         "bgcolorFromTheme": true,
         "diffCenter": "",
-        "x": 890,
-        "y": 1666,
+        "x": 930,
+        "y": 1660,
         "wires": []
     },
     {
@@ -2837,7 +3224,7 @@
         "label": "Seed spray",
         "tooltip": "",
         "group": "6c15eb0d.8f5814",
-        "order": 15,
+        "order": 13,
         "width": 4,
         "height": 1,
         "passthru": true,
@@ -2865,6 +3252,7 @@
         "id": "509eb66d.0f6d88",
         "type": "ui_button",
         "z": "1d22c714.e50369",
+        "g": "cdba4a8d.9d7c08",
         "name": "IconRefresh",
         "group": "1c37dc0b.ce28e4",
         "order": 1,
@@ -2879,8 +3267,8 @@
         "payload": "true",
         "payloadType": "bool",
         "topic": "",
-        "x": 1270,
-        "y": 426,
+        "x": 1690,
+        "y": 380,
         "wires": [
             [
                 "45293d1e.aedc04"
@@ -2891,6 +3279,7 @@
         "id": "75f934f.744b2cc",
         "type": "ui_text",
         "z": "1d22c714.e50369",
+        "g": "cdba4a8d.9d7c08",
         "group": "1c37dc0b.ce28e4",
         "order": 8,
         "width": 4,
@@ -2899,14 +3288,15 @@
         "label": "",
         "format": "{{msg.payload.current.weather[0].description}}",
         "layout": "row-left",
-        "x": 1270,
-        "y": 226,
+        "x": 1690,
+        "y": 180,
         "wires": []
     },
     {
         "id": "c9cadf3c.4dd91",
         "type": "ui_text",
         "z": "1d22c714.e50369",
+        "g": "cdba4a8d.9d7c08",
         "group": "1c37dc0b.ce28e4",
         "order": 3,
         "width": 3,
@@ -2915,14 +3305,15 @@
         "label": "",
         "format": "{{msg.payload.current.wind_speed}}&nbsp;&nbsp;<i class=\"wi wi-darksky-wind\"></i>&nbsp;&nbsp;{{msg.payload.current.wind_cardinal}}",
         "layout": "col-center",
-        "x": 1250,
-        "y": 306,
+        "x": 1670,
+        "y": 260,
         "wires": []
     },
     {
         "id": "a77336d4.24c878",
         "type": "ui_text",
         "z": "1d22c714.e50369",
+        "g": "cdba4a8d.9d7c08",
         "group": "1c37dc0b.ce28e4",
         "order": 4,
         "width": 4,
@@ -2931,14 +3322,15 @@
         "label": "",
         "format": "<i class=\"wi wi-owm-01d\"></i>&nbsp;<i class=\"fa fa-arrow-up\"></i>&nbsp;&nbsp;{{msg.payload.current.sunrise}}",
         "layout": "row-left",
-        "x": 1270,
-        "y": 346,
+        "x": 1690,
+        "y": 300,
         "wires": []
     },
     {
         "id": "ffd2dd.8b18ad2",
         "type": "ui_text",
         "z": "1d22c714.e50369",
+        "g": "cdba4a8d.9d7c08",
         "group": "1c37dc0b.ce28e4",
         "order": 9,
         "width": 4,
@@ -2947,14 +3339,15 @@
         "label": "",
         "format": "<i class=\"wi wi-owm-01d\"></i>&nbsp;<i class=\"fa fa-arrow-down\"></i>&nbsp;&nbsp;{{msg.payload.current.sunset}}",
         "layout": "row-left",
-        "x": 1270,
-        "y": 386,
+        "x": 1690,
+        "y": 340,
         "wires": []
     },
     {
         "id": "ebeb7e6d.61e6c",
         "type": "ui_text",
         "z": "1d22c714.e50369",
+        "g": "cdba4a8d.9d7c08",
         "group": "1c37dc0b.ce28e4",
         "order": 7,
         "width": 3,
@@ -2963,14 +3356,15 @@
         "label": "",
         "format": "<p style=\"font-size: 200%\">{{msg.payload.current.temp}}</p>",
         "layout": "row-left",
-        "x": 1270,
-        "y": 266,
+        "x": 1690,
+        "y": 220,
         "wires": []
     },
     {
         "id": "1c83a03b.a169c",
         "type": "ui_text",
         "z": "1d22c714.e50369",
+        "g": "ca2296d8.64fa18",
         "group": "8a9b009f.1b35d",
         "order": 3,
         "width": 3,
@@ -2979,8 +3373,8 @@
         "label": "",
         "format": "<i class=\"fa fa-refresh\" aria-hidden=\"true\">&nbsp; {{ msg.payload | date: 'HH:mm:ss'}}</i> ",
         "layout": "row-right",
-        "x": 1410,
-        "y": 1606,
+        "x": 1450,
+        "y": 1600,
         "wires": []
     },
     {
@@ -3003,6 +3397,7 @@
         "id": "383c0ad2.b2e656",
         "type": "ui_text",
         "z": "1d22c714.e50369",
+        "g": "c2cc2f7f.c6192",
         "group": "8d4aab9b.4d6328",
         "order": 7,
         "width": 3,
@@ -3011,8 +3406,8 @@
         "label": "",
         "format": "<i class=\"fa fa-refresh\" aria-hidden=\"true\">&nbsp; {{ msg.payload | date: 'HH:mm:ss'}}</i> ",
         "layout": "row-center",
-        "x": 1500,
-        "y": 620,
+        "x": 1620,
+        "y": 600,
         "wires": []
     },
     {
@@ -3093,6 +3488,7 @@
         "id": "f3e2c3ad.8ebb2",
         "type": "ui_toast",
         "z": "5127740.f28848c",
+        "g": "9735f20b.9f01e",
         "position": "top right",
         "displayTime": "3",
         "highlight": "",
@@ -3103,8 +3499,8 @@
         "raw": false,
         "topic": "Water PH",
         "name": "Alert ",
-        "x": 1010,
-        "y": 184,
+        "x": 1070,
+        "y": 164,
         "wires": []
     },
     {
@@ -3122,7 +3518,7 @@
         "resendOnRefresh": true,
         "templateScope": "local",
         "x": 380,
-        "y": 1966,
+        "y": 1860,
         "wires": [
             [
                 "134f40ec.1ec4bf"
@@ -3133,6 +3529,7 @@
         "id": "f9da79c2.9a6128",
         "type": "ui_text",
         "z": "1d22c714.e50369",
+        "g": "cdba4a8d.9d7c08",
         "group": "1c37dc0b.ce28e4",
         "order": 2,
         "width": 4,
@@ -3141,8 +3538,8 @@
         "label": "",
         "format": "{{msg.payload.timezone}}",
         "layout": "row-left",
-        "x": 1260,
-        "y": 186,
+        "x": 1680,
+        "y": 140,
         "wires": []
     },
     {
@@ -3272,8 +3669,8 @@
         "qos": "0",
         "datatype": "auto",
         "broker": "a0e631b8.d383b",
-        "x": 170,
-        "y": 2700,
+        "x": 250,
+        "y": 2614,
         "wires": [
             [
                 "222cf8a.db51b08"
@@ -3389,7 +3786,7 @@
         "type": "ui_text",
         "z": "1d22c714.e50369",
         "group": "6c15eb0d.8f5814",
-        "order": 8,
+        "order": 6,
         "width": 3,
         "height": 1,
         "name": "Last refresh - water level",
@@ -3404,6 +3801,7 @@
         "id": "4c00e295.9a2f5c",
         "type": "inject",
         "z": "5127740.f28848c",
+        "g": "9735f20b.9f01e",
         "name": "",
         "props": [
             {
@@ -3421,8 +3819,8 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 130,
-        "y": 140,
+        "x": 190,
+        "y": 120,
         "wires": [
             [
                 "1b07e4d1.7c4d9b"
@@ -3433,14 +3831,15 @@
         "id": "f76a168.49897e8",
         "type": "function",
         "z": "5127740.f28848c",
+        "g": "9735f20b.9f01e",
         "name": "Simulate an input",
         "func": "msg.payload = \"PH too low\"\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 910,
-        "y": 260,
+        "x": 970,
+        "y": 240,
         "wires": [
             [
                 "f3e2c3ad.8ebb2"
@@ -3451,6 +3850,7 @@
         "id": "5d9dc44f.a6cccc",
         "type": "switch",
         "z": "5127740.f28848c",
+        "g": "3cd27958.a703b6",
         "name": "PPM conditions, min and max values",
         "property": "payload[0].mean",
         "propertyType": "msg",
@@ -3469,8 +3869,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 510,
-        "y": 380,
+        "x": 570,
+        "y": 460,
         "wires": [
             [
                 "78ee2d93.0854e4"
@@ -3485,14 +3885,15 @@
         "id": "78ee2d93.0854e4",
         "type": "function",
         "z": "5127740.f28848c",
+        "g": "3cd27958.a703b6",
         "name": "Set warning - PPM too high",
         "func": "msg.payload = \"PPM too high\"\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 860,
-        "y": 344,
+        "x": 920,
+        "y": 424,
         "wires": [
             [
                 "7ebdaedb.473e9"
@@ -3503,15 +3904,16 @@
         "id": "6b31749d.19ee4c",
         "type": "influxdb in",
         "z": "5127740.f28848c",
+        "g": "3cd27958.a703b6",
         "influxdb": "8193652c.e6bda8",
-        "name": "Mean PPM over last 20min",
-        "query": "SELECT mean(value) FROM water_quality WHERE time >= now() - 20m",
+        "name": "Mean PPM over last 6h",
+        "query": "SELECT mean(value) FROM water_quality WHERE time >= now() - 6h",
         "rawOutput": false,
         "precision": "",
         "retentionPolicy": "",
         "org": "organisation",
-        "x": 200,
-        "y": 380,
+        "x": 250,
+        "y": 460,
         "wires": [
             [
                 "5d9dc44f.a6cccc"
@@ -3522,6 +3924,7 @@
         "id": "7ebdaedb.473e9",
         "type": "ui_toast",
         "z": "5127740.f28848c",
+        "g": "3cd27958.a703b6",
         "position": "top right",
         "displayTime": "3",
         "highlight": "",
@@ -3532,22 +3935,23 @@
         "raw": false,
         "topic": "Water PPM",
         "name": "Alert ",
-        "x": 1070,
-        "y": 380,
+        "x": 1130,
+        "y": 460,
         "wires": []
     },
     {
         "id": "7485b5.c5f5ca4c",
         "type": "function",
         "z": "5127740.f28848c",
+        "g": "3cd27958.a703b6",
         "name": "Set warning - PPM too low",
         "func": "msg.payload = \"PPM too low\"\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 860,
-        "y": 404,
+        "x": 920,
+        "y": 484,
         "wires": [
             [
                 "7ebdaedb.473e9"
@@ -3658,6 +4062,7 @@
         "id": "23810c02.07fa14",
         "type": "inject",
         "z": "5127740.f28848c",
+        "g": "3cd27958.a703b6",
         "name": "",
         "props": [
             {
@@ -3670,13 +4075,13 @@
         ],
         "repeat": "21600",
         "crontab": "",
-        "once": true,
+        "once": false,
         "onceDelay": "1",
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 132,
-        "y": 326,
+        "x": 192,
+        "y": 406,
         "wires": [
             [
                 "6b31749d.19ee4c"
@@ -3729,14 +4134,15 @@
         "id": "b2d124cc.ae5b18",
         "type": "function",
         "z": "1d22c714.e50369",
+        "g": "c2cc2f7f.c6192",
         "name": "Configure PPM sectors",
         "func": "var minPPM = global.get('minPPM') || 0;\nvar maxPPM = global.get('maxPPM') || 0;\nvar centerPPM = parseInt((minPPM + maxPPM) / 2);\n\nvar newSectors = [\n    {t:\"min\",val:0,col:\"#ff5252\",dot:0},\n    {t:\"sec\",val:minPPM,col:\"#4CAF50\",dot:0},\n    {t:\"sec\",val:maxPPM,col:\"#ff5252\",dot:0},\n    {t:\"max\",val:2000,col:\"#ff5252\",dot:0}] \n\n\nmsg.control = \n  {sectors:newSectors, center: centerPPM}\n\nreturn msg;\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 890,
-        "y": 540,
+        "x": 1010,
+        "y": 520,
         "wires": [
             [
                 "63de4a5e.7c19a4"
@@ -3776,26 +4182,6 @@
         ]
     },
     {
-        "id": "457aff73.050d9",
-        "type": "comment",
-        "z": "5127740.f28848c",
-        "name": "### Adjust PH rule",
-        "info": "",
-        "x": 150,
-        "y": 80,
-        "wires": []
-    },
-    {
-        "id": "9bfd2d56.7eae1",
-        "type": "comment",
-        "z": "5127740.f28848c",
-        "name": "### Adjust PPM rule",
-        "info": "",
-        "x": 150,
-        "y": 280,
-        "wires": []
-    },
-    {
         "id": "b8023ba0.969078",
         "type": "function",
         "z": "1d22c714.e50369",
@@ -3828,7 +4214,8 @@
         "y": 460,
         "wires": [
             [
-                "2f179774.4055e8"
+                "2f179774.4055e8",
+                "c86dc712.4a8a48"
             ]
         ]
     },
@@ -3846,14 +4233,15 @@
         "id": "6c1d8e8.c6bf77",
         "type": "function",
         "z": "1d22c714.e50369",
+        "g": "cdba4a8d.9d7c08",
         "name": "Save Global variable - total natural light",
         "func": "var sunrise = new Date(msg.payload.current.sunrise);\nvar sunset = new Date(msg.payload.current.sunset);\nvar totalNaturalLight = sunset - sunrise;\n\nglobal.set('sunrise.timestamp', msg.payload.current.sunrise*1000);\nglobal.set('sunset.timestamp', msg.payload.current.sunset*1000);\nglobal.set('sun.total', totalNaturalLight);\n\nmsg.payload = totalNaturalLight;\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 900,
-        "y": 406,
+        "x": 1320,
+        "y": 360,
         "wires": [
             [
                 "15bc06eb.0cde59"
@@ -3870,8 +4258,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 310,
-        "y": 2206,
+        "x": 370,
+        "y": 2080,
         "wires": [
             [
                 "e765c1ba.7b85",
@@ -3886,13 +4274,14 @@
         "id": "15bc06eb.0cde59",
         "type": "link out",
         "z": "1d22c714.e50369",
+        "g": "cdba4a8d.9d7c08",
         "name": "Global var - Total day light",
         "links": [
             "de54877b.8ab618",
             "319aa41.d00645c"
         ],
-        "x": 1095,
-        "y": 406,
+        "x": 1515,
+        "y": 360,
         "wires": []
     },
     {
@@ -3903,8 +4292,8 @@
         "links": [
             "15bc06eb.0cde59"
         ],
-        "x": 95,
-        "y": 2166,
+        "x": 155,
+        "y": 2040,
         "wires": [
             [
                 "7b62dc10.8cd624"
@@ -3947,8 +4336,8 @@
             "#c5b0d5"
         ],
         "outputs": 1,
-        "x": 610,
-        "y": 2239,
+        "x": 670,
+        "y": 2113,
         "wires": [
             []
         ]
@@ -3965,8 +4354,8 @@
             "db6792a8.788f5",
             "8a7ded76.20298"
         ],
-        "x": 95,
-        "y": 2266,
+        "x": 155,
+        "y": 2140,
         "wires": [
             [
                 "7b62dc10.8cd624"
@@ -3987,8 +4376,8 @@
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
-        "x": 670,
-        "y": 2159,
+        "x": 730,
+        "y": 2033,
         "wires": [
             []
         ]
@@ -4003,8 +4392,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 360,
-        "y": 2406,
+        "x": 440,
+        "y": 2320,
         "wires": [
             [
                 "b2382129.49d1f"
@@ -4016,15 +4405,15 @@
         "type": "ui_text",
         "z": "1d22c714.e50369",
         "group": "6c15eb0d.8f5814",
-        "order": 16,
+        "order": 14,
         "width": 1,
         "height": 1,
         "name": "Water spray on/off state",
         "label": "<font color=\"{{msg.color}}\"><i class=\"fa fa-tint fa-2x\"></i></front>",
         "format": "",
         "layout": "row-spread",
-        "x": 550,
-        "y": 2406,
+        "x": 630,
+        "y": 2320,
         "wires": []
     },
     {
@@ -4036,10 +4425,10 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "<font face=\"Roboto\">\n\n{{#global.seedTray.water.level.warning.low}}\n <font color=\"{{global.color.warning}}\" align=\"center\"> <i class=\"fa fa-exclamation-circle\"></i> Water level is too low.</font>\n{{/global.seedTray.water.level.warning.low}} \n\n{{#global.seedTray.water.level.warning.high}}\n <font color=\"{{global.color.warning}}\" align=\"center\"> <i class=\"fa fa-exclamation-circle\"></i> Water level is too high.</font>\n{{/global.seedTray.water.level.warning.high}} \n\n  \n<br/><br/>\n\npump runs for <font color=\"{{global.color.widget.water}}\"> {{global.durationWaterSpray}}</font> \nseconds every  <font color=\"{{global.color.widget.water}}\">two days</font>\n</font>\n<br/><br/><br/>\n<hr>",
+        "template": " <md-card>\n    <md-card-content>\n          <p>\n           Water pump runs for <font color=\"{{global.color.widget.water}}\"> {{global.settings.water_pump.duration}} secs.</font> \n          , or stops when seed tray is filled at >50%.\n         </p>\n    </md-card-content>\n</md-card>\n<md-card>\n  <md-card-content>\n   <h5>\n       {{#global.seedTray.water.level.warning.low}}\n        <font color=\"{{global.color.warning}}\" align=\"center\"> <i class=\"fa fa-exclamation-circle\"></i> Water level is too low.</font>\n        {{/global.seedTray.water.level.warning.low}} \n        \n        {{#global.seedTray.water.level.warning.high}}\n         <font color=\"{{global.color.warning}}\" align=\"center\"> <i class=\"fa fa-exclamation-circle\"></i> Water level is too high.</font>\n        {{/global.seedTray.water.level.warning.high}} \n    </h5>\n    \n    <p>\n        Seed Tray - water spray runs for <font color=\"{{global.color.widget.water}}\"> {{global.durationWaterSpray}}</font> \n        seconds every  <font color=\"{{global.color.widget.water}}\">two days</font>\n    </p>\n  </md-card-content>\n</md-card>\n\n",
         "output": "str",
-        "x": 400,
-        "y": 2466,
+        "x": 480,
+        "y": 2380,
         "wires": [
             [
                 "f64b20c.caba7e"
@@ -4054,14 +4443,14 @@
         "name": "",
         "order": 1,
         "width": 4,
-        "height": 2,
+        "height": 4,
         "format": "<div ng-bind-html=\"msg.payload\"></div>",
         "storeOutMessages": true,
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
-        "x": 580,
-        "y": 2466,
+        "x": 660,
+        "y": 2380,
         "wires": [
             []
         ]
@@ -4087,8 +4476,8 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 170,
-        "y": 2466,
+        "x": 250,
+        "y": 2380,
         "wires": [
             [
                 "f3b66e1d.ccca9"
@@ -4105,8 +4494,8 @@
             "bec62e16.5d9dc",
             "88e72de5.1224f"
         ],
-        "x": 175,
-        "y": 2526,
+        "x": 255,
+        "y": 2440,
         "wires": [
             [
                 "f3b66e1d.ccca9"
@@ -4153,8 +4542,8 @@
         "chunk": false,
         "sendError": false,
         "encoding": "none",
-        "x": 580,
-        "y": 2199,
+        "x": 640,
+        "y": 2073,
         "wires": [
             [
                 "ed8e6bb5.af6b78"
@@ -4169,8 +4558,8 @@
         "property": "payload",
         "action": "",
         "pretty": false,
-        "x": 710,
-        "y": 2199,
+        "x": 770,
+        "y": 2073,
         "wires": [
             [
                 "d82e4b39.5671a8"
@@ -4185,14 +4574,14 @@
         "rules": [
             {
                 "t": "set",
-                "p": "payload.timers[1].starttime",
+                "p": "payload.timers[2].starttime",
                 "pt": "msg",
                 "to": "sunset.timestamp",
                 "tot": "global"
             },
             {
                 "t": "set",
-                "p": "payload.timers[2].starttime",
+                "p": "payload.timers[6].starttime",
                 "pt": "msg",
                 "to": "seedTray.led.timer.off",
                 "tot": "global"
@@ -4203,11 +4592,12 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 880,
-        "y": 2199,
+        "x": 940,
+        "y": 2073,
         "wires": [
             [
-                "bd0f3b34.8fff68"
+                "bd0f3b34.8fff68",
+                "c8dbc732.1ab628"
             ]
         ]
     },
@@ -4221,8 +4611,8 @@
         "createDir": true,
         "overwriteFile": "true",
         "encoding": "none",
-        "x": 1040,
-        "y": 2199,
+        "x": 1100,
+        "y": 2073,
         "wires": [
             [
                 "84752e32.a3167"
@@ -4237,8 +4627,8 @@
         "links": [
             "3ca07431.002fec"
         ],
-        "x": 1135,
-        "y": 2199,
+        "x": 1195,
+        "y": 2073,
         "wires": []
     },
     {
@@ -4269,8 +4659,8 @@
         "label": "<h3><i class=\"fa fa-leaf\"> Seed tray</h3>",
         "format": "",
         "layout": "row-left",
-        "x": 1080,
-        "y": 1840,
+        "x": 960,
+        "y": 1800,
         "wires": []
     },
     {
@@ -4285,8 +4675,8 @@
         "label": "<h3><i class=\"fa fa-home\"> Room<h3>",
         "format": "",
         "layout": "row-left",
-        "x": 880,
-        "y": 1840,
+        "x": 760,
+        "y": 1800,
         "wires": []
     },
     {
@@ -4301,8 +4691,8 @@
         "label": "<font color=\"{{msg.color}}\"><i class=\"fa fa-battery-half fa-1.5x\"></i></front>",
         "format": "",
         "layout": "row-spread",
-        "x": 550,
-        "y": 2700,
+        "x": 630,
+        "y": 2614,
         "wires": []
     },
     {
@@ -4315,8 +4705,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 340,
-        "y": 2700,
+        "x": 420,
+        "y": 2614,
         "wires": [
             [
                 "aadaca25.5f3598"
@@ -4482,8 +4872,8 @@
         "qos": "0",
         "datatype": "auto",
         "broker": "a0e631b8.d383b",
-        "x": 170,
-        "y": 2780,
+        "x": 250,
+        "y": 2694,
         "wires": [
             [
                 "41226553.28e86c"
@@ -4502,8 +4892,8 @@
         "label": "<font color=\"{{msg.color}}\"><i class=\"fa fa-battery-half fa-1.5x\"></i></front>",
         "format": "",
         "layout": "row-spread",
-        "x": 570,
-        "y": 2780,
+        "x": 650,
+        "y": 2694,
         "wires": []
     },
     {
@@ -4516,8 +4906,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 340,
-        "y": 2780,
+        "x": 420,
+        "y": 2694,
         "wires": [
             [
                 "94ff4603.6d4ad8"
@@ -4538,8 +4928,8 @@
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
-        "x": 600,
-        "y": 2640,
+        "x": 680,
+        "y": 2554,
         "wires": [
             []
         ]
@@ -4553,10 +4943,10 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "<md-card>\n  <div md-card-image class=\"example-header-image\"></div>\n  <md-card-content>\n    <p>\n      Solution A pump runs for <font color=\"#bb86fc\"> {{global.nutriments.solutionA.pump.duration}} secs.</font>  \n      when PPM is below  <font color=\"#bb86fc\">{{global.minPPM}}</font>\n    </p>\n  </md-card-content>\n</md-card>",
+        "template": "<md-card>\n  <div md-card-image class=\"example-header-image\"></div>\n  <md-card-content>\n    <p>\n      Every 6 hours, nutrients pump runs for <font color=\"{{global.color.widget.nutrients}}\"> {{global.nutriments.solutionA.pump.duration}} secs.</font>  \n      when PPM is below  <font color=\"{{global.color.widget.nutrients}}\">{{global.minPPM}}</font>\n    </p>\n  </md-card-content>\n</md-card>",
         "output": "str",
-        "x": 410,
-        "y": 2640,
+        "x": 490,
+        "y": 2554,
         "wires": [
             [
                 "610e2b65.b070d4"
@@ -4584,8 +4974,8 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 190,
-        "y": 2640,
+        "x": 270,
+        "y": 2554,
         "wires": [
             [
                 "5e5c80d7.c23cb"
@@ -4613,8 +5003,8 @@
         "topic": "",
         "payload": "5",
         "payloadType": "num",
-        "x": 150,
-        "y": 2906,
+        "x": 230,
+        "y": 2820,
         "wires": [
             [
                 "4d67ced7.a6caa"
@@ -4672,8 +5062,8 @@
         "lineWidth": "5",
         "bgcolorFromTheme": true,
         "diffCenter": "",
-        "x": 360,
-        "y": 2906,
+        "x": 440,
+        "y": 2820,
         "wires": []
     },
     {
@@ -4682,8 +5072,8 @@
         "z": "1d22c714.e50369",
         "name": "##TODO compute remaining days",
         "info": "",
-        "x": 220,
-        "y": 2860,
+        "x": 300,
+        "y": 2774,
         "wires": []
     },
     {
@@ -4707,8 +5097,8 @@
         "topic": "",
         "payload": "25",
         "payloadType": "num",
-        "x": 130,
-        "y": 2960,
+        "x": 210,
+        "y": 2874,
         "wires": [
             [
                 "a56914d1.b859b8"
@@ -4766,8 +5156,8 @@
         "lineWidth": "5",
         "bgcolorFromTheme": true,
         "diffCenter": "",
-        "x": 358,
-        "y": 2961,
+        "x": 438,
+        "y": 2875,
         "wires": []
     },
     {
@@ -4779,8 +5169,8 @@
             "45c5f9a0.355c58",
             "1b0ae6f9.985959"
         ],
-        "x": 235,
-        "y": 2600,
+        "x": 315,
+        "y": 2514,
         "wires": [
             [
                 "5e5c80d7.c23cb"
@@ -4830,8 +5220,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 450,
-        "y": 2306,
+        "x": 510,
+        "y": 2180,
         "wires": [
             []
         ]
@@ -4857,8 +5247,8 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 250,
-        "y": 2306,
+        "x": 310,
+        "y": 2180,
         "wires": [
             [
                 "6de36e52.d849c"
@@ -4891,8 +5281,8 @@
         "z": "1d22c714.e50369",
         "name": "##TODO SVG to repreent sunrise, led and moon",
         "info": "",
-        "x": 350,
-        "y": 2286,
+        "x": 410,
+        "y": 2160,
         "wires": []
     },
     {
@@ -4953,15 +5343,15 @@
         "type": "ui_text",
         "z": "1d22c714.e50369",
         "group": "6c15eb0d.8f5814",
-        "order": 10,
+        "order": 8,
         "width": 4,
         "height": 1,
         "name": "Water control label",
         "label": "<b><i class=\"fa fa-cog\"></i> Control</b>",
         "format": "",
         "layout": "row-left",
-        "x": 870,
-        "y": 1886,
+        "x": 750,
+        "y": 1846,
         "wires": []
     },
     {
@@ -4976,8 +5366,8 @@
         "label": "<b><i class=\"fa fa-cog\"></i> Control</b>",
         "format": "",
         "layout": "row-left",
-        "x": 880,
-        "y": 1926,
+        "x": 760,
+        "y": 1886,
         "wires": []
     },
     {
@@ -4988,7 +5378,7 @@
         "label": "Water pump",
         "tooltip": "",
         "group": "6c15eb0d.8f5814",
-        "order": 12,
+        "order": 10,
         "width": 4,
         "height": 1,
         "passthru": true,
@@ -5003,8 +5393,8 @@
         "offvalueType": "bool",
         "officon": "fa-toggle-off fa-2x",
         "offcolor": "#0077be",
-        "x": 611,
-        "y": 460,
+        "x": 610,
+        "y": 459,
         "wires": [
             [
                 "da7d1a1e.239e58",
@@ -5035,7 +5425,7 @@
         "type": "ui_text",
         "z": "87cb301d.9893c",
         "group": "6c15eb0d.8f5814",
-        "order": 13,
+        "order": 11,
         "width": 1,
         "height": 1,
         "name": "Water pump on/off state",
@@ -5058,14 +5448,15 @@
         "label": "<b><i class=\"fa fa-cog\"></i> Control</b>",
         "format": "",
         "layout": "row-left",
-        "x": 1090,
-        "y": 1900,
+        "x": 970,
+        "y": 1860,
         "wires": []
     },
     {
         "id": "6921fbdb.48e634",
         "type": "ui_template",
         "z": "1d22c714.e50369",
+        "g": "9c4443bb.0420a",
         "group": "1c37dc0b.ce28e4",
         "name": "Header - menu buttons",
         "order": 6,
@@ -5076,8 +5467,8 @@
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
-        "x": 470,
-        "y": 60,
+        "x": 250,
+        "y": 180,
         "wires": [
             [
                 "27f25225.1ccc9e",
@@ -5091,10 +5482,11 @@
         "id": "27f25225.1ccc9e",
         "type": "ui_ui_control",
         "z": "1d22c714.e50369",
+        "g": "9c4443bb.0420a",
         "name": "go to settings",
         "events": "change",
-        "x": 740,
-        "y": 60,
+        "x": 520,
+        "y": 180,
         "wires": [
             []
         ]
@@ -5103,10 +5495,11 @@
         "id": "4966b810.210668",
         "type": "ui_ui_control",
         "z": "1d22c714.e50369",
+        "g": "9c4443bb.0420a",
         "name": "go to Graph",
         "events": "change",
-        "x": 730,
-        "y": 100,
+        "x": 510,
+        "y": 220,
         "wires": [
             []
         ]
@@ -5115,10 +5508,11 @@
         "id": "c142bf5f.eb819",
         "type": "ui_ui_control",
         "z": "1d22c714.e50369",
+        "g": "9c4443bb.0420a",
         "name": "go to Hydroponic",
         "events": "change",
-        "x": 750,
-        "y": 20,
+        "x": 530,
+        "y": 140,
         "wires": [
             []
         ]
@@ -5127,10 +5521,11 @@
         "id": "ccfb9c89.f2c45",
         "type": "ui_ui_control",
         "z": "1d22c714.e50369",
+        "g": "9c4443bb.0420a",
         "name": "go to Schedule",
         "events": "change",
-        "x": 740,
-        "y": 140,
+        "x": 520,
+        "y": 260,
         "wires": [
             []
         ]
@@ -5139,10 +5534,11 @@
         "id": "85c3e511.6fbc68",
         "type": "comment",
         "z": "1d22c714.e50369",
+        "g": "9c4443bb.0420a",
         "name": "UI header - menu buttons",
         "info": "",
-        "x": 470,
-        "y": 20,
+        "x": 250,
+        "y": 140,
         "wires": []
     },
     {
@@ -6143,7 +6539,7 @@
         "order": 1,
         "width": 0,
         "height": 0,
-        "format": "<div layout=\"column\" style=\"max-height:350px\" ng-cloak>\n    \n      <md-toolbar md-scroll-shrink ng-if=\"true\">\n        <div class=\"md-toolbar-tools\">\n          <h3>\n            <span>Week activities </span>\n          </h3>\n        </div>\n      </md-toolbar>\n\n        <md-list flex>\n            \n            <!-- No action list -->\n            <md-list-item ng-show=\"(seedTrayState | filter: {'nextAction': '!!'}).length == 0 \n                && (NFTState | filter: {'nextAction': '!!'}).length == 0\">\n                \n                <div class=\"md-list-item-text\">\n                    <h4>No action.</h4>\n                </div>\n            </md-list-item>\n            \n            <!-- Harvest actions -->\n            <md-list-item ng-repeat=\"item in NFTState | filter: {'nextAction': '!!'}\">\n                <img src=\"{{item.iconAction}}\" class=\"md-avatar\" style=\"background-color: rgba(255,255,255,0.8);\" >\n                <div class=\"md-list-item-text\" ng-if=\"item.nextAction=='harvest'\">\n                    <h4>Harvest the {{item.category}}</h4>\n                    <p>Column {{item.column}}, row {{item.row}}</p>\n                </div>\n                \n                <md-menu class=\"md-secondary\" ng-show=\"item.nextAction=='harvest'\">\n                  <md-button class=\"icon-button\">\n                    <md-avatar ng-class=\"{'fa': true, 'fa-ellipsis-h': true}\"></md-avatar>\n                  </md-button>\n                  <md-menu-content width=\"4\">\n                    <md-menu-item ng-click=\"doSecondaryAction(item)\">\n                      <md-button>\n                        <md-avatar ng-class=\"{'fa': true, 'fa-check': true}\" ></md-avatar>\n                         Complete task\n                      </md-button>\n                    </md-menu-item>\n    \n                    <md-menu-item ng-click=\"\">\n                      <md-button>\n                        <md-avatar ng-class=\"{'fa': true, 'fa-calendar-plus-o': true}\" ></md-avatar>\n                         Re-schedule to next week\n                      </md-button>\n                     </md-menu-item>\n                  </md-menu-content>\n                </md-menu>\n                <md-divider md-inset></md-divider>\n            </md-list-item>\n        \n            \n            <!--Plant seed and transplant action -->\n            <md-list-item ng-repeat=\"item in seedTrayState | filter: {'nextAction': '!!'}\">\n                <img src=\"{{item.iconAction}}\" class=\"md-avatar\" style=\"background-color: rgba(255,255,255,0.8);\" >\n                <div class=\"md-list-item-text\" ng-if=\"item.nextAction=='plantSeed'\">\n                    <h4>Plant a {{item.category}} seed</h4>\n                    <p>Seed tray - column {{item.column}}, row {{item.row}}</p>\n                </div>\n                <div class=\"md-list-item-text\" ng-if=\"item.nextAction=='transplant'\">\n                    <h4>Transplant {{item.category}}</h4>\n                    <p>From seed tray - ({{item.column}},{{item.row}})</p>\n                    <p ng-if=\"item.toNFTColumn\">To NFT - ({{item.toNFTColumn}},{{item.toNFTRow}})</p>\n                    <p ng-if=\"!item.toNFTColumn\"><i class=\"fa fa-warning\"> NFC system is full, harvest first.</i></p>\n             \n                </div>\n            \n                <md-menu class=\"md-secondary\" ng-show=\"item.nextAction=='plantSeed' || (item.nextAction=='transplant' && item.toNFTColumn)\">\n                  <md-button class=\"icon-button\">\n                    <md-avatar ng-class=\"{'fa': true, 'fa-ellipsis-h': true}\"></md-avatar>\n                  </md-button>\n                  <md-menu-content width=\"4\">\n                    <md-menu-item ng-click=\"doSecondaryAction(item)\">\n                      <md-button>\n                        <md-avatar ng-class=\"{'fa': true, 'fa-check': true}\" ></md-avatar>\n                         Complete task\n                      </md-button>\n                    </md-menu-item>\n    \n                    <md-menu-item ng-click=\"\">\n                      <md-button>\n                        <md-avatar ng-class=\"{'fa': true, 'fa-calendar-plus-o': true}\" ></md-avatar>\n                         Re-schedule to tomorrow\n                      </md-button>\n                    </md-menu-item>\n                    <md-menu-divider></md-menu-divider>\n                    <md-menu-item ng-click=\"\">\n                       <md-button >\n                        Change to tomatoe\n                      </md-button>\n                    </md-menu-item>\n                    <md-menu-item ng-click=\"\">\n                       <md-button>\n                        Change to mint\n                      </md-button>\n                    </md-menu-item>\n                     <md-menu-item ng-click=\"\">\n                       <md-button>\n                        Change to persley\n                      </md-button>\n                    </md-menu-item>\n                  </md-menu-content>\n                </md-menu>\n                <md-divider md-inset></md-divider>\n            </md-list-item>\n            \n    </md-list>\n</div>\n<script>\n    \n(function(scope) {\n    \n\n    // $watch fires each time the node is triggered in the flow\n    scope.$watch('msg', function(msg) {\n        \n        if (msg) {\n    \n            scope.seedTrayState = msg.seedTrayState;\n            scope.NFTState = msg.NFTState;\n            \n            \n            scope.doSecondaryAction = function(item) {\n                \n                if (item.nextAction === \"transplant\") {\n                    \n                    var index =  scope.seedTrayState.indexOf(item);\n                    \n                    //Keep a copy the element stored in seed tray, for NFT generation\n                    let copy =JSON.parse(JSON.stringify(scope.seedTrayState[index]));\n                    \n                    scope.seedTrayState.splice(index,1);\n                    var newItem = {\n                        column: item.column,\n                        row: item.row, \n                        category: \"empty\"\n                    }\n                    \n                    scope.seedTrayState.push(newItem);\n                    scope.send({seedTrayState: scope.seedTrayState});\n                    \n                    \n                    var indexNewItem = scope.NFTState.indexOf(\n                            scope.NFTState.find(cell => cell.column === item.toNFTColumn && cell.row === item.toNFTRow)\n                    );\n                    \n                    \n                    // remove old item\n                    scope.NFTState.splice(indexNewItem,1);\n                    \n                   \n                    copy.column = item.toNFTColumn;\n                    copy.row = item.toNFTRow;\n                    copy.iconAction = \"\";\n                    copy.nextAction = undefined;\n                    copy.toNFTColumn = undefined;\n                    copy.toNFTRow = undefined;\n                    \n                    scope.NFTState.push(copy);\n                    \n                    //Update Seed Tray and NFTStateobject \n                    scope.send({NFTState: scope.NFTState});\n               \n                    \n                    \n                } else if (item.nextAction === \"plantSeed\") {\n                    \n                    var index =  scope.seedTrayState.indexOf(item);\n     \n                    //Copy the element\n                    let copy =JSON.parse(JSON.stringify(scope.seedTrayState[index]));\n                    \n                    // Update properties\n                    copy.iconAction = undefined;\n                    copy.nextAction = undefined;\n                    copy.category = \"salad\";\n                    \n                    var today = new Date();\n                    copy.seedPlantedDate = today.getFullYear() + \"-\" + today.getMonth()+1 + \"-\" + today.getDate();\n                    \n                    var germinationDate = new Date();\n                    germinationDate.setDate(today.getDate() + msg.lettuceDaysForGermination);\n                    copy.germinationDate = germinationDate.getFullYear() + \"-\" + (germinationDate.getMonth()+1) + \"-\" + germinationDate.getDate() ;\n                    \n                    var transplantDate = new Date();\n                    transplantDate.setDate(today.getDate() + msg.lettuceDaysForTransplant);\n                    copy.transplantDate = transplantDate.getFullYear() + \"-\" + (transplantDate.getMonth()+1) + \"-\" + transplantDate.getDate();\n                   \n                    var harvestDate = new Date();\n                    harvestDate.setDate(today.getDate() + msg.lettuceDaysForHarvest);\n                    copy.harvestDate = harvestDate.getFullYear() + \"-\" + (harvestDate.getMonth()+1) + \"-\" + harvestDate.getDate();\n                   \n                    // Remove \"old\" item\n                    scope.seedTrayState.splice(index,1);\n                    // Push the copy\n                    scope.seedTrayState.push(copy);\n                    \n                   console.log(scope.seedTrayState);\n                    scope.send({seedTrayState: scope.seedTrayState});\n                    \n                    \n                }\n                \n                if (item.nextAction === \"harvest\") {\n                    \n                    var index =  scope.NFTState.indexOf(item);\n                    scope.NFTState.splice(index,1);\n                    var newItem = {\n                        column: item.column,\n                        row: item.row, \n                        category: \"empty\"\n                    }\n                    \n                    scope.NFTState.push(newItem);\n                    console.log(\"harvest\");\n                    console.log(scope.NFTState);\n                    //Update Seed Tray object \n                    scope.send({NFTState: scope.NFTState});\n                    \n                    \n                }\n            };\n        }\n    \n    });\n\n})(scope);\n\n</script>",
+        "format": "<div layout=\"column\" style=\"max-height:350px\" ng-cloak>\n    \n      <md-toolbar md-scroll-shrink ng-if=\"true\">\n        <div class=\"md-toolbar-tools\">\n          <h3>\n            <span>Week activities </span>\n          </h3>\n        </div>\n      </md-toolbar>\n\n        <md-list flex>\n            \n            <!-- No action list -->\n            <md-list-item ng-show=\"(seedTrayState | filter: {'nextAction': '!!'}).length == 0 \n                && (NFTState | filter: {'nextAction': '!!'}).length == 0\">\n                \n                <div class=\"md-list-item-text\">\n                    <h4>No action.</h4>\n                </div>\n            </md-list-item>\n            \n            <!-- Harvest actions -->\n            <md-list-item ng-repeat=\"item in NFTState | filter: {'nextAction': '!!'}\">\n                <img src=\"{{item.iconAction}}\" class=\"md-avatar\" style=\"background-color: rgba(255,255,255,0.8);\" >\n                <div class=\"md-list-item-text\" ng-if=\"item.nextAction=='harvest'\">\n                    <h4>Harvest the {{item.category}}</h4>\n                    <p>Column {{item.column}}, row {{item.row}}</p>\n                </div>\n                \n                <md-menu class=\"md-secondary\" ng-show=\"item.nextAction=='harvest'\">\n                  <md-button class=\"icon-button\">\n                    <md-avatar ng-class=\"{'fa': true, 'fa-ellipsis-h': true}\"></md-avatar>\n                  </md-button>\n                  <md-menu-content width=\"4\">\n                    <md-menu-item ng-click=\"completeTask(item)\">\n                      <md-button>\n                        <md-avatar ng-class=\"{'fa': true, 'fa-check': true}\" ></md-avatar>\n                         Complete task\n                      </md-button>\n                    </md-menu-item>\n    \n                    <md-menu-item ng-click=\"reschedule(item)\">\n                      <md-button>\n                        <md-avatar ng-class=\"{'fa': true, 'fa-calendar-plus-o': true}\" ></md-avatar>\n                         Re-schedule to next week\n                      </md-button>\n                     </md-menu-item>\n                  </md-menu-content>\n                </md-menu>\n                <md-divider md-inset></md-divider>\n            </md-list-item>\n        \n            \n            <!--Plant seed and transplant action -->\n            <md-list-item ng-repeat=\"item in seedTrayState | filter: {'nextAction': '!!'}\">\n                <img src=\"{{item.iconAction}}\" class=\"md-avatar\" style=\"background-color: rgba(255,255,255,0.8);\" >\n                <div class=\"md-list-item-text\" ng-if=\"item.nextAction=='plantSeed'\">\n                    <h4>Plant a {{item.category}} seed</h4>\n                    <p>Seed tray - column {{item.column}}, row {{item.row}}</p>\n                </div>\n                <div class=\"md-list-item-text\" ng-if=\"item.nextAction=='transplant'\">\n                    <h4>Transplant {{item.category}}</h4>\n                    <p>From seed tray - ({{item.column}},{{item.row}})</p>\n                    <p ng-if=\"item.toNFTColumn\">To NFT - ({{item.toNFTColumn}},{{item.toNFTRow}})</p>\n                    <p ng-if=\"!item.toNFTColumn\"><i class=\"fa fa-warning\"> NFC system is full, harvest first.</i></p>\n             \n                </div>\n            \n                <md-menu class=\"md-secondary\" ng-show=\"item.nextAction=='plantSeed' || (item.nextAction=='transplant' && item.toNFTColumn)\">\n                  <md-button class=\"icon-button\">\n                    <md-avatar ng-class=\"{'fa': true, 'fa-ellipsis-h': true}\"></md-avatar>\n                  </md-button>\n                  <md-menu-content width=\"4\">\n                    <md-menu-item ng-click=\"completeTask(item)\">\n                      <md-button>\n                        <md-avatar ng-class=\"{'fa': true, 'fa-check': true}\" ></md-avatar>\n                         Complete task\n                      </md-button>\n                    </md-menu-item>\n    \n                    <md-menu-item ng-click=\"reschedule(item)\">\n                      <md-button>\n                        <md-avatar ng-class=\"{'fa': true, 'fa-calendar-plus-o': true}\" ></md-avatar>\n                         Re-schedule to next week\n                      </md-button>\n                    </md-menu-item>\n                    <md-menu-divider></md-menu-divider>\n                    <md-menu-item ng-click=\"\">\n                       <md-button >\n                        Change to tomatoe\n                      </md-button>\n                    </md-menu-item>\n                    <md-menu-item ng-click=\"\">\n                       <md-button>\n                        Change to mint\n                      </md-button>\n                    </md-menu-item>\n                     <md-menu-item ng-click=\"\">\n                       <md-button>\n                        Change to persley\n                      </md-button>\n                    </md-menu-item>\n                  </md-menu-content>\n                </md-menu>\n                <md-divider md-inset></md-divider>\n            </md-list-item>\n            \n    </md-list>\n</div>\n<script>\n    \n(function(scope) {\n    \n\n    // $watch fires each time the node is triggered in the flow\n    scope.$watch('msg', function(msg) {\n        \n        if (msg) {\n    \n            scope.seedTrayState = msg.seedTrayState;\n            scope.NFTState = msg.NFTState;\n            \n            \n            scope.completeTask = function(item) {\n                \n                if (item.nextAction === \"transplant\") {\n                    \n                    var index =  scope.seedTrayState.indexOf(item);\n                    \n                    //Keep a copy the element stored in seed tray, for NFT generation\n                    let copy =JSON.parse(JSON.stringify(scope.seedTrayState[index]));\n                    \n                    scope.seedTrayState.splice(index,1);\n                    var newItem = {\n                        column: item.column,\n                        row: item.row, \n                        category: \"empty\"\n                    }\n                    \n                    scope.seedTrayState.push(newItem);\n                    scope.send({seedTrayState: scope.seedTrayState});\n                    \n                    \n                    var indexNewItem = scope.NFTState.indexOf(\n                            scope.NFTState.find(cell => cell.column === item.toNFTColumn && cell.row === item.toNFTRow)\n                    );\n                    \n                    \n                    // remove old item\n                    scope.NFTState.splice(indexNewItem,1);\n                    \n                   \n                    copy.column = item.toNFTColumn;\n                    copy.row = item.toNFTRow;\n                    copy.iconAction = \"\";\n                    copy.nextAction = undefined;\n                    copy.toNFTColumn = undefined;\n                    copy.toNFTRow = undefined;\n                    \n                    scope.NFTState.push(copy);\n                    \n                    //Update Seed Tray and NFTStateobject \n                    scope.send({NFTState: scope.NFTState});\n               \n                    \n                    \n                } else if (item.nextAction === \"plantSeed\") {\n                    \n                    var index =  scope.seedTrayState.indexOf(item);\n     \n                    //Copy the element\n                    let copy =JSON.parse(JSON.stringify(scope.seedTrayState[index]));\n                    \n                    // Update properties\n                    copy.iconAction = undefined;\n                    copy.nextAction = undefined;\n                    copy.category = \"salad\";\n                    \n                    var today = new Date();\n                    copy.seedPlantedDate = today.getFullYear() + \"-\" + today.getMonth()+1 + \"-\" + today.getDate();\n                    \n                    var germinationDate = new Date();\n                    germinationDate.setDate(today.getDate() + msg.lettuceDaysForGermination);\n                    copy.germinationDate = germinationDate.getFullYear() + \"-\" + (germinationDate.getMonth()+1) + \"-\" + germinationDate.getDate() ;\n                    \n                    var transplantDate = new Date();\n                    transplantDate.setDate(today.getDate() + msg.lettuceDaysForTransplant);\n                    copy.transplantDate = transplantDate.getFullYear() + \"-\" + (transplantDate.getMonth()+1) + \"-\" + transplantDate.getDate();\n                   \n                    var harvestDate = new Date();\n                    harvestDate.setDate(today.getDate() + msg.lettuceDaysForHarvest);\n                    copy.harvestDate = harvestDate.getFullYear() + \"-\" + (harvestDate.getMonth()+1) + \"-\" + harvestDate.getDate();\n                   \n                    // Remove \"old\" item\n                    scope.seedTrayState.splice(index,1);\n                    // Push the copy\n                    scope.seedTrayState.push(copy);\n                    \n                    scope.send({seedTrayState: scope.seedTrayState});\n                    \n                    \n                }\n                \n                if (item.nextAction === \"harvest\") {\n                    \n                    var index =  scope.NFTState.indexOf(item);\n                    scope.NFTState.splice(index,1);\n                    var newItem = {\n                        column: item.column,\n                        row: item.row, \n                        category: \"empty\"\n                    }\n                    \n                    scope.NFTState.push(newItem);\n                    //Update Seed Tray object \n                    scope.send({NFTState: scope.NFTState});\n                    \n                    \n                }\n            };\n            \n                        \n            scope.reschedule = function(item) {\n                \n                if (item.nextAction === \"transplant\") {\n                    // TODO never tested. \n                    \n                    var index =  scope.seedTrayState.indexOf(item);\n                    \n                    //Keep a copy the element stored in seed tray, for NFT generation\n                    let copy =JSON.parse(JSON.stringify(scope.seedTrayState[index]));\n                    \n                    scope.seedTrayState.splice(index,1);\n                    \n                    // Add 7 days\n                    var rescheduldedDate = new Date();\n                    rescheduldedDate.setTime(Date.parse(copy.transplantDate) + (7 * 24 * 60 * 60 * 1000));\n                    \n                    //Update transplantDate with date+ 7days \n                    copy.transplantDate = rescheduldedDate.getFullYear() + \"-\" + (rescheduldedDate.getMonth()+1) + \"-\" + rescheduldedDate.getDate();\n                   \n                    scope.seedTrayState.push(copy);\n                    scope.send({seedTrayState: scope.seedTrayState});\n                    \n                } else if (item.nextAction === \"plantSeed\") {\n                    \n                    var index =  scope.seedTrayState.indexOf(item);\n     \n                    //Copy the element\n                    let copy =JSON.parse(JSON.stringify(scope.seedTrayState[index]));\n                    \n                    // Update properties\n                    copy.iconAction = undefined;\n                    copy.nextAction = undefined;\n                    copy.category = \"empty\";\n                    \n                    // Remove \"old\" item\n                    scope.seedTrayState.splice(index,1);\n                    // Push the copy\n                    scope.seedTrayState.push(copy);\n\n                    scope.send({seedTrayState: scope.seedTrayState});\n                    \n                }\n                \n                if (item.nextAction === \"harvest\") {\n                    \n                    var index =  scope.NFTState.indexOf(item);\n                    scope.NFTState.splice(index,1);\n                    var newItem = {\n                        column: item.column,\n                        row: item.row, \n                        category: \"empty\"\n                    }\n                    \n                    scope.NFTState.push(newItem);\n          \n                    console.log(scope.NFTState);\n                    //Update Seed Tray object \n                    scope.send({NFTState: scope.NFTState});\n                    \n                    \n                }\n            };\n        }\n    \n    });\n\n})(scope);\n\n</script>",
         "storeOutMessages": false,
         "fwdInMessages": false,
         "resendOnRefresh": true,
@@ -6633,14 +7029,15 @@
         "z": "1d22c714.e50369",
         "name": "Compute time start of LED, based on sunrise/sunset",
         "info": "",
-        "x": 270,
-        "y": 2120,
+        "x": 330,
+        "y": 1994,
         "wires": []
     },
     {
         "id": "dbbbfdb2.44fe2",
         "type": "ads1x15-raspi",
         "z": "1d22c714.e50369",
+        "g": "c2cc2f7f.c6192",
         "property": "payload",
         "name": "",
         "chip": "IC_ADS1115",
@@ -6649,8 +7046,8 @@
         "samplesPerSecond0": "SPS_920",
         "samplesPerSecond1": "SPS_8",
         "progGainAmp": "PGA_4_096V",
-        "x": 400,
-        "y": 580,
+        "x": 520,
+        "y": 560,
         "wires": [
             [
                 "1de17954.4d8a97",
@@ -6662,6 +7059,7 @@
         "id": "34a30d8d.5cf552",
         "type": "inject",
         "z": "1d22c714.e50369",
+        "g": "c2cc2f7f.c6192",
         "name": "",
         "props": [
             {
@@ -6679,8 +7077,8 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 90,
-        "y": 574,
+        "x": 210,
+        "y": 560,
         "wires": [
             [
                 "c21651f8.1777",
@@ -6692,14 +7090,15 @@
         "id": "1de17954.4d8a97",
         "type": "function",
         "z": "1d22c714.e50369",
+        "g": "c2cc2f7f.c6192",
         "name": "Convert Voltage to ppm",
-        "func": "var waterTemperature = global.get(\"seedTray.water.temperature\") || 20;\n\nvar voltage = msg.payload[\"ADS1115 • I2C_ADDRESS_0x48 • Channel A0-GND • Voltage\"];\nvar compensationCoefficient = 1.0+0.02*(waterTemperature-25.0);    //temperature compensation formula: fFinalResult(25^C) = fFinalResult(current)/(1.0+0.02*(fTP-25.0));\n//var compensationVoltage=voltage/compensationCoefficient;  //temperature compensation\\\nvar compensationVoltage = voltage;\nmsg.tdsValue=(133.42*compensationVoltage*compensationVoltage*compensationVoltage - 255.86*compensationVoltage*compensationVoltage + 857.39*compensationVoltage)*0.5; //convert voltage value to tds value\n\nvar waterQualityMsg = { \n    payload: msg.tdsValue,\n    waterTemp: waterTemperature,\n    voltage: voltage\n};\n\n\nreturn  waterQualityMsg;\n",
+        "func": "var isWaterPumpActivated = global.get(\"settings.water_pump.activated\");\n\nvar waterTemperature = global.get(\"seedTray.water.temperature\") || 20;\n\nvar voltage = msg.payload[\"ADS1115 • I2C_ADDRESS_0x48 • Channel A0-GND • Voltage\"];\nvar compensationCoefficient = 1.0+0.02*(waterTemperature-25.0);    //temperature compensation formula: fFinalResult(25^C) = fFinalResult(current)/(1.0+0.02*(fTP-25.0));\n//var compensationVoltage=voltage/compensationCoefficient;  //temperature compensation\\\nvar compensationVoltage = voltage;\nmsg.tdsValue=(133.42*compensationVoltage*compensationVoltage*compensationVoltage - 255.86*compensationVoltage*compensationVoltage + 857.39*compensationVoltage)*0.5; //convert voltage value to tds value\n\nif (isWaterPumpActivated != 1) {\n    \n    var waterQualityMsg = { \n        payload: msg.tdsValue,\n        waterTemp: waterTemperature,\n        voltage: voltage\n    };\n    \n    \n    return  waterQualityMsg;\n}\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 610,
-        "y": 580,
+        "x": 730,
+        "y": 560,
         "wires": [
             [
                 "b2d124cc.ae5b18",
@@ -6729,20 +7128,22 @@
         "type": "rpi-gpio out",
         "z": "1d22c714.e50369",
         "d": true,
+        "g": "c2cc2f7f.c6192",
         "name": "Power on TDS meter",
         "pin": "7",
         "set": true,
         "level": "1",
         "freq": "",
         "out": "out",
-        "x": 360,
-        "y": 514,
+        "x": 480,
+        "y": 494,
         "wires": []
     },
     {
         "id": "839e7131.1b0c9",
         "type": "delay",
         "z": "1d22c714.e50369",
+        "g": "c2cc2f7f.c6192",
         "name": "2s",
         "pauseType": "delay",
         "timeout": "2",
@@ -6754,8 +7155,8 @@
         "randomLast": "5",
         "randomUnits": "seconds",
         "drop": false,
-        "x": 250,
-        "y": 580,
+        "x": 370,
+        "y": 560,
         "wires": [
             [
                 "dbbbfdb2.44fe2"
@@ -6767,20 +7168,22 @@
         "type": "rpi-gpio out",
         "z": "1d22c714.e50369",
         "d": true,
+        "g": "c2cc2f7f.c6192",
         "name": "Power off TDS meter",
         "pin": "7",
         "set": false,
         "level": "0",
         "freq": "",
         "out": "out",
-        "x": 580,
-        "y": 660,
+        "x": 700,
+        "y": 640,
         "wires": []
     },
     {
         "id": "3db55298.70f37e",
         "type": "inject",
         "z": "5127740.f28848c",
+        "g": "8e57852f.2718a8",
         "name": "Regularly check water level, seed tray",
         "props": [
             {
@@ -6798,8 +7201,8 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 230,
-        "y": 620,
+        "x": 290,
+        "y": 640,
         "wires": [
             [
                 "d5c862b.d3e0ba"
@@ -6810,13 +7213,14 @@
         "id": "4a15ab80.153564",
         "type": "link out",
         "z": "5127740.f28848c",
+        "g": "3cd27958.a703b6",
         "name": "Switch on nutriment pump",
         "links": [
             "4c8ae515.b1a41c",
             "46eef45e.b4cddc"
         ],
-        "x": 755,
-        "y": 440,
+        "x": 815,
+        "y": 520,
         "wires": []
     },
     {
@@ -6889,16 +7293,6 @@
                 "d977f79c.7973f8"
             ]
         ]
-    },
-    {
-        "id": "a22d378.b8793c8",
-        "type": "comment",
-        "z": "5127740.f28848c",
-        "name": "### Emergency stop water pump is seed tray is full",
-        "info": "",
-        "x": 250,
-        "y": 560,
-        "wires": []
     },
     {
         "id": "69d27d4f.253984",
@@ -7039,8 +7433,8 @@
         "z": "1d22c714.e50369",
         "name": "## Seed tray - water spray",
         "info": "",
-        "x": 170,
-        "y": 2360,
+        "x": 250,
+        "y": 2274,
         "wires": []
     },
     {
@@ -7058,8 +7452,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 814,
-        "y": 554,
+        "x": 830,
+        "y": 520,
         "wires": [
             [
                 "1426c687.455629"
@@ -7072,8 +7466,8 @@
         "z": "87cb301d.9893c",
         "name": "waterPumpTimer",
         "storageNode": "217cc961.603ce6",
-        "x": 1054,
-        "y": 554,
+        "x": 1070,
+        "y": 520,
         "wires": [
             [
                 "fcfbe87b.4c3f98"
@@ -7090,8 +7484,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 1254,
-        "y": 554,
+        "x": 1270,
+        "y": 520,
         "wires": [
             [
                 "766d6f3d.e9fdb"
@@ -7113,8 +7507,8 @@
         "randomLast": "5",
         "randomUnits": "seconds",
         "drop": false,
-        "x": 1424,
-        "y": 554,
+        "x": 1440,
+        "y": 520,
         "wires": [
             [
                 "2d32f6d2.b52eaa"
@@ -7129,8 +7523,8 @@
         "links": [
             "83c9cbe9.ff0f68"
         ],
-        "x": 1519,
-        "y": 554,
+        "x": 1535,
+        "y": 520,
         "wires": []
     },
     {
@@ -7259,6 +7653,7 @@
         "id": "d5c862b.d3e0ba",
         "type": "switch",
         "z": "5127740.f28848c",
+        "g": "8e57852f.2718a8",
         "name": "If seed tray water level > 50",
         "property": "seedTray.water.level.current",
         "propertyType": "global",
@@ -7272,8 +7667,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 540,
-        "y": 620,
+        "x": 600,
+        "y": 640,
         "wires": [
             [
                 "6bd46816.3f5cd8"
@@ -7284,12 +7679,1363 @@
         "id": "6bd46816.3f5cd8",
         "type": "link out",
         "z": "5127740.f28848c",
+        "g": "8e57852f.2718a8",
         "name": "Switch on nutriment pump",
         "links": [
             "83c9cbe9.ff0f68"
         ],
-        "x": 715,
+        "x": 775,
+        "y": 640,
+        "wires": []
+    },
+    {
+        "id": "d14f13be.f71eb",
+        "type": "apple-find-me",
+        "z": "b2dec5c2.4f2758",
+        "account": "feb8425d.ff4b4",
+        "name": "Home location",
+        "triggerInterval": "60000",
+        "geoAPI": "OSM",
+        "distanceInMeter": "150",
+        "hereMapApiKey": "",
+        "googleMapsApiKey": "",
+        "places": [
+            {
+                "name": "Home",
+                "lat": "35.658196156866424",
+                "lon": "139.71987455770463"
+            }
+        ],
+        "x": 380,
+        "y": 320,
+        "wires": [
+            [
+                "afc2699b.555188"
+            ]
+        ]
+    },
+    {
+        "id": "c8dbc732.1ab628",
+        "type": "debug",
+        "z": "1d22c714.e50369",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1120,
+        "y": 2034,
+        "wires": []
+    },
+    {
+        "id": "4129940e.74d48c",
+        "type": "comment",
+        "z": "1d22c714.e50369",
+        "name": "##TODO Fix me - timer is not always set to LED",
+        "info": "to reproduce - add new timers.\nSolutions - find the indice for output = \"0\"",
+        "x": 980,
+        "y": 2114,
+        "wires": []
+    },
+    {
+        "id": "afc2699b.555188",
+        "type": "function",
+        "z": "b2dec5c2.4f2758",
+        "name": "Extract iPhone location",
+        "func": "var location_iPhone = msg.payload.iPhone[0].locationInfo.currentPlace;\nvar newMsg = {};\nnewMsg.location_iPhone = location_iPhone;\nnewMsg.topic = \"location_iPhone\";\nreturn newMsg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 610,
+        "y": 320,
+        "wires": [
+            [
+                "f40c3a92.6bfd38"
+            ]
+        ]
+    },
+    {
+        "id": "f40c3a92.6bfd38",
+        "type": "switch",
+        "z": "b2dec5c2.4f2758",
+        "name": "Is Home?",
+        "property": "location_iPhone",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "Home",
+                "vt": "str"
+            },
+            {
+                "t": "neq",
+                "v": "Home",
+                "vt": "str"
+            }
+        ],
+        "checkall": "false",
+        "repair": false,
+        "outputs": 2,
+        "x": 820,
+        "y": 320,
+        "wires": [
+            [
+                "830f2500.757e68"
+            ],
+            [
+                "7268094f.2cf1e8"
+            ]
+        ]
+    },
+    {
+        "id": "f0bdf07d.baae8",
+        "type": "change",
+        "z": "b2dec5c2.4f2758",
+        "name": "Switch on - Stripe led",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{\"operation\":\"SET\",\"dps\":20,\"set\":true}",
+                "tot": "json"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1180,
+        "y": 200,
+        "wires": [
+            [
+                "6e1f9a7d.a10f74"
+            ]
+        ]
+    },
+    {
+        "id": "7268094f.2cf1e8",
+        "type": "change",
+        "z": "b2dec5c2.4f2758",
+        "name": "Switch off stripe led",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{\"operation\":\"SET\",\"dps\":20,\"set\":false}",
+                "tot": "json"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1100,
+        "y": 380,
+        "wires": [
+            [
+                "6e1f9a7d.a10f74"
+            ]
+        ]
+    },
+    {
+        "id": "6e1f9a7d.a10f74",
+        "type": "tuya-smart-device",
+        "z": "b2dec5c2.4f2758",
+        "deviceName": "LED strip - living room",
+        "deviceId": "744288502cf4323a130e",
+        "deviceKey": "c4dcdb8b912b91ad",
+        "x": 1460,
+        "y": 280,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2080a9c5.b03c96",
+        "type": "sun events",
+        "z": "b2dec5c2.4f2758",
+        "testmode": false,
+        "verbose": false,
+        "topic": "sunEvent",
+        "name": "",
+        "x": 620,
+        "y": 200,
+        "wires": [
+            [
+                "104a9f01.69c951",
+                "2f747044.3ba46"
+            ]
+        ]
+    },
+    {
+        "id": "104a9f01.69c951",
+        "type": "debug",
+        "z": "b2dec5c2.4f2758",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 850,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "830f2500.757e68",
+        "type": "join",
+        "z": "b2dec5c2.4f2758",
+        "name": "",
+        "mode": "custom",
+        "build": "object",
+        "property": "payload",
+        "propertyType": "msg",
+        "key": "topic",
+        "joiner": "\\n",
+        "joinerType": "str",
+        "accumulate": true,
+        "timeout": "",
+        "count": "2",
+        "reduceRight": false,
+        "reduceExp": "",
+        "reduceInit": "",
+        "reduceInitType": "num",
+        "reduceFixup": "",
+        "x": 990,
+        "y": 200,
+        "wires": [
+            [
+                "f0bdf07d.baae8",
+                "5de140a8.bfbc4"
+            ]
+        ]
+    },
+    {
+        "id": "2f747044.3ba46",
+        "type": "switch",
+        "z": "b2dec5c2.4f2758",
+        "name": "If sunset starts",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "sunsetStart",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 820,
+        "y": 200,
+        "wires": [
+            [
+                "830f2500.757e68"
+            ]
+        ]
+    },
+    {
+        "id": "5de140a8.bfbc4",
+        "type": "debug",
+        "z": "b2dec5c2.4f2758",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1110,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "367950d3.adb08",
+        "type": "inject",
+        "z": "b2dec5c2.4f2758",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "00 23 * * *",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "23",
+        "payload": "",
+        "payloadType": "date",
+        "x": 880,
+        "y": 420,
+        "wires": [
+            [
+                "7268094f.2cf1e8"
+            ]
+        ]
+    },
+    {
+        "id": "17aafb18.e74d15",
+        "type": "comment",
+        "z": "b2dec5c2.4f2758",
+        "name": "## Switch off after 23'00",
+        "info": "",
+        "x": 650,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "78e792aa.737b4c",
+        "type": "comment",
+        "z": "b2dec5c2.4f2758",
+        "name": "## Switch on at sunset and if im home",
+        "info": "",
+        "x": 970,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "db92ec4.114d91",
+        "type": "smartthings-node-onoff",
+        "z": "b2dec5c2.4f2758",
+        "conf": "b0151dde.26366",
+        "name": "Bedroom #1",
+        "device": "d7fdde5e-b646-459d-84b6-f7480a5cc123",
+        "x": 800,
+        "y": 580,
+        "wires": [
+            [
+                "20e189f.91df976"
+            ]
+        ]
+    },
+    {
+        "id": "91f23b22.918368",
+        "type": "smartthings-node-onoff",
+        "z": "b2dec5c2.4f2758",
+        "conf": "b0151dde.26366",
+        "name": "Bedroom #2",
+        "device": "c865d0af-ad3b-47f9-a0ef-2adea22743fa",
+        "x": 810,
         "y": 620,
+        "wires": [
+            [
+                "20e189f.91df976"
+            ]
+        ]
+    },
+    {
+        "id": "7557647a.76fa1c",
+        "type": "smartthings-node-onoff",
+        "z": "b2dec5c2.4f2758",
+        "conf": "b0151dde.26366",
+        "name": "Bedroom #3",
+        "device": "073e57cf-e0af-4d02-807d-9cfac4f18c80",
+        "x": 810,
+        "y": 660,
+        "wires": [
+            [
+                "20e189f.91df976"
+            ]
+        ]
+    },
+    {
+        "id": "c94e0c39.94e5",
+        "type": "smartthings-node-onoff",
+        "z": "b2dec5c2.4f2758",
+        "conf": "b0151dde.26366",
+        "name": "Bed room lamp #4",
+        "device": "be05bd6d-878b-4ea3-b674-1bd19fc3945e",
+        "x": 830,
+        "y": 700,
+        "wires": [
+            [
+                "20e189f.91df976"
+            ]
+        ]
+    },
+    {
+        "id": "fb8f712f.edb8b",
+        "type": "inject",
+        "z": "b2dec5c2.4f2758",
+        "name": "Switch on",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "switch",
+        "payload": "{\"value\":1}",
+        "payloadType": "json",
+        "x": 540,
+        "y": 580,
+        "wires": [
+            [
+                "db92ec4.114d91",
+                "91f23b22.918368",
+                "7557647a.76fa1c",
+                "c94e0c39.94e5"
+            ]
+        ]
+    },
+    {
+        "id": "20e189f.91df976",
+        "type": "debug",
+        "z": "b2dec5c2.4f2758",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1090,
+        "y": 640,
+        "wires": []
+    },
+    {
+        "id": "54dfc17f.224fb",
+        "type": "inject",
+        "z": "b2dec5c2.4f2758",
+        "name": "Switch off",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "switch",
+        "payload": "{\"value\":0}",
+        "payloadType": "json",
+        "x": 540,
+        "y": 740,
+        "wires": [
+            [
+                "db92ec4.114d91",
+                "91f23b22.918368",
+                "7557647a.76fa1c",
+                "c94e0c39.94e5"
+            ]
+        ]
+    },
+    {
+        "id": "d7959315.ce8da",
+        "type": "debug",
+        "z": "b2dec5c2.4f2758",
+        "g": "955cda67.93f6e8",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 790,
+        "y": 1480,
+        "wires": []
+    },
+    {
+        "id": "64af5848.7dd3f8",
+        "type": "function",
+        "z": "b2dec5c2.4f2758",
+        "g": "90cba974.1b70f8",
+        "name": "Find Scene ID",
+        "func": "var scenes = flow.get(\"scenes\");\nvar scene =  msg.payload;\n\nfunction FindScene(name){\n    let index = scenes.find(o => o.name === name);\n    node.warn(index);\n    let sceneID = index.sceneID;\n    node.warn(sceneID);\n    return sceneID\n}\n\n\n\nmsg.headers = {\"Authorization\": global.get(\"SwitchBotAPI\"),\n               \"ContentType\": \"application/json; charset=utf8\"};\n                \nmsg.url = \"https://api.switch-bot.com/v1.0/scenes/\"+ FindScene(scene) +\"/execute\";\nmsg.payload = \"\";\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 1650,
+        "y": 1640,
+        "wires": [
+            [
+                "a4ea3e4e.edd54"
+            ]
+        ]
+    },
+    {
+        "id": "e70c7826.ead9f8",
+        "type": "inject",
+        "z": "b2dec5c2.4f2758",
+        "g": "90cba974.1b70f8",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "BedroomSound",
+        "payloadType": "str",
+        "x": 1430,
+        "y": 1640,
+        "wires": [
+            [
+                "64af5848.7dd3f8"
+            ]
+        ]
+    },
+    {
+        "id": "a4ea3e4e.edd54",
+        "type": "http request",
+        "z": "b2dec5c2.4f2758",
+        "g": "90cba974.1b70f8",
+        "name": "Execute",
+        "method": "POST",
+        "ret": "obj",
+        "paytoqs": "query",
+        "url": "",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "authType": "",
+        "x": 1870,
+        "y": 1640,
+        "wires": [
+            [
+                "487a2017.f0152"
+            ]
+        ]
+    },
+    {
+        "id": "487a2017.f0152",
+        "type": "debug",
+        "z": "b2dec5c2.4f2758",
+        "g": "90cba974.1b70f8",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 2060,
+        "y": 1640,
+        "wires": []
+    },
+    {
+        "id": "3cb22fb4.1c60d",
+        "type": "function",
+        "z": "b2dec5c2.4f2758",
+        "g": "ad64f484.3bd408",
+        "name": "Control device White B",
+        "func": "var devices = flow.get(\"devices\");\n\nvar device =  \"Hub Mini DF\"; //enter name of the device or use msg.payload \n\nfunction FindDevice(name){\n    let index = devices.find(o => o.name === name);\n    node.warn(index);\n    let deviceID = index.deviceID;\n    return deviceID\n}\nvar command = msg.payload;\n\nmsg.headers = {\"Authorization\": global.get(\"SwitchBotAPI\"),\n               \"ContentType\": \"application/json; charset=utf8\"};\n                \nmsg.url = \"https://api.switch-bot.com/v1.0/devices/\"+ FindDevice(device) +\"/commands\"\nmsg.payload = {\"command\":command,\"parameter\":\"default\",\"commandType\":\"command\"};\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 1610,
+        "y": 880,
+        "wires": [
+            [
+                "bb4b8438.9dd088"
+            ]
+        ]
+    },
+    {
+        "id": "9bd57614.6bf608",
+        "type": "inject",
+        "z": "b2dec5c2.4f2758",
+        "g": "ad64f484.3bd408",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "turnOn",
+        "payloadType": "str",
+        "x": 1400,
+        "y": 840,
+        "wires": [
+            [
+                "3cb22fb4.1c60d"
+            ]
+        ]
+    },
+    {
+        "id": "bb4b8438.9dd088",
+        "type": "http request",
+        "z": "b2dec5c2.4f2758",
+        "g": "ad64f484.3bd408",
+        "name": "Command",
+        "method": "POST",
+        "ret": "obj",
+        "paytoqs": "query",
+        "url": "",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "authType": "",
+        "x": 1820,
+        "y": 880,
+        "wires": [
+            [
+                "d2a78cee.1fb97"
+            ]
+        ]
+    },
+    {
+        "id": "1f156a7f.f7faf6",
+        "type": "inject",
+        "z": "b2dec5c2.4f2758",
+        "g": "ad64f484.3bd408",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "turnOff",
+        "payloadType": "str",
+        "x": 1400,
+        "y": 880,
+        "wires": [
+            [
+                "3cb22fb4.1c60d"
+            ]
+        ]
+    },
+    {
+        "id": "d2a78cee.1fb97",
+        "type": "debug",
+        "z": "b2dec5c2.4f2758",
+        "g": "ad64f484.3bd408",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1980,
+        "y": 880,
+        "wires": []
+    },
+    {
+        "id": "8518d691.cf94f8",
+        "type": "inject",
+        "z": "b2dec5c2.4f2758",
+        "g": "ad64f484.3bd408",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "press",
+        "payloadType": "str",
+        "x": 1400,
+        "y": 920,
+        "wires": [
+            [
+                "3cb22fb4.1c60d"
+            ]
+        ]
+    },
+    {
+        "id": "c2fe958a.eedbe8",
+        "type": "function",
+        "z": "b2dec5c2.4f2758",
+        "g": "82beadaa.80f9a",
+        "name": "Control device Curtain",
+        "func": "var devices = flow.get(\"devices\");\nvar param = msg.topic;\n\nif(param === undefined){\n    param = \"default\";\n}\n\nvar device =  \"Curtain\"; //enter name of the device or use msg.payload \n\nfunction FindDevice(name){\n    let index = devices.find(o => o.name === name);\n    node.warn(index);\n    let deviceID = index.deviceID;\n    return deviceID\n}\nvar command = msg.payload;\n\nmsg.headers = {\"Authorization\": global.get(\"SwitchBotAPI\"),\n               \"ContentType\": \"application/json; charset=utf8\"};\n                \nmsg.url = \"https://api.switch-bot.com/v1.0/devices/\"+ FindDevice(device) +\"/commands\"\nmsg.payload = {\"command\":command,\"parameter\":param,\"commandType\":\"command\"};\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 1590,
+        "y": 1100,
+        "wires": [
+            [
+                "a96301bd.0c4dd"
+            ]
+        ]
+    },
+    {
+        "id": "b5c777eb.591838",
+        "type": "inject",
+        "z": "b2dec5c2.4f2758",
+        "g": "82beadaa.80f9a",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "turnOn",
+        "payloadType": "str",
+        "x": 1400,
+        "y": 1060,
+        "wires": [
+            [
+                "c2fe958a.eedbe8"
+            ]
+        ]
+    },
+    {
+        "id": "a96301bd.0c4dd",
+        "type": "http request",
+        "z": "b2dec5c2.4f2758",
+        "g": "82beadaa.80f9a",
+        "name": "Command",
+        "method": "POST",
+        "ret": "obj",
+        "paytoqs": "query",
+        "url": "",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "authType": "",
+        "x": 1800,
+        "y": 1100,
+        "wires": [
+            [
+                "c98498a0.ef5ea8"
+            ]
+        ]
+    },
+    {
+        "id": "30bba459.0efd3c",
+        "type": "inject",
+        "z": "b2dec5c2.4f2758",
+        "g": "82beadaa.80f9a",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "turnOff",
+        "payloadType": "str",
+        "x": 1400,
+        "y": 1100,
+        "wires": [
+            [
+                "c2fe958a.eedbe8"
+            ]
+        ]
+    },
+    {
+        "id": "c98498a0.ef5ea8",
+        "type": "debug",
+        "z": "b2dec5c2.4f2758",
+        "g": "82beadaa.80f9a",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1980,
+        "y": 1100,
+        "wires": []
+    },
+    {
+        "id": "18996bc4.33bdb4",
+        "type": "inject",
+        "z": "b2dec5c2.4f2758",
+        "g": "82beadaa.80f9a",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "0,ff,25",
+        "payload": "setPosition",
+        "payloadType": "str",
+        "x": 1440,
+        "y": 1200,
+        "wires": [
+            [
+                "c2fe958a.eedbe8"
+            ]
+        ]
+    },
+    {
+        "id": "e274d666.f02638",
+        "type": "comment",
+        "z": "b2dec5c2.4f2758",
+        "g": "82beadaa.80f9a",
+        "name": "Pos params",
+        "info": "Curtain\tcommand\tsetPosition\n\n\n\"index0,mode0,postion0\"\n\n\nmode: 0 (Performance Mode), 1 (Silent Mode), ff (default mode)\npostion: 0~100 (0 means opened, 100 means closed)",
+        "x": 1620,
+        "y": 1160,
+        "wires": []
+    },
+    {
+        "id": "c46b3d7e.34b62",
+        "type": "http request",
+        "z": "b2dec5c2.4f2758",
+        "g": "98e346c4.842908",
+        "name": "All Devices",
+        "method": "GET",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "authType": "",
+        "x": 760,
+        "y": 940,
+        "wires": [
+            [
+                "af637338.5ccc6",
+                "5d50c8ff.4dfa98"
+            ]
+        ]
+    },
+    {
+        "id": "b92e57cb.92d5a8",
+        "type": "function",
+        "z": "b2dec5c2.4f2758",
+        "g": "98e346c4.842908",
+        "name": "Fromat URL",
+        "func": "//needs authentication token stored as global variable\nglobal.set(\"SwitchBotAPI\", \"9a2cb43263932728941038c755f47bdd5112a1f42827b94ce1a8564f6c86c51c9383f7e100d208f5433c5a6f1ceebac1\");\nmsg.headers = {Authorization: global.get(\"SwitchBotAPI\")};\nmsg.url = \"https://api.switch-bot.com/v1.0/devices\";\n\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 570,
+        "y": 940,
+        "wires": [
+            [
+                "c46b3d7e.34b62"
+            ]
+        ]
+    },
+    {
+        "id": "cee02e4.49bfad",
+        "type": "inject",
+        "z": "b2dec5c2.4f2758",
+        "g": "98e346c4.842908",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "str",
+        "x": 340,
+        "y": 940,
+        "wires": [
+            [
+                "b92e57cb.92d5a8"
+            ]
+        ]
+    },
+    {
+        "id": "af637338.5ccc6",
+        "type": "function",
+        "z": "b2dec5c2.4f2758",
+        "g": "98e346c4.842908",
+        "name": "Save as flow",
+        "func": "var devices = msg.payload.body.deviceList;\nvar infraredRemoteList = msg.payload.body.infraredRemoteList;\n\nnode.warn(infraredRemoteList);\n\nvar deviceList = [];\nvar infraRemoteList = [];\n\nfor( var y in devices) {\n    \n    let device = {\"type\": devices[y].deviceType,\n                  \"name\": devices[y].deviceName,\n                  \"deviceID\": devices[y].deviceId\n                 };\n    deviceList.push(device);\n} \nflow.set(\"devices\", deviceList);\n\nfor( var infra in infraredRemoteList) {\n    \n    let device = {\"remoteType\": infraredRemoteList[y].remoteType,\n                  \"deviceName\": infraredRemoteList[y].deviceName,\n                  \"deviceID\": infraredRemoteList[y].deviceId\n                 };\n    infraRemoteList.push(device);\n} \nflow.set(\"infraredRemoteList\", infraRemoteList)\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 1000,
+        "y": 940,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "8d660f51.a75cf",
+        "type": "comment",
+        "z": "b2dec5c2.4f2758",
+        "g": "98e346c4.842908",
+        "name": "Get all devices and save as flow",
+        "info": "",
+        "x": 420,
+        "y": 900,
+        "wires": []
+    },
+    {
+        "id": "5d50c8ff.4dfa98",
+        "type": "debug",
+        "z": "b2dec5c2.4f2758",
+        "g": "98e346c4.842908",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 880,
+        "y": 900,
+        "wires": []
+    },
+    {
+        "id": "841fa47b.903488",
+        "type": "http request",
+        "z": "b2dec5c2.4f2758",
+        "g": "e4c51a6a.02a678",
+        "name": "All Devices",
+        "method": "GET",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "authType": "",
+        "x": 760,
+        "y": 1100,
+        "wires": [
+            [
+                "e34e8e48.b6d52"
+            ]
+        ]
+    },
+    {
+        "id": "34a7b2a9.c5d22e",
+        "type": "function",
+        "z": "b2dec5c2.4f2758",
+        "g": "e4c51a6a.02a678",
+        "name": "Fromat URL",
+        "func": "//needs authentication token stored as global variable\n\nmsg.headers = {Authorization: global.get(\"SwitchBotAPI\")};\nmsg.url = \"https://api.switch-bot.com/v1.0/scenes\";\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 570,
+        "y": 1100,
+        "wires": [
+            [
+                "841fa47b.903488"
+            ]
+        ]
+    },
+    {
+        "id": "f3a44e86.445bb",
+        "type": "inject",
+        "z": "b2dec5c2.4f2758",
+        "g": "e4c51a6a.02a678",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "str",
+        "x": 340,
+        "y": 1100,
+        "wires": [
+            [
+                "34a7b2a9.c5d22e"
+            ]
+        ]
+    },
+    {
+        "id": "e34e8e48.b6d52",
+        "type": "function",
+        "z": "b2dec5c2.4f2758",
+        "g": "e4c51a6a.02a678",
+        "name": "Save as flow",
+        "func": "var scenes = msg.payload.body\n\nvar sceneList = [];\n\nfor( var y in scenes) {\n    \n    let scene = { \"name\": scenes[y].sceneName,\n                  \"sceneID\": scenes[y].sceneId\n                 };\n    sceneList.push(scene);\n} \nflow.set(\"scenes\", sceneList);\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 1000,
+        "y": 1100,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "3882a851.983ef8",
+        "type": "comment",
+        "z": "b2dec5c2.4f2758",
+        "g": "e4c51a6a.02a678",
+        "name": "Get all devices and save as flow",
+        "info": "",
+        "x": 420,
+        "y": 1060,
+        "wires": []
+    },
+    {
+        "id": "fdf6b7dc.749448",
+        "type": "function",
+        "z": "b2dec5c2.4f2758",
+        "g": "2b4d53e1.d6e2cc",
+        "name": "Get Status",
+        "func": "var devices = flow.get(\"devices\");\n\nvar device =  msg.payload; //enter name of the device or use msg.payload \n\nfunction FindDevice(name){\n    let index = devices.find(o => o.name === name);\n    node.warn(index);\n    let deviceID = index.deviceID;\n    return deviceID\n}\n\nmsg.headers = {\"Authorization\": global.get(\"SwitchBotAPI\"),\n               \"ContentType\": \"application/json; charset=utf8\"};\n                \nmsg.url = \"https://api.switch-bot.com/v1.0/devices/\"+ FindDevice(device) +\"/status\"\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 530,
+        "y": 1220,
+        "wires": [
+            [
+                "3bfce5e7.124e4a"
+            ]
+        ]
+    },
+    {
+        "id": "352d13c7.f80c1c",
+        "type": "inject",
+        "z": "b2dec5c2.4f2758",
+        "g": "2b4d53e1.d6e2cc",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "Hub Mini DF",
+        "payloadType": "str",
+        "x": 370,
+        "y": 1220,
+        "wires": [
+            [
+                "fdf6b7dc.749448"
+            ]
+        ]
+    },
+    {
+        "id": "3bfce5e7.124e4a",
+        "type": "http request",
+        "z": "b2dec5c2.4f2758",
+        "g": "2b4d53e1.d6e2cc",
+        "name": "Status",
+        "method": "GET",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "authType": "",
+        "x": 730,
+        "y": 1220,
+        "wires": [
+            [
+                "9d34c528.2d33f8"
+            ]
+        ]
+    },
+    {
+        "id": "9d34c528.2d33f8",
+        "type": "debug",
+        "z": "b2dec5c2.4f2758",
+        "g": "2b4d53e1.d6e2cc",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 910,
+        "y": 1220,
+        "wires": []
+    },
+    {
+        "id": "f34949f6.4f5bf8",
+        "type": "function",
+        "z": "b2dec5c2.4f2758",
+        "g": "955cda67.93f6e8",
+        "name": "Control device IR",
+        "func": "var devices = flow.get(\"infraredRemoteList\");\nvar device =  \"Living Room Air Conditioner\"; //enter name of the device or use msg.payload \n\nvar command = msg.payload;\n\nfunction FindDevice(name){\n    let index = devices.find(o => o.deviceName === name);\n    node.warn(index);\n    let deviceID = index.deviceID;\n    return deviceID\n}\n\nvar parameter = msg.temperature + \",\" + msg.mode + \",\" + msg.fanSpeed + \",\" + msg.powerState;\nmsg.payload = {\"command\":\"setAll\",\"parameter\":parameter,\"commandType\":\"command\"};\n\n\n    \nmsg.headers = {\"Authorization\": global.get(\"SwitchBotAPI\"),\n               \"ContentType\": \"application/json; charset=utf8\"};\n                \nmsg.url = \"https://api.switch-bot.com/v1.0/devices/\"+ FindDevice(device) +\"/commands\"\n\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 670,
+        "y": 1320,
+        "wires": [
+            [
+                "d3b26d8c.5038b",
+                "d7959315.ce8da"
+            ]
+        ]
+    },
+    {
+        "id": "e6eadb02.180c68",
+        "type": "inject",
+        "z": "b2dec5c2.4f2758",
+        "g": "955cda67.93f6e8",
+        "name": "turnOn - 24 heater",
+        "props": [
+            {
+                "p": "powerState",
+                "v": "on",
+                "vt": "str"
+            },
+            {
+                "p": "temperature",
+                "v": "24",
+                "vt": "str"
+            },
+            {
+                "p": "mode",
+                "v": "5",
+                "vt": "str"
+            },
+            {
+                "p": "fanSpeed",
+                "v": "3",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payloadType": "str",
+        "x": 450,
+        "y": 1320,
+        "wires": [
+            [
+                "f34949f6.4f5bf8"
+            ]
+        ]
+    },
+    {
+        "id": "d3b26d8c.5038b",
+        "type": "http request",
+        "z": "b2dec5c2.4f2758",
+        "g": "955cda67.93f6e8",
+        "name": "Command",
+        "method": "POST",
+        "ret": "obj",
+        "paytoqs": "query",
+        "url": "",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "authType": "",
+        "x": 790,
+        "y": 1380,
+        "wires": [
+            [
+                "c8a9c695.2f5788"
+            ]
+        ]
+    },
+    {
+        "id": "c8a9c695.2f5788",
+        "type": "debug",
+        "z": "b2dec5c2.4f2758",
+        "g": "955cda67.93f6e8",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 970,
+        "y": 1380,
+        "wires": []
+    },
+    {
+        "id": "be5bfc4f.6cdd8",
+        "type": "comment",
+        "z": "b2dec5c2.4f2758",
+        "g": "955cda67.93f6e8",
+        "name": "Custom IR",
+        "info": "deviceType\tcommandType\tCommand\tcommand parameter\tDescription\n\nAll home appliance types except Others\t\"\"\tturnOn\tdefault\tevery home appliance can be turned on by default\n\nAll home appliance types except Others\tcommand\tturnOff\tdefault\tevery home appliance can be turned off by default\n\nOthers\tcustomize\t{user-defined button name}\tdefault\tall user-defined buttons must be configured with commandType=customize\nAir Conditioner\tcommand\tsetAll\t{temperature},{mode},{fan speed},{power state}\ne.g. 26,1,3,on\tthe unit of temperature is in celsius;\nmodes include 1 (auto), 2 (cool), 3 (dry), 4 (fan), 5 (heat);\nfan speed includes 1 (auto), 2 (low), 3 (medium), 4 (high);\npower state includes on and off\nTV, IPTV/Streamer, Set Top Box\tcommand\tSetChannel\t{channel number}, e.g. 15\tset the TV channel to switch to\ncommand\tvolumeAdd\tdefault\tvolume up\ncommand\tvolumeSub\tdefault\tvolume down\ncommand\tchannelAdd\tdefault\tnext channel\ncommand\tchannelSub\tdefault\tprevious channel\nDVD, Speaker\tcommand\tsetMute\tdefault\tmute/unmute\ncommand\tFastForward\tdefault\tfast forward\ncommand\tRewind\tdefault\trewind\ncommand\tNext\tdefault\tnext track\ncommand\tPrevious\tdefault\tlast track\ncommand\tPause\tdefault\tpause\ncommand\tPlay\tdefault\tplay/resume\ncommand\tStop\tdefault\tstop\nSpeaker\tcommand\tvolumeAdd\tdefault\tvolume up\ncommand\tvolumeSub\tdefault\tvolume down\nFan\tcommand\tswing\tdefault\tswing\ncommand\ttimer\tdefault\tset timer\ncommand\tlowSpeed\tdefault\tset fan speed to low\ncommand\tmiddleSpeed\tdefault\tset fan speed to medium\ncommand\thighSpeed\tdefault\tset fan speed to high\nLight\tcommand\tbrightnessUp\tdefault\tbrightness up\ncommand\tbrightnessDown\tdefault\tbrightness down\nNote: Most of the devices support turnOn or turnOff, which are case-sensitive. For infrared remote devices, when you have created customized buttons, you must set commandType to customize, otherwise the command will not work. command needs to be set to the name of the customized button.",
+        "x": 620,
+        "y": 1460,
+        "wires": []
+    },
+    {
+        "id": "caa373a3.3259a",
+        "type": "inject",
+        "z": "b2dec5c2.4f2758",
+        "g": "955cda67.93f6e8",
+        "name": "turnOff",
+        "props": [
+            {
+                "p": "powerState",
+                "v": "off",
+                "vt": "str"
+            },
+            {
+                "p": "temperature",
+                "v": "26",
+                "vt": "str"
+            },
+            {
+                "p": "mode",
+                "v": "5",
+                "vt": "str"
+            },
+            {
+                "p": "fanSpeed",
+                "v": "3",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 490,
+        "y": 1380,
+        "wires": [
+            [
+                "f34949f6.4f5bf8"
+            ]
+        ]
+    },
+    {
+        "id": "edc77ee8.7d8c",
+        "type": "inject",
+        "z": "b2dec5c2.4f2758",
+        "name": "Manual switch on",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 1050,
+        "y": 260,
+        "wires": [
+            [
+                "f0bdf07d.baae8"
+            ]
+        ]
+    },
+    {
+        "id": "c86dc712.4a8a48",
+        "type": "debug",
+        "z": "87cb301d.9893c",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1120,
+        "y": 420,
         "wires": []
     }
 ]
