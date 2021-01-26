@@ -58,65 +58,16 @@
             "a4ea3e4e.edd54",
             "487a2017.f0152"
         ],
-        "x": 1304,
-        "y": 1599,
+        "x": 74,
+        "y": 1699,
         "w": 872,
         "h": 82
-    },
-    {
-        "id": "ad64f484.3bd408",
-        "type": "group",
-        "z": "b2dec5c2.4f2758",
-        "name": "Control Bot",
-        "style": {
-            "stroke": "#777777",
-            "fill": "#ffffff",
-            "label": true,
-            "label-position": "n"
-        },
-        "nodes": [
-            "3cb22fb4.1c60d",
-            "9bd57614.6bf608",
-            "bb4b8438.9dd088",
-            "1f156a7f.f7faf6",
-            "d2a78cee.1fb97",
-            "8518d691.cf94f8"
-        ],
-        "x": 1304,
-        "y": 799,
-        "w": 792,
-        "h": 162
-    },
-    {
-        "id": "82beadaa.80f9a",
-        "type": "group",
-        "z": "b2dec5c2.4f2758",
-        "name": "Control Curtain",
-        "style": {
-            "stroke": "#777777",
-            "fill": "#ffffff",
-            "label": true,
-            "label-position": "n"
-        },
-        "nodes": [
-            "c2fe958a.eedbe8",
-            "b5c777eb.591838",
-            "a96301bd.0c4dd",
-            "30bba459.0efd3c",
-            "c98498a0.ef5ea8",
-            "18996bc4.33bdb4",
-            "e274d666.f02638"
-        ],
-        "x": 1304,
-        "y": 1019,
-        "w": 792,
-        "h": 222
     },
     {
         "id": "98e346c4.842908",
         "type": "group",
         "z": "b2dec5c2.4f2758",
-        "name": "Get Devices",
+        "name": "SwtichBot - Get all Devices at startup",
         "style": {
             "stroke": "#92d04f",
             "fill": "#e3f3d3",
@@ -129,11 +80,10 @@
             "b92e57cb.92d5a8",
             "cee02e4.49bfad",
             "af637338.5ccc6",
-            "8d660f51.a75cf",
-            "5d50c8ff.4dfa98"
+            "8d660f51.a75cf"
         ],
-        "x": 244,
-        "y": 859,
+        "x": 94,
+        "y": 1259,
         "w": 852,
         "h": 122
     },
@@ -156,8 +106,8 @@
             "e34e8e48.b6d52",
             "3882a851.983ef8"
         ],
-        "x": 244,
-        "y": 1019,
+        "x": 64,
+        "y": 1419,
         "w": 852,
         "h": 122
     },
@@ -178,9 +128,9 @@
             "3bfce5e7.124e4a",
             "9d34c528.2d33f8"
         ],
-        "x": 254,
-        "y": 1179,
-        "w": 772,
+        "x": 74,
+        "y": 1579,
+        "w": 732,
         "h": 82
     },
     {
@@ -196,17 +146,14 @@
         },
         "nodes": [
             "f34949f6.4f5bf8",
-            "e6eadb02.180c68",
             "d3b26d8c.5038b",
             "c8a9c695.2f5788",
-            "be5bfc4f.6cdd8",
-            "d7959315.ce8da",
-            "caa373a3.3259a"
+            "be5bfc4f.6cdd8"
         ],
-        "x": 314,
-        "y": 1279,
-        "w": 772,
-        "h": 242
+        "x": 694,
+        "y": 899,
+        "w": 464,
+        "h": 272
     },
     {
         "id": "8e57852f.2718a8",
@@ -224,10 +171,8 @@
             "d5c862b.d3e0ba",
             "6bd46816.3f5cd8"
         ],
-        "x": 94,
-        "y": 599,
-        "w": 722,
-        "h": 82
+        "x": 74,
+        "y": 599
     },
     {
         "id": "3cd27958.a703b6",
@@ -252,9 +197,7 @@
             "4a15ab80.153564"
         ],
         "x": 76,
-        "y": 365,
-        "w": 1130,
-        "h": 196
+        "y": 365
     },
     {
         "id": "9735f20b.9f01e",
@@ -276,9 +219,7 @@
             "f76a168.49897e8"
         ],
         "x": 74,
-        "y": 59,
-        "w": 1072,
-        "h": 222
+        "y": 59
     },
     {
         "id": "9c4443bb.0420a",
@@ -286,8 +227,8 @@
         "z": "1d22c714.e50369",
         "name": "UI Header - links",
         "style": {
-            "stroke": "#6f2fa0",
-            "fill": "#dbcbe7",
+            "stroke": "#0070c0",
+            "fill": "#ffffff",
             "label": true,
             "color": "#000000"
         },
@@ -300,9 +241,9 @@
             "85c3e511.6fbc68"
         ],
         "x": 114,
-        "y": 99,
+        "y": 97,
         "w": 532,
-        "h": 202
+        "h": 204
     },
     {
         "id": "cdba4a8d.9d7c08",
@@ -311,7 +252,7 @@
         "name": "Weather forecast and sunrise/sunset",
         "style": {
             "stroke": "#0070c0",
-            "fill": "#bfdbef",
+            "fill": "#ffffff",
             "label": true,
             "color": "#000000"
         },
@@ -344,8 +285,8 @@
         "z": "1d22c714.e50369",
         "name": "Water quality - PPM",
         "style": {
-            "stroke": "#92d04f",
-            "fill": "#e3f3d3",
+            "stroke": "#0070c0",
+            "fill": "#ffffff",
             "label": true,
             "color": "#000000"
         },
@@ -377,8 +318,8 @@
         "z": "1d22c714.e50369",
         "name": "Telemetry - get DHT11 temperature and humidity",
         "style": {
-            "stroke": "#ff0000",
-            "fill": "#ffbfbf",
+            "stroke": "#0070c0",
+            "fill": "#ffffff",
             "label": true,
             "color": "#000000"
         },
@@ -399,6 +340,239 @@
         "y": 1479,
         "w": 1432,
         "h": 262
+    },
+    {
+        "id": "764465de.a3209c",
+        "type": "group",
+        "z": "1d22c714.e50369",
+        "name": "PiCamera",
+        "style": {
+            "stroke": "#0070c0",
+            "fill": "#ffffff",
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "e78bf6ed.43bf08",
+            "134f40ec.1ec4bf",
+            "ec42ca0e.6c9dd8"
+        ],
+        "x": 134,
+        "y": 1761,
+        "w": 402,
+        "h": 142
+    },
+    {
+        "id": "441c4f5a.bed47",
+        "type": "group",
+        "z": "b2dec5c2.4f2758",
+        "name": "HomeKit Switch Accessory",
+        "style": {
+            "stroke": "#ffC000",
+            "label": true
+        },
+        "nodes": [
+            "e12e26ce.c143e8"
+        ],
+        "x": 394,
+        "y": 899,
+        "w": 178,
+        "h": 82
+    },
+    {
+        "id": "5bdc73fe.80b51c",
+        "type": "group",
+        "z": "b2dec5c2.4f2758",
+        "name": "Output debug",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "dbeb20c2.56661"
+        ],
+        "x": 396,
+        "y": 999,
+        "w": 172,
+        "h": 82
+    },
+    {
+        "id": "2c464315.51c50c",
+        "type": "group",
+        "z": "b2dec5c2.4f2758",
+        "name": "Fan Full Example: input from device, output to device",
+        "style": {
+            "stroke": "#999999",
+            "fill": "none",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "b7778e52.220a5",
+            "fd8aff55.91d41",
+            "c717b796.0735b8",
+            "f56a2f96.509c1",
+            "d945ba75.897998"
+        ],
+        "x": 254,
+        "y": 2039,
+        "w": 752,
+        "h": 182,
+        "info": "# Fan V2\n\nThis example shows a fan. The inputs from node red are to turn the fan on, off, or set \"No Response\".\n\nThe outputs going to \"Fan output\" will show:\n\nOn / off state <br/>\nRotation speed<br/>\nSwing mode on / off (oscillate) <br/>\nRotation direction (clockwise/counterclockwise)"
+    },
+    {
+        "id": "dfe74898.4e2d78",
+        "type": "group",
+        "z": "b2dec5c2.4f2758",
+        "name": "Bedroom lights",
+        "style": {
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "3134c2cf.78461e",
+            "641c211c.5852",
+            "717a3663.b5f898"
+        ],
+        "x": 48,
+        "y": 438,
+        "w": 864,
+        "h": 404
+    },
+    {
+        "id": "3134c2cf.78461e",
+        "type": "group",
+        "z": "b2dec5c2.4f2758",
+        "g": "dfe74898.4e2d78",
+        "name": "HomeKit Switch Accessory",
+        "style": {
+            "stroke": "#ffC000",
+            "label": true
+        },
+        "nodes": [
+            "e9e59b68.002818"
+        ],
+        "x": 74,
+        "y": 499,
+        "w": 212,
+        "h": 82
+    },
+    {
+        "id": "641c211c.5852",
+        "type": "group",
+        "z": "b2dec5c2.4f2758",
+        "g": "dfe74898.4e2d78",
+        "name": "Output debug",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "942fd74c.c41658"
+        ],
+        "x": 334,
+        "y": 579,
+        "w": 212,
+        "h": 82
+    },
+    {
+        "id": "717a3663.b5f898",
+        "type": "group",
+        "z": "b2dec5c2.4f2758",
+        "g": "dfe74898.4e2d78",
+        "name": "",
+        "style": {
+            "stroke": "#ffC000",
+            "fill": "#ffefbf",
+            "label": true
+        },
+        "nodes": [
+            "fc195132.c211a",
+            "b463e3b2.926ae",
+            "ad34fe9d.00469",
+            "f4229d97.1314c",
+            "9f2a1839.620bd8",
+            "c6f59b76.127818"
+        ],
+        "x": 314,
+        "y": 464,
+        "w": 572,
+        "h": 352
+    },
+    {
+        "id": "79fac8a4.114828",
+        "type": "group",
+        "z": "87cb301d.9893c",
+        "name": "Water pump ",
+        "style": {
+            "fill": "#ffffff",
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "da7d1a1e.239e58",
+            "933e05f4.0abbb8",
+            "2f179774.4055e8",
+            "ea84252f.eb1ee8",
+            "69d27d4f.253984",
+            "cd5e7336.53f74",
+            "6fd97e66.02fde",
+            "83c9cbe9.ff0f68",
+            "d579d391.622e6",
+            "1426c687.455629",
+            "fcfbe87b.4c3f98",
+            "766d6f3d.e9fdb",
+            "2d32f6d2.b52eaa"
+        ],
+        "x": 514,
+        "y": 427,
+        "w": 1322,
+        "h": 174
+    },
+    {
+        "id": "59d1252d.d18c0c",
+        "type": "group",
+        "z": "87cb301d.9893c",
+        "name": "Water spray",
+        "style": {
+            "fill": "#ffffff",
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "b9dd843.3247178",
+            "e6b06459.aad598",
+            "25335612.5b58da",
+            "dec1467a.516188",
+            "c1e51a25.bcd2f8",
+            "57e4ad43.c33774",
+            "77dd4f6a.f114"
+        ],
+        "x": 514,
+        "y": 259,
+        "w": 1212,
+        "h": 142
+    },
+    {
+        "id": "2bce1a3f.f178b6",
+        "type": "group",
+        "z": "87cb301d.9893c",
+        "name": "Seed tray - LED lights control",
+        "style": {
+            "fill": "#ffffff",
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "acca3832.810b88",
+            "df864faf.11005",
+            "39f4667d.55b9da",
+            "a94198ff.eef948",
+            "d7d0c829.e9cc28"
+        ],
+        "x": 514,
+        "y": 113,
+        "w": 572,
+        "h": 141
     },
     {
         "id": "a0e631b8.d383b",
@@ -1289,7 +1463,13 @@
         "showfmly": true
     },
     {
-        "id": "b134136b.490ed",
+        "id": "b0151dde.26366",
+        "type": "smartthings-config",
+        "name": "Home token",
+        "token": "ef2ad5f2-6f34-4f4a-adef-97bbf5fc2662"
+    },
+    {
+        "id": "15f1b520.65235b",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "1c37dc0b.ce28e4",
@@ -1298,7 +1478,7 @@
         "height": 1
     },
     {
-        "id": "a0810ae.0335ff8",
+        "id": "12020b05.60dd65",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "1c37dc0b.ce28e4",
@@ -1307,7 +1487,7 @@
         "height": 1
     },
     {
-        "id": "caaf34e3.5c2638",
+        "id": "144da028.67ede",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -1316,7 +1496,7 @@
         "height": 1
     },
     {
-        "id": "a75a5cd0.52d76",
+        "id": "214ee09.b47722",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -1325,7 +1505,7 @@
         "height": 1
     },
     {
-        "id": "62b98d8.b760b74",
+        "id": "eeaf43f1.fd5ea",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -1334,7 +1514,7 @@
         "height": 1
     },
     {
-        "id": "3808d133.ba824e",
+        "id": "820794dd.f696e8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -1343,7 +1523,7 @@
         "height": 1
     },
     {
-        "id": "d14031de.f58e1",
+        "id": "59c44c6b.7f9614",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -1352,7 +1532,7 @@
         "height": 1
     },
     {
-        "id": "1497affc.a9df5",
+        "id": "7ff6348c.55b93c",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -1361,7 +1541,7 @@
         "height": 1
     },
     {
-        "id": "7a032780.2fb438",
+        "id": "e3d0b1ac.9ae55",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -1370,7 +1550,7 @@
         "height": 1
     },
     {
-        "id": "f1db0f3e.ad86c",
+        "id": "db7c928e.d9367",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -1379,7 +1559,7 @@
         "height": 1
     },
     {
-        "id": "337fc372.1bddfc",
+        "id": "b11cbf13.afe3e",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -1388,7 +1568,7 @@
         "height": 1
     },
     {
-        "id": "51034f27.fec11",
+        "id": "1b036d8.9eac693",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -1397,7 +1577,7 @@
         "height": 1
     },
     {
-        "id": "c6ce0749.9ea658",
+        "id": "4fad9dfe.b2eb34",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "65d119b5.66cb78",
@@ -1406,7 +1586,7 @@
         "height": 1
     },
     {
-        "id": "1d7c3516.44f11b",
+        "id": "7319093.5107af8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "65d119b5.66cb78",
@@ -1415,7 +1595,7 @@
         "height": 1
     },
     {
-        "id": "49a5b524.e62f8c",
+        "id": "c53a431b.879a3",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "65d119b5.66cb78",
@@ -1424,7 +1604,7 @@
         "height": 1
     },
     {
-        "id": "da4c931d.50261",
+        "id": "52162320.e90d0c",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "65d119b5.66cb78",
@@ -1433,7 +1613,7 @@
         "height": 1
     },
     {
-        "id": "c1c550a4.96b96",
+        "id": "97937a01.e70ff8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -1442,7 +1622,7 @@
         "height": 1
     },
     {
-        "id": "8d60f12e.451dd",
+        "id": "538ba52c.c9b22c",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -1451,7 +1631,7 @@
         "height": 1
     },
     {
-        "id": "bfefe7e6.d4d048",
+        "id": "1e974bb6.0155b4",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -1460,7 +1640,7 @@
         "height": 1
     },
     {
-        "id": "457044f0.b9264c",
+        "id": "d33d0d3c.704d4",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -1469,7 +1649,7 @@
         "height": 1
     },
     {
-        "id": "cd81a86e.6f6ac8",
+        "id": "ec6de843.a32268",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -1478,7 +1658,7 @@
         "height": 1
     },
     {
-        "id": "9f77122f.6dfeb",
+        "id": "dbb9f1c9.f65c5",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -1487,7 +1667,7 @@
         "height": 1
     },
     {
-        "id": "e2fc5a91.4e5828",
+        "id": "51702acd.f6e104",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -1496,7 +1676,7 @@
         "height": 1
     },
     {
-        "id": "25c96c90.6df544",
+        "id": "42762592.3d019c",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -1505,7 +1685,7 @@
         "height": 1
     },
     {
-        "id": "ea26ee5a.3d50b",
+        "id": "67ba62ea.110ddc",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -1514,7 +1694,7 @@
         "height": 1
     },
     {
-        "id": "f8ea1a6e.1314c8",
+        "id": "d11527e9.e1cfa8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -1523,7 +1703,7 @@
         "height": 1
     },
     {
-        "id": "dfc3a19a.3ef64",
+        "id": "bdeeb416.c56628",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
@@ -1532,7 +1712,7 @@
         "height": 1
     },
     {
-        "id": "33792a29.6d8bc6",
+        "id": "45bf8053.428c7",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
@@ -1541,7 +1721,7 @@
         "height": 1
     },
     {
-        "id": "98acfee8.93591",
+        "id": "bec8688d.737978",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
@@ -1550,7 +1730,7 @@
         "height": 1
     },
     {
-        "id": "f5e29cbc.7858c",
+        "id": "29e24fa6.01d38",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
@@ -1559,7 +1739,7 @@
         "height": 1
     },
     {
-        "id": "5e02aa67.3bfaa4",
+        "id": "d3393288.53834",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
@@ -1568,7 +1748,7 @@
         "height": 1
     },
     {
-        "id": "b7b41a38.f13de8",
+        "id": "8db7fe4.f823a",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
@@ -1577,7 +1757,7 @@
         "height": 1
     },
     {
-        "id": "df1b6a6d.7c4218",
+        "id": "5da1090d.28b218",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
@@ -1586,7 +1766,7 @@
         "height": 1
     },
     {
-        "id": "865933de.6696a",
+        "id": "bd293bd0.e9a5e8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
@@ -1595,7 +1775,7 @@
         "height": 1
     },
     {
-        "id": "69328661.78b418",
+        "id": "efa6861e.6de2c8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
@@ -1604,7 +1784,7 @@
         "height": 1
     },
     {
-        "id": "886112ce.8d40a",
+        "id": "aca9cbfc.a014c8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
@@ -1613,7 +1793,7 @@
         "height": 1
     },
     {
-        "id": "bad86cb7.5c38b",
+        "id": "f9e05d75.e4821",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
@@ -1622,7 +1802,16 @@
         "height": 1
     },
     {
-        "id": "3bf07013.563dc",
+        "id": "d7f5dd05.a0cc4",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "6c15eb0d.8f5814",
+        "order": 2,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "bd0baf26.7f652",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "6c15eb0d.8f5814",
@@ -1631,25 +1820,16 @@
         "height": 1
     },
     {
-        "id": "b0834263.a5b97",
+        "id": "fa437721.801d28",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "6c15eb0d.8f5814",
-        "order": 4,
-        "width": 1,
+        "order": 6,
+        "width": 2,
         "height": 1
     },
     {
-        "id": "7645affa.f76a8",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "6c15eb0d.8f5814",
-        "order": 5,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "963dc4a2.6056b8",
+        "id": "53137a29.63efe4",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "6c15eb0d.8f5814",
@@ -1658,37 +1838,173 @@
         "height": 1
     },
     {
-        "id": "6441e109.0fb2b",
+        "id": "8644aa5e.a3a328",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "6c15eb0d.8f5814",
         "order": 9,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "bb8222dd.efae2",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "6c15eb0d.8f5814",
+        "order": 11,
         "width": 4,
         "height": 1
     },
     {
-        "id": "74f5b30d.9ee94c",
+        "id": "171d2a56.a05b06",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "6c15eb0d.8f5814",
         "order": 12,
-        "width": 3,
+        "width": 1,
         "height": 1
     },
     {
-        "id": "abb0e976.5db578",
+        "id": "3b01af30.02e22",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "6c15eb0d.8f5814",
+        "order": 14,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "d8ecb5ea.076068",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "6c15eb0d.8f5814",
         "order": 15,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "4b6fab51.ba10f4",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "6c15eb0d.8f5814",
+        "order": 16,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "83b15e20.e0613",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "6c15eb0d.8f5814",
+        "order": 17,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "e342bc57.55181",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "6c15eb0d.8f5814",
+        "order": 18,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "630b6c08.8e70f4",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "6c15eb0d.8f5814",
+        "order": 19,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "421af585.64b0dc",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "6c15eb0d.8f5814",
+        "order": 21,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "7a990ab7.966e44",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "6c15eb0d.8f5814",
+        "order": 23,
         "width": 3,
         "height": 1
     },
     {
-        "id": "b0151dde.26366",
-        "type": "smartthings-config",
-        "name": "Home token",
-        "token": "ef2ad5f2-6f34-4f4a-adef-97bbf5fc2662"
+        "id": "9bb53f46.d2031",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "6c15eb0d.8f5814",
+        "order": 24,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "40bdad43.e31254",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "6c15eb0d.8f5814",
+        "order": 27,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "f0625a56.e4e928",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "6c15eb0d.8f5814",
+        "order": 28,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "3dcda60a.e5ff12",
+        "type": "homekit-bridge",
+        "bridgeName": "My Bridge",
+        "pinCode": "111-11-111",
+        "port": "",
+        "allowInsecureRequest": false,
+        "manufacturer": "NRCHKB",
+        "model": "0.120.5",
+        "serialNo": "Default Serial Number",
+        "firmwareRev": "0.120.5",
+        "hardwareRev": "0.120.5",
+        "softwareRev": "0.120.5",
+        "customMdnsConfig": false,
+        "mdnsMulticast": true,
+        "mdnsInterface": "",
+        "mdnsPort": "",
+        "mdnsIp": "",
+        "mdnsTtl": "",
+        "mdnsLoopback": true,
+        "mdnsReuseAddr": true,
+        "allowMessagePassthrough": false
+    },
+    {
+        "id": "409001a1.3e7a78",
+        "type": "homekit-bridge",
+        "bridgeName": "Demo 1",
+        "pinCode": "153-10-538",
+        "port": "",
+        "allowInsecureRequest": false,
+        "manufacturer": "NRCHKB",
+        "model": "Demo",
+        "serialNo": "1.1.2",
+        "customMdnsConfig": false,
+        "mdnsMulticast": true,
+        "mdnsInterface": "",
+        "mdnsPort": "",
+        "mdnsIp": "",
+        "mdnsTtl": "",
+        "mdnsLoopback": true,
+        "mdnsReuseAddr": true,
+        "allowMessagePassthrough": true
     },
     {
         "id": "e30bc267.9a60e",
@@ -1765,13 +2081,14 @@
         "id": "acca3832.810b88",
         "type": "mqtt out",
         "z": "87cb301d.9893c",
+        "g": "2bce1a3f.f178b6",
         "name": "Lamp",
         "topic": "hydro/lamp/switch",
         "qos": "0",
         "retain": "",
         "broker": "a0e631b8.d383b",
         "x": 770,
-        "y": 153,
+        "y": 154,
         "wires": []
     },
     {
@@ -2303,6 +2620,7 @@
         "id": "b9dd843.3247178",
         "type": "delay",
         "z": "87cb301d.9893c",
+        "g": "59d1252d.d18c0c",
         "name": "",
         "pauseType": "delayv",
         "timeout": "20",
@@ -2315,7 +2633,7 @@
         "randomUnits": "seconds",
         "drop": false,
         "x": 1480,
-        "y": 373,
+        "y": 360,
         "wires": [
             [
                 "25335612.5b58da"
@@ -2326,13 +2644,14 @@
         "id": "e6b06459.aad598",
         "type": "mqtt out",
         "z": "87cb301d.9893c",
+        "g": "59d1252d.d18c0c",
         "name": "Water spray",
         "topic": "hydro/water_spray/switch",
         "qos": "0",
         "retain": "",
         "broker": "a0e631b8.d383b",
         "x": 830,
-        "y": 313,
+        "y": 300,
         "wires": []
     },
     {
@@ -2366,6 +2685,7 @@
         "id": "25335612.5b58da",
         "type": "change",
         "z": "87cb301d.9893c",
+        "g": "59d1252d.d18c0c",
         "name": "Switch to off",
         "rules": [
             {
@@ -2382,7 +2702,7 @@
         "to": "",
         "reg": false,
         "x": 1630,
-        "y": 373,
+        "y": 360,
         "wires": [
             [
                 "c1e51a25.bcd2f8"
@@ -2393,6 +2713,7 @@
         "id": "dec1467a.516188",
         "type": "switch",
         "z": "87cb301d.9893c",
+        "g": "59d1252d.d18c0c",
         "name": "When water spray on",
         "property": "payload",
         "propertyType": "msg",
@@ -2405,7 +2726,7 @@
         "repair": false,
         "outputs": 1,
         "x": 860,
-        "y": 373,
+        "y": 360,
         "wires": [
             [
                 "57e4ad43.c33774"
@@ -2416,6 +2737,7 @@
         "id": "e78bf6ed.43bf08",
         "type": "inject",
         "z": "1d22c714.e50369",
+        "g": "764465de.a3209c",
         "name": "",
         "props": [
             {
@@ -2429,8 +2751,8 @@
         "topic": "",
         "payload": "1",
         "payloadType": "num",
-        "x": 190,
-        "y": 1800,
+        "x": 230,
+        "y": 1802,
         "wires": [
             [
                 "134f40ec.1ec4bf"
@@ -2579,6 +2901,7 @@
         "id": "134f40ec.1ec4bf",
         "type": "camerapi-takephoto",
         "z": "1d22c714.e50369",
+        "g": "764465de.a3209c",
         "filemode": "1",
         "filename": "photo1.JPEG",
         "filedefpath": "0",
@@ -2599,8 +2922,8 @@
         "led": "0",
         "awb": "auto",
         "name": "Take Photo",
-        "x": 360,
-        "y": 1800,
+        "x": 400,
+        "y": 1802,
         "wires": [
             [
                 "ec42ca0e.6c9dd8"
@@ -3188,6 +3511,7 @@
         "id": "df864faf.11005",
         "type": "ui_switch",
         "z": "87cb301d.9893c",
+        "g": "2bce1a3f.f178b6",
         "name": "Grow lights",
         "label": "Seed Tray  ",
         "tooltip": "Led",
@@ -3208,7 +3532,7 @@
         "officon": "fa-toggle-off  fa-2x",
         "offcolor": "#ffc30b",
         "x": 611,
-        "y": 153,
+        "y": 154,
         "wires": [
             [
                 "acca3832.810b88"
@@ -3220,11 +3544,12 @@
         "id": "c1e51a25.bcd2f8",
         "type": "ui_switch",
         "z": "87cb301d.9893c",
+        "g": "59d1252d.d18c0c",
         "name": "Water spray switch",
         "label": "Seed spray",
         "tooltip": "",
         "group": "6c15eb0d.8f5814",
-        "order": 13,
+        "order": 25,
         "width": 4,
         "height": 1,
         "passthru": true,
@@ -3240,7 +3565,7 @@
         "officon": "fa-toggle-off fa-2x",
         "offcolor": "#0077be",
         "x": 630,
-        "y": 313,
+        "y": 300,
         "wires": [
             [
                 "dec1467a.516188",
@@ -3507,6 +3832,7 @@
         "id": "ec42ca0e.6c9dd8",
         "type": "ui_template",
         "z": "1d22c714.e50369",
+        "g": "764465de.a3209c",
         "group": "f0e58282.f2736",
         "name": "Seed tray camera",
         "order": 1,
@@ -3517,8 +3843,8 @@
         "fwdInMessages": false,
         "resendOnRefresh": true,
         "templateScope": "local",
-        "x": 380,
-        "y": 1860,
+        "x": 420,
+        "y": 1862,
         "wires": [
             [
                 "134f40ec.1ec4bf"
@@ -3669,8 +3995,8 @@
         "qos": "0",
         "datatype": "auto",
         "broker": "a0e631b8.d383b",
-        "x": 250,
-        "y": 2614,
+        "x": 210,
+        "y": 2720,
         "wires": [
             [
                 "222cf8a.db51b08"
@@ -3683,7 +4009,7 @@
         "z": "1d22c714.e50369",
         "name": "Water level",
         "group": "6c15eb0d.8f5814",
-        "order": 2,
+        "order": 13,
         "width": 3,
         "height": 3,
         "gtype": "wave",
@@ -3786,7 +4112,7 @@
         "type": "ui_text",
         "z": "1d22c714.e50369",
         "group": "6c15eb0d.8f5814",
-        "order": 6,
+        "order": 20,
         "width": 3,
         "height": 1,
         "name": "Last refresh - water level",
@@ -3968,8 +4294,8 @@
         "createDir": true,
         "overwriteFile": "true",
         "encoding": "none",
-        "x": 600,
-        "y": 113,
+        "x": 580,
+        "y": 80,
         "wires": [
             []
         ]
@@ -4040,9 +4366,9 @@
         "outputs": 4,
         "order": 1,
         "width": 8,
-        "height": 2,
-        "x": 340,
-        "y": 280,
+        "height": 4,
+        "x": 320,
+        "y": 340,
         "wires": [
             [
                 "4c35d949.85d758"
@@ -4153,10 +4479,11 @@
         "id": "57e4ad43.c33774",
         "type": "persist out",
         "z": "87cb301d.9893c",
+        "g": "59d1252d.d18c0c",
         "name": "waterSprayTimer",
         "storageNode": "217cc961.603ce6",
         "x": 1110,
-        "y": 373,
+        "y": 360,
         "wires": [
             [
                 "77dd4f6a.f114"
@@ -4167,6 +4494,7 @@
         "id": "77dd4f6a.f114",
         "type": "function",
         "z": "87cb301d.9893c",
+        "g": "59d1252d.d18c0c",
         "name": "msg.delay",
         "func": "var newMsg = { delay: (msg.payload * 1000) };\nreturn newMsg;",
         "outputs": 1,
@@ -4174,7 +4502,7 @@
         "initialize": "",
         "finalize": "",
         "x": 1310,
-        "y": 373,
+        "y": 360,
         "wires": [
             [
                 "b9dd843.3247178"
@@ -4203,6 +4531,7 @@
         "id": "da7d1a1e.239e58",
         "type": "kasa",
         "z": "87cb301d.9893c",
+        "g": "79fac8a4.114828",
         "name": "Hydroponic - Water pump  - HS105(JP)",
         "device": "192.168.1.8",
         "interval": 60000,
@@ -4210,24 +4539,13 @@
         "payload": "getInfo",
         "payloadType": "info",
         "debug": false,
-        "x": 870,
-        "y": 460,
+        "x": 1130,
+        "y": 500,
         "wires": [
             [
-                "2f179774.4055e8",
-                "c86dc712.4a8a48"
+                "2f179774.4055e8"
             ]
         ]
-    },
-    {
-        "id": "d9cef345.e508b",
-        "type": "comment",
-        "z": "87cb301d.9893c",
-        "name": "### Hydro water pump ###",
-        "info": "",
-        "x": 380,
-        "y": 380,
-        "wires": []
     },
     {
         "id": "6c1d8e8.c6bf77",
@@ -4405,7 +4723,7 @@
         "type": "ui_text",
         "z": "1d22c714.e50369",
         "group": "6c15eb0d.8f5814",
-        "order": 14,
+        "order": 26,
         "width": 1,
         "height": 1,
         "name": "Water spray on/off state",
@@ -4420,12 +4738,12 @@
         "id": "f3b66e1d.ccca9",
         "type": "template",
         "z": "1d22c714.e50369",
-        "name": "Water widget - status",
+        "name": "Water spray - status",
         "field": "payload",
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": " <md-card>\n    <md-card-content>\n          <p>\n           Water pump runs for <font color=\"{{global.color.widget.water}}\"> {{global.settings.water_pump.duration}} secs.</font> \n          , or stops when seed tray is filled at >50%.\n         </p>\n    </md-card-content>\n</md-card>\n<md-card>\n  <md-card-content>\n   <h5>\n       {{#global.seedTray.water.level.warning.low}}\n        <font color=\"{{global.color.warning}}\" align=\"center\"> <i class=\"fa fa-exclamation-circle\"></i> Water level is too low.</font>\n        {{/global.seedTray.water.level.warning.low}} \n        \n        {{#global.seedTray.water.level.warning.high}}\n         <font color=\"{{global.color.warning}}\" align=\"center\"> <i class=\"fa fa-exclamation-circle\"></i> Water level is too high.</font>\n        {{/global.seedTray.water.level.warning.high}} \n    </h5>\n    \n    <p>\n        Seed Tray - water spray runs for <font color=\"{{global.color.widget.water}}\"> {{global.durationWaterSpray}}</font> \n        seconds every  <font color=\"{{global.color.widget.water}}\">two days</font>\n    </p>\n  </md-card-content>\n</md-card>\n\n",
+        "template": "<md-card>\n  <md-card-content>\n  \n    <p style=\"padding-left:12px; !important\">\n        Seed Tray - water spray runs for <font color=\"{{global.color.widget.water}}\"> {{global.durationWaterSpray}}</font> \n        seconds every  <font color=\"{{global.color.widget.water}}\">two days</font>\n    </p>\n  </md-card-content>\n</md-card>",
         "output": "str",
         "x": 480,
         "y": 2380,
@@ -4440,16 +4758,16 @@
         "type": "ui_template",
         "z": "1d22c714.e50369",
         "group": "6c15eb0d.8f5814",
-        "name": "",
-        "order": 1,
-        "width": 4,
-        "height": 4,
+        "name": "Seed tray - water spray template",
+        "order": 29,
+        "width": 7,
+        "height": 1,
         "format": "<div ng-bind-html=\"msg.payload\"></div>",
         "storeOutMessages": true,
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
-        "x": 660,
+        "x": 740,
         "y": 2380,
         "wires": [
             []
@@ -4485,24 +4803,6 @@
         ]
     },
     {
-        "id": "593527d0.c1f528",
-        "type": "link in",
-        "z": "1d22c714.e50369",
-        "name": "Refresh template seed tray water",
-        "links": [
-            "bbae5ec0.7849",
-            "bec62e16.5d9dc",
-            "88e72de5.1224f"
-        ],
-        "x": 255,
-        "y": 2440,
-        "wires": [
-            [
-                "f3b66e1d.ccca9"
-            ]
-        ]
-    },
-    {
         "id": "a150ea22.90b8b8",
         "type": "function",
         "z": "1d22c714.e50369",
@@ -4526,7 +4826,9 @@
         "z": "1d22c714.e50369",
         "name": "",
         "links": [
-            "593527d0.c1f528"
+            "593527d0.c1f528",
+            "4db5829b.8b907c",
+            "36e61c64.c7dae4"
         ],
         "x": 935,
         "y": 1306,
@@ -4691,8 +4993,8 @@
         "label": "<font color=\"{{msg.color}}\"><i class=\"fa fa-battery-half fa-1.5x\"></i></front>",
         "format": "",
         "layout": "row-spread",
-        "x": 630,
-        "y": 2614,
+        "x": 590,
+        "y": 2720,
         "wires": []
     },
     {
@@ -4705,8 +5007,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 420,
-        "y": 2614,
+        "x": 380,
+        "y": 2720,
         "wires": [
             [
                 "aadaca25.5f3598"
@@ -4872,8 +5174,8 @@
         "qos": "0",
         "datatype": "auto",
         "broker": "a0e631b8.d383b",
-        "x": 250,
-        "y": 2694,
+        "x": 210,
+        "y": 2800,
         "wires": [
             [
                 "41226553.28e86c"
@@ -4892,8 +5194,8 @@
         "label": "<font color=\"{{msg.color}}\"><i class=\"fa fa-battery-half fa-1.5x\"></i></front>",
         "format": "",
         "layout": "row-spread",
-        "x": 650,
-        "y": 2694,
+        "x": 610,
+        "y": 2800,
         "wires": []
     },
     {
@@ -4906,8 +5208,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 420,
-        "y": 2694,
+        "x": 380,
+        "y": 2800,
         "wires": [
             [
                 "94ff4603.6d4ad8"
@@ -4928,8 +5230,8 @@
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
-        "x": 680,
-        "y": 2554,
+        "x": 640,
+        "y": 2660,
         "wires": [
             []
         ]
@@ -4945,8 +5247,8 @@
         "syntax": "mustache",
         "template": "<md-card>\n  <div md-card-image class=\"example-header-image\"></div>\n  <md-card-content>\n    <p>\n      Every 6 hours, nutrients pump runs for <font color=\"{{global.color.widget.nutrients}}\"> {{global.nutriments.solutionA.pump.duration}} secs.</font>  \n      when PPM is below  <font color=\"{{global.color.widget.nutrients}}\">{{global.minPPM}}</font>\n    </p>\n  </md-card-content>\n</md-card>",
         "output": "str",
-        "x": 490,
-        "y": 2554,
+        "x": 450,
+        "y": 2660,
         "wires": [
             [
                 "610e2b65.b070d4"
@@ -4974,8 +5276,8 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 270,
-        "y": 2554,
+        "x": 230,
+        "y": 2660,
         "wires": [
             [
                 "5e5c80d7.c23cb"
@@ -5003,8 +5305,8 @@
         "topic": "",
         "payload": "5",
         "payloadType": "num",
-        "x": 230,
-        "y": 2820,
+        "x": 190,
+        "y": 2926,
         "wires": [
             [
                 "4d67ced7.a6caa"
@@ -5062,8 +5364,8 @@
         "lineWidth": "5",
         "bgcolorFromTheme": true,
         "diffCenter": "",
-        "x": 440,
-        "y": 2820,
+        "x": 400,
+        "y": 2926,
         "wires": []
     },
     {
@@ -5072,8 +5374,8 @@
         "z": "1d22c714.e50369",
         "name": "##TODO compute remaining days",
         "info": "",
-        "x": 300,
-        "y": 2774,
+        "x": 260,
+        "y": 2880,
         "wires": []
     },
     {
@@ -5097,8 +5399,8 @@
         "topic": "",
         "payload": "25",
         "payloadType": "num",
-        "x": 210,
-        "y": 2874,
+        "x": 170,
+        "y": 2980,
         "wires": [
             [
                 "a56914d1.b859b8"
@@ -5156,8 +5458,8 @@
         "lineWidth": "5",
         "bgcolorFromTheme": true,
         "diffCenter": "",
-        "x": 438,
-        "y": 2875,
+        "x": 398,
+        "y": 2981,
         "wires": []
     },
     {
@@ -5169,8 +5471,8 @@
             "45c5f9a0.355c58",
             "1b0ae6f9.985959"
         ],
-        "x": 315,
-        "y": 2514,
+        "x": 275,
+        "y": 2620,
         "wires": [
             [
                 "5e5c80d7.c23cb"
@@ -5181,6 +5483,7 @@
         "id": "39f4667d.55b9da",
         "type": "mqtt in",
         "z": "87cb301d.9893c",
+        "g": "2bce1a3f.f178b6",
         "name": "",
         "topic": "hydro/lamp/s",
         "qos": "0",
@@ -5198,6 +5501,7 @@
         "id": "a94198ff.eef948",
         "type": "ui_text",
         "z": "87cb301d.9893c",
+        "g": "2bce1a3f.f178b6",
         "group": "45199dde.854f64",
         "order": 11,
         "width": 1,
@@ -5324,6 +5628,7 @@
         "id": "d7d0c829.e9cc28",
         "type": "function",
         "z": "87cb301d.9893c",
+        "g": "2bce1a3f.f178b6",
         "name": "Set LED icon color",
         "func": "msg.color = (msg.payload == \"true\") ? global.get('color.widget.light.led') : \"grey\";\nreturn msg;\n\n",
         "outputs": 1,
@@ -5343,11 +5648,11 @@
         "type": "ui_text",
         "z": "1d22c714.e50369",
         "group": "6c15eb0d.8f5814",
-        "order": 8,
-        "width": 4,
+        "order": 1,
+        "width": 5,
         "height": 1,
-        "name": "Water control label",
-        "label": "<b><i class=\"fa fa-cog\"></i> Control</b>",
+        "name": "Water pump label",
+        "label": "<b><i class=\"fa fa-cog\"></i> Water pump control</b>",
         "format": "",
         "layout": "row-left",
         "x": 750,
@@ -5366,19 +5671,20 @@
         "label": "<b><i class=\"fa fa-cog\"></i> Control</b>",
         "format": "",
         "layout": "row-left",
-        "x": 760,
-        "y": 1886,
+        "x": 1020,
+        "y": 1900,
         "wires": []
     },
     {
         "id": "933e05f4.0abbb8",
         "type": "ui_switch",
         "z": "87cb301d.9893c",
+        "g": "79fac8a4.114828",
         "name": "Water pump",
         "label": "Water pump",
         "tooltip": "",
         "group": "6c15eb0d.8f5814",
-        "order": 10,
+        "order": 4,
         "width": 4,
         "height": 1,
         "passthru": true,
@@ -5393,8 +5699,8 @@
         "offvalueType": "bool",
         "officon": "fa-toggle-off fa-2x",
         "offcolor": "#0077be",
-        "x": 610,
-        "y": 459,
+        "x": 870,
+        "y": 499,
         "wires": [
             [
                 "da7d1a1e.239e58",
@@ -5406,14 +5712,15 @@
         "id": "2f179774.4055e8",
         "type": "function",
         "z": "87cb301d.9893c",
+        "g": "79fac8a4.114828",
         "name": "Save state and set color",
         "func": "global.set(\"settings.water_pump.activated\", msg.payload.relay_state);\n\nmsg.color = (msg.payload.relay_state == 1) ? global.get(\"color.widget.water\") : \"grey\";\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 1154,
-        "y": 461,
+        "x": 1414,
+        "y": 501,
         "wires": [
             [
                 "ea84252f.eb1ee8"
@@ -5424,16 +5731,17 @@
         "id": "ea84252f.eb1ee8",
         "type": "ui_text",
         "z": "87cb301d.9893c",
+        "g": "79fac8a4.114828",
         "group": "6c15eb0d.8f5814",
-        "order": 11,
+        "order": 5,
         "width": 1,
         "height": 1,
         "name": "Water pump on/off state",
         "label": "<font color=\"{{msg.color}}\"><i class=\"fa fa-tint fa-2x\"></i></front>",
         "format": "",
         "layout": "row-spread",
-        "x": 1390,
-        "y": 460,
+        "x": 1650,
+        "y": 500,
         "wires": []
     },
     {
@@ -5512,7 +5820,7 @@
         "name": "go to Hydroponic",
         "events": "change",
         "x": 530,
-        "y": 140,
+        "y": 138,
         "wires": [
             []
         ]
@@ -6539,7 +6847,7 @@
         "order": 1,
         "width": 0,
         "height": 0,
-        "format": "<div layout=\"column\" style=\"max-height:350px\" ng-cloak>\n    \n      <md-toolbar md-scroll-shrink ng-if=\"true\">\n        <div class=\"md-toolbar-tools\">\n          <h3>\n            <span>Week activities </span>\n          </h3>\n        </div>\n      </md-toolbar>\n\n        <md-list flex>\n            \n            <!-- No action list -->\n            <md-list-item ng-show=\"(seedTrayState | filter: {'nextAction': '!!'}).length == 0 \n                && (NFTState | filter: {'nextAction': '!!'}).length == 0\">\n                \n                <div class=\"md-list-item-text\">\n                    <h4>No action.</h4>\n                </div>\n            </md-list-item>\n            \n            <!-- Harvest actions -->\n            <md-list-item ng-repeat=\"item in NFTState | filter: {'nextAction': '!!'}\">\n                <img src=\"{{item.iconAction}}\" class=\"md-avatar\" style=\"background-color: rgba(255,255,255,0.8);\" >\n                <div class=\"md-list-item-text\" ng-if=\"item.nextAction=='harvest'\">\n                    <h4>Harvest the {{item.category}}</h4>\n                    <p>Column {{item.column}}, row {{item.row}}</p>\n                </div>\n                \n                <md-menu class=\"md-secondary\" ng-show=\"item.nextAction=='harvest'\">\n                  <md-button class=\"icon-button\">\n                    <md-avatar ng-class=\"{'fa': true, 'fa-ellipsis-h': true}\"></md-avatar>\n                  </md-button>\n                  <md-menu-content width=\"4\">\n                    <md-menu-item ng-click=\"completeTask(item)\">\n                      <md-button>\n                        <md-avatar ng-class=\"{'fa': true, 'fa-check': true}\" ></md-avatar>\n                         Complete task\n                      </md-button>\n                    </md-menu-item>\n    \n                    <md-menu-item ng-click=\"reschedule(item)\">\n                      <md-button>\n                        <md-avatar ng-class=\"{'fa': true, 'fa-calendar-plus-o': true}\" ></md-avatar>\n                         Re-schedule to next week\n                      </md-button>\n                     </md-menu-item>\n                  </md-menu-content>\n                </md-menu>\n                <md-divider md-inset></md-divider>\n            </md-list-item>\n        \n            \n            <!--Plant seed and transplant action -->\n            <md-list-item ng-repeat=\"item in seedTrayState | filter: {'nextAction': '!!'}\">\n                <img src=\"{{item.iconAction}}\" class=\"md-avatar\" style=\"background-color: rgba(255,255,255,0.8);\" >\n                <div class=\"md-list-item-text\" ng-if=\"item.nextAction=='plantSeed'\">\n                    <h4>Plant a {{item.category}} seed</h4>\n                    <p>Seed tray - column {{item.column}}, row {{item.row}}</p>\n                </div>\n                <div class=\"md-list-item-text\" ng-if=\"item.nextAction=='transplant'\">\n                    <h4>Transplant {{item.category}}</h4>\n                    <p>From seed tray - ({{item.column}},{{item.row}})</p>\n                    <p ng-if=\"item.toNFTColumn\">To NFT - ({{item.toNFTColumn}},{{item.toNFTRow}})</p>\n                    <p ng-if=\"!item.toNFTColumn\"><i class=\"fa fa-warning\"> NFC system is full, harvest first.</i></p>\n             \n                </div>\n            \n                <md-menu class=\"md-secondary\" ng-show=\"item.nextAction=='plantSeed' || (item.nextAction=='transplant' && item.toNFTColumn)\">\n                  <md-button class=\"icon-button\">\n                    <md-avatar ng-class=\"{'fa': true, 'fa-ellipsis-h': true}\"></md-avatar>\n                  </md-button>\n                  <md-menu-content width=\"4\">\n                    <md-menu-item ng-click=\"completeTask(item)\">\n                      <md-button>\n                        <md-avatar ng-class=\"{'fa': true, 'fa-check': true}\" ></md-avatar>\n                         Complete task\n                      </md-button>\n                    </md-menu-item>\n    \n                    <md-menu-item ng-click=\"reschedule(item)\">\n                      <md-button>\n                        <md-avatar ng-class=\"{'fa': true, 'fa-calendar-plus-o': true}\" ></md-avatar>\n                         Re-schedule to next week\n                      </md-button>\n                    </md-menu-item>\n                    <md-menu-divider></md-menu-divider>\n                    <md-menu-item ng-click=\"\">\n                       <md-button >\n                        Change to tomatoe\n                      </md-button>\n                    </md-menu-item>\n                    <md-menu-item ng-click=\"\">\n                       <md-button>\n                        Change to mint\n                      </md-button>\n                    </md-menu-item>\n                     <md-menu-item ng-click=\"\">\n                       <md-button>\n                        Change to persley\n                      </md-button>\n                    </md-menu-item>\n                  </md-menu-content>\n                </md-menu>\n                <md-divider md-inset></md-divider>\n            </md-list-item>\n            \n    </md-list>\n</div>\n<script>\n    \n(function(scope) {\n    \n\n    // $watch fires each time the node is triggered in the flow\n    scope.$watch('msg', function(msg) {\n        \n        if (msg) {\n    \n            scope.seedTrayState = msg.seedTrayState;\n            scope.NFTState = msg.NFTState;\n            \n            \n            scope.completeTask = function(item) {\n                \n                if (item.nextAction === \"transplant\") {\n                    \n                    var index =  scope.seedTrayState.indexOf(item);\n                    \n                    //Keep a copy the element stored in seed tray, for NFT generation\n                    let copy =JSON.parse(JSON.stringify(scope.seedTrayState[index]));\n                    \n                    scope.seedTrayState.splice(index,1);\n                    var newItem = {\n                        column: item.column,\n                        row: item.row, \n                        category: \"empty\"\n                    }\n                    \n                    scope.seedTrayState.push(newItem);\n                    scope.send({seedTrayState: scope.seedTrayState});\n                    \n                    \n                    var indexNewItem = scope.NFTState.indexOf(\n                            scope.NFTState.find(cell => cell.column === item.toNFTColumn && cell.row === item.toNFTRow)\n                    );\n                    \n                    \n                    // remove old item\n                    scope.NFTState.splice(indexNewItem,1);\n                    \n                   \n                    copy.column = item.toNFTColumn;\n                    copy.row = item.toNFTRow;\n                    copy.iconAction = \"\";\n                    copy.nextAction = undefined;\n                    copy.toNFTColumn = undefined;\n                    copy.toNFTRow = undefined;\n                    \n                    scope.NFTState.push(copy);\n                    \n                    //Update Seed Tray and NFTStateobject \n                    scope.send({NFTState: scope.NFTState});\n               \n                    \n                    \n                } else if (item.nextAction === \"plantSeed\") {\n                    \n                    var index =  scope.seedTrayState.indexOf(item);\n     \n                    //Copy the element\n                    let copy =JSON.parse(JSON.stringify(scope.seedTrayState[index]));\n                    \n                    // Update properties\n                    copy.iconAction = undefined;\n                    copy.nextAction = undefined;\n                    copy.category = \"salad\";\n                    \n                    var today = new Date();\n                    copy.seedPlantedDate = today.getFullYear() + \"-\" + today.getMonth()+1 + \"-\" + today.getDate();\n                    \n                    var germinationDate = new Date();\n                    germinationDate.setDate(today.getDate() + msg.lettuceDaysForGermination);\n                    copy.germinationDate = germinationDate.getFullYear() + \"-\" + (germinationDate.getMonth()+1) + \"-\" + germinationDate.getDate() ;\n                    \n                    var transplantDate = new Date();\n                    transplantDate.setDate(today.getDate() + msg.lettuceDaysForTransplant);\n                    copy.transplantDate = transplantDate.getFullYear() + \"-\" + (transplantDate.getMonth()+1) + \"-\" + transplantDate.getDate();\n                   \n                    var harvestDate = new Date();\n                    harvestDate.setDate(today.getDate() + msg.lettuceDaysForHarvest);\n                    copy.harvestDate = harvestDate.getFullYear() + \"-\" + (harvestDate.getMonth()+1) + \"-\" + harvestDate.getDate();\n                   \n                    // Remove \"old\" item\n                    scope.seedTrayState.splice(index,1);\n                    // Push the copy\n                    scope.seedTrayState.push(copy);\n                    \n                    scope.send({seedTrayState: scope.seedTrayState});\n                    \n                    \n                }\n                \n                if (item.nextAction === \"harvest\") {\n                    \n                    var index =  scope.NFTState.indexOf(item);\n                    scope.NFTState.splice(index,1);\n                    var newItem = {\n                        column: item.column,\n                        row: item.row, \n                        category: \"empty\"\n                    }\n                    \n                    scope.NFTState.push(newItem);\n                    //Update Seed Tray object \n                    scope.send({NFTState: scope.NFTState});\n                    \n                    \n                }\n            };\n            \n                        \n            scope.reschedule = function(item) {\n                \n                if (item.nextAction === \"transplant\") {\n                    // TODO never tested. \n                    \n                    var index =  scope.seedTrayState.indexOf(item);\n                    \n                    //Keep a copy the element stored in seed tray, for NFT generation\n                    let copy =JSON.parse(JSON.stringify(scope.seedTrayState[index]));\n                    \n                    scope.seedTrayState.splice(index,1);\n                    \n                    // Add 7 days\n                    var rescheduldedDate = new Date();\n                    rescheduldedDate.setTime(Date.parse(copy.transplantDate) + (7 * 24 * 60 * 60 * 1000));\n                    \n                    //Update transplantDate with date+ 7days \n                    copy.transplantDate = rescheduldedDate.getFullYear() + \"-\" + (rescheduldedDate.getMonth()+1) + \"-\" + rescheduldedDate.getDate();\n                   \n                    scope.seedTrayState.push(copy);\n                    scope.send({seedTrayState: scope.seedTrayState});\n                    \n                } else if (item.nextAction === \"plantSeed\") {\n                    \n                    var index =  scope.seedTrayState.indexOf(item);\n     \n                    //Copy the element\n                    let copy =JSON.parse(JSON.stringify(scope.seedTrayState[index]));\n                    \n                    // Update properties\n                    copy.iconAction = undefined;\n                    copy.nextAction = undefined;\n                    copy.category = \"empty\";\n                    \n                    // Remove \"old\" item\n                    scope.seedTrayState.splice(index,1);\n                    // Push the copy\n                    scope.seedTrayState.push(copy);\n\n                    scope.send({seedTrayState: scope.seedTrayState});\n                    \n                }\n                \n                if (item.nextAction === \"harvest\") {\n                    \n                    var index =  scope.NFTState.indexOf(item);\n                    scope.NFTState.splice(index,1);\n                    var newItem = {\n                        column: item.column,\n                        row: item.row, \n                        category: \"empty\"\n                    }\n                    \n                    scope.NFTState.push(newItem);\n          \n                    console.log(scope.NFTState);\n                    //Update Seed Tray object \n                    scope.send({NFTState: scope.NFTState});\n                    \n                    \n                }\n            };\n        }\n    \n    });\n\n})(scope);\n\n</script>",
+        "format": "<div layout=\"column\" style=\"max-height:350px\" ng-cloak>\n    \n      <md-toolbar md-scroll-shrink ng-if=\"true\">\n        <div class=\"md-toolbar-tools\">\n          <h3>\n            <span>Week activities </span>\n          </h3>\n        </div>\n      </md-toolbar>\n\n        <md-list flex>\n            \n            <!-- No action list -->\n            <md-list-item ng-show=\"(seedTrayState | filter: {'nextAction': '!!'}).length == 0 \n                && (NFTState | filter: {'nextAction': '!!'}).length == 0\">\n                \n                <div class=\"md-list-item-text\">\n                    <h4>No action.</h4>\n                </div>\n            </md-list-item>\n            \n            <!-- Harvest actions -->\n            <md-list-item ng-repeat=\"item in NFTState | filter: {'nextAction': '!!'}\">\n                <img src=\"{{item.iconAction}}\" class=\"md-avatar\" style=\"background-color: rgba(255,255,255,0.8);\" >\n                <div class=\"md-list-item-text\" ng-if=\"item.nextAction=='harvest'\">\n                    <h4>Harvest the {{item.category}}</h4>\n                    <p>Column {{item.column}}, row {{item.row}}</p>\n                </div>\n                \n                <md-menu class=\"md-secondary\" ng-show=\"item.nextAction=='harvest'\">\n                  <md-button class=\"icon-button\">\n                    <md-avatar ng-class=\"{'fa': true, 'fa-ellipsis-h': true}\"></md-avatar>\n                  </md-button>\n                  <md-menu-content width=\"4\">\n                    <md-menu-item ng-click=\"completeTask(item)\">\n                      <md-button>\n                        <md-avatar ng-class=\"{'fa': true, 'fa-check': true}\" ></md-avatar>\n                         Complete task\n                      </md-button>\n                    </md-menu-item>\n    \n                    <md-menu-item ng-click=\"reschedule(item)\">\n                      <md-button>\n                        <md-avatar ng-class=\"{'fa': true, 'fa-calendar-plus-o': true}\" ></md-avatar>\n                         Re-schedule to next week\n                      </md-button>\n                     </md-menu-item>\n                  </md-menu-content>\n                </md-menu>\n                <md-divider md-inset></md-divider>\n            </md-list-item>\n        \n            \n            <!--Plant seed and transplant action -->\n            <md-list-item ng-repeat=\"item in seedTrayState | filter: {'nextAction': '!!'}\">\n                <img src=\"{{item.iconAction}}\" class=\"md-avatar\" style=\"background-color: rgba(255,255,255,0.8);\" >\n                <div class=\"md-list-item-text\" ng-if=\"item.nextAction=='plantSeed'\">\n                    <h4>Plant a {{item.category}} seed</h4>\n                    <p>Seed tray - column {{item.column}}, row {{item.row}}</p>\n                </div>\n                <div class=\"md-list-item-text\" ng-if=\"item.nextAction=='transplant'\">\n                    <h4>Transplant {{item.category}}</h4>\n                    <p>From seed tray - ({{item.column}},{{item.row}})</p>\n                    <p ng-if=\"item.toNFTColumn\">To NFT - ({{item.toNFTColumn}},{{item.toNFTRow}})</p>\n                    <p ng-if=\"!item.toNFTColumn\"><i class=\"fa fa-warning\"> NFC system is full, harvest first.</i></p>\n             \n                </div>\n            \n                <md-menu class=\"md-secondary\" ng-show=\"item.nextAction=='plantSeed' || (item.nextAction=='transplant' && item.toNFTColumn)\">\n                  <md-button class=\"icon-button\">\n                    <md-avatar ng-class=\"{'fa': true, 'fa-ellipsis-h': true}\"></md-avatar>\n                  </md-button>\n                  <md-menu-content width=\"4\">\n                    <md-menu-item ng-click=\"completeTask(item)\">\n                      <md-button>\n                        <md-avatar ng-class=\"{'fa': true, 'fa-check': true}\" ></md-avatar>\n                         Complete task\n                      </md-button>\n                    </md-menu-item>\n    \n                    <md-menu-item ng-click=\"reschedule(item)\">\n                      <md-button>\n                        <md-avatar ng-class=\"{'fa': true, 'fa-calendar-plus-o': true}\" ></md-avatar>\n                         Re-schedule to next week\n                      </md-button>\n                    </md-menu-item>\n                    <md-menu-divider></md-menu-divider>\n                    <md-menu-item ng-click=\"\">\n                       <md-button >\n                        Change to tomatoe\n                      </md-button>\n                    </md-menu-item>\n                    <md-menu-item ng-click=\"\">\n                       <md-button>\n                        Change to mint\n                      </md-button>\n                    </md-menu-item>\n                     <md-menu-item ng-click=\"\">\n                       <md-button>\n                        Change to persley\n                      </md-button>\n                    </md-menu-item>\n                  </md-menu-content>\n                </md-menu>\n                <md-divider md-inset></md-divider>\n            </md-list-item>\n            \n    </md-list>\n</div>\n<script>\n    \n(function(scope) {\n    \n\n    // $watch fires each time the node is triggered in the flow\n    scope.$watch('msg', function(msg) {\n        \n        if (msg) {\n    \n            scope.seedTrayState = msg.seedTrayState;\n            scope.NFTState = msg.NFTState;\n            \n            \n            scope.completeTask = function(item) {\n                \n                if (item.nextAction === \"transplant\") {\n                    \n                    var index =  scope.seedTrayState.indexOf(item);\n                    \n                    //Keep a copy the element stored in seed tray, for NFT generation\n                    let copy =JSON.parse(JSON.stringify(scope.seedTrayState[index]));\n                    \n                    scope.seedTrayState.splice(index,1);\n                    var newItem = {\n                        column: item.column,\n                        row: item.row, \n                        category: \"empty\"\n                    }\n                    \n                    scope.seedTrayState.push(newItem);\n                    scope.send({seedTrayState: scope.seedTrayState});\n                    \n                    \n                    var indexNewItem = scope.NFTState.indexOf(\n                            scope.NFTState.find(cell => cell.column === item.toNFTColumn && cell.row === item.toNFTRow)\n                    );\n                    \n                    \n                    // remove old item\n                    scope.NFTState.splice(indexNewItem,1);\n                    \n                   \n                    copy.column = item.toNFTColumn;\n                    copy.row = item.toNFTRow;\n                    copy.iconAction = \"\";\n                    copy.nextAction = undefined;\n                    copy.toNFTColumn = undefined;\n                    copy.toNFTRow = undefined;\n                    \n                    scope.NFTState.push(copy);\n                    \n                    //Update Seed Tray and NFTStateobject \n                    scope.send({NFTState: scope.NFTState});\n               \n                    \n                    \n                } else if (item.nextAction === \"plantSeed\") {\n                    \n                    var index =  scope.seedTrayState.indexOf(item);\n     \n                    //Copy the element\n                    let copy =JSON.parse(JSON.stringify(scope.seedTrayState[index]));\n                    \n                    // Update properties\n                    copy.iconAction = undefined;\n                    copy.nextAction = undefined;\n                    copy.category = \"salad\";\n                    \n                    var today = new Date();\n                    copy.seedPlantedDate = today.getFullYear() + \"-\" + today.getMonth()+1 + \"-\" + today.getDate();\n                    \n                    var germinationDate = new Date();\n                    germinationDate.setDate(today.getDate() + msg.lettuceDaysForGermination);\n                    copy.germinationDate = germinationDate.getFullYear() + \"-\" + (germinationDate.getMonth()+1) + \"-\" + germinationDate.getDate() ;\n                    \n                    var transplantDate = new Date();\n                    transplantDate.setDate(today.getDate() + msg.lettuceDaysForTransplant);\n                    copy.transplantDate = transplantDate.getFullYear() + \"-\" + (transplantDate.getMonth()+1) + \"-\" + transplantDate.getDate();\n                   \n                    var harvestDate = new Date();\n                    harvestDate.setDate(today.getDate() + msg.lettuceDaysForHarvest);\n                    copy.harvestDate = harvestDate.getFullYear() + \"-\" + (harvestDate.getMonth()+1) + \"-\" + harvestDate.getDate();\n                   \n                    // Remove \"old\" item\n                    scope.seedTrayState.splice(index,1);\n                    // Push the copy\n                    scope.seedTrayState.push(copy);\n                    \n                    scope.send({seedTrayState: scope.seedTrayState});\n                    \n                    \n                }\n                \n                if (item.nextAction === \"harvest\") {\n                    \n                    var index =  scope.NFTState.indexOf(item);\n                    scope.NFTState.splice(index,1);\n                    var newItem = {\n                        column: item.column,\n                        row: item.row, \n                        category: \"empty\"\n                    }\n                    \n                    scope.NFTState.push(newItem);\n                    //Update Seed Tray object \n                    scope.send({NFTState: scope.NFTState});\n                    \n                    \n                }\n            };\n            \n                        \n            scope.reschedule = function(item) {\n                \n                if (item.nextAction === \"transplant\") {\n                    \n                    var index =  scope.seedTrayState.indexOf(item);\n                    \n                    //Keep a copy the element stored in seed tray, for NFT generation\n                    let copy =JSON.parse(JSON.stringify(scope.seedTrayState[index]));\n                    \n                    scope.seedTrayState.splice(index,1);\n                    \n                    // Add 7 days\n                    var rescheduldedDate = new Date();\n                    rescheduldedDate.setTime(Date.parse(copy.transplantDate) + (7 * 24 * 60 * 60 * 1000));\n                    \n                    //Update transplantDate with date+ 7days \n                    copy.transplantDate = rescheduldedDate.getFullYear() + \"-\" + (rescheduldedDate.getMonth()+1) + \"-\" + rescheduldedDate.getDate();\n                   \n                   // Update properties, so it doesnt appear to this week activities\n                    copy.iconAction = undefined;\n                    copy.nextAction = undefined;\n                   \n                    scope.seedTrayState.push(copy);\n                    scope.send({seedTrayState: scope.seedTrayState});\n                    \n                } else if (item.nextAction === \"plantSeed\") {\n                    \n                    var index =  scope.seedTrayState.indexOf(item);\n     \n                    //Copy the element\n                    let copy =JSON.parse(JSON.stringify(scope.seedTrayState[index]));\n                    \n                    // Update properties\n                    copy.iconAction = undefined;\n                    copy.nextAction = undefined;\n                    copy.category = \"empty\";\n                    \n                    // Remove \"old\" item\n                    scope.seedTrayState.splice(index,1);\n                    // Push the copy\n                    scope.seedTrayState.push(copy);\n\n                    scope.send({seedTrayState: scope.seedTrayState});\n                    \n                }\n                \n                if (item.nextAction === \"harvest\") {\n                    \n                    var index =  scope.NFTState.indexOf(item);\n                    scope.NFTState.splice(index,1);\n                    var newItem = {\n                        column: item.column,\n                        row: item.row, \n                        category: \"empty\"\n                    }\n                    \n                    scope.NFTState.push(newItem);\n          \n                    console.log(scope.NFTState);\n                    //Update Seed Tray object \n                    scope.send({NFTState: scope.NFTState});\n                    \n                    \n                }\n            };\n        }\n    \n    });\n\n})(scope);\n\n</script>",
         "storeOutMessages": false,
         "fwdInMessages": false,
         "resendOnRefresh": true,
@@ -6557,7 +6865,7 @@
         "type": "function",
         "z": "5e9d2991.0ea428",
         "name": "Update seed and NFT arrays",
-        "func": "// If update received.\nif (msg.seedTrayState) {\n    global.set(\"crops.seedTrayState\", msg.seedTrayState);\n} \nmsg.seedTrayState = global.get(\"crops.seedTrayState\");\n\n// Get NFT state\nif (msg.NFTState) {\n    global.set(\"crops.NFT.state\", msg.NFTState);\n}\nmsg.NFTState = global.get('crops.NFT.state');\n\nif (msg.currentWeek) {\n    global.set(\"crops.currentWeek.weekNumber\", msg.currentweek[\"weekNumber\"]);\n    global.set(\"crops.currentWeek.schedule.maxSeedPerWeek\", msg.currentweek[\"schedule\"][\"maxSeedPerWeek\"]);\n    global.set(\"crops.currentWeek.schedule.countSeedPlanted\", msg.currentweek[\"schedule\"][\"countSeedPlanted\"]);\n}\n\n\n// Get all empty cells from NFT system, to assign a cell for transplantation from seed tray\nvar emptyNFTCells = msg.NFTState.filter(cell => cell.category === \"empty\");\nvar countEmptyCells = 0;\n\nvar maxNumberOfSaladSeedsPerWeek = global.get(\"crops.currentWeek.schedule.maxSeedPerWeek\");\nvar currentWeekNumber = global.get(\"crops.currentWeek.weekNumber\");\n\n\n// ---------- DATE utils -----------------\n\n// Returns the ISO week of the date.\n Date.prototype.getWeek = function() {\n    var date = new Date(this.getTime());\n    date.setHours(0, 0, 0, 0);\n    // Thursday in current week decides the year.\n    date.setDate(date.getDate() + 3 - (date.getDay() + 6) % 7);\n    // January 4 is always in week 1.\n    var week1 = new Date(date.getFullYear(), 0, 4);\n    // Adjust to Thursday in week 1 and count number of weeks from date to week1.\n        return 1 + Math.round(((date.getTime() - week1.getTime()) / 86400000 - 3 + (week1.getDay() + 6) % 7) / 7);\n};\n\nDate.prototype.isToday = function () {\n    var today = new Date();\n\n    return this.getDate() === today.getDate() &&\n        this.getMonth() === today.getMonth() &&\n        this.getFullYear() === today.getFullYear();\n};\n\n\n// Pass global varialbe\n\nmsg.lettuceDaysForGermination = global.get('crops.lettuce.schedule.germinated') || 0;\nmsg.lettuceDaysForTransplant = global.get('crops.lettuce.schedule.transplant') || 0;\nmsg.lettuceDaysForHarvest = global.get('crops.lettuce.schedule.harvest') || 0;\n\nfor (var item in msg.seedTrayState) {\n\n    // bug fix - save date as 2021-01-05T00:00:00+09:00\n \n    if (msg.seedTrayState[item][\"category\"] == \"empty\") {\n            \n        msg.seedTrayState[item][\"hexColor\"]= \"grey\";\n        msg.seedTrayState[item][\"icon\"] = \"\";\n        \n        // In case no next action defined, and seeds can be planted this week\n        if (!msg.seedTrayState[item][\"nextAction\"] &&\n            global.get(\"crops.currentWeek.schedule.countSeedPlanted\") < maxNumberOfSaladSeedsPerWeek) {\n            \n            msg.seedTrayState[item][\"nextAction\"] = \"plantSeed\";\n            msg.seedTrayState[item][\"iconAction\"] = \"http://raspberrypi.local:1880/seeding.png\";\n            \n            var numberOfSeedToPlan = global.get(\"crops.currentWeek.schedule.countSeedPlanted\");\n            global.set(\"crops.currentWeek.schedule.countSeedPlanted\", numberOfSeedToPlan+1);\n\n        }\n        \n    }\n    \n    // if curent week = transplantWeekNumber, time to transplant\n    if (currentWeekNumber >= (new Date(Date.parse(msg.seedTrayState[item][\"transplantDate\"]))).getWeek()) {\n        \n        msg.seedTrayState[item][\"hexColor\"]= \"green\";\n        msg.seedTrayState[item][\"icon\"] = \"http://raspberrypi.local:1880/germinated-state.png\";\n        \n        msg.seedTrayState[item][\"nextAction\"] = \"transplant\";\n        msg.seedTrayState[item][\"iconAction\"] = \"http://raspberrypi.local:1880/action-transplant.png\";\n        \n        // Ready to harvest, so progress is 100%\n        msg.seedTrayState[item][\"progress\"] = 100\n            \n        // Ready for transplant. Compute toBe column and row\n        if (emptyNFTCells[countEmptyCells]) {\n            msg.seedTrayState[item][\"toNFTColumn\"] = emptyNFTCells[countEmptyCells].column;\n            msg.seedTrayState[item][\"toNFTRow\"] = emptyNFTCells[countEmptyCells].row;\n            countEmptyCells++;\n        }\n    }\n    \n    // Seed is germinated, not ready for transplant\n    else if (Date.parse(msg.seedTrayState[item][\"transplantDate\"]) >= new Date().getTime()\n            && new Date().getTime() > Date.parse(msg.seedTrayState[item][\"germinationDate\"])) {\n                \n        msg.seedTrayState[item][\"hexColor\"]= \"green\";\n        msg.seedTrayState[item][\"icon\"] = \"http://raspberrypi.local:1880/germinated-state.png\";\n        \n        var daysElapsedSinceSeedDate = Math.abs((new Date().getTime() - Date.parse(msg.seedTrayState[item][\"seedPlantedDate\"])) / (1000 * 60 * 60 * 24));\n        msg.seedTrayState[item][\"progress\"]= Math.round(daysElapsedSinceSeedDate / msg.lettuceDaysForTransplant * 100);\n        if (msg.seedTrayState[item][\"progress\"] > 100) {\n            msg.seedTrayState[item][\"progress\"] = 100;\n        }\n    } \n    \n    // Germinated \n    else if (Date.parse(msg.seedTrayState[item][\"germinationDate\"]) <= new Date().getTime()\n            && new Date().getTime() > Date.parse(msg.seedTrayState[item][\"seedPlantedDate\"])) {\n        \n        msg.seedTrayState[item][\"hexColor\"]= \"green\";\n        msg.seedTrayState[item][\"icon\"] = \"http://raspberrypi.local:1880/germinating-state.png\";\n        \n        var daysElapsedSinceSeedDate = Math.abs((new Date().getTime() - Date.parse(msg.seedTrayState[item][\"seedPlantedDate\"])) / (1000 * 60 * 60 * 24));\n        msg.seedTrayState[item][\"progress\"]= Math.round(daysElapsedSinceSeedDate / msg.lettuceDaysForGermination * 100);\n        \n        if (msg.seedTrayState[item][\"progress\"] > 100) {\n            msg.seedTrayState[item][\"progress\"] = 100;\n        }\n        \n    } \n    \n    // Seed state\n    else if (msg.seedTrayState[item][\"seedPlantedDate\"] && \n            (new Date(Date.parse(msg.seedTrayState[item][\"seedPlantedDate\"]))).isToday()) {\n        \n        msg.seedTrayState[item][\"hexColor\"]= \"green\";\n        msg.seedTrayState[item][\"icon\"] = \"http://raspberrypi.local:1880/seed_state.png\";\n        \n        var daysElapsedSinceSeedDate = Math.abs((new Date().getTime() - Date.parse(msg.seedTrayState[item][\"seedPlantedDate\"])) / (1000 * 60 * 60 * 24));\n        msg.seedTrayState[item][\"progress\"]= Math.round(daysElapsedSinceSeedDate / msg.lettuceDaysForGermination * 100);\n        \n        if (msg.seedTrayState[item][\"progress\"] > 100) {\n            msg.seedTrayState[item][\"progress\"] = 100;\n        }\n    } \n}\n\nglobal.set(\"crops.seedTrayState\", msg.seedTrayState);\n\n\nfor (item in msg.NFTState) {\n  \n    if (msg.NFTState[item][\"category\"] == \"empty\") {\n            \n        msg.NFTState[item][\"hexColor\"]= \"black\";\n        msg.NFTState[item][\"icon\"] = \"\";\n        \n    } else if (currentWeekNumber >= (new Date(Date.parse(msg.NFTState[item][\"harvestDate\"]))).getWeek()) {\n        \n        msg.NFTState[item][\"hexColor\"]= \"green\";\n        msg.NFTState[item][\"icon\"] = \"http://raspberrypi.local:1880/harvest-state.png\";\n        \n        msg.NFTState[item][\"nextAction\"] = \"harvest\";\n        msg.NFTState[item][\"iconAction\"] = \"http://raspberrypi.local:1880/harvest-action.png\";\n        \n        // Ready to harvest, so progress is 100%\n        msg.NFTState[item][\"progress\"] = 100\n        \n    } else {\n\n        msg.NFTState[item][\"hexColor\"]= \"green\";\n        msg.NFTState[item][\"icon\"] = \"http://raspberrypi.local:1880/germinated-state.png\";\n        \n        var daysElapsedSinceTransplant = Math.abs((new Date().getTime() - Date.parse(msg.NFTState[item][\"transplantDate\"])) / (1000 * 60 * 60 * 24));\n        msg.NFTState[item][\"progress\"]= Math.round(daysElapsedSinceTransplant / msg.lettuceDaysForHarvest * 100);\n        \n        \n    }\n}\n\nglobal.set('crops.NFT.state', msg.NFTState);\n\n\nmsg.NFTColumns = global.get('config.NFT.columns'); \nmsg.NFTRows =global.get('config.NFT.rows'); \nmsg.SeedTrayColumns = global.get('config.SeedTray.columns'); \nmsg.SeedTrayRows = global.get('config.SeedTray.rows'); \n\nmsg.crops = { \n    \n    currentweek: {\n            weekNumber: global.get(\"crops.currentWeek.weekNumber\"),\n            schedule: {\n                maxSeedPerWeek: global.get(\"crops.currentWeek.schedule.maxSeedPerWeek\"),\n                countSeedPlanted: global.get(\"crops.currentWeek.schedule.countSeedPlanted\")\n            }\n    }\n};\n\nreturn [\n    msg,  \n    { payload: msg.seedTrayState }, \n    { payload: msg.NFTState },\n    msg.crops\n];",
+        "func": "// If update received.\nif (msg.seedTrayState) {\n    global.set(\"crops.seedTrayState\", msg.seedTrayState);\n} \nmsg.seedTrayState = global.get(\"crops.seedTrayState\");\n\n// Get NFT state\nif (msg.NFTState) {\n    global.set(\"crops.NFT.state\", msg.NFTState);\n}\nmsg.NFTState = global.get('crops.NFT.state');\n\nif (msg.currentWeek) {\n    global.set(\"crops.currentWeek.weekNumber\", msg.currentweek[\"weekNumber\"]);\n    global.set(\"crops.currentWeek.schedule.maxSeedPerWeek\", msg.currentweek[\"schedule\"][\"maxSeedPerWeek\"]);\n    global.set(\"crops.currentWeek.schedule.countSeedPlanted\", msg.currentweek[\"schedule\"][\"countSeedPlanted\"]);\n}\n\n\n// Get all empty cells from NFT system, to assign a cell for transplantation from seed tray\nvar emptyNFTCells = msg.NFTState.filter(cell => cell.category === \"empty\");\nvar countEmptyCells = 0;\n\nvar maxNumberOfSaladSeedsPerWeek = global.get(\"crops.currentWeek.schedule.maxSeedPerWeek\");\nvar currentWeekNumber = global.get(\"crops.currentWeek.weekNumber\");\n\n\n// ---------- DATE utils -----------------\n\n// Returns the ISO week of the date.\n Date.prototype.getWeek = function() {\n    var date = new Date(this.getTime());\n    date.setHours(0, 0, 0, 0);\n    // Thursday in current week decides the year.\n    date.setDate(date.getDate() + 3 - (date.getDay() + 6) % 7);\n    // January 4 is always in week 1.\n    var week1 = new Date(date.getFullYear(), 0, 4);\n    // Adjust to Thursday in week 1 and count number of weeks from date to week1.\n        return 1 + Math.round(((date.getTime() - week1.getTime()) / 86400000 - 3 + (week1.getDay() + 6) % 7) / 7);\n};\n\nDate.prototype.isToday = function () {\n    var today = new Date();\n\n    return this.getDate() === today.getDate() &&\n        this.getMonth() === today.getMonth() &&\n        this.getFullYear() === today.getFullYear();\n};\n\n\n// Pass global varialbe\n\nmsg.lettuceDaysForGermination = global.get('crops.lettuce.schedule.germinated') || 0;\nmsg.lettuceDaysForTransplant = global.get('crops.lettuce.schedule.transplant') || 0;\nmsg.lettuceDaysForHarvest = global.get('crops.lettuce.schedule.harvest') || 0;\n\nfor (var item in msg.seedTrayState) {\n\n    // bug fix - save date as 2021-01-05T00:00:00+09:00\n \n    if (msg.seedTrayState[item][\"category\"] == \"empty\") {\n            \n        msg.seedTrayState[item][\"hexColor\"]= \"grey\";\n        msg.seedTrayState[item][\"icon\"] = \"\";\n        \n        // In case no next action defined, and seeds can be planted this week\n        if (!msg.seedTrayState[item][\"nextAction\"] &&\n            global.get(\"crops.currentWeek.schedule.countSeedPlanted\") < maxNumberOfSaladSeedsPerWeek) {\n            \n            msg.seedTrayState[item][\"nextAction\"] = \"plantSeed\";\n            msg.seedTrayState[item][\"iconAction\"] = \"http://raspberrypi.local:1880/seeding.png\";\n            \n            var numberOfSeedToPlan = global.get(\"crops.currentWeek.schedule.countSeedPlanted\");\n            global.set(\"crops.currentWeek.schedule.countSeedPlanted\", numberOfSeedToPlan+1);\n\n        }\n        \n    }\n    \n    // if curent week = transplantWeekNumber, time to transplant\n    if (currentWeekNumber >= (new Date(Date.parse(msg.seedTrayState[item][\"transplantDate\"]))).getWeek()) {\n        \n        msg.seedTrayState[item][\"hexColor\"]= \"green\";\n        msg.seedTrayState[item][\"icon\"] = \"http://raspberrypi.local:1880/germinated-state.png\";\n        \n        msg.seedTrayState[item][\"nextAction\"] = \"transplant\";\n        msg.seedTrayState[item][\"iconAction\"] = \"http://raspberrypi.local:1880/action-transplant.png\";\n        \n        // Ready to harvest, so progress is 100%\n        msg.seedTrayState[item][\"progress\"] = 100\n            \n        // Ready for transplant. Compute toBe column and row\n        if (emptyNFTCells[countEmptyCells]) {\n            msg.seedTrayState[item][\"toNFTColumn\"] = emptyNFTCells[countEmptyCells].column;\n            msg.seedTrayState[item][\"toNFTRow\"] = emptyNFTCells[countEmptyCells].row;\n            countEmptyCells++;\n        }\n    }\n    \n    // Seed is germinated, not ready for transplant\n    else if (Date.parse(msg.seedTrayState[item][\"transplantDate\"]) >= new Date().getTime()\n            && new Date().getTime() > Date.parse(msg.seedTrayState[item][\"germinationDate\"])) {\n                \n        msg.seedTrayState[item][\"hexColor\"]= \"green\";\n        msg.seedTrayState[item][\"icon\"] = \"http://raspberrypi.local:1880/germinated-state.png\";\n        \n        let daysElapsedSinceSeedDate = Math.abs((new Date().getTime() - Date.parse(msg.seedTrayState[item][\"seedPlantedDate\"])) / (1000 * 60 * 60 * 24));\n        //TODO when re-schedule to next week, progress cant be computed correctly..\n        //let daysUntilTransplantDate = Math.abs((Date.parse(msg.seedTrayState[item][\"transplantDate\"]) - new Date().getTime()) /  (1000 * 60 * 60 * 24));\n        \n        msg.seedTrayState[item][\"progress\"]= Math.round(daysElapsedSinceSeedDate / msg.lettuceDaysForTransplant * 100);\n        \n        if (msg.seedTrayState[item][\"progress\"] > 100) {\n            msg.seedTrayState[item][\"progress\"] = 100;\n        }\n    } \n    \n    // Germinated \n    else if (Date.parse(msg.seedTrayState[item][\"germinationDate\"]) <= new Date().getTime()\n            && new Date().getTime() > Date.parse(msg.seedTrayState[item][\"seedPlantedDate\"])) {\n        \n        msg.seedTrayState[item][\"hexColor\"]= \"green\";\n        msg.seedTrayState[item][\"icon\"] = \"http://raspberrypi.local:1880/germinating-state.png\";\n        \n        let daysElapsedSinceSeedDate = Math.abs((new Date().getTime() - Date.parse(msg.seedTrayState[item][\"seedPlantedDate\"])) / (1000 * 60 * 60 * 24));\n        msg.seedTrayState[item][\"progress\"]= Math.round(daysElapsedSinceSeedDate / msg.lettuceDaysForGermination * 100);\n\n        \n        if (msg.seedTrayState[item][\"progress\"] > 100) {\n            msg.seedTrayState[item][\"progress\"] = 100;\n        }\n        \n    } \n    \n    // Seed state\n    else if (msg.seedTrayState[item][\"seedPlantedDate\"] && \n            (new Date(Date.parse(msg.seedTrayState[item][\"seedPlantedDate\"]))).isToday()) {\n        \n        msg.seedTrayState[item][\"hexColor\"]= \"green\";\n        msg.seedTrayState[item][\"icon\"] = \"http://raspberrypi.local:1880/seed_state.png\";\n        \n        let daysElapsedSinceSeedDate = Math.abs((new Date().getTime() - Date.parse(msg.seedTrayState[item][\"seedPlantedDate\"])) / (1000 * 60 * 60 * 24));\n        msg.seedTrayState[item][\"progress\"]= Math.round(daysElapsedSinceSeedDate / msg.lettuceDaysForGermination * 100);\n        \n        \n        if (msg.seedTrayState[item][\"progress\"] > 100) {\n            msg.seedTrayState[item][\"progress\"] = 100;\n        }\n    } \n}\n\nglobal.set(\"crops.seedTrayState\", msg.seedTrayState);\n\n\nfor (item in msg.NFTState) {\n  \n    if (msg.NFTState[item][\"category\"] == \"empty\") {\n            \n        msg.NFTState[item][\"hexColor\"]= \"black\";\n        msg.NFTState[item][\"icon\"] = \"\";\n        \n    } else if (currentWeekNumber >= (new Date(Date.parse(msg.NFTState[item][\"harvestDate\"]))).getWeek()) {\n        \n        msg.NFTState[item][\"hexColor\"]= \"green\";\n        msg.NFTState[item][\"icon\"] = \"http://raspberrypi.local:1880/harvest-state.png\";\n        \n        msg.NFTState[item][\"nextAction\"] = \"harvest\";\n        msg.NFTState[item][\"iconAction\"] = \"http://raspberrypi.local:1880/harvest-action.png\";\n        \n        // Ready to harvest, so progress is 100%\n        msg.NFTState[item][\"progress\"] = 100\n        \n    } else {\n\n        msg.NFTState[item][\"hexColor\"]= \"green\";\n        msg.NFTState[item][\"icon\"] = \"http://raspberrypi.local:1880/germinated-state.png\";\n        \n        var daysElapsedSinceTransplant = Math.abs((new Date().getTime() - Date.parse(msg.NFTState[item][\"transplantDate\"])) / (1000 * 60 * 60 * 24));\n        msg.NFTState[item][\"progress\"]= Math.round(daysElapsedSinceTransplant / msg.lettuceDaysForHarvest * 100);\n        \n        \n    }\n}\n\nglobal.set('crops.NFT.state', msg.NFTState);\n\n\nmsg.NFTColumns = global.get('config.NFT.columns'); \nmsg.NFTRows =global.get('config.NFT.rows'); \nmsg.SeedTrayColumns = global.get('config.SeedTray.columns'); \nmsg.SeedTrayRows = global.get('config.SeedTray.rows'); \n\nmsg.crops = { \n    \n    currentweek: {\n            weekNumber: global.get(\"crops.currentWeek.weekNumber\"),\n            schedule: {\n                maxSeedPerWeek: global.get(\"crops.currentWeek.schedule.maxSeedPerWeek\"),\n                countSeedPlanted: global.get(\"crops.currentWeek.schedule.countSeedPlanted\")\n            }\n    }\n};\n\nreturn [\n    msg,  \n    { payload: msg.seedTrayState }, \n    { payload: msg.NFTState },\n    msg.crops\n];",
         "outputs": 4,
         "noerr": 0,
         "initialize": "",
@@ -7201,7 +7509,7 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 290,
+        "x": 270,
         "y": 640,
         "wires": [
             [
@@ -7298,6 +7606,7 @@
         "id": "69d27d4f.253984",
         "type": "change",
         "z": "87cb301d.9893c",
+        "g": "79fac8a4.114828",
         "name": "Switch to on",
         "rules": [
             {
@@ -7313,8 +7622,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 410,
-        "y": 428,
+        "x": 670,
+        "y": 468,
         "wires": [
             [
                 "933e05f4.0abbb8"
@@ -7325,12 +7634,13 @@
         "id": "cd5e7336.53f74",
         "type": "link in",
         "z": "87cb301d.9893c",
+        "g": "79fac8a4.114828",
         "name": "Switch on water pump",
         "links": [
             "983a3abc.dd1b18"
         ],
-        "x": 295,
-        "y": 428,
+        "x": 555,
+        "y": 468,
         "wires": [
             [
                 "69d27d4f.253984"
@@ -7341,6 +7651,7 @@
         "id": "6fd97e66.02fde",
         "type": "change",
         "z": "87cb301d.9893c",
+        "g": "79fac8a4.114828",
         "name": "Switch to off",
         "rules": [
             {
@@ -7356,8 +7667,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 410,
-        "y": 488,
+        "x": 670,
+        "y": 528,
         "wires": [
             [
                 "933e05f4.0abbb8"
@@ -7368,14 +7679,15 @@
         "id": "83c9cbe9.ff0f68",
         "type": "link in",
         "z": "87cb301d.9893c",
+        "g": "79fac8a4.114828",
         "name": "Switch off water pump",
         "links": [
             "541ca6e4.306648",
             "2d32f6d2.b52eaa",
             "6bd46816.3f5cd8"
         ],
-        "x": 295,
-        "y": 488,
+        "x": 555,
+        "y": 528,
         "wires": [
             [
                 "6fd97e66.02fde"
@@ -7441,6 +7753,7 @@
         "id": "d579d391.622e6",
         "type": "switch",
         "z": "87cb301d.9893c",
+        "g": "79fac8a4.114828",
         "name": "When water pump is on",
         "property": "payload",
         "propertyType": "msg",
@@ -7452,8 +7765,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 830,
-        "y": 520,
+        "x": 1090,
+        "y": 560,
         "wires": [
             [
                 "1426c687.455629"
@@ -7464,10 +7777,11 @@
         "id": "1426c687.455629",
         "type": "persist out",
         "z": "87cb301d.9893c",
+        "g": "79fac8a4.114828",
         "name": "waterPumpTimer",
         "storageNode": "217cc961.603ce6",
-        "x": 1070,
-        "y": 520,
+        "x": 1330,
+        "y": 560,
         "wires": [
             [
                 "fcfbe87b.4c3f98"
@@ -7478,14 +7792,15 @@
         "id": "fcfbe87b.4c3f98",
         "type": "function",
         "z": "87cb301d.9893c",
+        "g": "79fac8a4.114828",
         "name": "msg.delay",
         "func": "var newMsg = { delay: (msg.payload * 1000) };\nreturn newMsg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 1270,
-        "y": 520,
+        "x": 1530,
+        "y": 560,
         "wires": [
             [
                 "766d6f3d.e9fdb"
@@ -7496,6 +7811,7 @@
         "id": "766d6f3d.e9fdb",
         "type": "delay",
         "z": "87cb301d.9893c",
+        "g": "79fac8a4.114828",
         "name": "",
         "pauseType": "delayv",
         "timeout": "20",
@@ -7507,8 +7823,8 @@
         "randomLast": "5",
         "randomUnits": "seconds",
         "drop": false,
-        "x": 1440,
-        "y": 520,
+        "x": 1700,
+        "y": 560,
         "wires": [
             [
                 "2d32f6d2.b52eaa"
@@ -7519,12 +7835,13 @@
         "id": "2d32f6d2.b52eaa",
         "type": "link out",
         "z": "87cb301d.9893c",
+        "g": "79fac8a4.114828",
         "name": "",
         "links": [
             "83c9cbe9.ff0f68"
         ],
-        "x": 1535,
-        "y": 520,
+        "x": 1795,
+        "y": 560,
         "wires": []
     },
     {
@@ -7617,7 +7934,9 @@
         "z": "9441712c.a6198",
         "name": "Water spray duration update",
         "links": [
-            "593527d0.c1f528"
+            "593527d0.c1f528",
+            "4db5829b.8b907c",
+            "36e61c64.c7dae4"
         ],
         "x": 635,
         "y": 961,
@@ -7667,7 +7986,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 600,
+        "x": 580,
         "y": 640,
         "wires": [
             [
@@ -7684,7 +8003,7 @@
         "links": [
             "83c9cbe9.ff0f68"
         ],
-        "x": 775,
+        "x": 755,
         "y": 640,
         "wires": []
     },
@@ -7706,8 +8025,8 @@
                 "lon": "139.71987455770463"
             }
         ],
-        "x": 380,
-        "y": 320,
+        "x": 160,
+        "y": 260,
         "wires": [
             [
                 "afc2699b.555188"
@@ -7750,8 +8069,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 610,
-        "y": 320,
+        "x": 390,
+        "y": 260,
         "wires": [
             [
                 "f40c3a92.6bfd38"
@@ -7780,8 +8099,8 @@
         "checkall": "false",
         "repair": false,
         "outputs": 2,
-        "x": 820,
-        "y": 320,
+        "x": 600,
+        "y": 260,
         "wires": [
             [
                 "830f2500.757e68"
@@ -7810,8 +8129,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1180,
-        "y": 200,
+        "x": 960,
+        "y": 140,
         "wires": [
             [
                 "6e1f9a7d.a10f74"
@@ -7837,8 +8156,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1100,
-        "y": 380,
+        "x": 880,
+        "y": 320,
         "wires": [
             [
                 "6e1f9a7d.a10f74"
@@ -7852,8 +8171,8 @@
         "deviceName": "LED strip - living room",
         "deviceId": "744288502cf4323a130e",
         "deviceKey": "c4dcdb8b912b91ad",
-        "x": 1460,
-        "y": 280,
+        "x": 1240,
+        "y": 240,
         "wires": [
             []
         ]
@@ -7866,8 +8185,8 @@
         "verbose": false,
         "topic": "sunEvent",
         "name": "",
-        "x": 620,
-        "y": 200,
+        "x": 400,
+        "y": 140,
         "wires": [
             [
                 "104a9f01.69c951",
@@ -7888,8 +8207,8 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 850,
-        "y": 120,
+        "x": 630,
+        "y": 60,
         "wires": []
     },
     {
@@ -7912,8 +8231,8 @@
         "reduceInit": "",
         "reduceInitType": "num",
         "reduceFixup": "",
-        "x": 990,
-        "y": 200,
+        "x": 770,
+        "y": 140,
         "wires": [
             [
                 "f0bdf07d.baae8",
@@ -7938,8 +8257,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 820,
-        "y": 200,
+        "x": 600,
+        "y": 140,
         "wires": [
             [
                 "830f2500.757e68"
@@ -7959,8 +8278,8 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1110,
-        "y": 120,
+        "x": 890,
+        "y": 60,
         "wires": []
     },
     {
@@ -7984,8 +8303,8 @@
         "topic": "23",
         "payload": "",
         "payloadType": "date",
-        "x": 880,
-        "y": 420,
+        "x": 800,
+        "y": 360,
         "wires": [
             [
                 "7268094f.2cf1e8"
@@ -7998,8 +8317,8 @@
         "z": "b2dec5c2.4f2758",
         "name": "## Switch off after 23'00",
         "info": "",
-        "x": 650,
-        "y": 420,
+        "x": 610,
+        "y": 340,
         "wires": []
     },
     {
@@ -8008,167 +8327,8 @@
         "z": "b2dec5c2.4f2758",
         "name": "## Switch on at sunset and if im home",
         "info": "",
-        "x": 970,
-        "y": 160,
-        "wires": []
-    },
-    {
-        "id": "db92ec4.114d91",
-        "type": "smartthings-node-onoff",
-        "z": "b2dec5c2.4f2758",
-        "conf": "b0151dde.26366",
-        "name": "Bedroom #1",
-        "device": "d7fdde5e-b646-459d-84b6-f7480a5cc123",
-        "x": 800,
-        "y": 580,
-        "wires": [
-            [
-                "20e189f.91df976"
-            ]
-        ]
-    },
-    {
-        "id": "91f23b22.918368",
-        "type": "smartthings-node-onoff",
-        "z": "b2dec5c2.4f2758",
-        "conf": "b0151dde.26366",
-        "name": "Bedroom #2",
-        "device": "c865d0af-ad3b-47f9-a0ef-2adea22743fa",
-        "x": 810,
-        "y": 620,
-        "wires": [
-            [
-                "20e189f.91df976"
-            ]
-        ]
-    },
-    {
-        "id": "7557647a.76fa1c",
-        "type": "smartthings-node-onoff",
-        "z": "b2dec5c2.4f2758",
-        "conf": "b0151dde.26366",
-        "name": "Bedroom #3",
-        "device": "073e57cf-e0af-4d02-807d-9cfac4f18c80",
-        "x": 810,
-        "y": 660,
-        "wires": [
-            [
-                "20e189f.91df976"
-            ]
-        ]
-    },
-    {
-        "id": "c94e0c39.94e5",
-        "type": "smartthings-node-onoff",
-        "z": "b2dec5c2.4f2758",
-        "conf": "b0151dde.26366",
-        "name": "Bed room lamp #4",
-        "device": "be05bd6d-878b-4ea3-b674-1bd19fc3945e",
-        "x": 830,
-        "y": 700,
-        "wires": [
-            [
-                "20e189f.91df976"
-            ]
-        ]
-    },
-    {
-        "id": "fb8f712f.edb8b",
-        "type": "inject",
-        "z": "b2dec5c2.4f2758",
-        "name": "Switch on",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "switch",
-        "payload": "{\"value\":1}",
-        "payloadType": "json",
-        "x": 540,
-        "y": 580,
-        "wires": [
-            [
-                "db92ec4.114d91",
-                "91f23b22.918368",
-                "7557647a.76fa1c",
-                "c94e0c39.94e5"
-            ]
-        ]
-    },
-    {
-        "id": "20e189f.91df976",
-        "type": "debug",
-        "z": "b2dec5c2.4f2758",
-        "name": "",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1090,
-        "y": 640,
-        "wires": []
-    },
-    {
-        "id": "54dfc17f.224fb",
-        "type": "inject",
-        "z": "b2dec5c2.4f2758",
-        "name": "Switch off",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "switch",
-        "payload": "{\"value\":0}",
-        "payloadType": "json",
-        "x": 540,
-        "y": 740,
-        "wires": [
-            [
-                "db92ec4.114d91",
-                "91f23b22.918368",
-                "7557647a.76fa1c",
-                "c94e0c39.94e5"
-            ]
-        ]
-    },
-    {
-        "id": "d7959315.ce8da",
-        "type": "debug",
-        "z": "b2dec5c2.4f2758",
-        "g": "955cda67.93f6e8",
-        "name": "",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 790,
-        "y": 1480,
+        "x": 750,
+        "y": 100,
         "wires": []
     },
     {
@@ -8182,8 +8342,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 1650,
-        "y": 1640,
+        "x": 420,
+        "y": 1740,
         "wires": [
             [
                 "a4ea3e4e.edd54"
@@ -8208,8 +8368,8 @@
         "topic": "",
         "payload": "BedroomSound",
         "payloadType": "str",
-        "x": 1430,
-        "y": 1640,
+        "x": 200,
+        "y": 1740,
         "wires": [
             [
                 "64af5848.7dd3f8"
@@ -8230,8 +8390,8 @@
         "persist": false,
         "proxy": "",
         "authType": "",
-        "x": 1870,
-        "y": 1640,
+        "x": 640,
+        "y": 1740,
         "wires": [
             [
                 "487a2017.f0152"
@@ -8252,297 +8412,8 @@
         "targetType": "msg",
         "statusVal": "",
         "statusType": "auto",
-        "x": 2060,
-        "y": 1640,
-        "wires": []
-    },
-    {
-        "id": "3cb22fb4.1c60d",
-        "type": "function",
-        "z": "b2dec5c2.4f2758",
-        "g": "ad64f484.3bd408",
-        "name": "Control device White B",
-        "func": "var devices = flow.get(\"devices\");\n\nvar device =  \"Hub Mini DF\"; //enter name of the device or use msg.payload \n\nfunction FindDevice(name){\n    let index = devices.find(o => o.name === name);\n    node.warn(index);\n    let deviceID = index.deviceID;\n    return deviceID\n}\nvar command = msg.payload;\n\nmsg.headers = {\"Authorization\": global.get(\"SwitchBotAPI\"),\n               \"ContentType\": \"application/json; charset=utf8\"};\n                \nmsg.url = \"https://api.switch-bot.com/v1.0/devices/\"+ FindDevice(device) +\"/commands\"\nmsg.payload = {\"command\":command,\"parameter\":\"default\",\"commandType\":\"command\"};\n\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "x": 1610,
-        "y": 880,
-        "wires": [
-            [
-                "bb4b8438.9dd088"
-            ]
-        ]
-    },
-    {
-        "id": "9bd57614.6bf608",
-        "type": "inject",
-        "z": "b2dec5c2.4f2758",
-        "g": "ad64f484.3bd408",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "turnOn",
-        "payloadType": "str",
-        "x": 1400,
-        "y": 840,
-        "wires": [
-            [
-                "3cb22fb4.1c60d"
-            ]
-        ]
-    },
-    {
-        "id": "bb4b8438.9dd088",
-        "type": "http request",
-        "z": "b2dec5c2.4f2758",
-        "g": "ad64f484.3bd408",
-        "name": "Command",
-        "method": "POST",
-        "ret": "obj",
-        "paytoqs": "query",
-        "url": "",
-        "tls": "",
-        "persist": false,
-        "proxy": "",
-        "authType": "",
-        "x": 1820,
-        "y": 880,
-        "wires": [
-            [
-                "d2a78cee.1fb97"
-            ]
-        ]
-    },
-    {
-        "id": "1f156a7f.f7faf6",
-        "type": "inject",
-        "z": "b2dec5c2.4f2758",
-        "g": "ad64f484.3bd408",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "turnOff",
-        "payloadType": "str",
-        "x": 1400,
-        "y": 880,
-        "wires": [
-            [
-                "3cb22fb4.1c60d"
-            ]
-        ]
-    },
-    {
-        "id": "d2a78cee.1fb97",
-        "type": "debug",
-        "z": "b2dec5c2.4f2758",
-        "g": "ad64f484.3bd408",
-        "name": "",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1980,
-        "y": 880,
-        "wires": []
-    },
-    {
-        "id": "8518d691.cf94f8",
-        "type": "inject",
-        "z": "b2dec5c2.4f2758",
-        "g": "ad64f484.3bd408",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "press",
-        "payloadType": "str",
-        "x": 1400,
-        "y": 920,
-        "wires": [
-            [
-                "3cb22fb4.1c60d"
-            ]
-        ]
-    },
-    {
-        "id": "c2fe958a.eedbe8",
-        "type": "function",
-        "z": "b2dec5c2.4f2758",
-        "g": "82beadaa.80f9a",
-        "name": "Control device Curtain",
-        "func": "var devices = flow.get(\"devices\");\nvar param = msg.topic;\n\nif(param === undefined){\n    param = \"default\";\n}\n\nvar device =  \"Curtain\"; //enter name of the device or use msg.payload \n\nfunction FindDevice(name){\n    let index = devices.find(o => o.name === name);\n    node.warn(index);\n    let deviceID = index.deviceID;\n    return deviceID\n}\nvar command = msg.payload;\n\nmsg.headers = {\"Authorization\": global.get(\"SwitchBotAPI\"),\n               \"ContentType\": \"application/json; charset=utf8\"};\n                \nmsg.url = \"https://api.switch-bot.com/v1.0/devices/\"+ FindDevice(device) +\"/commands\"\nmsg.payload = {\"command\":command,\"parameter\":param,\"commandType\":\"command\"};\n\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "x": 1590,
-        "y": 1100,
-        "wires": [
-            [
-                "a96301bd.0c4dd"
-            ]
-        ]
-    },
-    {
-        "id": "b5c777eb.591838",
-        "type": "inject",
-        "z": "b2dec5c2.4f2758",
-        "g": "82beadaa.80f9a",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "turnOn",
-        "payloadType": "str",
-        "x": 1400,
-        "y": 1060,
-        "wires": [
-            [
-                "c2fe958a.eedbe8"
-            ]
-        ]
-    },
-    {
-        "id": "a96301bd.0c4dd",
-        "type": "http request",
-        "z": "b2dec5c2.4f2758",
-        "g": "82beadaa.80f9a",
-        "name": "Command",
-        "method": "POST",
-        "ret": "obj",
-        "paytoqs": "query",
-        "url": "",
-        "tls": "",
-        "persist": false,
-        "proxy": "",
-        "authType": "",
-        "x": 1800,
-        "y": 1100,
-        "wires": [
-            [
-                "c98498a0.ef5ea8"
-            ]
-        ]
-    },
-    {
-        "id": "30bba459.0efd3c",
-        "type": "inject",
-        "z": "b2dec5c2.4f2758",
-        "g": "82beadaa.80f9a",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "turnOff",
-        "payloadType": "str",
-        "x": 1400,
-        "y": 1100,
-        "wires": [
-            [
-                "c2fe958a.eedbe8"
-            ]
-        ]
-    },
-    {
-        "id": "c98498a0.ef5ea8",
-        "type": "debug",
-        "z": "b2dec5c2.4f2758",
-        "g": "82beadaa.80f9a",
-        "name": "",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1980,
-        "y": 1100,
-        "wires": []
-    },
-    {
-        "id": "18996bc4.33bdb4",
-        "type": "inject",
-        "z": "b2dec5c2.4f2758",
-        "g": "82beadaa.80f9a",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "0,ff,25",
-        "payload": "setPosition",
-        "payloadType": "str",
-        "x": 1440,
-        "y": 1200,
-        "wires": [
-            [
-                "c2fe958a.eedbe8"
-            ]
-        ]
-    },
-    {
-        "id": "e274d666.f02638",
-        "type": "comment",
-        "z": "b2dec5c2.4f2758",
-        "g": "82beadaa.80f9a",
-        "name": "Pos params",
-        "info": "Curtain\tcommand\tsetPosition\n\n\n\"index0,mode0,postion0\"\n\n\nmode: 0 (Performance Mode), 1 (Silent Mode), ff (default mode)\npostion: 0~100 (0 means opened, 100 means closed)",
-        "x": 1620,
-        "y": 1160,
+        "x": 830,
+        "y": 1740,
         "wires": []
     },
     {
@@ -8559,12 +8430,11 @@
         "persist": false,
         "proxy": "",
         "authType": "",
-        "x": 760,
-        "y": 940,
+        "x": 610,
+        "y": 1340,
         "wires": [
             [
-                "af637338.5ccc6",
-                "5d50c8ff.4dfa98"
+                "af637338.5ccc6"
             ]
         ]
     },
@@ -8579,8 +8449,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 570,
-        "y": 940,
+        "x": 420,
+        "y": 1340,
         "wires": [
             [
                 "c46b3d7e.34b62"
@@ -8600,13 +8470,13 @@
         ],
         "repeat": "",
         "crontab": "",
-        "once": false,
+        "once": true,
         "onceDelay": 0.1,
         "topic": "",
         "payload": "",
         "payloadType": "str",
-        "x": 340,
-        "y": 940,
+        "x": 190,
+        "y": 1340,
         "wires": [
             [
                 "b92e57cb.92d5a8"
@@ -8619,13 +8489,13 @@
         "z": "b2dec5c2.4f2758",
         "g": "98e346c4.842908",
         "name": "Save as flow",
-        "func": "var devices = msg.payload.body.deviceList;\nvar infraredRemoteList = msg.payload.body.infraredRemoteList;\n\nnode.warn(infraredRemoteList);\n\nvar deviceList = [];\nvar infraRemoteList = [];\n\nfor( var y in devices) {\n    \n    let device = {\"type\": devices[y].deviceType,\n                  \"name\": devices[y].deviceName,\n                  \"deviceID\": devices[y].deviceId\n                 };\n    deviceList.push(device);\n} \nflow.set(\"devices\", deviceList);\n\nfor( var infra in infraredRemoteList) {\n    \n    let device = {\"remoteType\": infraredRemoteList[y].remoteType,\n                  \"deviceName\": infraredRemoteList[y].deviceName,\n                  \"deviceID\": infraredRemoteList[y].deviceId\n                 };\n    infraRemoteList.push(device);\n} \nflow.set(\"infraredRemoteList\", infraRemoteList)\n\nreturn msg;",
+        "func": "var devices = msg.payload.body.deviceList;\nvar infraredRemoteList = msg.payload.body.infraredRemoteList;\n\n//node.warn(infraredRemoteList);\n\nvar deviceList = [];\nvar infraRemoteList = [];\n\nfor( var y in devices) {\n    \n    let device = {\"type\": devices[y].deviceType,\n                  \"name\": devices[y].deviceName,\n                  \"deviceID\": devices[y].deviceId\n                 };\n    deviceList.push(device);\n} \nflow.set(\"devices\", deviceList);\n\nfor( var infra in infraredRemoteList) {\n    \n    let device = {\"remoteType\": infraredRemoteList[infra].remoteType,\n                  \"deviceName\": infraredRemoteList[infra].deviceName,\n                  \"deviceID\": infraredRemoteList[infra].deviceId\n                 };\n    infraRemoteList.push(device);\n} \nflow.set(\"infraredRemoteList\", infraRemoteList)\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 1000,
-        "y": 940,
+        "x": 850,
+        "y": 1340,
         "wires": [
             []
         ]
@@ -8637,26 +8507,8 @@
         "g": "98e346c4.842908",
         "name": "Get all devices and save as flow",
         "info": "",
-        "x": 420,
-        "y": 900,
-        "wires": []
-    },
-    {
-        "id": "5d50c8ff.4dfa98",
-        "type": "debug",
-        "z": "b2dec5c2.4f2758",
-        "g": "98e346c4.842908",
-        "name": "",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 880,
-        "y": 900,
+        "x": 270,
+        "y": 1300,
         "wires": []
     },
     {
@@ -8673,8 +8525,8 @@
         "persist": false,
         "proxy": "",
         "authType": "",
-        "x": 760,
-        "y": 1100,
+        "x": 580,
+        "y": 1500,
         "wires": [
             [
                 "e34e8e48.b6d52"
@@ -8692,8 +8544,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 570,
-        "y": 1100,
+        "x": 390,
+        "y": 1500,
         "wires": [
             [
                 "841fa47b.903488"
@@ -8718,8 +8570,8 @@
         "topic": "",
         "payload": "",
         "payloadType": "str",
-        "x": 340,
-        "y": 1100,
+        "x": 160,
+        "y": 1500,
         "wires": [
             [
                 "34a7b2a9.c5d22e"
@@ -8737,8 +8589,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 1000,
-        "y": 1100,
+        "x": 820,
+        "y": 1500,
         "wires": [
             []
         ]
@@ -8750,8 +8602,8 @@
         "g": "e4c51a6a.02a678",
         "name": "Get all devices and save as flow",
         "info": "",
-        "x": 420,
-        "y": 1060,
+        "x": 240,
+        "y": 1460,
         "wires": []
     },
     {
@@ -8760,16 +8612,17 @@
         "z": "b2dec5c2.4f2758",
         "g": "2b4d53e1.d6e2cc",
         "name": "Get Status",
-        "func": "var devices = flow.get(\"devices\");\n\nvar device =  msg.payload; //enter name of the device or use msg.payload \n\nfunction FindDevice(name){\n    let index = devices.find(o => o.name === name);\n    node.warn(index);\n    let deviceID = index.deviceID;\n    return deviceID\n}\n\nmsg.headers = {\"Authorization\": global.get(\"SwitchBotAPI\"),\n               \"ContentType\": \"application/json; charset=utf8\"};\n                \nmsg.url = \"https://api.switch-bot.com/v1.0/devices/\"+ FindDevice(device) +\"/status\"\nreturn msg;",
+        "func": "var devices = flow.get(\"devices\");\n\nvar device =  msg.payload; //enter name of the device or use msg.payload \n\nfunction FindDevice(name){\n    let index = devices.find(o => o.name === name);\n    node.warn(index);\n    let deviceID = index.deviceID;\n    return deviceID\n}\n\nmsg.headers = {\"Authorization\": global.get(\"SwitchBotAPI\"),\n               \"ContentType\": \"application/json; charset=utf8\"};\n                \nmsg.url = \"https://api.switch-bot.com/v1.0/devices/\" + FindDevice(device) + \"/status\"\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 530,
-        "y": 1220,
+        "x": 350,
+        "y": 1620,
         "wires": [
             [
-                "3bfce5e7.124e4a"
+                "3bfce5e7.124e4a",
+                "68dc2a9.fb6f9d4"
             ]
         ]
     },
@@ -8791,8 +8644,8 @@
         "topic": "",
         "payload": "Hub Mini DF",
         "payloadType": "str",
-        "x": 370,
-        "y": 1220,
+        "x": 190,
+        "y": 1620,
         "wires": [
             [
                 "fdf6b7dc.749448"
@@ -8813,8 +8666,8 @@
         "persist": false,
         "proxy": "",
         "authType": "",
-        "x": 730,
-        "y": 1220,
+        "x": 550,
+        "y": 1620,
         "wires": [
             [
                 "9d34c528.2d33f8"
@@ -8831,12 +8684,12 @@
         "tosidebar": true,
         "console": false,
         "tostatus": false,
-        "complete": "payload",
-        "targetType": "msg",
+        "complete": "true",
+        "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 910,
-        "y": 1220,
+        "x": 710,
+        "y": 1620,
         "wires": []
     },
     {
@@ -8845,59 +8698,17 @@
         "z": "b2dec5c2.4f2758",
         "g": "955cda67.93f6e8",
         "name": "Control device IR",
-        "func": "var devices = flow.get(\"infraredRemoteList\");\nvar device =  \"Living Room Air Conditioner\"; //enter name of the device or use msg.payload \n\nvar command = msg.payload;\n\nfunction FindDevice(name){\n    let index = devices.find(o => o.deviceName === name);\n    node.warn(index);\n    let deviceID = index.deviceID;\n    return deviceID\n}\n\nvar parameter = msg.temperature + \",\" + msg.mode + \",\" + msg.fanSpeed + \",\" + msg.powerState;\nmsg.payload = {\"command\":\"setAll\",\"parameter\":parameter,\"commandType\":\"command\"};\n\n\n    \nmsg.headers = {\"Authorization\": global.get(\"SwitchBotAPI\"),\n               \"ContentType\": \"application/json; charset=utf8\"};\n                \nmsg.url = \"https://api.switch-bot.com/v1.0/devices/\"+ FindDevice(device) +\"/commands\"\n\n\nreturn msg;",
+        "func": "var devices = flow.get(\"infraredRemoteList\");\nvar device =  \"Living Room Air Conditioner\"; //enter name of the device or use msg.payload \n\n// Get the inputs from HomeKit \n// Documentation for HomeKit device - https://auto.caitken.com/posts/2018/09/09/nodered-homekit-characteristics-reference\n/*\n\nRequired characteristics:\n    Active\n        INT\t0, 1 (inactive, active)\n    CurrentHeaterCoolerState\n        INT\t0,1,2,3 (inactive, idle, heating, cooling)\n    TargetHeaterCoolerState\n        INT\t0,1,2 (auto, heat, cool)\n    CurrentTemperature\n        FLOAT\t\\-100 to 500\n    \nOptional characteristics:\n    LockPhysicalControls\n    Name\n    RotationSpeed\n        FLOAT\t0-100\n    SwingMode\n    HeatingThresholdTemperature\n    TemperatureDisplayUnits\n    CoolingThresholdTemperature\n\n*/\n\n/* https://github.com/OpenWonderLabs/SwitchBotAPI\n\nAir Conditioner\t\ncommand\tsetAll\t\nparameter {temperature},{mode},{fan speed},{power state} e.g. 26,1,3,on\tthe unit of temperature is in celsius;\n  modes include 1 (auto), 2 (cool), 3 (dry), 4 (fan), 5 (heat);\n  fan speed includes 1 (auto), 2 (low), 3 (medium), 4 (high);\n  power state includes on and off\n\n*/\n\nvar parameter;\n\nif ('Active' in msg.payload)\n{\n    parameter = (msg.payload.Active == 1) ? \"turnOn\" : \"turnOff\";\n    msg.payload = {\"command\":parameter,\"parameter\":\"default\",\"commandType\":\"command\"};\n\n} else if ('HeatingThresholdTemperature' in msg.payload) {\n    \n    parameter = msg.payload.HeatingThresholdTemperature+ \",\" + 5 + \",\" + 3 + \",on\";\n    msg.payload = {\"command\":\"setAll\",\"parameter\":parameter,\"commandType\":\"command\"};\n\n} else if ('CoolingThresholdTemperature' in msg.payload) {\n    \n    parameter = msg.payload.CoolingThresholdTemperature+ \",\" + 2 + \",\" + 3 + \",on\";\n    msg.payload = {\"command\":\"setAll\",\"parameter\":parameter,\"commandType\":\"command\"};\n\n}\n\nfunction FindDevice(name){\n    let index = devices.find(o => o.deviceName === name);\n    node.warn(index);\n    let deviceID = index.deviceID;\n    return deviceID;\n}\n\nif (parameter) {\n\n    msg.headers = {\"Authorization\": global.get(\"SwitchBotAPI\"),\n                   \"ContentType\": \"application/json; charset=utf8\"};\n                    \n    msg.url = \"https://api.switch-bot.com/v1.0/devices/\"+ FindDevice(device) +\"/commands\"\n    \n    return msg;\n    \n} else {\n    return null;\n}",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 670,
-        "y": 1320,
+        "x": 810,
+        "y": 940,
         "wires": [
             [
                 "d3b26d8c.5038b",
-                "d7959315.ce8da"
-            ]
-        ]
-    },
-    {
-        "id": "e6eadb02.180c68",
-        "type": "inject",
-        "z": "b2dec5c2.4f2758",
-        "g": "955cda67.93f6e8",
-        "name": "turnOn - 24 heater",
-        "props": [
-            {
-                "p": "powerState",
-                "v": "on",
-                "vt": "str"
-            },
-            {
-                "p": "temperature",
-                "v": "24",
-                "vt": "str"
-            },
-            {
-                "p": "mode",
-                "v": "5",
-                "vt": "str"
-            },
-            {
-                "p": "fanSpeed",
-                "v": "3",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payloadType": "str",
-        "x": 450,
-        "y": 1320,
-        "wires": [
-            [
-                "f34949f6.4f5bf8"
+                "1a8d8c4e.4e42b4"
             ]
         ]
     },
@@ -8915,8 +8726,8 @@
         "persist": false,
         "proxy": "",
         "authType": "",
-        "x": 790,
-        "y": 1380,
+        "x": 858,
+        "y": 1057,
         "wires": [
             [
                 "c8a9c695.2f5788"
@@ -8937,8 +8748,8 @@
         "targetType": "msg",
         "statusVal": "",
         "statusType": "auto",
-        "x": 970,
-        "y": 1380,
+        "x": 1042,
+        "y": 1057,
         "wires": []
     },
     {
@@ -8948,50 +8759,9 @@
         "g": "955cda67.93f6e8",
         "name": "Custom IR",
         "info": "deviceType\tcommandType\tCommand\tcommand parameter\tDescription\n\nAll home appliance types except Others\t\"\"\tturnOn\tdefault\tevery home appliance can be turned on by default\n\nAll home appliance types except Others\tcommand\tturnOff\tdefault\tevery home appliance can be turned off by default\n\nOthers\tcustomize\t{user-defined button name}\tdefault\tall user-defined buttons must be configured with commandType=customize\nAir Conditioner\tcommand\tsetAll\t{temperature},{mode},{fan speed},{power state}\ne.g. 26,1,3,on\tthe unit of temperature is in celsius;\nmodes include 1 (auto), 2 (cool), 3 (dry), 4 (fan), 5 (heat);\nfan speed includes 1 (auto), 2 (low), 3 (medium), 4 (high);\npower state includes on and off\nTV, IPTV/Streamer, Set Top Box\tcommand\tSetChannel\t{channel number}, e.g. 15\tset the TV channel to switch to\ncommand\tvolumeAdd\tdefault\tvolume up\ncommand\tvolumeSub\tdefault\tvolume down\ncommand\tchannelAdd\tdefault\tnext channel\ncommand\tchannelSub\tdefault\tprevious channel\nDVD, Speaker\tcommand\tsetMute\tdefault\tmute/unmute\ncommand\tFastForward\tdefault\tfast forward\ncommand\tRewind\tdefault\trewind\ncommand\tNext\tdefault\tnext track\ncommand\tPrevious\tdefault\tlast track\ncommand\tPause\tdefault\tpause\ncommand\tPlay\tdefault\tplay/resume\ncommand\tStop\tdefault\tstop\nSpeaker\tcommand\tvolumeAdd\tdefault\tvolume up\ncommand\tvolumeSub\tdefault\tvolume down\nFan\tcommand\tswing\tdefault\tswing\ncommand\ttimer\tdefault\tset timer\ncommand\tlowSpeed\tdefault\tset fan speed to low\ncommand\tmiddleSpeed\tdefault\tset fan speed to medium\ncommand\thighSpeed\tdefault\tset fan speed to high\nLight\tcommand\tbrightnessUp\tdefault\tbrightness up\ncommand\tbrightnessDown\tdefault\tbrightness down\nNote: Most of the devices support turnOn or turnOff, which are case-sensitive. For infrared remote devices, when you have created customized buttons, you must set commandType to customize, otherwise the command will not work. command needs to be set to the name of the customized button.",
-        "x": 620,
-        "y": 1460,
+        "x": 788,
+        "y": 1130,
         "wires": []
-    },
-    {
-        "id": "caa373a3.3259a",
-        "type": "inject",
-        "z": "b2dec5c2.4f2758",
-        "g": "955cda67.93f6e8",
-        "name": "turnOff",
-        "props": [
-            {
-                "p": "powerState",
-                "v": "off",
-                "vt": "str"
-            },
-            {
-                "p": "temperature",
-                "v": "26",
-                "vt": "str"
-            },
-            {
-                "p": "mode",
-                "v": "5",
-                "vt": "str"
-            },
-            {
-                "p": "fanSpeed",
-                "v": "3",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "x": 490,
-        "y": 1380,
-        "wires": [
-            [
-                "f34949f6.4f5bf8"
-            ]
-        ]
     },
     {
         "id": "edc77ee8.7d8c",
@@ -9014,8 +8784,8 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 1050,
-        "y": 260,
+        "x": 830,
+        "y": 200,
         "wires": [
             [
                 "f0bdf07d.baae8"
@@ -9023,19 +8793,682 @@
         ]
     },
     {
-        "id": "c86dc712.4a8a48",
+        "id": "8f6f5609.d18b68",
+        "type": "template",
+        "z": "1d22c714.e50369",
+        "name": "Water pump - status",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": " <md-card>\n    <md-card-content>\n          <p style=\"padding-left:12px;!important \">\n           Water pump runs for <font color=\"{{global.color.widget.water}}\"> {{global.settings.water_pump.duration}} seconds.</font> \n          , or stops when seed tray is filled at >50%.\n         </p>\n    </md-card-content>\n</md-card>",
+        "output": "str",
+        "x": 480,
+        "y": 2500,
+        "wires": [
+            [
+                "f648dcd3.28185"
+            ]
+        ]
+    },
+    {
+        "id": "f648dcd3.28185",
+        "type": "ui_template",
+        "z": "1d22c714.e50369",
+        "group": "6c15eb0d.8f5814",
+        "name": "Water pump template",
+        "order": 8,
+        "width": 7,
+        "height": 1,
+        "format": "<div ng-bind-html=\"msg.payload\"></div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "x": 700,
+        "y": 2500,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f691fd1f.7604d",
+        "type": "inject",
+        "z": "1d22c714.e50369",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "1",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 250,
+        "y": 2500,
+        "wires": [
+            [
+                "8f6f5609.d18b68"
+            ]
+        ]
+    },
+    {
+        "id": "d2210d62.0bae7",
+        "type": "ui_text",
+        "z": "1d22c714.e50369",
+        "group": "6c15eb0d.8f5814",
+        "order": 22,
+        "width": 5,
+        "height": 1,
+        "name": "Water control label",
+        "label": "<b><i class=\"fa fa-cog\"></i> Water spray control</b>",
+        "format": "",
+        "layout": "row-left",
+        "x": 750,
+        "y": 1880,
+        "wires": []
+    },
+    {
+        "id": "34b96ead.79d712",
+        "type": "template",
+        "z": "1d22c714.e50369",
+        "name": "Seed tray - water level warning",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "\n<md-card>\n  <md-card-content>\n   <p>\n       {{#global.seedTray.water.level.warning.low}}\n        <font color=\"{{global.color.warning}}\" align=\"center\" size=\"-1\"> <i class=\"fa fa-exclamation-circle\"></i> Water level is too low.</font>\n        {{/global.seedTray.water.level.warning.low}} \n        \n        {{#global.seedTray.water.level.warning.high}}\n         <font color=\"{{global.color.warning}}\" align=\"center\" size=\"-1\"> <i class=\"fa fa-exclamation-circle\"></i> Water level is too high.</font>\n        {{/global.seedTray.water.level.warning.high}} \n    <p>\n\n  </md-card-content>\n</md-card>\n\n",
+        "output": "str",
+        "x": 510,
+        "y": 2420,
+        "wires": [
+            [
+                "e56caad8.0f88d8"
+            ]
+        ]
+    },
+    {
+        "id": "e56caad8.0f88d8",
+        "type": "ui_template",
+        "z": "1d22c714.e50369",
+        "group": "6c15eb0d.8f5814",
+        "name": "Seed tray - water level warning template",
+        "order": 10,
+        "width": 3,
+        "height": 1,
+        "format": "<div ng-bind-html=\"msg.payload\"></div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "x": 820,
+        "y": 2420,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a6e60c3c.2ed4",
+        "type": "inject",
+        "z": "1d22c714.e50369",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "1",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 250,
+        "y": 2420,
+        "wires": [
+            [
+                "34b96ead.79d712"
+            ]
+        ]
+    },
+    {
+        "id": "36e61c64.c7dae4",
+        "type": "link in",
+        "z": "1d22c714.e50369",
+        "name": "Refresh template seed tray water",
+        "links": [
+            "bbae5ec0.7849",
+            "bec62e16.5d9dc",
+            "88e72de5.1224f"
+        ],
+        "x": 315,
+        "y": 2460,
+        "wires": [
+            [
+                "34b96ead.79d712"
+            ]
+        ]
+    },
+    {
+        "id": "e12e26ce.c143e8",
+        "type": "homekit-service",
+        "z": "b2dec5c2.4f2758",
+        "g": "441c4f5a.bed47",
+        "isParent": true,
+        "bridge": "3dcda60a.e5ff12",
+        "parentService": "",
+        "name": "AC",
+        "serviceName": "HeaterCooler",
+        "topic": "",
+        "filter": false,
+        "manufacturer": "NRCHKB",
+        "model": "0.120.5",
+        "serialNo": "Default Serial Number",
+        "firmwareRev": "0.120.5",
+        "hardwareRev": "0.120.5",
+        "softwareRev": "0.120.5",
+        "cameraConfigVideoProcessor": "ffmpeg",
+        "cameraConfigSource": "",
+        "cameraConfigStillImageSource": "",
+        "cameraConfigMaxStreams": 2,
+        "cameraConfigMaxWidth": 1280,
+        "cameraConfigMaxHeight": 720,
+        "cameraConfigMaxFPS": 10,
+        "cameraConfigMaxBitrate": 300,
+        "cameraConfigVideoCodec": "libx264",
+        "cameraConfigAudioCodec": "libfdk_aac",
+        "cameraConfigAudio": false,
+        "cameraConfigPacketSize": 1316,
+        "cameraConfigVerticalFlip": false,
+        "cameraConfigHorizontalFlip": false,
+        "cameraConfigMapVideo": "0:0",
+        "cameraConfigMapAudio": "0:1",
+        "cameraConfigVideoFilter": "scale=1280:720",
+        "cameraConfigAdditionalCommandLine": "-tune zerolatency",
+        "cameraConfigDebug": false,
+        "cameraConfigSnapshotOutput": "disabled",
+        "cameraConfigInterfaceName": "",
+        "characteristicProperties": "{\"Active\":true,\"CurrentHeatingCoolingState\":{\"validValues\":[0,1,2]},\"CurrentHeaterCoolerState\":{\"validValues\":[0,1,2,3]},\"HeatingThresholdTemperature\":{\"minValue\":20,\"maxValue\":25},\"CoolingThresholdTemperature\":{\"minValue\":15,\"maxValue\":25},\"RotationSpeed\":true}",
+        "waitForSetupMsg": false,
+        "outputs": 2,
+        "x": 470,
+        "y": 940,
+        "wires": [
+            [
+                "dbeb20c2.56661",
+                "f34949f6.4f5bf8"
+            ],
+            [
+                "dbeb20c2.56661"
+            ]
+        ]
+    },
+    {
+        "id": "dbeb20c2.56661",
         "type": "debug",
-        "z": "87cb301d.9893c",
+        "z": "b2dec5c2.4f2758",
+        "g": "5bdc73fe.80b51c",
         "name": "",
         "active": true,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
-        "complete": "false",
+        "complete": "true",
+        "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1120,
-        "y": 420,
+        "x": 472,
+        "y": 1040,
         "wires": []
+    },
+    {
+        "id": "b7778e52.220a5",
+        "type": "debug",
+        "z": "b2dec5c2.4f2758",
+        "g": "2c464315.51c50c",
+        "name": "Fan output",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "x": 890,
+        "y": 2080,
+        "wires": []
+    },
+    {
+        "id": "fd8aff55.91d41",
+        "type": "homekit-service",
+        "z": "b2dec5c2.4f2758",
+        "g": "2c464315.51c50c",
+        "isParent": true,
+        "bridge": "409001a1.3e7a78",
+        "parentService": "",
+        "name": "Fan V2",
+        "serviceName": "Fanv2",
+        "topic": "",
+        "filter": false,
+        "manufacturer": "Default Manufacturer",
+        "model": "Default Model",
+        "serialNo": "Default Serial Number",
+        "firmwareRev": "1.0.0",
+        "hardwareRev": "1.0.0",
+        "softwareRev": "1.0.0",
+        "cameraConfigVideoProcessor": "ffmpeg",
+        "cameraConfigSource": "",
+        "cameraConfigStillImageSource": "",
+        "cameraConfigMaxStreams": 2,
+        "cameraConfigMaxWidth": 1280,
+        "cameraConfigMaxHeight": 720,
+        "cameraConfigMaxFPS": 10,
+        "cameraConfigMaxBitrate": 300,
+        "cameraConfigVideoCodec": "libx264",
+        "cameraConfigAudioCodec": "libfdk_aac",
+        "cameraConfigAudio": false,
+        "cameraConfigPacketSize": 1316,
+        "cameraConfigVerticalFlip": false,
+        "cameraConfigHorizontalFlip": false,
+        "cameraConfigMapVideo": "0:0",
+        "cameraConfigMapAudio": "0:1",
+        "cameraConfigVideoFilter": "scale=1280:720",
+        "cameraConfigAdditionalCommandLine": "-tune zerolatency",
+        "cameraConfigDebug": false,
+        "cameraConfigSnapshotOutput": "disabled",
+        "cameraConfigInterfaceName": "",
+        "characteristicProperties": "{\"RotationSpeed\":true,\"RotationDirection\":true,\"SwingMode\":true}",
+        "waitForSetupMsg": false,
+        "outputs": 2,
+        "x": 660,
+        "y": 2080,
+        "wires": [
+            [
+                "b7778e52.220a5"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "c717b796.0735b8",
+        "type": "inject",
+        "z": "b2dec5c2.4f2758",
+        "g": "2c464315.51c50c",
+        "name": "NO RESPONSE",
+        "props": [
+            {
+                "p": "payload",
+                "v": "{\"Active\":\"NO_RESPONSE\"}",
+                "vt": "json"
+            },
+            {
+                "p": "topic",
+                "v": "",
+                "vt": "string"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"Active\":\"NO_RESPONSE\"}",
+        "payloadType": "json",
+        "x": 380,
+        "y": 2180,
+        "wires": [
+            [
+                "fd8aff55.91d41"
+            ]
+        ]
+    },
+    {
+        "id": "f56a2f96.509c1",
+        "type": "inject",
+        "z": "b2dec5c2.4f2758",
+        "g": "2c464315.51c50c",
+        "name": "ON",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"Active\":true}",
+        "payloadType": "json",
+        "x": 360,
+        "y": 2080,
+        "wires": [
+            [
+                "fd8aff55.91d41"
+            ]
+        ]
+    },
+    {
+        "id": "d945ba75.897998",
+        "type": "inject",
+        "z": "b2dec5c2.4f2758",
+        "g": "2c464315.51c50c",
+        "name": "OFF",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"Active\":false}",
+        "payloadType": "json",
+        "x": 360,
+        "y": 2120,
+        "wires": [
+            [
+                "fd8aff55.91d41"
+            ]
+        ]
+    },
+    {
+        "id": "e9e59b68.002818",
+        "type": "homekit-service",
+        "z": "b2dec5c2.4f2758",
+        "g": "3134c2cf.78461e",
+        "isParent": true,
+        "bridge": "3dcda60a.e5ff12",
+        "parentService": "",
+        "name": "Bedroom lights",
+        "serviceName": "Lightbulb",
+        "topic": "",
+        "filter": false,
+        "manufacturer": "NRCHKB",
+        "model": "0.120.5",
+        "serialNo": "Default Serial Number",
+        "firmwareRev": "0.120.5",
+        "hardwareRev": "0.120.5",
+        "softwareRev": "0.120.5",
+        "cameraConfigVideoProcessor": "ffmpeg",
+        "cameraConfigSource": "",
+        "cameraConfigStillImageSource": "",
+        "cameraConfigMaxStreams": 2,
+        "cameraConfigMaxWidth": 1280,
+        "cameraConfigMaxHeight": 720,
+        "cameraConfigMaxFPS": 10,
+        "cameraConfigMaxBitrate": 300,
+        "cameraConfigVideoCodec": "libx264",
+        "cameraConfigAudioCodec": "libfdk_aac",
+        "cameraConfigAudio": false,
+        "cameraConfigPacketSize": 1316,
+        "cameraConfigVerticalFlip": false,
+        "cameraConfigHorizontalFlip": false,
+        "cameraConfigMapVideo": "0:0",
+        "cameraConfigMapAudio": "0:1",
+        "cameraConfigVideoFilter": "scale=1280:720",
+        "cameraConfigAdditionalCommandLine": "-tune zerolatency",
+        "cameraConfigDebug": false,
+        "cameraConfigSnapshotOutput": "disabled",
+        "cameraConfigInterfaceName": "",
+        "characteristicProperties": "{\"Brightness\":true,\"Hue\":true,\"Saturation\":true,\"ColorTemperature\":true}",
+        "waitForSetupMsg": false,
+        "outputs": 2,
+        "x": 180,
+        "y": 540,
+        "wires": [
+            [
+                "b463e3b2.926ae",
+                "942fd74c.c41658"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "fc195132.c211a",
+        "type": "smartthings-node-color",
+        "z": "b2dec5c2.4f2758",
+        "g": "717a3663.b5f898",
+        "conf": "b0151dde.26366",
+        "name": "Bedroom #1",
+        "device": "d7fdde5e-b646-459d-84b6-f7480a5cc123",
+        "x": 650,
+        "y": 520,
+        "wires": [
+            [],
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "b463e3b2.926ae",
+        "type": "function",
+        "z": "b2dec5c2.4f2758",
+        "g": "717a3663.b5f898",
+        "name": "Control colored lights",
+        "func": "if ('On' in msg.payload) {\n    msg.topic= \"switch\";\n    msg.payload= {\"value\": (msg.payload.On == true) ? 1 : 0 };\n    return msg;\n}\n\n\n\n//msg = { topic: \"level\", payload: { value: [0 - 100] } };\n\n//{ topic: \"hue\", payload: { value: [0 - 255] } }\n//{ topic: \"saturation\", payload: { value: [0 - 255] } }\n//{ topic: \"temperature\", payload: { value: [2700 - 5600] } }\n\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 440,
+        "y": 520,
+        "wires": [
+            [
+                "fc195132.c211a",
+                "ad34fe9d.00469",
+                "f4229d97.1314c",
+                "9f2a1839.620bd8",
+                "c6f59b76.127818"
+            ]
+        ]
+    },
+    {
+        "id": "ad34fe9d.00469",
+        "type": "smartthings-node-color",
+        "z": "b2dec5c2.4f2758",
+        "g": "717a3663.b5f898",
+        "conf": "b0151dde.26366",
+        "name": "Bedroom #2",
+        "device": "c865d0af-ad3b-47f9-a0ef-2adea22743fa",
+        "x": 650,
+        "y": 600,
+        "wires": [
+            [],
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "f4229d97.1314c",
+        "type": "smartthings-node-color",
+        "z": "b2dec5c2.4f2758",
+        "g": "717a3663.b5f898",
+        "conf": "b0151dde.26366",
+        "name": "Bedroom #3",
+        "device": "073e57cf-e0af-4d02-807d-9cfac4f18c80",
+        "x": 650,
+        "y": 680,
+        "wires": [
+            [],
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "9f2a1839.620bd8",
+        "type": "smartthings-node-color",
+        "z": "b2dec5c2.4f2758",
+        "g": "717a3663.b5f898",
+        "conf": "b0151dde.26366",
+        "name": "Bed room lamp #4",
+        "device": "be05bd6d-878b-4ea3-b674-1bd19fc3945e",
+        "x": 670,
+        "y": 760,
+        "wires": [
+            [],
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "942fd74c.c41658",
+        "type": "debug",
+        "z": "b2dec5c2.4f2758",
+        "g": "641c211c.5852",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 430,
+        "y": 620,
+        "wires": []
+    },
+    {
+        "id": "c6f59b76.127818",
+        "type": "debug",
+        "z": "b2dec5c2.4f2758",
+        "g": "717a3663.b5f898",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 790,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "9f1e6521.3ec778",
+        "type": "inject",
+        "z": "b2dec5c2.4f2758",
+        "name": "Good morning - Switch on",
+        "props": [
+            {
+                "p": "payload.Active",
+                "v": "1",
+                "vt": "num"
+            }
+        ],
+        "repeat": "",
+        "crontab": "55 06 * * *",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 220,
+        "y": 1020,
+        "wires": [
+            [
+                "e12e26ce.c143e8"
+            ]
+        ]
+    },
+    {
+        "id": "1a8d8c4e.4e42b4",
+        "type": "debug",
+        "z": "b2dec5c2.4f2758",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 972,
+        "y": 934,
+        "wires": []
+    },
+    {
+        "id": "71fdefe0.d2473",
+        "type": "inject",
+        "z": "b2dec5c2.4f2758",
+        "name": "Set of Off at node-red deploy",
+        "props": [
+            {
+                "p": "payload.Active",
+                "v": "0",
+                "vt": "num"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "15",
+        "topic": "",
+        "x": 210,
+        "y": 940,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "68dc2a9.fb6f9d4",
+        "type": "debug",
+        "z": "b2dec5c2.4f2758",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 980,
+        "y": 1520,
+        "wires": []
+    },
+    {
+        "id": "e4989e1f.17666",
+        "type": "rbe",
+        "z": "b2dec5c2.4f2758",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "property": "payload",
+        "x": 1100,
+        "y": 880,
+        "wires": [
+            []
+        ]
     }
 ]
