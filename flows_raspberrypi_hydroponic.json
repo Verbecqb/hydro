@@ -58,8 +58,8 @@
             "a4ea3e4e.edd54",
             "487a2017.f0152"
         ],
-        "x": 74,
-        "y": 1699,
+        "x": 154,
+        "y": 1759,
         "w": 872,
         "h": 82
     },
@@ -82,9 +82,9 @@
             "af637338.5ccc6",
             "8d660f51.a75cf"
         ],
-        "x": 94,
-        "y": 1259,
-        "w": 852,
+        "x": 174,
+        "y": 1319,
+        "w": 892,
         "h": 122
     },
     {
@@ -106,8 +106,8 @@
             "e34e8e48.b6d52",
             "3882a851.983ef8"
         ],
-        "x": 64,
-        "y": 1419,
+        "x": 144,
+        "y": 1479,
         "w": 852,
         "h": 122
     },
@@ -128,8 +128,8 @@
             "3bfce5e7.124e4a",
             "9d34c528.2d33f8"
         ],
-        "x": 74,
-        "y": 1579,
+        "x": 154,
+        "y": 1639,
         "w": 732,
         "h": 82
     },
@@ -148,12 +148,13 @@
             "f34949f6.4f5bf8",
             "d3b26d8c.5038b",
             "c8a9c695.2f5788",
-            "be5bfc4f.6cdd8"
+            "be5bfc4f.6cdd8",
+            "1a8d8c4e.4e42b4"
         ],
-        "x": 694,
+        "x": 594,
         "y": 899,
-        "w": 464,
-        "h": 272
+        "w": 552,
+        "h": 182
     },
     {
         "id": "8e57852f.2718a8",
@@ -380,22 +381,6 @@
         "h": 82
     },
     {
-        "id": "5bdc73fe.80b51c",
-        "type": "group",
-        "z": "b2dec5c2.4f2758",
-        "name": "Output debug",
-        "style": {
-            "label": true
-        },
-        "nodes": [
-            "dbeb20c2.56661"
-        ],
-        "x": 396,
-        "y": 999,
-        "w": 172,
-        "h": 82
-    },
-    {
         "id": "2c464315.51c50c",
         "type": "group",
         "z": "b2dec5c2.4f2758",
@@ -414,8 +399,8 @@
             "f56a2f96.509c1",
             "d945ba75.897998"
         ],
-        "x": 254,
-        "y": 2039,
+        "x": 154,
+        "y": 1879,
         "w": 752,
         "h": 182,
         "info": "# Fan V2\n\nThis example shows a fan. The inputs from node red are to turn the fan on, off, or set \"No Response\".\n\nThe outputs going to \"Fan output\" will show:\n\nOn / off state <br/>\nRotation speed<br/>\nSwing mode on / off (oscillate) <br/>\nRotation direction (clockwise/counterclockwise)"
@@ -438,6 +423,130 @@
         "y": 438,
         "w": 864,
         "h": 404
+    },
+    {
+        "id": "79fac8a4.114828",
+        "type": "group",
+        "z": "87cb301d.9893c",
+        "name": "Water pump ",
+        "style": {
+            "fill": "#ffffff",
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "da7d1a1e.239e58",
+            "933e05f4.0abbb8",
+            "2f179774.4055e8",
+            "ea84252f.eb1ee8",
+            "69d27d4f.253984",
+            "cd5e7336.53f74",
+            "6fd97e66.02fde",
+            "83c9cbe9.ff0f68",
+            "d579d391.622e6",
+            "1426c687.455629",
+            "fcfbe87b.4c3f98",
+            "766d6f3d.e9fdb",
+            "2d32f6d2.b52eaa"
+        ],
+        "x": 519,
+        "y": 414,
+        "w": 1322,
+        "h": 174
+    },
+    {
+        "id": "59d1252d.d18c0c",
+        "type": "group",
+        "z": "87cb301d.9893c",
+        "name": "Water spray",
+        "style": {
+            "fill": "#ffffff",
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "b9dd843.3247178",
+            "e6b06459.aad598",
+            "25335612.5b58da",
+            "dec1467a.516188",
+            "c1e51a25.bcd2f8",
+            "57e4ad43.c33774",
+            "77dd4f6a.f114"
+        ],
+        "x": 514,
+        "y": 259,
+        "w": 1212,
+        "h": 142
+    },
+    {
+        "id": "2bce1a3f.f178b6",
+        "type": "group",
+        "z": "87cb301d.9893c",
+        "name": "Seed tray - LED lights control",
+        "style": {
+            "fill": "#ffffff",
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "acca3832.810b88",
+            "df864faf.11005",
+            "39f4667d.55b9da",
+            "a94198ff.eef948",
+            "d7d0c829.e9cc28"
+        ],
+        "x": 514,
+        "y": 113,
+        "w": 572,
+        "h": 141
+    },
+    {
+        "id": "588e44f4.702ffc",
+        "type": "group",
+        "z": "b2dec5c2.4f2758",
+        "name": "Get Status",
+        "style": {
+            "stroke": "#777777",
+            "fill": "#ffffff",
+            "label": true,
+            "label-position": "n"
+        },
+        "nodes": [
+            "e129d251.331d2",
+            "bb7e5e05.f7aa3",
+            "bf05c9ca.e5cb68",
+            "be356774.dfafe8",
+            "4a46ab10.77e784",
+            "5a13d3f5.7c8f3c",
+            "669079fc.a7fed8",
+            "7dd1a024.c9cea",
+            "8236016e.5d6e3"
+        ],
+        "x": 94,
+        "y": 1099,
+        "w": 932,
+        "h": 184
+    },
+    {
+        "id": "7a5432c7.e9d60c",
+        "type": "group",
+        "z": "b2dec5c2.4f2758",
+        "name": "Control LED strip",
+        "style": {
+            "fill": "#ffffff",
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "6e1f9a7d.a10f74",
+            "fd1c1216.e21ad",
+            "3b6ccf82.d98ab",
+            "7cbe3d54.2de2f4"
+        ],
+        "x": 1234,
+        "y": 199,
+        "w": 812,
+        "h": 162
     },
     {
         "id": "3134c2cf.78461e",
@@ -497,82 +606,6 @@
         "y": 464,
         "w": 572,
         "h": 352
-    },
-    {
-        "id": "79fac8a4.114828",
-        "type": "group",
-        "z": "87cb301d.9893c",
-        "name": "Water pump ",
-        "style": {
-            "fill": "#ffffff",
-            "label": true,
-            "color": "#000000"
-        },
-        "nodes": [
-            "da7d1a1e.239e58",
-            "933e05f4.0abbb8",
-            "2f179774.4055e8",
-            "ea84252f.eb1ee8",
-            "69d27d4f.253984",
-            "cd5e7336.53f74",
-            "6fd97e66.02fde",
-            "83c9cbe9.ff0f68",
-            "d579d391.622e6",
-            "1426c687.455629",
-            "fcfbe87b.4c3f98",
-            "766d6f3d.e9fdb",
-            "2d32f6d2.b52eaa"
-        ],
-        "x": 514,
-        "y": 427,
-        "w": 1322,
-        "h": 174
-    },
-    {
-        "id": "59d1252d.d18c0c",
-        "type": "group",
-        "z": "87cb301d.9893c",
-        "name": "Water spray",
-        "style": {
-            "fill": "#ffffff",
-            "label": true,
-            "color": "#000000"
-        },
-        "nodes": [
-            "b9dd843.3247178",
-            "e6b06459.aad598",
-            "25335612.5b58da",
-            "dec1467a.516188",
-            "c1e51a25.bcd2f8",
-            "57e4ad43.c33774",
-            "77dd4f6a.f114"
-        ],
-        "x": 514,
-        "y": 259,
-        "w": 1212,
-        "h": 142
-    },
-    {
-        "id": "2bce1a3f.f178b6",
-        "type": "group",
-        "z": "87cb301d.9893c",
-        "name": "Seed tray - LED lights control",
-        "style": {
-            "fill": "#ffffff",
-            "label": true,
-            "color": "#000000"
-        },
-        "nodes": [
-            "acca3832.810b88",
-            "df864faf.11005",
-            "39f4667d.55b9da",
-            "a94198ff.eef948",
-            "d7d0c829.e9cc28"
-        ],
-        "x": 514,
-        "y": 113,
-        "w": 572,
-        "h": 141
     },
     {
         "id": "a0e631b8.d383b",
@@ -1469,501 +1502,6 @@
         "token": "ef2ad5f2-6f34-4f4a-adef-97bbf5fc2662"
     },
     {
-        "id": "15f1b520.65235b",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "1c37dc0b.ce28e4",
-        "order": 5,
-        "width": 5,
-        "height": 1
-    },
-    {
-        "id": "12020b05.60dd65",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "1c37dc0b.ce28e4",
-        "order": 10,
-        "width": 9,
-        "height": 1
-    },
-    {
-        "id": "144da028.67ede",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "8a9b009f.1b35d",
-        "order": 2,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "214ee09.b47722",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "8a9b009f.1b35d",
-        "order": 4,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "eeaf43f1.fd5ea",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "8a9b009f.1b35d",
-        "order": 5,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "820794dd.f696e8",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "8a9b009f.1b35d",
-        "order": 7,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "59c44c6b.7f9614",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "8a9b009f.1b35d",
-        "order": 8,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "7ff6348c.55b93c",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "8a9b009f.1b35d",
-        "order": 10,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "e3d0b1ac.9ae55",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "8a9b009f.1b35d",
-        "order": 12,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "db7c928e.d9367",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "8a9b009f.1b35d",
-        "order": 14,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "b11cbf13.afe3e",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "8a9b009f.1b35d",
-        "order": 15,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "1b036d8.9eac693",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "8a9b009f.1b35d",
-        "order": 17,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "4fad9dfe.b2eb34",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "65d119b5.66cb78",
-        "order": 1,
-        "width": 4,
-        "height": 1
-    },
-    {
-        "id": "7319093.5107af8",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "65d119b5.66cb78",
-        "order": 3,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "c53a431b.879a3",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "65d119b5.66cb78",
-        "order": 5,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "52162320.e90d0c",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "65d119b5.66cb78",
-        "order": 6,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "97937a01.e70ff8",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "8d4aab9b.4d6328",
-        "order": 3,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "538ba52c.c9b22c",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "8d4aab9b.4d6328",
-        "order": 4,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "1e974bb6.0155b4",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "8d4aab9b.4d6328",
-        "order": 5,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "d33d0d3c.704d4",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "8d4aab9b.4d6328",
-        "order": 6,
-        "width": 4,
-        "height": 1
-    },
-    {
-        "id": "ec6de843.a32268",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "8d4aab9b.4d6328",
-        "order": 8,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "dbb9f1c9.f65c5",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "8d4aab9b.4d6328",
-        "order": 10,
-        "width": 4,
-        "height": 1
-    },
-    {
-        "id": "51702acd.f6e104",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "8d4aab9b.4d6328",
-        "order": 11,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "42762592.3d019c",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "8d4aab9b.4d6328",
-        "order": 15,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "67ba62ea.110ddc",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "8d4aab9b.4d6328",
-        "order": 16,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "d11527e9.e1cfa8",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "8d4aab9b.4d6328",
-        "order": 20,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "bdeeb416.c56628",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "45199dde.854f64",
-        "order": 2,
-        "width": 4,
-        "height": 1
-    },
-    {
-        "id": "45bf8053.428c7",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "45199dde.854f64",
-        "order": 4,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "bec8688d.737978",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "45199dde.854f64",
-        "order": 5,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "29e24fa6.01d38",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "45199dde.854f64",
-        "order": 6,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "d3393288.53834",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "45199dde.854f64",
-        "order": 9,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "8db7fe4.f823a",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "45199dde.854f64",
-        "order": 12,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "5da1090d.28b218",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "45199dde.854f64",
-        "order": 13,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "bd293bd0.e9a5e8",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "45199dde.854f64",
-        "order": 14,
-        "width": 4,
-        "height": 1
-    },
-    {
-        "id": "efa6861e.6de2c8",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "45199dde.854f64",
-        "order": 15,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "aca9cbfc.a014c8",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "45199dde.854f64",
-        "order": 16,
-        "width": 4,
-        "height": 1
-    },
-    {
-        "id": "f9e05d75.e4821",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "45199dde.854f64",
-        "order": 18,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "d7f5dd05.a0cc4",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "6c15eb0d.8f5814",
-        "order": 2,
-        "width": 3,
-        "height": 1
-    },
-    {
-        "id": "bd0baf26.7f652",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "6c15eb0d.8f5814",
-        "order": 3,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "fa437721.801d28",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "6c15eb0d.8f5814",
-        "order": 6,
-        "width": 2,
-        "height": 1
-    },
-    {
-        "id": "53137a29.63efe4",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "6c15eb0d.8f5814",
-        "order": 7,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "8644aa5e.a3a328",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "6c15eb0d.8f5814",
-        "order": 9,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "bb8222dd.efae2",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "6c15eb0d.8f5814",
-        "order": 11,
-        "width": 4,
-        "height": 1
-    },
-    {
-        "id": "171d2a56.a05b06",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "6c15eb0d.8f5814",
-        "order": 12,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "3b01af30.02e22",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "6c15eb0d.8f5814",
-        "order": 14,
-        "width": 4,
-        "height": 1
-    },
-    {
-        "id": "d8ecb5ea.076068",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "6c15eb0d.8f5814",
-        "order": 15,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "4b6fab51.ba10f4",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "6c15eb0d.8f5814",
-        "order": 16,
-        "width": 4,
-        "height": 1
-    },
-    {
-        "id": "83b15e20.e0613",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "6c15eb0d.8f5814",
-        "order": 17,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "e342bc57.55181",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "6c15eb0d.8f5814",
-        "order": 18,
-        "width": 4,
-        "height": 1
-    },
-    {
-        "id": "630b6c08.8e70f4",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "6c15eb0d.8f5814",
-        "order": 19,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "421af585.64b0dc",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "6c15eb0d.8f5814",
-        "order": 21,
-        "width": 4,
-        "height": 1
-    },
-    {
-        "id": "7a990ab7.966e44",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "6c15eb0d.8f5814",
-        "order": 23,
-        "width": 3,
-        "height": 1
-    },
-    {
-        "id": "9bb53f46.d2031",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "6c15eb0d.8f5814",
-        "order": 24,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "40bdad43.e31254",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "6c15eb0d.8f5814",
-        "order": 27,
-        "width": 2,
-        "height": 1
-    },
-    {
-        "id": "f0625a56.e4e928",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "6c15eb0d.8f5814",
-        "order": 28,
-        "width": 1,
-        "height": 1
-    },
-    {
         "id": "3dcda60a.e5ff12",
         "type": "homekit-bridge",
         "bridgeName": "My Bridge",
@@ -1984,7 +1522,7 @@
         "mdnsTtl": "",
         "mdnsLoopback": true,
         "mdnsReuseAddr": true,
-        "allowMessagePassthrough": false
+        "allowMessagePassthrough": true
     },
     {
         "id": "409001a1.3e7a78",
@@ -2005,6 +1543,465 @@
         "mdnsLoopback": true,
         "mdnsReuseAddr": true,
         "allowMessagePassthrough": true
+    },
+    {
+        "id": "7aca9703.25e008",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "1c37dc0b.ce28e4",
+        "order": 5,
+        "width": 5,
+        "height": 1
+    },
+    {
+        "id": "8811959b.5bdc58",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "1c37dc0b.ce28e4",
+        "order": 10,
+        "width": 9,
+        "height": 1
+    },
+    {
+        "id": "6a261f32.90a3a",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "8a9b009f.1b35d",
+        "order": 2,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "848340cd.e4f38",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "8a9b009f.1b35d",
+        "order": 4,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "81873cde.c2a16",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "8a9b009f.1b35d",
+        "order": 5,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "25135a41.093686",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "8a9b009f.1b35d",
+        "order": 7,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "9888d878.a15068",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "8a9b009f.1b35d",
+        "order": 8,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "2a43b7f.7d2b148",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "8a9b009f.1b35d",
+        "order": 10,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "b6c1e65a.23cea8",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "8a9b009f.1b35d",
+        "order": 12,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "a5275a22.e092d8",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "8a9b009f.1b35d",
+        "order": 14,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "e175a3e5.44b6e",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "8a9b009f.1b35d",
+        "order": 15,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "ec371150.df5df",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "8a9b009f.1b35d",
+        "order": 17,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "99c70129.71a3",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "65d119b5.66cb78",
+        "order": 1,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "4bdcec.77a0b314",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "65d119b5.66cb78",
+        "order": 3,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "f4c7a8da.a1ac08",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "65d119b5.66cb78",
+        "order": 5,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "cf956676.633b08",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "65d119b5.66cb78",
+        "order": 6,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "f3036390.b05de",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "8d4aab9b.4d6328",
+        "order": 3,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "ab910b2e.629068",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "8d4aab9b.4d6328",
+        "order": 4,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "254672fc.8325ce",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "8d4aab9b.4d6328",
+        "order": 5,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "5b007bac.5389b4",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "8d4aab9b.4d6328",
+        "order": 6,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "d0a9d35e.0f20a",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "8d4aab9b.4d6328",
+        "order": 8,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "f2f732f2.cac89",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "8d4aab9b.4d6328",
+        "order": 10,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "a9d30317.72145",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "8d4aab9b.4d6328",
+        "order": 11,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "d8fb0707.e53ba8",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "8d4aab9b.4d6328",
+        "order": 15,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "70571803.8df248",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "8d4aab9b.4d6328",
+        "order": 16,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "94348479.9d69d8",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "8d4aab9b.4d6328",
+        "order": 20,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "b1cf4eab.a7723",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "45199dde.854f64",
+        "order": 2,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "4942deda.28cad",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "45199dde.854f64",
+        "order": 3,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "d895d840.57d2e8",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "45199dde.854f64",
+        "order": 5,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "f1ae16c1.0102e8",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "45199dde.854f64",
+        "order": 6,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "c58fc4b.b9f3d38",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "45199dde.854f64",
+        "order": 9,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "3aa9a98f.83d246",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "45199dde.854f64",
+        "order": 12,
+        "width": 5,
+        "height": 1
+    },
+    {
+        "id": "722acc8a.44d9a4",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "45199dde.854f64",
+        "order": 13,
+        "width": 5,
+        "height": 1
+    },
+    {
+        "id": "8aeff185.4e71c",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "6c15eb0d.8f5814",
+        "order": 2,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "9a099ec5.ffb57",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "6c15eb0d.8f5814",
+        "order": 3,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "43ea7ea6.d448e",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "6c15eb0d.8f5814",
+        "order": 6,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "387425c3.f6de5a",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "6c15eb0d.8f5814",
+        "order": 7,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "8f3afbe9.b9ff98",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "6c15eb0d.8f5814",
+        "order": 9,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "58e0566.7b738a8",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "6c15eb0d.8f5814",
+        "order": 11,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "ac01301.de918d",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "6c15eb0d.8f5814",
+        "order": 12,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "cb044b88.c9b048",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "6c15eb0d.8f5814",
+        "order": 14,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "eabd59f.d12faa8",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "6c15eb0d.8f5814",
+        "order": 15,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "79af0178.884c7",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "6c15eb0d.8f5814",
+        "order": 16,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "bb9ec199.78bf",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "6c15eb0d.8f5814",
+        "order": 17,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "7c881f7d.f6f53",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "6c15eb0d.8f5814",
+        "order": 18,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "ab6c72d9.4a32e",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "6c15eb0d.8f5814",
+        "order": 19,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "1402907b.9cfdb",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "6c15eb0d.8f5814",
+        "order": 21,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "8686fb24.cdd138",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "6c15eb0d.8f5814",
+        "order": 23,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "898d9e36.89ea7",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "6c15eb0d.8f5814",
+        "order": 24,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "f32ec01.63ea74",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "6c15eb0d.8f5814",
+        "order": 27,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "ea7f04d9.95ec58",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "6c15eb0d.8f5814",
+        "order": 28,
+        "width": 1,
+        "height": 1
     },
     {
         "id": "e30bc267.9a60e",
@@ -3517,7 +3514,7 @@
         "tooltip": "Led",
         "group": "45199dde.854f64",
         "order": 10,
-        "width": 2,
+        "width": 3,
         "height": 1,
         "passthru": true,
         "decouple": "false",
@@ -3740,7 +3737,7 @@
         "type": "ui_text",
         "z": "1d22c714.e50369",
         "group": "45199dde.854f64",
-        "order": 17,
+        "order": 14,
         "width": 3,
         "height": 1,
         "name": "Last refresh - luminosity",
@@ -4534,13 +4531,13 @@
         "g": "79fac8a4.114828",
         "name": "Hydroponic - Water pump  - HS105(JP)",
         "device": "192.168.1.8",
-        "interval": 60000,
-        "eventInterval": 15000,
+        "interval": "10000",
+        "eventInterval": "1000",
         "payload": "getInfo",
         "payloadType": "info",
-        "debug": false,
-        "x": 1130,
-        "y": 500,
+        "debug": true,
+        "x": 1135,
+        "y": 487,
         "wires": [
             [
                 "2f179774.4055e8"
@@ -4686,7 +4683,7 @@
         "z": "1d22c714.e50369",
         "group": "45199dde.854f64",
         "name": "Definition list - sun/led/dark duration",
-        "order": 3,
+        "order": 4,
         "width": 3,
         "height": 3,
         "format": "<md-list style=\"margin-top:0px;\">\n  <md-list-item style=\"padding-bottom:15px;padding-left:10px;max-height:17px;min-height:0px;\"\n   ng-repeat = \"(index, item) in msg.payload\">\n        <div class=\"md-list-item-text compact\">\n          <font color=\"{{item.hexColor}}\"> \n              <i class=\"{{item.icon_name}}\"> </i> \n               {{item.title}} {{item.description}}\n          </font> \n        \n        </div>\n       \n </md-list-item>\n \n</md-list>\n\n<md-divider></md-divider>",
@@ -5699,8 +5696,8 @@
         "offvalueType": "bool",
         "officon": "fa-toggle-off fa-2x",
         "offcolor": "#0077be",
-        "x": 870,
-        "y": 499,
+        "x": 875,
+        "y": 486,
         "wires": [
             [
                 "da7d1a1e.239e58",
@@ -5719,8 +5716,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 1414,
-        "y": 501,
+        "x": 1419,
+        "y": 488,
         "wires": [
             [
                 "ea84252f.eb1ee8"
@@ -5740,8 +5737,8 @@
         "label": "<font color=\"{{msg.color}}\"><i class=\"fa fa-tint fa-2x\"></i></front>",
         "format": "",
         "layout": "row-spread",
-        "x": 1650,
-        "y": 500,
+        "x": 1655,
+        "y": 487,
         "wires": []
     },
     {
@@ -5750,7 +5747,7 @@
         "z": "1d22c714.e50369",
         "group": "45199dde.854f64",
         "order": 7,
-        "width": 4,
+        "width": 5,
         "height": 1,
         "name": "Lights control label",
         "label": "<b><i class=\"fa fa-cog\"></i> Control</b>",
@@ -7400,7 +7397,7 @@
         "z": "1d22c714.e50369",
         "g": "c2cc2f7f.c6192",
         "name": "Convert Voltage to ppm",
-        "func": "var isWaterPumpActivated = global.get(\"settings.water_pump.activated\");\n\nvar waterTemperature = global.get(\"seedTray.water.temperature\") || 20;\n\nvar voltage = msg.payload[\"ADS1115 • I2C_ADDRESS_0x48 • Channel A0-GND • Voltage\"];\nvar compensationCoefficient = 1.0+0.02*(waterTemperature-25.0);    //temperature compensation formula: fFinalResult(25^C) = fFinalResult(current)/(1.0+0.02*(fTP-25.0));\n//var compensationVoltage=voltage/compensationCoefficient;  //temperature compensation\\\nvar compensationVoltage = voltage;\nmsg.tdsValue=(133.42*compensationVoltage*compensationVoltage*compensationVoltage - 255.86*compensationVoltage*compensationVoltage + 857.39*compensationVoltage)*0.5; //convert voltage value to tds value\n\nif (isWaterPumpActivated != 1) {\n    \n    var waterQualityMsg = { \n        payload: msg.tdsValue,\n        waterTemp: waterTemperature,\n        voltage: voltage\n    };\n    \n    \n    return  waterQualityMsg;\n}\n",
+        "func": "var isWaterPumpActivated = global.get(\"settings.water_pump.activated\");\n\nvar waterTemperature = global.get(\"seedTray.water.temperature\") || 20;\n\nvar voltage = msg.payload[\"ADS1115 • I2C_ADDRESS_0x48 • Channel A0-GND • Voltage\"];\nvar compensationCoefficient = 1.0+0.02*(waterTemperature-25.0);    //temperature compensation formula: fFinalResult(25^C) = fFinalResult(current)/(1.0+0.02*(fTP-25.0));\n//var compensationVoltage=voltage/compensationCoefficient;  //temperature compensation\\\nvar compensationVoltage = voltage;\nmsg.tdsValue=(133.42*compensationVoltage*compensationVoltage*compensationVoltage - 255.86*compensationVoltage*compensationVoltage + 857.39*compensationVoltage)/2; //convert voltage value to tds value\n\nif (isWaterPumpActivated != 1) {\n    \n    var waterQualityMsg = { \n        payload: msg.tdsValue,\n        waterTemp: waterTemperature,\n        voltage: voltage\n    };\n    \n    \n    return  waterQualityMsg;\n}\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -7622,8 +7619,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 670,
-        "y": 468,
+        "x": 675,
+        "y": 455,
         "wires": [
             [
                 "933e05f4.0abbb8"
@@ -7639,8 +7636,8 @@
         "links": [
             "983a3abc.dd1b18"
         ],
-        "x": 555,
-        "y": 468,
+        "x": 560,
+        "y": 455,
         "wires": [
             [
                 "69d27d4f.253984"
@@ -7667,8 +7664,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 670,
-        "y": 528,
+        "x": 675,
+        "y": 515,
         "wires": [
             [
                 "933e05f4.0abbb8"
@@ -7686,8 +7683,8 @@
             "2d32f6d2.b52eaa",
             "6bd46816.3f5cd8"
         ],
-        "x": 555,
-        "y": 528,
+        "x": 560,
+        "y": 515,
         "wires": [
             [
                 "6fd97e66.02fde"
@@ -7765,8 +7762,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 1090,
-        "y": 560,
+        "x": 1095,
+        "y": 547,
         "wires": [
             [
                 "1426c687.455629"
@@ -7780,8 +7777,8 @@
         "g": "79fac8a4.114828",
         "name": "waterPumpTimer",
         "storageNode": "217cc961.603ce6",
-        "x": 1330,
-        "y": 560,
+        "x": 1335,
+        "y": 547,
         "wires": [
             [
                 "fcfbe87b.4c3f98"
@@ -7799,8 +7796,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 1530,
-        "y": 560,
+        "x": 1535,
+        "y": 547,
         "wires": [
             [
                 "766d6f3d.e9fdb"
@@ -7823,8 +7820,8 @@
         "randomLast": "5",
         "randomUnits": "seconds",
         "drop": false,
-        "x": 1700,
-        "y": 560,
+        "x": 1705,
+        "y": 547,
         "wires": [
             [
                 "2d32f6d2.b52eaa"
@@ -7840,8 +7837,8 @@
         "links": [
             "83c9cbe9.ff0f68"
         ],
-        "x": 1795,
-        "y": 560,
+        "x": 1800,
+        "y": 547,
         "wires": []
     },
     {
@@ -8120,7 +8117,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "{\"operation\":\"SET\",\"dps\":20,\"set\":true}",
+                "to": "{ \"On\" : true }",
                 "tot": "json"
             }
         ],
@@ -8133,7 +8130,8 @@
         "y": 140,
         "wires": [
             [
-                "6e1f9a7d.a10f74"
+                "78d54c9c.5b67b4",
+                "5de140a8.bfbc4"
             ]
         ]
     },
@@ -8147,7 +8145,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "{\"operation\":\"SET\",\"dps\":20,\"set\":false}",
+                "to": "{ \"On\": false }",
                 "tot": "json"
             }
         ],
@@ -8160,7 +8158,7 @@
         "y": 320,
         "wires": [
             [
-                "6e1f9a7d.a10f74"
+                "78d54c9c.5b67b4"
             ]
         ]
     },
@@ -8168,10 +8166,11 @@
         "id": "6e1f9a7d.a10f74",
         "type": "tuya-smart-device",
         "z": "b2dec5c2.4f2758",
-        "deviceName": "LED strip - living room",
+        "g": "7a5432c7.e9d60c",
+        "deviceName": "LED strip - entrance",
         "deviceId": "744288502cf4323a130e",
         "deviceKey": "c4dcdb8b912b91ad",
-        "x": 1240,
+        "x": 1920,
         "y": 240,
         "wires": [
             []
@@ -8342,8 +8341,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 420,
-        "y": 1740,
+        "x": 500,
+        "y": 1800,
         "wires": [
             [
                 "a4ea3e4e.edd54"
@@ -8368,8 +8367,8 @@
         "topic": "",
         "payload": "BedroomSound",
         "payloadType": "str",
-        "x": 200,
-        "y": 1740,
+        "x": 280,
+        "y": 1800,
         "wires": [
             [
                 "64af5848.7dd3f8"
@@ -8390,8 +8389,8 @@
         "persist": false,
         "proxy": "",
         "authType": "",
-        "x": 640,
-        "y": 1740,
+        "x": 720,
+        "y": 1800,
         "wires": [
             [
                 "487a2017.f0152"
@@ -8412,8 +8411,8 @@
         "targetType": "msg",
         "statusVal": "",
         "statusType": "auto",
-        "x": 830,
-        "y": 1740,
+        "x": 910,
+        "y": 1800,
         "wires": []
     },
     {
@@ -8430,8 +8429,8 @@
         "persist": false,
         "proxy": "",
         "authType": "",
-        "x": 610,
-        "y": 1340,
+        "x": 690,
+        "y": 1400,
         "wires": [
             [
                 "af637338.5ccc6"
@@ -8449,8 +8448,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 420,
-        "y": 1340,
+        "x": 500,
+        "y": 1400,
         "wires": [
             [
                 "c46b3d7e.34b62"
@@ -8475,8 +8474,8 @@
         "topic": "",
         "payload": "",
         "payloadType": "str",
-        "x": 190,
-        "y": 1340,
+        "x": 270,
+        "y": 1400,
         "wires": [
             [
                 "b92e57cb.92d5a8"
@@ -8488,14 +8487,14 @@
         "type": "function",
         "z": "b2dec5c2.4f2758",
         "g": "98e346c4.842908",
-        "name": "Save as flow",
+        "name": "Get all devices - Save as flow",
         "func": "var devices = msg.payload.body.deviceList;\nvar infraredRemoteList = msg.payload.body.infraredRemoteList;\n\n//node.warn(infraredRemoteList);\n\nvar deviceList = [];\nvar infraRemoteList = [];\n\nfor( var y in devices) {\n    \n    let device = {\"type\": devices[y].deviceType,\n                  \"name\": devices[y].deviceName,\n                  \"deviceID\": devices[y].deviceId\n                 };\n    deviceList.push(device);\n} \nflow.set(\"devices\", deviceList);\n\nfor( var infra in infraredRemoteList) {\n    \n    let device = {\"remoteType\": infraredRemoteList[infra].remoteType,\n                  \"deviceName\": infraredRemoteList[infra].deviceName,\n                  \"deviceID\": infraredRemoteList[infra].deviceId\n                 };\n    infraRemoteList.push(device);\n} \nflow.set(\"infraredRemoteList\", infraRemoteList)\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 850,
-        "y": 1340,
+        "x": 910,
+        "y": 1400,
         "wires": [
             []
         ]
@@ -8507,8 +8506,8 @@
         "g": "98e346c4.842908",
         "name": "Get all devices and save as flow",
         "info": "",
-        "x": 270,
-        "y": 1300,
+        "x": 350,
+        "y": 1360,
         "wires": []
     },
     {
@@ -8525,8 +8524,8 @@
         "persist": false,
         "proxy": "",
         "authType": "",
-        "x": 580,
-        "y": 1500,
+        "x": 660,
+        "y": 1560,
         "wires": [
             [
                 "e34e8e48.b6d52"
@@ -8544,8 +8543,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 390,
-        "y": 1500,
+        "x": 470,
+        "y": 1560,
         "wires": [
             [
                 "841fa47b.903488"
@@ -8570,8 +8569,8 @@
         "topic": "",
         "payload": "",
         "payloadType": "str",
-        "x": 160,
-        "y": 1500,
+        "x": 240,
+        "y": 1560,
         "wires": [
             [
                 "34a7b2a9.c5d22e"
@@ -8589,8 +8588,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 820,
-        "y": 1500,
+        "x": 900,
+        "y": 1560,
         "wires": [
             []
         ]
@@ -8602,8 +8601,8 @@
         "g": "e4c51a6a.02a678",
         "name": "Get all devices and save as flow",
         "info": "",
-        "x": 240,
-        "y": 1460,
+        "x": 320,
+        "y": 1520,
         "wires": []
     },
     {
@@ -8617,8 +8616,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 350,
-        "y": 1620,
+        "x": 430,
+        "y": 1680,
         "wires": [
             [
                 "3bfce5e7.124e4a",
@@ -8644,8 +8643,8 @@
         "topic": "",
         "payload": "Hub Mini DF",
         "payloadType": "str",
-        "x": 190,
-        "y": 1620,
+        "x": 270,
+        "y": 1680,
         "wires": [
             [
                 "fdf6b7dc.749448"
@@ -8666,8 +8665,8 @@
         "persist": false,
         "proxy": "",
         "authType": "",
-        "x": 550,
-        "y": 1620,
+        "x": 630,
+        "y": 1680,
         "wires": [
             [
                 "9d34c528.2d33f8"
@@ -8688,8 +8687,8 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 710,
-        "y": 1620,
+        "x": 790,
+        "y": 1680,
         "wires": []
     },
     {
@@ -8698,17 +8697,17 @@
         "z": "b2dec5c2.4f2758",
         "g": "955cda67.93f6e8",
         "name": "Control device IR",
-        "func": "var devices = flow.get(\"infraredRemoteList\");\nvar device =  \"Living Room Air Conditioner\"; //enter name of the device or use msg.payload \n\n// Get the inputs from HomeKit \n// Documentation for HomeKit device - https://auto.caitken.com/posts/2018/09/09/nodered-homekit-characteristics-reference\n/*\n\nRequired characteristics:\n    Active\n        INT\t0, 1 (inactive, active)\n    CurrentHeaterCoolerState\n        INT\t0,1,2,3 (inactive, idle, heating, cooling)\n    TargetHeaterCoolerState\n        INT\t0,1,2 (auto, heat, cool)\n    CurrentTemperature\n        FLOAT\t\\-100 to 500\n    \nOptional characteristics:\n    LockPhysicalControls\n    Name\n    RotationSpeed\n        FLOAT\t0-100\n    SwingMode\n    HeatingThresholdTemperature\n    TemperatureDisplayUnits\n    CoolingThresholdTemperature\n\n*/\n\n/* https://github.com/OpenWonderLabs/SwitchBotAPI\n\nAir Conditioner\t\ncommand\tsetAll\t\nparameter {temperature},{mode},{fan speed},{power state} e.g. 26,1,3,on\tthe unit of temperature is in celsius;\n  modes include 1 (auto), 2 (cool), 3 (dry), 4 (fan), 5 (heat);\n  fan speed includes 1 (auto), 2 (low), 3 (medium), 4 (high);\n  power state includes on and off\n\n*/\n\nvar parameter;\n\nif ('Active' in msg.payload)\n{\n    parameter = (msg.payload.Active == 1) ? \"turnOn\" : \"turnOff\";\n    msg.payload = {\"command\":parameter,\"parameter\":\"default\",\"commandType\":\"command\"};\n\n} else if ('HeatingThresholdTemperature' in msg.payload) {\n    \n    parameter = msg.payload.HeatingThresholdTemperature+ \",\" + 5 + \",\" + 3 + \",on\";\n    msg.payload = {\"command\":\"setAll\",\"parameter\":parameter,\"commandType\":\"command\"};\n\n} else if ('CoolingThresholdTemperature' in msg.payload) {\n    \n    parameter = msg.payload.CoolingThresholdTemperature+ \",\" + 2 + \",\" + 3 + \",on\";\n    msg.payload = {\"command\":\"setAll\",\"parameter\":parameter,\"commandType\":\"command\"};\n\n}\n\nfunction FindDevice(name){\n    let index = devices.find(o => o.deviceName === name);\n    node.warn(index);\n    let deviceID = index.deviceID;\n    return deviceID;\n}\n\nif (parameter) {\n\n    msg.headers = {\"Authorization\": global.get(\"SwitchBotAPI\"),\n                   \"ContentType\": \"application/json; charset=utf8\"};\n                    \n    msg.url = \"https://api.switch-bot.com/v1.0/devices/\"+ FindDevice(device) +\"/commands\"\n    \n    return msg;\n    \n} else {\n    return null;\n}",
+        "func": "var devices = flow.get(\"infraredRemoteList\");\nvar device =  \"Living Room Air Conditioner\"; //enter name of the device or use msg.payload \n\n// Get the inputs from HomeKit \n// Documentation for HomeKit device - https://auto.caitken.com/posts/2018/09/09/nodered-homekit-characteristics-reference\n/*\n\nRequired characteristics:\n    Active\n        INT\t0, 1 (inactive, active)\n    CurrentHeaterCoolerState\n        INT\t0,1,2,3 (inactive, idle, heating, cooling)\n    TargetHeaterCoolerState\n        INT\t0,1,2 (auto, heat, cool)\n    CurrentTemperature\n        FLOAT\t\\-100 to 500\n    \nOptional characteristics:\n    LockPhysicalControls\n    Name\n    RotationSpeed\n        FLOAT\t0-100\n    SwingMode\n    HeatingThresholdTemperature\n    TemperatureDisplayUnits\n    CoolingThresholdTemperature\n\n*/\n\n/* https://github.com/OpenWonderLabs/SwitchBotAPI\n\nAir Conditioner\t\ncommand\tsetAll\t\nparameter {temperature},{mode},{fan speed},{power state} e.g. 26,1,3,on\tthe unit of temperature is in celsius;\n  modes include 1 (auto), 2 (cool), 3 (dry), 4 (fan), 5 (heat);\n  fan speed includes 1 (auto), 2 (low), 3 (medium), 4 (high);\n  power state includes on and off\n\n*/\n\nvar parameter;\n\nif ('Active' in msg.payload) {\n    \n    flow.set(\"LivingRoom.AC.Active\", msg.payload.Active);\n    \n    parameter = (msg.payload.Active == 1) ? \"turnOn\" : \"turnOff\";\n    msg.payload = {\"command\":parameter,\"parameter\":\"default\",\"commandType\":\"command\"};\n\n} else if ('CurrentTemperature' in msg.payload) {\n    \n    flow.set(\"LivingRoom.CurrentTemperature\", msg.payload.CurrentTemperature);\n    \n} else if ('HeatingThresholdTemperature' in msg.payload) {\n    \n    flow.set(\"LivingRoom.AC.HeatingThresholdTemperature\", msg.payload.HeatingThresholdTemperature);\n    if (flow.get(\"LivingRoom.AC.Active\") == 1) {\n        parameter = flow.get(\"LivingRoom.AC.HeatingThresholdTemperature\") + \",\" + 5 + \",\" + 3 + \",on\";\n        msg.payload = {\"command\":\"setAll\",\"parameter\":parameter,\"commandType\":\"command\"};\n    }\n   \n\n} else if ('CoolingThresholdTemperature' in msg.payload) {\n    \n    flow.set(\"LivingRoom.AC.CoolingThresholdTemperature\", msg.payload.CoolingThresholdTemperature);\n    \n    if (flow.get(\"LivingRoom.AC.Active\") == 1) {\n        parameter = flow.get(\"LivingRoom.AC.CoolingThresholdTemperature\") + \",\" + 2 + \",\" + 3 + \",on\";\n        msg.payload = {\"command\":\"setAll\",\"parameter\":parameter,\"commandType\":\"command\"};\n    }\n\n} else if ('CurrentHeaterCoolerState' in msg.payload) {\n    \n    // CurrentHeaterCoolerState\n    //INT\t0,1,2,3 (inactive, idle, heating, cooling)\n    flow.set(\"LivingRoom.AC.CurrentHeaterCoolerState\", msg.payload.CurrentHeaterCoolerState);\n    \n  \n} else if ('TargetHeaterCoolerState' in msg.payload) {\n    \n    //TargetHeaterCoolerState\n    //    INT\t0,1,2 (auto, heat, cool)\n    flow.set(\"LivingRoom.AC.TargetHeaterCoolerState\", msg.payload.TargetHeaterCoolerState);\n    \n    // SwtichBOT modes include 1 (auto), 2 (cool), 3 (dry), 4 (fan), 5 (heat);\n    let mode; \n    if (msg.payload.TargetHeaterCoolerState == 0) {\n        mode = 1;\n    } else if (msg.payload.TargetHeaterCoolerState == 1) {\n        mode = 5;\n    } else {\n        mode = 0;\n    }\n        \n    parameter = flow.get(\"LivingRoom.AC.HeatingThresholdTemperature\") + \",\" + mode + \",\" + 3 + \",on\";\n    msg.payload = {\"command\":\"setAll\",\"parameter\":parameter,\"commandType\":\"command\"};\n\n} else if ('RotationSpeed' in msg.payload) {\n    \n    // TODO manage the rotation\n    \n    flow.set(\"LivingRoom.AC.RotationSpeed\", msg.payload.RotationSpeed);\n    \n    let mode, targetTemperature; \n    var currentState = flow.get(\"LivingRoom.AC.TargetHeaterCoolerState\");\n    if (msg.payload.TargetHeaterCoolerState == 0) {\n        mode = 1;\n        temperature = flow.get(\"LivingRoom.AC.HeatingThresholdTemperature\");\n    } else if (msg.payload.TargetHeaterCoolerState == 1) {\n        mode = 5;\n        temperature = flow.get(\"LivingRoom.AC.CoolingThresholdTemperature\");\n    } else {\n        mode = 0;\n    }\n    \n    // fan speed includes 1 (auto), 2 (low), 3 (medium), 4 (high);\n    let rotationSpeed;\n    if (msg.payload.RotationSpeed > 1) {\n        rotationSpeed = 1;\n    } else if (msg.payload.RotationSpeed > 20) {\n        rotationSpeed = 2;\n    } else if (msg.payload.RotationSpeed > 40) {\n         rotationSpeed = 3;\n    } else if (msg.payload.RotationSpeed > 60) {\n         rotationSpeed = 4;\n    }\n    \n    parameter = flow.get(\"LivingRoom.AC.HeatingThresholdTemperature\") + \",\" + flow.get(\"LivingRoom.AC.TargetHeaterCoolerState\") + \",\" + rotationSpeed + \",on\";\n    msg.payload = {\"command\":\"setAll\",\"parameter\":parameter,\"commandType\":\"command\"};\n\n} \n\n\nfunction FindDevice(name){\n    let index = devices.find(o => o.deviceName === name);\n    node.warn(index);\n    let deviceID = index.deviceID;\n    return deviceID;\n}\n\nif (parameter) {\n\n    msg.headers = {\"Authorization\": global.get(\"SwitchBotAPI\"),\n                   \"ContentType\": \"application/json; charset=utf8\"};\n                    \n    msg.url = \"https://api.switch-bot.com/v1.0/devices/\"+ FindDevice(device) +\"/commands\"\n    \n    return msg;\n    \n} else {\n    return null;\n}",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 810,
+        "x": 710,
         "y": 940,
         "wires": [
             [
                 "d3b26d8c.5038b",
-                "1a8d8c4e.4e42b4"
+                "c8a9c695.2f5788"
             ]
         ]
     },
@@ -8726,8 +8725,8 @@
         "persist": false,
         "proxy": "",
         "authType": "",
-        "x": 858,
-        "y": 1057,
+        "x": 910,
+        "y": 940,
         "wires": [
             [
                 "c8a9c695.2f5788"
@@ -8739,7 +8738,7 @@
         "type": "debug",
         "z": "b2dec5c2.4f2758",
         "g": "955cda67.93f6e8",
-        "name": "",
+        "name": "Debug - API call to SwitchBot",
         "active": true,
         "tosidebar": true,
         "console": false,
@@ -8748,8 +8747,8 @@
         "targetType": "msg",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1042,
-        "y": 1057,
+        "x": 970,
+        "y": 980,
         "wires": []
     },
     {
@@ -8759,8 +8758,8 @@
         "g": "955cda67.93f6e8",
         "name": "Custom IR",
         "info": "deviceType\tcommandType\tCommand\tcommand parameter\tDescription\n\nAll home appliance types except Others\t\"\"\tturnOn\tdefault\tevery home appliance can be turned on by default\n\nAll home appliance types except Others\tcommand\tturnOff\tdefault\tevery home appliance can be turned off by default\n\nOthers\tcustomize\t{user-defined button name}\tdefault\tall user-defined buttons must be configured with commandType=customize\nAir Conditioner\tcommand\tsetAll\t{temperature},{mode},{fan speed},{power state}\ne.g. 26,1,3,on\tthe unit of temperature is in celsius;\nmodes include 1 (auto), 2 (cool), 3 (dry), 4 (fan), 5 (heat);\nfan speed includes 1 (auto), 2 (low), 3 (medium), 4 (high);\npower state includes on and off\nTV, IPTV/Streamer, Set Top Box\tcommand\tSetChannel\t{channel number}, e.g. 15\tset the TV channel to switch to\ncommand\tvolumeAdd\tdefault\tvolume up\ncommand\tvolumeSub\tdefault\tvolume down\ncommand\tchannelAdd\tdefault\tnext channel\ncommand\tchannelSub\tdefault\tprevious channel\nDVD, Speaker\tcommand\tsetMute\tdefault\tmute/unmute\ncommand\tFastForward\tdefault\tfast forward\ncommand\tRewind\tdefault\trewind\ncommand\tNext\tdefault\tnext track\ncommand\tPrevious\tdefault\tlast track\ncommand\tPause\tdefault\tpause\ncommand\tPlay\tdefault\tplay/resume\ncommand\tStop\tdefault\tstop\nSpeaker\tcommand\tvolumeAdd\tdefault\tvolume up\ncommand\tvolumeSub\tdefault\tvolume down\nFan\tcommand\tswing\tdefault\tswing\ncommand\ttimer\tdefault\tset timer\ncommand\tlowSpeed\tdefault\tset fan speed to low\ncommand\tmiddleSpeed\tdefault\tset fan speed to medium\ncommand\thighSpeed\tdefault\tset fan speed to high\nLight\tcommand\tbrightnessUp\tdefault\tbrightness up\ncommand\tbrightnessDown\tdefault\tbrightness down\nNote: Most of the devices support turnOn or turnOff, which are case-sensitive. For infrared remote devices, when you have created customized buttons, you must set commandType to customize, otherwise the command will not work. command needs to be set to the name of the customized button.",
-        "x": 788,
-        "y": 1130,
+        "x": 680,
+        "y": 1040,
         "wires": []
     },
     {
@@ -9001,38 +9000,18 @@
         "cameraConfigDebug": false,
         "cameraConfigSnapshotOutput": "disabled",
         "cameraConfigInterfaceName": "",
-        "characteristicProperties": "{\"Active\":true,\"CurrentHeatingCoolingState\":{\"validValues\":[0,1,2]},\"CurrentHeaterCoolerState\":{\"validValues\":[0,1,2,3]},\"HeatingThresholdTemperature\":{\"minValue\":20,\"maxValue\":25},\"CoolingThresholdTemperature\":{\"minValue\":15,\"maxValue\":25},\"RotationSpeed\":true}",
+        "characteristicProperties": "{\"Active\":true,\"CurrentHeatingCoolingState\":true,\"TargetHeaterCoolerState\":{\"validValues\":[0,1,2]},\"CurrentHeaterCoolerState\":{\"validValues\":[0,1,2,3]},\"HeatingThresholdTemperature\":{\"minValue\":20,\"maxValue\":25,\"minStep\":1},\"CoolingThresholdTemperature\":{\"minValue\":15,\"maxValue\":25,\"minStep\":1},\"RotationSpeed\":{\"validValues\":[1,2,3,4]}}",
         "waitForSetupMsg": false,
         "outputs": 2,
         "x": 470,
         "y": 940,
         "wires": [
             [
-                "dbeb20c2.56661",
-                "f34949f6.4f5bf8"
+                "f34949f6.4f5bf8",
+                "1a8d8c4e.4e42b4"
             ],
-            [
-                "dbeb20c2.56661"
-            ]
+            []
         ]
-    },
-    {
-        "id": "dbeb20c2.56661",
-        "type": "debug",
-        "z": "b2dec5c2.4f2758",
-        "g": "5bdc73fe.80b51c",
-        "name": "",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 472,
-        "y": 1040,
-        "wires": []
     },
     {
         "id": "b7778e52.220a5",
@@ -9046,8 +9025,8 @@
         "tostatus": false,
         "complete": "payload",
         "targetType": "msg",
-        "x": 890,
-        "y": 2080,
+        "x": 790,
+        "y": 1920,
         "wires": []
     },
     {
@@ -9092,8 +9071,8 @@
         "characteristicProperties": "{\"RotationSpeed\":true,\"RotationDirection\":true,\"SwingMode\":true}",
         "waitForSetupMsg": false,
         "outputs": 2,
-        "x": 660,
-        "y": 2080,
+        "x": 560,
+        "y": 1920,
         "wires": [
             [
                 "b7778e52.220a5"
@@ -9126,8 +9105,8 @@
         "topic": "",
         "payload": "{\"Active\":\"NO_RESPONSE\"}",
         "payloadType": "json",
-        "x": 380,
-        "y": 2180,
+        "x": 280,
+        "y": 2020,
         "wires": [
             [
                 "fd8aff55.91d41"
@@ -9156,8 +9135,8 @@
         "topic": "",
         "payload": "{\"Active\":true}",
         "payloadType": "json",
-        "x": 360,
-        "y": 2080,
+        "x": 260,
+        "y": 1920,
         "wires": [
             [
                 "fd8aff55.91d41"
@@ -9186,8 +9165,8 @@
         "topic": "",
         "payload": "{\"Active\":false}",
         "payloadType": "json",
-        "x": 360,
-        "y": 2120,
+        "x": 260,
+        "y": 1960,
         "wires": [
             [
                 "fd8aff55.91d41"
@@ -9390,6 +9369,7 @@
         "once": false,
         "onceDelay": 0.1,
         "topic": "",
+        "payloadType": "str",
         "x": 220,
         "y": 1020,
         "wires": [
@@ -9402,17 +9382,18 @@
         "id": "1a8d8c4e.4e42b4",
         "type": "debug",
         "z": "b2dec5c2.4f2758",
-        "name": "",
+        "g": "955cda67.93f6e8",
+        "name": "AC msg",
         "active": true,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
-        "complete": "payload",
-        "targetType": "msg",
+        "complete": "true",
+        "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 972,
-        "y": 934,
+        "x": 700,
+        "y": 980,
         "wires": []
     },
     {
@@ -9432,7 +9413,8 @@
         "once": true,
         "onceDelay": "15",
         "topic": "",
-        "x": 210,
+        "payloadType": "str",
+        "x": 230,
         "y": 940,
         "wires": [
             []
@@ -9451,22 +9433,464 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 980,
-        "y": 1520,
+        "x": 1060,
+        "y": 1580,
         "wires": []
     },
     {
-        "id": "e4989e1f.17666",
-        "type": "rbe",
+        "id": "5a13d3f5.7c8f3c",
+        "type": "change",
+        "z": "b2dec5c2.4f2758",
+        "g": "588e44f4.702ffc",
+        "name": "Set Temperature",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload.CurrentTemperature",
+                "pt": "msg",
+                "to": "payload.body.temperature",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "LivingRoom.CurrentTemperature",
+                "pt": "flow",
+                "to": "payload.body.temperature",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 663,
+        "y": 1160,
+        "wires": [
+            [
+                "4a46ab10.77e784",
+                "8236016e.5d6e3"
+            ]
+        ]
+    },
+    {
+        "id": "e129d251.331d2",
+        "type": "function",
+        "z": "b2dec5c2.4f2758",
+        "g": "588e44f4.702ffc",
+        "name": "Get Status",
+        "func": "var devices = flow.get(\"devices\");\nvar device =  \"Living Room Meter\"; \n\nfunction FindDevice(name){\n    let index = devices.find(o => o.name === name);\n    node.warn(index);\n    let deviceID = index.deviceID;\n    return deviceID\n}\n\n/* \nhttps://github.com/OpenWonderLabs/SwitchBotAPI#switchbot-meter-example\n*/\n\nmsg.headers = {\"Authorization\": global.get(\"SwitchBotAPI\"),\n               \"ContentType\": \"application/json; charset=utf8\"};\n                \nmsg.url = \"https://api.switch-bot.com/v1.0/devices/\"+ FindDevice(device) +\"/status\"\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 350,
+        "y": 1200,
+        "wires": [
+            [
+                "bf05c9ca.e5cb68"
+            ]
+        ]
+    },
+    {
+        "id": "bb7e5e05.f7aa3",
+        "type": "inject",
+        "z": "b2dec5c2.4f2758",
+        "g": "588e44f4.702ffc",
+        "name": "Inject ",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "600",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "20",
+        "topic": "",
+        "payload": "",
+        "payloadType": "str",
+        "x": 190,
+        "y": 1200,
+        "wires": [
+            [
+                "e129d251.331d2"
+            ]
+        ]
+    },
+    {
+        "id": "bf05c9ca.e5cb68",
+        "type": "http request",
+        "z": "b2dec5c2.4f2758",
+        "g": "588e44f4.702ffc",
+        "name": "Status",
+        "method": "GET",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "authType": "",
+        "x": 510,
+        "y": 1200,
+        "wires": [
+            [
+                "5a13d3f5.7c8f3c",
+                "669079fc.a7fed8",
+                "be356774.dfafe8"
+            ]
+        ]
+    },
+    {
+        "id": "be356774.dfafe8",
+        "type": "debug",
+        "z": "b2dec5c2.4f2758",
+        "g": "588e44f4.702ffc",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 650,
+        "y": 1200,
+        "wires": []
+    },
+    {
+        "id": "4a46ab10.77e784",
+        "type": "homekit-service",
+        "z": "b2dec5c2.4f2758",
+        "g": "588e44f4.702ffc",
+        "isParent": true,
+        "bridge": "3dcda60a.e5ff12",
+        "parentService": "e12e26ce.c143e8",
+        "name": "SwitchBot - Temperature",
+        "serviceName": "TemperatureSensor",
+        "topic": "",
+        "filter": false,
+        "manufacturer": "NRCHKB",
+        "model": "0.120.5",
+        "serialNo": "Default Serial Number",
+        "firmwareRev": "0.120.5",
+        "hardwareRev": "0.120.5",
+        "softwareRev": "0.120.5",
+        "cameraConfigVideoProcessor": "ffmpeg",
+        "cameraConfigSource": "",
+        "cameraConfigStillImageSource": "",
+        "cameraConfigMaxStreams": 2,
+        "cameraConfigMaxWidth": 1280,
+        "cameraConfigMaxHeight": 720,
+        "cameraConfigMaxFPS": 10,
+        "cameraConfigMaxBitrate": 300,
+        "cameraConfigVideoCodec": "libx264",
+        "cameraConfigAudioCodec": "libfdk_aac",
+        "cameraConfigAudio": false,
+        "cameraConfigPacketSize": 1316,
+        "cameraConfigVerticalFlip": false,
+        "cameraConfigHorizontalFlip": false,
+        "cameraConfigMapVideo": "0:0",
+        "cameraConfigMapAudio": "0:1",
+        "cameraConfigVideoFilter": "scale=1280:720",
+        "cameraConfigAdditionalCommandLine": "-tune zerolatency",
+        "cameraConfigDebug": false,
+        "cameraConfigSnapshotOutput": "disabled",
+        "cameraConfigInterfaceName": "",
+        "characteristicProperties": "{\"CurrentTemperature\":true,\"StatusActive\":true,\"StatusTampered\":true}",
+        "waitForSetupMsg": false,
+        "outputs": 2,
+        "x": 890,
+        "y": 1180,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "669079fc.a7fed8",
+        "type": "change",
+        "z": "b2dec5c2.4f2758",
+        "g": "588e44f4.702ffc",
+        "name": "Set Humidity",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload.CurrentRelativeHumidity",
+                "pt": "msg",
+                "to": "payload.body.humidity",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 652,
+        "y": 1241,
+        "wires": [
+            [
+                "7dd1a024.c9cea"
+            ]
+        ]
+    },
+    {
+        "id": "7dd1a024.c9cea",
+        "type": "homekit-service",
+        "z": "b2dec5c2.4f2758",
+        "g": "588e44f4.702ffc",
+        "isParent": true,
+        "bridge": "3dcda60a.e5ff12",
+        "parentService": "e12e26ce.c143e8",
+        "name": "SwitchBot - Humidity",
+        "serviceName": "HumiditySensor",
+        "topic": "",
+        "filter": false,
+        "manufacturer": "NRCHKB",
+        "model": "0.120.5",
+        "serialNo": "Default Serial Number",
+        "firmwareRev": "0.120.5",
+        "hardwareRev": "0.120.5",
+        "softwareRev": "0.120.5",
+        "cameraConfigVideoProcessor": "ffmpeg",
+        "cameraConfigSource": "",
+        "cameraConfigStillImageSource": "",
+        "cameraConfigMaxStreams": 2,
+        "cameraConfigMaxWidth": 1280,
+        "cameraConfigMaxHeight": 720,
+        "cameraConfigMaxFPS": 10,
+        "cameraConfigMaxBitrate": 300,
+        "cameraConfigVideoCodec": "libx264",
+        "cameraConfigAudioCodec": "libfdk_aac",
+        "cameraConfigAudio": false,
+        "cameraConfigPacketSize": 1316,
+        "cameraConfigVerticalFlip": false,
+        "cameraConfigHorizontalFlip": false,
+        "cameraConfigMapVideo": "0:0",
+        "cameraConfigMapAudio": "0:1",
+        "cameraConfigVideoFilter": "scale=1280:720",
+        "cameraConfigAdditionalCommandLine": "-tune zerolatency",
+        "cameraConfigDebug": false,
+        "cameraConfigSnapshotOutput": "disabled",
+        "cameraConfigInterfaceName": "",
+        "characteristicProperties": "{\"CurrentRelativeHumidity\":true}",
+        "waitForSetupMsg": false,
+        "outputs": 2,
+        "x": 866,
+        "y": 1242,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "68894d56.2d5534",
+        "type": "link in",
+        "z": "b2dec5c2.4f2758",
+        "name": "HomeKit AC input",
+        "links": [
+            "8236016e.5d6e3"
+        ],
+        "x": 335,
+        "y": 880,
+        "wires": [
+            [
+                "e12e26ce.c143e8"
+            ]
+        ]
+    },
+    {
+        "id": "8236016e.5d6e3",
+        "type": "link out",
+        "z": "b2dec5c2.4f2758",
+        "g": "588e44f4.702ffc",
+        "name": "Set CurrentTemperature on AC",
+        "links": [
+            "68894d56.2d5534"
+        ],
+        "x": 795,
+        "y": 1140,
+        "wires": []
+    },
+    {
+        "id": "cceaf166.fde94",
+        "type": "homekit-service",
+        "z": "b2dec5c2.4f2758",
+        "isParent": true,
+        "bridge": "3dcda60a.e5ff12",
+        "parentService": "",
+        "name": "LED strip - living room",
+        "serviceName": "Lightbulb",
+        "topic": "LivingRoom",
+        "filter": false,
+        "manufacturer": "NRCHKB",
+        "model": "1.2.0",
+        "serialNo": "Default Serial Number",
+        "firmwareRev": "1.2.0",
+        "hardwareRev": "1.2.0",
+        "softwareRev": "1.2.0",
+        "cameraConfigVideoProcessor": "ffmpeg",
+        "cameraConfigSource": "",
+        "cameraConfigStillImageSource": "",
+        "cameraConfigMaxStreams": 2,
+        "cameraConfigMaxWidth": 1280,
+        "cameraConfigMaxHeight": 720,
+        "cameraConfigMaxFPS": 10,
+        "cameraConfigMaxBitrate": 300,
+        "cameraConfigVideoCodec": "libx264",
+        "cameraConfigAudioCodec": "libfdk_aac",
+        "cameraConfigAudio": false,
+        "cameraConfigPacketSize": 1316,
+        "cameraConfigVerticalFlip": false,
+        "cameraConfigHorizontalFlip": false,
+        "cameraConfigMapVideo": "0:0",
+        "cameraConfigMapAudio": "0:1",
+        "cameraConfigVideoFilter": "scale=1280:720",
+        "cameraConfigAdditionalCommandLine": "-tune zerolatency",
+        "cameraConfigDebug": false,
+        "cameraConfigSnapshotOutput": "disabled",
+        "cameraConfigInterfaceName": "",
+        "characteristicProperties": "{\"Brightness\":true,\"Hue\":true,\"Saturation\":true,\"ColorTemperature\":true}",
+        "waitForSetupMsg": false,
+        "outputs": 2,
+        "x": 1120,
+        "y": 340,
+        "wires": [
+            [
+                "3b6ccf82.d98ab"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "fd1c1216.e21ad",
+        "type": "tuya-smart-device",
+        "z": "b2dec5c2.4f2758",
+        "g": "7a5432c7.e9d60c",
+        "deviceName": "LED strip - living room",
+        "deviceId": "eb2d62a32ef2c47827kra5",
+        "deviceKey": "2dd9eefa0d6b13ec",
+        "x": 1920,
+        "y": 320,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "3b6ccf82.d98ab",
+        "type": "function",
+        "z": "b2dec5c2.4f2758",
+        "g": "7a5432c7.e9d60c",
+        "name": "Save to flow and compute HSV",
+        "func": "var room = msg.topic;\n\nif ('On' in msg.payload) {\n    msg.payload= {\n        \"set\": msg.payload.On,\n        \"operation\": \"SET\",\n        \"dps\": 20\n    };\n    return msg;\n    \n} else {\n\n    if ('Brightness' in msg.payload) {\n        flow.set(room + \".LEDStrip.Brightness\", msg.payload.Brightness);\n    } else if ('Hue' in msg.payload) {\n        flow.set(room + \".LEDStrip.Hue\", msg.payload.Hue);\n    } else if ('Saturation' in msg.payload) {\n        flow.set(room + \".LEDStrip.Saturation\", msg.payload.Saturation);\n    } else if ('ColorTemperature' in msg.payload) {\n        flow.set(room + \"LEDStrip.ColorTemperature\", msg.payload.ColorTemperature);\n    }\n    \n    var hue = flow.get(room + \".LEDStrip.Hue\");\n    var brightness = flow.get(room + \".LEDStrip.Brightness\") || 100;\n    var saturation = flow.get(room + \".LEDStrip.Saturation\");\n    \n    // If all HSV values exist\n    if (hue && brightness & saturation) {\n        \n        //  # h:0-360,s:0-1000,v:0-1000|hsv|\n        var hexvalue = \"\";\n        var hsvarray = [hue, saturation * 10, brightness * 10];\n\n        for (var value in hsvarray) {\n          \n            var temp = hsvarray[value].toString(16).replace(\"0x\", \"\");\n            while (temp.length < 4) {\n                temp = \"0\" + temp;\n            }\n            hexvalue = hexvalue + temp;\n        }\n        \n        msg.payload= {\n            \"set\": hexvalue,\n            \"operation\": \"SET\",\n            \"dps\": 24\n             //h:0-360,s:0-1000,v:0-1000\thsv\n        };\n        \n        msg.topic = msg.topic;\n        return msg;\n    \n    }\n    \n}\n\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 1390,
+        "y": 280,
+        "wires": [
+            [
+                "7cbe3d54.2de2f4"
+            ]
+        ]
+    },
+    {
+        "id": "78d54c9c.5b67b4",
+        "type": "homekit-service",
+        "z": "b2dec5c2.4f2758",
+        "isParent": true,
+        "bridge": "3dcda60a.e5ff12",
+        "parentService": "",
+        "name": "LED strip - entrance",
+        "serviceName": "Lightbulb",
+        "topic": "Entrance",
+        "filter": false,
+        "manufacturer": "NRCHKB",
+        "model": "1.2.0",
+        "serialNo": "Default Serial Number",
+        "firmwareRev": "1.2.0",
+        "hardwareRev": "1.2.0",
+        "softwareRev": "1.2.0",
+        "cameraConfigVideoProcessor": "ffmpeg",
+        "cameraConfigSource": "",
+        "cameraConfigStillImageSource": "",
+        "cameraConfigMaxStreams": 2,
+        "cameraConfigMaxWidth": 1280,
+        "cameraConfigMaxHeight": 720,
+        "cameraConfigMaxFPS": 10,
+        "cameraConfigMaxBitrate": 300,
+        "cameraConfigVideoCodec": "libx264",
+        "cameraConfigAudioCodec": "libfdk_aac",
+        "cameraConfigAudio": false,
+        "cameraConfigPacketSize": 1316,
+        "cameraConfigVerticalFlip": false,
+        "cameraConfigHorizontalFlip": false,
+        "cameraConfigMapVideo": "0:0",
+        "cameraConfigMapAudio": "0:1",
+        "cameraConfigVideoFilter": "scale=1280:720",
+        "cameraConfigAdditionalCommandLine": "-tune zerolatency",
+        "cameraConfigDebug": false,
+        "cameraConfigSnapshotOutput": "disabled",
+        "cameraConfigInterfaceName": "",
+        "characteristicProperties": "{\"Brightness\":true,\"Hue\":true,\"Saturation\":true,\"ColorTemperature\":true}",
+        "waitForSetupMsg": false,
+        "outputs": 2,
+        "x": 1120,
+        "y": 240,
+        "wires": [
+            [
+                "3b6ccf82.d98ab"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "7cbe3d54.2de2f4",
+        "type": "switch",
+        "z": "b2dec5c2.4f2758",
+        "g": "7a5432c7.e9d60c",
+        "name": "Redirect to LED device",
+        "property": "topic",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "Entrance",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "LivingRoom",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 1670,
+        "y": 280,
+        "wires": [
+            [
+                "6e1f9a7d.a10f74"
+            ],
+            [
+                "fd1c1216.e21ad"
+            ]
+        ]
+    },
+    {
+        "id": "8490b3d5.46a7d",
+        "type": "Generic BLE in",
         "z": "b2dec5c2.4f2758",
         "name": "",
-        "func": "rbe",
-        "gap": "",
-        "start": "",
-        "inout": "out",
-        "property": "payload",
-        "x": 1100,
-        "y": 880,
+        "useString": false,
+        "notification": true,
+        "x": 260,
+        "y": 2180,
         "wires": [
             []
         ]
