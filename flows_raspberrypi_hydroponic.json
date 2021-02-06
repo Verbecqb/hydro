@@ -59,9 +59,7 @@
             "487a2017.f0152"
         ],
         "x": 154,
-        "y": 1759,
-        "w": 872,
-        "h": 82
+        "y": 1759
     },
     {
         "id": "98e346c4.842908",
@@ -83,9 +81,7 @@
             "8d660f51.a75cf"
         ],
         "x": 174,
-        "y": 1319,
-        "w": 892,
-        "h": 122
+        "y": 1319
     },
     {
         "id": "e4c51a6a.02a678",
@@ -107,9 +103,7 @@
             "3882a851.983ef8"
         ],
         "x": 144,
-        "y": 1479,
-        "w": 852,
-        "h": 122
+        "y": 1479
     },
     {
         "id": "2b4d53e1.d6e2cc",
@@ -129,9 +123,7 @@
             "9d34c528.2d33f8"
         ],
         "x": 154,
-        "y": 1639,
-        "w": 732,
-        "h": 82
+        "y": 1639
     },
     {
         "id": "955cda67.93f6e8",
@@ -152,9 +144,7 @@
             "1a8d8c4e.4e42b4"
         ],
         "x": 674,
-        "y": 899,
-        "w": 552,
-        "h": 182
+        "y": 899
     },
     {
         "id": "8e57852f.2718a8",
@@ -382,9 +372,7 @@
             "e12e26ce.c143e8"
         ],
         "x": 354,
-        "y": 899,
-        "w": 292,
-        "h": 82
+        "y": 899
     },
     {
         "id": "2c464315.51c50c",
@@ -407,8 +395,6 @@
         ],
         "x": 154,
         "y": 1879,
-        "w": 752,
-        "h": 182,
         "info": "# Fan V2\n\nThis example shows a fan. The inputs from node red are to turn the fan on, off, or set \"No Response\".\n\nThe outputs going to \"Fan output\" will show:\n\nOn / off state <br/>\nRotation speed<br/>\nSwing mode on / off (oscillate) <br/>\nRotation direction (clockwise/counterclockwise)"
     },
     {
@@ -426,9 +412,7 @@
             "717a3663.b5f898"
         ],
         "x": 48,
-        "y": 438,
-        "w": 764,
-        "h": 404
+        "y": 438
     },
     {
         "id": "79fac8a4.114828",
@@ -441,7 +425,6 @@
             "color": "#000000"
         },
         "nodes": [
-            "da7d1a1e.239e58",
             "933e05f4.0abbb8",
             "2f179774.4055e8",
             "ea84252f.eb1ee8",
@@ -454,12 +437,12 @@
             "fcfbe87b.4c3f98",
             "766d6f3d.e9fdb",
             "2d32f6d2.b52eaa",
-            "7db28df7.cb80b4"
+            "e15afdde.86149"
         ],
         "x": 514,
-        "y": 399,
+        "y": 427,
         "w": 1322,
-        "h": 202
+        "h": 174
     },
     {
         "id": "59d1252d.d18c0c",
@@ -477,12 +460,11 @@
             "25335612.5b58da",
             "dec1467a.516188",
             "c1e51a25.bcd2f8",
-            "57e4ad43.c33774",
             "77dd4f6a.f114"
         ],
         "x": 514,
         "y": 259,
-        "w": 1212,
+        "w": 932,
         "h": 142
     },
     {
@@ -530,9 +512,7 @@
             "8236016e.5d6e3"
         ],
         "x": 94,
-        "y": 1099,
-        "w": 932,
-        "h": 184
+        "y": 1099
     },
     {
         "id": "7a5432c7.e9d60c",
@@ -551,9 +531,7 @@
             "7cbe3d54.2de2f4"
         ],
         "x": 1234,
-        "y": 199,
-        "w": 812,
-        "h": 162
+        "y": 199
     },
     {
         "id": "3134c2cf.78461e",
@@ -569,9 +547,7 @@
             "e9e59b68.002818"
         ],
         "x": 74,
-        "y": 485,
-        "w": 212,
-        "h": 82
+        "y": 485
     },
     {
         "id": "641c211c.5852",
@@ -584,9 +560,7 @@
         },
         "nodes": [],
         "x": 334,
-        "y": 579,
-        "w": 95,
-        "h": 40
+        "y": 579
     },
     {
         "id": "717a3663.b5f898",
@@ -607,9 +581,84 @@
             "9f2a1839.620bd8"
         ],
         "x": 314,
-        "y": 464,
-        "w": 472,
-        "h": 352
+        "y": 464
+    },
+    {
+        "id": "8b03ae74.0255",
+        "type": "group",
+        "z": "9441712c.a6198",
+        "name": "Seed tray - light duration",
+        "style": {
+            "stroke": "#ffff00",
+            "fill": "#ffffbf",
+            "label": true,
+            "color": "#000000",
+            "fill-opacity": "0.55"
+        },
+        "nodes": [
+            "304a2fa1.758d7",
+            "57d5c94c.049dc8",
+            "5ae3f27b.9d6a9c",
+            "bb11a03a.365f2",
+            "852f7533.ec9b28",
+            "34e374d0.ba20bc"
+        ],
+        "x": 154,
+        "y": 1279,
+        "w": 952,
+        "h": 142
+    },
+    {
+        "id": "a50a7433.2949c8",
+        "type": "group",
+        "z": "9441712c.a6198",
+        "name": "",
+        "style": {
+            "stroke": "#6f2fa0",
+            "fill": "#b797cf",
+            "label": true,
+            "fill-opacity": "0.37"
+        },
+        "nodes": [
+            "f334d767.83e348",
+            "dd9cce6b.677ad",
+            "f6b1cbb0.3cd9e8",
+            "d7136115.91c37",
+            "31336f63.6799f",
+            "31570dc1.2daf02",
+            "b9780e36.9f106",
+            "81ceab05.217668"
+        ],
+        "x": 139,
+        "y": 549,
+        "w": 787,
+        "h": 202
+    },
+    {
+        "id": "19b320a7.bcd92f",
+        "type": "group",
+        "z": "9441712c.a6198",
+        "name": "",
+        "style": {
+            "stroke": "#0070c0",
+            "fill": "#bfdbef",
+            "fill-opacity": "0.6",
+            "label": true
+        },
+        "nodes": [
+            "1b0ae6f9.985959",
+            "a65a3b1b.47fc98",
+            "141d0c8a.d98be3",
+            "18d6c45d.7ab59c",
+            "49b8a086.d9439",
+            "d1fa7544.95eb98",
+            "f66c7e50.c2274",
+            "d66c2005.a8f2c"
+        ],
+        "x": 134,
+        "y": 299,
+        "w": 912,
+        "h": 222
     },
     {
         "id": "a0e631b8.d383b",
@@ -2651,7 +2700,7 @@
         "randomLast": "5",
         "randomUnits": "seconds",
         "drop": false,
-        "x": 1480,
+        "x": 1200,
         "y": 360,
         "wires": [
             [
@@ -2720,7 +2769,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1630,
+        "x": 1350,
         "y": 360,
         "wires": [
             [
@@ -2748,7 +2797,7 @@
         "y": 360,
         "wires": [
             [
-                "57e4ad43.c33774"
+                "77dd4f6a.f114"
             ]
         ]
     },
@@ -4481,7 +4530,7 @@
         "z": "1d22c714.e50369",
         "g": "c2cc2f7f.c6192",
         "name": "Configure PPM sectors",
-        "func": "var minPPM = global.get('minPPM') || 0;\nvar maxPPM = global.get('maxPPM') || 0;\nvar centerPPM = parseInt((minPPM + maxPPM) / 2);\n\nvar newSectors = [\n    {t:\"min\",val:0,col:\"#ff5252\",dot:0},\n    {t:\"sec\",val:minPPM,col:\"#4CAF50\",dot:0},\n    {t:\"sec\",val:maxPPM,col:\"#ff5252\",dot:0},\n    {t:\"max\",val:2000,col:\"#ff5252\",dot:0}] \n\n\nmsg.control = \n  {sectors:newSectors, center: centerPPM}\n\nreturn msg;\n",
+        "func": "var minPPM = global.get('settings.water.minPPM') || 0;\nvar maxPPM = global.get('global.settings.water.maxPPM') || 0;\nvar centerPPM = parseInt((minPPM + maxPPM) / 2);\n\nvar newSectors = [\n    {t:\"min\",val:0,col:\"#ff5252\",dot:0},\n    {t:\"sec\",val:minPPM,col:\"#4CAF50\",dot:0},\n    {t:\"sec\",val:maxPPM,col:\"#ff5252\",dot:0},\n    {t:\"max\",val:2000,col:\"#ff5252\",dot:0}] \n\n\nmsg.control = \n  {sectors:newSectors, center: centerPPM}\n\nreturn msg;\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -4495,32 +4544,17 @@
         ]
     },
     {
-        "id": "57e4ad43.c33774",
-        "type": "persist out",
-        "z": "87cb301d.9893c",
-        "g": "59d1252d.d18c0c",
-        "name": "waterSprayTimer",
-        "storageNode": "217cc961.603ce6",
-        "x": 1110,
-        "y": 360,
-        "wires": [
-            [
-                "77dd4f6a.f114"
-            ]
-        ]
-    },
-    {
         "id": "77dd4f6a.f114",
         "type": "function",
         "z": "87cb301d.9893c",
         "g": "59d1252d.d18c0c",
         "name": "msg.delay",
-        "func": "var newMsg = { delay: (msg.payload * 1000) };\nreturn newMsg;",
+        "func": "var waterSprayDuration = global.get(\"settings.seedTray.waterSprayTimer\");\nvar newMsg = { delay: (waterSprayDuration * 1000) };\nreturn newMsg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 1310,
+        "x": 1050,
         "y": 360,
         "wires": [
             [
@@ -4543,28 +4577,6 @@
         "wires": [
             [
                 "821d2e1a.d0244"
-            ]
-        ]
-    },
-    {
-        "id": "da7d1a1e.239e58",
-        "type": "kasa",
-        "z": "87cb301d.9893c",
-        "d": true,
-        "g": "79fac8a4.114828",
-        "name": "Hydroponic - Water pump  - HS105(JP)",
-        "device": "192.168.1.8",
-        "interval": "10000",
-        "eventInterval": "15000",
-        "payload": "getInfo",
-        "payloadType": "info",
-        "debug": false,
-        "x": 1070,
-        "y": 440,
-        "wires": [
-            [
-                "2f179774.4055e8",
-                "7db28df7.cb80b4"
             ]
         ]
     },
@@ -4764,7 +4776,7 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "<md-card>\n  <md-card-content>\n  \n    <p style=\"padding-left:12px; !important\">\n        Seed Tray - water spray runs for <font color=\"{{global.color.widget.water}}\"> {{global.durationWaterSpray}}</font> \n        seconds every  <font color=\"{{global.color.widget.water}}\">two days</font>\n    </p>\n  </md-card-content>\n</md-card>",
+        "template": "<md-card>\n  <md-card-content>\n  \n    <p style=\"padding-left:12px; !important\">\n        Seed Tray - water spray runs for <font color=\"{{global.color.widget.water}}\"> {{global.settings.seedTray.waterSprayTimer}}</font> \n        seconds every  <font color=\"{{global.color.widget.water}}\">two days</font>\n    </p>\n  </md-card-content>\n</md-card>",
         "output": "str",
         "x": 480,
         "y": 2380,
@@ -4849,7 +4861,8 @@
         "links": [
             "593527d0.c1f528",
             "4db5829b.8b907c",
-            "36e61c64.c7dae4"
+            "36e61c64.c7dae4",
+            "9a706f60.ed15"
         ],
         "x": 935,
         "y": 1306,
@@ -5266,7 +5279,7 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "<md-card>\n  <div md-card-image class=\"example-header-image\"></div>\n  <md-card-content>\n    <p>\n      Every 6 hours, nutrients pump runs for <font color=\"{{global.color.widget.nutrients}}\"> {{global.nutriments.solutionA.pump.duration}} secs.</font>  \n      when PPM is below  <font color=\"{{global.color.widget.nutrients}}\">{{global.minPPM}}</font>\n    </p>\n  </md-card-content>\n</md-card>",
+        "template": "<md-card>\n  <div md-card-image class=\"example-header-image\"></div>\n  <md-card-content>\n    <p>\n      Every 6 hours, nutrients pump runs for <font color=\"{{global.color.widget.nutrients}}\"> {{global.nutriments.solutionA.pump.duration}} secs.</font>  \n      when PPM is below  <font color=\"{{global.color.widget.nutrients}}\">{{global.settings.water.minPPM}}</font>\n    </p>\n  </md-card-content>\n</md-card>",
         "output": "str",
         "x": 450,
         "y": 2660,
@@ -5615,7 +5628,7 @@
         "type": "function",
         "z": "1d22c714.e50369",
         "name": "Pass min and max PH (global var)",
-        "func": "msg.minPH = global.get('minPH') || 0;\nmsg.maxPH = global.get('maxPH') || 0;\nreturn msg;",
+        "func": "msg.minPH = global.get('settings.water.minPH') || 0;\nmsg.maxPH = global.get('settings.water.maxPH') || 0;\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -5725,8 +5738,7 @@
         "wires": [
             [
                 "d579d391.622e6",
-                "e15afdde.86149",
-                "7db28df7.cb80b4"
+                "e15afdde.86149"
             ]
         ]
     },
@@ -5741,8 +5753,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 1414,
-        "y": 501,
+        "x": 1330,
+        "y": 499,
         "wires": [
             [
                 "ea84252f.eb1ee8"
@@ -5762,7 +5774,7 @@
         "label": "<font color=\"{{msg.color}}\"><i class=\"fa fa-tint fa-2x\"></i></front>",
         "format": "",
         "layout": "row-spread",
-        "x": 1650,
+        "x": 1570,
         "y": 500,
         "wires": []
     },
@@ -5872,166 +5884,6 @@
         "wires": []
     },
     {
-        "id": "1516235d.d1ebfd",
-        "type": "function",
-        "z": "9441712c.a6198",
-        "name": "Save global variable",
-        "func": "\nglobal.set('minPPM',msg.payload);\n",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "x": 760,
-        "y": 320,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "9b926b5.9115898",
-        "type": "function",
-        "z": "9441712c.a6198",
-        "name": "Save global variable",
-        "func": "\nglobal.set('maxPPM',msg.payload);\n",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "x": 760,
-        "y": 400,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "3f752648.74e6ca",
-        "type": "persist in",
-        "z": "9441712c.a6198",
-        "name": "minPPMValue",
-        "storageNode": "217cc961.603ce6",
-        "x": 740,
-        "y": 360,
-        "wires": []
-    },
-    {
-        "id": "9146934f.83cb1",
-        "type": "persist out",
-        "z": "9441712c.a6198",
-        "name": "minPPMValue",
-        "storageNode": "217cc961.603ce6",
-        "x": 300,
-        "y": 340,
-        "wires": [
-            [
-                "a65a3b1b.47fc98"
-            ]
-        ]
-    },
-    {
-        "id": "b7985833.9fdba8",
-        "type": "persist in",
-        "z": "9441712c.a6198",
-        "name": "maxPPMValue",
-        "storageNode": "217cc961.603ce6",
-        "x": 740,
-        "y": 440,
-        "wires": []
-    },
-    {
-        "id": "a5cee59.fa0fd18",
-        "type": "persist out",
-        "z": "9441712c.a6198",
-        "name": "maxPPMValue",
-        "storageNode": "217cc961.603ce6",
-        "x": 300,
-        "y": 420,
-        "wires": [
-            [
-                "141d0c8a.d98be3"
-            ]
-        ]
-    },
-    {
-        "id": "7bcd1b8c.9818e4",
-        "type": "function",
-        "z": "9441712c.a6198",
-        "name": "Save global variable",
-        "func": "\nglobal.set('minPH',msg.payload);\n",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "x": 740,
-        "y": 580,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "982fabd3.e49df8",
-        "type": "function",
-        "z": "9441712c.a6198",
-        "name": "Save global variable",
-        "func": "\nglobal.set('maxPH',msg.payload);\n",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "x": 740,
-        "y": 660,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "71390326.464c4c",
-        "type": "persist in",
-        "z": "9441712c.a6198",
-        "name": "minPHValue",
-        "storageNode": "217cc961.603ce6",
-        "x": 710,
-        "y": 620,
-        "wires": []
-    },
-    {
-        "id": "e8398002.767f4",
-        "type": "persist out",
-        "z": "9441712c.a6198",
-        "name": "minPHValue",
-        "storageNode": "217cc961.603ce6",
-        "x": 290,
-        "y": 600,
-        "wires": [
-            [
-                "f6b1cbb0.3cd9e8"
-            ]
-        ]
-    },
-    {
-        "id": "80f40634.689f48",
-        "type": "persist in",
-        "z": "9441712c.a6198",
-        "name": "maxPHValue",
-        "storageNode": "217cc961.603ce6",
-        "x": 710,
-        "y": 700,
-        "wires": []
-    },
-    {
-        "id": "3cd6faa8.f9bab6",
-        "type": "persist out",
-        "z": "9441712c.a6198",
-        "name": "maxPHValue",
-        "storageNode": "217cc961.603ce6",
-        "x": 290,
-        "y": 680,
-        "wires": [
-            [
-                "dd9cce6b.677ad"
-            ]
-        ]
-    },
-    {
         "id": "5b859dcf.f2f8f4",
         "type": "comment",
         "z": "9441712c.a6198",
@@ -6045,30 +5897,33 @@
         "id": "1b0ae6f9.985959",
         "type": "link out",
         "z": "9441712c.a6198",
+        "g": "19b320a7.bcd92f",
         "name": "Min PPM value updated",
         "links": [
             "80ecf0e1.ea61b"
         ],
-        "x": 655,
-        "y": 280,
+        "x": 715,
+        "y": 340,
         "wires": []
     },
     {
         "id": "f334d767.83e348",
         "type": "link out",
         "z": "9441712c.a6198",
+        "g": "a50a7433.2949c8",
         "name": "",
         "links": [
             "d8805062.990f5"
         ],
         "x": 595,
-        "y": 640,
+        "y": 680,
         "wires": []
     },
     {
         "id": "dd9cce6b.677ad",
         "type": "ui_numeric",
         "z": "9441712c.a6198",
+        "g": "a50a7433.2949c8",
         "name": "Max. PH",
         "label": "<i class=\"fa fa-arrow-circle-down\"></i> Max. PH",
         "tooltip": "Maximum PH threshold to trigger event",
@@ -6084,12 +5939,11 @@
         "max": "14",
         "step": "0.1",
         "x": 480,
-        "y": 680,
+        "y": 710,
         "wires": [
             [
                 "f334d767.83e348",
-                "982fabd3.e49df8",
-                "80f40634.689f48"
+                "31570dc1.2daf02"
             ]
         ]
     },
@@ -6097,6 +5951,7 @@
         "id": "f6b1cbb0.3cd9e8",
         "type": "ui_numeric",
         "z": "9441712c.a6198",
+        "g": "a50a7433.2949c8",
         "name": "Min. PH",
         "label": "<i class=\"fa fa-arrow-circle-up\"></i> Min. PH",
         "tooltip": "Minimum PH threshold to trigger event",
@@ -6112,12 +5967,11 @@
         "max": "14",
         "step": "0.1",
         "x": 480,
-        "y": 600,
+        "y": 649,
         "wires": [
             [
-                "7bcd1b8c.9818e4",
-                "71390326.464c4c",
-                "f334d767.83e348"
+                "f334d767.83e348",
+                "31336f63.6799f"
             ]
         ]
     },
@@ -6125,6 +5979,7 @@
         "id": "a65a3b1b.47fc98",
         "type": "ui_numeric",
         "z": "9441712c.a6198",
+        "g": "19b320a7.bcd92f",
         "name": "Min. PPM numeric input",
         "label": "<i class=\"fa fa-arrow-circle-up\"></i> Min. PPM",
         "tooltip": "Min PPM threshold to trigger event",
@@ -6139,13 +5994,12 @@
         "min": 0,
         "max": "2000",
         "step": "100",
-        "x": 510,
-        "y": 340,
+        "x": 570,
+        "y": 400,
         "wires": [
             [
-                "1516235d.d1ebfd",
-                "3f752648.74e6ca",
-                "1b0ae6f9.985959"
+                "1b0ae6f9.985959",
+                "49b8a086.d9439"
             ]
         ]
     },
@@ -6153,6 +6007,7 @@
         "id": "141d0c8a.d98be3",
         "type": "ui_numeric",
         "z": "9441712c.a6198",
+        "g": "19b320a7.bcd92f",
         "name": "Max. PPM numeric input",
         "label": "<i class=\"fa fa-arrow-circle-down\"></i> Max. PPM",
         "tooltip": "Max PPM threshold to trigger event",
@@ -6167,12 +6022,11 @@
         "min": 0,
         "max": "2000",
         "step": "100",
-        "x": 510,
-        "y": 420,
+        "x": 570,
+        "y": 480,
         "wires": [
             [
-                "9b926b5.9115898",
-                "b7985833.9fdba8"
+                "d66c2005.a8f2c"
             ]
         ]
     },
@@ -6180,6 +6034,7 @@
         "id": "18d6c45d.7ab59c",
         "type": "ui_text",
         "z": "9441712c.a6198",
+        "g": "19b320a7.bcd92f",
         "group": "1c4b8cb2.e1e2e3",
         "order": 8,
         "width": 0,
@@ -6188,14 +6043,15 @@
         "label": "<b><i class=\"fa fa-sliders\"></i> Nutrients </b>",
         "format": "",
         "layout": "row-left",
-        "x": 250,
-        "y": 300,
+        "x": 270,
+        "y": 340,
         "wires": []
     },
     {
         "id": "d7136115.91c37",
         "type": "ui_text",
         "z": "9441712c.a6198",
+        "g": "a50a7433.2949c8",
         "group": "1c4b8cb2.e1e2e3",
         "order": 1,
         "width": 0,
@@ -6204,8 +6060,8 @@
         "label": "<b><i class=\"fa fa-sliders\"></i> PH </b>",
         "format": "",
         "layout": "row-left",
-        "x": 230,
-        "y": 560,
+        "x": 255,
+        "y": 590,
         "wires": []
     },
     {
@@ -6225,14 +6081,13 @@
         "min": "0",
         "max": "60",
         "step": "5",
-        "x": 480,
+        "x": 540,
         "y": 840,
         "wires": [
             [
                 "507ee2f6.516eec",
-                "4daaa0a0.02a9a",
-                "4cc660a2.d792",
-                "3339466d.6d58aa"
+                "3339466d.6d58aa",
+                "5ba78f8d.2b4bb"
             ]
         ]
     },
@@ -6248,49 +6103,9 @@
         "label": "",
         "format": "{{msg.payload}} sec.",
         "layout": "row-center",
-        "x": 720,
+        "x": 780,
         "y": 821,
         "wires": []
-    },
-    {
-        "id": "4daaa0a0.02a9a",
-        "type": "function",
-        "z": "9441712c.a6198",
-        "name": "Save global variable",
-        "func": "\nglobal.set('durationWaterSpray',msg.payload);\n",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "x": 720,
-        "y": 861,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "4cc660a2.d792",
-        "type": "persist in",
-        "z": "9441712c.a6198",
-        "name": "waterSprayTimer",
-        "storageNode": "217cc961.603ce6",
-        "x": 710,
-        "y": 901,
-        "wires": []
-    },
-    {
-        "id": "49af6c92.3da8a4",
-        "type": "persist out",
-        "z": "9441712c.a6198",
-        "name": "waterSprayTimer",
-        "storageNode": "217cc961.603ce6",
-        "x": 270,
-        "y": 840,
-        "wires": [
-            [
-                "527c695b.4fdf98"
-            ]
-        ]
     },
     {
         "id": "fc1cbcae.827d",
@@ -6309,47 +6124,23 @@
         "wires": []
     },
     {
-        "id": "2229125e.9cc0de",
-        "type": "function",
-        "z": "9441712c.a6198",
-        "name": "Save global variable",
-        "func": "global.set('seed.totalLight',msg.payload);",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "x": 840,
-        "y": 1400,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "c231a613.adbd18",
-        "type": "persist in",
-        "z": "9441712c.a6198",
-        "name": "seed.totalLight",
-        "storageNode": "217cc961.603ce6",
-        "x": 820,
-        "y": 1440,
-        "wires": []
-    },
-    {
         "id": "304a2fa1.758d7",
         "type": "link out",
         "z": "9441712c.a6198",
+        "g": "8b03ae74.0255",
         "name": "Change total light slider",
         "links": [
             "3dfc5ff2.440c6"
         ],
-        "x": 755,
-        "y": 1360,
+        "x": 855,
+        "y": 1340,
         "wires": []
     },
     {
         "id": "57d5c94c.049dc8",
         "type": "ui_numeric",
         "z": "9441712c.a6198",
+        "g": "8b03ae74.0255",
         "name": "Total light",
         "label": "<i class=\"fa fa-clock-o\"> Daily light</i>",
         "tooltip": "",
@@ -6364,13 +6155,12 @@
         "min": 0,
         "max": "24",
         "step": 1,
-        "x": 640,
-        "y": 1400,
+        "x": 740,
+        "y": 1380,
         "wires": [
             [
                 "304a2fa1.758d7",
-                "2229125e.9cc0de",
-                "c231a613.adbd18"
+                "852f7533.ec9b28"
             ]
         ]
     },
@@ -6378,14 +6168,15 @@
         "id": "5ae3f27b.9d6a9c",
         "type": "function",
         "z": "9441712c.a6198",
+        "g": "8b03ae74.0255",
         "name": "Configure widget",
         "func": "var minValue = global.get('sun.total') || 1;\nmsg.ui_control = {\"min\":Math.floor(minValue/3600)+1};\n\nreturn msg; ",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 470,
-        "y": 1400,
+        "x": 570,
+        "y": 1380,
         "wires": [
             [
                 "57d5c94c.049dc8"
@@ -6393,23 +6184,10 @@
         ]
     },
     {
-        "id": "35ea3272.82355e",
-        "type": "persist out",
-        "z": "9441712c.a6198",
-        "name": "seed.totalLight",
-        "storageNode": "217cc961.603ce6",
-        "x": 260,
-        "y": 1400,
-        "wires": [
-            [
-                "5ae3f27b.9d6a9c"
-            ]
-        ]
-    },
-    {
         "id": "bb11a03a.365f2",
         "type": "ui_text",
         "z": "9441712c.a6198",
+        "g": "8b03ae74.0255",
         "group": "1c4b8cb2.e1e2e3",
         "order": 38,
         "width": 0,
@@ -6418,8 +6196,8 @@
         "label": "<b><i class=\"fa fa-sliders\"></i> Seed Tray - Total light </b>",
         "format": "",
         "layout": "row-left",
-        "x": 280,
-        "y": 1340,
+        "x": 320,
+        "y": 1320,
         "wires": []
     },
     {
@@ -7897,14 +7675,13 @@
         "min": "0",
         "max": "180",
         "step": "30",
-        "x": 480,
+        "x": 540,
         "y": 1020,
         "wires": [
             [
                 "16d52aef.57d3a5",
-                "bee922ab.16ab5",
-                "34cdfb3a.ae8094",
-                "88e72de5.1224f"
+                "88e72de5.1224f",
+                "b7cd4564.bbd6d8"
             ]
         ]
     },
@@ -7920,62 +7697,20 @@
         "label": "",
         "format": "{{msg.payload}} sec.",
         "layout": "row-center",
-        "x": 720,
+        "x": 780,
         "y": 1001,
         "wires": []
-    },
-    {
-        "id": "bee922ab.16ab5",
-        "type": "function",
-        "z": "9441712c.a6198",
-        "name": "Save global variable",
-        "func": "\nglobal.set('settings.water_pump.duration',msg.payload);\n",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "x": 720,
-        "y": 1041,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "34cdfb3a.ae8094",
-        "type": "persist in",
-        "z": "9441712c.a6198",
-        "name": "waterPumpTimer",
-        "storageNode": "217cc961.603ce6",
-        "x": 710,
-        "y": 1081,
-        "wires": []
-    },
-    {
-        "id": "4e676d89.397a94",
-        "type": "persist out",
-        "z": "9441712c.a6198",
-        "name": "waterPumpTimer",
-        "storageNode": "217cc961.603ce6",
-        "x": 270,
-        "y": 1020,
-        "wires": [
-            [
-                "fd56b7bd.4166d8"
-            ]
-        ]
     },
     {
         "id": "88e72de5.1224f",
         "type": "link out",
         "z": "9441712c.a6198",
-        "name": "Water spray duration update",
+        "name": "Water pump duration update",
         "links": [
-            "593527d0.c1f528",
-            "4db5829b.8b907c",
-            "36e61c64.c7dae4"
+            "e24187b.d250c78"
         ],
-        "x": 635,
-        "y": 961,
+        "x": 695,
+        "y": 960,
         "wires": []
     },
     {
@@ -7999,9 +7734,11 @@
         "type": "link out",
         "z": "9441712c.a6198",
         "name": "Water spray duration update",
-        "links": [],
-        "x": 635,
-        "y": 781,
+        "links": [
+            "9a706f60.ed15"
+        ],
+        "x": 695,
+        "y": 780,
         "wires": []
     },
     {
@@ -8661,8 +8398,7 @@
         "y": 1680,
         "wires": [
             [
-                "3bfce5e7.124e4a",
-                "68dc2a9.fb6f9d4"
+                "3bfce5e7.124e4a"
             ]
         ]
     },
@@ -8988,11 +8724,9 @@
         "id": "36e61c64.c7dae4",
         "type": "link in",
         "z": "1d22c714.e50369",
-        "name": "Refresh template seed tray water",
+        "name": "Refresh template - seed tray water level",
         "links": [
-            "bbae5ec0.7849",
-            "bec62e16.5d9dc",
-            "88e72de5.1224f"
+            "bec62e16.5d9dc"
         ],
         "x": 315,
         "y": 2460,
@@ -9400,23 +9134,6 @@
         "wires": []
     },
     {
-        "id": "68dc2a9.fb6f9d4",
-        "type": "debug",
-        "z": "b2dec5c2.4f2758",
-        "name": "",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1060,
-        "y": 1580,
-        "wires": []
-    },
-    {
         "id": "5a13d3f5.7c8f3c",
         "type": "change",
         "z": "b2dec5c2.4f2758",
@@ -9658,8 +9375,8 @@
         "characteristicProperties": "{\"CurrentRelativeHumidity\":true}",
         "waitForSetupMsg": false,
         "outputs": 2,
-        "x": 866,
-        "y": 1242,
+        "x": 877,
+        "y": 1241,
         "wires": [
             [],
             []
@@ -9899,14 +9616,13 @@
         "min": "0",
         "max": "100",
         "step": "10",
-        "x": 600,
-        "y": 1200,
+        "x": 560,
+        "y": 1140,
         "wires": [
             [
                 "ddc5d505.d8b538",
-                "441a44d9.f39bdc",
-                "476dfbbe.1cdf34",
-                "675a9be5.c6efb4"
+                "675a9be5.c6efb4",
+                "2bb031ca.a650ee"
             ]
         ]
     },
@@ -9922,60 +9638,18 @@
         "label": "",
         "format": "{{msg.payload}} %",
         "layout": "row-center",
-        "x": 840,
-        "y": 1180,
+        "x": 800,
+        "y": 1120,
         "wires": []
-    },
-    {
-        "id": "441a44d9.f39bdc",
-        "type": "function",
-        "z": "9441712c.a6198",
-        "name": "Save global variable",
-        "func": "\nglobal.set('seedTray.water.level.threshold.high',msg.payload);\n",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "x": 880,
-        "y": 1220,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "476dfbbe.1cdf34",
-        "type": "persist in",
-        "z": "9441712c.a6198",
-        "name": "seedTrayWaterLevelThresholdMax",
-        "storageNode": "217cc961.603ce6",
-        "x": 920,
-        "y": 1260,
-        "wires": []
-    },
-    {
-        "id": "d2a00fa3.dcc2c",
-        "type": "persist out",
-        "z": "9441712c.a6198",
-        "name": "seedTrayWaterLevelThresholdMax",
-        "storageNode": "217cc961.603ce6",
-        "x": 340,
-        "y": 1200,
-        "wires": [
-            [
-                "f5445ebb.a9185"
-            ]
-        ]
     },
     {
         "id": "675a9be5.c6efb4",
         "type": "link out",
         "z": "9441712c.a6198",
         "name": "Seed tray - max water level threshold",
-        "links": [
-            "e24187b.d250c78"
-        ],
-        "x": 795,
-        "y": 1140,
+        "links": [],
+        "x": 755,
+        "y": 1080,
         "wires": []
     },
     {
@@ -9984,33 +9658,15 @@
         "z": "1d22c714.e50369",
         "name": "Refresh template water pump rules",
         "links": [
-            "675a9be5.c6efb4"
+            "88e72de5.1224f"
         ],
         "x": 335,
-        "y": 2560,
+        "y": 2540,
         "wires": [
             [
                 "8f6f5609.d18b68"
             ]
         ]
-    },
-    {
-        "id": "7db28df7.cb80b4",
-        "type": "debug",
-        "z": "87cb301d.9893c",
-        "g": "79fac8a4.114828",
-        "name": "",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1345,
-        "y": 453,
-        "wires": []
     },
     {
         "id": "a1d063b9.ee355",
@@ -10066,15 +9722,442 @@
         "id": "e15afdde.86149",
         "type": "smartthings-node-onoff",
         "z": "87cb301d.9893c",
+        "g": "79fac8a4.114828",
         "conf": "b0151dde.26366",
         "name": "Hydro - water pump",
         "device": "5c526ebe-92ff-40d2-8f26-e18e65d3a88c",
-        "x": 1000,
-        "y": 660,
+        "x": 1100,
+        "y": 498,
         "wires": [
             [
-                "2f179774.4055e8",
-                "7db28df7.cb80b4"
+                "2f179774.4055e8"
+            ]
+        ]
+    },
+    {
+        "id": "852f7533.ec9b28",
+        "type": "change",
+        "z": "9441712c.a6198",
+        "g": "8b03ae74.0255",
+        "name": "Save global.seed.totalLight",
+        "rules": [
+            {
+                "t": "set",
+                "p": "seed.totalLight",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 960,
+        "y": 1380,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "34e374d0.ba20bc",
+        "type": "inject",
+        "z": "9441712c.a6198",
+        "g": "8b03ae74.0255",
+        "name": "Inject seed.totalLight at boot",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "0.5",
+        "topic": "",
+        "payload": "seed.totalLight",
+        "payloadType": "global",
+        "x": 320,
+        "y": 1380,
+        "wires": [
+            [
+                "5ae3f27b.9d6a9c"
+            ]
+        ]
+    },
+    {
+        "id": "49b8a086.d9439",
+        "type": "change",
+        "z": "9441712c.a6198",
+        "g": "19b320a7.bcd92f",
+        "name": "Save global.settings.water.minPPM",
+        "rules": [
+            {
+                "t": "set",
+                "p": "settings.water.minPPM",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 860,
+        "y": 400,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d1fa7544.95eb98",
+        "type": "inject",
+        "z": "9441712c.a6198",
+        "g": "19b320a7.bcd92f",
+        "name": "Inject water.minPPM at boot",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "0.5",
+        "topic": "",
+        "payload": "settings.water.minPPM",
+        "payloadType": "global",
+        "x": 300,
+        "y": 400,
+        "wires": [
+            [
+                "a65a3b1b.47fc98"
+            ]
+        ]
+    },
+    {
+        "id": "f66c7e50.c2274",
+        "type": "inject",
+        "z": "9441712c.a6198",
+        "g": "19b320a7.bcd92f",
+        "name": "Inject water.maxPPM at boot",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "0.5",
+        "topic": "",
+        "payload": "settings.water.maxPPM",
+        "payloadType": "global",
+        "x": 300,
+        "y": 480,
+        "wires": [
+            [
+                "141d0c8a.d98be3"
+            ]
+        ]
+    },
+    {
+        "id": "d66c2005.a8f2c",
+        "type": "change",
+        "z": "9441712c.a6198",
+        "g": "19b320a7.bcd92f",
+        "name": "Save global.settings.water.maxPPM",
+        "rules": [
+            {
+                "t": "set",
+                "p": "settings.water.maxPPM",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 870,
+        "y": 480,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "31336f63.6799f",
+        "type": "change",
+        "z": "9441712c.a6198",
+        "g": "a50a7433.2949c8",
+        "name": "Save global.settings.water.minPH",
+        "rules": [
+            {
+                "t": "set",
+                "p": "settings.water.minPH",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 760,
+        "y": 650,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "31570dc1.2daf02",
+        "type": "change",
+        "z": "9441712c.a6198",
+        "g": "a50a7433.2949c8",
+        "name": "Save global.settings.water.maxPH",
+        "rules": [
+            {
+                "t": "set",
+                "p": "settings.water.maxPH",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 760,
+        "y": 710,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b9780e36.9f106",
+        "type": "inject",
+        "z": "9441712c.a6198",
+        "g": "a50a7433.2949c8",
+        "name": "Inject maxPH at boot",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "0.5",
+        "topic": "",
+        "payload": "settings.water.maxPH",
+        "payloadType": "global",
+        "x": 285,
+        "y": 710,
+        "wires": [
+            [
+                "dd9cce6b.677ad"
+            ]
+        ]
+    },
+    {
+        "id": "81ceab05.217668",
+        "type": "inject",
+        "z": "9441712c.a6198",
+        "g": "a50a7433.2949c8",
+        "name": "Inject minPH at boot",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "0.5",
+        "topic": "",
+        "payload": "settings.water.minPH",
+        "payloadType": "global",
+        "x": 285,
+        "y": 650,
+        "wires": [
+            [
+                "f6b1cbb0.3cd9e8"
+            ]
+        ]
+    },
+    {
+        "id": "5ba78f8d.2b4bb",
+        "type": "change",
+        "z": "9441712c.a6198",
+        "name": "Save global.settings.seedTray.waterSprayTimer",
+        "rules": [
+            {
+                "t": "set",
+                "p": "settings.seedTray.waterSprayTimer",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 860,
+        "y": 860,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9b76c4e7.7e95c8",
+        "type": "inject",
+        "z": "9441712c.a6198",
+        "name": "Inject waterSpray timer at boot",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "0.5",
+        "topic": "",
+        "payload": "settings.seedTray.waterSprayTimer",
+        "payloadType": "global",
+        "x": 290,
+        "y": 840,
+        "wires": [
+            [
+                "527c695b.4fdf98"
+            ]
+        ]
+    },
+    {
+        "id": "9a706f60.ed15",
+        "type": "link in",
+        "z": "1d22c714.e50369",
+        "name": "Refresh template seed tray water spray",
+        "links": [
+            "bec62e16.5d9dc",
+            "3339466d.6d58aa"
+        ],
+        "x": 355,
+        "y": 2360,
+        "wires": [
+            [
+                "f3b66e1d.ccca9"
+            ]
+        ]
+    },
+    {
+        "id": "b7cd4564.bbd6d8",
+        "type": "change",
+        "z": "9441712c.a6198",
+        "name": "Save global.settings.water_pump.duration",
+        "rules": [
+            {
+                "t": "set",
+                "p": "settings.water_pump.duration",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 850,
+        "y": 1040,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "756b1067.cc8da",
+        "type": "inject",
+        "z": "9441712c.a6198",
+        "name": "Inject water pump timer at boot",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "0.5",
+        "topic": "",
+        "payload": "settings.water_pump.duration",
+        "payloadType": "global",
+        "x": 290,
+        "y": 1020,
+        "wires": [
+            [
+                "fd56b7bd.4166d8"
+            ]
+        ]
+    },
+    {
+        "id": "2bb031ca.a650ee",
+        "type": "change",
+        "z": "9441712c.a6198",
+        "name": "Save seedTray.water.level.threshold.high",
+        "rules": [
+            {
+                "t": "set",
+                "p": "seedTray.water.level.threshold.high",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 900,
+        "y": 1160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "52f9e05f.a807a",
+        "type": "inject",
+        "z": "9441712c.a6198",
+        "name": "Inject water level threshold high at boot",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "0.5",
+        "topic": "",
+        "payload": "seedTray.water.level.threshold.high",
+        "payloadType": "global",
+        "x": 280,
+        "y": 1140,
+        "wires": [
+            [
+                "f5445ebb.a9185"
             ]
         ]
     }
