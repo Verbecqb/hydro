@@ -150,7 +150,7 @@
         "id": "8e57852f.2718a8",
         "type": "group",
         "z": "5127740.f28848c",
-        "name": "Water pump - stop when water level > 50",
+        "name": "Water pump - stop when water level > ",
         "style": {
             "stroke": "#ffC000",
             "fill": "#ffefbf",
@@ -160,12 +160,12 @@
         "nodes": [
             "3db55298.70f37e",
             "d5c862b.d3e0ba",
-            "6bd46816.3f5cd8"
+            "6bd46816.3f5cd8",
+            "e59b977d.e63728",
+            "d766e6ea.dfad68"
         ],
-        "x": 74,
-        "y": 599,
-        "w": 902,
-        "h": 82
+        "x": 94,
+        "y": 599
     },
     {
         "id": "3cd27958.a703b6",
@@ -190,9 +190,7 @@
             "4a15ab80.153564"
         ],
         "x": 76,
-        "y": 365,
-        "w": 1130,
-        "h": 196
+        "y": 365
     },
     {
         "id": "9735f20b.9f01e",
@@ -214,9 +212,7 @@
             "f76a168.49897e8"
         ],
         "x": 74,
-        "y": 59,
-        "w": 1072,
-        "h": 222
+        "y": 59
     },
     {
         "id": "9c4443bb.0420a",
@@ -432,17 +428,17 @@
             "cd5e7336.53f74",
             "6fd97e66.02fde",
             "83c9cbe9.ff0f68",
-            "d579d391.622e6",
-            "1426c687.455629",
             "fcfbe87b.4c3f98",
             "766d6f3d.e9fdb",
             "2d32f6d2.b52eaa",
-            "e15afdde.86149"
+            "e15afdde.86149",
+            "81abb09c.8ebd9",
+            "442f99b9.155268",
+            "1c6b6727.354ca9",
+            "7708a105.0dad4"
         ],
         "x": 514,
-        "y": 427,
-        "w": 1322,
-        "h": 174
+        "y": 499
     },
     {
         "id": "59d1252d.d18c0c",
@@ -463,9 +459,7 @@
             "77dd4f6a.f114"
         ],
         "x": 514,
-        "y": 259,
-        "w": 932,
-        "h": 142
+        "y": 339
     },
     {
         "id": "2bce1a3f.f178b6",
@@ -482,12 +476,13 @@
             "df864faf.11005",
             "39f4667d.55b9da",
             "a94198ff.eef948",
-            "d7d0c829.e9cc28"
+            "d7d0c829.e9cc28",
+            "b2b71764.a52588",
+            "75185d97.c8b7f4",
+            "24b212d7.88a59e"
         ],
         "x": 514,
-        "y": 113,
-        "w": 572,
-        "h": 141
+        "y": 139
     },
     {
         "id": "588e44f4.702ffc",
@@ -532,6 +527,228 @@
         ],
         "x": 1234,
         "y": 199
+    },
+    {
+        "id": "8b03ae74.0255",
+        "type": "group",
+        "z": "9441712c.a6198",
+        "name": "Seed tray - light duration",
+        "style": {
+            "stroke": "#ffff00",
+            "fill": "#ffffbf",
+            "label": true,
+            "color": "#000000",
+            "fill-opacity": "0.55"
+        },
+        "nodes": [
+            "304a2fa1.758d7",
+            "57d5c94c.049dc8",
+            "5ae3f27b.9d6a9c",
+            "bb11a03a.365f2",
+            "852f7533.ec9b28",
+            "34e374d0.ba20bc"
+        ],
+        "x": 154,
+        "y": 1279
+    },
+    {
+        "id": "a50a7433.2949c8",
+        "type": "group",
+        "z": "9441712c.a6198",
+        "name": "",
+        "style": {
+            "stroke": "#6f2fa0",
+            "fill": "#b797cf",
+            "label": true,
+            "fill-opacity": "0.37"
+        },
+        "nodes": [
+            "f334d767.83e348",
+            "dd9cce6b.677ad",
+            "f6b1cbb0.3cd9e8",
+            "d7136115.91c37",
+            "31336f63.6799f",
+            "31570dc1.2daf02",
+            "b9780e36.9f106",
+            "81ceab05.217668"
+        ],
+        "x": 139,
+        "y": 549
+    },
+    {
+        "id": "19b320a7.bcd92f",
+        "type": "group",
+        "z": "9441712c.a6198",
+        "name": "",
+        "style": {
+            "stroke": "#0070c0",
+            "fill": "#bfdbef",
+            "fill-opacity": "0.6",
+            "label": true
+        },
+        "nodes": [
+            "1b0ae6f9.985959",
+            "a65a3b1b.47fc98",
+            "141d0c8a.d98be3",
+            "18d6c45d.7ab59c",
+            "49b8a086.d9439",
+            "d1fa7544.95eb98",
+            "f66c7e50.c2274",
+            "d66c2005.a8f2c"
+        ],
+        "x": 134,
+        "y": 299
+    },
+    {
+        "id": "cecbec23.c2747",
+        "type": "group",
+        "z": "9441712c.a6198",
+        "name": "",
+        "style": {
+            "stroke": "#92d04f",
+            "fill": "#e3f3d3",
+            "fill-opacity": "0.69",
+            "label": true
+        },
+        "nodes": [
+            "48d7f256.20251c",
+            "af36d027.bab06",
+            "7c8c85b6.c030fc",
+            "964e551c.a86e58",
+            "214657c1.8f5c38",
+            "84bbf26c.1451d",
+            "e92b4c99.ee92a",
+            "93ead89a.d130d8",
+            "33388462.7c7d9c"
+        ],
+        "x": 154,
+        "y": 1459
+    },
+    {
+        "id": "97aeb63b.daf5d8",
+        "type": "group",
+        "z": "9441712c.a6198",
+        "name": "",
+        "style": {
+            "stroke": "#777777",
+            "fill": "#ffffff",
+            "fill-opacity": "0.31",
+            "label": true
+        },
+        "nodes": [
+            "4a2e6ba3.5a7ef4",
+            "648d9af7.b6ea04",
+            "806e5cc.38ef0a",
+            "db6792a8.788f5",
+            "99bc9475.951468",
+            "8a7ded76.20298",
+            "d140b1b4.093d4",
+            "8d5cb676.4a8638",
+            "cd017ed1.dfd86",
+            "900bef94.444fa",
+            "d4a53f32.7a1c1",
+            "34a0102d.3690c",
+            "a07f6068.ab874"
+        ],
+        "x": 174,
+        "y": 1839
+    },
+    {
+        "id": "5e5abe32.7ff6b",
+        "type": "group",
+        "z": "9441712c.a6198",
+        "name": "",
+        "style": {
+            "stroke": "#777777",
+            "fill": "#ffffff",
+            "fill-opacity": "0.31",
+            "label": true
+        },
+        "nodes": [
+            "73880149.74c86",
+            "2a438a0f.f80376",
+            "e5267779.f67b28",
+            "c09e1820.3667a8",
+            "3e0d4e38.2c5a22",
+            "d41aea55.3f6b88",
+            "3090ebb5.dde4e4",
+            "42597d4e.63c444",
+            "fbc6d712.232a58",
+            "748e719a.ae7ff",
+            "f6b1dcf3.fbc9a",
+            "62a77fc1.ce7f9",
+            "ff5be0d6.9ab8"
+        ],
+        "x": 174,
+        "y": 2239
+    },
+    {
+        "id": "3c3e3fd3.73556",
+        "type": "group",
+        "z": "87cb301d.9893c",
+        "name": "",
+        "style": {
+            "stroke": "#000000",
+            "fill": "#ffffff",
+            "label": true
+        },
+        "nodes": [
+            "5d2f5ff2.180c5",
+            "5be7de2e.ba1d2",
+            "a7364d44.56698",
+            "93cd22de.a5d2c",
+            "648ce0a1.8a9de",
+            "10e9a27.bb9f05e",
+            "cf53cc34.c3564",
+            "40258950.e35d68",
+            "bf2def54.05791",
+            "a5c49cb5.f3459",
+            "b29a1551.343db8",
+            "d977f79c.7973f8",
+            "33f73a9b.f300e6",
+            "4c8ae515.b1a41c",
+            "5815b5d8.9c8fec",
+            "40307feb.c7c24",
+            "e561bfe2.d3629",
+            "c10ac82.7ac4938",
+            "c77879c6.196578",
+            "4d89a979.5ab5b8"
+        ],
+        "x": 214,
+        "y": 779
+    },
+    {
+        "id": "1823ddea.025cf2",
+        "type": "group",
+        "z": "1d22c714.e50369",
+        "name": "",
+        "style": {
+            "stroke": "#000000",
+            "fill": "#ffffff",
+            "label": true
+        },
+        "nodes": [
+            "7b62dc10.8cd624",
+            "de54877b.8ab618",
+            "abb9ac18.9b28d",
+            "3dfc5ff2.440c6",
+            "e765c1ba.7b85",
+            "a9374d16.74677",
+            "ed8e6bb5.af6b78",
+            "d82e4b39.5671a8",
+            "bd0f3b34.8fff68",
+            "84752e32.a3167",
+            "6de36e52.d849c",
+            "d773ba07.879918",
+            "eb2d470b.714558",
+            "f0a357d5.2aff68",
+            "c8dbc732.1ab628",
+            "4129940e.74d48c"
+        ],
+        "x": 114,
+        "y": 1953,
+        "w": 1122,
+        "h": 268
     },
     {
         "id": "3134c2cf.78461e",
@@ -584,81 +801,26 @@
         "y": 464
     },
     {
-        "id": "8b03ae74.0255",
+        "id": "c6d7924.b23cd7",
         "type": "group",
-        "z": "9441712c.a6198",
-        "name": "Seed tray - light duration",
-        "style": {
-            "stroke": "#ffff00",
-            "fill": "#ffffbf",
-            "label": true,
-            "color": "#000000",
-            "fill-opacity": "0.55"
-        },
-        "nodes": [
-            "304a2fa1.758d7",
-            "57d5c94c.049dc8",
-            "5ae3f27b.9d6a9c",
-            "bb11a03a.365f2",
-            "852f7533.ec9b28",
-            "34e374d0.ba20bc"
-        ],
-        "x": 154,
-        "y": 1279,
-        "w": 952,
-        "h": 142
-    },
-    {
-        "id": "a50a7433.2949c8",
-        "type": "group",
-        "z": "9441712c.a6198",
+        "z": "1d22c714.e50369",
         "name": "",
         "style": {
-            "stroke": "#6f2fa0",
-            "fill": "#b797cf",
-            "label": true,
-            "fill-opacity": "0.37"
-        },
-        "nodes": [
-            "f334d767.83e348",
-            "dd9cce6b.677ad",
-            "f6b1cbb0.3cd9e8",
-            "d7136115.91c37",
-            "31336f63.6799f",
-            "31570dc1.2daf02",
-            "b9780e36.9f106",
-            "81ceab05.217668"
-        ],
-        "x": 139,
-        "y": 549,
-        "w": 787,
-        "h": 202
-    },
-    {
-        "id": "19b320a7.bcd92f",
-        "type": "group",
-        "z": "9441712c.a6198",
-        "name": "",
-        "style": {
-            "stroke": "#0070c0",
-            "fill": "#bfdbef",
-            "fill-opacity": "0.6",
+            "stroke": "#000000",
+            "fill": "#ffffff",
             "label": true
         },
         "nodes": [
-            "1b0ae6f9.985959",
-            "a65a3b1b.47fc98",
-            "141d0c8a.d98be3",
-            "18d6c45d.7ab59c",
-            "49b8a086.d9439",
-            "d1fa7544.95eb98",
-            "f66c7e50.c2274",
-            "d66c2005.a8f2c"
+            "c58b8e27.e3168",
+            "a5678c1e.4ea5e",
+            "96d2ce1.f01333",
+            "7be2e091.e5b72",
+            "3bf983b1.c4927c"
         ],
-        "x": 134,
-        "y": 299,
+        "x": 154,
+        "y": 3159,
         "w": 912,
-        "h": 222
+        "h": 122
     },
     {
         "id": "a0e631b8.d383b",
@@ -1082,8 +1244,7 @@
                 "primary": "indigo",
                 "accents": "blue",
                 "warn": "red",
-                "background": "grey",
-                "palette": "dark"
+                "background": "grey"
             }
         },
         "site": {
@@ -1382,466 +1543,7 @@
         "allowMessagePassthrough": true
     },
     {
-        "id": "7aca9703.25e008",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "1c37dc0b.ce28e4",
-        "order": 5,
-        "width": 5,
-        "height": 1
-    },
-    {
-        "id": "8811959b.5bdc58",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "1c37dc0b.ce28e4",
-        "order": 10,
-        "width": 9,
-        "height": 1
-    },
-    {
-        "id": "6a261f32.90a3a",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "8a9b009f.1b35d",
-        "order": 2,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "848340cd.e4f38",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "8a9b009f.1b35d",
-        "order": 4,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "81873cde.c2a16",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "8a9b009f.1b35d",
-        "order": 5,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "25135a41.093686",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "8a9b009f.1b35d",
-        "order": 7,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "9888d878.a15068",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "8a9b009f.1b35d",
-        "order": 8,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "2a43b7f.7d2b148",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "8a9b009f.1b35d",
-        "order": 10,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "b6c1e65a.23cea8",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "8a9b009f.1b35d",
-        "order": 12,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "a5275a22.e092d8",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "8a9b009f.1b35d",
-        "order": 14,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "e175a3e5.44b6e",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "8a9b009f.1b35d",
-        "order": 15,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "ec371150.df5df",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "8a9b009f.1b35d",
-        "order": 17,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "99c70129.71a3",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "65d119b5.66cb78",
-        "order": 1,
-        "width": 4,
-        "height": 1
-    },
-    {
-        "id": "4bdcec.77a0b314",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "65d119b5.66cb78",
-        "order": 3,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "f4c7a8da.a1ac08",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "65d119b5.66cb78",
-        "order": 5,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "cf956676.633b08",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "65d119b5.66cb78",
-        "order": 6,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "f3036390.b05de",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "8d4aab9b.4d6328",
-        "order": 3,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "ab910b2e.629068",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "8d4aab9b.4d6328",
-        "order": 4,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "254672fc.8325ce",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "8d4aab9b.4d6328",
-        "order": 5,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "5b007bac.5389b4",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "8d4aab9b.4d6328",
-        "order": 6,
-        "width": 4,
-        "height": 1
-    },
-    {
-        "id": "d0a9d35e.0f20a",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "8d4aab9b.4d6328",
-        "order": 8,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "f2f732f2.cac89",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "8d4aab9b.4d6328",
-        "order": 10,
-        "width": 4,
-        "height": 1
-    },
-    {
-        "id": "a9d30317.72145",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "8d4aab9b.4d6328",
-        "order": 11,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "d8fb0707.e53ba8",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "8d4aab9b.4d6328",
-        "order": 15,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "70571803.8df248",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "8d4aab9b.4d6328",
-        "order": 16,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "94348479.9d69d8",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "8d4aab9b.4d6328",
-        "order": 20,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "b1cf4eab.a7723",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "45199dde.854f64",
-        "order": 2,
-        "width": 4,
-        "height": 1
-    },
-    {
-        "id": "4942deda.28cad",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "45199dde.854f64",
-        "order": 3,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "d895d840.57d2e8",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "45199dde.854f64",
-        "order": 5,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "f1ae16c1.0102e8",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "45199dde.854f64",
-        "order": 6,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "c58fc4b.b9f3d38",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "45199dde.854f64",
-        "order": 9,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "3aa9a98f.83d246",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "45199dde.854f64",
-        "order": 12,
-        "width": 5,
-        "height": 1
-    },
-    {
-        "id": "722acc8a.44d9a4",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "45199dde.854f64",
-        "order": 13,
-        "width": 5,
-        "height": 1
-    },
-    {
-        "id": "8aeff185.4e71c",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "6c15eb0d.8f5814",
-        "order": 2,
-        "width": 3,
-        "height": 1
-    },
-    {
-        "id": "9a099ec5.ffb57",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "6c15eb0d.8f5814",
-        "order": 3,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "43ea7ea6.d448e",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "6c15eb0d.8f5814",
-        "order": 6,
-        "width": 2,
-        "height": 1
-    },
-    {
-        "id": "387425c3.f6de5a",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "6c15eb0d.8f5814",
-        "order": 7,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "8f3afbe9.b9ff98",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "6c15eb0d.8f5814",
-        "order": 9,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "58e0566.7b738a8",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "6c15eb0d.8f5814",
-        "order": 11,
-        "width": 4,
-        "height": 1
-    },
-    {
-        "id": "ac01301.de918d",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "6c15eb0d.8f5814",
-        "order": 12,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "cb044b88.c9b048",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "6c15eb0d.8f5814",
-        "order": 14,
-        "width": 4,
-        "height": 1
-    },
-    {
-        "id": "eabd59f.d12faa8",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "6c15eb0d.8f5814",
-        "order": 15,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "79af0178.884c7",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "6c15eb0d.8f5814",
-        "order": 16,
-        "width": 4,
-        "height": 1
-    },
-    {
-        "id": "bb9ec199.78bf",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "6c15eb0d.8f5814",
-        "order": 17,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "7c881f7d.f6f53",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "6c15eb0d.8f5814",
-        "order": 18,
-        "width": 4,
-        "height": 1
-    },
-    {
-        "id": "ab6c72d9.4a32e",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "6c15eb0d.8f5814",
-        "order": 19,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "1402907b.9cfdb",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "6c15eb0d.8f5814",
-        "order": 21,
-        "width": 4,
-        "height": 1
-    },
-    {
-        "id": "8686fb24.cdd138",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "6c15eb0d.8f5814",
-        "order": 23,
-        "width": 3,
-        "height": 1
-    },
-    {
-        "id": "898d9e36.89ea7",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "6c15eb0d.8f5814",
-        "order": 24,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "f32ec01.63ea74",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "6c15eb0d.8f5814",
-        "order": 27,
-        "width": 2,
-        "height": 1
-    },
-    {
-        "id": "ea7f04d9.95ec58",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "6c15eb0d.8f5814",
-        "order": 28,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "c8275b10.17ab18",
+        "id": "65a32f06.88fd2",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "1c4b8cb2.e1e2e3",
@@ -1850,7 +1552,7 @@
         "height": 1
     },
     {
-        "id": "f7fc04ed.2acd48",
+        "id": "d26e9276.fec84",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "1c4b8cb2.e1e2e3",
@@ -1859,7 +1561,7 @@
         "height": 1
     },
     {
-        "id": "f73dc191.d5c58",
+        "id": "497c17fe.1a6698",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "1c4b8cb2.e1e2e3",
@@ -1868,7 +1570,7 @@
         "height": 1
     },
     {
-        "id": "378fd06f.649ac",
+        "id": "e76ae4f9.08eee8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "1c4b8cb2.e1e2e3",
@@ -1877,7 +1579,7 @@
         "height": 1
     },
     {
-        "id": "14c735a9.d5c0ca",
+        "id": "c351a8da.cac828",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "1c4b8cb2.e1e2e3",
@@ -1886,7 +1588,7 @@
         "height": 1
     },
     {
-        "id": "bec1a52.3df0458",
+        "id": "4c42c8d1.a6eae8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "1c4b8cb2.e1e2e3",
@@ -1895,7 +1597,7 @@
         "height": 1
     },
     {
-        "id": "4edd12a4.9d887c",
+        "id": "cc9b4087.4432e",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "1c4b8cb2.e1e2e3",
@@ -1904,7 +1606,7 @@
         "height": 1
     },
     {
-        "id": "1e9c4ab8.3c2545",
+        "id": "6c92d3d9.29a4cc",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "1c4b8cb2.e1e2e3",
@@ -1913,7 +1615,7 @@
         "height": 1
     },
     {
-        "id": "9629678d.3a0608",
+        "id": "567035ed.9d7d1c",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "1c4b8cb2.e1e2e3",
@@ -1922,7 +1624,7 @@
         "height": 1
     },
     {
-        "id": "7c72a3ea.1322ac",
+        "id": "62e384b0.a01c3c",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "1c4b8cb2.e1e2e3",
@@ -1931,7 +1633,7 @@
         "height": 1
     },
     {
-        "id": "558addf.00e0624",
+        "id": "ecc851b0.cb2d2",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "1c4b8cb2.e1e2e3",
@@ -1940,7 +1642,7 @@
         "height": 1
     },
     {
-        "id": "9fa0d9cd.7635f8",
+        "id": "e51056d6.927998",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "1c4b8cb2.e1e2e3",
@@ -1949,7 +1651,7 @@
         "height": 1
     },
     {
-        "id": "4d1207b0.876bb8",
+        "id": "ef429bcd.45ee58",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "1c4b8cb2.e1e2e3",
@@ -1958,7 +1660,7 @@
         "height": 1
     },
     {
-        "id": "e3076863.88b728",
+        "id": "cffd458b.8f1db8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "1c4b8cb2.e1e2e3",
@@ -1967,7 +1669,7 @@
         "height": 1
     },
     {
-        "id": "5d5d4be7.3388e4",
+        "id": "dd7239fb.be7d68",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "1c4b8cb2.e1e2e3",
@@ -1976,7 +1678,7 @@
         "height": 1
     },
     {
-        "id": "84531674.8e8278",
+        "id": "20d88865.8f2238",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "1c4b8cb2.e1e2e3",
@@ -1985,7 +1687,7 @@
         "height": 1
     },
     {
-        "id": "5c3c870b.092fe8",
+        "id": "ccd24463.2443f8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "1c4b8cb2.e1e2e3",
@@ -1994,7 +1696,7 @@
         "height": 1
     },
     {
-        "id": "adf9a6eb.7ebdb8",
+        "id": "96de48f6.130738",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "1c4b8cb2.e1e2e3",
@@ -2003,7 +1705,7 @@
         "height": 1
     },
     {
-        "id": "9a8bd1fe.112c",
+        "id": "625b3c71.4be044",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "1c4b8cb2.e1e2e3",
@@ -2012,7 +1714,7 @@
         "height": 1
     },
     {
-        "id": "454bfbde.e744b4",
+        "id": "3e2cb196.1551de",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "1c4b8cb2.e1e2e3",
@@ -2021,7 +1723,7 @@
         "height": 1
     },
     {
-        "id": "ca85da7.c388828",
+        "id": "de0b2305.1af68",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "c3776e2a.f6068",
@@ -2030,7 +1732,7 @@
         "height": 1
     },
     {
-        "id": "8358bb95.f31978",
+        "id": "fe34d43c.283838",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "c3776e2a.f6068",
@@ -2039,7 +1741,7 @@
         "height": 1
     },
     {
-        "id": "1287ed3b.dc11b3",
+        "id": "d5c74dec.1b8e9",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "c3776e2a.f6068",
@@ -2048,7 +1750,7 @@
         "height": 1
     },
     {
-        "id": "11bb4701.b6f739",
+        "id": "a9b7bf04.deae7",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "c3776e2a.f6068",
@@ -2057,7 +1759,7 @@
         "height": 1
     },
     {
-        "id": "6a43bed3.93e72",
+        "id": "aa895dae.48994",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "c3776e2a.f6068",
@@ -2066,11 +1768,574 @@
         "height": 1
     },
     {
-        "id": "f7672ea.0df73d",
+        "id": "e512adcc.738af",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "c3776e2a.f6068",
         "order": 10,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "397f38ee.905fb8",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "c3776e2a.f6068",
+        "order": 12,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "2c567be1.4aab74",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "c3776e2a.f6068",
+        "order": 14,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "e31c4dec.86eca",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "c3776e2a.f6068",
+        "order": 15,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "a4bf38d8.461348",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "c3776e2a.f6068",
+        "order": 17,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "57efac21.420614",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "c3776e2a.f6068",
+        "order": 18,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "192999d5.d9bf96",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "c3776e2a.f6068",
+        "order": 20,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "237da972.5d69a6",
+        "type": "ui_group",
+        "name": "ui-table with commands",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": "17",
+        "collapse": false
+    },
+    {
+        "id": "c91332c0.50c11",
+        "type": "ui_group",
+        "name": "commands",
+        "tab": "",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "ff9fdb9a.7da098",
+        "type": "ui_group",
+        "name": "TEST",
+        "tab": "",
+        "order": 1,
+        "disp": false,
+        "width": "8",
+        "collapse": false
+    },
+    {
+        "id": "bfd42bcc.ad68f8",
+        "type": "ui_group",
+        "name": "Events log",
+        "tab": "352c089f.6b44d8",
+        "order": 10,
+        "disp": true,
+        "width": 8,
+        "collapse": false
+    },
+    {
+        "id": "eac18fe0.1b769",
+        "type": "ui_group",
+        "name": "Default",
+        "tab": "352c089f.6b44d8",
+        "order": 11,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "994b7cc2.e730e",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "1c37dc0b.ce28e4",
+        "order": 5,
+        "width": 5,
+        "height": 1
+    },
+    {
+        "id": "17c19076.86b8b",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "1c37dc0b.ce28e4",
+        "order": 10,
+        "width": 9,
+        "height": 1
+    },
+    {
+        "id": "f532704.a3c6b9",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "8a9b009f.1b35d",
+        "order": 2,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "8a83a124.97b09",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "8a9b009f.1b35d",
+        "order": 4,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "3d0a1d72.78a912",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "8a9b009f.1b35d",
+        "order": 5,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "a968003e.1a674",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "8a9b009f.1b35d",
+        "order": 7,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "c346fcae.8610f",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "8a9b009f.1b35d",
+        "order": 8,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "d07ff774.d1fd88",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "8a9b009f.1b35d",
+        "order": 10,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "8f1db538.ba50d8",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "8a9b009f.1b35d",
+        "order": 12,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "e5e92575.30a828",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "8a9b009f.1b35d",
+        "order": 14,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "84e03ddc.a4516",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "8a9b009f.1b35d",
+        "order": 15,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "145e7ceb.9a4b43",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "8a9b009f.1b35d",
+        "order": 17,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "60f911e1.2d38",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "65d119b5.66cb78",
+        "order": 1,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "c9c9697b.12b308",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "65d119b5.66cb78",
+        "order": 3,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "7bfeeba6.219034",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "65d119b5.66cb78",
+        "order": 5,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "78520995.535288",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "65d119b5.66cb78",
+        "order": 6,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "ad8a895c.9f4ab8",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "8d4aab9b.4d6328",
+        "order": 3,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "c03d002c.0b974",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "8d4aab9b.4d6328",
+        "order": 4,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "6b43780e.7e4ba8",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "8d4aab9b.4d6328",
+        "order": 5,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "4c288fcf.611c",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "8d4aab9b.4d6328",
+        "order": 6,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "b0bf892f.f81b08",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "8d4aab9b.4d6328",
+        "order": 8,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "7c4fa702.356f58",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "8d4aab9b.4d6328",
+        "order": 10,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "db30dc2f.a5f7e",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "8d4aab9b.4d6328",
+        "order": 11,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "2be9111a.008a5e",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "8d4aab9b.4d6328",
+        "order": 15,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "b4ceee88.79e8c",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "8d4aab9b.4d6328",
+        "order": 16,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "ae0f0462.a35988",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "8d4aab9b.4d6328",
+        "order": 20,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "671740fc.46377",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "45199dde.854f64",
+        "order": 2,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "ce05580e.6ceaa8",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "45199dde.854f64",
+        "order": 3,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "4428abdb.31a674",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "45199dde.854f64",
+        "order": 5,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "e62148d8.33dac8",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "45199dde.854f64",
+        "order": 6,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "18d80d76.8aa683",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "45199dde.854f64",
+        "order": 9,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "9a4ffd.c65",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "45199dde.854f64",
+        "order": 12,
+        "width": 5,
+        "height": 1
+    },
+    {
+        "id": "8f92e730.11c018",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "45199dde.854f64",
+        "order": 13,
+        "width": 5,
+        "height": 1
+    },
+    {
+        "id": "8f16f200.ad23f",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "6c15eb0d.8f5814",
+        "order": 2,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "34666c6a.908bd4",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "6c15eb0d.8f5814",
+        "order": 3,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "2a145d23.9f2992",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "6c15eb0d.8f5814",
+        "order": 6,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "e064c21.dade64",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "6c15eb0d.8f5814",
+        "order": 7,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "256ee403.d45f2c",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "6c15eb0d.8f5814",
+        "order": 9,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "ef551388.8c071",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "6c15eb0d.8f5814",
+        "order": 11,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "b9b8d2e7.4cc7c",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "6c15eb0d.8f5814",
+        "order": 12,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "b1cb13ce.9c28e",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "6c15eb0d.8f5814",
+        "order": 14,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "e88611c2.0323e",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "6c15eb0d.8f5814",
+        "order": 15,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "ec84e56b.a71308",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "6c15eb0d.8f5814",
+        "order": 16,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "9c3ad130.d4147",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "6c15eb0d.8f5814",
+        "order": 17,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "234bb2a8.c8314e",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "6c15eb0d.8f5814",
+        "order": 18,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "ee34daa2.9d9828",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "6c15eb0d.8f5814",
+        "order": 19,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "a142d8f.cc31e28",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "6c15eb0d.8f5814",
+        "order": 21,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "b5b34aa3.71ebe8",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "6c15eb0d.8f5814",
+        "order": 23,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "553909d5.e728f8",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "6c15eb0d.8f5814",
+        "order": 24,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "6aba2514.f5723c",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "6c15eb0d.8f5814",
+        "order": 27,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "34915616.f038ba",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "6c15eb0d.8f5814",
+        "order": 28,
         "width": 1,
         "height": 1
     },
@@ -2155,8 +2420,8 @@
         "qos": "0",
         "retain": "",
         "broker": "a0e631b8.d383b",
-        "x": 770,
-        "y": 154,
+        "x": 1050,
+        "y": 220,
         "wires": []
     },
     {
@@ -2701,7 +2966,7 @@
         "randomUnits": "seconds",
         "drop": false,
         "x": 1200,
-        "y": 360,
+        "y": 440,
         "wires": [
             [
                 "25335612.5b58da"
@@ -2719,7 +2984,7 @@
         "retain": "",
         "broker": "a0e631b8.d383b",
         "x": 830,
-        "y": 300,
+        "y": 380,
         "wires": []
     },
     {
@@ -2770,7 +3035,7 @@
         "to": "",
         "reg": false,
         "x": 1350,
-        "y": 360,
+        "y": 440,
         "wires": [
             [
                 "c1e51a25.bcd2f8"
@@ -2794,7 +3059,7 @@
         "repair": false,
         "outputs": 1,
         "x": 860,
-        "y": 360,
+        "y": 440,
         "wires": [
             [
                 "77dd4f6a.f114"
@@ -3589,7 +3854,7 @@
         "height": 1,
         "passthru": true,
         "decouple": "false",
-        "topic": "hydroponic/lamp",
+        "topic": "",
         "style": "",
         "onvalue": "true",
         "onvalueType": "bool",
@@ -3599,11 +3864,12 @@
         "offvalueType": "bool",
         "officon": "fa-toggle-off  fa-2x",
         "offcolor": "#ffc30b",
-        "x": 611,
-        "y": 154,
+        "x": 891,
+        "y": 220,
         "wires": [
             [
-                "acca3832.810b88"
+                "acca3832.810b88",
+                "b2b71764.a52588"
             ]
         ],
         "info": "# Seeds tray light"
@@ -3633,7 +3899,7 @@
         "officon": "fa-toggle-off fa-2x",
         "offcolor": "#0077be",
         "x": 630,
-        "y": 300,
+        "y": 380,
         "wires": [
             [
                 "dec1467a.516188",
@@ -3940,6 +4206,7 @@
         "id": "5d2f5ff2.180c5",
         "type": "delay",
         "z": "87cb301d.9893c",
+        "g": "3c3e3fd3.73556",
         "name": "",
         "pauseType": "delayv",
         "timeout": "20",
@@ -3951,8 +4218,8 @@
         "randomLast": "5",
         "randomUnits": "seconds",
         "drop": false,
-        "x": 1000,
-        "y": 820,
+        "x": 940,
+        "y": 1040,
         "wires": [
             [
                 "a7364d44.56698"
@@ -3963,19 +4230,21 @@
         "id": "5be7de2e.ba1d2",
         "type": "mqtt out",
         "z": "87cb301d.9893c",
+        "g": "3c3e3fd3.73556",
         "name": "Nutriments A",
         "topic": "hydro/nutriments/switch",
         "qos": "0",
         "retain": "",
         "broker": "a0e631b8.d383b",
-        "x": 550,
-        "y": 740,
+        "x": 750,
+        "y": 960,
         "wires": []
     },
     {
         "id": "a7364d44.56698",
         "type": "change",
         "z": "87cb301d.9893c",
+        "g": "3c3e3fd3.73556",
         "name": "Switch to off",
         "rules": [
             {
@@ -3991,8 +4260,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1150,
-        "y": 820,
+        "x": 1090,
+        "y": 1040,
         "wires": [
             [
                 "648ce0a1.8a9de"
@@ -4003,6 +4272,7 @@
         "id": "93cd22de.a5d2c",
         "type": "switch",
         "z": "87cb301d.9893c",
+        "g": "3c3e3fd3.73556",
         "name": "When nutriments spray on",
         "property": "payload",
         "propertyType": "msg",
@@ -4014,11 +4284,11 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 360,
-        "y": 820,
+        "x": 580,
+        "y": 1040,
         "wires": [
             [
-                "bb16ff0b.197e6"
+                "cf53cc34.c3564"
             ]
         ]
     },
@@ -4026,6 +4296,7 @@
         "id": "648ce0a1.8a9de",
         "type": "ui_switch",
         "z": "87cb301d.9893c",
+        "g": "3c3e3fd3.73556",
         "name": "Solution A switch",
         "label": "Sol. A",
         "tooltip": "",
@@ -4045,12 +4316,13 @@
         "offvalueType": "bool",
         "officon": "fa-toggle-off fa-2x",
         "offcolor": "#bb86fc",
-        "x": 350,
-        "y": 740,
+        "x": 550,
+        "y": 960,
         "wires": [
             [
                 "93cd22de.a5d2c",
-                "5be7de2e.ba1d2"
+                "5be7de2e.ba1d2",
+                "c10ac82.7ac4938"
             ]
         ]
     },
@@ -4063,8 +4335,8 @@
         "qos": "0",
         "datatype": "auto",
         "broker": "a0e631b8.d383b",
-        "x": 210,
-        "y": 2720,
+        "x": 250,
+        "y": 2840,
         "wires": [
             [
                 "222cf8a.db51b08"
@@ -4363,7 +4635,7 @@
         "overwriteFile": "true",
         "encoding": "none",
         "x": 580,
-        "y": 80,
+        "y": 100,
         "wires": [
             []
         ]
@@ -4442,13 +4714,13 @@
                 "4c35d949.85d758"
             ],
             [
-                "df864faf.11005"
+                "24b212d7.88a59e"
             ],
             [
                 "c1e51a25.bcd2f8"
             ],
             [
-                "933e05f4.0abbb8"
+                "69d27d4f.253984"
             ]
         ]
     },
@@ -4486,38 +4758,26 @@
         "id": "10e9a27.bb9f05e",
         "type": "comment",
         "z": "87cb301d.9893c",
+        "g": "3c3e3fd3.73556",
         "name": "### Nutriments controler ###",
         "info": "",
-        "x": 260,
-        "y": 700,
-        "wires": []
-    },
-    {
-        "id": "bb16ff0b.197e6",
-        "type": "persist out",
-        "z": "87cb301d.9893c",
-        "name": "nutrimentsSolutionATimer",
-        "storageNode": "217cc961.603ce6",
-        "x": 650,
+        "x": 380,
         "y": 820,
-        "wires": [
-            [
-                "cf53cc34.c3564"
-            ]
-        ]
+        "wires": []
     },
     {
         "id": "cf53cc34.c3564",
         "type": "function",
         "z": "87cb301d.9893c",
+        "g": "3c3e3fd3.73556",
         "name": "msg.delay",
-        "func": "var newMsg = { delay: (msg.payload * 1000) };\nreturn newMsg;",
+        "func": "var timer = global.get(\"settings.nutriments.solutionA.pump.duration\");\nvar newMsg = { delay: (timer * 1000) };\nreturn newMsg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 850,
-        "y": 820,
+        "x": 790,
+        "y": 1040,
         "wires": [
             [
                 "5d2f5ff2.180c5"
@@ -4555,7 +4815,7 @@
         "initialize": "",
         "finalize": "",
         "x": 1050,
-        "y": 360,
+        "y": 440,
         "wires": [
             [
                 "b9dd843.3247178"
@@ -4603,6 +4863,7 @@
         "id": "7b62dc10.8cd624",
         "type": "function",
         "z": "1d22c714.e50369",
+        "g": "1823ddea.025cf2",
         "name": "Compute day light, LED and dark duration",
         "func": "var timestampSunLight = global.get('sun.total'); // in seconds\nvar totalLight = global.get('seed.totalLight') * 60 * 60; // in seconds\n\nvar ledLight = totalLight - timestampSunLight; // total seconds needs \n// Save timer off time (sunset + duration)\nglobal.set('seedTray.led.timer.off', global.get('sunset.timestamp') + ledLight * 1000);\n\nvar darkMode = 24*60*60 - totalLight;\n\nfunction format(time) {   \n    // Hours, minutes and seconds\n    var hrs = ~~(time / 3600);\n    var mins = ~~((time % 3600) / 60);\n\n    // Output like \"1:01\" or \"4:03\" or \"123:03\"\n    var ret = \"\";\n    if (hrs > 0) {\n        ret += \"\" + hrs + \" hr \"; \n        if (mins > 0) {\n            ret += (mins < 10 ? \"0\" : \"\") + mins ;\n        }\n    } else {\n        if (mins > 0) {\n            ret = (mins < 10 ? \"0\" : \"\") + mins;\n        }\n    }\n    return ret;\n}\n\nvar labelsMsg = {\"payload\": \n    [\n        {\n            \"title\": \"Sun\",\n            \"description\": format(timestampSunLight),\n            \"icon_name\": \"wi wi-owm-01d\",\n            \"hexColor\": \"#FF7F18\",\n            \"start\": global.get('sunrise.timestamp'),\n            \"end\": \"\",\n        }, \n        {  \n            \"title\": \"Led\",\n            \"description\": format(ledLight),\n            \"icon_name\": \"fa fa-lightbulb-o\",\n            \"hexColor\": global.get('color.widget.light.led'),\n            \"start\": \"\",\n            \"end\": \"\",\n        },\n        {\n            \"title\" : \"Dark\",\n            \"description\": format(darkMode),\n            \"icon_name\": \"fa fa-moon-o\",\n            \"start\": \"\"\n        }\n    ]\n};\n\n\nvar m = {};\nm.labels = [\"Sun light\", \"LED\", \"Darks\"];\nm.data = [[timestampSunLight, ledLight, darkMode]];\nm.series = [\"Total light\"];\nmsg.payload = [m];\nmsg.topic = \"\";\n\n\nreturn [labelsMsg,msg];",
         "outputs": 2,
@@ -4639,6 +4900,7 @@
         "id": "de54877b.8ab618",
         "type": "link in",
         "z": "1d22c714.e50369",
+        "g": "1823ddea.025cf2",
         "name": "",
         "links": [
             "15bc06eb.0cde59"
@@ -4655,6 +4917,7 @@
         "id": "abb9ac18.9b28d",
         "type": "ui_chart",
         "z": "1d22c714.e50369",
+        "g": "1823ddea.025cf2",
         "name": "Pi char - Light split",
         "group": "45199dde.854f64",
         "order": 1,
@@ -4697,13 +4960,17 @@
         "id": "3dfc5ff2.440c6",
         "type": "link in",
         "z": "1d22c714.e50369",
+        "g": "1823ddea.025cf2",
         "name": "",
         "links": [
             "a3e3f133.15036",
             "304a2fa1.758d7",
             "648d9af7.b6ea04",
             "db6792a8.788f5",
-            "8a7ded76.20298"
+            "8a7ded76.20298",
+            "2a438a0f.f80376",
+            "c09e1820.3667a8",
+            "d41aea55.3f6b88"
         ],
         "x": 155,
         "y": 2140,
@@ -4717,6 +4984,7 @@
         "id": "e765c1ba.7b85",
         "type": "ui_template",
         "z": "1d22c714.e50369",
+        "g": "1823ddea.025cf2",
         "group": "45199dde.854f64",
         "name": "Definition list - sun/led/dark duration",
         "order": 4,
@@ -4872,6 +5140,7 @@
         "id": "a9374d16.74677",
         "type": "file in",
         "z": "1d22c714.e50369",
+        "g": "1823ddea.025cf2",
         "name": "ReadFile",
         "filename": "/home/pi/.node-red/projects/hydro/time-scheduler.txt",
         "format": "utf8",
@@ -4890,6 +5159,7 @@
         "id": "ed8e6bb5.af6b78",
         "type": "json",
         "z": "1d22c714.e50369",
+        "g": "1823ddea.025cf2",
         "name": "",
         "property": "payload",
         "action": "",
@@ -4906,6 +5176,7 @@
         "id": "d82e4b39.5671a8",
         "type": "change",
         "z": "1d22c714.e50369",
+        "g": "1823ddea.025cf2",
         "name": "",
         "rules": [
             {
@@ -4941,6 +5212,7 @@
         "id": "bd0f3b34.8fff68",
         "type": "file",
         "z": "1d22c714.e50369",
+        "g": "1823ddea.025cf2",
         "name": "WriteFile",
         "filename": "/home/pi/.node-red/projects/hydro/time-scheduler.txt",
         "appendNewline": true,
@@ -4959,6 +5231,7 @@
         "id": "84752e32.a3167",
         "type": "link out",
         "z": "1d22c714.e50369",
+        "g": "1823ddea.025cf2",
         "name": "Configure seed led scheduler",
         "links": [
             "3ca07431.002fec"
@@ -5027,8 +5300,8 @@
         "label": "<font color=\"{{msg.color}}\"><i class=\"fa fa-battery-half fa-1.5x\"></i></front>",
         "format": "",
         "layout": "row-spread",
-        "x": 590,
-        "y": 2720,
+        "x": 630,
+        "y": 2840,
         "wires": []
     },
     {
@@ -5041,8 +5314,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 380,
-        "y": 2720,
+        "x": 420,
+        "y": 2840,
         "wires": [
             [
                 "aadaca25.5f3598"
@@ -5053,6 +5326,7 @@
         "id": "40258950.e35d68",
         "type": "delay",
         "z": "87cb301d.9893c",
+        "g": "3c3e3fd3.73556",
         "name": "",
         "pauseType": "delayv",
         "timeout": "20",
@@ -5064,8 +5338,8 @@
         "randomLast": "5",
         "randomUnits": "seconds",
         "drop": false,
-        "x": 1020,
-        "y": 1080,
+        "x": 940,
+        "y": 1300,
         "wires": [
             [
                 "a5c49cb5.f3459"
@@ -5076,19 +5350,21 @@
         "id": "bf2def54.05791",
         "type": "mqtt out",
         "z": "87cb301d.9893c",
+        "g": "3c3e3fd3.73556",
         "name": "Nutriments B",
         "topic": "hydro/nutrimentsB/switch",
         "qos": "0",
         "retain": "",
         "broker": "a0e631b8.d383b",
-        "x": 550,
-        "y": 1000,
+        "x": 750,
+        "y": 1220,
         "wires": []
     },
     {
         "id": "a5c49cb5.f3459",
         "type": "change",
         "z": "87cb301d.9893c",
+        "g": "3c3e3fd3.73556",
         "name": "Switch to off",
         "rules": [
             {
@@ -5104,8 +5380,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1170,
-        "y": 1080,
+        "x": 1090,
+        "y": 1300,
         "wires": [
             [
                 "d977f79c.7973f8"
@@ -5116,6 +5392,7 @@
         "id": "b29a1551.343db8",
         "type": "switch",
         "z": "87cb301d.9893c",
+        "g": "3c3e3fd3.73556",
         "name": "When nutriments spray on",
         "property": "payload",
         "propertyType": "msg",
@@ -5127,11 +5404,11 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 380,
-        "y": 1080,
+        "x": 580,
+        "y": 1300,
         "wires": [
             [
-                "62da8d4e.c4ff24"
+                "33f73a9b.f300e6"
             ]
         ]
     },
@@ -5139,6 +5416,7 @@
         "id": "d977f79c.7973f8",
         "type": "ui_switch",
         "z": "87cb301d.9893c",
+        "g": "3c3e3fd3.73556",
         "name": "Solution B switch",
         "label": "Sol. B",
         "tooltip": "",
@@ -5158,26 +5436,13 @@
         "offvalueType": "bool",
         "officon": "fa-toggle-off fa-2x",
         "offcolor": "#bb86fc",
-        "x": 350,
-        "y": 1000,
+        "x": 550,
+        "y": 1220,
         "wires": [
             [
                 "b29a1551.343db8",
-                "bf2def54.05791"
-            ]
-        ]
-    },
-    {
-        "id": "62da8d4e.c4ff24",
-        "type": "persist out",
-        "z": "87cb301d.9893c",
-        "name": "nutrimentsSolutionBTimer",
-        "storageNode": "217cc961.603ce6",
-        "x": 650,
-        "y": 1080,
-        "wires": [
-            [
-                "33f73a9b.f300e6"
+                "bf2def54.05791",
+                "4d89a979.5ab5b8"
             ]
         ]
     },
@@ -5185,14 +5450,15 @@
         "id": "33f73a9b.f300e6",
         "type": "function",
         "z": "87cb301d.9893c",
+        "g": "3c3e3fd3.73556",
         "name": "msg.delay",
-        "func": "var newMsg = { delay: (msg.payload * 1000) };\nreturn newMsg;",
+        "func": "var timer = global.get(\"settings.nutriments.solutionB.pump.duration\");\nvar newMsg = { delay: (timer * 1000) };\nreturn newMsg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 870,
-        "y": 1080,
+        "x": 790,
+        "y": 1300,
         "wires": [
             [
                 "40258950.e35d68"
@@ -5208,8 +5474,8 @@
         "qos": "0",
         "datatype": "auto",
         "broker": "a0e631b8.d383b",
-        "x": 210,
-        "y": 2800,
+        "x": 250,
+        "y": 2920,
         "wires": [
             [
                 "41226553.28e86c"
@@ -5228,8 +5494,8 @@
         "label": "<font color=\"{{msg.color}}\"><i class=\"fa fa-battery-half fa-1.5x\"></i></front>",
         "format": "",
         "layout": "row-spread",
-        "x": 610,
-        "y": 2800,
+        "x": 650,
+        "y": 2920,
         "wires": []
     },
     {
@@ -5242,8 +5508,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 380,
-        "y": 2800,
+        "x": 420,
+        "y": 2920,
         "wires": [
             [
                 "94ff4603.6d4ad8"
@@ -5264,8 +5530,8 @@
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
-        "x": 640,
-        "y": 2660,
+        "x": 660,
+        "y": 2780,
         "wires": [
             []
         ]
@@ -5281,8 +5547,8 @@
         "syntax": "mustache",
         "template": "<md-card>\n  <div md-card-image class=\"example-header-image\"></div>\n  <md-card-content>\n    <p>\n      Every 6 hours, nutrients pump runs for <font color=\"{{global.color.widget.nutrients}}\"> {{global.nutriments.solutionA.pump.duration}} secs.</font>  \n      when PPM is below  <font color=\"{{global.color.widget.nutrients}}\">{{global.settings.water.minPPM}}</font>\n    </p>\n  </md-card-content>\n</md-card>",
         "output": "str",
-        "x": 450,
-        "y": 2660,
+        "x": 470,
+        "y": 2780,
         "wires": [
             [
                 "610e2b65.b070d4"
@@ -5310,8 +5576,8 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 230,
-        "y": 2660,
+        "x": 250,
+        "y": 2780,
         "wires": [
             [
                 "5e5c80d7.c23cb"
@@ -5339,12 +5605,10 @@
         "topic": "",
         "payload": "5",
         "payloadType": "num",
-        "x": 190,
-        "y": 2926,
+        "x": 270,
+        "y": 3040,
         "wires": [
-            [
-                "4d67ced7.a6caa"
-            ]
+            []
         ]
     },
     {
@@ -5398,8 +5662,8 @@
         "lineWidth": "5",
         "bgcolorFromTheme": true,
         "diffCenter": "",
-        "x": 400,
-        "y": 2926,
+        "x": 480,
+        "y": 3040,
         "wires": []
     },
     {
@@ -5408,8 +5672,8 @@
         "z": "1d22c714.e50369",
         "name": "##TODO compute remaining days",
         "info": "",
-        "x": 260,
-        "y": 2880,
+        "x": 300,
+        "y": 2994,
         "wires": []
     },
     {
@@ -5433,8 +5697,8 @@
         "topic": "",
         "payload": "25",
         "payloadType": "num",
-        "x": 170,
-        "y": 2980,
+        "x": 270,
+        "y": 3094,
         "wires": [
             [
                 "a56914d1.b859b8"
@@ -5492,8 +5756,8 @@
         "lineWidth": "5",
         "bgcolorFromTheme": true,
         "diffCenter": "",
-        "x": 398,
-        "y": 2981,
+        "x": 480,
+        "y": 3094,
         "wires": []
     },
     {
@@ -5505,8 +5769,8 @@
             "45c5f9a0.355c58",
             "1b0ae6f9.985959"
         ],
-        "x": 275,
-        "y": 2620,
+        "x": 295,
+        "y": 2740,
         "wires": [
             [
                 "5e5c80d7.c23cb"
@@ -5523,8 +5787,8 @@
         "qos": "0",
         "datatype": "auto",
         "broker": "a0e631b8.d383b",
-        "x": 610,
-        "y": 213,
+        "x": 890,
+        "y": 279,
         "wires": [
             [
                 "d7d0c829.e9cc28"
@@ -5544,14 +5808,15 @@
         "label": "<font color=\"{{msg.color}}\"><i class=\"fa  fa-lightbulb-o fa-2x\"></i></front>",
         "format": "",
         "layout": "row-right",
-        "x": 980,
-        "y": 213,
+        "x": 1260,
+        "y": 279,
         "wires": []
     },
     {
         "id": "6de36e52.d849c",
         "type": "function",
         "z": "1d22c714.e50369",
+        "g": "1823ddea.025cf2",
         "name": "Configure hours sectors",
         "func": "function getSecondsSinceMidnight(timestamp) {   \n    \n    return new Date(timestamp).getHours() * 3600 +\n           new Date(timestamp).getMinutes() * 60 +\n           new Date(timestamp).getSeconds();\n}\n\nvar sunrise = getSecondsSinceMidnight(global.get('sunrise.timestamp'));\nvar sunset = getSecondsSinceMidnight(global.get('sunset.timestamp'));\nvar endLed = getSecondsSinceMidnight(global.get('seedTray.led.timer.off'));\n\nvar newSectors = [\n    {t:\"min\",val:sunrise,col:\"#FF7F18\",dot:0},\n    {t:\"sec\",val:sunset,col:\"#F3DF5E\",dot:0},\n    {t:\"sec\",val:endLed,col:\"#F3DF5E\",dot:0},\n    {t:\"max\",val:sunrise+24*3600,col:\"grey\",dot:0}] \n\n\nmsg.control = \n  {sectors:newSectors}\n  \nmsg.payload = getSecondsSinceMidnight(Date.now()) + 24*60*60;\n\nmsg.label = \"12h30\";\n\nreturn msg;\n",
         "outputs": 1,
@@ -5568,6 +5833,7 @@
         "id": "d773ba07.879918",
         "type": "inject",
         "z": "1d22c714.e50369",
+        "g": "1823ddea.025cf2",
         "name": "",
         "props": [
             {
@@ -5617,6 +5883,7 @@
         "id": "eb2d470b.714558",
         "type": "comment",
         "z": "1d22c714.e50369",
+        "g": "1823ddea.025cf2",
         "name": "##TODO SVG to repreent sunrise, led and moon",
         "info": "",
         "x": 410,
@@ -5669,8 +5936,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 790,
-        "y": 213,
+        "x": 1070,
+        "y": 279,
         "wires": [
             [
                 "a94198ff.eef948"
@@ -5723,7 +5990,7 @@
         "height": 1,
         "passthru": true,
         "decouple": "false",
-        "topic": "switch",
+        "topic": "",
         "style": "",
         "onvalue": "{\"value\":1}",
         "onvalueType": "json",
@@ -5734,11 +6001,12 @@
         "officon": "fa-toggle-off fa-2x",
         "offcolor": "#0077be",
         "x": 870,
-        "y": 499,
+        "y": 580,
         "wires": [
             [
-                "d579d391.622e6",
-                "e15afdde.86149"
+                "442f99b9.155268",
+                "1c6b6727.354ca9",
+                "fcfbe87b.4c3f98"
             ]
         ]
     },
@@ -5753,8 +6021,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 1330,
-        "y": 499,
+        "x": 1550,
+        "y": 580,
         "wires": [
             [
                 "ea84252f.eb1ee8"
@@ -5774,8 +6042,8 @@
         "label": "<font color=\"{{msg.color}}\"><i class=\"fa fa-tint fa-2x\"></i></front>",
         "format": "",
         "layout": "row-spread",
-        "x": 1570,
-        "y": 500,
+        "x": 1790,
+        "y": 580,
         "wires": []
     },
     {
@@ -6204,6 +6472,7 @@
         "id": "48d7f256.20251c",
         "type": "ui_slider",
         "z": "9441712c.a6198",
+        "g": "cecbec23.c2747",
         "name": "Nutriments solution A pump duration slider",
         "label": "<i class=\"fa fa-clock-o\"></i>",
         "tooltip": "Nutriments pump duration",
@@ -6217,13 +6486,12 @@
         "min": "1",
         "max": "30",
         "step": 1,
-        "x": 610,
+        "x": 730,
         "y": 1560,
         "wires": [
             [
                 "af36d027.bab06",
-                "96fa6ce2.9f802",
-                "4bd2e2e4.f0b2dc"
+                "84bbf26c.1451d"
             ]
         ]
     },
@@ -6231,6 +6499,7 @@
         "id": "af36d027.bab06",
         "type": "ui_text",
         "z": "9441712c.a6198",
+        "g": "cecbec23.c2747",
         "group": "1c4b8cb2.e1e2e3",
         "order": 18,
         "width": 2,
@@ -6239,54 +6508,15 @@
         "label": "",
         "format": "{{msg.payload}} sec.",
         "layout": "row-center",
-        "x": 900,
-        "y": 1520,
-        "wires": []
-    },
-    {
-        "id": "96fa6ce2.9f802",
-        "type": "function",
-        "z": "9441712c.a6198",
-        "name": "Save global variable",
-        "func": "\nglobal.set('nutriments.solutionA.pump.duration',msg.payload);\n",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "x": 900,
+        "x": 1020,
         "y": 1560,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "4bd2e2e4.f0b2dc",
-        "type": "persist in",
-        "z": "9441712c.a6198",
-        "name": "nutrimentsSolutionATimer",
-        "storageNode": "217cc961.603ce6",
-        "x": 910,
-        "y": 1600,
         "wires": []
-    },
-    {
-        "id": "76032356.e1847c",
-        "type": "persist out",
-        "z": "9441712c.a6198",
-        "name": "nutrimentsSolutionATimer",
-        "storageNode": "217cc961.603ce6",
-        "x": 290,
-        "y": 1560,
-        "wires": [
-            [
-                "48d7f256.20251c"
-            ]
-        ]
     },
     {
         "id": "7c8c85b6.c030fc",
         "type": "ui_text",
         "z": "9441712c.a6198",
+        "g": "cecbec23.c2747",
         "group": "1c4b8cb2.e1e2e3",
         "order": 15,
         "width": 0,
@@ -6295,7 +6525,7 @@
         "label": "<b><i class=\"fa fa-sliders\"></i> Nutrients pumps</b>",
         "format": "",
         "layout": "row-left",
-        "x": 250,
+        "x": 290,
         "y": 1500,
         "wires": []
     },
@@ -6303,6 +6533,7 @@
         "id": "964e551c.a86e58",
         "type": "ui_slider",
         "z": "9441712c.a6198",
+        "g": "cecbec23.c2747",
         "name": "Nutriments solution B pump duration slider",
         "label": "<i class=\"fa fa-clock-o\"></i>",
         "tooltip": "Nutriments pump duration",
@@ -6316,13 +6547,12 @@
         "min": "1",
         "max": "30",
         "step": 1,
-        "x": 610,
+        "x": 730,
         "y": 1700,
         "wires": [
             [
                 "214657c1.8f5c38",
-                "f7bbc881.6f67d8",
-                "4bb6cd3b.4abba4"
+                "93ead89a.d130d8"
             ]
         ]
     },
@@ -6330,6 +6560,7 @@
         "id": "214657c1.8f5c38",
         "type": "ui_text",
         "z": "9441712c.a6198",
+        "g": "cecbec23.c2747",
         "group": "1c4b8cb2.e1e2e3",
         "order": 22,
         "width": 2,
@@ -6338,54 +6569,15 @@
         "label": "",
         "format": "{{msg.payload}} sec.",
         "layout": "row-center",
-        "x": 910,
+        "x": 1030,
         "y": 1700,
         "wires": []
-    },
-    {
-        "id": "f7bbc881.6f67d8",
-        "type": "function",
-        "z": "9441712c.a6198",
-        "name": "Save global variable",
-        "func": "global.set('nutriments.solutionB.pump.duration',msg.payload);\n",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "x": 900,
-        "y": 1740,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "4bb6cd3b.4abba4",
-        "type": "persist in",
-        "z": "9441712c.a6198",
-        "name": "nutrimentsSolutionBTimer",
-        "storageNode": "217cc961.603ce6",
-        "x": 910,
-        "y": 1776,
-        "wires": []
-    },
-    {
-        "id": "3aba810e.34fabe",
-        "type": "persist out",
-        "z": "9441712c.a6198",
-        "name": "nutrimentsSolutionBTimer",
-        "storageNode": "217cc961.603ce6",
-        "x": 290,
-        "y": 1700,
-        "wires": [
-            [
-                "964e551c.a86e58"
-            ]
-        ]
     },
     {
         "id": "4a2e6ba3.5a7ef4",
         "type": "ui_text",
         "z": "9441712c.a6198",
+        "g": "97aeb63b.daf5d8",
         "group": "c3776e2a.f6068",
         "order": 1,
         "width": 0,
@@ -6394,52 +6586,28 @@
         "label": "<b><i class=\"fa fa-sliders\"></i> Lettuces</b>",
         "format": "",
         "layout": "row-left",
-        "x": 240,
-        "y": 1820,
-        "wires": []
-    },
-    {
-        "id": "962b5d8f.5b1c",
-        "type": "function",
-        "z": "9441712c.a6198",
-        "name": "Save global variable",
-        "func": "global.set('crops.lettuce.schedule.germinated',msg.payload);",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "x": 900,
+        "x": 280,
         "y": 1880,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "892b7308.9252e",
-        "type": "persist in",
-        "z": "9441712c.a6198",
-        "name": "crops.lettuce.schedule.germinated",
-        "storageNode": "217cc961.603ce6",
-        "x": 940,
-        "y": 1920,
         "wires": []
     },
     {
         "id": "648d9af7.b6ea04",
         "type": "link out",
         "z": "9441712c.a6198",
+        "g": "97aeb63b.daf5d8",
         "name": "Change total light slider",
         "links": [
             "3dfc5ff2.440c6"
         ],
-        "x": 815,
-        "y": 1840,
+        "x": 855,
+        "y": 1900,
         "wires": []
     },
     {
         "id": "806e5cc.38ef0a",
         "type": "ui_numeric",
         "z": "9441712c.a6198",
+        "g": "97aeb63b.daf5d8",
         "name": "Lettuce - Days to germinate",
         "label": "<i class=\"fa fa-clock-o\"></i> Germination time",
         "tooltip": "",
@@ -6454,72 +6622,33 @@
         "min": 0,
         "max": "30",
         "step": 1,
-        "x": 620,
-        "y": 1880,
+        "x": 660,
+        "y": 1940,
         "wires": [
             [
                 "648d9af7.b6ea04",
-                "962b5d8f.5b1c",
-                "892b7308.9252e"
+                "8d5cb676.4a8638"
             ]
         ]
-    },
-    {
-        "id": "64d34a11.4b3384",
-        "type": "persist out",
-        "z": "9441712c.a6198",
-        "name": "crops.lettuce.schedule.germinated",
-        "storageNode": "217cc961.603ce6",
-        "x": 340,
-        "y": 1880,
-        "wires": [
-            [
-                "806e5cc.38ef0a"
-            ]
-        ]
-    },
-    {
-        "id": "f702119a.8a2c2",
-        "type": "function",
-        "z": "9441712c.a6198",
-        "name": "Save global variable",
-        "func": "global.set('crops.lettuce.schedule.transplant',msg.payload);",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "x": 900,
-        "y": 2000,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "784c3ffe.5b6bd",
-        "type": "persist in",
-        "z": "9441712c.a6198",
-        "name": "crops.lettuce.schedule.transplant",
-        "storageNode": "217cc961.603ce6",
-        "x": 940,
-        "y": 2040,
-        "wires": []
     },
     {
         "id": "db6792a8.788f5",
         "type": "link out",
         "z": "9441712c.a6198",
+        "g": "97aeb63b.daf5d8",
         "name": "Change total light slider",
         "links": [
             "3dfc5ff2.440c6"
         ],
-        "x": 815,
-        "y": 1960,
+        "x": 855,
+        "y": 2020,
         "wires": []
     },
     {
         "id": "99bc9475.951468",
         "type": "ui_numeric",
         "z": "9441712c.a6198",
+        "g": "97aeb63b.daf5d8",
         "name": "Lettuce - Days to transplant",
         "label": "<i class=\"fa fa-clock-o\"></i> Transplant time",
         "tooltip": "",
@@ -6534,72 +6663,33 @@
         "min": 0,
         "max": "30",
         "step": 1,
-        "x": 620,
-        "y": 2000,
+        "x": 660,
+        "y": 2060,
         "wires": [
             [
                 "db6792a8.788f5",
-                "f702119a.8a2c2",
-                "784c3ffe.5b6bd"
+                "900bef94.444fa"
             ]
         ]
-    },
-    {
-        "id": "e427c34e.15a1f",
-        "type": "persist out",
-        "z": "9441712c.a6198",
-        "name": "crops.lettuce.schedule.transplant",
-        "storageNode": "217cc961.603ce6",
-        "x": 340,
-        "y": 2000,
-        "wires": [
-            [
-                "99bc9475.951468"
-            ]
-        ]
-    },
-    {
-        "id": "66ed85bf.4efe0c",
-        "type": "function",
-        "z": "9441712c.a6198",
-        "name": "Save global variable",
-        "func": "global.set('crops.lettuce.schedule.harvest',msg.payload);",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "x": 880,
-        "y": 2140,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "d12156.9e8a1ea8",
-        "type": "persist in",
-        "z": "9441712c.a6198",
-        "name": "crops.lettuce.schedule.harvest",
-        "storageNode": "217cc961.603ce6",
-        "x": 910,
-        "y": 2180,
-        "wires": []
     },
     {
         "id": "8a7ded76.20298",
         "type": "link out",
         "z": "9441712c.a6198",
+        "g": "97aeb63b.daf5d8",
         "name": "Change total light slider",
         "links": [
             "3dfc5ff2.440c6"
         ],
-        "x": 795,
-        "y": 2100,
+        "x": 855,
+        "y": 2120,
         "wires": []
     },
     {
         "id": "d140b1b4.093d4",
         "type": "ui_numeric",
         "z": "9441712c.a6198",
+        "g": "97aeb63b.daf5d8",
         "name": "Lettuce - Days to harvest",
         "label": "<i class=\"fa fa-clock-o\"></i> Harvest time",
         "tooltip": "",
@@ -6614,27 +6704,12 @@
         "min": 0,
         "max": "45",
         "step": 1,
-        "x": 590,
-        "y": 2140,
+        "x": 650,
+        "y": 2160,
         "wires": [
             [
                 "8a7ded76.20298",
-                "66ed85bf.4efe0c",
-                "d12156.9e8a1ea8"
-            ]
-        ]
-    },
-    {
-        "id": "c7dbd13a.0564d",
-        "type": "persist out",
-        "z": "9441712c.a6198",
-        "name": "crops.lettuce.schedule.harvest",
-        "storageNode": "217cc961.603ce6",
-        "x": 310,
-        "y": 2140,
-        "wires": [
-            [
-                "d140b1b4.093d4"
+                "a07f6068.ab874"
             ]
         ]
     },
@@ -6647,7 +6722,7 @@
         "order": 1,
         "width": 0,
         "height": 0,
-        "format": "<div layout=\"column\" style=\"max-height:350px\" ng-cloak>\n    \n      <md-toolbar md-scroll-shrink ng-if=\"true\">\n        <div class=\"md-toolbar-tools\">\n          <h3>\n            <span>Week activities </span>\n          </h3>\n        </div>\n      </md-toolbar>\n\n        <md-list flex>\n            \n            <!-- No action list -->\n            <md-list-item ng-show=\"(seedTrayState | filter: {'nextAction': '!!'}).length == 0 \n                && (NFTState | filter: {'nextAction': '!!'}).length == 0\">\n                \n                <div class=\"md-list-item-text\">\n                    <h4>No action.</h4>\n                </div>\n            </md-list-item>\n            \n            <!-- Harvest actions -->\n            <md-list-item ng-repeat=\"item in NFTState | filter: {'nextAction': '!!'}\">\n                <img src=\"{{item.iconAction}}\" class=\"md-avatar\" style=\"background-color: rgba(255,255,255,0.8);\" >\n                <div class=\"md-list-item-text\" ng-if=\"item.nextAction=='harvest'\">\n                    <h4>Harvest the {{item.category}}</h4>\n                    <p>Column {{item.column}}, row {{item.row}}</p>\n                </div>\n                \n                <md-menu class=\"md-secondary\" ng-show=\"item.nextAction=='harvest'\">\n                  <md-button class=\"icon-button\">\n                    <md-avatar ng-class=\"{'fa': true, 'fa-ellipsis-h': true}\"></md-avatar>\n                  </md-button>\n                  <md-menu-content width=\"4\">\n                    <md-menu-item ng-click=\"completeTask(item)\">\n                      <md-button>\n                        <md-avatar ng-class=\"{'fa': true, 'fa-check': true}\" ></md-avatar>\n                         Complete task\n                      </md-button>\n                    </md-menu-item>\n    \n                    <md-menu-item ng-click=\"reschedule(item)\">\n                      <md-button>\n                        <md-avatar ng-class=\"{'fa': true, 'fa-calendar-plus-o': true}\" ></md-avatar>\n                         Re-schedule to next week\n                      </md-button>\n                     </md-menu-item>\n                  </md-menu-content>\n                </md-menu>\n                <md-divider md-inset></md-divider>\n            </md-list-item>\n        \n            \n            <!--Plant seed and transplant action -->\n            <md-list-item ng-repeat=\"item in seedTrayState | filter: {'nextAction': '!!'}\">\n                <img src=\"{{item.iconAction}}\" class=\"md-avatar\" style=\"background-color: rgba(255,255,255,0.8);\" >\n                <div class=\"md-list-item-text\" ng-if=\"item.nextAction=='plantSeed'\">\n                    <h4>Plant a {{item.category}} seed</h4>\n                    <p>Seed tray - column {{item.column}}, row {{item.row}}</p>\n                </div>\n                <div class=\"md-list-item-text\" ng-if=\"item.nextAction=='transplant'\">\n                    <h4>Transplant {{item.category}}</h4>\n                    <p>From seed tray - ({{item.column}},{{item.row}})</p>\n                    <p ng-if=\"item.toNFTColumn\">To NFT - ({{item.toNFTColumn}},{{item.toNFTRow}})</p>\n                    <p ng-if=\"!item.toNFTColumn\"><i class=\"fa fa-warning\"> NFC system is full, harvest first.</i></p>\n             \n                </div>\n            \n                <md-menu class=\"md-secondary\" ng-show=\"item.nextAction=='plantSeed' || (item.nextAction=='transplant' && item.toNFTColumn)\">\n                  <md-button class=\"icon-button\">\n                    <md-avatar ng-class=\"{'fa': true, 'fa-ellipsis-h': true}\"></md-avatar>\n                  </md-button>\n                  <md-menu-content width=\"4\">\n                    <md-menu-item ng-click=\"completeTask(item)\">\n                      <md-button>\n                        <md-avatar ng-class=\"{'fa': true, 'fa-check': true}\" ></md-avatar>\n                         Complete task\n                      </md-button>\n                    </md-menu-item>\n    \n                    <md-menu-item ng-click=\"reschedule(item)\">\n                      <md-button>\n                        <md-avatar ng-class=\"{'fa': true, 'fa-calendar-plus-o': true}\" ></md-avatar>\n                         Re-schedule to next week\n                      </md-button>\n                    </md-menu-item>\n                    <md-menu-divider></md-menu-divider>\n                    <md-menu-item ng-click=\"\">\n                       <md-button >\n                        Change to tomatoe\n                      </md-button>\n                    </md-menu-item>\n                    <md-menu-item ng-click=\"\">\n                       <md-button>\n                        Change to mint\n                      </md-button>\n                    </md-menu-item>\n                     <md-menu-item ng-click=\"\">\n                       <md-button>\n                        Change to persley\n                      </md-button>\n                    </md-menu-item>\n                  </md-menu-content>\n                </md-menu>\n                <md-divider md-inset></md-divider>\n            </md-list-item>\n            \n    </md-list>\n</div>\n<script>\n    \n(function(scope) {\n    \n\n    // $watch fires each time the node is triggered in the flow\n    scope.$watch('msg', function(msg) {\n        \n        if (msg) {\n    \n            scope.seedTrayState = msg.seedTrayState;\n            scope.NFTState = msg.NFTState;\n            \n            \n            scope.completeTask = function(item) {\n                \n                if (item.nextAction === \"transplant\") {\n                    \n                    var index =  scope.seedTrayState.indexOf(item);\n                    \n                    //Keep a copy the element stored in seed tray, for NFT generation\n                    let copy =JSON.parse(JSON.stringify(scope.seedTrayState[index]));\n                    \n                    scope.seedTrayState.splice(index,1);\n                    var newItem = {\n                        column: item.column,\n                        row: item.row, \n                        category: \"empty\"\n                    }\n                    \n                    scope.seedTrayState.push(newItem);\n                    scope.send({seedTrayState: scope.seedTrayState});\n                    \n                    \n                    var indexNewItem = scope.NFTState.indexOf(\n                            scope.NFTState.find(cell => cell.column === item.toNFTColumn && cell.row === item.toNFTRow)\n                    );\n                    \n                    \n                    // remove old item\n                    scope.NFTState.splice(indexNewItem,1);\n                    \n                   \n                    copy.column = item.toNFTColumn;\n                    copy.row = item.toNFTRow;\n                    copy.iconAction = \"\";\n                    copy.nextAction = undefined;\n                    copy.toNFTColumn = undefined;\n                    copy.toNFTRow = undefined;\n                    \n                    scope.NFTState.push(copy);\n                    \n                    //Update Seed Tray and NFTStateobject \n                    scope.send({NFTState: scope.NFTState});\n               \n                    \n                    \n                } else if (item.nextAction === \"plantSeed\") {\n                    \n                    var index =  scope.seedTrayState.indexOf(item);\n     \n                    //Copy the element\n                    let copy =JSON.parse(JSON.stringify(scope.seedTrayState[index]));\n                    \n                    // Update properties\n                    copy.iconAction = undefined;\n                    copy.nextAction = undefined;\n                    copy.category = \"salad\";\n                    \n                    var today = new Date();\n                    copy.seedPlantedDate = today.getFullYear() + \"-\" + (today.getMonth()+1) + \"-\" + today.getDate();\n                    \n                    var germinationDate = new Date();\n                    germinationDate.setDate(today.getDate() + msg.lettuceDaysForGermination);\n                    copy.germinationDate = germinationDate.getFullYear() + \"-\" + (germinationDate.getMonth()+1) + \"-\" + germinationDate.getDate() ;\n                    \n                    var transplantDate = new Date();\n                    transplantDate.setDate(today.getDate() + msg.lettuceDaysForTransplant);\n                    copy.transplantDate = transplantDate.getFullYear() + \"-\" + (transplantDate.getMonth()+1) + \"-\" + transplantDate.getDate();\n                   \n                    var harvestDate = new Date();\n                    harvestDate.setDate(today.getDate() + msg.lettuceDaysForHarvest);\n                    copy.harvestDate = harvestDate.getFullYear() + \"-\" + (harvestDate.getMonth()+1) + \"-\" + harvestDate.getDate();\n                   \n                    // Remove \"old\" item\n                    scope.seedTrayState.splice(index,1);\n                    // Push the copy\n                    scope.seedTrayState.push(copy);\n                    \n                    scope.send({seedTrayState: scope.seedTrayState});\n                    \n                    \n                }\n                \n                if (item.nextAction === \"harvest\") {\n                    \n                    var index =  scope.NFTState.indexOf(item);\n                    scope.NFTState.splice(index,1);\n                    var newItem = {\n                        column: item.column,\n                        row: item.row, \n                        category: \"empty\"\n                    }\n                    \n                    scope.NFTState.push(newItem);\n                    //Update Seed Tray object \n                    scope.send({NFTState: scope.NFTState});\n                    \n                    \n                }\n            };\n            \n                        \n            scope.reschedule = function(item) {\n                \n                if (item.nextAction === \"transplant\") {\n                    \n                    var index =  scope.seedTrayState.indexOf(item);\n                    \n                    //Keep a copy the element stored in seed tray, for NFT generation\n                    let copy =JSON.parse(JSON.stringify(scope.seedTrayState[index]));\n                    \n                    scope.seedTrayState.splice(index,1);\n                    \n                    // Add 7 days\n                    var rescheduldedDate = new Date();\n                    rescheduldedDate.setTime(Date.parse(copy.transplantDate) + (7 * 24 * 60 * 60 * 1000));\n                    \n                    //Update transplantDate with date+ 7days \n                    copy.transplantDate = rescheduldedDate.getFullYear() + \"-\" + (rescheduldedDate.getMonth()+1) + \"-\" + rescheduldedDate.getDate();\n                   \n                   // Update properties, so it doesnt appear to this week activities\n                    copy.iconAction = undefined;\n                    copy.nextAction = undefined;\n                   \n                    scope.seedTrayState.push(copy);\n                    scope.send({seedTrayState: scope.seedTrayState});\n                    \n                } else if (item.nextAction === \"plantSeed\") {\n                    \n                    var index =  scope.seedTrayState.indexOf(item);\n     \n                    //Copy the element\n                    let copy =JSON.parse(JSON.stringify(scope.seedTrayState[index]));\n                    \n                    // Update properties\n                    copy.iconAction = undefined;\n                    copy.nextAction = undefined;\n                    copy.category = \"empty\";\n                    \n                    // Remove \"old\" item\n                    scope.seedTrayState.splice(index,1);\n                    // Push the copy\n                    scope.seedTrayState.push(copy);\n\n                    scope.send({seedTrayState: scope.seedTrayState});\n                    \n                }\n                \n                if (item.nextAction === \"harvest\") {\n                    \n                    var index =  scope.NFTState.indexOf(item);\n                    scope.NFTState.splice(index,1);\n                    var newItem = {\n                        column: item.column,\n                        row: item.row, \n                        category: \"empty\"\n                    }\n                    \n                    scope.NFTState.push(newItem);\n          \n                    console.log(scope.NFTState);\n                    //Update Seed Tray object \n                    scope.send({NFTState: scope.NFTState});\n                    \n                    \n                }\n            };\n        }\n    \n    });\n\n})(scope);\n\n</script>",
+        "format": "<div layout=\"column\" style=\"max-height:350px\" ng-cloak>\n    \n      <md-toolbar md-scroll-shrink ng-if=\"true\">\n        <div class=\"md-toolbar-tools\">\n          <h3>\n            <span>Week activities </span>\n          </h3>\n        </div>\n      </md-toolbar>\n\n        <md-list flex>\n            \n            <!-- No action list -->\n            <md-list-item ng-show=\"(seedTrayState | filter: {'nextAction': '!!'}).length == 0 \n                && (NFTState | filter: {'nextAction': '!!'}).length == 0\">\n                \n                <div class=\"md-list-item-text\">\n                    <h4>No action.</h4>\n                </div>\n            </md-list-item>\n            \n            <!-- Harvest actions -->\n            <md-list-item ng-repeat=\"item in NFTState | filter: {'nextAction': '!!'}\">\n                <img src=\"{{item.iconAction}}\" class=\"md-avatar\" style=\"background-color: rgba(255,255,255,0.8);\" >\n                <div class=\"md-list-item-text\" ng-if=\"item.nextAction=='harvest'\">\n                    <h4>{{item.harvestDate}} - Harvest the {{item.category}}</h4>\n                    <p>Column {{item.column}}, row {{item.row}}</p>\n                </div>\n                \n                <md-menu class=\"md-secondary\" ng-show=\"item.nextAction=='harvest'\">\n                  <md-button class=\"icon-button\">\n                    <md-avatar ng-class=\"{'fa': true, 'fa-ellipsis-h': true}\"></md-avatar>\n                  </md-button>\n                  <md-menu-content width=\"4\">\n                    <md-menu-item ng-click=\"completeTask(item)\">\n                      <md-button>\n                        <md-avatar ng-class=\"{'fa': true, 'fa-check': true}\" ></md-avatar>\n                         Complete task\n                      </md-button>\n                    </md-menu-item>\n    \n                    <md-menu-item ng-click=\"reschedule(item)\">\n                      <md-button>\n                        <md-avatar ng-class=\"{'fa': true, 'fa-calendar-plus-o': true}\" ></md-avatar>\n                         Re-schedule to next week\n                      </md-button>\n                     </md-menu-item>\n                  </md-menu-content>\n                </md-menu>\n                <md-divider md-inset></md-divider>\n            </md-list-item>\n        \n            \n            <!--Plant seed and transplant action -->\n            <md-list-item ng-repeat=\"item in seedTrayState | filter: {'nextAction': '!!'}\">\n                <img src=\"{{item.iconAction}}\" class=\"md-avatar\" style=\"background-color: rgba(255,255,255,0.8);\" >\n                <div class=\"md-list-item-text\" ng-if=\"item.nextAction=='plantSeed'\">\n                    <h4>Plant a {{item.category}} seed</h4>\n                    <p>Seed tray - column {{item.column}}, row {{item.row}}</p>\n                </div>\n                <div class=\"md-list-item-text\" ng-if=\"item.nextAction=='transplant'\">\n                    <h4>{{item.transplantDate}} - Transplant {{item.category}}</h4>\n                    <p>From seed tray - ({{item.column}},{{item.row}})</p>\n                    <p ng-if=\"item.toNFTColumn\">To NFT - ({{item.toNFTColumn}},{{item.toNFTRow}})</p>\n                    <p ng-if=\"!item.toNFTColumn\"><i class=\"fa fa-warning\"> NFC system is full, harvest first.</i></p>\n             \n                </div>\n            \n                <md-menu class=\"md-secondary\" ng-show=\"item.nextAction=='plantSeed' || (item.nextAction=='transplant' && item.toNFTColumn)\">\n                  <md-button class=\"icon-button\">\n                    <md-avatar ng-class=\"{'fa': true, 'fa-ellipsis-h': true}\"></md-avatar>\n                  </md-button>\n                  <md-menu-content width=\"4\">\n                    <md-menu-item ng-click=\"completeTask(item)\">\n                      <md-button>\n                        <md-avatar ng-class=\"{'fa': true, 'fa-check': true}\" ></md-avatar>\n                         Complete task\n                      </md-button>\n                    </md-menu-item>\n    \n                    <md-menu-item ng-click=\"reschedule(item)\">\n                      <md-button>\n                        <md-avatar ng-class=\"{'fa': true, 'fa-calendar-plus-o': true}\" ></md-avatar>\n                         Re-schedule to next week\n                      </md-button>\n                    </md-menu-item>\n                    <md-menu-divider></md-menu-divider>\n                    <md-menu-item ng-click=\"\" ng-show=\"item.nextAction=='plantSeed'\">\n                       <md-button >\n                        Change to spinash\n                      </md-button>\n                    </md-menu-item>\n                    <md-menu-item ng-click=\"\" ng-show=\"item.nextAction=='plantSeed'\">\n                       <md-button>\n                        Change to mint\n                      </md-button>\n                    </md-menu-item>\n                     <md-menu-item ng-click=\"\" ng-show=\"item.nextAction=='plantSeed'\">\n                       <md-button>\n                        Change to persley\n                      </md-button>\n                    </md-menu-item>\n                  </md-menu-content>\n                </md-menu>\n                <md-divider md-inset></md-divider>\n            </md-list-item>\n            \n    </md-list>\n</div>\n<script>\n    \n(function(scope) {\n    \n\n    // $watch fires each time the node is triggered in the flow\n    scope.$watch('msg', function(msg) {\n        \n        if (msg) {\n    \n            scope.seedTrayState = msg.seedTrayState;\n            scope.NFTState = msg.NFTState;\n            \n            \n            scope.completeTask = function(item) {\n                \n                if (item.nextAction === \"transplant\") {\n                    \n                    var index =  scope.seedTrayState.indexOf(item);\n                    \n                    //Keep a copy the element stored in seed tray, for NFT generation\n                    let copy =JSON.parse(JSON.stringify(scope.seedTrayState[index]));\n                    \n                    scope.seedTrayState.splice(index,1);\n                    var newItem = {\n                        column: item.column,\n                        row: item.row, \n                        category: \"empty\"\n                    }\n                    \n                    scope.seedTrayState.push(newItem);\n                    scope.send({seedTrayState: scope.seedTrayState});\n                    \n                    \n                    var indexNewItem = scope.NFTState.indexOf(\n                            scope.NFTState.find(cell => cell.column === item.toNFTColumn && cell.row === item.toNFTRow)\n                    );\n                    \n                    \n                    // remove old item\n                    scope.NFTState.splice(indexNewItem,1);\n                    \n                   \n                    copy.column = item.toNFTColumn;\n                    copy.row = item.toNFTRow;\n                    copy.iconAction = \"\";\n                    copy.nextAction = undefined;\n                    copy.toNFTColumn = undefined;\n                    copy.toNFTRow = undefined;\n                    \n                    scope.NFTState.push(copy);\n                    \n                    //Update Seed Tray and NFTStateobject \n                    scope.send({NFTState: scope.NFTState});\n               \n                    \n                    \n                } else if (item.nextAction === \"plantSeed\") {\n                    \n                    var index =  scope.seedTrayState.indexOf(item);\n     \n                    //Copy the element\n                    let copy =JSON.parse(JSON.stringify(scope.seedTrayState[index]));\n                    \n                    // Update properties\n                    copy.iconAction = undefined;\n                    copy.nextAction = undefined;\n                    copy.category = \"salad\";\n                    \n                    var today = new Date();\n                    copy.seedPlantedDate = today.getFullYear() + \"-\" + (today.getMonth()+1) + \"-\" + today.getDate();\n                    \n                    var germinationDate = new Date();\n                    germinationDate.setDate(today.getDate() + msg.lettuceDaysForGermination);\n                    copy.germinationDate = germinationDate.getFullYear() + \"-\" + (germinationDate.getMonth()+1) + \"-\" + germinationDate.getDate() ;\n                    \n                    var transplantDate = new Date();\n                    transplantDate.setDate(today.getDate() + msg.lettuceDaysForTransplant);\n                    copy.transplantDate = transplantDate.getFullYear() + \"-\" + (transplantDate.getMonth()+1) + \"-\" + transplantDate.getDate();\n                   \n                    var harvestDate = new Date();\n                    harvestDate.setDate(today.getDate() + msg.lettuceDaysForHarvest);\n                    copy.harvestDate = harvestDate.getFullYear() + \"-\" + (harvestDate.getMonth()+1) + \"-\" + harvestDate.getDate();\n                   \n                    // Remove \"old\" item\n                    scope.seedTrayState.splice(index,1);\n                    // Push the copy\n                    scope.seedTrayState.push(copy);\n                    \n                    scope.send({seedTrayState: scope.seedTrayState});\n                    \n                    \n                }\n                \n                if (item.nextAction === \"harvest\") {\n                    \n                    var index =  scope.NFTState.indexOf(item);\n                    scope.NFTState.splice(index,1);\n                    var newItem = {\n                        column: item.column,\n                        row: item.row, \n                        category: \"empty\"\n                    }\n                    \n                    scope.NFTState.push(newItem);\n                    //Update Seed Tray object \n                    scope.send({NFTState: scope.NFTState});\n                    \n                    \n                }\n            };\n            \n                        \n            scope.reschedule = function(item) {\n                \n                if (item.nextAction === \"transplant\") {\n                    \n                    var index =  scope.seedTrayState.indexOf(item);\n                    \n                    //Keep a copy the element stored in seed tray, for NFT generation\n                    let copy =JSON.parse(JSON.stringify(scope.seedTrayState[index]));\n                    \n                    scope.seedTrayState.splice(index,1);\n                    \n                    // Add 7 days\n                    var rescheduldedDate = new Date();\n                    rescheduldedDate.setTime(Date.parse(copy.transplantDate) + (7 * 24 * 60 * 60 * 1000));\n                    \n                    //Update transplantDate with date+ 7days \n                    copy.transplantDate = rescheduldedDate.getFullYear() + \"-\" + (rescheduldedDate.getMonth()+1) + \"-\" + rescheduldedDate.getDate();\n                   \n                   // Update properties, so it doesnt appear to this week activities\n                    copy.iconAction = undefined;\n                    copy.nextAction = undefined;\n                   \n                    scope.seedTrayState.push(copy);\n                    scope.send({seedTrayState: scope.seedTrayState});\n                    \n                } else if (item.nextAction === \"plantSeed\") {\n                    \n                    var index =  scope.seedTrayState.indexOf(item);\n     \n                    //Copy the element\n                    let copy =JSON.parse(JSON.stringify(scope.seedTrayState[index]));\n                    \n                    // Update properties\n                    copy.iconAction = undefined;\n                    copy.nextAction = undefined;\n                    copy.category = \"empty\";\n                    \n                    // Remove \"old\" item\n                    scope.seedTrayState.splice(index,1);\n                    // Push the copy\n                    scope.seedTrayState.push(copy);\n\n                    scope.send({seedTrayState: scope.seedTrayState});\n                    \n                }\n                \n                if (item.nextAction === \"harvest\") {\n                    \n                    var index =  scope.NFTState.indexOf(item);\n                    scope.NFTState.splice(index,1);\n                    var newItem = {\n                        column: item.column,\n                        row: item.row, \n                        category: \"empty\"\n                    }\n                    \n                    scope.NFTState.push(newItem);\n          \n                    console.log(scope.NFTState);\n                    //Update Seed Tray object \n                    scope.send({NFTState: scope.NFTState});\n                    \n                    \n                }\n            };\n        }\n    \n    });\n\n})(scope);\n\n</script>",
         "storeOutMessages": false,
         "fwdInMessages": false,
         "resendOnRefresh": true,
@@ -6987,6 +7062,16 @@
                 "formatterParams": {
                     "target": "_blank"
                 }
+            },
+            {
+                "field": "Action",
+                "title": "Action",
+                "width": "",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
             }
         ],
         "outputs": 0,
@@ -7135,6 +7220,7 @@
         "id": "f0a357d5.2aff68",
         "type": "comment",
         "z": "1d22c714.e50369",
+        "g": "1823ddea.025cf2",
         "name": "Compute time start of LED, based on sunrise/sunset",
         "info": "",
         "x": 330,
@@ -7309,11 +7395,11 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 280,
+        "x": 300,
         "y": 640,
         "wires": [
             [
-                "d5c862b.d3e0ba"
+                "e59b977d.e63728"
             ]
         ]
     },
@@ -7335,12 +7421,13 @@
         "id": "4c8ae515.b1a41c",
         "type": "link in",
         "z": "87cb301d.9893c",
+        "g": "3c3e3fd3.73556",
         "name": "Switch on nutriment A",
         "links": [
             "4a15ab80.153564"
         ],
-        "x": 75,
-        "y": 820,
+        "x": 255,
+        "y": 1020,
         "wires": [
             [
                 "5815b5d8.9c8fec",
@@ -7352,6 +7439,7 @@
         "id": "5815b5d8.9c8fec",
         "type": "change",
         "z": "87cb301d.9893c",
+        "g": "3c3e3fd3.73556",
         "name": "Switch to on",
         "rules": [
             {
@@ -7367,8 +7455,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 210,
-        "y": 660,
+        "x": 410,
+        "y": 880,
         "wires": [
             [
                 "648ce0a1.8a9de"
@@ -7379,6 +7467,7 @@
         "id": "40307feb.c7c24",
         "type": "change",
         "z": "87cb301d.9893c",
+        "g": "3c3e3fd3.73556",
         "name": "Switch to on",
         "rules": [
             {
@@ -7394,8 +7483,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 210,
-        "y": 940,
+        "x": 410,
+        "y": 1160,
         "wires": [
             [
                 "d977f79c.7973f8"
@@ -7420,7 +7509,7 @@
                 "t": "set",
                 "p": "topic",
                 "pt": "msg",
-                "to": "switch",
+                "to": "Automatic - Schedule",
                 "tot": "str"
             }
         ],
@@ -7430,7 +7519,7 @@
         "to": "",
         "reg": false,
         "x": 670,
-        "y": 468,
+        "y": 549,
         "wires": [
             [
                 "933e05f4.0abbb8"
@@ -7447,7 +7536,7 @@
             "983a3abc.dd1b18"
         ],
         "x": 555,
-        "y": 468,
+        "y": 549,
         "wires": [
             [
                 "69d27d4f.253984"
@@ -7467,13 +7556,6 @@
                 "pt": "msg",
                 "to": "{\"value\":0}",
                 "tot": "json"
-            },
-            {
-                "t": "set",
-                "p": "topic",
-                "pt": "msg",
-                "to": "switch",
-                "tot": "str"
             }
         ],
         "action": "",
@@ -7482,7 +7564,7 @@
         "to": "",
         "reg": false,
         "x": 670,
-        "y": 528,
+        "y": 609,
         "wires": [
             [
                 "933e05f4.0abbb8"
@@ -7501,7 +7583,7 @@
             "6bd46816.3f5cd8"
         ],
         "x": 555,
-        "y": 528,
+        "y": 609,
         "wires": [
             [
                 "6fd97e66.02fde"
@@ -7564,57 +7646,18 @@
         "wires": []
     },
     {
-        "id": "d579d391.622e6",
-        "type": "switch",
-        "z": "87cb301d.9893c",
-        "g": "79fac8a4.114828",
-        "name": "When water pump is on",
-        "property": "payload",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "true"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 1,
-        "x": 1090,
-        "y": 560,
-        "wires": [
-            [
-                "1426c687.455629"
-            ]
-        ]
-    },
-    {
-        "id": "1426c687.455629",
-        "type": "persist out",
-        "z": "87cb301d.9893c",
-        "g": "79fac8a4.114828",
-        "name": "waterPumpTimer",
-        "storageNode": "217cc961.603ce6",
-        "x": 1330,
-        "y": 560,
-        "wires": [
-            [
-                "fcfbe87b.4c3f98"
-            ]
-        ]
-    },
-    {
         "id": "fcfbe87b.4c3f98",
         "type": "function",
         "z": "87cb301d.9893c",
         "g": "79fac8a4.114828",
         "name": "msg.delay",
-        "func": "var newMsg = { delay: (msg.payload * 1000) };\nreturn newMsg;",
+        "func": "var timer = global.get(\"settings.water_pump.duration\");\nvar newMsg = { delay: (timer * 1000) };\nnewMsg.topic = \"Automatic - Timer\"\nreturn newMsg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 1530,
-        "y": 560,
+        "x": 1050,
+        "y": 620,
         "wires": [
             [
                 "766d6f3d.e9fdb"
@@ -7637,11 +7680,11 @@
         "randomLast": "5",
         "randomUnits": "seconds",
         "drop": false,
-        "x": 1700,
-        "y": 560,
+        "x": 1200,
+        "y": 620,
         "wires": [
             [
-                "2d32f6d2.b52eaa"
+                "7708a105.0dad4"
             ]
         ]
     },
@@ -7654,8 +7697,8 @@
         "links": [
             "83c9cbe9.ff0f68"
         ],
-        "x": 1795,
-        "y": 560,
+        "x": 1535,
+        "y": 620,
         "wires": []
     },
     {
@@ -7759,11 +7802,11 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 660,
+        "x": 920,
         "y": 640,
         "wires": [
             [
-                "6bd46816.3f5cd8"
+                "d766e6ea.dfad68"
             ]
         ]
     },
@@ -7776,7 +7819,7 @@
         "links": [
             "83c9cbe9.ff0f68"
         ],
-        "x": 935,
+        "x": 1335,
         "y": 640,
         "wires": []
     },
@@ -7810,6 +7853,7 @@
         "id": "c8dbc732.1ab628",
         "type": "debug",
         "z": "1d22c714.e50369",
+        "g": "1823ddea.025cf2",
         "name": "",
         "active": false,
         "tosidebar": true,
@@ -7826,6 +7870,7 @@
         "id": "4129940e.74d48c",
         "type": "comment",
         "z": "1d22c714.e50369",
+        "g": "1823ddea.025cf2",
         "name": "##TODO Fix me - timer is not always set to LED",
         "info": "to reproduce - add new timers.\nSolutions - find the indice for output = \"0\"",
         "x": 980,
@@ -8663,8 +8708,8 @@
         "syntax": "mustache",
         "template": "\n<md-card>\n  <md-card-content>\n   <p>\n       {{#global.seedTray.water.level.warning.low}}\n        <font color=\"{{global.color.warning}}\" align=\"center\" size=\"-1\"> <i class=\"fa fa-exclamation-circle\"></i> Water level is too low.</font>\n        {{/global.seedTray.water.level.warning.low}} \n        \n        {{#global.seedTray.water.level.warning.high}}\n         <font color=\"{{global.color.warning}}\" align=\"center\" size=\"-1\"> <i class=\"fa fa-exclamation-circle\"></i> Water level is too high.</font>\n        {{/global.seedTray.water.level.warning.high}} \n    <p>\n\n  </md-card-content>\n</md-card>\n\n",
         "output": "str",
-        "x": 510,
-        "y": 2420,
+        "x": 470,
+        "y": 2580,
         "wires": [
             [
                 "e56caad8.0f88d8"
@@ -8685,8 +8730,8 @@
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
-        "x": 820,
-        "y": 2420,
+        "x": 780,
+        "y": 2580,
         "wires": [
             []
         ]
@@ -8712,8 +8757,8 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 250,
-        "y": 2420,
+        "x": 210,
+        "y": 2580,
         "wires": [
             [
                 "34b96ead.79d712"
@@ -8728,8 +8773,8 @@
         "links": [
             "bec62e16.5d9dc"
         ],
-        "x": 315,
-        "y": 2460,
+        "x": 275,
+        "y": 2620,
         "wires": [
             [
                 "34b96ead.79d712"
@@ -9616,8 +9661,8 @@
         "min": "0",
         "max": "100",
         "step": "10",
-        "x": 560,
-        "y": 1140,
+        "x": 620,
+        "y": 1160,
         "wires": [
             [
                 "ddc5d505.d8b538",
@@ -9638,8 +9683,8 @@
         "label": "",
         "format": "{{msg.payload}} %",
         "layout": "row-center",
-        "x": 800,
-        "y": 1120,
+        "x": 860,
+        "y": 1140,
         "wires": []
     },
     {
@@ -9648,8 +9693,8 @@
         "z": "9441712c.a6198",
         "name": "Seed tray - max water level threshold",
         "links": [],
-        "x": 755,
-        "y": 1080,
+        "x": 815,
+        "y": 1100,
         "wires": []
     },
     {
@@ -9726,8 +9771,8 @@
         "conf": "b0151dde.26366",
         "name": "Hydro - water pump",
         "device": "5c526ebe-92ff-40d2-8f26-e18e65d3a88c",
-        "x": 1100,
-        "y": 498,
+        "x": 1300,
+        "y": 580,
         "wires": [
             [
                 "2f179774.4055e8"
@@ -10130,8 +10175,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 900,
-        "y": 1160,
+        "x": 960,
+        "y": 1180,
         "wires": [
             []
         ]
@@ -10153,12 +10198,955 @@
         "topic": "",
         "payload": "seedTray.water.level.threshold.high",
         "payloadType": "global",
-        "x": 280,
-        "y": 1140,
+        "x": 340,
+        "y": 1160,
         "wires": [
             [
                 "f5445ebb.a9185"
             ]
         ]
+    },
+    {
+        "id": "84bbf26c.1451d",
+        "type": "change",
+        "z": "9441712c.a6198",
+        "g": "cecbec23.c2747",
+        "name": "Save Solution A pump timer",
+        "rules": [
+            {
+                "t": "set",
+                "p": "settings.nutriments.solutionA.pump.duration",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1040,
+        "y": 1600,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e92b4c99.ee92a",
+        "type": "inject",
+        "z": "9441712c.a6198",
+        "g": "cecbec23.c2747",
+        "name": "Inject Solution water pump timer at boot",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "0.5",
+        "topic": "",
+        "payload": "settings.nutriments.solutionA.pump.duration",
+        "payloadType": "global",
+        "x": 380,
+        "y": 1560,
+        "wires": [
+            [
+                "48d7f256.20251c"
+            ]
+        ]
+    },
+    {
+        "id": "93ead89a.d130d8",
+        "type": "change",
+        "z": "9441712c.a6198",
+        "g": "cecbec23.c2747",
+        "name": "Save Solution B pump timer",
+        "rules": [
+            {
+                "t": "set",
+                "p": "settings.nutriments.solutionB.pump.duration",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1040,
+        "y": 1740,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "33388462.7c7d9c",
+        "type": "inject",
+        "z": "9441712c.a6198",
+        "g": "cecbec23.c2747",
+        "name": "Inject Solution B water pump timer at boot",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "0.5",
+        "topic": "",
+        "payload": "settings.nutriments.solutionB.pump.duration",
+        "payloadType": "global",
+        "x": 370,
+        "y": 1700,
+        "wires": [
+            [
+                "964e551c.a86e58"
+            ]
+        ]
+    },
+    {
+        "id": "8d5cb676.4a8638",
+        "type": "change",
+        "z": "9441712c.a6198",
+        "g": "97aeb63b.daf5d8",
+        "name": "Save lettuce germination",
+        "rules": [
+            {
+                "t": "set",
+                "p": "crops.lettuce.schedule.germinated",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 950,
+        "y": 1940,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "cd017ed1.dfd86",
+        "type": "inject",
+        "z": "9441712c.a6198",
+        "g": "97aeb63b.daf5d8",
+        "name": "Inject lettuce germination at boot",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "0.5",
+        "topic": "",
+        "payload": "crops.lettuce.schedule.germinated",
+        "payloadType": "global",
+        "x": 360,
+        "y": 1940,
+        "wires": [
+            [
+                "806e5cc.38ef0a"
+            ]
+        ]
+    },
+    {
+        "id": "900bef94.444fa",
+        "type": "change",
+        "z": "9441712c.a6198",
+        "g": "97aeb63b.daf5d8",
+        "name": "Save lettuce transplant",
+        "rules": [
+            {
+                "t": "set",
+                "p": "crops.lettuce.schedule.transplant",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 950,
+        "y": 2060,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d4a53f32.7a1c1",
+        "type": "inject",
+        "z": "9441712c.a6198",
+        "g": "97aeb63b.daf5d8",
+        "name": "Inject lettuce transplant at boot",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "0.5",
+        "topic": "",
+        "payload": "crops.lettuce.schedule.transplant",
+        "payloadType": "global",
+        "x": 370,
+        "y": 2060,
+        "wires": [
+            [
+                "99bc9475.951468"
+            ]
+        ]
+    },
+    {
+        "id": "34a0102d.3690c",
+        "type": "inject",
+        "z": "9441712c.a6198",
+        "g": "97aeb63b.daf5d8",
+        "name": "Inject lettuce transplant at boot",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "0.5",
+        "topic": "",
+        "payload": "crops.lettuce.schedule.transplant",
+        "payloadType": "global",
+        "x": 370,
+        "y": 2160,
+        "wires": [
+            [
+                "d140b1b4.093d4"
+            ]
+        ]
+    },
+    {
+        "id": "a07f6068.ab874",
+        "type": "change",
+        "z": "9441712c.a6198",
+        "g": "97aeb63b.daf5d8",
+        "name": "Save lettuce harvest",
+        "rules": [
+            {
+                "t": "set",
+                "p": "crops.lettuce.schedule.harvest",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 940,
+        "y": 2160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "73880149.74c86",
+        "type": "ui_text",
+        "z": "9441712c.a6198",
+        "g": "5e5abe32.7ff6b",
+        "group": "c3776e2a.f6068",
+        "order": 11,
+        "width": 0,
+        "height": 0,
+        "name": "Spinash",
+        "label": "<b><i class=\"fa fa-sliders\"></i> Spinash</b>",
+        "format": "",
+        "layout": "row-left",
+        "x": 280,
+        "y": 2280,
+        "wires": []
+    },
+    {
+        "id": "2a438a0f.f80376",
+        "type": "link out",
+        "z": "9441712c.a6198",
+        "g": "5e5abe32.7ff6b",
+        "name": "Change total light slider",
+        "links": [
+            "3dfc5ff2.440c6"
+        ],
+        "x": 855,
+        "y": 2300,
+        "wires": []
+    },
+    {
+        "id": "e5267779.f67b28",
+        "type": "ui_numeric",
+        "z": "9441712c.a6198",
+        "g": "5e5abe32.7ff6b",
+        "name": "Spinash - Days to germinate",
+        "label": "<i class=\"fa fa-clock-o\"></i> Germination time",
+        "tooltip": "",
+        "group": "c3776e2a.f6068",
+        "order": 13,
+        "width": 6,
+        "height": 1,
+        "wrap": false,
+        "passthru": true,
+        "topic": "",
+        "format": "{{value}} days",
+        "min": 0,
+        "max": "30",
+        "step": 1,
+        "x": 660,
+        "y": 2340,
+        "wires": [
+            [
+                "2a438a0f.f80376",
+                "42597d4e.63c444"
+            ]
+        ]
+    },
+    {
+        "id": "c09e1820.3667a8",
+        "type": "link out",
+        "z": "9441712c.a6198",
+        "g": "5e5abe32.7ff6b",
+        "name": "Change total light slider",
+        "links": [
+            "3dfc5ff2.440c6"
+        ],
+        "x": 855,
+        "y": 2420,
+        "wires": []
+    },
+    {
+        "id": "3e0d4e38.2c5a22",
+        "type": "ui_numeric",
+        "z": "9441712c.a6198",
+        "g": "5e5abe32.7ff6b",
+        "name": "Spinash - Days to transplant",
+        "label": "<i class=\"fa fa-clock-o\"></i> Transplant time",
+        "tooltip": "",
+        "group": "c3776e2a.f6068",
+        "order": 16,
+        "width": 6,
+        "height": 1,
+        "wrap": false,
+        "passthru": true,
+        "topic": "",
+        "format": "{{value}} days",
+        "min": 0,
+        "max": "30",
+        "step": 1,
+        "x": 660,
+        "y": 2460,
+        "wires": [
+            [
+                "c09e1820.3667a8",
+                "748e719a.ae7ff"
+            ]
+        ]
+    },
+    {
+        "id": "d41aea55.3f6b88",
+        "type": "link out",
+        "z": "9441712c.a6198",
+        "g": "5e5abe32.7ff6b",
+        "name": "Change total light slider",
+        "links": [
+            "3dfc5ff2.440c6"
+        ],
+        "x": 855,
+        "y": 2520,
+        "wires": []
+    },
+    {
+        "id": "3090ebb5.dde4e4",
+        "type": "ui_numeric",
+        "z": "9441712c.a6198",
+        "g": "5e5abe32.7ff6b",
+        "name": "Spinash - Days to harvest",
+        "label": "<i class=\"fa fa-clock-o\"></i> Harvest time",
+        "tooltip": "",
+        "group": "c3776e2a.f6068",
+        "order": 19,
+        "width": 6,
+        "height": 1,
+        "wrap": false,
+        "passthru": true,
+        "topic": "",
+        "format": "{{value}} days",
+        "min": 0,
+        "max": "45",
+        "step": 1,
+        "x": 650,
+        "y": 2560,
+        "wires": [
+            [
+                "d41aea55.3f6b88",
+                "ff5be0d6.9ab8"
+            ]
+        ]
+    },
+    {
+        "id": "42597d4e.63c444",
+        "type": "change",
+        "z": "9441712c.a6198",
+        "g": "5e5abe32.7ff6b",
+        "name": "Save spinash germination",
+        "rules": [
+            {
+                "t": "set",
+                "p": "crops.spinash.schedule.germinated",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 950,
+        "y": 2340,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "fbc6d712.232a58",
+        "type": "inject",
+        "z": "9441712c.a6198",
+        "g": "5e5abe32.7ff6b",
+        "name": "Inject spinash germination at boot",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "0.5",
+        "topic": "",
+        "payload": "crops.spinash.schedule.germinated",
+        "payloadType": "global",
+        "x": 360,
+        "y": 2340,
+        "wires": [
+            [
+                "e5267779.f67b28"
+            ]
+        ]
+    },
+    {
+        "id": "748e719a.ae7ff",
+        "type": "change",
+        "z": "9441712c.a6198",
+        "g": "5e5abe32.7ff6b",
+        "name": "Save spinash transplant",
+        "rules": [
+            {
+                "t": "set",
+                "p": "crops.spinash.schedule.transplant",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 950,
+        "y": 2460,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f6b1dcf3.fbc9a",
+        "type": "inject",
+        "z": "9441712c.a6198",
+        "g": "5e5abe32.7ff6b",
+        "name": "Inject spinash transplant at boot",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "0.5",
+        "topic": "",
+        "payload": "crops.spinash.schedule.transplant",
+        "payloadType": "global",
+        "x": 370,
+        "y": 2460,
+        "wires": [
+            [
+                "3e0d4e38.2c5a22"
+            ]
+        ]
+    },
+    {
+        "id": "62a77fc1.ce7f9",
+        "type": "inject",
+        "z": "9441712c.a6198",
+        "g": "5e5abe32.7ff6b",
+        "name": "Inject spinash transplant at boot",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "0.5",
+        "topic": "",
+        "payload": "crops.spinash.schedule.transplant",
+        "payloadType": "global",
+        "x": 370,
+        "y": 2560,
+        "wires": [
+            [
+                "3090ebb5.dde4e4"
+            ]
+        ]
+    },
+    {
+        "id": "ff5be0d6.9ab8",
+        "type": "change",
+        "z": "9441712c.a6198",
+        "g": "5e5abe32.7ff6b",
+        "name": "Save spinash harvest",
+        "rules": [
+            {
+                "t": "set",
+                "p": "crops.spinash.schedule.harvest",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 940,
+        "y": 2560,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "81abb09c.8ebd9",
+        "type": "influxdb out",
+        "z": "87cb301d.9893c",
+        "g": "79fac8a4.114828",
+        "influxdb": "8193652c.e6bda8",
+        "name": "Save event",
+        "measurement": "events",
+        "precision": "",
+        "retentionPolicy": "",
+        "database": "database",
+        "precisionV18FluxV20": "ms",
+        "retentionPolicyV18Flux": "",
+        "org": "organisation",
+        "bucket": "bucket",
+        "x": 1270,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "442f99b9.155268",
+        "type": "function",
+        "z": "87cb301d.9893c",
+        "g": "79fac8a4.114828",
+        "name": "Influxdb - prepare data",
+        "func": "if (typeof msg.payload.value !== \"undefined\") {\n   \n    msg.payload = [{\n        state: (msg.payload.value==1) ? \"On\" : \"Off\",\n        type: (typeof msg.topic !== \"undefined\") ? msg.topic : \"Manual\"\n  \n    },\n    {\n        tag1:\"Water pump\"\n    }\n    ];\n    return msg;\n}",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 1080,
+        "y": 540,
+        "wires": [
+            [
+                "81abb09c.8ebd9"
+            ]
+        ]
+    },
+    {
+        "id": "b2b71764.a52588",
+        "type": "function",
+        "z": "87cb301d.9893c",
+        "g": "2bce1a3f.f178b6",
+        "name": "Influxdb - prepare data",
+        "func": "msg.payload = [{\n    state: (msg.payload==true) ? \"On\" : \"Off\",\n    type: (typeof msg.topic !== 'undefined') ? msg.topic : \"Manual\"\n},\n{\n    tag1:\"LED - Seed tray\"\n}];\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 1100,
+        "y": 180,
+        "wires": [
+            [
+                "75185d97.c8b7f4"
+            ]
+        ]
+    },
+    {
+        "id": "75185d97.c8b7f4",
+        "type": "influxdb out",
+        "z": "87cb301d.9893c",
+        "g": "2bce1a3f.f178b6",
+        "influxdb": "8193652c.e6bda8",
+        "name": "Save event",
+        "measurement": "events",
+        "precision": "",
+        "retentionPolicy": "",
+        "database": "database",
+        "precisionV18FluxV20": "ms",
+        "retentionPolicyV18Flux": "",
+        "org": "organisation",
+        "bucket": "bucket",
+        "x": 1290,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "e59b977d.e63728",
+        "type": "switch",
+        "z": "5127740.f28848c",
+        "g": "8e57852f.2718a8",
+        "name": "If water pump activated",
+        "property": "settings.water_pump.activated",
+        "propertyType": "global",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 590,
+        "y": 640,
+        "wires": [
+            [
+                "d5c862b.d3e0ba"
+            ]
+        ]
+    },
+    {
+        "id": "24b212d7.88a59e",
+        "type": "function",
+        "z": "87cb301d.9893c",
+        "g": "2bce1a3f.f178b6",
+        "name": "When seedTray is not empty",
+        "func": "var seedTrayArray = global.get(\"crops.seedTrayState\");\nvar isSeedTrayEmpty = true;\n\n// Loop \nfor (var x = 0 ; x < seedTrayArray.length ; x++) {\n    \n    // If one object is not empty\n    if (seedTrayArray[x].category != \"empty\") {\n        isSeedTrayEmpty = false;\n    }\n}\n\n//continue only if seeds are growing\nif (!isSeedTrayEmpty) {\n    msg.topic = \"Automatic - schedule\"\n    return msg;\n}\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 660,
+        "y": 220,
+        "wires": [
+            [
+                "df864faf.11005"
+            ]
+        ]
+    },
+    {
+        "id": "c58b8e27.e3168",
+        "type": "influxdb in",
+        "z": "1d22c714.e50369",
+        "g": "c6d7924.b23cd7",
+        "influxdb": "8193652c.e6bda8",
+        "name": "Select last \"On\"",
+        "query": " select * from events order by time desc",
+        "rawOutput": false,
+        "precision": "",
+        "retentionPolicy": "",
+        "org": "organisation",
+        "x": 480,
+        "y": 3240,
+        "wires": [
+            [
+                "96d2ce1.f01333"
+            ]
+        ]
+    },
+    {
+        "id": "a5678c1e.4ea5e",
+        "type": "inject",
+        "z": "1d22c714.e50369",
+        "g": "c6d7924.b23cd7",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "5",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "1",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 270,
+        "y": 3240,
+        "wires": [
+            [
+                "c58b8e27.e3168"
+            ]
+        ]
+    },
+    {
+        "id": "e561bfe2.d3629",
+        "type": "influxdb out",
+        "z": "87cb301d.9893c",
+        "g": "3c3e3fd3.73556",
+        "influxdb": "8193652c.e6bda8",
+        "name": "Save event",
+        "measurement": "events",
+        "precision": "",
+        "retentionPolicy": "",
+        "database": "database",
+        "precisionV18FluxV20": "ms",
+        "retentionPolicyV18Flux": "",
+        "org": "organisation",
+        "bucket": "bucket",
+        "x": 970,
+        "y": 920,
+        "wires": []
+    },
+    {
+        "id": "c10ac82.7ac4938",
+        "type": "function",
+        "z": "87cb301d.9893c",
+        "g": "3c3e3fd3.73556",
+        "name": "Influxdb - prepare data",
+        "func": "if (typeof msg.payload) {\n    \n    msg.payload = [{\n        state: (msg.payload == true) ? \"On\" : \"Off\"\n    },\n    {\n        tag1:\"pump_nutrients_A\"\n    }];\n    return msg;\n}",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 780,
+        "y": 920,
+        "wires": [
+            [
+                "e561bfe2.d3629"
+            ]
+        ]
+    },
+    {
+        "id": "c77879c6.196578",
+        "type": "influxdb out",
+        "z": "87cb301d.9893c",
+        "g": "3c3e3fd3.73556",
+        "influxdb": "8193652c.e6bda8",
+        "name": "Save event",
+        "measurement": "events",
+        "precision": "",
+        "retentionPolicy": "",
+        "database": "database",
+        "precisionV18FluxV20": "ms",
+        "retentionPolicyV18Flux": "",
+        "org": "organisation",
+        "bucket": "bucket",
+        "x": 970,
+        "y": 1160,
+        "wires": []
+    },
+    {
+        "id": "4d89a979.5ab5b8",
+        "type": "function",
+        "z": "87cb301d.9893c",
+        "g": "3c3e3fd3.73556",
+        "name": "Influxdb - prepare data",
+        "func": "if (typeof msg.payload) {\n    \n    msg.payload = [{\n        state: (msg.payload == true) ? \"On\" : \"Off\"\n    },\n    {\n        tag1:\"pump_nutrients_B\"\n    }];\n    return msg;\n}",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 780,
+        "y": 1160,
+        "wires": [
+            [
+                "c77879c6.196578"
+            ]
+        ]
+    },
+    {
+        "id": "d766e6ea.dfad68",
+        "type": "change",
+        "z": "5127740.f28848c",
+        "g": "8e57852f.2718a8",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "Automatic - Seed tray overflow",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1220,
+        "y": 640,
+        "wires": [
+            [
+                "6bd46816.3f5cd8"
+            ]
+        ]
+    },
+    {
+        "id": "1c6b6727.354ca9",
+        "type": "change",
+        "z": "87cb301d.9893c",
+        "g": "79fac8a4.114828",
+        "name": "Set topic=switch",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "switch",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1070,
+        "y": 580,
+        "wires": [
+            [
+                "e15afdde.86149"
+            ]
+        ]
+    },
+    {
+        "id": "7708a105.0dad4",
+        "type": "switch",
+        "z": "87cb301d.9893c",
+        "g": "79fac8a4.114828",
+        "name": "When water pump is on",
+        "property": "payload.value",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 1390,
+        "y": 620,
+        "wires": [
+            [
+                "2d32f6d2.b52eaa"
+            ]
+        ]
+    },
+    {
+        "id": "96d2ce1.f01333",
+        "type": "function",
+        "z": "1d22c714.e50369",
+        "g": "c6d7924.b23cd7",
+        "name": "Parse and format data",
+        "func": "var array = msg.payload;\nvar orderArray = {};\n\nfor (var x = 0 ; x < array.length ; x++) {\n\n    let date = new Date(array[x].time);\n    let day = \n        date.getFullYear() \n        + \"-\" + (\"0\" + (date.getMonth() + 1)).slice(-2) \n        + \"-\" + (\"0\" + date.getDate()).slice(-2);\n    \n    if (!(day in orderArray)) {\n        orderArray[day] = [];\n    }\n    \n    if (array[x].type !== undefined && array[x].type.includes(\"Automatic\")) {\n        array[x].ruleName = array[x].type.slice(12);\n        array[x].type = \"Automatic\";\n        \n    }\n    \n    orderArray[day].push(array[x]);\n}\nmsg.payload = orderArray;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 700,
+        "y": 3240,
+        "wires": [
+            [
+                "7be2e091.e5b72",
+                "3bf983b1.c4927c"
+            ]
+        ]
+    },
+    {
+        "id": "7be2e091.e5b72",
+        "type": "ui_template",
+        "z": "1d22c714.e50369",
+        "g": "c6d7924.b23cd7",
+        "group": "bfd42bcc.ad68f8",
+        "name": "Render list of events",
+        "order": 1,
+        "width": 8,
+        "height": 5,
+        "format": "<div layout=\"column\" ng-cloak>\n    \n        <md-list flex>\n            \n    \n            <div ng-repeat=\"(date,listEvents) in events\">\n            <md-subheader class=\"md-no-sticky\">{{date| date:'EEEE, MMMM d, yy'}}</md-subheader>\n            <!-- Harvest actions -->\n            <md-list-item class=\"md-2-line\" ng-repeat=\"event in listEvents | orderBy:'time':true\">\n                <md-icon>toggle_{{event.state | lowercase }}</md-icon>\n                <div class=\"md-list-item-text\">\n                    <h4> {{ event.tag1 }} <span ng-if=\"event.ruleName\"> - {{ event.ruleName }}</span></h4>\n                    <p> {{event.time | date:'HH:mm:ss'}}</p>\n                </div>\n                <div class=\"md-secondary\" >\n                    <p>{{event.type}}</p>\n                </div>\n                \n                <md-divider md-inset></md-divider>\n                \n            </md-list-item> \n        </div>\n\n    </md-list>\n    \n</div>\n<script>\n    \n(function(scope) {\n    \n    // $watch fires each time the node is triggered in the flow\n    scope.$watch('msg', function(msg) {\n        if (msg) {\n            scope.events = msg.payload;\n        }\n    });\n\n})(scope);\n\n</script>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "x": 940,
+        "y": 3240,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "3bf983b1.c4927c",
+        "type": "debug",
+        "z": "1d22c714.e50369",
+        "g": "c6d7924.b23cd7",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 910,
+        "y": 3200,
+        "wires": []
     }
 ]
