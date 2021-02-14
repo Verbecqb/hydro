@@ -162,10 +162,12 @@
             "d5c862b.d3e0ba",
             "6bd46816.3f5cd8",
             "e59b977d.e63728",
-            "d766e6ea.dfad68"
+            "4c74a211.888a5c"
         ],
         "x": 94,
-        "y": 599
+        "y": 599,
+        "w": 1122,
+        "h": 122
     },
     {
         "id": "3cd27958.a703b6",
@@ -190,7 +192,9 @@
             "4a15ab80.153564"
         ],
         "x": 76,
-        "y": 365
+        "y": 365,
+        "w": 1130,
+        "h": 196
     },
     {
         "id": "9735f20b.9f01e",
@@ -212,7 +216,9 @@
             "f76a168.49897e8"
         ],
         "x": 74,
-        "y": 59
+        "y": 59,
+        "w": 1072,
+        "h": 222
     },
     {
         "id": "9c4443bb.0420a",
@@ -435,10 +441,13 @@
             "81abb09c.8ebd9",
             "442f99b9.155268",
             "1c6b6727.354ca9",
-            "7708a105.0dad4"
+            "7708a105.0dad4",
+            "55080322.af690c"
         ],
-        "x": 514,
-        "y": 499
+        "x": 534,
+        "y": 499,
+        "w": 1412,
+        "h": 222
     },
     {
         "id": "59d1252d.d18c0c",
@@ -459,7 +468,9 @@
             "77dd4f6a.f114"
         ],
         "x": 514,
-        "y": 339
+        "y": 339,
+        "w": 932,
+        "h": 142
     },
     {
         "id": "2bce1a3f.f178b6",
@@ -482,7 +493,9 @@
             "24b212d7.88a59e"
         ],
         "x": 514,
-        "y": 139
+        "y": 139,
+        "w": 872,
+        "h": 181
     },
     {
         "id": "588e44f4.702ffc",
@@ -549,7 +562,9 @@
             "34e374d0.ba20bc"
         ],
         "x": 154,
-        "y": 1279
+        "y": 1279,
+        "w": 952,
+        "h": 142
     },
     {
         "id": "a50a7433.2949c8",
@@ -573,7 +588,9 @@
             "81ceab05.217668"
         ],
         "x": 139,
-        "y": 549
+        "y": 549,
+        "w": 787,
+        "h": 202
     },
     {
         "id": "19b320a7.bcd92f",
@@ -597,7 +614,9 @@
             "d66c2005.a8f2c"
         ],
         "x": 134,
-        "y": 299
+        "y": 299,
+        "w": 912,
+        "h": 222
     },
     {
         "id": "cecbec23.c2747",
@@ -622,7 +641,9 @@
             "33388462.7c7d9c"
         ],
         "x": 154,
-        "y": 1459
+        "y": 1459,
+        "w": 1032,
+        "h": 322
     },
     {
         "id": "97aeb63b.daf5d8",
@@ -651,7 +672,9 @@
             "a07f6068.ab874"
         ],
         "x": 174,
-        "y": 1839
+        "y": 1839,
+        "w": 912,
+        "h": 362
     },
     {
         "id": "5e5abe32.7ff6b",
@@ -680,7 +703,9 @@
             "ff5be0d6.9ab8"
         ],
         "x": 174,
-        "y": 2239
+        "y": 2239,
+        "w": 912,
+        "h": 362
     },
     {
         "id": "3c3e3fd3.73556",
@@ -712,10 +737,14 @@
             "e561bfe2.d3629",
             "c10ac82.7ac4938",
             "c77879c6.196578",
-            "4d89a979.5ab5b8"
+            "4d89a979.5ab5b8",
+            "cec4a8ff.e11a58",
+            "c9b2ebe6.0e2378"
         ],
-        "x": 214,
-        "y": 779
+        "x": 254,
+        "y": 779,
+        "w": 1232,
+        "h": 562
     },
     {
         "id": "1823ddea.025cf2",
@@ -1244,7 +1273,8 @@
                 "primary": "indigo",
                 "accents": "blue",
                 "warn": "red",
-                "background": "grey"
+                "background": "grey",
+                "palette": "dark"
             }
         },
         "site": {
@@ -1881,7 +1911,7 @@
         "collapse": false
     },
     {
-        "id": "994b7cc2.e730e",
+        "id": "cd716f74.5c5ec",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "1c37dc0b.ce28e4",
@@ -1890,7 +1920,7 @@
         "height": 1
     },
     {
-        "id": "17c19076.86b8b",
+        "id": "5ec4e5cf.fe94ec",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "1c37dc0b.ce28e4",
@@ -1899,7 +1929,7 @@
         "height": 1
     },
     {
-        "id": "f532704.a3c6b9",
+        "id": "cbda86b1.12b0f8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -1908,7 +1938,7 @@
         "height": 1
     },
     {
-        "id": "8a83a124.97b09",
+        "id": "c64260a6.f2506",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -1917,7 +1947,7 @@
         "height": 1
     },
     {
-        "id": "3d0a1d72.78a912",
+        "id": "53ff5abd.7b7544",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -1926,7 +1956,7 @@
         "height": 1
     },
     {
-        "id": "a968003e.1a674",
+        "id": "c9aadcb8.65adf",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -1935,7 +1965,7 @@
         "height": 1
     },
     {
-        "id": "c346fcae.8610f",
+        "id": "4da941b0.ab6c2",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -1944,7 +1974,7 @@
         "height": 1
     },
     {
-        "id": "d07ff774.d1fd88",
+        "id": "dbe2d0bf.e63ca",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -1953,7 +1983,7 @@
         "height": 1
     },
     {
-        "id": "8f1db538.ba50d8",
+        "id": "7d7485d7.014b1c",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -1962,7 +1992,7 @@
         "height": 1
     },
     {
-        "id": "e5e92575.30a828",
+        "id": "6eb38990.dc6bc8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -1971,7 +2001,7 @@
         "height": 1
     },
     {
-        "id": "84e03ddc.a4516",
+        "id": "aac10b72.615c88",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -1980,7 +2010,7 @@
         "height": 1
     },
     {
-        "id": "145e7ceb.9a4b43",
+        "id": "8ba9bca0.2b0f1",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8a9b009f.1b35d",
@@ -1989,7 +2019,7 @@
         "height": 1
     },
     {
-        "id": "60f911e1.2d38",
+        "id": "646f9c8a.aa0844",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "65d119b5.66cb78",
@@ -1998,7 +2028,7 @@
         "height": 1
     },
     {
-        "id": "c9c9697b.12b308",
+        "id": "ee277803.d43858",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "65d119b5.66cb78",
@@ -2007,7 +2037,7 @@
         "height": 1
     },
     {
-        "id": "7bfeeba6.219034",
+        "id": "5cdb227e.b7bd6c",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "65d119b5.66cb78",
@@ -2016,7 +2046,7 @@
         "height": 1
     },
     {
-        "id": "78520995.535288",
+        "id": "9ef6d789.54d6d8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "65d119b5.66cb78",
@@ -2025,7 +2055,7 @@
         "height": 1
     },
     {
-        "id": "ad8a895c.9f4ab8",
+        "id": "609a1546.0e68ec",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -2034,7 +2064,7 @@
         "height": 1
     },
     {
-        "id": "c03d002c.0b974",
+        "id": "897ca0ee.96bd7",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -2043,7 +2073,7 @@
         "height": 1
     },
     {
-        "id": "6b43780e.7e4ba8",
+        "id": "53b49775.50f778",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -2052,7 +2082,7 @@
         "height": 1
     },
     {
-        "id": "4c288fcf.611c",
+        "id": "11b0f997.df95f6",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -2061,7 +2091,7 @@
         "height": 1
     },
     {
-        "id": "b0bf892f.f81b08",
+        "id": "13905ca4.149623",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -2070,7 +2100,7 @@
         "height": 1
     },
     {
-        "id": "7c4fa702.356f58",
+        "id": "e88897d5.67df48",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -2079,7 +2109,7 @@
         "height": 1
     },
     {
-        "id": "db30dc2f.a5f7e",
+        "id": "bfe9348a.231b58",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -2088,7 +2118,7 @@
         "height": 1
     },
     {
-        "id": "2be9111a.008a5e",
+        "id": "d17e6f0c.6e512",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -2097,7 +2127,7 @@
         "height": 1
     },
     {
-        "id": "b4ceee88.79e8c",
+        "id": "66c3fa11.4269d4",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -2106,7 +2136,7 @@
         "height": 1
     },
     {
-        "id": "ae0f0462.a35988",
+        "id": "91eeb64d.150268",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "8d4aab9b.4d6328",
@@ -2115,7 +2145,7 @@
         "height": 1
     },
     {
-        "id": "671740fc.46377",
+        "id": "879db4e1.d96858",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
@@ -2124,7 +2154,7 @@
         "height": 1
     },
     {
-        "id": "ce05580e.6ceaa8",
+        "id": "fa4ba9d8.76f528",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
@@ -2133,7 +2163,7 @@
         "height": 1
     },
     {
-        "id": "4428abdb.31a674",
+        "id": "355e0e91.dafce2",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
@@ -2142,7 +2172,7 @@
         "height": 1
     },
     {
-        "id": "e62148d8.33dac8",
+        "id": "139b7fba.09e36",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
@@ -2151,7 +2181,7 @@
         "height": 1
     },
     {
-        "id": "18d80d76.8aa683",
+        "id": "34060c26.52d6c4",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
@@ -2160,7 +2190,7 @@
         "height": 1
     },
     {
-        "id": "9a4ffd.c65",
+        "id": "a11a270d.6d7478",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
@@ -2169,7 +2199,7 @@
         "height": 1
     },
     {
-        "id": "8f92e730.11c018",
+        "id": "618c6fe9.be905",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "45199dde.854f64",
@@ -2178,7 +2208,7 @@
         "height": 1
     },
     {
-        "id": "8f16f200.ad23f",
+        "id": "146fc1aa.df626e",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "6c15eb0d.8f5814",
@@ -2187,7 +2217,7 @@
         "height": 1
     },
     {
-        "id": "34666c6a.908bd4",
+        "id": "98b26f9.c7d969",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "6c15eb0d.8f5814",
@@ -2196,7 +2226,7 @@
         "height": 1
     },
     {
-        "id": "2a145d23.9f2992",
+        "id": "2d5afe62.4ed482",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "6c15eb0d.8f5814",
@@ -2205,7 +2235,7 @@
         "height": 1
     },
     {
-        "id": "e064c21.dade64",
+        "id": "3a558e3d.ce33f2",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "6c15eb0d.8f5814",
@@ -2214,7 +2244,7 @@
         "height": 1
     },
     {
-        "id": "256ee403.d45f2c",
+        "id": "365b6c43.71d3b4",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "6c15eb0d.8f5814",
@@ -2223,7 +2253,7 @@
         "height": 1
     },
     {
-        "id": "ef551388.8c071",
+        "id": "f27f87fc.f04788",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "6c15eb0d.8f5814",
@@ -2232,7 +2262,7 @@
         "height": 1
     },
     {
-        "id": "b9b8d2e7.4cc7c",
+        "id": "6eb32955.c08e58",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "6c15eb0d.8f5814",
@@ -2241,7 +2271,7 @@
         "height": 1
     },
     {
-        "id": "b1cb13ce.9c28e",
+        "id": "47be73b7.9d684c",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "6c15eb0d.8f5814",
@@ -2250,7 +2280,7 @@
         "height": 1
     },
     {
-        "id": "e88611c2.0323e",
+        "id": "6bdf2e86.38e2b",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "6c15eb0d.8f5814",
@@ -2259,7 +2289,7 @@
         "height": 1
     },
     {
-        "id": "ec84e56b.a71308",
+        "id": "a32fdb1e.f9f028",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "6c15eb0d.8f5814",
@@ -2268,7 +2298,7 @@
         "height": 1
     },
     {
-        "id": "9c3ad130.d4147",
+        "id": "90ce28b0.eca4c8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "6c15eb0d.8f5814",
@@ -2277,7 +2307,7 @@
         "height": 1
     },
     {
-        "id": "234bb2a8.c8314e",
+        "id": "7f0d589a.5a5868",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "6c15eb0d.8f5814",
@@ -2286,7 +2316,7 @@
         "height": 1
     },
     {
-        "id": "ee34daa2.9d9828",
+        "id": "bd2592a6.10055",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "6c15eb0d.8f5814",
@@ -2295,7 +2325,7 @@
         "height": 1
     },
     {
-        "id": "a142d8f.cc31e28",
+        "id": "420e3f01.0b19c",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "6c15eb0d.8f5814",
@@ -2304,7 +2334,7 @@
         "height": 1
     },
     {
-        "id": "b5b34aa3.71ebe8",
+        "id": "b8bfdc8f.6f5d7",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "6c15eb0d.8f5814",
@@ -2313,7 +2343,7 @@
         "height": 1
     },
     {
-        "id": "553909d5.e728f8",
+        "id": "2a7581a2.5dc92e",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "6c15eb0d.8f5814",
@@ -2322,7 +2352,7 @@
         "height": 1
     },
     {
-        "id": "6aba2514.f5723c",
+        "id": "7542e5cf.9ca02c",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "6c15eb0d.8f5814",
@@ -2331,7 +2361,7 @@
         "height": 1
     },
     {
-        "id": "34915616.f038ba",
+        "id": "9177839c.f0196",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "6c15eb0d.8f5814",
@@ -4218,11 +4248,11 @@
         "randomLast": "5",
         "randomUnits": "seconds",
         "drop": false,
-        "x": 940,
+        "x": 980,
         "y": 1040,
         "wires": [
             [
-                "a7364d44.56698"
+                "cec4a8ff.e11a58"
             ]
         ]
     },
@@ -4236,7 +4266,7 @@
         "qos": "0",
         "retain": "",
         "broker": "a0e631b8.d383b",
-        "x": 750,
+        "x": 1010,
         "y": 960,
         "wires": []
     },
@@ -4253,6 +4283,13 @@
                 "pt": "msg",
                 "to": "false",
                 "tot": "bool"
+            },
+            {
+                "t": "set",
+                "p": "settings.nutriments.solutionA.pump.activated",
+                "pt": "global",
+                "to": "false",
+                "tot": "bool"
             }
         ],
         "action": "",
@@ -4260,7 +4297,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1090,
+        "x": 1390,
         "y": 1040,
         "wires": [
             [
@@ -4284,7 +4321,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 580,
+        "x": 620,
         "y": 1040,
         "wires": [
             [
@@ -4316,13 +4353,13 @@
         "offvalueType": "bool",
         "officon": "fa-toggle-off fa-2x",
         "offcolor": "#bb86fc",
-        "x": 550,
+        "x": 590,
         "y": 960,
         "wires": [
             [
                 "93cd22de.a5d2c",
-                "5be7de2e.ba1d2",
-                "c10ac82.7ac4938"
+                "c10ac82.7ac4938",
+                "c9b2ebe6.0e2378"
             ]
         ]
     },
@@ -4761,7 +4798,7 @@
         "g": "3c3e3fd3.73556",
         "name": "### Nutriments controler ###",
         "info": "",
-        "x": 380,
+        "x": 420,
         "y": 820,
         "wires": []
     },
@@ -4771,12 +4808,12 @@
         "z": "87cb301d.9893c",
         "g": "3c3e3fd3.73556",
         "name": "msg.delay",
-        "func": "var timer = global.get(\"settings.nutriments.solutionA.pump.duration\");\nvar newMsg = { delay: (timer * 1000) };\nreturn newMsg;",
+        "func": "var timer = global.get(\"settings.nutriments.solutionA.pump.duration\");\nvar newMsg = { delay: (timer * 1000) };\nnewMsg.type = \"Automatic - Timer \" + timer + \"s.\"\nreturn newMsg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 790,
+        "x": 830,
         "y": 1040,
         "wires": [
             [
@@ -5338,7 +5375,7 @@
         "randomLast": "5",
         "randomUnits": "seconds",
         "drop": false,
-        "x": 940,
+        "x": 980,
         "y": 1300,
         "wires": [
             [
@@ -5356,7 +5393,7 @@
         "qos": "0",
         "retain": "",
         "broker": "a0e631b8.d383b",
-        "x": 750,
+        "x": 790,
         "y": 1220,
         "wires": []
     },
@@ -5380,7 +5417,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1090,
+        "x": 1130,
         "y": 1300,
         "wires": [
             [
@@ -5404,7 +5441,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 580,
+        "x": 620,
         "y": 1300,
         "wires": [
             [
@@ -5436,7 +5473,7 @@
         "offvalueType": "bool",
         "officon": "fa-toggle-off fa-2x",
         "offcolor": "#bb86fc",
-        "x": 550,
+        "x": 590,
         "y": 1220,
         "wires": [
             [
@@ -5457,7 +5494,7 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 790,
+        "x": 830,
         "y": 1300,
         "wires": [
             [
@@ -6000,7 +6037,7 @@
         "offvalueType": "json",
         "officon": "fa-toggle-off fa-2x",
         "offcolor": "#0077be",
-        "x": 870,
+        "x": 890,
         "y": 580,
         "wires": [
             [
@@ -6021,7 +6058,7 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 1550,
+        "x": 1570,
         "y": 580,
         "wires": [
             [
@@ -6042,7 +6079,7 @@
         "label": "<font color=\"{{msg.color}}\"><i class=\"fa fa-tint fa-2x\"></i></front>",
         "format": "",
         "layout": "row-spread",
-        "x": 1790,
+        "x": 1810,
         "y": 580,
         "wires": []
     },
@@ -7384,7 +7421,8 @@
                 "p": "payload"
             },
             {
-                "p": "topic",
+                "p": "type",
+                "v": "Automatic - Seed tray overflow",
                 "vt": "str"
             }
         ],
@@ -7426,7 +7464,7 @@
         "links": [
             "4a15ab80.153564"
         ],
-        "x": 255,
+        "x": 295,
         "y": 1020,
         "wires": [
             [
@@ -7455,7 +7493,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 410,
+        "x": 450,
         "y": 880,
         "wires": [
             [
@@ -7483,7 +7521,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 410,
+        "x": 450,
         "y": 1160,
         "wires": [
             [
@@ -7507,7 +7545,7 @@
             },
             {
                 "t": "set",
-                "p": "topic",
+                "p": "type",
                 "pt": "msg",
                 "to": "Automatic - Schedule",
                 "tot": "str"
@@ -7518,7 +7556,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 670,
+        "x": 690,
         "y": 549,
         "wires": [
             [
@@ -7535,7 +7573,7 @@
         "links": [
             "983a3abc.dd1b18"
         ],
-        "x": 555,
+        "x": 575,
         "y": 549,
         "wires": [
             [
@@ -7563,7 +7601,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 670,
+        "x": 690,
         "y": 609,
         "wires": [
             [
@@ -7582,7 +7620,7 @@
             "2d32f6d2.b52eaa",
             "6bd46816.3f5cd8"
         ],
-        "x": 555,
+        "x": 575,
         "y": 609,
         "wires": [
             [
@@ -7651,12 +7689,12 @@
         "z": "87cb301d.9893c",
         "g": "79fac8a4.114828",
         "name": "msg.delay",
-        "func": "var timer = global.get(\"settings.water_pump.duration\");\nvar newMsg = { delay: (timer * 1000) };\nnewMsg.topic = \"Automatic - Timer\"\nreturn newMsg;",
+        "func": "var timer = global.get(\"settings.water_pump.duration\");\nvar newMsg = { delay: (timer * 1000) };\nnewMsg.type = \"Automatic - Timer \" + timer + \"s.\"\nreturn newMsg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 1050,
+        "x": 1070,
         "y": 620,
         "wires": [
             [
@@ -7680,7 +7718,7 @@
         "randomLast": "5",
         "randomUnits": "seconds",
         "drop": false,
-        "x": 1200,
+        "x": 1220,
         "y": 620,
         "wires": [
             [
@@ -7697,7 +7735,7 @@
         "links": [
             "83c9cbe9.ff0f68"
         ],
-        "x": 1535,
+        "x": 1555,
         "y": 620,
         "wires": []
     },
@@ -7806,7 +7844,8 @@
         "y": 640,
         "wires": [
             [
-                "d766e6ea.dfad68"
+                "6bd46816.3f5cd8",
+                "4c74a211.888a5c"
             ]
         ]
     },
@@ -7819,7 +7858,7 @@
         "links": [
             "83c9cbe9.ff0f68"
         ],
-        "x": 1335,
+        "x": 1175,
         "y": 640,
         "wires": []
     },
@@ -9658,9 +9697,10 @@
         "passthru": true,
         "outs": "all",
         "topic": "",
+        "topicType": "str",
         "min": "0",
         "max": "100",
-        "step": "10",
+        "step": "5",
         "x": 620,
         "y": 1160,
         "wires": [
@@ -9771,7 +9811,7 @@
         "conf": "b0151dde.26366",
         "name": "Hydro - water pump",
         "device": "5c526ebe-92ff-40d2-8f26-e18e65d3a88c",
-        "x": 1300,
+        "x": 1320,
         "y": 580,
         "wires": [
             [
@@ -10777,7 +10817,7 @@
         "retentionPolicyV18Flux": "",
         "org": "organisation",
         "bucket": "bucket",
-        "x": 1270,
+        "x": 1290,
         "y": 540,
         "wires": []
     },
@@ -10787,12 +10827,12 @@
         "z": "87cb301d.9893c",
         "g": "79fac8a4.114828",
         "name": "Influxdb - prepare data",
-        "func": "if (typeof msg.payload.value !== \"undefined\") {\n   \n    msg.payload = [{\n        state: (msg.payload.value==1) ? \"On\" : \"Off\",\n        type: (typeof msg.topic !== \"undefined\") ? msg.topic : \"Manual\"\n  \n    },\n    {\n        tag1:\"Water pump\"\n    }\n    ];\n    return msg;\n}",
+        "func": "if (typeof msg.payload.value !== \"undefined\") {\n    \n    node.warn(msg.topic);\n   \n    msg.payload = [{\n        state: (msg.payload.value==1) ? \"On\" : \"Off\",\n        type: (typeof msg.type !== 'undefined') ? msg.type : \"Manual\"\n    },\n    {\n        tag1:\"Water pump\"\n    }\n    ];\n    return msg;\n}",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 1080,
+        "x": 1100,
         "y": 540,
         "wires": [
             [
@@ -10806,7 +10846,7 @@
         "z": "87cb301d.9893c",
         "g": "2bce1a3f.f178b6",
         "name": "Influxdb - prepare data",
-        "func": "msg.payload = [{\n    state: (msg.payload==true) ? \"On\" : \"Off\",\n    type: (typeof msg.topic !== 'undefined') ? msg.topic : \"Manual\"\n},\n{\n    tag1:\"LED - Seed tray\"\n}];\nreturn msg;",
+        "func": "msg.payload = [{\n    state: (msg.payload==true) ? \"On\" : \"Off\",\n    type: (typeof msg.type !== 'undefined') ? msg.type : \"Manual\"\n},\n{\n    tag1:\"LED - Seed tray\"\n}];\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -10870,7 +10910,7 @@
         "z": "87cb301d.9893c",
         "g": "2bce1a3f.f178b6",
         "name": "When seedTray is not empty",
-        "func": "var seedTrayArray = global.get(\"crops.seedTrayState\");\nvar isSeedTrayEmpty = true;\n\n// Loop \nfor (var x = 0 ; x < seedTrayArray.length ; x++) {\n    \n    // If one object is not empty\n    if (seedTrayArray[x].category != \"empty\") {\n        isSeedTrayEmpty = false;\n    }\n}\n\n//continue only if seeds are growing\nif (!isSeedTrayEmpty) {\n    msg.topic = \"Automatic - schedule\"\n    return msg;\n}\n",
+        "func": "var seedTrayArray = global.get(\"crops.seedTrayState\");\nvar isSeedTrayEmpty = true;\n\n// Loop \nfor (var x = 0 ; x < seedTrayArray.length ; x++) {\n    \n    // If one object is not empty\n    if (seedTrayArray[x].category != \"empty\") {\n        isSeedTrayEmpty = false;\n    }\n}\n\n//continue only if seeds are growing\nif (!isSeedTrayEmpty) {\n    msg.type = \"Automatic - schedule\"\n    return msg;\n}\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -10948,8 +10988,8 @@
         "retentionPolicyV18Flux": "",
         "org": "organisation",
         "bucket": "bucket",
-        "x": 970,
-        "y": 920,
+        "x": 1010,
+        "y": 900,
         "wires": []
     },
     {
@@ -10958,13 +10998,13 @@
         "z": "87cb301d.9893c",
         "g": "3c3e3fd3.73556",
         "name": "Influxdb - prepare data",
-        "func": "if (typeof msg.payload) {\n    \n    msg.payload = [{\n        state: (msg.payload == true) ? \"On\" : \"Off\"\n    },\n    {\n        tag1:\"pump_nutrients_A\"\n    }];\n    return msg;\n}",
+        "func": "if (typeof msg.payload) {\n    \n    msg.payload = [{\n        state: (msg.payload == true) ? \"On\" : \"Off\",\n        type: (typeof msg.type !== \"undefined\") ? msg.type : \"Manual\"\n  \n    },\n    {\n        tag1:\"Pump nutrients A\"\n    }];\n    return msg;\n}",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 780,
-        "y": 920,
+        "x": 820,
+        "y": 900,
         "wires": [
             [
                 "e561bfe2.d3629"
@@ -10986,7 +11026,7 @@
         "retentionPolicyV18Flux": "",
         "org": "organisation",
         "bucket": "bucket",
-        "x": 970,
+        "x": 1010,
         "y": 1160,
         "wires": []
     },
@@ -10996,44 +11036,16 @@
         "z": "87cb301d.9893c",
         "g": "3c3e3fd3.73556",
         "name": "Influxdb - prepare data",
-        "func": "if (typeof msg.payload) {\n    \n    msg.payload = [{\n        state: (msg.payload == true) ? \"On\" : \"Off\"\n    },\n    {\n        tag1:\"pump_nutrients_B\"\n    }];\n    return msg;\n}",
+        "func": "if (typeof msg.payload) {\n    \n    msg.payload = [{\n        state: (msg.payload == true) ? \"On\" : \"Off\",\n        type: (typeof msg.topic !== \"undefined\") ? msg.topic : \"Manual\"\n    },\n    {\n        tag1:\"Pump nutrients B\"\n    }];\n    return msg;\n}",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 780,
+        "x": 820,
         "y": 1160,
         "wires": [
             [
                 "c77879c6.196578"
-            ]
-        ]
-    },
-    {
-        "id": "d766e6ea.dfad68",
-        "type": "change",
-        "z": "5127740.f28848c",
-        "g": "8e57852f.2718a8",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "topic",
-                "pt": "msg",
-                "to": "Automatic - Seed tray overflow",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 1220,
-        "y": 640,
-        "wires": [
-            [
-                "6bd46816.3f5cd8"
             ]
         ]
     },
@@ -11057,7 +11069,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1070,
+        "x": 1090,
         "y": 580,
         "wires": [
             [
@@ -11071,8 +11083,8 @@
         "z": "87cb301d.9893c",
         "g": "79fac8a4.114828",
         "name": "When water pump is on",
-        "property": "payload.value",
-        "propertyType": "msg",
+        "property": "settings.water_pump.activated",
+        "propertyType": "global",
         "rules": [
             {
                 "t": "eq",
@@ -11083,11 +11095,12 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 1390,
+        "x": 1410,
         "y": 620,
         "wires": [
             [
-                "2d32f6d2.b52eaa"
+                "2d32f6d2.b52eaa",
+                "55080322.af690c"
             ]
         ]
     },
@@ -11097,7 +11110,7 @@
         "z": "1d22c714.e50369",
         "g": "c6d7924.b23cd7",
         "name": "Parse and format data",
-        "func": "var array = msg.payload;\nvar orderArray = {};\n\nfor (var x = 0 ; x < array.length ; x++) {\n\n    let date = new Date(array[x].time);\n    let day = \n        date.getFullYear() \n        + \"-\" + (\"0\" + (date.getMonth() + 1)).slice(-2) \n        + \"-\" + (\"0\" + date.getDate()).slice(-2);\n    \n    if (!(day in orderArray)) {\n        orderArray[day] = [];\n    }\n    \n    if (array[x].type !== undefined && array[x].type.includes(\"Automatic\")) {\n        array[x].ruleName = array[x].type.slice(12);\n        array[x].type = \"Automatic\";\n        \n    }\n    \n    orderArray[day].push(array[x]);\n}\nmsg.payload = orderArray;\nreturn msg;",
+        "func": "var array = msg.payload;\nvar orderArray = {};\n\nfor (var x = 0 ; x < array.length ; x++) {\n\n    let date = new Date(array[x].time);\n    let day = \n        date.getFullYear() \n        + \"-\" + (\"0\" + (date.getMonth() + 1)).slice(-2) \n        + \"-\" + (\"0\" + date.getDate()).slice(-2);\n    \n    if (!(day in orderArray)) {\n        orderArray[day] = [];\n    }\n    \n    if (array[x].type && array[x].type !== undefined &&\n        array[x].type.includes(\"Automatic\")) {\n            \n        array[x].ruleName = array[x].type.slice(12);\n        array[x].type = \"Automatic\";\n        \n    }\n    \n    orderArray[day].push(array[x]);\n}\nmsg.payload = orderArray;\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -11120,7 +11133,7 @@
         "name": "Render list of events",
         "order": 1,
         "width": 8,
-        "height": 5,
+        "height": 8,
         "format": "<div layout=\"column\" ng-cloak>\n    \n        <md-list flex>\n            \n    \n            <div ng-repeat=\"(date,listEvents) in events\">\n            <md-subheader class=\"md-no-sticky\">{{date| date:'EEEE, MMMM d, yy'}}</md-subheader>\n            <!-- Harvest actions -->\n            <md-list-item class=\"md-2-line\" ng-repeat=\"event in listEvents | orderBy:'time':true\">\n                <md-icon>toggle_{{event.state | lowercase }}</md-icon>\n                <div class=\"md-list-item-text\">\n                    <h4> {{ event.tag1 }} <span ng-if=\"event.ruleName\"> - {{ event.ruleName }}</span></h4>\n                    <p> {{event.time | date:'HH:mm:ss'}}</p>\n                </div>\n                <div class=\"md-secondary\" >\n                    <p>{{event.type}}</p>\n                </div>\n                \n                <md-divider md-inset></md-divider>\n                \n            </md-list-item> \n        </div>\n\n    </md-list>\n    \n</div>\n<script>\n    \n(function(scope) {\n    \n    // $watch fires each time the node is triggered in the flow\n    scope.$watch('msg', function(msg) {\n        if (msg) {\n            scope.events = msg.payload;\n        }\n    });\n\n})(scope);\n\n</script>",
         "storeOutMessages": true,
         "fwdInMessages": true,
@@ -11147,6 +11160,84 @@
         "statusType": "auto",
         "x": 910,
         "y": 3200,
+        "wires": []
+    },
+    {
+        "id": "55080322.af690c",
+        "type": "debug",
+        "z": "87cb301d.9893c",
+        "g": "79fac8a4.114828",
+        "name": "debug water pump delay",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1350,
+        "y": 680,
+        "wires": []
+    },
+    {
+        "id": "cec4a8ff.e11a58",
+        "type": "switch",
+        "z": "87cb301d.9893c",
+        "g": "3c3e3fd3.73556",
+        "name": "When nutrients pump is on",
+        "property": "settings.nutriments.solutionA.pump.activated",
+        "propertyType": "global",
+        "rules": [
+            {
+                "t": "true"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 1180,
+        "y": 1040,
+        "wires": [
+            [
+                "a7364d44.56698"
+            ]
+        ]
+    },
+    {
+        "id": "c9b2ebe6.0e2378",
+        "type": "function",
+        "z": "87cb301d.9893c",
+        "g": "3c3e3fd3.73556",
+        "name": "Save state",
+        "func": "global.set(\"settings.nutriments.solutionA.pump.activated\", msg.payload);\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 810,
+        "y": 960,
+        "wires": [
+            [
+                "5be7de2e.ba1d2"
+            ]
+        ]
+    },
+    {
+        "id": "4c74a211.888a5c",
+        "type": "debug",
+        "z": "5127740.f28848c",
+        "g": "8e57852f.2718a8",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1100,
+        "y": 680,
         "wires": []
     }
 ]
