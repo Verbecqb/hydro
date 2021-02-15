@@ -165,9 +165,7 @@
             "4c74a211.888a5c"
         ],
         "x": 94,
-        "y": 599,
-        "w": 1122,
-        "h": 122
+        "y": 599
     },
     {
         "id": "3cd27958.a703b6",
@@ -192,9 +190,7 @@
             "4a15ab80.153564"
         ],
         "x": 76,
-        "y": 365,
-        "w": 1130,
-        "h": 196
+        "y": 365
     },
     {
         "id": "9735f20b.9f01e",
@@ -216,9 +212,7 @@
             "f76a168.49897e8"
         ],
         "x": 74,
-        "y": 59,
-        "w": 1072,
-        "h": 222
+        "y": 59
     },
     {
         "id": "9c4443bb.0420a",
@@ -445,9 +439,7 @@
             "55080322.af690c"
         ],
         "x": 534,
-        "y": 499,
-        "w": 1412,
-        "h": 222
+        "y": 499
     },
     {
         "id": "59d1252d.d18c0c",
@@ -468,9 +460,7 @@
             "77dd4f6a.f114"
         ],
         "x": 514,
-        "y": 339,
-        "w": 932,
-        "h": 142
+        "y": 339
     },
     {
         "id": "2bce1a3f.f178b6",
@@ -493,9 +483,7 @@
             "24b212d7.88a59e"
         ],
         "x": 514,
-        "y": 139,
-        "w": 872,
-        "h": 181
+        "y": 139
     },
     {
         "id": "588e44f4.702ffc",
@@ -562,9 +550,7 @@
             "34e374d0.ba20bc"
         ],
         "x": 154,
-        "y": 1279,
-        "w": 952,
-        "h": 142
+        "y": 1279
     },
     {
         "id": "a50a7433.2949c8",
@@ -588,9 +574,7 @@
             "81ceab05.217668"
         ],
         "x": 139,
-        "y": 549,
-        "w": 787,
-        "h": 202
+        "y": 549
     },
     {
         "id": "19b320a7.bcd92f",
@@ -614,9 +598,7 @@
             "d66c2005.a8f2c"
         ],
         "x": 134,
-        "y": 299,
-        "w": 912,
-        "h": 222
+        "y": 299
     },
     {
         "id": "cecbec23.c2747",
@@ -641,9 +623,7 @@
             "33388462.7c7d9c"
         ],
         "x": 154,
-        "y": 1459,
-        "w": 1032,
-        "h": 322
+        "y": 1459
     },
     {
         "id": "97aeb63b.daf5d8",
@@ -672,9 +652,7 @@
             "a07f6068.ab874"
         ],
         "x": 174,
-        "y": 1839,
-        "w": 912,
-        "h": 362
+        "y": 1839
     },
     {
         "id": "5e5abe32.7ff6b",
@@ -703,9 +681,7 @@
             "ff5be0d6.9ab8"
         ],
         "x": 174,
-        "y": 2239,
-        "w": 912,
-        "h": 362
+        "y": 2239
     },
     {
         "id": "3c3e3fd3.73556",
@@ -742,9 +718,7 @@
             "c9b2ebe6.0e2378"
         ],
         "x": 254,
-        "y": 779,
-        "w": 1232,
-        "h": 562
+        "y": 779
     },
     {
         "id": "1823ddea.025cf2",
@@ -778,6 +752,85 @@
         "y": 1953,
         "w": 1122,
         "h": 268
+    },
+    {
+        "id": "c6d7924.b23cd7",
+        "type": "group",
+        "z": "1d22c714.e50369",
+        "name": "",
+        "style": {
+            "stroke": "#000000",
+            "fill": "#ffffff",
+            "label": true
+        },
+        "nodes": [
+            "c58b8e27.e3168",
+            "a5678c1e.4ea5e",
+            "96d2ce1.f01333",
+            "7be2e091.e5b72",
+            "3bf983b1.c4927c"
+        ],
+        "x": 134,
+        "y": 3159,
+        "w": 912,
+        "h": 122
+    },
+    {
+        "id": "86d8e6de.d5d7a8",
+        "type": "group",
+        "z": "9441712c.a6198",
+        "name": "",
+        "style": {
+            "stroke": "#a4a4a4",
+            "fill": "#ffffff",
+            "label": true
+        },
+        "nodes": [
+            "fd56b7bd.4166d8",
+            "16d52aef.57d3a5",
+            "88e72de5.1224f",
+            "d2b87228.9de9d",
+            "f5445ebb.a9185",
+            "ddc5d505.d8b538",
+            "675a9be5.c6efb4",
+            "b7cd4564.bbd6d8",
+            "756b1067.cc8da",
+            "2bb031ca.a650ee",
+            "52f9e05f.a807a"
+        ],
+        "x": 134,
+        "y": 919
+    },
+    {
+        "id": "c5118a4e.8d5978",
+        "type": "group",
+        "z": "1d22c714.e50369",
+        "name": "Nutrients management",
+        "style": {
+            "fill": "#ffffff",
+            "label": true
+        },
+        "nodes": [
+            "9cd0faa8.7a4eb8",
+            "aadaca25.5f3598",
+            "222cf8a.db51b08",
+            "7ce85211.37278c",
+            "94ff4603.6d4ad8",
+            "41226553.28e86c",
+            "610e2b65.b070d4",
+            "5e5c80d7.c23cb",
+            "ae81222a.8201",
+            "de2dff01.cd507",
+            "4d67ced7.a6caa",
+            "8944b818.cab738",
+            "d8de2deb.a328c",
+            "a56914d1.b859b8",
+            "80ecf0e1.ea61b"
+        ],
+        "x": 134,
+        "y": 2699,
+        "w": 672,
+        "h": 436
     },
     {
         "id": "3134c2cf.78461e",
@@ -828,28 +881,6 @@
         ],
         "x": 314,
         "y": 464
-    },
-    {
-        "id": "c6d7924.b23cd7",
-        "type": "group",
-        "z": "1d22c714.e50369",
-        "name": "",
-        "style": {
-            "stroke": "#000000",
-            "fill": "#ffffff",
-            "label": true
-        },
-        "nodes": [
-            "c58b8e27.e3168",
-            "a5678c1e.4ea5e",
-            "96d2ce1.f01333",
-            "7be2e091.e5b72",
-            "3bf983b1.c4927c"
-        ],
-        "x": 154,
-        "y": 3159,
-        "w": 912,
-        "h": 122
     },
     {
         "id": "a0e631b8.d383b",
@@ -1273,8 +1304,7 @@
                 "primary": "indigo",
                 "accents": "blue",
                 "warn": "red",
-                "background": "grey",
-                "palette": "dark"
+                "background": "grey"
             }
         },
         "site": {
@@ -1466,7 +1496,7 @@
         "type": "ui_group",
         "name": "Nutrient Film Technique (NFT) ",
         "tab": "ad78e894.23e758",
-        "order": 2,
+        "order": 3,
         "disp": true,
         "width": "10",
         "collapse": false
@@ -1488,7 +1518,7 @@
         "tab": "ad78e894.23e758",
         "order": 1,
         "disp": true,
-        "width": "8",
+        "width": 10,
         "collapse": false
     },
     {
@@ -1496,9 +1526,9 @@
         "type": "ui_group",
         "name": "Seed Tray - List seedlings",
         "tab": "ad78e894.23e758",
-        "order": 3,
+        "order": 2,
         "disp": true,
-        "width": 10,
+        "width": 15,
         "collapse": false
     },
     {
@@ -4367,6 +4397,7 @@
         "id": "9cd0faa8.7a4eb8",
         "type": "mqtt in",
         "z": "1d22c714.e50369",
+        "g": "c5118a4e.8d5978",
         "name": "",
         "topic": "hydro/nutriments/s",
         "qos": "0",
@@ -5329,6 +5360,7 @@
         "id": "aadaca25.5f3598",
         "type": "ui_text",
         "z": "1d22c714.e50369",
+        "g": "c5118a4e.8d5978",
         "group": "8d4aab9b.4d6328",
         "order": 13,
         "width": 1,
@@ -5345,6 +5377,7 @@
         "id": "222cf8a.db51b08",
         "type": "function",
         "z": "1d22c714.e50369",
+        "g": "c5118a4e.8d5978",
         "name": "Set color",
         "func": "msg.color = (msg.payload == \"true\") ? global.get('color.widget.nutrients') : \"grey\";\nreturn msg;",
         "outputs": 1,
@@ -5506,6 +5539,7 @@
         "id": "7ce85211.37278c",
         "type": "mqtt in",
         "z": "1d22c714.e50369",
+        "g": "c5118a4e.8d5978",
         "name": "",
         "topic": "hydro/nutrimentsB/s",
         "qos": "0",
@@ -5523,6 +5557,7 @@
         "id": "94ff4603.6d4ad8",
         "type": "ui_text",
         "z": "1d22c714.e50369",
+        "g": "c5118a4e.8d5978",
         "group": "8d4aab9b.4d6328",
         "order": 18,
         "width": 1,
@@ -5539,6 +5574,7 @@
         "id": "41226553.28e86c",
         "type": "function",
         "z": "1d22c714.e50369",
+        "g": "c5118a4e.8d5978",
         "name": "Set color",
         "func": "msg.color = (msg.payload == \"true\") ? global.get(\"color.widget.nutrients\") : \"grey\";\nreturn msg;",
         "outputs": 1,
@@ -5557,6 +5593,7 @@
         "id": "610e2b65.b070d4",
         "type": "ui_template",
         "z": "1d22c714.e50369",
+        "g": "c5118a4e.8d5978",
         "group": "8d4aab9b.4d6328",
         "name": "",
         "order": 1,
@@ -5577,6 +5614,7 @@
         "id": "5e5c80d7.c23cb",
         "type": "template",
         "z": "1d22c714.e50369",
+        "g": "c5118a4e.8d5978",
         "name": "Nutrients widget - status",
         "field": "payload",
         "fieldType": "msg",
@@ -5596,6 +5634,7 @@
         "id": "ae81222a.8201",
         "type": "inject",
         "z": "1d22c714.e50369",
+        "g": "c5118a4e.8d5978",
         "name": "",
         "props": [
             {
@@ -5625,6 +5664,7 @@
         "id": "de2dff01.cd507",
         "type": "inject",
         "z": "1d22c714.e50369",
+        "g": "c5118a4e.8d5978",
         "name": "",
         "props": [
             {
@@ -5652,6 +5692,7 @@
         "id": "4d67ced7.a6caa",
         "type": "ui_artlessgauge",
         "z": "1d22c714.e50369",
+        "g": "c5118a4e.8d5978",
         "group": "8d4aab9b.4d6328",
         "order": 14,
         "width": 2,
@@ -5707,6 +5748,7 @@
         "id": "8944b818.cab738",
         "type": "comment",
         "z": "1d22c714.e50369",
+        "g": "c5118a4e.8d5978",
         "name": "##TODO compute remaining days",
         "info": "",
         "x": 300,
@@ -5717,6 +5759,7 @@
         "id": "d8de2deb.a328c",
         "type": "inject",
         "z": "1d22c714.e50369",
+        "g": "c5118a4e.8d5978",
         "name": "",
         "props": [
             {
@@ -5746,6 +5789,7 @@
         "id": "a56914d1.b859b8",
         "type": "ui_artlessgauge",
         "z": "1d22c714.e50369",
+        "g": "c5118a4e.8d5978",
         "group": "8d4aab9b.4d6328",
         "order": 19,
         "width": 2,
@@ -5801,6 +5845,7 @@
         "id": "80ecf0e1.ea61b",
         "type": "link in",
         "z": "1d22c714.e50369",
+        "g": "c5118a4e.8d5978",
         "name": "",
         "links": [
             "45c5f9a0.355c58",
@@ -7027,8 +7072,8 @@
         "group": "2a85ce84.fe1902",
         "name": "Seed details table",
         "order": 1,
-        "width": 10,
-        "height": 6,
+        "width": 15,
+        "height": 7,
         "columns": [
             {
                 "field": "column",
@@ -7323,7 +7368,7 @@
         "z": "1d22c714.e50369",
         "g": "c2cc2f7f.c6192",
         "name": "Convert Voltage to ppm",
-        "func": "var isWaterPumpActivated = global.get(\"settings.water_pump.activated\");\n\nvar waterTemperature = global.get(\"seedTray.water.temperature\") || 20;\n\nvar voltage = msg.payload[\"ADS1115 • I2C_ADDRESS_0x48 • Channel A0-GND • Voltage\"];\nvar compensationCoefficient = 1.0+0.02*(waterTemperature-25.0);    //temperature compensation formula: fFinalResult(25^C) = fFinalResult(current)/(1.0+0.02*(fTP-25.0));\n//var compensationVoltage=voltage/compensationCoefficient;  //temperature compensation\\\nvar compensationVoltage = voltage;\nmsg.tdsValue=(133.42*compensationVoltage*compensationVoltage*compensationVoltage - 255.86*compensationVoltage*compensationVoltage + 857.39*compensationVoltage)/2; //convert voltage value to tds value\n\nif (isWaterPumpActivated != 1) {\n    \n    var waterQualityMsg = { \n        payload: msg.tdsValue,\n        waterTemp: waterTemperature,\n        voltage: voltage\n    };\n    \n    \n    return  waterQualityMsg;\n}\n",
+        "func": "var isWaterPumpActivated = global.get(\"settings.water_pump.activated\");\n\nvar waterTemperature = global.get(\"seedTray.water.temperature\") || 20;\n\nvar voltage = msg.payload.voltage;\nvar compensationCoefficient = 1.0+0.02*(waterTemperature-25.0);    //temperature compensation formula: fFinalResult(25^C) = fFinalResult(current)/(1.0+0.02*(fTP-25.0));\n//var compensationVoltage=voltage/compensationCoefficient;  //temperature compensation\\\nvar compensationVoltage = voltage;\nmsg.tdsValue=(133.42*compensationVoltage*compensationVoltage*compensationVoltage - 255.86*compensationVoltage*compensationVoltage + 857.39*compensationVoltage)/2; //convert voltage value to tds value\n\nif (isWaterPumpActivated != 1) {\n    \n    var waterQualityMsg = { \n        payload: msg.tdsValue,\n        waterTemp: waterTemperature,\n        voltage: voltage\n    };\n    \n    \n    return  waterQualityMsg;\n}\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -7743,6 +7788,7 @@
         "id": "fd56b7bd.4166d8",
         "type": "ui_slider",
         "z": "9441712c.a6198",
+        "g": "86d8e6de.d5d7a8",
         "name": "Water pump duration",
         "label": "<i class=\"fa fa-clock-o\"></i>",
         "tooltip": "Water pump duration",
@@ -7753,10 +7799,11 @@
         "passthru": true,
         "outs": "all",
         "topic": "",
+        "topicType": "str",
         "min": "0",
         "max": "180",
-        "step": "30",
-        "x": 540,
+        "step": "10",
+        "x": 580,
         "y": 1020,
         "wires": [
             [
@@ -7770,6 +7817,7 @@
         "id": "16d52aef.57d3a5",
         "type": "ui_text",
         "z": "9441712c.a6198",
+        "g": "86d8e6de.d5d7a8",
         "group": "1c4b8cb2.e1e2e3",
         "order": 27,
         "width": 2,
@@ -7778,7 +7826,7 @@
         "label": "",
         "format": "{{msg.payload}} sec.",
         "layout": "row-center",
-        "x": 780,
+        "x": 820,
         "y": 1001,
         "wires": []
     },
@@ -7786,11 +7834,12 @@
         "id": "88e72de5.1224f",
         "type": "link out",
         "z": "9441712c.a6198",
+        "g": "86d8e6de.d5d7a8",
         "name": "Water pump duration update",
         "links": [
             "e24187b.d250c78"
         ],
-        "x": 695,
+        "x": 735,
         "y": 960,
         "wires": []
     },
@@ -7798,6 +7847,7 @@
         "id": "d2b87228.9de9d",
         "type": "ui_text",
         "z": "9441712c.a6198",
+        "g": "86d8e6de.d5d7a8",
         "group": "1c4b8cb2.e1e2e3",
         "order": 24,
         "width": 0,
@@ -8663,7 +8713,7 @@
         "syntax": "mustache",
         "template": " <md-card>\n    <md-card-content>\n          <p style=\"padding-left:12px;!important \">\n           Water pump runs for <font color=\"{{global.color.widget.water}}\"> {{global.settings.water_pump.duration}} seconds.</font> \n          , or stops when seed tray is filled at <font color=\"{{global.color.widget.water}}\"> {{global.seedTray.water.level.threshold.high}}%.</font> \n         </p>\n    </md-card-content>\n</md-card>",
         "output": "str",
-        "x": 480,
+        "x": 440,
         "y": 2500,
         "wires": [
             [
@@ -8685,7 +8735,7 @@
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
-        "x": 700,
+        "x": 660,
         "y": 2500,
         "wires": [
             []
@@ -8712,7 +8762,7 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 250,
+        "x": 210,
         "y": 2500,
         "wires": [
             [
@@ -9687,6 +9737,7 @@
         "id": "f5445ebb.a9185",
         "type": "ui_slider",
         "z": "9441712c.a6198",
+        "g": "86d8e6de.d5d7a8",
         "name": "Seed tray filled - max",
         "label": "<i class=\"fa fa-level-down\"></i>",
         "tooltip": "Max threshold when seed tray is filled",
@@ -9715,6 +9766,7 @@
         "id": "ddc5d505.d8b538",
         "type": "ui_text",
         "z": "9441712c.a6198",
+        "g": "86d8e6de.d5d7a8",
         "group": "1c4b8cb2.e1e2e3",
         "order": 31,
         "width": 2,
@@ -9731,6 +9783,7 @@
         "id": "675a9be5.c6efb4",
         "type": "link out",
         "z": "9441712c.a6198",
+        "g": "86d8e6de.d5d7a8",
         "name": "Seed tray - max water level threshold",
         "links": [],
         "x": 815,
@@ -9745,7 +9798,7 @@
         "links": [
             "88e72de5.1224f"
         ],
-        "x": 335,
+        "x": 295,
         "y": 2540,
         "wires": [
             [
@@ -10150,6 +10203,7 @@
         "id": "b7cd4564.bbd6d8",
         "type": "change",
         "z": "9441712c.a6198",
+        "g": "86d8e6de.d5d7a8",
         "name": "Save global.settings.water_pump.duration",
         "rules": [
             {
@@ -10165,7 +10219,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 850,
+        "x": 890,
         "y": 1040,
         "wires": [
             []
@@ -10175,6 +10229,7 @@
         "id": "756b1067.cc8da",
         "type": "inject",
         "z": "9441712c.a6198",
+        "g": "86d8e6de.d5d7a8",
         "name": "Inject water pump timer at boot",
         "props": [
             {
@@ -10188,7 +10243,7 @@
         "topic": "",
         "payload": "settings.water_pump.duration",
         "payloadType": "global",
-        "x": 290,
+        "x": 330,
         "y": 1020,
         "wires": [
             [
@@ -10200,6 +10255,7 @@
         "id": "2bb031ca.a650ee",
         "type": "change",
         "z": "9441712c.a6198",
+        "g": "86d8e6de.d5d7a8",
         "name": "Save seedTray.water.level.threshold.high",
         "rules": [
             {
@@ -10225,6 +10281,7 @@
         "id": "52f9e05f.a807a",
         "type": "inject",
         "z": "9441712c.a6198",
+        "g": "86d8e6de.d5d7a8",
         "name": "Inject water level threshold high at boot",
         "props": [
             {
@@ -10935,7 +10992,7 @@
         "precision": "",
         "retentionPolicy": "",
         "org": "organisation",
-        "x": 480,
+        "x": 460,
         "y": 3240,
         "wires": [
             [
@@ -10965,7 +11022,7 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 270,
+        "x": 250,
         "y": 3240,
         "wires": [
             [
@@ -11110,12 +11167,12 @@
         "z": "1d22c714.e50369",
         "g": "c6d7924.b23cd7",
         "name": "Parse and format data",
-        "func": "var array = msg.payload;\nvar orderArray = {};\n\nfor (var x = 0 ; x < array.length ; x++) {\n\n    let date = new Date(array[x].time);\n    let day = \n        date.getFullYear() \n        + \"-\" + (\"0\" + (date.getMonth() + 1)).slice(-2) \n        + \"-\" + (\"0\" + date.getDate()).slice(-2);\n    \n    if (!(day in orderArray)) {\n        orderArray[day] = [];\n    }\n    \n    if (array[x].type && array[x].type !== undefined &&\n        array[x].type.includes(\"Automatic\")) {\n            \n        array[x].ruleName = array[x].type.slice(12);\n        array[x].type = \"Automatic\";\n        \n    }\n    \n    orderArray[day].push(array[x]);\n}\nmsg.payload = orderArray;\nreturn msg;",
+        "func": "var array = msg.payload;\nvar orderArray = {};\n\nfor (var x = 0 ; x < array.length ; x++) {\n\n    let date = new Date(array[x].time);\n    let day = \n        date.getFullYear() \n        + \"-\" + (\"0\" + (date.getMonth() + 1)).slice(-2) \n        + \"-\" + (\"0\" + date.getDate()).slice(-2);\n    \n\n    if (!(day in orderArray)) {\n        orderArray[day] = [];\n    }\n        \n    \n    if (array[x].type && array[x].type !== undefined &&\n            array[x].type.includes(\"Automatic\")) {\n                \n            array[x].ruleName = array[x].type.slice(12);\n            array[x].type = \"Automatic\";\n            \n    }\n        \n    orderArray[day].push(array[x]);\n    \n}\nmsg.payload = orderArray;\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 700,
+        "x": 680,
         "y": 3240,
         "wires": [
             [
@@ -11134,12 +11191,12 @@
         "order": 1,
         "width": 8,
         "height": 8,
-        "format": "<div layout=\"column\" ng-cloak>\n    \n        <md-list flex>\n            \n    \n            <div ng-repeat=\"(date,listEvents) in events\">\n            <md-subheader class=\"md-no-sticky\">{{date| date:'EEEE, MMMM d, yy'}}</md-subheader>\n            <!-- Harvest actions -->\n            <md-list-item class=\"md-2-line\" ng-repeat=\"event in listEvents | orderBy:'time':true\">\n                <md-icon>toggle_{{event.state | lowercase }}</md-icon>\n                <div class=\"md-list-item-text\">\n                    <h4> {{ event.tag1 }} <span ng-if=\"event.ruleName\"> - {{ event.ruleName }}</span></h4>\n                    <p> {{event.time | date:'HH:mm:ss'}}</p>\n                </div>\n                <div class=\"md-secondary\" >\n                    <p>{{event.type}}</p>\n                </div>\n                \n                <md-divider md-inset></md-divider>\n                \n            </md-list-item> \n        </div>\n\n    </md-list>\n    \n</div>\n<script>\n    \n(function(scope) {\n    \n    // $watch fires each time the node is triggered in the flow\n    scope.$watch('msg', function(msg) {\n        if (msg) {\n            scope.events = msg.payload;\n        }\n    });\n\n})(scope);\n\n</script>",
+        "format": "<div layout=\"column\" ng-cloak>\n    \n        <md-list flex>\n            \n    \n            <div ng-repeat=\"(date,listEvents) in events\" ng-if=\"$index < 3\">\n            <md-subheader class=\"md-no-sticky\">{{date| date:'EEEE, MMMM d, yy'}}</md-subheader>\n            <!-- Harvest actions -->\n            <md-list-item class=\"md-2-line\" ng-repeat=\"event in listEvents | orderBy:'time':true\">\n                <md-icon>toggle_{{event.state | lowercase }}</md-icon>\n                <div class=\"md-list-item-text\">\n                    <h4> {{ event.tag1 }} <span ng-if=\"event.ruleName\"> - {{ event.ruleName }}</span></h4>\n                    <p> {{event.time | date:'HH:mm:ss'}}</p>\n                </div>\n                <div class=\"md-secondary\" >\n                    <p>{{event.type}}</p>\n                </div>\n                \n                <md-divider md-inset></md-divider>\n                \n            </md-list-item> \n        </div>\n\n    </md-list>\n    \n</div>\n<script>\n    \n(function(scope) {\n    \n    // $watch fires each time the node is triggered in the flow\n    scope.$watch('msg', function(msg) {\n        if (msg) {\n            scope.events = msg.payload;\n        }\n    });\n\n})(scope);\n\n</script>",
         "storeOutMessages": true,
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
-        "x": 940,
+        "x": 920,
         "y": 3240,
         "wires": [
             []
@@ -11158,7 +11215,7 @@
         "complete": "false",
         "statusVal": "",
         "statusType": "auto",
-        "x": 910,
+        "x": 890,
         "y": 3200,
         "wires": []
     },
