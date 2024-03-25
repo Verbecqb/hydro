@@ -8,8 +8,8 @@
 #include <OneWire.h>
 #include <DallasTemperature.h>
 
-const char* ssid = "NETGEAR84";
-const char* password = "crispybox802";
+const char* ssid = "xxxx";
+const char* password = "xxxxx";
 
 const char* mqtt_server = "10.0.0.10";
 int mqtt_server_port = 1883;
